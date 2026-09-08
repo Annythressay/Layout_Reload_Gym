@@ -1,0 +1,230 @@
+<section class="hero" id="home">
+  <img class="hero-photo" src="assets/images/hero/reload-hero-generated.png" alt="Athlete training in a modern gym" fetchpriority="high">
+  <div class="container hero-inner">
+    <div class="hero-copy">
+      <p class="eyebrow">More than a gym</p>
+      <h1>TRAIN<br>RECOVER<br><span>RELOAD</span></h1>
+      <p class="hero-tagline">A STRONGER YOU<br>A BRIGHTER TOMORROW</p>
+      <div class="button-row">
+        <a class="button button-red" href="membership.html">Start your journey <span aria-hidden="true">→</span></a>
+        <a class="button" href="membership.html">View membership <span aria-hidden="true">→</span></a>
+      </div>
+    </div>
+    <div class="hero-brand" aria-hidden="true">RELOAD<strong>STRONGER PEOPLE.<br>A HEALTHIER TOMORROW.</strong></div>
+    <div class="hero-index" aria-hidden="true"><b>01</b><span>02</span><span>03</span></div>
+    <button class="video-preview" data-video="Welcome to RELOAD"><img src="assets/images/facilities/strength-zone.jpg" alt="A look inside the gym" loading="lazy"><span><i class="play">▶</i> Play video</span></button>
+  </div>
+</section>
+
+<section class="branches" id="branches">
+  <div class="container">
+    <div class="center-heading">
+      <h2>CHOOSE YOUR <em>RELOAD</em></h2>
+      <p>Same passion. Different spaces. A stronger you.</p>
+    </div>
+    <div class="branch-grid">
+      <article class="branch-card">
+        <img src="assets/images/branches/reload-women.jpg" alt="Woman working out in the gym" loading="lazy">
+        <div class="branch-copy">
+          <h3>RELOAD<br><em>WOMEN</em></h3>
+          <small>A space for her</small>
+          <p>Gym <b>|</b> Group Class <b>|</b> PT <b>|</b> Wellness</p>
+          <a class="button" href="locations.html#reload-women">Explore women <span aria-hidden="true">→</span></a>
+        </div>
+      </article>
+      <article class="branch-card">
+        <img src="assets/images/branches/reload-main.jpg" alt="Strength training at the main club" loading="lazy">
+        <div class="branch-copy">
+          <h3>RELOAD<br>GYM &amp; WELLNESS</h3>
+          <small>For everyone</small>
+          <p>Gym <b>|</b> PT <b>|</b> Group Class <b>|</b> Boxing <b>|</b> Wellness</p>
+          <a class="button" href="locations.html#reload-main">Explore main club <span aria-hidden="true">→</span></a>
+        </div>
+      </article>
+    </div>
+  </div>
+</section>
+
+<section class="bmi-section" id="bmi-calculator">
+  <div class="container">
+    <div class="bmi-section__grid">
+      <div class="bmi-section__visual">
+        <img src="assets/images/wellness/bmi-calculator.png" alt="Người tập RELOAD cầm tạ đơn" loading="lazy">
+      </div>
+
+      <div class="bmi-section__content">
+        <p class="bmi-section__eyebrow">RELOAD WELLNESS TOOL</p>
+        <h2 class="bmi-section__title">TÍNH CHỈ SỐ <em>BMI</em></h2>
+        <div class="bmi-section__description">
+          <p>Chỉ số BMI (Body Mass Index) là một chỉ số tham khảo giúp đánh giá mối tương quan giữa cân nặng và chiều cao của bạn.</p>
+          <p>Nhập thông tin bên dưới để ước tính chỉ số BMI và tham khảo nhóm thể trạng hiện tại.</p>
+          <small>Kết quả chỉ mang tính tham khảo và không thay thế tư vấn y tế hoặc đánh giá chuyên môn.</small>
+        </div>
+
+        <form class="bmi-form" data-bmi-form novalidate>
+          <div class="bmi-form__grid">
+            <div class="bmi-form__field">
+              <label for="bmi-height">CHIỀU CAO</label>
+              <div class="bmi-form__control">
+                <input id="bmi-height" name="height" type="number" min="100" max="250" step="0.1" inputmode="decimal" placeholder="Chiều cao" aria-describedby="bmi-height-error" required>
+                <span class="bmi-form__unit">cm</span>
+              </div>
+              <small class="bmi-form__error" id="bmi-height-error" role="alert" hidden></small>
+            </div>
+
+            <div class="bmi-form__field">
+              <label for="bmi-weight">CÂN NẶNG</label>
+              <div class="bmi-form__control">
+                <input id="bmi-weight" name="weight" type="number" min="25" max="300" step="0.1" inputmode="decimal" placeholder="Cân nặng" aria-describedby="bmi-weight-error" required>
+                <span class="bmi-form__unit">kg</span>
+              </div>
+              <small class="bmi-form__error" id="bmi-weight-error" role="alert" hidden></small>
+            </div>
+
+            <div class="bmi-form__field">
+              <label for="bmi-age">TUỔI</label>
+              <div class="bmi-form__control">
+                <input id="bmi-age" name="bmiAge" type="number" min="13" max="120" step="1" inputmode="numeric" placeholder="Tuổi">
+              </div>
+            </div>
+
+            <div class="bmi-form__field">
+              <label for="bmi-gender">GIỚI TÍNH</label>
+              <div class="bmi-form__control">
+                <select id="bmi-gender" name="bmiGender">
+                  <option value="" selected>Chọn giới tính</option>
+                  <option value="male">Nam</option>
+                  <option value="female">Nữ</option>
+                  <option value="other">Khác / Không muốn trả lời</option>
+                </select>
+              </div>
+            </div>
+
+            <div class="bmi-form__field">
+              <label for="bmi-name">HỌ VÀ TÊN</label>
+              <div class="bmi-form__control">
+                <input id="bmi-name" name="bmiFullName" type="text" autocomplete="name" placeholder="Họ và tên">
+              </div>
+            </div>
+
+            <div class="bmi-form__field">
+              <label for="bmi-phone">SỐ ĐIỆN THOẠI</label>
+              <div class="bmi-form__control">
+                <input id="bmi-phone" name="bmiPhone" type="tel" autocomplete="tel" inputmode="tel" placeholder="Số điện thoại">
+              </div>
+            </div>
+          </div>
+
+          <label class="bmi-form__consent">
+            <input name="bmiConsent" type="checkbox">
+            <span>Tôi đồng ý cung cấp thông tin để RELOAD liên hệ và hỗ trợ tư vấn.</span>
+          </label>
+
+          <button class="button button-red bmi-form__submit" type="submit">TÍNH BMI <span aria-hidden="true">→</span></button>
+        </form>
+
+        <div class="bmi-result" data-bmi-result aria-live="polite" hidden>
+          <p class="bmi-result__label">YOUR BMI</p>
+          <output class="bmi-result__value" data-bmi-value for="bmi-height bmi-weight">--</output>
+          <h3 class="bmi-result__status" data-bmi-status></h3>
+          <p class="bmi-result__range" data-bmi-range></p>
+          <p class="bmi-result__disclaimer">Kết quả BMI chỉ mang tính tham khảo. Các yếu tố như khối lượng cơ, tuổi, giới tính và tình trạng sức khỏe có thể ảnh hưởng đến việc đánh giá thể trạng.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="news-section" id="news" aria-labelledby="news-section-title" data-news-carousel>
+  <div class="container">
+    <div class="news-section__header">
+      <div class="news-section__heading">
+        <p class="news-section__eyebrow">RELOAD NEWS</p>
+        <h2 class="news-section__title" id="news-section-title">TIN <em>TỨC</em></h2>
+        <p class="news-section__description">Cập nhật những thông tin mới nhất về tập luyện, sức khỏe, dinh dưỡng và các hoạt động nổi bật tại RELOAD.</p>
+      </div>
+      <a class="news-section__view-all" href="blog.html">XEM TẤT CẢ BÀI VIẾT <span aria-hidden="true">→</span></a>
+    </div>
+
+    <div class="news-section__viewport" data-news-viewport tabindex="0" aria-label="Danh sách bài viết RELOAD">
+      <div class="news-section__track" data-news-track>
+        <article class="news-card">
+          <img class="news-card__image" src="assets/images/services/personal-training.jpg" alt="Người tập luyện thể lực trên thảm tại RELOAD" loading="lazy">
+          <div class="news-card__body">
+            <div class="news-card__meta">
+              <span class="news-card__category">TẬP LUYỆN</span>
+              <time class="news-card__date" datetime="2026-09-12">12.09.2026</time>
+            </div>
+            <h3 class="news-card__title">HIIT là gì? Lợi ích và 5 bài tập HIIT dễ áp dụng tại gym</h3>
+            <p class="news-card__excerpt">HIIT giúp tăng cường thể lực, cải thiện tim mạch và tối ưu thời gian tập luyện.</p>
+            <a class="news-card__link" href="blog.html">ĐỌC THÊM <span aria-hidden="true">→</span></a>
+          </div>
+        </article>
+
+        <article class="news-card">
+          <img class="news-card__image" src="assets/images/wellness/recovery.jpg" alt="Liệu trình phục hồi và chăm sóc sức khỏe tại RELOAD" loading="lazy">
+          <div class="news-card__body">
+            <div class="news-card__meta">
+              <span class="news-card__category">DINH DƯỠNG</span>
+              <time class="news-card__date" datetime="2026-09-10">10.09.2026</time>
+            </div>
+            <h3 class="news-card__title">Top 7 thực phẩm hỗ trợ tăng cơ hiệu quả và lành mạnh</h3>
+            <p class="news-card__excerpt">Khám phá những nguồn dinh dưỡng phù hợp giúp hỗ trợ phục hồi và phát triển cơ bắp.</p>
+            <a class="news-card__link" href="blog.html">ĐỌC THÊM <span aria-hidden="true">→</span></a>
+          </div>
+        </article>
+
+        <article class="news-card">
+          <img class="news-card__image" src="assets/images/facilities/strength-zone.jpg" alt="Khu vực tập sức mạnh với thiết bị hiện đại tại RELOAD" loading="lazy">
+          <div class="news-card__body">
+            <div class="news-card__meta">
+              <span class="news-card__category">SỨC KHỎE</span>
+              <time class="news-card__date" datetime="2026-09-08">08.09.2026</time>
+            </div>
+            <h3 class="news-card__title">Tập gym bao lâu thì thấy kết quả?</h3>
+            <p class="news-card__excerpt">Hiểu rõ những yếu tố ảnh hưởng đến tiến độ tập luyện và cách xây dựng lộ trình phù hợp.</p>
+            <a class="news-card__link" href="blog.html">ĐỌC THÊM <span aria-hidden="true">→</span></a>
+          </div>
+        </article>
+
+        <article class="news-card">
+          <img class="news-card__image" src="assets/images/services/group-class.jpg" alt="Lớp tập nhóm năng động tại RELOAD" loading="lazy">
+          <div class="news-card__body">
+            <div class="news-card__meta">
+              <span class="news-card__category">SỰ KIỆN</span>
+              <time class="news-card__date" datetime="2026-09-05">05.09.2026</time>
+            </div>
+            <h3 class="news-card__title">Lịch Group Class tháng này tại RELOAD</h3>
+            <p class="news-card__excerpt">Khám phá các lớp Yoga, Zumba, Boxing, Functional Training và nhiều hoạt động khác tại RELOAD.</p>
+            <a class="news-card__link" href="blog.html">ĐỌC THÊM <span aria-hidden="true">→</span></a>
+          </div>
+        </article>
+      </div>
+    </div>
+
+    <div class="news-section__navigation" aria-label="Điều hướng bài viết">
+      <button class="news-section__arrow" type="button" data-news-prev aria-label="Bài viết trước"><span aria-hidden="true">←</span></button>
+      <div class="news-section__dots" data-news-dots></div>
+      <button class="news-section__arrow" type="button" data-news-next aria-label="Bài viết tiếp theo"><span aria-hidden="true">→</span></button>
+    </div>
+  </div>
+</section>
+
+<section class="quick-explore section" id="explore">
+  <div class="container">
+    <div class="section-heading">
+      <div><h2><svg class="icon" aria-hidden="true"><use href="#weight"></use></svg>EXPLORE <em>RELOAD</em></h2></div>
+    </div>
+    <div class="quick-grid">
+      <a class="facility-card" href="facilities.html"><img src="assets/images/facilities/strength-zone.jpg" alt="Facilities" loading="lazy"><h3>Facilities <span aria-hidden="true">→</span></h3></a>
+      <a class="facility-card" href="services.html"><img src="assets/images/services/personal-training.jpg" alt="Services" loading="lazy"><h3>Services <span aria-hidden="true">→</span></h3></a>
+      <a class="facility-card" href="membership.html"><img src="assets/images/services/gym.jpg" alt="Membership" loading="lazy"><h3>Membership <span aria-hidden="true">→</span></h3></a>
+      <a class="facility-card" href="locations.html"><img src="assets/images/locations/reload-main.jpg" alt="Locations" loading="lazy"><h3>Locations <span aria-hidden="true">→</span></h3></a>
+    </div>
+  </div>
+</section>
+
+<section class="container final-cta wide-cta">
+  <div><h2>READY TO<br>RELOAD?</h2><p>Same people. A stronger you.</p></div>
+  <div class="button-row"><a class="button button-red" href="locations.html#contact">Start free trial <span aria-hidden="true">→</span></a><a class="button" href="locations.html#contact">Contact us <span aria-hidden="true">→</span></a></div>
+</section>

@@ -1,0 +1,38 @@
+{
+  "layouts": [
+    {
+      "width": 1440,
+      "scrollWidth": 1440,
+      "height": 3178,
+      "brokenImages": [],
+      "duplicateIds": [],
+      "overflow": []
+    },
+    {
+      "width": 1024,
+      "scrollWidth": 1024,
+      "height": 3069,
+      "brokenImages": [],
+      "duplicateIds": [],
+      "overflow": []
+    },
+    {
+      "width": 768,
+      "scrollWidth": 768,
+      "height": 4475,
+      "brokenImages": [],
+      "duplicateIds": [],
+      "overflow": []
+    },
+    {
+      "width": 390,
+      "scrollWidth": 390,
+      "height": 7560,
+      "brokenImages": [],
+      "duplicateIds": [],
+      "overflow": []
+    }
+  ],
+  "errors": [],
+  "interactions": "Passed: mobile menu, navigation close, day switch, keyboard tabs, next/previous testimonials, booking dialog, Escape close, section search, newsletter preview"
+}

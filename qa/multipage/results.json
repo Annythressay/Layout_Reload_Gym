@@ -1,0 +1,504 @@
+{
+  "oldHomeHeight": 3178,
+  "newHomeHeight": 3183,
+  "homeLengthPercent": 100,
+  "layouts": [
+    {
+      "page": "index",
+      "width": 1440,
+      "scrollWidth": 1440,
+      "height": 3183,
+      "brokenImages": [],
+      "duplicateIds": [],
+      "active": [
+        "index.html"
+      ],
+      "h1": 1
+    },
+    {
+      "page": "index",
+      "width": 1200,
+      "scrollWidth": 1200,
+      "height": 3067,
+      "brokenImages": [],
+      "duplicateIds": [],
+      "active": [
+        "index.html"
+      ],
+      "h1": 1
+    },
+    {
+      "page": "index",
+      "width": 1024,
+      "scrollWidth": 1024,
+      "height": 3027,
+      "brokenImages": [],
+      "duplicateIds": [],
+      "active": [
+        "index.html"
+      ],
+      "h1": 1
+    },
+    {
+      "page": "index",
+      "width": 768,
+      "scrollWidth": 768,
+      "height": 3571,
+      "brokenImages": [],
+      "duplicateIds": [],
+      "active": [
+        "index.html"
+      ],
+      "h1": 1
+    },
+    {
+      "page": "index",
+      "width": 390,
+      "scrollWidth": 390,
+      "height": 4474,
+      "brokenImages": [],
+      "duplicateIds": [],
+      "active": [
+        "index.html"
+      ],
+      "h1": 1
+    },
+    {
+      "page": "about",
+      "width": 1440,
+      "scrollWidth": 1440,
+      "height": 1973,
+      "brokenImages": [],
+      "duplicateIds": [],
+      "active": [
+        "about.html"
+      ],
+      "h1": 1
+    },
+    {
+      "page": "about",
+      "width": 1200,
+      "scrollWidth": 1200,
+      "height": 1973,
+      "brokenImages": [],
+      "duplicateIds": [],
+      "active": [
+        "about.html"
+      ],
+      "h1": 1
+    },
+    {
+      "page": "about",
+      "width": 1024,
+      "scrollWidth": 1024,
+      "height": 1983,
+      "brokenImages": [],
+      "duplicateIds": [],
+      "active": [
+        "about.html"
+      ],
+      "h1": 1
+    },
+    {
+      "page": "about",
+      "width": 768,
+      "scrollWidth": 768,
+      "height": 2185,
+      "brokenImages": [],
+      "duplicateIds": [],
+      "active": [
+        "about.html"
+      ],
+      "h1": 1
+    },
+    {
+      "page": "about",
+      "width": 390,
+      "scrollWidth": 390,
+      "height": 3166,
+      "brokenImages": [],
+      "duplicateIds": [],
+      "active": [
+        "about.html"
+      ],
+      "h1": 1
+    },
+    {
+      "page": "facilities",
+      "width": 1440,
+      "scrollWidth": 1440,
+      "height": 3150,
+      "brokenImages": [],
+      "duplicateIds": [],
+      "active": [
+        "facilities.html"
+      ],
+      "h1": 1
+    },
+    {
+      "page": "facilities",
+      "width": 1200,
+      "scrollWidth": 1200,
+      "height": 3251,
+      "brokenImages": [],
+      "duplicateIds": [],
+      "active": [
+        "facilities.html"
+      ],
+      "h1": 1
+    },
+    {
+      "page": "facilities",
+      "width": 1024,
+      "scrollWidth": 1024,
+      "height": 3244,
+      "brokenImages": [],
+      "duplicateIds": [],
+      "active": [
+        "facilities.html"
+      ],
+      "h1": 1
+    },
+    {
+      "page": "facilities",
+      "width": 768,
+      "scrollWidth": 768,
+      "height": 3298,
+      "brokenImages": [],
+      "duplicateIds": [],
+      "active": [
+        "facilities.html"
+      ],
+      "h1": 1
+    },
+    {
+      "page": "facilities",
+      "width": 390,
+      "scrollWidth": 390,
+      "height": 5207,
+      "brokenImages": [],
+      "duplicateIds": [],
+      "active": [
+        "facilities.html"
+      ],
+      "h1": 1
+    },
+    {
+      "page": "services",
+      "width": 1440,
+      "scrollWidth": 1440,
+      "height": 2996,
+      "brokenImages": [],
+      "duplicateIds": [],
+      "active": [
+        "services.html"
+      ],
+      "h1": 1
+    },
+    {
+      "page": "services",
+      "width": 1200,
+      "scrollWidth": 1200,
+      "height": 2996,
+      "brokenImages": [],
+      "duplicateIds": [],
+      "active": [
+        "services.html"
+      ],
+      "h1": 1
+    },
+    {
+      "page": "services",
+      "width": 1024,
+      "scrollWidth": 1024,
+      "height": 2994,
+      "brokenImages": [],
+      "duplicateIds": [],
+      "active": [
+        "services.html"
+      ],
+      "h1": 1
+    },
+    {
+      "page": "services",
+      "width": 768,
+      "scrollWidth": 768,
+      "height": 3349,
+      "brokenImages": [],
+      "duplicateIds": [],
+      "active": [
+        "services.html"
+      ],
+      "h1": 1
+    },
+    {
+      "page": "services",
+      "width": 390,
+      "scrollWidth": 390,
+      "height": 4584,
+      "brokenImages": [],
+      "duplicateIds": [],
+      "active": [
+        "services.html"
+      ],
+      "h1": 1
+    },
+    {
+      "page": "class-schedule",
+      "width": 1440,
+      "scrollWidth": 1440,
+      "height": 1431,
+      "brokenImages": [],
+      "duplicateIds": [],
+      "active": [
+        "class-schedule.html"
+      ],
+      "h1": 1
+    },
+    {
+      "page": "class-schedule",
+      "width": 1200,
+      "scrollWidth": 1200,
+      "height": 1431,
+      "brokenImages": [],
+      "duplicateIds": [],
+      "active": [
+        "class-schedule.html"
+      ],
+      "h1": 1
+    },
+    {
+      "page": "class-schedule",
+      "width": 1024,
+      "scrollWidth": 1024,
+      "height": 1425,
+      "brokenImages": [],
+      "duplicateIds": [],
+      "active": [
+        "class-schedule.html"
+      ],
+      "h1": 1
+    },
+    {
+      "page": "class-schedule",
+      "width": 768,
+      "scrollWidth": 768,
+      "height": 1578,
+      "brokenImages": [],
+      "duplicateIds": [],
+      "active": [
+        "class-schedule.html"
+      ],
+      "h1": 1
+    },
+    {
+      "page": "class-schedule",
+      "width": 390,
+      "scrollWidth": 390,
+      "height": 2054,
+      "brokenImages": [],
+      "duplicateIds": [],
+      "active": [
+        "class-schedule.html"
+      ],
+      "h1": 1
+    },
+    {
+      "page": "membership",
+      "width": 1440,
+      "scrollWidth": 1440,
+      "height": 1823,
+      "brokenImages": [],
+      "duplicateIds": [],
+      "active": [
+        "membership.html"
+      ],
+      "h1": 1
+    },
+    {
+      "page": "membership",
+      "width": 1200,
+      "scrollWidth": 1200,
+      "height": 1823,
+      "brokenImages": [],
+      "duplicateIds": [],
+      "active": [
+        "membership.html"
+      ],
+      "h1": 1
+    },
+    {
+      "page": "membership",
+      "width": 1024,
+      "scrollWidth": 1024,
+      "height": 1893,
+      "brokenImages": [],
+      "duplicateIds": [],
+      "active": [
+        "membership.html"
+      ],
+      "h1": 1
+    },
+    {
+      "page": "membership",
+      "width": 768,
+      "scrollWidth": 768,
+      "height": 2072,
+      "brokenImages": [],
+      "duplicateIds": [],
+      "active": [
+        "membership.html"
+      ],
+      "h1": 1
+    },
+    {
+      "page": "membership",
+      "width": 390,
+      "scrollWidth": 390,
+      "height": 3705,
+      "brokenImages": [],
+      "duplicateIds": [],
+      "active": [
+        "membership.html"
+      ],
+      "h1": 1
+    },
+    {
+      "page": "locations",
+      "width": 1440,
+      "scrollWidth": 1440,
+      "height": 1895,
+      "brokenImages": [],
+      "duplicateIds": [],
+      "active": [
+        "locations.html"
+      ],
+      "h1": 1
+    },
+    {
+      "page": "locations",
+      "width": 1200,
+      "scrollWidth": 1200,
+      "height": 1853,
+      "brokenImages": [],
+      "duplicateIds": [],
+      "active": [
+        "locations.html"
+      ],
+      "h1": 1
+    },
+    {
+      "page": "locations",
+      "width": 1024,
+      "scrollWidth": 1024,
+      "height": 1781,
+      "brokenImages": [],
+      "duplicateIds": [],
+      "active": [
+        "locations.html"
+      ],
+      "h1": 1
+    },
+    {
+      "page": "locations",
+      "width": 768,
+      "scrollWidth": 768,
+      "height": 1994,
+      "brokenImages": [],
+      "duplicateIds": [],
+      "active": [
+        "locations.html"
+      ],
+      "h1": 1
+    },
+    {
+      "page": "locations",
+      "width": 390,
+      "scrollWidth": 390,
+      "height": 2977,
+      "brokenImages": [],
+      "duplicateIds": [],
+      "active": [
+        "locations.html"
+      ],
+      "h1": 1
+    },
+    {
+      "page": "blog",
+      "width": 1440,
+      "scrollWidth": 1440,
+      "height": 1791,
+      "brokenImages": [],
+      "duplicateIds": [],
+      "active": [
+        "blog.html"
+      ],
+      "h1": 1
+    },
+    {
+      "page": "blog",
+      "width": 1200,
+      "scrollWidth": 1200,
+      "height": 1816,
+      "brokenImages": [],
+      "duplicateIds": [],
+      "active": [
+        "blog.html"
+      ],
+      "h1": 1
+    },
+    {
+      "page": "blog",
+      "width": 1024,
+      "scrollWidth": 1024,
+      "height": 1828,
+      "brokenImages": [],
+      "duplicateIds": [],
+      "active": [
+        "blog.html"
+      ],
+      "h1": 1
+    },
+    {
+      "page": "blog",
+      "width": 768,
+      "scrollWidth": 768,
+      "height": 2035,
+      "brokenImages": [],
+      "duplicateIds": [],
+      "active": [
+        "blog.html"
+      ],
+      "h1": 1
+    },
+    {
+      "page": "blog",
+      "width": 390,
+      "scrollWidth": 390,
+      "height": 3617,
+      "brokenImages": [],
+      "duplicateIds": [],
+      "active": [
+        "blog.html"
+      ],
+      "h1": 1
+    }
+  ],
+  "errors": [],
+  "linkIssues": [],
+  "interactions": [
+    "BMI: required/range validation and 170cm/65kg = 22.5 Bình thường",
+    "promo: responsive matrix (21 viewports), no overflow and orientation change",
+    "promo: auto-open, Escape, sessionStorage, validation and success state",
+    "index: mobile menu and Escape",
+    "about: mobile menu and Escape",
+    "about: testimonial next/previous",
+    "facilities: mobile menu and Escape",
+    "services: mobile menu and Escape",
+    "class-schedule: mobile menu and Escape",
+    "schedule: seven days, keyboard wrap, booking dialog",
+    "membership: mobile menu and Escape",
+    "locations: mobile menu and Escape",
+    "blog: mobile menu and Escape"
+  ]
+}

@@ -1,0 +1,56 @@
+<div class="reload-promo" data-reload-promo hidden>
+  <div class="reload-promo__overlay" data-reload-promo-backdrop></div>
+  <section class="reload-promo__modal" role="dialog" aria-modal="true" aria-labelledby="reload-promo-title" tabindex="-1">
+    <button class="reload-promo__close" type="button" data-reload-promo-close aria-label="Close registration popup">×</button>
+
+    <div class="reload-promo__campaign">
+      <img src="assets/images/popup/reload-signature-promo.png" alt="Nhận ngay combo quà tặng trị giá 3.000.000 VND" fetchpriority="high">
+    </div>
+
+    <div class="reload-promo__content">
+      <h2 class="sr-only" id="reload-promo-title">Đăng ký nhận ưu đãi RELOAD</h2>
+      <form class="reload-promo__form" data-reload-promo-form novalidate>
+        <div class="reload-promo__field">
+          <label class="sr-only" for="reload-promo-branch">Chọn chi nhánh tập luyện</label>
+          <select id="reload-promo-branch" name="branch" required aria-describedby="reload-promo-branch-error">
+            <option value="" selected disabled>Chọn chi nhánh tập luyện</option>
+            <option value="reload-women">RELOAD WOMEN</option>
+            <option value="reload-gym-wellness">RELOAD GYM &amp; WELLNESS</option>
+          </select>
+          <small class="reload-promo__error" id="reload-promo-branch-error" role="alert" hidden></small>
+        </div>
+
+        <div class="reload-promo__field">
+          <label class="sr-only" for="reload-promo-full-name">Họ và tên</label>
+          <input id="reload-promo-full-name" name="fullName" type="text" placeholder="Điền Họ và Tên" autocomplete="name" required aria-describedby="reload-promo-full-name-error">
+          <small class="reload-promo__error" id="reload-promo-full-name-error" role="alert" hidden></small>
+        </div>
+
+        <div class="reload-promo__fields-row">
+          <div class="reload-promo__field">
+            <label class="sr-only" for="reload-promo-phone">Số điện thoại</label>
+            <input id="reload-promo-phone" name="phone" type="tel" placeholder="0909 123 456" autocomplete="tel" inputmode="tel" required aria-describedby="reload-promo-phone-error">
+            <small class="reload-promo__error" id="reload-promo-phone-error" role="alert" hidden></small>
+          </div>
+          <div class="reload-promo__field">
+            <label class="sr-only" for="reload-promo-email">Email</label>
+            <input id="reload-promo-email" name="email" type="email" placeholder="example@email.com" autocomplete="email" aria-describedby="reload-promo-email-error">
+            <small class="reload-promo__error" id="reload-promo-email-error" role="alert" hidden></small>
+          </div>
+        </div>
+
+        <div class="reload-promo__actions">
+          <button class="button button-red reload-promo__submit" type="submit">ĐĂNG KÝ <span aria-hidden="true">→</span></button>
+          <a class="reload-promo__brand logo" href="index.html" aria-label="RELOAD home"><img src="assets/images/logo/reload-logo.png" alt="RELOAD Gym &amp; Wellness"></a>
+        </div>
+      </form>
+
+      <div class="reload-promo__success" data-reload-promo-success hidden>
+        <p class="eyebrow">RELOAD GYM &amp; WELLNESS</p>
+        <h2>ĐĂNG KÝ THÀNH CÔNG</h2>
+        <p>Cảm ơn bạn đã đăng ký.<br>Đội ngũ RELOAD sẽ liên hệ với bạn sớm nhất.</p>
+        <button class="button button-red" type="button" data-reload-promo-close>ĐÓNG</button>
+      </div>
+    </div>
+  </section>
+</div>
