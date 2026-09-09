@@ -1,0 +1,282 @@
+[
+  {
+    "file": "index",
+    "width": 1440,
+    "scrollPositions": 13
+  },
+  {
+    "file": "about",
+    "width": 1440,
+    "scrollPositions": 8
+  },
+  {
+    "file": "facilities",
+    "width": 1440,
+    "scrollPositions": 13
+  },
+  {
+    "file": "services",
+    "width": 1440,
+    "scrollPositions": 12
+  },
+  {
+    "file": "class-schedule",
+    "width": 1440,
+    "scrollPositions": 6
+  },
+  {
+    "file": "membership",
+    "width": 1440,
+    "scrollPositions": 8
+  },
+  {
+    "file": "locations",
+    "width": 1440,
+    "scrollPositions": 8
+  },
+  {
+    "file": "blog",
+    "width": 1440,
+    "scrollPositions": 7
+  },
+  {
+    "file": "index",
+    "width": 1024,
+    "scrollPositions": 12
+  },
+  {
+    "file": "about",
+    "width": 1024,
+    "scrollPositions": 8
+  },
+  {
+    "file": "facilities",
+    "width": 1024,
+    "scrollPositions": 13
+  },
+  {
+    "file": "services",
+    "width": 1024,
+    "scrollPositions": 12
+  },
+  {
+    "file": "class-schedule",
+    "width": 1024,
+    "scrollPositions": 6
+  },
+  {
+    "file": "membership",
+    "width": 1024,
+    "scrollPositions": 8
+  },
+  {
+    "file": "locations",
+    "width": 1024,
+    "scrollPositions": 7
+  },
+  {
+    "file": "blog",
+    "width": 1024,
+    "scrollPositions": 7
+  },
+  {
+    "file": "index",
+    "width": 834,
+    "scrollPositions": 15
+  },
+  {
+    "file": "about",
+    "width": 834,
+    "scrollPositions": 9
+  },
+  {
+    "file": "facilities",
+    "width": 834,
+    "scrollPositions": 13
+  },
+  {
+    "file": "services",
+    "width": 834,
+    "scrollPositions": 20
+  },
+  {
+    "file": "class-schedule",
+    "width": 834,
+    "scrollPositions": 7
+  },
+  {
+    "file": "membership",
+    "width": 834,
+    "scrollPositions": 10
+  },
+  {
+    "file": "locations",
+    "width": 834,
+    "scrollPositions": 8
+  },
+  {
+    "file": "blog",
+    "width": 834,
+    "scrollPositions": 11
+  },
+  {
+    "file": "index",
+    "width": 768,
+    "scrollPositions": 15
+  },
+  {
+    "file": "about",
+    "width": 768,
+    "scrollPositions": 9
+  },
+  {
+    "file": "facilities",
+    "width": 768,
+    "scrollPositions": 13
+  },
+  {
+    "file": "services",
+    "width": 768,
+    "scrollPositions": 19
+  },
+  {
+    "file": "class-schedule",
+    "width": 768,
+    "scrollPositions": 7
+  },
+  {
+    "file": "membership",
+    "width": 768,
+    "scrollPositions": 10
+  },
+  {
+    "file": "locations",
+    "width": 768,
+    "scrollPositions": 8
+  },
+  {
+    "file": "blog",
+    "width": 768,
+    "scrollPositions": 11
+  },
+  {
+    "file": "index",
+    "width": 430,
+    "scrollPositions": 22
+  },
+  {
+    "file": "about",
+    "width": 430,
+    "scrollPositions": 14
+  },
+  {
+    "file": "facilities",
+    "width": 430,
+    "scrollPositions": 25
+  },
+  {
+    "file": "services",
+    "width": 430,
+    "scrollPositions": 21
+  },
+  {
+    "file": "class-schedule",
+    "width": 430,
+    "scrollPositions": 10
+  },
+  {
+    "file": "membership",
+    "width": 430,
+    "scrollPositions": 16
+  },
+  {
+    "file": "locations",
+    "width": 430,
+    "scrollPositions": 14
+  },
+  {
+    "file": "blog",
+    "width": 430,
+    "scrollPositions": 16
+  },
+  {
+    "file": "index",
+    "width": 375,
+    "scrollPositions": 22
+  },
+  {
+    "file": "about",
+    "width": 375,
+    "scrollPositions": 15
+  },
+  {
+    "file": "facilities",
+    "width": 375,
+    "scrollPositions": 25
+  },
+  {
+    "file": "services",
+    "width": 375,
+    "scrollPositions": 21
+  },
+  {
+    "file": "class-schedule",
+    "width": 375,
+    "scrollPositions": 11
+  },
+  {
+    "file": "membership",
+    "width": 375,
+    "scrollPositions": 17
+  },
+  {
+    "file": "locations",
+    "width": 375,
+    "scrollPositions": 14
+  },
+  {
+    "file": "blog",
+    "width": 375,
+    "scrollPositions": 16
+  },
+  {
+    "file": "index",
+    "width": 320,
+    "scrollPositions": 22
+  },
+  {
+    "file": "about",
+    "width": 320,
+    "scrollPositions": 15
+  },
+  {
+    "file": "facilities",
+    "width": 320,
+    "scrollPositions": 25
+  },
+  {
+    "file": "services",
+    "width": 320,
+    "scrollPositions": 21
+  },
+  {
+    "file": "class-schedule",
+    "width": 320,
+    "scrollPositions": 11
+  },
+  {
+    "file": "membership",
+    "width": 320,
+    "scrollPositions": 17
+  },
+  {
+    "file": "locations",
+    "width": 320,
+    "scrollPositions": 14
+  },
+  {
+    "file": "blog",
+    "width": 320,
+    "scrollPositions": 16
+  }
+]

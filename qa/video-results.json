@@ -1,0 +1,121 @@
+{
+  "layouts": [
+    {
+      "width": 1440,
+      "height": 900,
+      "overflow": false,
+      "ratio": 1.7778651043155187,
+      "overlapBrand": false,
+      "overlapCopy": false,
+      "overlapIndex": false,
+      "overlapChat": false
+    },
+    {
+      "width": 1200,
+      "height": 800,
+      "overflow": false,
+      "ratio": 1.7777777777777777,
+      "overlapBrand": false,
+      "overlapCopy": false,
+      "overlapIndex": false,
+      "overlapChat": false
+    },
+    {
+      "width": 1024,
+      "height": 768,
+      "overflow": false,
+      "ratio": 1.7777777777777777,
+      "overlapBrand": false,
+      "overlapCopy": false,
+      "overlapIndex": false,
+      "overlapChat": false
+    },
+    {
+      "width": 768,
+      "height": 1024,
+      "overflow": false,
+      "ratio": 1.7777777777777777,
+      "overlapBrand": false,
+      "overlapCopy": false,
+      "overlapIndex": false,
+      "overlapChat": false
+    },
+    {
+      "width": 430,
+      "height": 932,
+      "overflow": false,
+      "ratio": 1.7777777777777777,
+      "overlapBrand": false,
+      "overlapCopy": false,
+      "overlapIndex": false,
+      "overlapChat": false
+    },
+    {
+      "width": 375,
+      "height": 812,
+      "overflow": false,
+      "ratio": 1.7777777777777777,
+      "overlapBrand": false,
+      "overlapCopy": false,
+      "overlapIndex": false,
+      "overlapChat": false
+    },
+    {
+      "width": 844,
+      "height": 390,
+      "overflow": false,
+      "ratio": 1.7777777777777777,
+      "overlapBrand": false,
+      "overlapCopy": false,
+      "overlapIndex": false,
+      "overlapChat": false
+    },
+    {
+      "width": 1440,
+      "height": 700,
+      "overflow": false,
+      "ratio": 1.7777777777777777,
+      "overlapBrand": false,
+      "overlapCopy": false,
+      "overlapIndex": false,
+      "overlapChat": false
+    }
+  ],
+  "pages": [
+    "index",
+    "about",
+    "facilities",
+    "services",
+    "class-schedule",
+    "membership",
+    "locations",
+    "blog"
+  ],
+  "errors": [],
+  "mediaResponses": [
+    206,
+    206,
+    206,
+    206,
+    206,
+    206,
+    206,
+    206,
+    206,
+    206,
+    206,
+    206,
+    206,
+    206,
+    206,
+    206,
+    206,
+    206,
+    206
+  ],
+  "media": {
+    "readyState": 4,
+    "time": 4.973687,
+    "paused": false
+  }
+}

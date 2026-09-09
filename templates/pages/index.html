@@ -6,13 +6,22 @@
       <h1>TRAIN<br>RECOVER<br><span>RELOAD</span></h1>
       <p class="hero-tagline">A STRONGER YOU<br>A BRIGHTER TOMORROW</p>
       <div class="button-row">
-        <a class="button button-red" href="membership.html">Start your journey <span aria-hidden="true">→</span></a>
-        <a class="button" href="membership.html">View membership <span aria-hidden="true">→</span></a>
+        <a class="button button-red" href="membership.html">Start your journey <i class="fa-solid fa-arrow-right" aria-hidden="true"></i></a>
+        <a class="button" href="membership.html">View membership <i class="fa-solid fa-arrow-right" aria-hidden="true"></i></a>
       </div>
     </div>
     <div class="hero-brand" aria-hidden="true">RELOAD<strong>STRONGER PEOPLE.<br>A HEALTHIER TOMORROW.</strong></div>
     <div class="hero-index" aria-hidden="true"><b>01</b><span>02</span><span>03</span></div>
-    <button class="video-preview" data-video="Welcome to RELOAD"><img src="assets/images/facilities/strength-zone.jpg" alt="A look inside the gym" loading="lazy"><span><i class="play">▶</i> Play video</span></button>
+    <div class="video-preview">
+      <div class="video-preview__media">
+        <video muted loop playsinline preload="metadata" poster="assets/images/facilities/strength-zone.jpg" aria-hidden="true" tabindex="-1"></video>
+        <div class="video-preview__overlay" aria-hidden="true"></div>
+        <button class="video-preview__trigger" type="button" aria-label="Play RELOAD video" aria-haspopup="dialog" aria-controls="reload-video-modal">
+          <span class="video-preview__play"><i class="fa-solid fa-play" aria-hidden="true"></i></span>
+        </button>
+        <div class="video-preview__caption" aria-hidden="true"><strong>WATCH RELOAD IN ACTION</strong><span>Inside the RELOAD experience</span></div>
+      </div>
+    </div>
   </div>
 </section>
 
@@ -29,7 +38,7 @@
           <h3>RELOAD<br><em>WOMEN</em></h3>
           <small>A space for her</small>
           <p>Gym <b>|</b> Group Class <b>|</b> PT <b>|</b> Wellness</p>
-          <a class="button" href="locations.html#reload-women">Explore women <span aria-hidden="true">→</span></a>
+          <a class="button" href="locations.html#reload-women">Explore women <i class="fa-solid fa-arrow-right" aria-hidden="true"></i></a>
         </div>
       </article>
       <article class="branch-card">
@@ -38,7 +47,7 @@
           <h3>RELOAD<br>GYM &amp; WELLNESS</h3>
           <small>For everyone</small>
           <p>Gym <b>|</b> PT <b>|</b> Group Class <b>|</b> Boxing <b>|</b> Wellness</p>
-          <a class="button" href="locations.html#reload-main">Explore main club <span aria-hidden="true">→</span></a>
+          <a class="button" href="locations.html#reload-main">Explore main club <i class="fa-solid fa-arrow-right" aria-hidden="true"></i></a>
         </div>
       </article>
     </div>
@@ -120,7 +129,7 @@
             <span>Tôi đồng ý cung cấp thông tin để RELOAD liên hệ và hỗ trợ tư vấn.</span>
           </label>
 
-          <button class="button button-red bmi-form__submit" type="submit">TÍNH BMI <span aria-hidden="true">→</span></button>
+          <button class="button button-red bmi-form__submit" type="submit">TÍNH BMI <i class="fa-solid fa-arrow-right" aria-hidden="true"></i></button>
         </form>
 
         <div class="bmi-result" data-bmi-result aria-live="polite" hidden>
@@ -143,69 +152,205 @@
         <h2 class="news-section__title" id="news-section-title">TIN <em>TỨC</em></h2>
         <p class="news-section__description">Cập nhật những thông tin mới nhất về tập luyện, sức khỏe, dinh dưỡng và các hoạt động nổi bật tại RELOAD.</p>
       </div>
-      <a class="news-section__view-all" href="blog.html">XEM TẤT CẢ BÀI VIẾT <span aria-hidden="true">→</span></a>
+      <a class="news-section__view-all" href="blog.html">XEM TẤT CẢ BÀI VIẾT <i class="fa-solid fa-arrow-right" aria-hidden="true"></i></a>
+    </div>
+
+    <div class="news-filter" data-news-filters aria-label="Lọc bài viết">
+      <button class="news-filter__button is-active" type="button" data-filter="all" aria-pressed="true">TẤT CẢ</button>
+      <button class="news-filter__button" type="button" data-filter="training" aria-pressed="false">TẬP LUYỆN</button>
+      <button class="news-filter__button" type="button" data-filter="nutrition" aria-pressed="false">DINH DƯỠNG</button>
+      <button class="news-filter__button" type="button" data-filter="event" aria-pressed="false">SỰ KIỆN</button>
     </div>
 
     <div class="news-section__viewport" data-news-viewport tabindex="0" aria-label="Danh sách bài viết RELOAD">
       <div class="news-section__track" data-news-track>
-        <article class="news-card">
-          <img class="news-card__image" src="assets/images/services/personal-training.jpg" alt="Người tập luyện thể lực trên thảm tại RELOAD" loading="lazy">
+        <article class="news-card" data-category="training">
+          <div class="news-card__image" data-news-image-gallery role="group" aria-label="Thư viện ảnh bài viết HIIT">
+            <div class="news-card__image-track">
+              <img class="news-card__image-slide is-active" src="assets/images/services/personal-training.jpg" alt="Người tập luyện thể lực trên thảm tại RELOAD" loading="lazy" aria-hidden="false">
+              <img class="news-card__image-slide" src="assets/images/facilities/functional-area.jpg" alt="Khu tập functional với hệ thống tạ tại RELOAD" loading="lazy" aria-hidden="true">
+              <img class="news-card__image-slide" src="assets/images/facilities/free-weight.jpg" alt="Bài tập sức mạnh với tạ tay" loading="lazy" aria-hidden="true">
+            </div>
+            <button class="news-card__image-arrow news-card__image-arrow--prev" type="button" data-news-image-prev aria-label="Ảnh trước"><i class="fa-solid fa-chevron-left" aria-hidden="true"></i></button>
+            <button class="news-card__image-arrow news-card__image-arrow--next" type="button" data-news-image-next aria-label="Ảnh tiếp theo"><i class="fa-solid fa-chevron-right" aria-hidden="true"></i></button>
+            <span class="news-card__image-counter" data-news-image-counter aria-live="polite">1 / 3</span>
+          </div>
           <div class="news-card__body">
             <div class="news-card__meta">
               <span class="news-card__category">TẬP LUYỆN</span>
-              <time class="news-card__date" datetime="2026-09-12">12.09.2026</time>
+              <time class="news-card__date" datetime="2025-03-02">02.03.2025</time>
             </div>
             <h3 class="news-card__title">HIIT là gì? Lợi ích và 5 bài tập HIIT dễ áp dụng tại gym</h3>
             <p class="news-card__excerpt">HIIT giúp tăng cường thể lực, cải thiện tim mạch và tối ưu thời gian tập luyện.</p>
-            <a class="news-card__link" href="blog.html">ĐỌC THÊM <span aria-hidden="true">→</span></a>
+            <a class="news-card__link" href="blog.html">ĐỌC THÊM <i class="fa-solid fa-arrow-right" aria-hidden="true"></i></a>
           </div>
         </article>
 
-        <article class="news-card">
-          <img class="news-card__image" src="assets/images/wellness/recovery.jpg" alt="Liệu trình phục hồi và chăm sóc sức khỏe tại RELOAD" loading="lazy">
+        <article class="news-card" data-category="nutrition">
+          <div class="news-card__image" data-news-image-gallery role="group" aria-label="Thư viện ảnh bài viết dinh dưỡng">
+            <div class="news-card__image-track">
+              <img class="news-card__image-slide is-active" src="assets/images/wellness/recovery.jpg" alt="Liệu trình phục hồi và chăm sóc sức khỏe tại RELOAD" loading="lazy" aria-hidden="false">
+              <img class="news-card__image-slide" src="assets/images/services/wellness.jpg" alt="Sản phẩm chăm sóc cơ thể và phục hồi" loading="lazy" aria-hidden="true">
+              <img class="news-card__image-slide" src="assets/images/wellness/bmi-calculator.png" alt="Hai hội viên RELOAD tập luyện với tạ tay" loading="lazy" aria-hidden="true">
+            </div>
+            <button class="news-card__image-arrow news-card__image-arrow--prev" type="button" data-news-image-prev aria-label="Ảnh trước"><i class="fa-solid fa-chevron-left" aria-hidden="true"></i></button>
+            <button class="news-card__image-arrow news-card__image-arrow--next" type="button" data-news-image-next aria-label="Ảnh tiếp theo"><i class="fa-solid fa-chevron-right" aria-hidden="true"></i></button>
+            <span class="news-card__image-counter" data-news-image-counter aria-live="polite">1 / 3</span>
+          </div>
           <div class="news-card__body">
             <div class="news-card__meta">
               <span class="news-card__category">DINH DƯỠNG</span>
-              <time class="news-card__date" datetime="2026-09-10">10.09.2026</time>
+              <time class="news-card__date" datetime="2025-05-12">12.05.2025</time>
             </div>
             <h3 class="news-card__title">Top 7 thực phẩm hỗ trợ tăng cơ hiệu quả và lành mạnh</h3>
             <p class="news-card__excerpt">Khám phá những nguồn dinh dưỡng phù hợp giúp hỗ trợ phục hồi và phát triển cơ bắp.</p>
-            <a class="news-card__link" href="blog.html">ĐỌC THÊM <span aria-hidden="true">→</span></a>
+            <a class="news-card__link" href="blog.html">ĐỌC THÊM <i class="fa-solid fa-arrow-right" aria-hidden="true"></i></a>
           </div>
         </article>
 
-        <article class="news-card">
-          <img class="news-card__image" src="assets/images/facilities/strength-zone.jpg" alt="Khu vực tập sức mạnh với thiết bị hiện đại tại RELOAD" loading="lazy">
+        <article class="news-card" data-category="health">
+          <div class="news-card__image" data-news-image-gallery role="group" aria-label="Thư viện ảnh bài viết sức khỏe">
+            <div class="news-card__image-track">
+              <img class="news-card__image-slide is-active" src="assets/images/facilities/strength-zone.jpg" alt="Khu vực tập sức mạnh với thiết bị hiện đại tại RELOAD" loading="lazy" aria-hidden="false">
+              <img class="news-card__image-slide" src="assets/images/facilities/cardio-zone.jpg" alt="Khu cardio với máy chạy bộ tại RELOAD" loading="lazy" aria-hidden="true">
+              <img class="news-card__image-slide" src="assets/images/facilities/locker-wellness.jpg" alt="Không gian chăm sóc và phục hồi tại RELOAD" loading="lazy" aria-hidden="true">
+            </div>
+            <button class="news-card__image-arrow news-card__image-arrow--prev" type="button" data-news-image-prev aria-label="Ảnh trước"><i class="fa-solid fa-chevron-left" aria-hidden="true"></i></button>
+            <button class="news-card__image-arrow news-card__image-arrow--next" type="button" data-news-image-next aria-label="Ảnh tiếp theo"><i class="fa-solid fa-chevron-right" aria-hidden="true"></i></button>
+            <span class="news-card__image-counter" data-news-image-counter aria-live="polite">1 / 3</span>
+          </div>
           <div class="news-card__body">
             <div class="news-card__meta">
               <span class="news-card__category">SỨC KHỎE</span>
-              <time class="news-card__date" datetime="2026-09-08">08.09.2026</time>
+              <time class="news-card__date" datetime="2025-08-26">26.08.2025</time>
             </div>
             <h3 class="news-card__title">Tập gym bao lâu thì thấy kết quả?</h3>
             <p class="news-card__excerpt">Hiểu rõ những yếu tố ảnh hưởng đến tiến độ tập luyện và cách xây dựng lộ trình phù hợp.</p>
-            <a class="news-card__link" href="blog.html">ĐỌC THÊM <span aria-hidden="true">→</span></a>
+            <a class="news-card__link" href="blog.html">ĐỌC THÊM <i class="fa-solid fa-arrow-right" aria-hidden="true"></i></a>
           </div>
         </article>
 
-        <article class="news-card">
-          <img class="news-card__image" src="assets/images/services/group-class.jpg" alt="Lớp tập nhóm năng động tại RELOAD" loading="lazy">
+        <article class="news-card" data-category="event">
+          <div class="news-card__image" data-news-image-gallery role="group" aria-label="Thư viện ảnh bài viết RELOAD 168 Tôn Đức Thắng sắp khai trương">
+            <div class="news-card__image-track">
+              <img class="news-card__image-slide is-active" src="assets/images/news/reload-168-ton-duc-thang-opening-01.jpg" alt="Mặt tiền RELOAD 168 Tôn Đức Thắng tại Bà Rịa" loading="lazy" aria-hidden="false">
+              <img class="news-card__image-slide" src="assets/images/news/reload-168-ton-duc-thang-opening-02.jpg" alt="Toàn cảnh khu máy đang hoàn thiện tại RELOAD 168 Tôn Đức Thắng" loading="lazy" aria-hidden="true">
+              <img class="news-card__image-slide" src="assets/images/news/reload-168-ton-duc-thang-opening-03.jpg" alt="Hệ thống máy tập vừa được lắp đặt tại RELOAD 168 Tôn Đức Thắng" loading="lazy" aria-hidden="true">
+              <img class="news-card__image-slide" src="assets/images/news/reload-168-ton-duc-thang-opening-04.jpg" alt="Khu cardio và không gian tập luyện tại RELOAD 168 Tôn Đức Thắng" loading="lazy" aria-hidden="true">
+              <img class="news-card__image-slide" src="assets/images/news/reload-168-ton-duc-thang-opening-05.jpg" alt="Tường thương hiệu Bà Rịa Muscle Factory tại RELOAD" loading="lazy" aria-hidden="true">
+            </div>
+            <button class="news-card__image-arrow news-card__image-arrow--prev" type="button" data-news-image-prev aria-label="Ảnh trước"><i class="fa-solid fa-chevron-left" aria-hidden="true"></i></button>
+            <button class="news-card__image-arrow news-card__image-arrow--next" type="button" data-news-image-next aria-label="Ảnh tiếp theo"><i class="fa-solid fa-chevron-right" aria-hidden="true"></i></button>
+            <span class="news-card__image-counter" data-news-image-counter aria-live="polite">1 / 5</span>
+          </div>
           <div class="news-card__body">
             <div class="news-card__meta">
               <span class="news-card__category">SỰ KIỆN</span>
-              <time class="news-card__date" datetime="2026-09-05">05.09.2026</time>
+              <time class="news-card__date" datetime="2026-09-06">06.09.2026</time>
+            </div>
+            <h3 class="news-card__title">RELOAD 168 TÔN ĐỨC THẮNG – SẮP CHÍNH THỨC KHAI TRƯƠNG!</h3>
+            <p class="news-card__excerpt">RELOAD 168 Tôn Đức Thắng – Bà Rịa đang hoàn thiện những công đoạn cuối cùng trước ngày khai trương 20/09, với không gian rộng rãi, hệ thống máy móc hiện đại và nhiều khu vực tập luyện được đầu tư đồng bộ.</p>
+            <a class="news-card__link" href="blog.html">ĐỌC THÊM <i class="fa-solid fa-arrow-right" aria-hidden="true"></i></a>
+          </div>
+        </article>
+
+        <article class="news-card" data-category="event">
+          <div class="news-card__image" data-news-image-gallery role="group" aria-label="Thư viện ảnh bài viết sự kiện">
+            <div class="news-card__image-track">
+              <img class="news-card__image-slide is-active" src="assets/images/services/group-class.jpg" alt="Lớp tập nhóm năng động tại RELOAD" loading="lazy" aria-hidden="false">
+              <img class="news-card__image-slide" src="assets/images/facilities/group-class-studio.jpg" alt="Buổi tập nhóm tại studio RELOAD" loading="lazy" aria-hidden="true">
+              <img class="news-card__image-slide" src="assets/images/facilities/boxing-area.jpg" alt="Găng tay tại khu tập boxing RELOAD" loading="lazy" aria-hidden="true">
+            </div>
+            <button class="news-card__image-arrow news-card__image-arrow--prev" type="button" data-news-image-prev aria-label="Ảnh trước"><i class="fa-solid fa-chevron-left" aria-hidden="true"></i></button>
+            <button class="news-card__image-arrow news-card__image-arrow--next" type="button" data-news-image-next aria-label="Ảnh tiếp theo"><i class="fa-solid fa-chevron-right" aria-hidden="true"></i></button>
+            <span class="news-card__image-counter" data-news-image-counter aria-live="polite">1 / 3</span>
+          </div>
+          <div class="news-card__body">
+            <div class="news-card__meta">
+              <span class="news-card__category">SỰ KIỆN</span>
+              <time class="news-card__date" datetime="2025-09-05">05.09.2025</time>
             </div>
             <h3 class="news-card__title">Lịch Group Class tháng này tại RELOAD</h3>
             <p class="news-card__excerpt">Khám phá các lớp Yoga, Zumba, Boxing, Functional Training và nhiều hoạt động khác tại RELOAD.</p>
-            <a class="news-card__link" href="blog.html">ĐỌC THÊM <span aria-hidden="true">→</span></a>
+            <a class="news-card__link" href="blog.html">ĐỌC THÊM <i class="fa-solid fa-arrow-right" aria-hidden="true"></i></a>
+          </div>
+        </article>
+
+        <article class="news-card" data-category="event">
+          <div class="news-card__image" data-news-image-gallery role="group" aria-label="Thư viện ảnh bài viết cập nhật thi công RELOAD 2">
+            <div class="news-card__image-track">
+              <img class="news-card__image-slide news-card__image-slide--focus-bottom is-active" src="assets/images/news/reload-2-construction-update-01.jpg" alt="Tiến độ lắp đặt máy tập tại RELOAD 2 – 168 Tôn Đức Thắng" loading="lazy" aria-hidden="false">
+              <img class="news-card__image-slide" src="assets/images/news/reload-2-construction-update-02.jpg" alt="Dãy máy khối đang được lắp đặt tại RELOAD 2" loading="lazy" aria-hidden="true">
+              <img class="news-card__image-slide" src="assets/images/news/reload-2-construction-update-03.jpg" alt="Máy tập mới tại RELOAD 2 – 168 Tôn Đức Thắng" loading="lazy" aria-hidden="true">
+            </div>
+            <button class="news-card__image-arrow news-card__image-arrow--prev" type="button" data-news-image-prev aria-label="Ảnh trước"><i class="fa-solid fa-chevron-left" aria-hidden="true"></i></button>
+            <button class="news-card__image-arrow news-card__image-arrow--next" type="button" data-news-image-next aria-label="Ảnh tiếp theo"><i class="fa-solid fa-chevron-right" aria-hidden="true"></i></button>
+            <span class="news-card__image-counter" data-news-image-counter aria-live="polite">1 / 3</span>
+          </div>
+          <div class="news-card__body">
+            <div class="news-card__meta">
+              <span class="news-card__category">SỰ KIỆN</span>
+              <time class="news-card__date" datetime="2026-08-13">13.08.2026</time>
+            </div>
+            <h3 class="news-card__title">CẬP NHẬT THI CÔNG RELOAD 2 – 168 TÔN ĐỨC THẮNG</h3>
+            <p class="news-card__excerpt">RELOAD 2 – 168 Tôn Đức Thắng đang dần hoàn thiện với hệ thống máy khối lớn được lắp đặt, không gian phòng tập rộng rãi và nhiều khu vực tập luyện dành cho cả nam lẫn nữ.</p>
+            <a class="news-card__link" href="blog.html">ĐỌC THÊM <i class="fa-solid fa-arrow-right" aria-hidden="true"></i></a>
+          </div>
+        </article>
+
+        <article class="news-card" data-category="event">
+          <div class="news-card__image" data-news-image-gallery role="group" aria-label="Thư viện ảnh bài viết RELOAD Gym For Women Bà Rịa">
+            <div class="news-card__image-track">
+              <img class="news-card__image-slide news-card__image-slide--focus-top is-active" src="assets/images/news/reload-women-ba-ria-setup-01.webp" alt="Hội viên tập luyện tại RELOAD Gym For Women Bà Rịa" loading="lazy" aria-hidden="false">
+              <img class="news-card__image-slide" src="assets/images/news/reload-women-ba-ria-setup-02.webp" alt="Hệ thống máy tập chân tại RELOAD Gym For Women Bà Rịa" loading="lazy" aria-hidden="true">
+              <img class="news-card__image-slide" src="assets/images/news/reload-women-ba-ria-setup-03.webp" alt="Khu vực máy cáp đa năng tại RELOAD Gym For Women Bà Rịa" loading="lazy" aria-hidden="true">
+              <img class="news-card__image-slide" src="assets/images/news/reload-women-ba-ria-setup-04.webp" alt="Toàn cảnh không gian RELOAD Gym For Women Bà Rịa" loading="lazy" aria-hidden="true">
+            </div>
+            <button class="news-card__image-arrow news-card__image-arrow--prev" type="button" data-news-image-prev aria-label="Ảnh trước"><i class="fa-solid fa-chevron-left" aria-hidden="true"></i></button>
+            <button class="news-card__image-arrow news-card__image-arrow--next" type="button" data-news-image-next aria-label="Ảnh tiếp theo"><i class="fa-solid fa-chevron-right" aria-hidden="true"></i></button>
+            <span class="news-card__image-counter" data-news-image-counter aria-live="polite">1 / 4</span>
+          </div>
+          <div class="news-card__body">
+            <div class="news-card__meta">
+              <span class="news-card__category">SỰ KIỆN</span>
+              <time class="news-card__date" datetime="2026-06-13">13.06.2026</time>
+            </div>
+            <h3 class="news-card__title">RELOAD GYM FOR WOMEN – CHÍNH THỨC HOÀN THÀNH SETUP TẠI BÀ RỊA!</h3>
+            <p class="news-card__excerpt">Không gian tập luyện dành riêng cho phái nữ tại RELOAD Bà Rịa đã chính thức hoàn thiện, với hệ thống máy tập hiện đại, đầy đủ các nhóm cơ và môi trường tập luyện riêng tư, thoải mái.</p>
+            <a class="news-card__link" href="blog.html">ĐỌC THÊM <i class="fa-solid fa-arrow-right" aria-hidden="true"></i></a>
+          </div>
+        </article>
+
+        <article class="news-card" data-category="event">
+          <div class="news-card__image" data-news-image-gallery role="group" aria-label="Thư viện ảnh bài viết khai trương RELOAD Fitness Bà Rịa">
+            <div class="news-card__image-track">
+              <img class="news-card__image-slide is-active" src="assets/images/news/reload-ba-ria-opening-01.webp" alt="Không gian phòng tập RELOAD Fitness Bà Rịa" loading="lazy" aria-hidden="false">
+              <img class="news-card__image-slide" src="assets/images/news/reload-ba-ria-opening-02.webp" alt="Khu vực máy tập tại RELOAD Fitness Bà Rịa" loading="lazy" aria-hidden="true">
+              <img class="news-card__image-slide" src="assets/images/news/reload-ba-ria-opening-03.webp" alt="Không gian tiện ích tại RELOAD Fitness Bà Rịa" loading="lazy" aria-hidden="true">
+            </div>
+            <button class="news-card__image-arrow news-card__image-arrow--prev" type="button" data-news-image-prev aria-label="Ảnh trước"><i class="fa-solid fa-chevron-left" aria-hidden="true"></i></button>
+            <button class="news-card__image-arrow news-card__image-arrow--next" type="button" data-news-image-next aria-label="Ảnh tiếp theo"><i class="fa-solid fa-chevron-right" aria-hidden="true"></i></button>
+            <span class="news-card__image-counter" data-news-image-counter aria-live="polite">1 / 3</span>
+          </div>
+          <div class="news-card__body">
+            <div class="news-card__meta">
+              <span class="news-card__category">SỰ KIỆN</span>
+              <time class="news-card__date" datetime="2026-03-24">24.03.2026</time>
+            </div>
+            <h3 class="news-card__title">RELOAD FITNESS BÀ RỊA – SẮP KHAI TRƯƠNG THÁNG 4</h3>
+            <p class="news-card__excerpt">RELOAD Fitness Bà Rịa chuẩn bị chính thức ra mắt với không gian tập luyện hiện đại, hệ thống máy móc đầy đủ và khu vực fitness được đầu tư bài bản. Đăng ký sớm để nhận ưu đãi khai trương dành cho những hội viên đầu tiên.</p>
+            <a class="news-card__link" href="blog.html">ĐỌC THÊM <i class="fa-solid fa-arrow-right" aria-hidden="true"></i></a>
           </div>
         </article>
       </div>
     </div>
 
+    <p class="news-section__empty" data-news-empty hidden>Hiện chưa có bài viết trong danh mục này.</p>
+
     <div class="news-section__navigation" aria-label="Điều hướng bài viết">
-      <button class="news-section__arrow" type="button" data-news-prev aria-label="Bài viết trước"><span aria-hidden="true">←</span></button>
+      <button class="news-section__arrow" type="button" data-news-prev aria-label="Bài viết trước"><i class="fa-solid fa-chevron-left" aria-hidden="true"></i></button>
       <div class="news-section__dots" data-news-dots></div>
-      <button class="news-section__arrow" type="button" data-news-next aria-label="Bài viết tiếp theo"><span aria-hidden="true">→</span></button>
+      <button class="news-section__arrow" type="button" data-news-next aria-label="Bài viết tiếp theo"><i class="fa-solid fa-chevron-right" aria-hidden="true"></i></button>
     </div>
   </div>
 </section>
@@ -213,18 +358,26 @@
 <section class="quick-explore section" id="explore">
   <div class="container">
     <div class="section-heading">
-      <div><h2><svg class="icon" aria-hidden="true"><use href="#weight"></use></svg>EXPLORE <em>RELOAD</em></h2></div>
+      <div><h2><i class="icon fa-solid fa-dumbbell" aria-hidden="true"></i>EXPLORE <em>RELOAD</em></h2></div>
     </div>
     <div class="quick-grid">
-      <a class="facility-card" href="facilities.html"><img src="assets/images/facilities/strength-zone.jpg" alt="Facilities" loading="lazy"><h3>Facilities <span aria-hidden="true">→</span></h3></a>
-      <a class="facility-card" href="services.html"><img src="assets/images/services/personal-training.jpg" alt="Services" loading="lazy"><h3>Services <span aria-hidden="true">→</span></h3></a>
-      <a class="facility-card" href="membership.html"><img src="assets/images/services/gym.jpg" alt="Membership" loading="lazy"><h3>Membership <span aria-hidden="true">→</span></h3></a>
-      <a class="facility-card" href="locations.html"><img src="assets/images/locations/reload-main.jpg" alt="Locations" loading="lazy"><h3>Locations <span aria-hidden="true">→</span></h3></a>
+      <a class="facility-card" href="facilities.html"><img src="assets/images/facilities/strength-zone.jpg" alt="Facilities" loading="lazy"><h3>Facilities <i class="fa-solid fa-arrow-right" aria-hidden="true"></i></h3></a>
+      <a class="facility-card" href="services.html"><img src="assets/images/services/personal-training.jpg" alt="Services" loading="lazy"><h3>Services <i class="fa-solid fa-arrow-right" aria-hidden="true"></i></h3></a>
+      <a class="facility-card" href="membership.html"><img src="assets/images/services/gym.jpg" alt="Membership" loading="lazy"><h3>Membership <i class="fa-solid fa-arrow-right" aria-hidden="true"></i></h3></a>
+      <a class="facility-card" href="locations.html"><img src="assets/images/locations/reload-main.jpg" alt="Locations" loading="lazy"><h3>Locations <i class="fa-solid fa-arrow-right" aria-hidden="true"></i></h3></a>
     </div>
   </div>
 </section>
 
 <section class="container final-cta wide-cta">
   <div><h2>READY TO<br>RELOAD?</h2><p>Same people. A stronger you.</p></div>
-  <div class="button-row"><a class="button button-red" href="locations.html#contact">Start free trial <span aria-hidden="true">→</span></a><a class="button" href="locations.html#contact">Contact us <span aria-hidden="true">→</span></a></div>
+  <div class="button-row"><a class="button button-red" href="locations.html#contact">Start free trial <i class="fa-solid fa-arrow-right" aria-hidden="true"></i></a><a class="button" href="locations.html#contact">Contact us <i class="fa-solid fa-arrow-right" aria-hidden="true"></i></a></div>
 </section>
+
+<dialog class="video-modal" id="reload-video-modal" aria-label="RELOAD video">
+  <button class="video-modal__close" type="button" aria-label="Close video" autofocus><i class="fa-solid fa-xmark" aria-hidden="true"></i></button>
+  <div class="video-modal__content">
+    <video controls autoplay playsinline preload="none" aria-label="Inside the RELOAD experience"></video>
+    <p class="video-modal__error" role="status" hidden>Video is currently unavailable. Please try again later.</p>
+  </div>
+</dialog>

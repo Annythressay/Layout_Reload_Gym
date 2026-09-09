@@ -1,0 +1,117 @@
+{
+  "out": [
+    {
+      "width": 1440,
+      "height": 900,
+      "nav": "pass",
+      "modal": "pass",
+      "forms": "pass",
+      "footer": "pass"
+    },
+    {
+      "width": 1366,
+      "height": 768,
+      "nav": "pass",
+      "modal": "pass",
+      "forms": "pass",
+      "footer": "pass"
+    },
+    {
+      "width": 1280,
+      "height": 800,
+      "nav": "pass",
+      "modal": "pass",
+      "forms": "pass",
+      "footer": "pass"
+    },
+    {
+      "width": 1024,
+      "height": 768,
+      "nav": "pass",
+      "modal": "pass",
+      "forms": "pass",
+      "footer": "pass"
+    },
+    {
+      "width": 834,
+      "height": 1194,
+      "nav": "pass",
+      "modal": "pass",
+      "forms": "pass",
+      "footer": "pass"
+    },
+    {
+      "width": 768,
+      "height": 1024,
+      "nav": "pass",
+      "modal": "pass",
+      "forms": "pass",
+      "footer": "pass"
+    },
+    {
+      "width": 430,
+      "height": 932,
+      "nav": "pass",
+      "modal": "pass",
+      "forms": "pass",
+      "footer": "pass"
+    },
+    {
+      "width": 414,
+      "height": 896,
+      "nav": "pass",
+      "modal": "pass",
+      "forms": "pass",
+      "footer": "pass"
+    },
+    {
+      "width": 390,
+      "height": 844,
+      "nav": "pass",
+      "modal": "pass",
+      "forms": "pass",
+      "footer": "pass"
+    },
+    {
+      "width": 375,
+      "height": 812,
+      "nav": "pass",
+      "modal": "pass",
+      "forms": "pass",
+      "footer": "pass"
+    },
+    {
+      "width": 360,
+      "height": 800,
+      "nav": "pass",
+      "modal": "pass",
+      "forms": "pass",
+      "footer": "pass"
+    },
+    {
+      "width": 320,
+      "height": 568,
+      "nav": "pass",
+      "modal": "pass",
+      "forms": "pass",
+      "footer": "pass"
+    },
+    {
+      "width": 844,
+      "height": 390,
+      "nav": "pass",
+      "modal": "pass",
+      "forms": "pass",
+      "footer": "pass"
+    },
+    {
+      "width": 667,
+      "height": 375,
+      "nav": "pass",
+      "modal": "pass",
+      "forms": "pass",
+      "footer": "pass"
+    }
+  ],
+  "errors": []
+}

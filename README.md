@@ -10,7 +10,7 @@ Run `node server.cjs` from this directory and visit http://127.0.0.1:4173/index.
 
 - Edit page content in `templates/pages/*.html`, including membership prices and branch copy.
 - Edit navigation once in `templates/header.html` and footer links once in `templates/footer.html`.
-- Shared SVG symbols and dialogs live in `templates/icons.html` and `templates/dialogs.html`.
+- Shared interface icons use Font Awesome; shared dialogs live in `templates/dialogs.html`.
 - Run `node build.cjs` to regenerate all eight root HTML pages. The script uses only Node's built-in filesystem APIs. It sets unique titles/descriptions and the current navigation state with `aria-current="page"`.
 - Edit `assets/css/style.css` for the original shared styles and labeled multipage extensions.
 - Edit `assets/js/main.js` for class data, sample member stories and interactions. Page-specific features initialize only when their required elements exist.
@@ -33,7 +33,7 @@ Do not edit generated root HTML and then rebuild without transferring the edits 
 | Visit RELOAD | Locations, with women-only and mixed-gender concepts |
 | Final CTA, header and footer | Reused across all pages |
 
-Homepage flow: header → hero → branches (including four Explore cards) → statistics and compact Why RELOAD → testimonials → final CTA → footer. No full facilities, services, schedule, pricing, location or social section remains on Home.
+Homepage flow: header → hero → branches → BMI calculator → news → Explore cards → final CTA → footer. Full facilities, services, schedule, pricing and location content remain on their dedicated pages.
 
 Main navigation uses index.html, about.html, facilities.html, services.html, class-schedule.html, membership.html, locations.html and blog.html. JOIN NOW leads to Membership. Branch CTAs lead to `locations.html#reload-women` and `locations.html#reload-main`. Search also navigates between pages.
 
@@ -41,8 +41,21 @@ Main navigation uses index.html, about.html, facilities.html, services.html, cla
 
 `node qa.cjs` runs the development browser checks using bundled Playwright and Microsoft Edge. QA includes all eight pages at 1440, 1200, 1024, 768 and 390 pixels; local links and anchors; active navigation; images; duplicate IDs; one H1 per page; JavaScript and HTTP errors; mobile navigation; schedule day switching and keyboard controls; testimonials; and cross-page search destinations.
 
-Screenshots and results are in `qa/multipage/`. The original homepage is preserved in `qa/before-refactor/index.html` as migration evidence, not as a deployable page. At 1440px the homepage is 1739px tall versus the original 3178px: about 55% of its former length. At 390px it is about 45% of its former length.
+Screenshots and results are in `qa/multipage/`. The responsive matrix, interaction results and before/after evidence are in `qa/responsive/`.
 
 ## Remaining placeholders
 
-No new production photographs were introduced. The exact supplied logo remains unchanged. The generated hero, stock photography, member names/reviews, statistics, prices, schedule data, opening hours and social counts still require business approval. Branch addresses are supplied on the Locations page; hotlines, map links, social URLs, videos and articles are pending. Booking, payment and newsletter backends are not connected; preview notices do not claim a completed booking, payment or signup. See `ASSETS.md` for the full image replacement checklist.
+The exact supplied logo remains unchanged. The generated hero, stock photography, member names/reviews, statistics, prices, schedule data and opening hours still require business approval. Branch addresses, hotline and social URLs are present; map links, published article destinations and a stable hosted video URL are still pending. Booking, payment and newsletter backends are not connected; preview notices do not claim a completed booking, payment or signup. See `ASSETS.md` for the full image replacement checklist.
+
+
+## Hero video and footer contacts
+
+- Change only `RELOAD_VIDEO_URL` in `assets/js/main.js` to update both the hero preview and video modal. The supplied Facebook CDN URL is temporary; replace it with a stable hosted MP4 when available.
+- Preview uses a local poster and metadata-only loading; video starts with sound and native controls when the card is activated. X, backdrop and Escape close the native dialog, pause playback and restore scrolling/focus. Failed media displays an unavailable message.
+- Footer social links are generated from `templates/floating-contact.html` by `build.cjs`; edit contact URLs there and run `node build.cjs`. Do not add a second contact list in the footer template.
+- Run `node qa/video-preview.test.cjs` with the local server running for responsive geometry, shared contact links, modal close behavior and live media diagnostics. Results are saved to `qa/video-results.json`.
+
+
+## Responsive audit
+
+Shared responsive tiers: 1199.98 / 991.98 / 767.98 / 575.98px. See [the audit report](qa/responsive/REPORT.md) and [screenshot gallery](qa/responsive/gallery.html) for coverage, findings and test commands. The shared floating shortcut yields to page content when it would overlap controls or text; footer contact links remain available.

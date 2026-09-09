@@ -1,0 +1,4600 @@
+{
+  "results": [
+    {
+      "file": "about.html",
+      "width": 1920,
+      "height": 1080,
+      "overflow": false,
+      "outside": [],
+      "clipped": [],
+      "heroOverlap": [],
+      "headerOverlap": []
+    },
+    {
+      "file": "about.html",
+      "width": 1600,
+      "height": 900,
+      "overflow": false,
+      "outside": [],
+      "clipped": [],
+      "heroOverlap": [],
+      "headerOverlap": []
+    },
+    {
+      "file": "about.html",
+      "width": 1440,
+      "height": 900,
+      "overflow": false,
+      "outside": [],
+      "clipped": [],
+      "heroOverlap": [],
+      "headerOverlap": []
+    },
+    {
+      "file": "about.html",
+      "width": 1366,
+      "height": 768,
+      "overflow": false,
+      "outside": [],
+      "clipped": [],
+      "heroOverlap": [],
+      "headerOverlap": []
+    },
+    {
+      "file": "about.html",
+      "width": 1280,
+      "height": 800,
+      "overflow": false,
+      "outside": [],
+      "clipped": [],
+      "heroOverlap": [],
+      "headerOverlap": []
+    },
+    {
+      "file": "about.html",
+      "width": 1200,
+      "height": 800,
+      "overflow": false,
+      "outside": [],
+      "clipped": [],
+      "heroOverlap": [],
+      "headerOverlap": []
+    },
+    {
+      "file": "about.html",
+      "width": 1024,
+      "height": 768,
+      "overflow": false,
+      "outside": [],
+      "clipped": [],
+      "heroOverlap": [],
+      "headerOverlap": []
+    },
+    {
+      "file": "about.html",
+      "width": 991,
+      "height": 900,
+      "overflow": false,
+      "outside": [],
+      "clipped": [],
+      "heroOverlap": [],
+      "headerOverlap": []
+    },
+    {
+      "file": "about.html",
+      "width": 834,
+      "height": 1194,
+      "overflow": false,
+      "outside": [],
+      "clipped": [],
+      "heroOverlap": [],
+      "headerOverlap": []
+    },
+    {
+      "file": "about.html",
+      "width": 768,
+      "height": 1024,
+      "overflow": false,
+      "outside": [],
+      "clipped": [],
+      "heroOverlap": [],
+      "headerOverlap": []
+    },
+    {
+      "file": "about.html",
+      "width": 767,
+      "height": 800,
+      "overflow": false,
+      "outside": [],
+      "clipped": [],
+      "heroOverlap": [],
+      "headerOverlap": []
+    },
+    {
+      "file": "about.html",
+      "width": 575,
+      "height": 800,
+      "overflow": false,
+      "outside": [],
+      "clipped": [],
+      "heroOverlap": [],
+      "headerOverlap": []
+    },
+    {
+      "file": "about.html",
+      "width": 430,
+      "height": 932,
+      "overflow": false,
+      "outside": [],
+      "clipped": [],
+      "heroOverlap": [],
+      "headerOverlap": []
+    },
+    {
+      "file": "about.html",
+      "width": 414,
+      "height": 896,
+      "overflow": false,
+      "outside": [],
+      "clipped": [],
+      "heroOverlap": [],
+      "headerOverlap": []
+    },
+    {
+      "file": "about.html",
+      "width": 390,
+      "height": 844,
+      "overflow": false,
+      "outside": [],
+      "clipped": [],
+      "heroOverlap": [],
+      "headerOverlap": []
+    },
+    {
+      "file": "about.html",
+      "width": 375,
+      "height": 812,
+      "overflow": false,
+      "outside": [],
+      "clipped": [],
+      "heroOverlap": [],
+      "headerOverlap": []
+    },
+    {
+      "file": "about.html",
+      "width": 360,
+      "height": 800,
+      "overflow": false,
+      "outside": [],
+      "clipped": [],
+      "heroOverlap": [],
+      "headerOverlap": []
+    },
+    {
+      "file": "about.html",
+      "width": 320,
+      "height": 568,
+      "overflow": false,
+      "outside": [],
+      "clipped": [],
+      "heroOverlap": [],
+      "headerOverlap": []
+    },
+    {
+      "file": "about.html",
+      "width": 844,
+      "height": 390,
+      "overflow": false,
+      "outside": [],
+      "clipped": [],
+      "heroOverlap": [],
+      "headerOverlap": []
+    },
+    {
+      "file": "about.html",
+      "width": 667,
+      "height": 375,
+      "overflow": false,
+      "outside": [],
+      "clipped": [],
+      "heroOverlap": [],
+      "headerOverlap": []
+    },
+    {
+      "file": "about.html",
+      "width": 1300,
+      "height": 850,
+      "overflow": false,
+      "outside": [],
+      "clipped": [],
+      "heroOverlap": [],
+      "headerOverlap": []
+    },
+    {
+      "file": "about.html",
+      "width": 1199,
+      "height": 850,
+      "overflow": false,
+      "outside": [],
+      "clipped": [],
+      "heroOverlap": [],
+      "headerOverlap": []
+    },
+    {
+      "file": "about.html",
+      "width": 1100,
+      "height": 850,
+      "overflow": false,
+      "outside": [],
+      "clipped": [],
+      "heroOverlap": [],
+      "headerOverlap": []
+    },
+    {
+      "file": "about.html",
+      "width": 1050,
+      "height": 850,
+      "overflow": false,
+      "outside": [],
+      "clipped": [],
+      "heroOverlap": [],
+      "headerOverlap": []
+    },
+    {
+      "file": "about.html",
+      "width": 1000,
+      "height": 850,
+      "overflow": false,
+      "outside": [],
+      "clipped": [],
+      "heroOverlap": [],
+      "headerOverlap": []
+    },
+    {
+      "file": "about.html",
+      "width": 992,
+      "height": 850,
+      "overflow": false,
+      "outside": [],
+      "clipped": [],
+      "heroOverlap": [],
+      "headerOverlap": []
+    },
+    {
+      "file": "about.html",
+      "width": 950,
+      "height": 850,
+      "overflow": false,
+      "outside": [],
+      "clipped": [],
+      "heroOverlap": [],
+      "headerOverlap": []
+    },
+    {
+      "file": "about.html",
+      "width": 900,
+      "height": 850,
+      "overflow": false,
+      "outside": [],
+      "clipped": [],
+      "heroOverlap": [],
+      "headerOverlap": []
+    },
+    {
+      "file": "about.html",
+      "width": 850,
+      "height": 850,
+      "overflow": false,
+      "outside": [],
+      "clipped": [],
+      "heroOverlap": [],
+      "headerOverlap": []
+    },
+    {
+      "file": "about.html",
+      "width": 800,
+      "height": 850,
+      "overflow": false,
+      "outside": [],
+      "clipped": [],
+      "heroOverlap": [],
+      "headerOverlap": []
+    },
+    {
+      "file": "about.html",
+      "width": 750,
+      "height": 850,
+      "overflow": false,
+      "outside": [],
+      "clipped": [],
+      "heroOverlap": [],
+      "headerOverlap": []
+    },
+    {
+      "file": "about.html",
+      "width": 700,
+      "height": 850,
+      "overflow": false,
+      "outside": [],
+      "clipped": [],
+      "heroOverlap": [],
+      "headerOverlap": []
+    },
+    {
+      "file": "about.html",
+      "width": 650,
+      "height": 850,
+      "overflow": false,
+      "outside": [],
+      "clipped": [],
+      "heroOverlap": [],
+      "headerOverlap": []
+    },
+    {
+      "file": "about.html",
+      "width": 600,
+      "height": 850,
+      "overflow": false,
+      "outside": [],
+      "clipped": [],
+      "heroOverlap": [],
+      "headerOverlap": []
+    },
+    {
+      "file": "about.html",
+      "width": 576,
+      "height": 850,
+      "overflow": false,
+      "outside": [],
+      "clipped": [],
+      "heroOverlap": [],
+      "headerOverlap": []
+    },
+    {
+      "file": "about.html",
+      "width": 550,
+      "height": 850,
+      "overflow": false,
+      "outside": [],
+      "clipped": [],
+      "heroOverlap": [],
+      "headerOverlap": []
+    },
+    {
+      "file": "about.html",
+      "width": 500,
+      "height": 850,
+      "overflow": false,
+      "outside": [],
+      "clipped": [],
+      "heroOverlap": [],
+      "headerOverlap": []
+    },
+    {
+      "file": "about.html",
+      "width": 450,
+      "height": 850,
+      "overflow": false,
+      "outside": [],
+      "clipped": [],
+      "heroOverlap": [],
+      "headerOverlap": []
+    },
+    {
+      "file": "about.html",
+      "width": 400,
+      "height": 850,
+      "overflow": false,
+      "outside": [],
+      "clipped": [],
+      "heroOverlap": [],
+      "headerOverlap": []
+    },
+    {
+      "file": "about.html",
+      "width": 350,
+      "height": 850,
+      "overflow": false,
+      "outside": [],
+      "clipped": [],
+      "heroOverlap": [],
+      "headerOverlap": []
+    },
+    {
+      "file": "blog.html",
+      "width": 1920,
+      "height": 1080,
+      "overflow": false,
+      "outside": [],
+      "clipped": [],
+      "heroOverlap": [],
+      "headerOverlap": []
+    },
+    {
+      "file": "blog.html",
+      "width": 1600,
+      "height": 900,
+      "overflow": false,
+      "outside": [],
+      "clipped": [],
+      "heroOverlap": [],
+      "headerOverlap": []
+    },
+    {
+      "file": "blog.html",
+      "width": 1440,
+      "height": 900,
+      "overflow": false,
+      "outside": [],
+      "clipped": [],
+      "heroOverlap": [],
+      "headerOverlap": []
+    },
+    {
+      "file": "blog.html",
+      "width": 1366,
+      "height": 768,
+      "overflow": false,
+      "outside": [],
+      "clipped": [],
+      "heroOverlap": [],
+      "headerOverlap": []
+    },
+    {
+      "file": "blog.html",
+      "width": 1280,
+      "height": 800,
+      "overflow": false,
+      "outside": [],
+      "clipped": [],
+      "heroOverlap": [],
+      "headerOverlap": []
+    },
+    {
+      "file": "blog.html",
+      "width": 1200,
+      "height": 800,
+      "overflow": false,
+      "outside": [],
+      "clipped": [],
+      "heroOverlap": [],
+      "headerOverlap": []
+    },
+    {
+      "file": "blog.html",
+      "width": 1024,
+      "height": 768,
+      "overflow": false,
+      "outside": [],
+      "clipped": [],
+      "heroOverlap": [],
+      "headerOverlap": []
+    },
+    {
+      "file": "blog.html",
+      "width": 991,
+      "height": 900,
+      "overflow": false,
+      "outside": [],
+      "clipped": [],
+      "heroOverlap": [],
+      "headerOverlap": []
+    },
+    {
+      "file": "blog.html",
+      "width": 834,
+      "height": 1194,
+      "overflow": false,
+      "outside": [],
+      "clipped": [],
+      "heroOverlap": [],
+      "headerOverlap": []
+    },
+    {
+      "file": "blog.html",
+      "width": 768,
+      "height": 1024,
+      "overflow": false,
+      "outside": [],
+      "clipped": [],
+      "heroOverlap": [],
+      "headerOverlap": []
+    },
+    {
+      "file": "blog.html",
+      "width": 767,
+      "height": 800,
+      "overflow": false,
+      "outside": [],
+      "clipped": [],
+      "heroOverlap": [],
+      "headerOverlap": []
+    },
+    {
+      "file": "blog.html",
+      "width": 575,
+      "height": 800,
+      "overflow": false,
+      "outside": [],
+      "clipped": [],
+      "heroOverlap": [],
+      "headerOverlap": []
+    },
+    {
+      "file": "blog.html",
+      "width": 430,
+      "height": 932,
+      "overflow": false,
+      "outside": [],
+      "clipped": [],
+      "heroOverlap": [],
+      "headerOverlap": []
+    },
+    {
+      "file": "blog.html",
+      "width": 414,
+      "height": 896,
+      "overflow": false,
+      "outside": [],
+      "clipped": [],
+      "heroOverlap": [],
+      "headerOverlap": []
+    },
+    {
+      "file": "blog.html",
+      "width": 390,
+      "height": 844,
+      "overflow": false,
+      "outside": [],
+      "clipped": [],
+      "heroOverlap": [],
+      "headerOverlap": []
+    },
+    {
+      "file": "blog.html",
+      "width": 375,
+      "height": 812,
+      "overflow": false,
+      "outside": [],
+      "clipped": [],
+      "heroOverlap": [],
+      "headerOverlap": []
+    },
+    {
+      "file": "blog.html",
+      "width": 360,
+      "height": 800,
+      "overflow": false,
+      "outside": [],
+      "clipped": [],
+      "heroOverlap": [],
+      "headerOverlap": []
+    },
+    {
+      "file": "blog.html",
+      "width": 320,
+      "height": 568,
+      "overflow": false,
+      "outside": [],
+      "clipped": [],
+      "heroOverlap": [],
+      "headerOverlap": []
+    },
+    {
+      "file": "blog.html",
+      "width": 844,
+      "height": 390,
+      "overflow": false,
+      "outside": [],
+      "clipped": [],
+      "heroOverlap": [],
+      "headerOverlap": []
+    },
+    {
+      "file": "blog.html",
+      "width": 667,
+      "height": 375,
+      "overflow": false,
+      "outside": [],
+      "clipped": [],
+      "heroOverlap": [],
+      "headerOverlap": []
+    },
+    {
+      "file": "blog.html",
+      "width": 1300,
+      "height": 850,
+      "overflow": false,
+      "outside": [],
+      "clipped": [],
+      "heroOverlap": [],
+      "headerOverlap": []
+    },
+    {
+      "file": "blog.html",
+      "width": 1199,
+      "height": 850,
+      "overflow": false,
+      "outside": [],
+      "clipped": [],
+      "heroOverlap": [],
+      "headerOverlap": []
+    },
+    {
+      "file": "blog.html",
+      "width": 1100,
+      "height": 850,
+      "overflow": false,
+      "outside": [],
+      "clipped": [],
+      "heroOverlap": [],
+      "headerOverlap": []
+    },
+    {
+      "file": "blog.html",
+      "width": 1050,
+      "height": 850,
+      "overflow": false,
+      "outside": [],
+      "clipped": [],
+      "heroOverlap": [],
+      "headerOverlap": []
+    },
+    {
+      "file": "blog.html",
+      "width": 1000,
+      "height": 850,
+      "overflow": false,
+      "outside": [],
+      "clipped": [],
+      "heroOverlap": [],
+      "headerOverlap": []
+    },
+    {
+      "file": "blog.html",
+      "width": 992,
+      "height": 850,
+      "overflow": false,
+      "outside": [],
+      "clipped": [],
+      "heroOverlap": [],
+      "headerOverlap": []
+    },
+    {
+      "file": "blog.html",
+      "width": 950,
+      "height": 850,
+      "overflow": false,
+      "outside": [],
+      "clipped": [],
+      "heroOverlap": [],
+      "headerOverlap": []
+    },
+    {
+      "file": "blog.html",
+      "width": 900,
+      "height": 850,
+      "overflow": false,
+      "outside": [],
+      "clipped": [],
+      "heroOverlap": [],
+      "headerOverlap": []
+    },
+    {
+      "file": "blog.html",
+      "width": 850,
+      "height": 850,
+      "overflow": false,
+      "outside": [],
+      "clipped": [],
+      "heroOverlap": [],
+      "headerOverlap": []
+    },
+    {
+      "file": "blog.html",
+      "width": 800,
+      "height": 850,
+      "overflow": false,
+      "outside": [],
+      "clipped": [],
+      "heroOverlap": [],
+      "headerOverlap": []
+    },
+    {
+      "file": "blog.html",
+      "width": 750,
+      "height": 850,
+      "overflow": false,
+      "outside": [],
+      "clipped": [],
+      "heroOverlap": [],
+      "headerOverlap": []
+    },
+    {
+      "file": "blog.html",
+      "width": 700,
+      "height": 850,
+      "overflow": false,
+      "outside": [],
+      "clipped": [],
+      "heroOverlap": [],
+      "headerOverlap": []
+    },
+    {
+      "file": "blog.html",
+      "width": 650,
+      "height": 850,
+      "overflow": false,
+      "outside": [],
+      "clipped": [],
+      "heroOverlap": [],
+      "headerOverlap": []
+    },
+    {
+      "file": "blog.html",
+      "width": 600,
+      "height": 850,
+      "overflow": false,
+      "outside": [],
+      "clipped": [],
+      "heroOverlap": [],
+      "headerOverlap": []
+    },
+    {
+      "file": "blog.html",
+      "width": 576,
+      "height": 850,
+      "overflow": false,
+      "outside": [],
+      "clipped": [],
+      "heroOverlap": [],
+      "headerOverlap": []
+    },
+    {
+      "file": "blog.html",
+      "width": 550,
+      "height": 850,
+      "overflow": false,
+      "outside": [],
+      "clipped": [],
+      "heroOverlap": [],
+      "headerOverlap": []
+    },
+    {
+      "file": "blog.html",
+      "width": 500,
+      "height": 850,
+      "overflow": false,
+      "outside": [],
+      "clipped": [],
+      "heroOverlap": [],
+      "headerOverlap": []
+    },
+    {
+      "file": "blog.html",
+      "width": 450,
+      "height": 850,
+      "overflow": false,
+      "outside": [],
+      "clipped": [],
+      "heroOverlap": [],
+      "headerOverlap": []
+    },
+    {
+      "file": "blog.html",
+      "width": 400,
+      "height": 850,
+      "overflow": false,
+      "outside": [],
+      "clipped": [],
+      "heroOverlap": [],
+      "headerOverlap": []
+    },
+    {
+      "file": "blog.html",
+      "width": 350,
+      "height": 850,
+      "overflow": false,
+      "outside": [],
+      "clipped": [],
+      "heroOverlap": [],
+      "headerOverlap": []
+    },
+    {
+      "file": "class-schedule.html",
+      "width": 1920,
+      "height": 1080,
+      "overflow": false,
+      "outside": [],
+      "clipped": [],
+      "heroOverlap": [],
+      "headerOverlap": []
+    },
+    {
+      "file": "class-schedule.html",
+      "width": 1600,
+      "height": 900,
+      "overflow": false,
+      "outside": [],
+      "clipped": [],
+      "heroOverlap": [],
+      "headerOverlap": []
+    },
+    {
+      "file": "class-schedule.html",
+      "width": 1440,
+      "height": 900,
+      "overflow": false,
+      "outside": [],
+      "clipped": [],
+      "heroOverlap": [],
+      "headerOverlap": []
+    },
+    {
+      "file": "class-schedule.html",
+      "width": 1366,
+      "height": 768,
+      "overflow": false,
+      "outside": [],
+      "clipped": [],
+      "heroOverlap": [],
+      "headerOverlap": []
+    },
+    {
+      "file": "class-schedule.html",
+      "width": 1280,
+      "height": 800,
+      "overflow": false,
+      "outside": [],
+      "clipped": [],
+      "heroOverlap": [],
+      "headerOverlap": []
+    },
+    {
+      "file": "class-schedule.html",
+      "width": 1200,
+      "height": 800,
+      "overflow": false,
+      "outside": [],
+      "clipped": [],
+      "heroOverlap": [],
+      "headerOverlap": []
+    },
+    {
+      "file": "class-schedule.html",
+      "width": 1024,
+      "height": 768,
+      "overflow": false,
+      "outside": [],
+      "clipped": [],
+      "heroOverlap": [],
+      "headerOverlap": []
+    },
+    {
+      "file": "class-schedule.html",
+      "width": 991,
+      "height": 900,
+      "overflow": false,
+      "outside": [],
+      "clipped": [],
+      "heroOverlap": [],
+      "headerOverlap": []
+    },
+    {
+      "file": "class-schedule.html",
+      "width": 834,
+      "height": 1194,
+      "overflow": false,
+      "outside": [],
+      "clipped": [],
+      "heroOverlap": [],
+      "headerOverlap": []
+    },
+    {
+      "file": "class-schedule.html",
+      "width": 768,
+      "height": 1024,
+      "overflow": false,
+      "outside": [],
+      "clipped": [],
+      "heroOverlap": [],
+      "headerOverlap": []
+    },
+    {
+      "file": "class-schedule.html",
+      "width": 767,
+      "height": 800,
+      "overflow": false,
+      "outside": [],
+      "clipped": [],
+      "heroOverlap": [],
+      "headerOverlap": []
+    },
+    {
+      "file": "class-schedule.html",
+      "width": 575,
+      "height": 800,
+      "overflow": false,
+      "outside": [],
+      "clipped": [],
+      "heroOverlap": [],
+      "headerOverlap": []
+    },
+    {
+      "file": "class-schedule.html",
+      "width": 430,
+      "height": 932,
+      "overflow": false,
+      "outside": [],
+      "clipped": [],
+      "heroOverlap": [],
+      "headerOverlap": []
+    },
+    {
+      "file": "class-schedule.html",
+      "width": 414,
+      "height": 896,
+      "overflow": false,
+      "outside": [],
+      "clipped": [],
+      "heroOverlap": [],
+      "headerOverlap": []
+    },
+    {
+      "file": "class-schedule.html",
+      "width": 390,
+      "height": 844,
+      "overflow": false,
+      "outside": [],
+      "clipped": [],
+      "heroOverlap": [],
+      "headerOverlap": []
+    },
+    {
+      "file": "class-schedule.html",
+      "width": 375,
+      "height": 812,
+      "overflow": false,
+      "outside": [],
+      "clipped": [],
+      "heroOverlap": [],
+      "headerOverlap": []
+    },
+    {
+      "file": "class-schedule.html",
+      "width": 360,
+      "height": 800,
+      "overflow": false,
+      "outside": [],
+      "clipped": [],
+      "heroOverlap": [],
+      "headerOverlap": []
+    },
+    {
+      "file": "class-schedule.html",
+      "width": 320,
+      "height": 568,
+      "overflow": false,
+      "outside": [],
+      "clipped": [],
+      "heroOverlap": [],
+      "headerOverlap": []
+    },
+    {
+      "file": "class-schedule.html",
+      "width": 844,
+      "height": 390,
+      "overflow": false,
+      "outside": [],
+      "clipped": [],
+      "heroOverlap": [],
+      "headerOverlap": []
+    },
+    {
+      "file": "class-schedule.html",
+      "width": 667,
+      "height": 375,
+      "overflow": false,
+      "outside": [],
+      "clipped": [],
+      "heroOverlap": [],
+      "headerOverlap": []
+    },
+    {
+      "file": "class-schedule.html",
+      "width": 1300,
+      "height": 850,
+      "overflow": false,
+      "outside": [],
+      "clipped": [],
+      "heroOverlap": [],
+      "headerOverlap": []
+    },
+    {
+      "file": "class-schedule.html",
+      "width": 1199,
+      "height": 850,
+      "overflow": false,
+      "outside": [],
+      "clipped": [],
+      "heroOverlap": [],
+      "headerOverlap": []
+    },
+    {
+      "file": "class-schedule.html",
+      "width": 1100,
+      "height": 850,
+      "overflow": false,
+      "outside": [],
+      "clipped": [],
+      "heroOverlap": [],
+      "headerOverlap": []
+    },
+    {
+      "file": "class-schedule.html",
+      "width": 1050,
+      "height": 850,
+      "overflow": false,
+      "outside": [],
+      "clipped": [],
+      "heroOverlap": [],
+      "headerOverlap": []
+    },
+    {
+      "file": "class-schedule.html",
+      "width": 1000,
+      "height": 850,
+      "overflow": false,
+      "outside": [],
+      "clipped": [],
+      "heroOverlap": [],
+      "headerOverlap": []
+    },
+    {
+      "file": "class-schedule.html",
+      "width": 992,
+      "height": 850,
+      "overflow": false,
+      "outside": [],
+      "clipped": [],
+      "heroOverlap": [],
+      "headerOverlap": []
+    },
+    {
+      "file": "class-schedule.html",
+      "width": 950,
+      "height": 850,
+      "overflow": false,
+      "outside": [],
+      "clipped": [],
+      "heroOverlap": [],
+      "headerOverlap": []
+    },
+    {
+      "file": "class-schedule.html",
+      "width": 900,
+      "height": 850,
+      "overflow": false,
+      "outside": [],
+      "clipped": [],
+      "heroOverlap": [],
+      "headerOverlap": []
+    },
+    {
+      "file": "class-schedule.html",
+      "width": 850,
+      "height": 850,
+      "overflow": false,
+      "outside": [],
+      "clipped": [],
+      "heroOverlap": [],
+      "headerOverlap": []
+    },
+    {
+      "file": "class-schedule.html",
+      "width": 800,
+      "height": 850,
+      "overflow": false,
+      "outside": [],
+      "clipped": [],
+      "heroOverlap": [],
+      "headerOverlap": []
+    },
+    {
+      "file": "class-schedule.html",
+      "width": 750,
+      "height": 850,
+      "overflow": false,
+      "outside": [],
+      "clipped": [],
+      "heroOverlap": [],
+      "headerOverlap": []
+    },
+    {
+      "file": "class-schedule.html",
+      "width": 700,
+      "height": 850,
+      "overflow": false,
+      "outside": [],
+      "clipped": [],
+      "heroOverlap": [],
+      "headerOverlap": []
+    },
+    {
+      "file": "class-schedule.html",
+      "width": 650,
+      "height": 850,
+      "overflow": false,
+      "outside": [],
+      "clipped": [],
+      "heroOverlap": [],
+      "headerOverlap": []
+    },
+    {
+      "file": "class-schedule.html",
+      "width": 600,
+      "height": 850,
+      "overflow": false,
+      "outside": [],
+      "clipped": [],
+      "heroOverlap": [],
+      "headerOverlap": []
+    },
+    {
+      "file": "class-schedule.html",
+      "width": 576,
+      "height": 850,
+      "overflow": false,
+      "outside": [],
+      "clipped": [],
+      "heroOverlap": [],
+      "headerOverlap": []
+    },
+    {
+      "file": "class-schedule.html",
+      "width": 550,
+      "height": 850,
+      "overflow": false,
+      "outside": [],
+      "clipped": [],
+      "heroOverlap": [],
+      "headerOverlap": []
+    },
+    {
+      "file": "class-schedule.html",
+      "width": 500,
+      "height": 850,
+      "overflow": false,
+      "outside": [],
+      "clipped": [],
+      "heroOverlap": [],
+      "headerOverlap": []
+    },
+    {
+      "file": "class-schedule.html",
+      "width": 450,
+      "height": 850,
+      "overflow": false,
+      "outside": [],
+      "clipped": [],
+      "heroOverlap": [],
+      "headerOverlap": []
+    },
+    {
+      "file": "class-schedule.html",
+      "width": 400,
+      "height": 850,
+      "overflow": false,
+      "outside": [],
+      "clipped": [],
+      "heroOverlap": [],
+      "headerOverlap": []
+    },
+    {
+      "file": "class-schedule.html",
+      "width": 350,
+      "height": 850,
+      "overflow": false,
+      "outside": [],
+      "clipped": [],
+      "heroOverlap": [],
+      "headerOverlap": []
+    },
+    {
+      "file": "facilities.html",
+      "width": 1920,
+      "height": 1080,
+      "overflow": false,
+      "outside": [],
+      "clipped": [],
+      "heroOverlap": [],
+      "headerOverlap": []
+    },
+    {
+      "file": "facilities.html",
+      "width": 1600,
+      "height": 900,
+      "overflow": false,
+      "outside": [],
+      "clipped": [],
+      "heroOverlap": [],
+      "headerOverlap": []
+    },
+    {
+      "file": "facilities.html",
+      "width": 1440,
+      "height": 900,
+      "overflow": false,
+      "outside": [],
+      "clipped": [],
+      "heroOverlap": [],
+      "headerOverlap": []
+    },
+    {
+      "file": "facilities.html",
+      "width": 1366,
+      "height": 768,
+      "overflow": false,
+      "outside": [],
+      "clipped": [],
+      "heroOverlap": [],
+      "headerOverlap": []
+    },
+    {
+      "file": "facilities.html",
+      "width": 1280,
+      "height": 800,
+      "overflow": false,
+      "outside": [],
+      "clipped": [],
+      "heroOverlap": [],
+      "headerOverlap": []
+    },
+    {
+      "file": "facilities.html",
+      "width": 1200,
+      "height": 800,
+      "overflow": false,
+      "outside": [],
+      "clipped": [],
+      "heroOverlap": [],
+      "headerOverlap": []
+    },
+    {
+      "file": "facilities.html",
+      "width": 1024,
+      "height": 768,
+      "overflow": false,
+      "outside": [],
+      "clipped": [],
+      "heroOverlap": [],
+      "headerOverlap": []
+    },
+    {
+      "file": "facilities.html",
+      "width": 991,
+      "height": 900,
+      "overflow": false,
+      "outside": [],
+      "clipped": [],
+      "heroOverlap": [],
+      "headerOverlap": []
+    },
+    {
+      "file": "facilities.html",
+      "width": 834,
+      "height": 1194,
+      "overflow": false,
+      "outside": [],
+      "clipped": [],
+      "heroOverlap": [],
+      "headerOverlap": []
+    },
+    {
+      "file": "facilities.html",
+      "width": 768,
+      "height": 1024,
+      "overflow": false,
+      "outside": [],
+      "clipped": [],
+      "heroOverlap": [],
+      "headerOverlap": []
+    },
+    {
+      "file": "facilities.html",
+      "width": 767,
+      "height": 800,
+      "overflow": false,
+      "outside": [],
+      "clipped": [],
+      "heroOverlap": [],
+      "headerOverlap": []
+    },
+    {
+      "file": "facilities.html",
+      "width": 575,
+      "height": 800,
+      "overflow": false,
+      "outside": [],
+      "clipped": [],
+      "heroOverlap": [],
+      "headerOverlap": []
+    },
+    {
+      "file": "facilities.html",
+      "width": 430,
+      "height": 932,
+      "overflow": false,
+      "outside": [],
+      "clipped": [],
+      "heroOverlap": [],
+      "headerOverlap": []
+    },
+    {
+      "file": "facilities.html",
+      "width": 414,
+      "height": 896,
+      "overflow": false,
+      "outside": [],
+      "clipped": [],
+      "heroOverlap": [],
+      "headerOverlap": []
+    },
+    {
+      "file": "facilities.html",
+      "width": 390,
+      "height": 844,
+      "overflow": false,
+      "outside": [],
+      "clipped": [],
+      "heroOverlap": [],
+      "headerOverlap": []
+    },
+    {
+      "file": "facilities.html",
+      "width": 375,
+      "height": 812,
+      "overflow": false,
+      "outside": [],
+      "clipped": [],
+      "heroOverlap": [],
+      "headerOverlap": []
+    },
+    {
+      "file": "facilities.html",
+      "width": 360,
+      "height": 800,
+      "overflow": false,
+      "outside": [],
+      "clipped": [],
+      "heroOverlap": [],
+      "headerOverlap": []
+    },
+    {
+      "file": "facilities.html",
+      "width": 320,
+      "height": 568,
+      "overflow": false,
+      "outside": [],
+      "clipped": [],
+      "heroOverlap": [],
+      "headerOverlap": []
+    },
+    {
+      "file": "facilities.html",
+      "width": 844,
+      "height": 390,
+      "overflow": false,
+      "outside": [],
+      "clipped": [],
+      "heroOverlap": [],
+      "headerOverlap": []
+    },
+    {
+      "file": "facilities.html",
+      "width": 667,
+      "height": 375,
+      "overflow": false,
+      "outside": [],
+      "clipped": [],
+      "heroOverlap": [],
+      "headerOverlap": []
+    },
+    {
+      "file": "facilities.html",
+      "width": 1300,
+      "height": 850,
+      "overflow": false,
+      "outside": [],
+      "clipped": [],
+      "heroOverlap": [],
+      "headerOverlap": []
+    },
+    {
+      "file": "facilities.html",
+      "width": 1199,
+      "height": 850,
+      "overflow": false,
+      "outside": [],
+      "clipped": [],
+      "heroOverlap": [],
+      "headerOverlap": []
+    },
+    {
+      "file": "facilities.html",
+      "width": 1100,
+      "height": 850,
+      "overflow": false,
+      "outside": [],
+      "clipped": [],
+      "heroOverlap": [],
+      "headerOverlap": []
+    },
+    {
+      "file": "facilities.html",
+      "width": 1050,
+      "height": 850,
+      "overflow": false,
+      "outside": [],
+      "clipped": [],
+      "heroOverlap": [],
+      "headerOverlap": []
+    },
+    {
+      "file": "facilities.html",
+      "width": 1000,
+      "height": 850,
+      "overflow": false,
+      "outside": [],
+      "clipped": [],
+      "heroOverlap": [],
+      "headerOverlap": []
+    },
+    {
+      "file": "facilities.html",
+      "width": 992,
+      "height": 850,
+      "overflow": false,
+      "outside": [],
+      "clipped": [],
+      "heroOverlap": [],
+      "headerOverlap": []
+    },
+    {
+      "file": "facilities.html",
+      "width": 950,
+      "height": 850,
+      "overflow": false,
+      "outside": [],
+      "clipped": [],
+      "heroOverlap": [],
+      "headerOverlap": []
+    },
+    {
+      "file": "facilities.html",
+      "width": 900,
+      "height": 850,
+      "overflow": false,
+      "outside": [],
+      "clipped": [],
+      "heroOverlap": [],
+      "headerOverlap": []
+    },
+    {
+      "file": "facilities.html",
+      "width": 850,
+      "height": 850,
+      "overflow": false,
+      "outside": [],
+      "clipped": [],
+      "heroOverlap": [],
+      "headerOverlap": []
+    },
+    {
+      "file": "facilities.html",
+      "width": 800,
+      "height": 850,
+      "overflow": false,
+      "outside": [],
+      "clipped": [],
+      "heroOverlap": [],
+      "headerOverlap": []
+    },
+    {
+      "file": "facilities.html",
+      "width": 750,
+      "height": 850,
+      "overflow": false,
+      "outside": [],
+      "clipped": [],
+      "heroOverlap": [],
+      "headerOverlap": []
+    },
+    {
+      "file": "facilities.html",
+      "width": 700,
+      "height": 850,
+      "overflow": false,
+      "outside": [],
+      "clipped": [],
+      "heroOverlap": [],
+      "headerOverlap": []
+    },
+    {
+      "file": "facilities.html",
+      "width": 650,
+      "height": 850,
+      "overflow": false,
+      "outside": [],
+      "clipped": [],
+      "heroOverlap": [],
+      "headerOverlap": []
+    },
+    {
+      "file": "facilities.html",
+      "width": 600,
+      "height": 850,
+      "overflow": false,
+      "outside": [],
+      "clipped": [],
+      "heroOverlap": [],
+      "headerOverlap": []
+    },
+    {
+      "file": "facilities.html",
+      "width": 576,
+      "height": 850,
+      "overflow": false,
+      "outside": [],
+      "clipped": [],
+      "heroOverlap": [],
+      "headerOverlap": []
+    },
+    {
+      "file": "facilities.html",
+      "width": 550,
+      "height": 850,
+      "overflow": false,
+      "outside": [],
+      "clipped": [],
+      "heroOverlap": [],
+      "headerOverlap": []
+    },
+    {
+      "file": "facilities.html",
+      "width": 500,
+      "height": 850,
+      "overflow": false,
+      "outside": [],
+      "clipped": [],
+      "heroOverlap": [],
+      "headerOverlap": []
+    },
+    {
+      "file": "facilities.html",
+      "width": 450,
+      "height": 850,
+      "overflow": false,
+      "outside": [],
+      "clipped": [],
+      "heroOverlap": [],
+      "headerOverlap": []
+    },
+    {
+      "file": "facilities.html",
+      "width": 400,
+      "height": 850,
+      "overflow": false,
+      "outside": [],
+      "clipped": [],
+      "heroOverlap": [],
+      "headerOverlap": []
+    },
+    {
+      "file": "facilities.html",
+      "width": 350,
+      "height": 850,
+      "overflow": false,
+      "outside": [],
+      "clipped": [],
+      "heroOverlap": [],
+      "headerOverlap": []
+    },
+    {
+      "file": "index.html",
+      "width": 1920,
+      "height": 1080,
+      "overflow": false,
+      "outside": [],
+      "clipped": [],
+      "heroOverlap": [],
+      "headerOverlap": []
+    },
+    {
+      "file": "index.html",
+      "width": 1600,
+      "height": 900,
+      "overflow": false,
+      "outside": [],
+      "clipped": [],
+      "heroOverlap": [],
+      "headerOverlap": []
+    },
+    {
+      "file": "index.html",
+      "width": 1440,
+      "height": 900,
+      "overflow": false,
+      "outside": [],
+      "clipped": [],
+      "heroOverlap": [],
+      "headerOverlap": []
+    },
+    {
+      "file": "index.html",
+      "width": 1366,
+      "height": 768,
+      "overflow": false,
+      "outside": [],
+      "clipped": [],
+      "heroOverlap": [],
+      "headerOverlap": []
+    },
+    {
+      "file": "index.html",
+      "width": 1280,
+      "height": 800,
+      "overflow": false,
+      "outside": [],
+      "clipped": [],
+      "heroOverlap": [],
+      "headerOverlap": []
+    },
+    {
+      "file": "index.html",
+      "width": 1200,
+      "height": 800,
+      "overflow": false,
+      "outside": [],
+      "clipped": [],
+      "heroOverlap": [],
+      "headerOverlap": []
+    },
+    {
+      "file": "index.html",
+      "width": 1024,
+      "height": 768,
+      "overflow": false,
+      "outside": [],
+      "clipped": [],
+      "heroOverlap": [],
+      "headerOverlap": []
+    },
+    {
+      "file": "index.html",
+      "width": 991,
+      "height": 900,
+      "overflow": false,
+      "outside": [],
+      "clipped": [],
+      "heroOverlap": [],
+      "headerOverlap": []
+    },
+    {
+      "file": "index.html",
+      "width": 834,
+      "height": 1194,
+      "overflow": false,
+      "outside": [],
+      "clipped": [],
+      "heroOverlap": [],
+      "headerOverlap": []
+    },
+    {
+      "file": "index.html",
+      "width": 768,
+      "height": 1024,
+      "overflow": false,
+      "outside": [],
+      "clipped": [],
+      "heroOverlap": [],
+      "headerOverlap": []
+    },
+    {
+      "file": "index.html",
+      "width": 767,
+      "height": 800,
+      "overflow": false,
+      "outside": [],
+      "clipped": [],
+      "heroOverlap": [],
+      "headerOverlap": []
+    },
+    {
+      "file": "index.html",
+      "width": 575,
+      "height": 800,
+      "overflow": false,
+      "outside": [],
+      "clipped": [],
+      "heroOverlap": [],
+      "headerOverlap": []
+    },
+    {
+      "file": "index.html",
+      "width": 430,
+      "height": 932,
+      "overflow": false,
+      "outside": [],
+      "clipped": [],
+      "heroOverlap": [],
+      "headerOverlap": []
+    },
+    {
+      "file": "index.html",
+      "width": 414,
+      "height": 896,
+      "overflow": false,
+      "outside": [],
+      "clipped": [],
+      "heroOverlap": [],
+      "headerOverlap": []
+    },
+    {
+      "file": "index.html",
+      "width": 390,
+      "height": 844,
+      "overflow": false,
+      "outside": [],
+      "clipped": [],
+      "heroOverlap": [],
+      "headerOverlap": []
+    },
+    {
+      "file": "index.html",
+      "width": 375,
+      "height": 812,
+      "overflow": false,
+      "outside": [],
+      "clipped": [],
+      "heroOverlap": [],
+      "headerOverlap": []
+    },
+    {
+      "file": "index.html",
+      "width": 360,
+      "height": 800,
+      "overflow": false,
+      "outside": [],
+      "clipped": [],
+      "heroOverlap": [],
+      "headerOverlap": []
+    },
+    {
+      "file": "index.html",
+      "width": 320,
+      "height": 568,
+      "overflow": false,
+      "outside": [],
+      "clipped": [],
+      "heroOverlap": [],
+      "headerOverlap": []
+    },
+    {
+      "file": "index.html",
+      "width": 844,
+      "height": 390,
+      "overflow": false,
+      "outside": [],
+      "clipped": [],
+      "heroOverlap": [],
+      "headerOverlap": []
+    },
+    {
+      "file": "index.html",
+      "width": 667,
+      "height": 375,
+      "overflow": false,
+      "outside": [],
+      "clipped": [],
+      "heroOverlap": [],
+      "headerOverlap": []
+    },
+    {
+      "file": "index.html",
+      "width": 1300,
+      "height": 850,
+      "overflow": false,
+      "outside": [],
+      "clipped": [],
+      "heroOverlap": [],
+      "headerOverlap": []
+    },
+    {
+      "file": "index.html",
+      "width": 1199,
+      "height": 850,
+      "overflow": false,
+      "outside": [],
+      "clipped": [],
+      "heroOverlap": [],
+      "headerOverlap": []
+    },
+    {
+      "file": "index.html",
+      "width": 1100,
+      "height": 850,
+      "overflow": false,
+      "outside": [],
+      "clipped": [],
+      "heroOverlap": [],
+      "headerOverlap": []
+    },
+    {
+      "file": "index.html",
+      "width": 1050,
+      "height": 850,
+      "overflow": false,
+      "outside": [],
+      "clipped": [],
+      "heroOverlap": [],
+      "headerOverlap": []
+    },
+    {
+      "file": "index.html",
+      "width": 1000,
+      "height": 850,
+      "overflow": false,
+      "outside": [],
+      "clipped": [],
+      "heroOverlap": [],
+      "headerOverlap": []
+    },
+    {
+      "file": "index.html",
+      "width": 992,
+      "height": 850,
+      "overflow": false,
+      "outside": [],
+      "clipped": [],
+      "heroOverlap": [],
+      "headerOverlap": []
+    },
+    {
+      "file": "index.html",
+      "width": 950,
+      "height": 850,
+      "overflow": false,
+      "outside": [],
+      "clipped": [],
+      "heroOverlap": [],
+      "headerOverlap": []
+    },
+    {
+      "file": "index.html",
+      "width": 900,
+      "height": 850,
+      "overflow": false,
+      "outside": [],
+      "clipped": [],
+      "heroOverlap": [],
+      "headerOverlap": []
+    },
+    {
+      "file": "index.html",
+      "width": 850,
+      "height": 850,
+      "overflow": false,
+      "outside": [],
+      "clipped": [],
+      "heroOverlap": [],
+      "headerOverlap": []
+    },
+    {
+      "file": "index.html",
+      "width": 800,
+      "height": 850,
+      "overflow": false,
+      "outside": [],
+      "clipped": [],
+      "heroOverlap": [],
+      "headerOverlap": []
+    },
+    {
+      "file": "index.html",
+      "width": 750,
+      "height": 850,
+      "overflow": false,
+      "outside": [],
+      "clipped": [],
+      "heroOverlap": [],
+      "headerOverlap": []
+    },
+    {
+      "file": "index.html",
+      "width": 700,
+      "height": 850,
+      "overflow": false,
+      "outside": [],
+      "clipped": [],
+      "heroOverlap": [],
+      "headerOverlap": []
+    },
+    {
+      "file": "index.html",
+      "width": 650,
+      "height": 850,
+      "overflow": false,
+      "outside": [],
+      "clipped": [],
+      "heroOverlap": [],
+      "headerOverlap": []
+    },
+    {
+      "file": "index.html",
+      "width": 600,
+      "height": 850,
+      "overflow": false,
+      "outside": [],
+      "clipped": [],
+      "heroOverlap": [],
+      "headerOverlap": []
+    },
+    {
+      "file": "index.html",
+      "width": 576,
+      "height": 850,
+      "overflow": false,
+      "outside": [],
+      "clipped": [],
+      "heroOverlap": [],
+      "headerOverlap": []
+    },
+    {
+      "file": "index.html",
+      "width": 550,
+      "height": 850,
+      "overflow": false,
+      "outside": [],
+      "clipped": [],
+      "heroOverlap": [],
+      "headerOverlap": []
+    },
+    {
+      "file": "index.html",
+      "width": 500,
+      "height": 850,
+      "overflow": false,
+      "outside": [],
+      "clipped": [],
+      "heroOverlap": [],
+      "headerOverlap": []
+    },
+    {
+      "file": "index.html",
+      "width": 450,
+      "height": 850,
+      "overflow": false,
+      "outside": [],
+      "clipped": [],
+      "heroOverlap": [],
+      "headerOverlap": []
+    },
+    {
+      "file": "index.html",
+      "width": 400,
+      "height": 850,
+      "overflow": false,
+      "outside": [],
+      "clipped": [],
+      "heroOverlap": [],
+      "headerOverlap": []
+    },
+    {
+      "file": "index.html",
+      "width": 350,
+      "height": 850,
+      "overflow": false,
+      "outside": [],
+      "clipped": [],
+      "heroOverlap": [],
+      "headerOverlap": []
+    },
+    {
+      "file": "locations.html",
+      "width": 1920,
+      "height": 1080,
+      "overflow": false,
+      "outside": [],
+      "clipped": [],
+      "heroOverlap": [],
+      "headerOverlap": []
+    },
+    {
+      "file": "locations.html",
+      "width": 1600,
+      "height": 900,
+      "overflow": false,
+      "outside": [],
+      "clipped": [],
+      "heroOverlap": [],
+      "headerOverlap": []
+    },
+    {
+      "file": "locations.html",
+      "width": 1440,
+      "height": 900,
+      "overflow": false,
+      "outside": [],
+      "clipped": [],
+      "heroOverlap": [],
+      "headerOverlap": []
+    },
+    {
+      "file": "locations.html",
+      "width": 1366,
+      "height": 768,
+      "overflow": false,
+      "outside": [],
+      "clipped": [],
+      "heroOverlap": [],
+      "headerOverlap": []
+    },
+    {
+      "file": "locations.html",
+      "width": 1280,
+      "height": 800,
+      "overflow": false,
+      "outside": [],
+      "clipped": [],
+      "heroOverlap": [],
+      "headerOverlap": []
+    },
+    {
+      "file": "locations.html",
+      "width": 1200,
+      "height": 800,
+      "overflow": false,
+      "outside": [],
+      "clipped": [],
+      "heroOverlap": [],
+      "headerOverlap": []
+    },
+    {
+      "file": "locations.html",
+      "width": 1024,
+      "height": 768,
+      "overflow": false,
+      "outside": [],
+      "clipped": [],
+      "heroOverlap": [],
+      "headerOverlap": []
+    },
+    {
+      "file": "locations.html",
+      "width": 991,
+      "height": 900,
+      "overflow": false,
+      "outside": [],
+      "clipped": [],
+      "heroOverlap": [],
+      "headerOverlap": []
+    },
+    {
+      "file": "locations.html",
+      "width": 834,
+      "height": 1194,
+      "overflow": false,
+      "outside": [],
+      "clipped": [],
+      "heroOverlap": [],
+      "headerOverlap": []
+    },
+    {
+      "file": "locations.html",
+      "width": 768,
+      "height": 1024,
+      "overflow": false,
+      "outside": [],
+      "clipped": [],
+      "heroOverlap": [],
+      "headerOverlap": []
+    },
+    {
+      "file": "locations.html",
+      "width": 767,
+      "height": 800,
+      "overflow": false,
+      "outside": [],
+      "clipped": [],
+      "heroOverlap": [],
+      "headerOverlap": []
+    },
+    {
+      "file": "locations.html",
+      "width": 575,
+      "height": 800,
+      "overflow": false,
+      "outside": [],
+      "clipped": [],
+      "heroOverlap": [],
+      "headerOverlap": []
+    },
+    {
+      "file": "locations.html",
+      "width": 430,
+      "height": 932,
+      "overflow": false,
+      "outside": [],
+      "clipped": [],
+      "heroOverlap": [],
+      "headerOverlap": []
+    },
+    {
+      "file": "locations.html",
+      "width": 414,
+      "height": 896,
+      "overflow": false,
+      "outside": [],
+      "clipped": [],
+      "heroOverlap": [],
+      "headerOverlap": []
+    },
+    {
+      "file": "locations.html",
+      "width": 390,
+      "height": 844,
+      "overflow": false,
+      "outside": [],
+      "clipped": [],
+      "heroOverlap": [],
+      "headerOverlap": []
+    },
+    {
+      "file": "locations.html",
+      "width": 375,
+      "height": 812,
+      "overflow": false,
+      "outside": [],
+      "clipped": [],
+      "heroOverlap": [],
+      "headerOverlap": []
+    },
+    {
+      "file": "locations.html",
+      "width": 360,
+      "height": 800,
+      "overflow": false,
+      "outside": [],
+      "clipped": [],
+      "heroOverlap": [],
+      "headerOverlap": []
+    },
+    {
+      "file": "locations.html",
+      "width": 320,
+      "height": 568,
+      "overflow": false,
+      "outside": [],
+      "clipped": [],
+      "heroOverlap": [],
+      "headerOverlap": []
+    },
+    {
+      "file": "locations.html",
+      "width": 844,
+      "height": 390,
+      "overflow": false,
+      "outside": [],
+      "clipped": [],
+      "heroOverlap": [],
+      "headerOverlap": []
+    },
+    {
+      "file": "locations.html",
+      "width": 667,
+      "height": 375,
+      "overflow": false,
+      "outside": [],
+      "clipped": [],
+      "heroOverlap": [],
+      "headerOverlap": []
+    },
+    {
+      "file": "locations.html",
+      "width": 1300,
+      "height": 850,
+      "overflow": false,
+      "outside": [],
+      "clipped": [],
+      "heroOverlap": [],
+      "headerOverlap": []
+    },
+    {
+      "file": "locations.html",
+      "width": 1199,
+      "height": 850,
+      "overflow": false,
+      "outside": [],
+      "clipped": [],
+      "heroOverlap": [],
+      "headerOverlap": []
+    },
+    {
+      "file": "locations.html",
+      "width": 1100,
+      "height": 850,
+      "overflow": false,
+      "outside": [],
+      "clipped": [],
+      "heroOverlap": [],
+      "headerOverlap": []
+    },
+    {
+      "file": "locations.html",
+      "width": 1050,
+      "height": 850,
+      "overflow": false,
+      "outside": [],
+      "clipped": [],
+      "heroOverlap": [],
+      "headerOverlap": []
+    },
+    {
+      "file": "locations.html",
+      "width": 1000,
+      "height": 850,
+      "overflow": false,
+      "outside": [],
+      "clipped": [],
+      "heroOverlap": [],
+      "headerOverlap": []
+    },
+    {
+      "file": "locations.html",
+      "width": 992,
+      "height": 850,
+      "overflow": false,
+      "outside": [],
+      "clipped": [],
+      "heroOverlap": [],
+      "headerOverlap": []
+    },
+    {
+      "file": "locations.html",
+      "width": 950,
+      "height": 850,
+      "overflow": false,
+      "outside": [],
+      "clipped": [],
+      "heroOverlap": [],
+      "headerOverlap": []
+    },
+    {
+      "file": "locations.html",
+      "width": 900,
+      "height": 850,
+      "overflow": false,
+      "outside": [],
+      "clipped": [],
+      "heroOverlap": [],
+      "headerOverlap": []
+    },
+    {
+      "file": "locations.html",
+      "width": 850,
+      "height": 850,
+      "overflow": false,
+      "outside": [],
+      "clipped": [],
+      "heroOverlap": [],
+      "headerOverlap": []
+    },
+    {
+      "file": "locations.html",
+      "width": 800,
+      "height": 850,
+      "overflow": false,
+      "outside": [],
+      "clipped": [],
+      "heroOverlap": [],
+      "headerOverlap": []
+    },
+    {
+      "file": "locations.html",
+      "width": 750,
+      "height": 850,
+      "overflow": false,
+      "outside": [],
+      "clipped": [],
+      "heroOverlap": [],
+      "headerOverlap": []
+    },
+    {
+      "file": "locations.html",
+      "width": 700,
+      "height": 850,
+      "overflow": false,
+      "outside": [],
+      "clipped": [],
+      "heroOverlap": [],
+      "headerOverlap": []
+    },
+    {
+      "file": "locations.html",
+      "width": 650,
+      "height": 850,
+      "overflow": false,
+      "outside": [],
+      "clipped": [],
+      "heroOverlap": [],
+      "headerOverlap": []
+    },
+    {
+      "file": "locations.html",
+      "width": 600,
+      "height": 850,
+      "overflow": false,
+      "outside": [],
+      "clipped": [],
+      "heroOverlap": [],
+      "headerOverlap": []
+    },
+    {
+      "file": "locations.html",
+      "width": 576,
+      "height": 850,
+      "overflow": false,
+      "outside": [],
+      "clipped": [],
+      "heroOverlap": [],
+      "headerOverlap": []
+    },
+    {
+      "file": "locations.html",
+      "width": 550,
+      "height": 850,
+      "overflow": false,
+      "outside": [],
+      "clipped": [],
+      "heroOverlap": [],
+      "headerOverlap": []
+    },
+    {
+      "file": "locations.html",
+      "width": 500,
+      "height": 850,
+      "overflow": false,
+      "outside": [],
+      "clipped": [],
+      "heroOverlap": [],
+      "headerOverlap": []
+    },
+    {
+      "file": "locations.html",
+      "width": 450,
+      "height": 850,
+      "overflow": false,
+      "outside": [],
+      "clipped": [],
+      "heroOverlap": [],
+      "headerOverlap": []
+    },
+    {
+      "file": "locations.html",
+      "width": 400,
+      "height": 850,
+      "overflow": false,
+      "outside": [],
+      "clipped": [],
+      "heroOverlap": [],
+      "headerOverlap": []
+    },
+    {
+      "file": "locations.html",
+      "width": 350,
+      "height": 850,
+      "overflow": false,
+      "outside": [],
+      "clipped": [],
+      "heroOverlap": [],
+      "headerOverlap": []
+    },
+    {
+      "file": "membership.html",
+      "width": 1920,
+      "height": 1080,
+      "overflow": false,
+      "outside": [],
+      "clipped": [],
+      "heroOverlap": [],
+      "headerOverlap": []
+    },
+    {
+      "file": "membership.html",
+      "width": 1600,
+      "height": 900,
+      "overflow": false,
+      "outside": [],
+      "clipped": [],
+      "heroOverlap": [],
+      "headerOverlap": []
+    },
+    {
+      "file": "membership.html",
+      "width": 1440,
+      "height": 900,
+      "overflow": false,
+      "outside": [],
+      "clipped": [],
+      "heroOverlap": [],
+      "headerOverlap": []
+    },
+    {
+      "file": "membership.html",
+      "width": 1366,
+      "height": 768,
+      "overflow": false,
+      "outside": [],
+      "clipped": [],
+      "heroOverlap": [],
+      "headerOverlap": []
+    },
+    {
+      "file": "membership.html",
+      "width": 1280,
+      "height": 800,
+      "overflow": false,
+      "outside": [],
+      "clipped": [],
+      "heroOverlap": [],
+      "headerOverlap": []
+    },
+    {
+      "file": "membership.html",
+      "width": 1200,
+      "height": 800,
+      "overflow": false,
+      "outside": [],
+      "clipped": [],
+      "heroOverlap": [],
+      "headerOverlap": []
+    },
+    {
+      "file": "membership.html",
+      "width": 1024,
+      "height": 768,
+      "overflow": false,
+      "outside": [],
+      "clipped": [],
+      "heroOverlap": [],
+      "headerOverlap": []
+    },
+    {
+      "file": "membership.html",
+      "width": 991,
+      "height": 900,
+      "overflow": false,
+      "outside": [],
+      "clipped": [],
+      "heroOverlap": [],
+      "headerOverlap": []
+    },
+    {
+      "file": "membership.html",
+      "width": 834,
+      "height": 1194,
+      "overflow": false,
+      "outside": [],
+      "clipped": [],
+      "heroOverlap": [],
+      "headerOverlap": []
+    },
+    {
+      "file": "membership.html",
+      "width": 768,
+      "height": 1024,
+      "overflow": false,
+      "outside": [],
+      "clipped": [],
+      "heroOverlap": [],
+      "headerOverlap": []
+    },
+    {
+      "file": "membership.html",
+      "width": 767,
+      "height": 800,
+      "overflow": false,
+      "outside": [],
+      "clipped": [],
+      "heroOverlap": [],
+      "headerOverlap": []
+    },
+    {
+      "file": "membership.html",
+      "width": 575,
+      "height": 800,
+      "overflow": false,
+      "outside": [],
+      "clipped": [],
+      "heroOverlap": [],
+      "headerOverlap": []
+    },
+    {
+      "file": "membership.html",
+      "width": 430,
+      "height": 932,
+      "overflow": false,
+      "outside": [],
+      "clipped": [],
+      "heroOverlap": [],
+      "headerOverlap": []
+    },
+    {
+      "file": "membership.html",
+      "width": 414,
+      "height": 896,
+      "overflow": false,
+      "outside": [],
+      "clipped": [],
+      "heroOverlap": [],
+      "headerOverlap": []
+    },
+    {
+      "file": "membership.html",
+      "width": 390,
+      "height": 844,
+      "overflow": false,
+      "outside": [],
+      "clipped": [],
+      "heroOverlap": [],
+      "headerOverlap": []
+    },
+    {
+      "file": "membership.html",
+      "width": 375,
+      "height": 812,
+      "overflow": false,
+      "outside": [],
+      "clipped": [],
+      "heroOverlap": [],
+      "headerOverlap": []
+    },
+    {
+      "file": "membership.html",
+      "width": 360,
+      "height": 800,
+      "overflow": false,
+      "outside": [],
+      "clipped": [],
+      "heroOverlap": [],
+      "headerOverlap": []
+    },
+    {
+      "file": "membership.html",
+      "width": 320,
+      "height": 568,
+      "overflow": false,
+      "outside": [],
+      "clipped": [],
+      "heroOverlap": [],
+      "headerOverlap": []
+    },
+    {
+      "file": "membership.html",
+      "width": 844,
+      "height": 390,
+      "overflow": false,
+      "outside": [],
+      "clipped": [],
+      "heroOverlap": [],
+      "headerOverlap": []
+    },
+    {
+      "file": "membership.html",
+      "width": 667,
+      "height": 375,
+      "overflow": false,
+      "outside": [],
+      "clipped": [],
+      "heroOverlap": [],
+      "headerOverlap": []
+    },
+    {
+      "file": "membership.html",
+      "width": 1300,
+      "height": 850,
+      "overflow": false,
+      "outside": [],
+      "clipped": [],
+      "heroOverlap": [],
+      "headerOverlap": []
+    },
+    {
+      "file": "membership.html",
+      "width": 1199,
+      "height": 850,
+      "overflow": false,
+      "outside": [],
+      "clipped": [],
+      "heroOverlap": [],
+      "headerOverlap": []
+    },
+    {
+      "file": "membership.html",
+      "width": 1100,
+      "height": 850,
+      "overflow": false,
+      "outside": [],
+      "clipped": [],
+      "heroOverlap": [],
+      "headerOverlap": []
+    },
+    {
+      "file": "membership.html",
+      "width": 1050,
+      "height": 850,
+      "overflow": false,
+      "outside": [],
+      "clipped": [],
+      "heroOverlap": [],
+      "headerOverlap": []
+    },
+    {
+      "file": "membership.html",
+      "width": 1000,
+      "height": 850,
+      "overflow": false,
+      "outside": [],
+      "clipped": [],
+      "heroOverlap": [],
+      "headerOverlap": []
+    },
+    {
+      "file": "membership.html",
+      "width": 992,
+      "height": 850,
+      "overflow": false,
+      "outside": [],
+      "clipped": [],
+      "heroOverlap": [],
+      "headerOverlap": []
+    },
+    {
+      "file": "membership.html",
+      "width": 950,
+      "height": 850,
+      "overflow": false,
+      "outside": [],
+      "clipped": [],
+      "heroOverlap": [],
+      "headerOverlap": []
+    },
+    {
+      "file": "membership.html",
+      "width": 900,
+      "height": 850,
+      "overflow": false,
+      "outside": [],
+      "clipped": [],
+      "heroOverlap": [],
+      "headerOverlap": []
+    },
+    {
+      "file": "membership.html",
+      "width": 850,
+      "height": 850,
+      "overflow": false,
+      "outside": [],
+      "clipped": [],
+      "heroOverlap": [],
+      "headerOverlap": []
+    },
+    {
+      "file": "membership.html",
+      "width": 800,
+      "height": 850,
+      "overflow": false,
+      "outside": [],
+      "clipped": [],
+      "heroOverlap": [],
+      "headerOverlap": []
+    },
+    {
+      "file": "membership.html",
+      "width": 750,
+      "height": 850,
+      "overflow": false,
+      "outside": [],
+      "clipped": [],
+      "heroOverlap": [],
+      "headerOverlap": []
+    },
+    {
+      "file": "membership.html",
+      "width": 700,
+      "height": 850,
+      "overflow": false,
+      "outside": [],
+      "clipped": [],
+      "heroOverlap": [],
+      "headerOverlap": []
+    },
+    {
+      "file": "membership.html",
+      "width": 650,
+      "height": 850,
+      "overflow": false,
+      "outside": [],
+      "clipped": [],
+      "heroOverlap": [],
+      "headerOverlap": []
+    },
+    {
+      "file": "membership.html",
+      "width": 600,
+      "height": 850,
+      "overflow": false,
+      "outside": [],
+      "clipped": [],
+      "heroOverlap": [],
+      "headerOverlap": []
+    },
+    {
+      "file": "membership.html",
+      "width": 576,
+      "height": 850,
+      "overflow": false,
+      "outside": [],
+      "clipped": [],
+      "heroOverlap": [],
+      "headerOverlap": []
+    },
+    {
+      "file": "membership.html",
+      "width": 550,
+      "height": 850,
+      "overflow": false,
+      "outside": [],
+      "clipped": [],
+      "heroOverlap": [],
+      "headerOverlap": []
+    },
+    {
+      "file": "membership.html",
+      "width": 500,
+      "height": 850,
+      "overflow": false,
+      "outside": [],
+      "clipped": [],
+      "heroOverlap": [],
+      "headerOverlap": []
+    },
+    {
+      "file": "membership.html",
+      "width": 450,
+      "height": 850,
+      "overflow": false,
+      "outside": [],
+      "clipped": [],
+      "heroOverlap": [],
+      "headerOverlap": []
+    },
+    {
+      "file": "membership.html",
+      "width": 400,
+      "height": 850,
+      "overflow": false,
+      "outside": [],
+      "clipped": [],
+      "heroOverlap": [],
+      "headerOverlap": []
+    },
+    {
+      "file": "membership.html",
+      "width": 350,
+      "height": 850,
+      "overflow": false,
+      "outside": [],
+      "clipped": [],
+      "heroOverlap": [],
+      "headerOverlap": []
+    },
+    {
+      "file": "services.html",
+      "width": 1920,
+      "height": 1080,
+      "overflow": false,
+      "outside": [],
+      "clipped": [],
+      "heroOverlap": [],
+      "headerOverlap": []
+    },
+    {
+      "file": "services.html",
+      "width": 1600,
+      "height": 900,
+      "overflow": false,
+      "outside": [],
+      "clipped": [],
+      "heroOverlap": [],
+      "headerOverlap": []
+    },
+    {
+      "file": "services.html",
+      "width": 1440,
+      "height": 900,
+      "overflow": false,
+      "outside": [],
+      "clipped": [],
+      "heroOverlap": [],
+      "headerOverlap": []
+    },
+    {
+      "file": "services.html",
+      "width": 1366,
+      "height": 768,
+      "overflow": false,
+      "outside": [],
+      "clipped": [],
+      "heroOverlap": [],
+      "headerOverlap": []
+    },
+    {
+      "file": "services.html",
+      "width": 1280,
+      "height": 800,
+      "overflow": false,
+      "outside": [],
+      "clipped": [],
+      "heroOverlap": [],
+      "headerOverlap": []
+    },
+    {
+      "file": "services.html",
+      "width": 1200,
+      "height": 800,
+      "overflow": false,
+      "outside": [],
+      "clipped": [],
+      "heroOverlap": [],
+      "headerOverlap": []
+    },
+    {
+      "file": "services.html",
+      "width": 1024,
+      "height": 768,
+      "overflow": false,
+      "outside": [],
+      "clipped": [],
+      "heroOverlap": [],
+      "headerOverlap": []
+    },
+    {
+      "file": "services.html",
+      "width": 991,
+      "height": 900,
+      "overflow": false,
+      "outside": [],
+      "clipped": [],
+      "heroOverlap": [],
+      "headerOverlap": []
+    },
+    {
+      "file": "services.html",
+      "width": 834,
+      "height": 1194,
+      "overflow": false,
+      "outside": [],
+      "clipped": [],
+      "heroOverlap": [],
+      "headerOverlap": []
+    },
+    {
+      "file": "services.html",
+      "width": 768,
+      "height": 1024,
+      "overflow": false,
+      "outside": [],
+      "clipped": [],
+      "heroOverlap": [],
+      "headerOverlap": []
+    },
+    {
+      "file": "services.html",
+      "width": 767,
+      "height": 800,
+      "overflow": false,
+      "outside": [],
+      "clipped": [],
+      "heroOverlap": [],
+      "headerOverlap": []
+    },
+    {
+      "file": "services.html",
+      "width": 575,
+      "height": 800,
+      "overflow": false,
+      "outside": [],
+      "clipped": [],
+      "heroOverlap": [],
+      "headerOverlap": []
+    },
+    {
+      "file": "services.html",
+      "width": 430,
+      "height": 932,
+      "overflow": false,
+      "outside": [],
+      "clipped": [],
+      "heroOverlap": [],
+      "headerOverlap": []
+    },
+    {
+      "file": "services.html",
+      "width": 414,
+      "height": 896,
+      "overflow": false,
+      "outside": [],
+      "clipped": [],
+      "heroOverlap": [],
+      "headerOverlap": []
+    },
+    {
+      "file": "services.html",
+      "width": 390,
+      "height": 844,
+      "overflow": false,
+      "outside": [],
+      "clipped": [],
+      "heroOverlap": [],
+      "headerOverlap": []
+    },
+    {
+      "file": "services.html",
+      "width": 375,
+      "height": 812,
+      "overflow": false,
+      "outside": [],
+      "clipped": [],
+      "heroOverlap": [],
+      "headerOverlap": []
+    },
+    {
+      "file": "services.html",
+      "width": 360,
+      "height": 800,
+      "overflow": false,
+      "outside": [],
+      "clipped": [],
+      "heroOverlap": [],
+      "headerOverlap": []
+    },
+    {
+      "file": "services.html",
+      "width": 320,
+      "height": 568,
+      "overflow": false,
+      "outside": [],
+      "clipped": [],
+      "heroOverlap": [],
+      "headerOverlap": []
+    },
+    {
+      "file": "services.html",
+      "width": 844,
+      "height": 390,
+      "overflow": false,
+      "outside": [],
+      "clipped": [],
+      "heroOverlap": [],
+      "headerOverlap": []
+    },
+    {
+      "file": "services.html",
+      "width": 667,
+      "height": 375,
+      "overflow": false,
+      "outside": [],
+      "clipped": [],
+      "heroOverlap": [],
+      "headerOverlap": []
+    },
+    {
+      "file": "services.html",
+      "width": 1300,
+      "height": 850,
+      "overflow": false,
+      "outside": [],
+      "clipped": [],
+      "heroOverlap": [],
+      "headerOverlap": []
+    },
+    {
+      "file": "services.html",
+      "width": 1199,
+      "height": 850,
+      "overflow": false,
+      "outside": [],
+      "clipped": [],
+      "heroOverlap": [],
+      "headerOverlap": []
+    },
+    {
+      "file": "services.html",
+      "width": 1100,
+      "height": 850,
+      "overflow": false,
+      "outside": [],
+      "clipped": [],
+      "heroOverlap": [],
+      "headerOverlap": []
+    },
+    {
+      "file": "services.html",
+      "width": 1050,
+      "height": 850,
+      "overflow": false,
+      "outside": [],
+      "clipped": [],
+      "heroOverlap": [],
+      "headerOverlap": []
+    },
+    {
+      "file": "services.html",
+      "width": 1000,
+      "height": 850,
+      "overflow": false,
+      "outside": [],
+      "clipped": [],
+      "heroOverlap": [],
+      "headerOverlap": []
+    },
+    {
+      "file": "services.html",
+      "width": 992,
+      "height": 850,
+      "overflow": false,
+      "outside": [],
+      "clipped": [],
+      "heroOverlap": [],
+      "headerOverlap": []
+    },
+    {
+      "file": "services.html",
+      "width": 950,
+      "height": 850,
+      "overflow": false,
+      "outside": [],
+      "clipped": [],
+      "heroOverlap": [],
+      "headerOverlap": []
+    },
+    {
+      "file": "services.html",
+      "width": 900,
+      "height": 850,
+      "overflow": false,
+      "outside": [],
+      "clipped": [],
+      "heroOverlap": [],
+      "headerOverlap": []
+    },
+    {
+      "file": "services.html",
+      "width": 850,
+      "height": 850,
+      "overflow": false,
+      "outside": [],
+      "clipped": [],
+      "heroOverlap": [],
+      "headerOverlap": []
+    },
+    {
+      "file": "services.html",
+      "width": 800,
+      "height": 850,
+      "overflow": false,
+      "outside": [],
+      "clipped": [],
+      "heroOverlap": [],
+      "headerOverlap": []
+    },
+    {
+      "file": "services.html",
+      "width": 750,
+      "height": 850,
+      "overflow": false,
+      "outside": [],
+      "clipped": [],
+      "heroOverlap": [],
+      "headerOverlap": []
+    },
+    {
+      "file": "services.html",
+      "width": 700,
+      "height": 850,
+      "overflow": false,
+      "outside": [],
+      "clipped": [],
+      "heroOverlap": [],
+      "headerOverlap": []
+    },
+    {
+      "file": "services.html",
+      "width": 650,
+      "height": 850,
+      "overflow": false,
+      "outside": [],
+      "clipped": [],
+      "heroOverlap": [],
+      "headerOverlap": []
+    },
+    {
+      "file": "services.html",
+      "width": 600,
+      "height": 850,
+      "overflow": false,
+      "outside": [],
+      "clipped": [],
+      "heroOverlap": [],
+      "headerOverlap": []
+    },
+    {
+      "file": "services.html",
+      "width": 576,
+      "height": 850,
+      "overflow": false,
+      "outside": [],
+      "clipped": [],
+      "heroOverlap": [],
+      "headerOverlap": []
+    },
+    {
+      "file": "services.html",
+      "width": 550,
+      "height": 850,
+      "overflow": false,
+      "outside": [],
+      "clipped": [],
+      "heroOverlap": [],
+      "headerOverlap": []
+    },
+    {
+      "file": "services.html",
+      "width": 500,
+      "height": 850,
+      "overflow": false,
+      "outside": [],
+      "clipped": [],
+      "heroOverlap": [],
+      "headerOverlap": []
+    },
+    {
+      "file": "services.html",
+      "width": 450,
+      "height": 850,
+      "overflow": false,
+      "outside": [],
+      "clipped": [],
+      "heroOverlap": [],
+      "headerOverlap": []
+    },
+    {
+      "file": "services.html",
+      "width": 400,
+      "height": 850,
+      "overflow": false,
+      "outside": [],
+      "clipped": [],
+      "heroOverlap": [],
+      "headerOverlap": []
+    },
+    {
+      "file": "services.html",
+      "width": 350,
+      "height": 850,
+      "overflow": false,
+      "outside": [],
+      "clipped": [],
+      "heroOverlap": [],
+      "headerOverlap": []
+    }
+  ],
+  "errors": [],
+  "consoleErrors": [],
+  "desktop": {
+    "about.html-1920": [
+      [
+        "container header-inner",
+        296,
+        0,
+        1328,
+        65
+      ],
+      [
+        "inner-hero",
+        0,
+        0,
+        1920,
+        266.89
+      ],
+      [
+        "container page-section intro-copy",
+        296,
+        266.89,
+        1328,
+        163.44
+      ],
+      [
+        "glance",
+        0,
+        462.33,
+        1920,
+        175.44
+      ],
+      [
+        "why",
+        0,
+        637.77,
+        1920,
+        201.8
+      ],
+      [
+        "container page-section",
+        296,
+        839.56,
+        1328,
+        221.95
+      ],
+      [
+        "container testimonials page-section",
+        296,
+        1061.52,
+        1328,
+        444.19
+      ],
+      [
+        "container final-cta wide-cta",
+        296,
+        1549.7,
+        1328,
+        133.63
+      ],
+      [
+        "container footer-grid",
+        296,
+        1736.33,
+        1328,
+        178.05
+      ]
+    ],
+    "about.html-1440": [
+      [
+        "container header-inner",
+        57.59,
+        0,
+        1324.8,
+        65
+      ],
+      [
+        "inner-hero",
+        0,
+        0,
+        1440,
+        266.89
+      ],
+      [
+        "container page-section intro-copy",
+        57.59,
+        266.89,
+        1324.8,
+        163.44
+      ],
+      [
+        "glance",
+        0,
+        462.33,
+        1440,
+        175.44
+      ],
+      [
+        "why",
+        0,
+        637.77,
+        1440,
+        201.8
+      ],
+      [
+        "container page-section",
+        57.59,
+        839.56,
+        1324.8,
+        221.95
+      ],
+      [
+        "container testimonials page-section",
+        57.59,
+        1061.52,
+        1324.8,
+        444.19
+      ],
+      [
+        "container final-cta wide-cta",
+        57.59,
+        1549.7,
+        1324.8,
+        133.63
+      ],
+      [
+        "container footer-grid",
+        57.59,
+        1736.33,
+        1324.8,
+        178.05
+      ]
+    ],
+    "about.html-1200": [
+      [
+        "container header-inner",
+        48,
+        0,
+        1104,
+        65
+      ],
+      [
+        "inner-hero",
+        0,
+        0,
+        1200,
+        266.89
+      ],
+      [
+        "container page-section intro-copy",
+        48,
+        266.89,
+        1104,
+        163.44
+      ],
+      [
+        "glance",
+        0,
+        462.33,
+        1200,
+        175.44
+      ],
+      [
+        "why",
+        0,
+        637.77,
+        1200,
+        201.8
+      ],
+      [
+        "container page-section",
+        48,
+        839.56,
+        1104,
+        221.95
+      ],
+      [
+        "container testimonials page-section",
+        48,
+        1061.52,
+        1104,
+        444.19
+      ],
+      [
+        "container final-cta wide-cta",
+        48,
+        1549.7,
+        1104,
+        133.63
+      ],
+      [
+        "container footer-grid",
+        48,
+        1736.33,
+        1104,
+        178.05
+      ]
+    ],
+    "blog.html-1920": [
+      [
+        "container header-inner",
+        296,
+        0,
+        1328,
+        65
+      ],
+      [
+        "inner-hero",
+        0,
+        0,
+        1920,
+        266.89
+      ],
+      [
+        "container page-section service-detail featured-story",
+        296,
+        266.89,
+        1328,
+        366
+      ],
+      [
+        "container page-section",
+        296,
+        632.89,
+        1328,
+        483.81
+      ],
+      [
+        "life section",
+        0,
+        1154.7,
+        1920,
+        174
+      ],
+      [
+        "container final-cta wide-cta",
+        296,
+        1372.7,
+        1328,
+        133.63
+      ],
+      [
+        "container footer-grid",
+        296,
+        1559.33,
+        1328,
+        178.05
+      ]
+    ],
+    "blog.html-1440": [
+      [
+        "container header-inner",
+        57.59,
+        0,
+        1324.8,
+        65
+      ],
+      [
+        "inner-hero",
+        0,
+        0,
+        1440,
+        266.89
+      ],
+      [
+        "container page-section service-detail featured-story",
+        57.59,
+        266.89,
+        1324.8,
+        366
+      ],
+      [
+        "container page-section",
+        57.59,
+        632.89,
+        1324.8,
+        483.81
+      ],
+      [
+        "life section",
+        0,
+        1154.7,
+        1440,
+        174
+      ],
+      [
+        "container final-cta wide-cta",
+        57.59,
+        1372.7,
+        1324.8,
+        133.63
+      ],
+      [
+        "container footer-grid",
+        57.59,
+        1559.33,
+        1324.8,
+        178.05
+      ]
+    ],
+    "blog.html-1200": [
+      [
+        "container header-inner",
+        48,
+        0,
+        1104,
+        65
+      ],
+      [
+        "inner-hero",
+        0,
+        0,
+        1200,
+        266.89
+      ],
+      [
+        "container page-section service-detail featured-story",
+        48,
+        266.89,
+        1104,
+        366
+      ],
+      [
+        "container page-section",
+        48,
+        632.89,
+        1104,
+        509
+      ],
+      [
+        "life section",
+        0,
+        1179.89,
+        1200,
+        174
+      ],
+      [
+        "container final-cta wide-cta",
+        48,
+        1397.89,
+        1104,
+        133.63
+      ],
+      [
+        "container footer-grid",
+        48,
+        1584.52,
+        1104,
+        178.05
+      ]
+    ],
+    "class-schedule.html-1920": [
+      [
+        "container header-inner",
+        296,
+        0,
+        1328,
+        65
+      ],
+      [
+        "inner-hero",
+        0,
+        0,
+        1920,
+        266.89
+      ],
+      [
+        "container page-section schedule schedule-page",
+        296,
+        266.89,
+        1328,
+        505.94
+      ],
+      [
+        "container page-section intro-copy",
+        296,
+        772.83,
+        1328,
+        196.44
+      ],
+      [
+        "container final-cta wide-cta",
+        296,
+        1013.27,
+        1328,
+        133.63
+      ],
+      [
+        "container footer-grid",
+        296,
+        1199.89,
+        1328,
+        178.05
+      ]
+    ],
+    "class-schedule.html-1440": [
+      [
+        "container header-inner",
+        57.59,
+        0,
+        1324.8,
+        65
+      ],
+      [
+        "inner-hero",
+        0,
+        0,
+        1440,
+        266.89
+      ],
+      [
+        "container page-section schedule schedule-page",
+        57.59,
+        266.89,
+        1324.8,
+        505.94
+      ],
+      [
+        "container page-section intro-copy",
+        57.59,
+        772.83,
+        1324.8,
+        196.44
+      ],
+      [
+        "container final-cta wide-cta",
+        57.59,
+        1013.27,
+        1324.8,
+        133.63
+      ],
+      [
+        "container footer-grid",
+        57.59,
+        1199.89,
+        1324.8,
+        178.05
+      ]
+    ],
+    "class-schedule.html-1200": [
+      [
+        "container header-inner",
+        48,
+        0,
+        1104,
+        65
+      ],
+      [
+        "inner-hero",
+        0,
+        0,
+        1200,
+        266.89
+      ],
+      [
+        "container page-section schedule schedule-page",
+        48,
+        266.89,
+        1104,
+        505.94
+      ],
+      [
+        "container page-section intro-copy",
+        48,
+        772.83,
+        1104,
+        196.44
+      ],
+      [
+        "container final-cta wide-cta",
+        48,
+        1013.27,
+        1104,
+        133.63
+      ],
+      [
+        "container footer-grid",
+        48,
+        1199.89,
+        1104,
+        178.05
+      ]
+    ],
+    "facilities.html-1920": [
+      [
+        "container header-inner",
+        296,
+        0,
+        1328,
+        65
+      ],
+      [
+        "inner-hero",
+        0,
+        0,
+        1920,
+        266.89
+      ],
+      [
+        "container page-section intro-copy",
+        296,
+        266.89,
+        1328,
+        136.44
+      ],
+      [
+        "container page-section",
+        296,
+        403.33,
+        1328,
+        1821.5
+      ],
+      [
+        "container page-section",
+        296,
+        2224.83,
+        1328,
+        462.94
+      ],
+      [
+        "container final-cta wide-cta",
+        296,
+        2731.77,
+        1328,
+        133.63
+      ],
+      [
+        "container footer-grid",
+        296,
+        2918.39,
+        1328,
+        178.05
+      ]
+    ],
+    "facilities.html-1440": [
+      [
+        "container header-inner",
+        57.59,
+        0,
+        1324.8,
+        65
+      ],
+      [
+        "inner-hero",
+        0,
+        0,
+        1440,
+        266.89
+      ],
+      [
+        "container page-section intro-copy",
+        57.59,
+        266.89,
+        1324.8,
+        136.44
+      ],
+      [
+        "container page-section",
+        57.59,
+        403.33,
+        1324.8,
+        1821.5
+      ],
+      [
+        "container page-section",
+        57.59,
+        2224.83,
+        1324.8,
+        462.94
+      ],
+      [
+        "container final-cta wide-cta",
+        57.59,
+        2731.77,
+        1324.8,
+        133.63
+      ],
+      [
+        "container footer-grid",
+        57.59,
+        2918.39,
+        1324.8,
+        178.05
+      ]
+    ],
+    "facilities.html-1200": [
+      [
+        "container header-inner",
+        48,
+        0,
+        1104,
+        65
+      ],
+      [
+        "inner-hero",
+        0,
+        0,
+        1200,
+        266.89
+      ],
+      [
+        "container page-section intro-copy",
+        48,
+        266.89,
+        1104,
+        136.44
+      ],
+      [
+        "container page-section",
+        48,
+        403.33,
+        1104,
+        1922.25
+      ],
+      [
+        "container page-section",
+        48,
+        2325.58,
+        1104,
+        462.94
+      ],
+      [
+        "container final-cta wide-cta",
+        48,
+        2832.52,
+        1104,
+        133.63
+      ],
+      [
+        "container footer-grid",
+        48,
+        3019.14,
+        1104,
+        178.05
+      ]
+    ],
+    "index.html-1920": [
+      [
+        "container header-inner",
+        296,
+        0,
+        1328,
+        65
+      ],
+      [
+        "hero",
+        0,
+        0,
+        1920,
+        960
+      ],
+      [
+        "hero-copy",
+        296,
+        331.09,
+        383.03,
+        322.8
+      ],
+      [
+        "hero-brand",
+        1311.4,
+        397.01,
+        279.99,
+        165.99
+      ],
+      [
+        "video-preview",
+        1192,
+        711,
+        400,
+        225
+      ],
+      [
+        "branches",
+        0,
+        960,
+        1920,
+        307.19
+      ],
+      [
+        "bmi-section",
+        0,
+        1291.19,
+        1920,
+        718
+      ],
+      [
+        "news-section",
+        0,
+        2009.19,
+        1920,
+        817.14
+      ],
+      [
+        "quick-explore section",
+        0,
+        2826.33,
+        1920,
+        199.44
+      ],
+      [
+        "container final-cta wide-cta",
+        296,
+        3049.77,
+        1328,
+        115.88
+      ],
+      [
+        "container footer-grid",
+        296,
+        3210.64,
+        1328,
+        178.05
+      ]
+    ],
+    "index.html-1440": [
+      [
+        "container header-inner",
+        57.59,
+        0,
+        1324.8,
+        65
+      ],
+      [
+        "hero",
+        0,
+        0,
+        1440,
+        801
+      ],
+      [
+        "hero-copy",
+        57.59,
+        251.59,
+        383.03,
+        322.8
+      ],
+      [
+        "hero-brand",
+        1069.88,
+        317.51,
+        279.99,
+        165.99
+      ],
+      [
+        "video-preview",
+        961.59,
+        558.31,
+        388.8,
+        218.69
+      ],
+      [
+        "branches",
+        0,
+        801,
+        1440,
+        307.19
+      ],
+      [
+        "bmi-section",
+        0,
+        1132.19,
+        1440,
+        702.8
+      ],
+      [
+        "news-section",
+        0,
+        1834.98,
+        1440,
+        816.67
+      ],
+      [
+        "quick-explore section",
+        0,
+        2651.66,
+        1440,
+        199.44
+      ],
+      [
+        "container final-cta wide-cta",
+        57.59,
+        2875.09,
+        1324.8,
+        115.88
+      ],
+      [
+        "container footer-grid",
+        57.59,
+        3035.97,
+        1324.8,
+        178.05
+      ]
+    ],
+    "index.html-1200": [
+      [
+        "container header-inner",
+        48,
+        0,
+        1104,
+        65
+      ],
+      [
+        "hero",
+        0,
+        0,
+        1200,
+        712
+      ],
+      [
+        "hero-copy",
+        48,
+        207.09,
+        383.03,
+        322.8
+      ],
+      [
+        "hero-brand",
+        846.11,
+        273.01,
+        279.99,
+        165.99
+      ],
+      [
+        "video-preview",
+        760,
+        485.5,
+        360,
+        202.5
+      ],
+      [
+        "branches",
+        0,
+        712,
+        1200,
+        307.19
+      ],
+      [
+        "bmi-section",
+        0,
+        1043.19,
+        1200,
+        618
+      ],
+      [
+        "news-section",
+        0,
+        1661.19,
+        1200,
+        785.64
+      ],
+      [
+        "quick-explore section",
+        0,
+        2446.83,
+        1200,
+        199.44
+      ],
+      [
+        "container final-cta wide-cta",
+        48,
+        2670.27,
+        1104,
+        115.88
+      ],
+      [
+        "container footer-grid",
+        48,
+        2831.14,
+        1104,
+        178.05
+      ]
+    ],
+    "locations.html-1920": [
+      [
+        "container header-inner",
+        296,
+        0,
+        1328,
+        65
+      ],
+      [
+        "inner-hero",
+        0,
+        0,
+        1920,
+        266.89
+      ],
+      [
+        "container page-section locations-page",
+        296,
+        266.89,
+        1328,
+        950.94
+      ],
+      [
+        "container page-section contact-section",
+        296,
+        1217.83,
+        1328,
+        214.94
+      ],
+      [
+        "container final-cta wide-cta",
+        296,
+        1476.77,
+        1328,
+        133.63
+      ],
+      [
+        "container footer-grid",
+        296,
+        1663.39,
+        1328,
+        178.05
+      ]
+    ],
+    "locations.html-1440": [
+      [
+        "container header-inner",
+        57.59,
+        0,
+        1324.8,
+        65
+      ],
+      [
+        "inner-hero",
+        0,
+        0,
+        1440,
+        266.89
+      ],
+      [
+        "container page-section locations-page",
+        57.59,
+        266.89,
+        1324.8,
+        950.94
+      ],
+      [
+        "container page-section contact-section",
+        57.59,
+        1217.83,
+        1324.8,
+        214.94
+      ],
+      [
+        "container final-cta wide-cta",
+        57.59,
+        1476.77,
+        1324.8,
+        133.63
+      ],
+      [
+        "container footer-grid",
+        57.59,
+        1663.39,
+        1324.8,
+        178.05
+      ]
+    ],
+    "locations.html-1200": [
+      [
+        "container header-inner",
+        48,
+        0,
+        1104,
+        65
+      ],
+      [
+        "inner-hero",
+        0,
+        0,
+        1200,
+        266.89
+      ],
+      [
+        "container page-section locations-page",
+        48,
+        266.89,
+        1104,
+        909.05
+      ],
+      [
+        "container page-section contact-section",
+        48,
+        1175.94,
+        1104,
+        214.94
+      ],
+      [
+        "container final-cta wide-cta",
+        48,
+        1434.88,
+        1104,
+        133.63
+      ],
+      [
+        "container footer-grid",
+        48,
+        1621.5,
+        1104,
+        178.05
+      ]
+    ],
+    "membership.html-1920": [
+      [
+        "container header-inner",
+        296,
+        0,
+        1328,
+        65
+      ],
+      [
+        "inner-hero",
+        0,
+        0,
+        1920,
+        266.89
+      ],
+      [
+        "container page-section intro-copy",
+        296,
+        266.89,
+        1328,
+        136.44
+      ],
+      [
+        "container page-section membership-page",
+        296,
+        403.33,
+        1328,
+        484.78
+      ],
+      [
+        "container page-section",
+        296,
+        888.11,
+        1328,
+        217.75
+      ],
+      [
+        "container page-section faq",
+        296,
+        1105.86,
+        1328,
+        255.44
+      ],
+      [
+        "container final-cta wide-cta",
+        296,
+        1405.3,
+        1328,
+        133.63
+      ],
+      [
+        "container footer-grid",
+        296,
+        1591.92,
+        1328,
+        178.05
+      ]
+    ],
+    "membership.html-1440": [
+      [
+        "container header-inner",
+        57.59,
+        0,
+        1324.8,
+        65
+      ],
+      [
+        "inner-hero",
+        0,
+        0,
+        1440,
+        266.89
+      ],
+      [
+        "container page-section intro-copy",
+        57.59,
+        266.89,
+        1324.8,
+        136.44
+      ],
+      [
+        "container page-section membership-page",
+        57.59,
+        403.33,
+        1324.8,
+        484.78
+      ],
+      [
+        "container page-section",
+        57.59,
+        888.11,
+        1324.8,
+        217.75
+      ],
+      [
+        "container page-section faq",
+        57.59,
+        1105.86,
+        1324.8,
+        255.44
+      ],
+      [
+        "container final-cta wide-cta",
+        57.59,
+        1405.3,
+        1324.8,
+        133.63
+      ],
+      [
+        "container footer-grid",
+        57.59,
+        1591.92,
+        1324.8,
+        178.05
+      ]
+    ],
+    "membership.html-1200": [
+      [
+        "container header-inner",
+        48,
+        0,
+        1104,
+        65
+      ],
+      [
+        "inner-hero",
+        0,
+        0,
+        1200,
+        266.89
+      ],
+      [
+        "container page-section intro-copy",
+        48,
+        266.89,
+        1104,
+        136.44
+      ],
+      [
+        "container page-section membership-page",
+        48,
+        403.33,
+        1104,
+        484.78
+      ],
+      [
+        "container page-section",
+        48,
+        888.11,
+        1104,
+        217.75
+      ],
+      [
+        "container page-section faq",
+        48,
+        1105.86,
+        1104,
+        255.44
+      ],
+      [
+        "container final-cta wide-cta",
+        48,
+        1405.3,
+        1104,
+        133.63
+      ],
+      [
+        "container footer-grid",
+        48,
+        1591.92,
+        1104,
+        178.05
+      ]
+    ],
+    "services.html-1920": [
+      [
+        "container header-inner",
+        296,
+        0,
+        1328,
+        65
+      ],
+      [
+        "inner-hero",
+        0,
+        0,
+        1920,
+        266.89
+      ],
+      [
+        "container page-section",
+        296,
+        266.89,
+        1328,
+        292.94
+      ],
+      [
+        "container page-section service-detail",
+        296,
+        559.83,
+        1328,
+        366
+      ],
+      [
+        "container page-section service-feature",
+        296,
+        925.83,
+        1328,
+        437.94
+      ],
+      [
+        "container page-section service-detail",
+        296,
+        1363.77,
+        1328,
+        366
+      ],
+      [
+        "container page-section service-detail",
+        296,
+        1729.77,
+        1328,
+        366
+      ],
+      [
+        "container page-section service-feature",
+        296,
+        2095.77,
+        1328,
+        437.94
+      ],
+      [
+        "container final-cta wide-cta",
+        296,
+        2577.7,
+        1328,
+        133.63
+      ],
+      [
+        "container footer-grid",
+        296,
+        2764.33,
+        1328,
+        178.05
+      ]
+    ],
+    "services.html-1440": [
+      [
+        "container header-inner",
+        57.59,
+        0,
+        1324.8,
+        65
+      ],
+      [
+        "inner-hero",
+        0,
+        0,
+        1440,
+        266.89
+      ],
+      [
+        "container page-section",
+        57.59,
+        266.89,
+        1324.8,
+        292.94
+      ],
+      [
+        "container page-section service-detail",
+        57.59,
+        559.83,
+        1324.8,
+        366
+      ],
+      [
+        "container page-section service-feature",
+        57.59,
+        925.83,
+        1324.8,
+        437.94
+      ],
+      [
+        "container page-section service-detail",
+        57.59,
+        1363.77,
+        1324.8,
+        366
+      ],
+      [
+        "container page-section service-detail",
+        57.59,
+        1729.77,
+        1324.8,
+        366
+      ],
+      [
+        "container page-section service-feature",
+        57.59,
+        2095.77,
+        1324.8,
+        437.94
+      ],
+      [
+        "container final-cta wide-cta",
+        57.59,
+        2577.7,
+        1324.8,
+        133.63
+      ],
+      [
+        "container footer-grid",
+        57.59,
+        2764.33,
+        1324.8,
+        178.05
+      ]
+    ],
+    "services.html-1200": [
+      [
+        "container header-inner",
+        48,
+        0,
+        1104,
+        65
+      ],
+      [
+        "inner-hero",
+        0,
+        0,
+        1200,
+        266.89
+      ],
+      [
+        "container page-section",
+        48,
+        266.89,
+        1104,
+        292.94
+      ],
+      [
+        "container page-section service-detail",
+        48,
+        559.83,
+        1104,
+        366
+      ],
+      [
+        "container page-section service-feature",
+        48,
+        925.83,
+        1104,
+        437.94
+      ],
+      [
+        "container page-section service-detail",
+        48,
+        1363.77,
+        1104,
+        366
+      ],
+      [
+        "container page-section service-detail",
+        48,
+        1729.77,
+        1104,
+        366
+      ],
+      [
+        "container page-section service-feature",
+        48,
+        2095.77,
+        1104,
+        437.94
+      ],
+      [
+        "container final-cta wide-cta",
+        48,
+        2577.7,
+        1104,
+        133.63
+      ],
+      [
+        "container footer-grid",
+        48,
+        2764.33,
+        1104,
+        178.05
+      ]
+    ]
+  }
+}

@@ -3,6 +3,16 @@ const path = require('path');
 const root = __dirname;
 const read = name => fs.readFileSync(path.join(root, 'templates', name + '.html'), 'utf8');
 const promoPopup = read('promo-popup');
+const floatingContact = read('floating-contact');
+// Floating contact is the canonical source; footer links are generated from it.
+const socialLinks = [...floatingContact.matchAll(/<a class="floating-contact__item"([^>]+)>\s*<span[^>]+><i class="([^"]+)"/g)].map(([, attributes, icon]) => {
+  const label = icon.includes('fa-comment-dots') ? 'Zalo' : null;
+  attributes = attributes.replace(/\s+tabindex="-1"/, '');
+  if (label) attributes = attributes.replace(/aria-label="[^"]+"/, `aria-label="${label}"`);
+  return `<a${attributes}><i class="${icon}" aria-hidden="true"></i></a>`;
+}).join('\n');
+if (!socialLinks || (socialLinks.match(/<a /g) || []).length !== 4) throw new Error('Expected four floating contacts');
+const footer = read('footer').replace(/(<div class="social-links">)[\s\S]*?(<\/div>)/, `$1\n${socialLinks}\n$2`);
 const pages = {
   index: ['RELOAD Gym & Wellness', 'Discover RELOAD: two branches, modern training spaces and a community for a stronger you.'],
   about: ['About RELOAD | RELOAD Gym & Wellness', 'Meet RELOAD Gym & Wellness: our philosophy, facilities, coaches and community.'],
@@ -26,22 +36,24 @@ for (const [name, [title, description]] of Object.entries(pages)) {
   <meta name="theme-color" content="#080808">
   <title>${title}</title>
   <meta name="description" content="${description}">
+  <link rel="icon" type="image/png" href="assets/images/logo/reload-logo.png">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@7.3.1/css/all.min.css">
   <link rel="stylesheet" href="assets/css/style.css">
   <script src="assets/js/main.js" defer></script>
 </head>
 <body class="page-${name} ${name === 'index' ? 'home-page' : 'inner-page'}">
 <a class="skip-link" href="#main">Skip to content</a>
-${read('icons')}
 ${activeHeader}
 <main id="main">
 ${read('pages/' + name)}
 </main>
 ${promoPopup}
-${read('footer')}
+${footer}
+${floatingContact}
 ${read('dialogs')}
 </body>
 </html>
 `;
   fs.writeFileSync(path.join(root, name + '.html'), html);
 }
-console.log('Built eight static pages from shared header, footer, icons and dialogs.');
+console.log('Built eight static pages from shared header, footer, popup, floating contact and dialogs.');
