@@ -58,4 +58,4 @@ The exact supplied logo remains unchanged. The generated hero, stock photography
 
 ## Responsive audit
 
-Shared responsive tiers: 1199.98 / 991.98 / 767.98 / 575.98px. See [the audit report](qa/responsive/REPORT.md) and [screenshot gallery](qa/responsive/gallery.html) for coverage, findings and test commands. The shared floating shortcut yields to page content when it would overlap controls or text; footer contact links remain available.
+Shared responsive tiers: 1199.98 / 991.98 / 767.98 / 575.98px. See [the audit report](qa/responsive/REPORT.md) and [screenshot gallery](qa/responsive/gallery.html) for coverage, findings and test commands. The shared floating shortcut remains fixed and visible while scrolling; the promotion popup stays above it when open.

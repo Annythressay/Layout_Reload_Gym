@@ -185,34 +185,6 @@ toggle.addEventListener('click',()=>{
 document.addEventListener('click',event=>{if(contact.classList.contains('is-open')&&!contact.contains(event.target))setOpen(false);});
 document.addEventListener('keydown',event=>{if(event.key==='Escape'&&contact.classList.contains('is-open')){setOpen(false);toggle.focus();}});
 setOpen(false);
-// A fixed shortcut must not cover page controls. Footer retains all contact links.
-// Recheck after scrolling/reflow; an explicitly opened contact menu stays available.
-let collisionFrame=0;
-const protectedSelector='main h1, main h2, main h3, main p, main li, main a, main button, footer, .video-preview, .button, .book-button, input, select, textarea, .news-section__navigation, .news-filter, .slider-controls, .day-tabs, .news-card__link, .news-card__image-arrow';
-function checkCollision(){
-  collisionFrame=0;
-  if(contact.classList.contains('is-open')||contact.contains(document.activeElement))return;
-  const box=toggle.getBoundingClientRect();
-  const blocked=[...document.querySelectorAll(protectedSelector)].some(element=>{
-    if(element.closest('dialog:not([open]), [hidden], .floating-contact')||!element.getClientRects().length)return false;
-    let rects=[element.getBoundingClientRect()];
-    if(element.matches('h1,h2,h3,p,li')){
-      const range=document.createRange();
-      range.selectNodeContents(element);
-      rects=[...range.getClientRects()];
-    }
-    return rects.some(r=>r.left<box.right+8&&r.right>box.left-8&&r.top<box.bottom+8&&r.bottom>box.top-8);
-  });
-  contact.toggleAttribute('data-obscured',blocked);
-  contact.inert=blocked;
-}
-function scheduleCollision(){if(!collisionFrame)collisionFrame=requestAnimationFrame(checkCollision);}
-window.addEventListener('scroll',scheduleCollision,{passive:true});
-window.addEventListener('resize',scheduleCollision);
-contact.addEventListener('focusout',scheduleCollision);
-document.addEventListener('click',scheduleCollision);
-new ResizeObserver(scheduleCollision).observe(document.body);
-scheduleCollision();
 })();
 
 /* RELOAD Promotional Popup */

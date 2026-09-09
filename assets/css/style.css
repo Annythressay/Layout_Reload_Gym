@@ -2814,6 +2814,7 @@ body.modal-open {
 .video-preview__media video {
   display: block;
   object-fit: cover;
+  object-position: center 55%;
   transition: transform 400ms cubic-bezier(.2,.7,.2,1);
 }
 
@@ -2983,11 +2984,6 @@ dialog:not(.video-modal) {
 
 body.nav-open {
   overflow: hidden;
-}
-
-.floating-contact[data-obscured], body.nav-open .floating-contact {
-  visibility: hidden;
-  pointer-events: none;
 }
 
 
