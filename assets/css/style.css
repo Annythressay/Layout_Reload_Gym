@@ -1313,6 +1313,32 @@ footer {
   vertical-align: middle;
 }
 
+.footer-grid a.footer-location {
+  color: inherit;
+  line-height: 1.5;
+  text-decoration: none;
+}
+
+.footer-location__heading, .footer-location__address {
+  display: block;
+}
+
+.footer-location__heading {
+  margin-bottom: 9px;
+  transition: color .2s ease, transform .2s ease;
+}
+
+.footer-location__address {
+  color: var(--muted);
+  padding-left: 21px;
+  margin-bottom: 9px;
+}
+
+.footer-location:hover .footer-location__heading, .footer-location:focus-visible .footer-location__heading {
+  color: var(--red);
+  transform: translateX(2px);
+}
+
 .muted {
   color: var(--muted);
   padding-left: 21px;
@@ -4317,7 +4343,7 @@ body.nav-open {
     min-height: 44px;
   }
 
-  .footer-grid a:not(.logo):not(.social-links a), .footer-grid .text-link {
+  .footer-grid a:not(.logo):not(.social-links a):not(.footer-location), .footer-grid .text-link {
     min-height: 44px;
     display: flex;
     align-items: center;
