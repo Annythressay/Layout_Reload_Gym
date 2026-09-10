@@ -14,14 +14,14 @@ const socialLinks = [...floatingContact.matchAll(/<a class="floating-contact__it
 if (!socialLinks || (socialLinks.match(/<a /g) || []).length !== 4) throw new Error('Expected four floating contacts');
 const footer = read('footer').replace(/(<div class="social-links">)[\s\S]*?(<\/div>)/, `$1\n${socialLinks}\n$2`);
 const pages = {
-  index: ['RELOAD Gym & Wellness', 'Discover RELOAD: two branches, modern training spaces and a community for a stronger you.'],
-  about: ['About RELOAD | RELOAD Gym & Wellness', 'Meet RELOAD Gym & Wellness: our philosophy, facilities, coaches and community.'],
-  facilities: ['Facilities | RELOAD Gym & Wellness', 'Explore RELOAD strength, cardio, free weight, functional, boxing, studio and wellness areas.'],
-  services: ['Services | RELOAD Gym & Wellness', 'Explore gym access, personal training, group classes, boxing and wellness at RELOAD.'],
-  'class-schedule': ['Class Schedule | RELOAD Gym & Wellness', 'Explore the RELOAD weekly class timetable, including yoga, HIIT, boxing, strength and Zumba.'],
-  membership: ['Membership | RELOAD Gym & Wellness', 'Compare monthly, six-month and twelve-month RELOAD memberships and included benefits.'],
-  locations: ['Locations | RELOAD Gym & Wellness', 'Discover RELOAD Women and the RELOAD Gym & Wellness main club, and plan a branch tour.'],
-  blog: ['Life at RELOAD | RELOAD Gym & Wellness', 'Follow RELOAD training, community moments, news, events and upcoming stories.']
+  index: ['RELOAD Gym & Wellness', 'Khám phá RELOAD với hai chi nhánh, không gian tập luyện hiện đại và cộng đồng giúp bạn mạnh mẽ hơn mỗi ngày.'],
+  about: ['Giới thiệu RELOAD | RELOAD Gym & Wellness', 'Tìm hiểu triết lý, cơ sở vật chất, huấn luyện viên và cộng đồng RELOAD Gym & Wellness.'],
+  facilities: ['Cơ sở vật chất | RELOAD Gym & Wellness', 'Khám phá khu sức mạnh, cardio, tạ tự do, functional, boxing, studio và chăm sóc sức khỏe tại RELOAD.'],
+  services: ['Dịch vụ | RELOAD Gym & Wellness', 'Khám phá phòng gym, huấn luyện cá nhân, lớp tập nhóm, boxing và chăm sóc sức khỏe tại RELOAD.'],
+  'class-schedule': ['Lịch lớp | RELOAD Gym & Wellness', 'Khám phá lịch lớp hằng tuần tại RELOAD gồm yoga, HIIT, boxing, sức mạnh và Zumba.'],
+  membership: ['Gói tập | RELOAD Gym & Wellness', 'So sánh các gói tập theo tháng, 6 tháng và 12 tháng cùng quyền lợi đi kèm tại RELOAD.'],
+  locations: ['Chi nhánh | RELOAD Gym & Wellness', 'Khám phá RELOAD WOMEN và RELOAD GYM & WELLNESS, đồng thời đặt lịch tham quan chi nhánh.'],
+  blog: ['Tin tức | RELOAD Gym & Wellness', 'Theo dõi tin tức tập luyện, khoảnh khắc cộng đồng, sự kiện và câu chuyện sắp ra mắt tại RELOAD.']
 };
 for (const [name, [title, description]] of Object.entries(pages)) {
   const header = read('header').replace(`href="${name}.html"`, `href="${name}.html" class="active" aria-current="page"`);
@@ -29,7 +29,7 @@ for (const [name, [title, description]] of Object.entries(pages)) {
   const normalizedHeader = header.replace('class="logo" href="index.html" class="active" aria-current="page"', 'class="logo" href="index.html"');
   const activeHeader = name === 'index' ? normalizedHeader.replace('<a href="index.html"', '<a class="active" aria-current="page" href="index.html"') : normalizedHeader;
   const html = `<!DOCTYPE html>
-<html lang="en">
+<html lang="vi">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -42,7 +42,7 @@ for (const [name, [title, description]] of Object.entries(pages)) {
   <script src="assets/js/main.js" defer></script>
 </head>
 <body class="page-${name} ${name === 'index' ? 'home-page' : 'inner-page'}">
-<a class="skip-link" href="#main">Skip to content</a>
+<a class="skip-link" href="#main">Đi đến nội dung chính</a>
 ${activeHeader}
 <main id="main">
 ${read('pages/' + name)}

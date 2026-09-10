@@ -481,7 +481,7 @@ em {
 
 .hero h1 {
   font-size: 57px;
-  line-height: .92;
+  line-height: 1.1;
   font-weight: 900;
   letter-spacing: -1.5px;
   margin: 14px 0 16px;
@@ -496,7 +496,7 @@ em {
 .hero-tagline {
   font-size: 17px;
   font-weight: 800;
-  line-height: 1.15;
+  line-height: 1.45;
   margin-bottom: 22px;
 }
 
@@ -520,7 +520,7 @@ em {
 
 .hero-brand strong {
   display: block;
-  line-height: 1.15;
+  line-height: 1.35;
   margin-top: 10px;
   font-family: 'Barlow Condensed', Arial, sans-serif;
   font-size: 29px;
@@ -5211,6 +5211,13 @@ body.nav-open {
 
   .wide-cta .button, .price-card .button {
     min-height: 44px;
+  }
+}
+
+/* Keep the longer Vietnamese header labels within very narrow screens. */
+@media (max-width:359.98px) {
+  .header .button {
+    display: none;
   }
 }
 
