@@ -23,11 +23,15 @@ const pages = {
   locations: ['Chi nhánh | RELOAD Gym & Wellness', 'Khám phá RELOAD WOMEN và RELOAD GYM & WELLNESS, đồng thời đặt lịch tham quan chi nhánh.'],
   blog: ['Tin tức | RELOAD Gym & Wellness', 'Theo dõi tin tức tập luyện, khoảnh khắc cộng đồng, sự kiện và câu chuyện sắp ra mắt tại RELOAD.']
 };
+const selectedPages = process.argv.slice(2);
+if (selectedPages.some(name => !pages[name])) throw new Error('Unknown page name');
 for (const [name, [title, description]] of Object.entries(pages)) {
+  if (selectedPages.length && !selectedPages.includes(name)) continue;
   const header = read('header').replace(`href="${name}.html"`, `href="${name}.html" class="active" aria-current="page"`);
   // The header logo also targets index.html; active state belongs only to navigation.
   const normalizedHeader = header.replace('class="logo" href="index.html" class="active" aria-current="page"', 'class="logo" href="index.html"');
   const activeHeader = name === 'index' ? normalizedHeader.replace('<a href="index.html"', '<a class="active" aria-current="page" href="index.html"') : normalizedHeader;
+  const aboutStylesheet = name === 'about' ? '  <link rel="stylesheet" href="assets/css/about.css">\\n' : '';
   const html = `<!DOCTYPE html>
 <html lang="vi">
 <head>
@@ -39,7 +43,7 @@ for (const [name, [title, description]] of Object.entries(pages)) {
   <link rel="icon" type="image/png" href="assets/images/logo/reload-logo.png">
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@7.3.1/css/all.min.css">
   <link rel="stylesheet" href="assets/css/style.css">
-  <script src="assets/js/main.js" defer></script>
+${aboutStylesheet}  <script src="assets/js/main.js" defer></script>
 </head>
 <body class="page-${name} ${name === 'index' ? 'home-page' : 'inner-page'}">
 <a class="skip-link" href="#main">Đi đến nội dung chính</a>
@@ -47,7 +51,7 @@ ${activeHeader}
 <main id="main">
 ${read('pages/' + name)}
 </main>
-${promoPopup}
+${name === 'about' ? '' : promoPopup}
 ${footer}
 ${floatingContact}
 ${read('dialogs')}
@@ -56,4 +60,4 @@ ${read('dialogs')}
 `;
   fs.writeFileSync(path.join(root, name + '.html'), html);
 }
-console.log('Built eight static pages from shared header, footer, popup, floating contact and dialogs.');
+console.log('Built ' + (selectedPages.length ? selectedPages.join(', ') : 'all eight pages') + ' from shared templates.');
