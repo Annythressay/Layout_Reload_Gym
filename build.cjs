@@ -31,7 +31,9 @@ for (const [name, [title, description]] of Object.entries(pages)) {
   // The header logo also targets index.html; active state belongs only to navigation.
   const normalizedHeader = header.replace('class="logo" href="index.html" class="active" aria-current="page"', 'class="logo" href="index.html"');
   const activeHeader = name === 'index' ? normalizedHeader.replace('<a href="index.html"', '<a class="active" aria-current="page" href="index.html"') : normalizedHeader;
-  const aboutStylesheet = name === 'about' ? '  <link rel="stylesheet" href="assets/css/about.css">\\n' : '';
+  const aboutStylesheet = name === 'about' ? '  <link rel="stylesheet" href="assets/css/about.css">\n' : '';
+  const facilitiesStylesheet = name === 'facilities' ? '  <link rel="stylesheet" href="assets/css/facilities.css">\n' : '';
+  const aboutScript = name === 'about' ? '  <script src="assets/js/about.js" defer></script>\n' : '';
   const html = `<!DOCTYPE html>
 <html lang="vi">
 <head>
@@ -43,7 +45,7 @@ for (const [name, [title, description]] of Object.entries(pages)) {
   <link rel="icon" type="image/png" href="assets/images/logo/reload-logo.png">
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@7.3.1/css/all.min.css">
   <link rel="stylesheet" href="assets/css/style.css">
-${aboutStylesheet}  <script src="assets/js/main.js" defer></script>
+${aboutStylesheet}${facilitiesStylesheet}${aboutScript}  <script src="assets/js/main.js" defer></script>
 </head>
 <body class="page-${name} ${name === 'index' ? 'home-page' : 'inner-page'}">
 <a class="skip-link" href="#main">Đi đến nội dung chính</a>

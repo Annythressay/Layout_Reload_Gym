@@ -1,0 +1,488 @@
+[
+  {
+    "width": 1920,
+    "height": 1080,
+    "scrollWidth": 1920,
+    "clientWidth": 1920,
+    "className": "about-story__content text qua-trinh-des-scroll",
+    "story": {
+      "x": 0,
+      "y": 273,
+      "width": 1920,
+      "height": 624,
+      "right": 1920,
+      "bottom": 897
+    },
+    "content": {
+      "x": 296,
+      "y": 505,
+      "width": 686,
+      "height": 300,
+      "right": 982,
+      "bottom": 805
+    },
+    "bar": {
+      "x": 978,
+      "y": 505,
+      "width": 4,
+      "height": 300,
+      "right": 982,
+      "bottom": 805
+    },
+    "barDisplay": "block",
+    "barBg": "rgb(236, 238, 242)",
+    "thumbTop": "0px",
+    "thumbHeight": "216px",
+    "paragraphs": 3,
+    "strong": [
+      "Phạm T Yến Linh",
+      "trải nghiệm hội viên",
+      "huấn luyện cá nhân",
+      "phục hồi và wellness",
+      "một phần bền vững của cuộc sống"
+    ],
+    "hasFounder": true,
+    "forbidden": [],
+    "clientHeight": 300,
+    "scrollHeight": 409,
+    "canScroll": true,
+    "overflowY": "scroll",
+    "maxHeight": "300px",
+    "paddingRight": "34px",
+    "mobileTitleAccent": "inline",
+    "scrolledVars": null
+  },
+  {
+    "width": 1600,
+    "height": 900,
+    "scrollWidth": 1600,
+    "clientWidth": 1600,
+    "className": "about-story__content text qua-trinh-des-scroll",
+    "story": {
+      "x": 0,
+      "y": 183,
+      "width": 1600,
+      "height": 624,
+      "right": 1600,
+      "bottom": 807
+    },
+    "content": {
+      "x": 136,
+      "y": 415,
+      "width": 686,
+      "height": 300,
+      "right": 822,
+      "bottom": 715
+    },
+    "bar": {
+      "x": 818,
+      "y": 415,
+      "width": 4,
+      "height": 300,
+      "right": 822,
+      "bottom": 715
+    },
+    "barDisplay": "block",
+    "barBg": "rgb(236, 238, 242)",
+    "thumbTop": "0px",
+    "thumbHeight": "218px",
+    "paragraphs": 3,
+    "strong": [
+      "Phạm T Yến Linh",
+      "trải nghiệm hội viên",
+      "huấn luyện cá nhân",
+      "phục hồi và wellness",
+      "một phần bền vững của cuộc sống"
+    ],
+    "hasFounder": true,
+    "forbidden": [],
+    "clientHeight": 300,
+    "scrollHeight": 405,
+    "canScroll": true,
+    "overflowY": "scroll",
+    "maxHeight": "300px",
+    "paddingRight": "34px",
+    "mobileTitleAccent": "inline",
+    "scrolledVars": null
+  },
+  {
+    "width": 1440,
+    "height": 900,
+    "scrollWidth": 1440,
+    "clientWidth": 1440,
+    "className": "about-story__content text qua-trinh-des-scroll",
+    "story": {
+      "x": 0,
+      "y": 187,
+      "width": 1440,
+      "height": 616,
+      "right": 1440,
+      "bottom": 803
+    },
+    "content": {
+      "x": 58,
+      "y": 411,
+      "width": 685,
+      "height": 300,
+      "right": 742,
+      "bottom": 711
+    },
+    "bar": {
+      "x": 738,
+      "y": 411,
+      "width": 4,
+      "height": 300,
+      "right": 742,
+      "bottom": 711
+    },
+    "barDisplay": "block",
+    "barBg": "rgb(236, 238, 242)",
+    "thumbTop": "43px",
+    "thumbHeight": "257px",
+    "paragraphs": 3,
+    "strong": [
+      "Phạm T Yến Linh",
+      "trải nghiệm hội viên",
+      "huấn luyện cá nhân",
+      "phục hồi và wellness",
+      "một phần bền vững của cuộc sống"
+    ],
+    "hasFounder": true,
+    "forbidden": [],
+    "clientHeight": 300,
+    "scrollHeight": 350,
+    "canScroll": true,
+    "overflowY": "scroll",
+    "maxHeight": "300px",
+    "paddingRight": "34px",
+    "mobileTitleAccent": "inline",
+    "scrolledVars": {
+      "top": "43px",
+      "height": "257px"
+    }
+  },
+  {
+    "width": 1366,
+    "height": 768,
+    "scrollWidth": 1366,
+    "clientWidth": 1366,
+    "className": "about-story__content text qua-trinh-des-scroll",
+    "story": {
+      "x": 0,
+      "y": 124,
+      "width": 1366,
+      "height": 611,
+      "right": 1366,
+      "bottom": 735
+    },
+    "content": {
+      "x": 55,
+      "y": 343,
+      "width": 647,
+      "height": 300,
+      "right": 702,
+      "bottom": 643
+    },
+    "bar": {
+      "x": 698,
+      "y": 343,
+      "width": 4,
+      "height": 300,
+      "right": 702,
+      "bottom": 643
+    },
+    "barDisplay": "block",
+    "barBg": "rgb(236, 238, 242)",
+    "thumbTop": "0px",
+    "thumbHeight": "234px",
+    "paragraphs": 3,
+    "strong": [
+      "Phạm T Yến Linh",
+      "trải nghiệm hội viên",
+      "huấn luyện cá nhân",
+      "phục hồi và wellness",
+      "một phần bền vững của cuộc sống"
+    ],
+    "hasFounder": true,
+    "forbidden": [],
+    "clientHeight": 300,
+    "scrollHeight": 378,
+    "canScroll": true,
+    "overflowY": "scroll",
+    "maxHeight": "300px",
+    "paddingRight": "34px",
+    "mobileTitleAccent": "inline",
+    "scrolledVars": null
+  },
+  {
+    "width": 1024,
+    "height": 768,
+    "scrollWidth": 1024,
+    "clientWidth": 1024,
+    "className": "about-story__content text qua-trinh-des-scroll",
+    "story": {
+      "x": 0,
+      "y": 151,
+      "width": 1024,
+      "height": 556,
+      "right": 1024,
+      "bottom": 707
+    },
+    "content": {
+      "x": 41,
+      "y": 331,
+      "width": 475,
+      "height": 300,
+      "right": 516,
+      "bottom": 631
+    },
+    "bar": {
+      "x": 512,
+      "y": 331,
+      "width": 4,
+      "height": 300,
+      "right": 516,
+      "bottom": 631
+    },
+    "barDisplay": "block",
+    "barBg": "rgb(236, 238, 242)",
+    "thumbTop": "101px",
+    "thumbHeight": "199px",
+    "paragraphs": 3,
+    "strong": [
+      "Phạm T Yến Linh",
+      "trải nghiệm hội viên",
+      "huấn luyện cá nhân",
+      "phục hồi và wellness",
+      "một phần bền vững của cuộc sống"
+    ],
+    "hasFounder": true,
+    "forbidden": [],
+    "clientHeight": 300,
+    "scrollHeight": 453,
+    "canScroll": true,
+    "overflowY": "scroll",
+    "maxHeight": "300px",
+    "paddingRight": "30px",
+    "mobileTitleAccent": "inline",
+    "scrolledVars": {
+      "top": "101px",
+      "height": "199px"
+    }
+  },
+  {
+    "width": 768,
+    "height": 1024,
+    "scrollWidth": 768,
+    "clientWidth": 768,
+    "className": "about-story__content text qua-trinh-des-scroll",
+    "story": {
+      "x": 0,
+      "y": 132,
+      "width": 768,
+      "height": 892,
+      "right": 768,
+      "bottom": 1024
+    },
+    "content": {
+      "x": 31,
+      "y": 308,
+      "width": 690,
+      "height": 300,
+      "right": 721,
+      "bottom": 608
+    },
+    "bar": {
+      "x": 717,
+      "y": 308,
+      "width": 4,
+      "height": 300,
+      "right": 721,
+      "bottom": 608
+    },
+    "barDisplay": "block",
+    "barBg": "rgb(236, 238, 242)",
+    "thumbTop": "13px",
+    "thumbHeight": "287px",
+    "paragraphs": 3,
+    "strong": [
+      "Phạm T Yến Linh",
+      "trải nghiệm hội viên",
+      "huấn luyện cá nhân",
+      "phục hồi và wellness",
+      "một phần bền vững của cuộc sống"
+    ],
+    "hasFounder": true,
+    "forbidden": [],
+    "clientHeight": 300,
+    "scrollHeight": 314,
+    "canScroll": true,
+    "overflowY": "scroll",
+    "maxHeight": "300px",
+    "paddingRight": "30px",
+    "mobileTitleAccent": "inline",
+    "scrolledVars": {
+      "top": "13px",
+      "height": "287px"
+    }
+  },
+  {
+    "width": 430,
+    "height": 932,
+    "scrollWidth": 430,
+    "clientWidth": 430,
+    "className": "about-story__content text qua-trinh-des-scroll",
+    "story": {
+      "x": 0,
+      "y": 90,
+      "width": 430,
+      "height": 925,
+      "right": 430,
+      "bottom": 1015
+    },
+    "content": {
+      "x": 16,
+      "y": 259,
+      "width": 398,
+      "height": 463,
+      "right": 414,
+      "bottom": 722
+    },
+    "bar": {
+      "x": 0,
+      "y": 0,
+      "width": 0,
+      "height": 0,
+      "right": 0,
+      "bottom": 0
+    },
+    "barDisplay": "none",
+    "barBg": "rgb(236, 238, 242)",
+    "thumbTop": "0px",
+    "thumbHeight": "100%",
+    "paragraphs": 3,
+    "strong": [
+      "Phạm T Yến Linh",
+      "trải nghiệm hội viên",
+      "huấn luyện cá nhân",
+      "phục hồi và wellness",
+      "một phần bền vững của cuộc sống"
+    ],
+    "hasFounder": true,
+    "forbidden": [],
+    "clientHeight": 463,
+    "scrollHeight": 463,
+    "canScroll": false,
+    "overflowY": "visible",
+    "maxHeight": "none",
+    "paddingRight": "0px",
+    "mobileTitleAccent": "block",
+    "scrolledVars": null
+  },
+  {
+    "width": 390,
+    "height": 844,
+    "scrollWidth": 390,
+    "clientWidth": 390,
+    "className": "about-story__content text qua-trinh-des-scroll",
+    "story": {
+      "x": 0,
+      "y": 90,
+      "width": 390,
+      "height": 971,
+      "right": 390,
+      "bottom": 1061
+    },
+    "content": {
+      "x": 16,
+      "y": 252,
+      "width": 358,
+      "height": 516,
+      "right": 374,
+      "bottom": 768
+    },
+    "bar": {
+      "x": 0,
+      "y": 0,
+      "width": 0,
+      "height": 0,
+      "right": 0,
+      "bottom": 0
+    },
+    "barDisplay": "none",
+    "barBg": "rgb(236, 238, 242)",
+    "thumbTop": "0px",
+    "thumbHeight": "100%",
+    "paragraphs": 3,
+    "strong": [
+      "Phạm T Yến Linh",
+      "trải nghiệm hội viên",
+      "huấn luyện cá nhân",
+      "phục hồi và wellness",
+      "một phần bền vững của cuộc sống"
+    ],
+    "hasFounder": true,
+    "forbidden": [],
+    "clientHeight": 516,
+    "scrollHeight": 516,
+    "canScroll": false,
+    "overflowY": "visible",
+    "maxHeight": "none",
+    "paddingRight": "0px",
+    "mobileTitleAccent": "block",
+    "scrolledVars": null
+  },
+  {
+    "width": 375,
+    "height": 812,
+    "scrollWidth": 375,
+    "clientWidth": 375,
+    "className": "about-story__content text qua-trinh-des-scroll",
+    "story": {
+      "x": 0,
+      "y": 90,
+      "width": 375,
+      "height": 968,
+      "right": 375,
+      "bottom": 1058
+    },
+    "content": {
+      "x": 16,
+      "y": 249,
+      "width": 343,
+      "height": 516,
+      "right": 359,
+      "bottom": 765
+    },
+    "bar": {
+      "x": 0,
+      "y": 0,
+      "width": 0,
+      "height": 0,
+      "right": 0,
+      "bottom": 0
+    },
+    "barDisplay": "none",
+    "barBg": "rgb(236, 238, 242)",
+    "thumbTop": "0px",
+    "thumbHeight": "100%",
+    "paragraphs": 3,
+    "strong": [
+      "Phạm T Yến Linh",
+      "trải nghiệm hội viên",
+      "huấn luyện cá nhân",
+      "phục hồi và wellness",
+      "một phần bền vững của cuộc sống"
+    ],
+    "hasFounder": true,
+    "forbidden": [],
+    "clientHeight": 516,
+    "scrollHeight": 516,
+    "canScroll": false,
+    "overflowY": "visible",
+    "maxHeight": "none",
+    "paddingRight": "0px",
+    "mobileTitleAccent": "block",
+    "scrolledVars": null
+  }
+]

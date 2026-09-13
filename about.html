@@ -9,21 +9,44 @@
   <link rel="icon" type="image/png" href="assets/images/logo/reload-logo.png">
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@7.3.1/css/all.min.css">
   <link rel="stylesheet" href="assets/css/style.css">
-  <link rel="stylesheet" href="assets/css/about.css">\n  <script src="assets/js/main.js" defer></script>
+  <link rel="stylesheet" href="assets/css/about.css">
+  <script src="assets/js/about.js" defer></script>
+  <script src="assets/js/main.js" defer></script>
 </head>
 <body class="page-about inner-page">
 <a class="skip-link" href="#main">Đi đến nội dung chính</a>
 <header class="header" id="header"><div class="container header-inner"><a class="logo" href="index.html" aria-label="Trang chủ RELOAD"><img src="assets/images/logo/reload-logo.png" alt="RELOAD Gym &amp; Wellness"></a><nav class="navigation" id="navigation" aria-label="Điều hướng chính"><a href="index.html">Trang chủ</a><a href="about.html" class="active" aria-current="page">Giới thiệu</a><a href="facilities.html">Cơ sở vật chất</a><a href="services.html">Dịch vụ</a><a href="class-schedule.html">Lịch lớp</a><a href="membership.html">Gói tập</a><a href="locations.html">Chi nhánh</a><a href="blog.html">Tin tức</a></nav><button class="search-toggle" aria-label="Tìm kiếm trên website"><i class="fa-solid fa-magnifying-glass" aria-hidden="true"></i></button><a class="button button-red" href="membership.html">ĐĂNG KÝ NGAY <i class="fa-solid fa-arrow-right" aria-hidden="true"></i></a><button class="menu-toggle" aria-label="Mở menu điều hướng" aria-expanded="false" aria-controls="navigation"><i class="fa-solid fa-bars menu-toggle__open" aria-hidden="true"></i><i class="fa-solid fa-xmark menu-toggle__close" aria-hidden="true"></i></button></div></header>
 <main id="main">
 <section class="about-hero" aria-labelledby="about-title">
-  <img class="about-hero__image" src="assets/images/about/hero-battle-rope.jpg" alt="Nữ vận động viên tập dây thừng trong không gian gym hiện đại" width="1672" height="941" fetchpriority="high">
-  <div class="container about-hero__content">
-    <p class="about-hero__eyebrow">MẠNH MẼ HƠN MỖI NGÀY</p>
-    <h1 id="about-title">VỀ <em>RELOAD</em></h1>
-    <p class="about-hero__statement">NƠI SỨC KHỎE LÀ NỀN TẢNG<br>ĐỂ BẠN SỐNG<br>VÀ TRỞ NÊN PHIÊN BẢN TỐT HƠN</p>
-    <p class="about-hero__motto" aria-label="Mạnh mẽ hơn, khỏe mạnh hơn, hạnh phúc hơn">STRONGER<br>HEALTHIER<br>HAPPIER<br>YOU</p>
+  <img class="about-hero__background" src="assets/images/about/about-hero-gym-bg-new.webp" alt="" width="2048" height="1024" fetchpriority="high">
+  <div class="container about-hero__inner">
+    <div class="about-hero__content">
+      <p class="about-hero__eyebrow">OUR STORY</p>
+      <h1 class="about-hero__title" id="about-title"><span>Hành trình</span><strong>RELOAD</strong></h1>
+      <p class="about-hero__statement">KHỎE HƠN HÔM QUA<br>ĐỂ SỐNG TỐT HƠN NGÀY MAI</p>
+      <p class="about-hero__description">RELOAD không chỉ là một phòng gym. Đó là hành trình kiến tạo phiên bản tốt hơn của chính bạn – mạnh mẽ hơn, tự tin hơn và hạnh phúc hơn mỗi ngày.</p>
+      <div class="about-hero__actions">
+        <a class="button button-red" href="membership.html">BẮT ĐẦU HÀNH TRÌNH <i class="fa-solid fa-arrow-right" aria-hidden="true"></i></a>
+        <button class="about-hero__video" type="button" aria-label="Xem video về RELOAD" aria-haspopup="dialog" aria-controls="about-video-modal">
+          <span class="about-hero__play" aria-hidden="true"><i class="fa-solid fa-play"></i></span>
+          <span class="about-hero__video-copy"><strong>XEM VIDEO</strong><span>VỀ RELOAD</span></span>
+        </button>
+      </div>
+    </div>
+    <picture class="about-hero__subjects">
+      <img src="assets/images/about/about-hero-women-hero.png" alt="Hai thành viên nữ RELOAD trong không gian tập luyện" width="960" height="540" fetchpriority="high">
+    </picture>
+    <p class="about-hero__side-copy" aria-hidden="true">STRONG<br>GIRLS<br>BRIGHTER<br>TOMORROW</p>
   </div>
 </section>
+
+<dialog class="video-modal" id="about-video-modal" aria-label="Video giới thiệu RELOAD">
+  <button class="video-modal__close" type="button" aria-label="Đóng video" autofocus><i class="fa-solid fa-xmark" aria-hidden="true"></i></button>
+  <div class="video-modal__content">
+    <video controls autoplay playsinline preload="none" aria-label="Trải nghiệm không gian RELOAD"></video>
+    <p class="video-modal__error" role="status" hidden>Video hiện không khả dụng. Vui lòng thử lại sau.</p>
+  </div>
+</dialog>
 
 <section class="about-story" aria-labelledby="story-title">
   <div class="about-story__visual">
@@ -32,11 +55,19 @@
   </div>
   <div class="container">
     <div class="about-story__copy">
-      <p class="about-eyebrow">RELOAD GYM &amp; WELLNESS</p>
-      <h2 id="story-title">RELOAD KHÔNG CHỈ LÀ<br>MỘT <em>PHÒNG GYM.</em></h2>
-      <p>RELOAD là hệ sinh thái Gym &amp; Wellness hiện đại, nơi tập luyện, phục hồi và chăm sóc sức khỏe toàn diện. Chúng tôi tin rằng thể lực khỏe không chỉ là thể chất, mà còn là tinh thần, lối sống và cộng đồng. Với trang thiết bị hiện đại, không gian truyền cảm hứng và sự đồng hành tận tâm, bạn tiến gần hơn đến phiên bản tốt hơn mỗi ngày.</p>
-      <p>Tại RELOAD, chúng tôi không chỉ xây dựng một nơi để tập luyện, mà là một cộng đồng sống khỏe mạnh, tích cực và bền vững.</p>
-      <a class="button button-red" href="services.html">KHÁM PHÁ NGAY <span aria-hidden="true">→</span></a>
+      <h2 class="about-story__title" id="story-title">
+        <span>QUÁ TRÌNH HÌNH THÀNH</span>
+        <strong>&amp; PHÁT TRIỂN</strong>
+      </h2>
+      <div class="about-story__scroll-wrap">
+        <div class="about-story__content text qua-trinh-des-scroll" tabindex="0" aria-label="Nội dung quá trình hình thành và phát triển của RELOAD">
+          <p>Được hình thành từ tâm huyết của nhà sáng lập <strong>Phạm T Yến Linh</strong>, <strong>RELOAD – GYM &amp; WELLNESS</strong> hướng đến một không gian tập luyện hiện đại, gần gũi, nơi mỗi người có thể bắt đầu hành trình chăm sóc bản thân. Chúng tôi mong muốn giúp hội viên <strong>xây dựng thói quen vận động đúng cách</strong>, hiểu hơn về cơ thể và tìm thấy niềm vui trong việc duy trì một lối sống khỏe mạnh.</p>
+          <p>Với định hướng kết hợp <strong>tập luyện, phục hồi và wellness</strong>, RELOAD mang đến các lựa chọn từ <strong>huấn luyện cá nhân</strong> đến lớp tập nhóm và những hoạt động chăm sóc thể chất, tinh thần. Chúng tôi chú trọng <strong>trải nghiệm hội viên</strong>, hướng đến việc giúp mỗi người tìm được hình thức vận động phù hợp với thể trạng, mục tiêu và nhịp sống của mình.</p>
+          <p><strong>Sự tiến bộ của hội viên</strong> là giá trị RELOAD mong muốn theo đuổi. Thay vì đặt nặng những thay đổi tức thời, chúng tôi khuyến khích mỗi người bắt đầu từ <strong>những mục tiêu vừa sức</strong>, duy trì sự đều đặn và dành thời gian phục hồi. Mỗi bước tiến, dù nhỏ, đều góp phần xây dựng <strong>nền tảng thể lực và sự tự tin lâu dài</strong>.</p>
+          <p>Với mong muốn trở thành <strong>không gian gym và wellness gắn bó với cuộc sống hằng ngày</strong>, RELOAD hướng đến một cộng đồng cùng tập luyện, chia sẻ và động viên nhau. Chúng tôi tin rằng chăm sóc sức khỏe không chỉ diễn ra trong một buổi tập, mà là <strong>một phần bền vững của cuộc sống</strong>, để mỗi người khỏe hơn hôm nay và sống tốt hơn mỗi ngày.</p>
+        </div>
+        <div class="about-story__scrollbar" aria-hidden="true"><span></span></div>
+      </div>
     </div>
   </div>
 </section>
@@ -63,15 +94,18 @@
     </article>
   </div>
   <dl class="about-stats">
-    <div><dt>2</dt><dd>Cơ sở hiện đại</dd></div>
-    <div><dt>3.000+</dt><dd>Hội viên tin tưởng</dd></div>
-    <div><dt>500+</dt><dd>Lớp tập mỗi tháng</dd></div>
-    <div><dt>20+</dt><dd>Huấn luyện viên chuyên nghiệp</dd></div>
+    <div><dt><span class="about-stats__number" data-count="2">0</span></dt><dd>Cơ sở hiện đại</dd></div>
+    <div><dt><span class="about-stats__number" data-count="3000" data-format="dot">0</span><span class="about-stats__suffix">+</span></dt><dd>Hội viên tin tưởng</dd></div>
+    <div><dt><span class="about-stats__number" data-count="500">0</span><span class="about-stats__suffix">+</span></dt><dd>Lớp tập mỗi tháng</dd></div>
+    <div><dt><span class="about-stats__number" data-count="20">0</span><span class="about-stats__suffix">+</span></dt><dd>Huấn luyện viên chuyên nghiệp</dd></div>
   </dl>
 </section>
 
 <div class="about-strip" aria-label="RELOAD — Tập luyện. Phục hồi. Tái tạo.">
-  <div aria-hidden="true"><b>RELOAD</b><span>››</span> TRAIN. RECOVER. RELOAD. <b>RELOAD</b><span>››</span> TRAIN. RECOVER. RELOAD. <b>RELOAD</b><span>››</span> TRAIN. RECOVER. RELOAD.</div>
+  <div class="about-strip__track" aria-hidden="true">
+    <div class="about-strip__group"><b>RELOAD</b><span>››</span> TRAIN. RECOVER. RELOAD. <b>RELOAD</b><span>››</span> TRAIN. RECOVER. RELOAD. <b>RELOAD</b><span>››</span> TRAIN. RECOVER. RELOAD.</div>
+    <div class="about-strip__group"><b>RELOAD</b><span>››</span> TRAIN. RECOVER. RELOAD. <b>RELOAD</b><span>››</span> TRAIN. RECOVER. RELOAD. <b>RELOAD</b><span>››</span> TRAIN. RECOVER. RELOAD.</div>
+  </div>
 </div>
 
 <section class="about-journey" aria-labelledby="journey-title">
@@ -88,36 +122,6 @@
     <li><time datetime="2024">2024</time><h3>Hệ sinh thái Gym &amp; Wellness</h3><p>Kết nối tập luyện, phục hồi và chăm sóc sức khỏe toàn diện trong cùng một hành trình.</p></li>
     <li><time datetime="2025">2025</time><h3>Tiếp tục vươn xa</h3><p>Mở rộng cộng đồng, hướng tới vị thế thương hiệu mạnh về lối sống khỏe và bền vững.</p></li>
   </ol>
-</section>
-
-<section class="about-spaces container" aria-labelledby="spaces-title">
-  <div class="about-spaces__heading">
-    <div class="about-heading"><h2 id="spaces-title">MỘT TINH THẦN.<br><em>HAI KHÔNG GIAN RELOAD.</em></h2><p>Cùng chung một tinh thần — vì một cuộc sống khỏe mạnh và hạnh phúc hơn.<br>Hai không gian, hai trải nghiệm riêng, phù hợp với nhu cầu của bạn.</p></div>
-    <a class="button" href="locations.html">KHÁM PHÁ NGAY <span aria-hidden="true">→</span></a>
-  </div>
-  <div class="about-pair">
-    <article class="about-space">
-      <img src="assets/images/about/space-women.jpg" alt="Nữ học viên tập tạ trong không gian ánh sáng đỏ" width="1672" height="941" loading="lazy">
-      <div class="about-space__copy"><h3>RELOAD WOMEN</h3><p class="about-space__tag">KHỎE ĐẸP HƠN MỖI NGÀY</p><p>Không gian tập luyện dành riêng cho nữ, được thiết kế tinh tế để bạn tự tin, khỏe mạnh và yêu bản thân hơn mỗi ngày.</p><a href="locations.html#reload-women">KHÁM PHÁ NGAY <span aria-hidden="true">→</span></a></div>
-    </article>
-    <article class="about-space">
-      <img src="assets/images/about/space-wellness.jpg" alt="Hội viên và huấn luyện viên trong phòng tập hiện đại" width="1672" height="941" loading="lazy">
-      <div class="about-space__copy"><h3>RELOAD<br>GYM &amp; WELLNESS</h3><p class="about-space__tag">MẠNH MẼ HƠN MỖI NGÀY</p><p>Không gian tập luyện toàn diện cho mọi người, với trang thiết bị hiện đại, đa dạng bộ môn và cộng đồng năng động.</p><a href="locations.html#reload-main">KHÁM PHÁ NGAY <span aria-hidden="true">→</span></a></div>
-    </article>
-  </div>
-</section>
-
-<section class="about-community" aria-labelledby="community-title">
-  <div class="container">
-    <div class="about-heading"><h2 id="community-title">CỘNG ĐỒNG <em>RELOAD</em></h2><p>Cùng tập luyện. Cùng tiến bộ. Một cộng đồng sống khỏe mạnh hơn.</p></div>
-    <div class="about-gallery" tabindex="0" role="region" aria-label="Bộ ảnh minh họa cộng đồng RELOAD, cuộn ngang để xem thêm">
-      <img src="assets/images/about/community-ropes.jpg" alt="Tập dây thừng để nâng cao sức bền" width="1448" height="1086" loading="lazy">
-      <img src="assets/images/about/community-class.jpg" alt="Lớp tập nhóm tràn đầy năng lượng" width="1448" height="1086" loading="lazy">
-      <img src="assets/images/about/community-interior.jpg" alt="Khu máy tập với thiết bị đen và đỏ" width="1448" height="1086" loading="lazy">
-      <img src="assets/images/about/community-boxing.jpg" alt="Nữ học viên tập boxing" width="1448" height="1086" loading="lazy">
-      <img src="assets/images/about/community-coach.jpg" alt="Huấn luyện viên hỗ trợ học viên tập tạ" width="1448" height="1086" loading="lazy">
-    </div>
-  </div>
 </section>
 
 <section class="about-cta" aria-labelledby="cta-title">

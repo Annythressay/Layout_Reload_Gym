@@ -1,0 +1,650 @@
+[
+  {
+    "width": 1920,
+    "height": 1080,
+    "scrollWidth": 1920,
+    "clientWidth": 1920,
+    "story": {
+      "x": 0,
+      "y": 218,
+      "width": 1920,
+      "height": 734,
+      "right": 1920,
+      "bottom": 952
+    },
+    "copy": {
+      "x": 296,
+      "y": 218,
+      "width": 730,
+      "height": 734,
+      "right": 1026,
+      "bottom": 952
+    },
+    "content": {
+      "x": 296,
+      "y": 450,
+      "width": 660,
+      "height": 409,
+      "right": 956,
+      "bottom": 860
+    },
+    "title": {
+      "x": 296,
+      "y": 304,
+      "width": 690,
+      "height": 112,
+      "right": 986,
+      "bottom": 416
+    },
+    "visual": {
+      "x": 960,
+      "y": 218,
+      "width": 960,
+      "height": 734,
+      "right": 1920,
+      "bottom": 952
+    },
+    "background": "rgb(251, 251, 252)",
+    "titleText": "QUÁ TRÌNH HÌNH THÀNH\n& PHÁT TRIỂN",
+    "paragraphs": 3,
+    "strong": [
+      "Phạm T Yến Linh",
+      "trải nghiệm hội viên",
+      "huấn luyện cá nhân",
+      "phục hồi và wellness",
+      "một phần bền vững của cuộc sống"
+    ],
+    "founder": true,
+    "forbidden": [],
+    "imageSrc": "assets/images/about/story-weights.jpg",
+    "copyAfter": {
+      "display": "block",
+      "width": "4px",
+      "height": "330px",
+      "background": "rgb(240, 23, 41)"
+    },
+    "titleAfter": {
+      "display": "inline",
+      "width": "auto",
+      "height": "auto",
+      "background": "rgba(0, 0, 0, 0)"
+    },
+    "copyBeforeVisual": true
+  },
+  {
+    "width": 1600,
+    "height": 900,
+    "scrollWidth": 1600,
+    "clientWidth": 1600,
+    "story": {
+      "x": 0,
+      "y": 130,
+      "width": 1600,
+      "height": 729,
+      "right": 1600,
+      "bottom": 859
+    },
+    "copy": {
+      "x": 136,
+      "y": 130,
+      "width": 730,
+      "height": 729,
+      "right": 866,
+      "bottom": 859
+    },
+    "content": {
+      "x": 136,
+      "y": 362,
+      "width": 660,
+      "height": 405,
+      "right": 796,
+      "bottom": 767
+    },
+    "title": {
+      "x": 136,
+      "y": 216,
+      "width": 690,
+      "height": 112,
+      "right": 826,
+      "bottom": 328
+    },
+    "visual": {
+      "x": 800,
+      "y": 130,
+      "width": 800,
+      "height": 729,
+      "right": 1600,
+      "bottom": 859
+    },
+    "background": "rgb(251, 251, 252)",
+    "titleText": "QUÁ TRÌNH HÌNH THÀNH\n& PHÁT TRIỂN",
+    "paragraphs": 3,
+    "strong": [
+      "Phạm T Yến Linh",
+      "trải nghiệm hội viên",
+      "huấn luyện cá nhân",
+      "phục hồi và wellness",
+      "một phần bền vững của cuộc sống"
+    ],
+    "founder": true,
+    "forbidden": [],
+    "imageSrc": "assets/images/about/story-weights.jpg",
+    "copyAfter": {
+      "display": "block",
+      "width": "4px",
+      "height": "330px",
+      "background": "rgb(240, 23, 41)"
+    },
+    "titleAfter": {
+      "display": "inline",
+      "width": "auto",
+      "height": "auto",
+      "background": "rgba(0, 0, 0, 0)"
+    },
+    "copyBeforeVisual": true
+  },
+  {
+    "width": 1440,
+    "height": 900,
+    "scrollWidth": 1440,
+    "clientWidth": 1440,
+    "story": {
+      "x": 0,
+      "y": 176,
+      "width": 1440,
+      "height": 638,
+      "right": 1440,
+      "bottom": 814
+    },
+    "copy": {
+      "x": 58,
+      "y": 176,
+      "width": 729,
+      "height": 638,
+      "right": 786,
+      "bottom": 814
+    },
+    "content": {
+      "x": 58,
+      "y": 400,
+      "width": 660,
+      "height": 322,
+      "right": 718,
+      "bottom": 722
+    },
+    "title": {
+      "x": 58,
+      "y": 262,
+      "width": 690,
+      "height": 104,
+      "right": 748,
+      "bottom": 366
+    },
+    "visual": {
+      "x": 720,
+      "y": 176,
+      "width": 720,
+      "height": 638,
+      "right": 1440,
+      "bottom": 814
+    },
+    "background": "rgb(251, 251, 252)",
+    "titleText": "QUÁ TRÌNH HÌNH THÀNH\n& PHÁT TRIỂN",
+    "paragraphs": 3,
+    "strong": [
+      "Phạm T Yến Linh",
+      "trải nghiệm hội viên",
+      "huấn luyện cá nhân",
+      "phục hồi và wellness",
+      "một phần bền vững của cuộc sống"
+    ],
+    "founder": true,
+    "forbidden": [],
+    "imageSrc": "assets/images/about/story-weights.jpg",
+    "copyAfter": {
+      "display": "block",
+      "width": "4px",
+      "height": "306.438px",
+      "background": "rgb(240, 23, 41)"
+    },
+    "titleAfter": {
+      "display": "inline",
+      "width": "auto",
+      "height": "auto",
+      "background": "rgba(0, 0, 0, 0)"
+    },
+    "copyBeforeVisual": true
+  },
+  {
+    "width": 1366,
+    "height": 768,
+    "scrollWidth": 1366,
+    "clientWidth": 1366,
+    "story": {
+      "x": 0,
+      "y": 85,
+      "width": 1366,
+      "height": 689,
+      "right": 1366,
+      "bottom": 774
+    },
+    "copy": {
+      "x": 55,
+      "y": 85,
+      "width": 691,
+      "height": 689,
+      "right": 746,
+      "bottom": 774
+    },
+    "content": {
+      "x": 55,
+      "y": 304,
+      "width": 629,
+      "height": 378,
+      "right": 684,
+      "bottom": 682
+    },
+    "title": {
+      "x": 55,
+      "y": 171,
+      "width": 690,
+      "height": 99,
+      "right": 745,
+      "bottom": 270
+    },
+    "visual": {
+      "x": 683,
+      "y": 85,
+      "width": 683,
+      "height": 689,
+      "right": 1366,
+      "bottom": 774
+    },
+    "background": "rgb(251, 251, 252)",
+    "titleText": "QUÁ TRÌNH HÌNH THÀNH\n& PHÁT TRIỂN",
+    "paragraphs": 3,
+    "strong": [
+      "Phạm T Yến Linh",
+      "trải nghiệm hội viên",
+      "huấn luyện cá nhân",
+      "phục hồi và wellness",
+      "một phần bền vững của cuộc sống"
+    ],
+    "founder": true,
+    "forbidden": [],
+    "imageSrc": "assets/images/about/story-weights.jpg",
+    "copyAfter": {
+      "display": "block",
+      "width": "4px",
+      "height": "330px",
+      "background": "rgb(240, 23, 41)"
+    },
+    "titleAfter": {
+      "display": "inline",
+      "width": "auto",
+      "height": "auto",
+      "background": "rgba(0, 0, 0, 0)"
+    },
+    "copyBeforeVisual": true
+  },
+  {
+    "width": 1024,
+    "height": 768,
+    "scrollWidth": 1024,
+    "clientWidth": 1024,
+    "story": {
+      "x": 0,
+      "y": 74,
+      "width": 1024,
+      "height": 709,
+      "right": 1024,
+      "bottom": 783
+    },
+    "copy": {
+      "x": 41,
+      "y": 74,
+      "width": 509,
+      "height": 709,
+      "right": 550,
+      "bottom": 783
+    },
+    "content": {
+      "x": 41,
+      "y": 254,
+      "width": 455,
+      "height": 453,
+      "right": 496,
+      "bottom": 707
+    },
+    "title": {
+      "x": 41,
+      "y": 146,
+      "width": 509,
+      "height": 80,
+      "right": 550,
+      "bottom": 226
+    },
+    "visual": {
+      "x": 522,
+      "y": 74,
+      "width": 502,
+      "height": 709,
+      "right": 1024,
+      "bottom": 783
+    },
+    "background": "rgb(251, 251, 252)",
+    "titleText": "QUÁ TRÌNH HÌNH THÀNH\n& PHÁT TRIỂN",
+    "paragraphs": 3,
+    "strong": [
+      "Phạm T Yến Linh",
+      "trải nghiệm hội viên",
+      "huấn luyện cá nhân",
+      "phục hồi và wellness",
+      "một phần bền vững của cuộc sống"
+    ],
+    "founder": true,
+    "forbidden": [],
+    "imageSrc": "assets/images/about/story-weights.jpg",
+    "copyAfter": {
+      "display": "block",
+      "width": "4px",
+      "height": "311.953px",
+      "background": "rgb(240, 23, 41)"
+    },
+    "titleAfter": {
+      "display": "inline",
+      "width": "auto",
+      "height": "auto",
+      "background": "rgba(0, 0, 0, 0)"
+    },
+    "copyBeforeVisual": true
+  },
+  {
+    "width": 768,
+    "height": 1024,
+    "scrollWidth": 768,
+    "clientWidth": 768,
+    "story": {
+      "x": 0,
+      "y": 117,
+      "width": 768,
+      "height": 907,
+      "right": 768,
+      "bottom": 1024
+    },
+    "copy": {
+      "x": 31,
+      "y": 117,
+      "width": 707,
+      "height": 547,
+      "right": 737,
+      "bottom": 664
+    },
+    "content": {
+      "x": 31,
+      "y": 293,
+      "width": 649,
+      "height": 314,
+      "right": 679,
+      "bottom": 608
+    },
+    "title": {
+      "x": 31,
+      "y": 179,
+      "width": 640,
+      "height": 86,
+      "right": 671,
+      "bottom": 265
+    },
+    "visual": {
+      "x": 0,
+      "y": 664,
+      "width": 768,
+      "height": 360,
+      "right": 768,
+      "bottom": 1024
+    },
+    "background": "rgb(251, 251, 252)",
+    "titleText": "QUÁ TRÌNH HÌNH THÀNH\n& PHÁT TRIỂN",
+    "paragraphs": 3,
+    "strong": [
+      "Phạm T Yến Linh",
+      "trải nghiệm hội viên",
+      "huấn luyện cá nhân",
+      "phục hồi và wellness",
+      "một phần bền vững của cuộc sống"
+    ],
+    "founder": true,
+    "forbidden": [],
+    "imageSrc": "assets/images/about/story-weights.jpg",
+    "copyAfter": {
+      "display": "block",
+      "width": "4px",
+      "height": "229.531px",
+      "background": "rgb(240, 23, 41)"
+    },
+    "titleAfter": {
+      "display": "inline",
+      "width": "auto",
+      "height": "auto",
+      "background": "rgba(0, 0, 0, 0)"
+    },
+    "copyBeforeVisual": true
+  },
+  {
+    "width": 430,
+    "height": 932,
+    "scrollWidth": 430,
+    "clientWidth": 430,
+    "story": {
+      "x": 0,
+      "y": 90,
+      "width": 430,
+      "height": 925,
+      "right": 430,
+      "bottom": 1015
+    },
+    "copy": {
+      "x": 16,
+      "y": 90,
+      "width": 398,
+      "height": 670,
+      "right": 414,
+      "bottom": 760
+    },
+    "content": {
+      "x": 16,
+      "y": 259,
+      "width": 398,
+      "height": 463,
+      "right": 414,
+      "bottom": 722
+    },
+    "title": {
+      "x": 16,
+      "y": 132,
+      "width": 398,
+      "height": 104,
+      "right": 414,
+      "bottom": 235
+    },
+    "visual": {
+      "x": 0,
+      "y": 760,
+      "width": 430,
+      "height": 255,
+      "right": 430,
+      "bottom": 1015
+    },
+    "background": "rgb(251, 251, 252)",
+    "titleText": "QUÁ TRÌNH HÌNH THÀNH\n& PHÁT TRIỂN",
+    "paragraphs": 3,
+    "strong": [
+      "Phạm T Yến Linh",
+      "trải nghiệm hội viên",
+      "huấn luyện cá nhân",
+      "phục hồi và wellness",
+      "một phần bền vững của cuộc sống"
+    ],
+    "founder": true,
+    "forbidden": [],
+    "imageSrc": "assets/images/about/story-weights.jpg",
+    "copyAfter": {
+      "display": "none",
+      "width": "4px",
+      "height": "42%",
+      "background": "rgb(240, 23, 41)"
+    },
+    "titleAfter": {
+      "display": "block",
+      "width": "88px",
+      "height": "4px",
+      "background": "rgb(240, 23, 41)"
+    },
+    "copyBeforeVisual": true
+  },
+  {
+    "width": 390,
+    "height": 844,
+    "scrollWidth": 390,
+    "clientWidth": 390,
+    "story": {
+      "x": 0,
+      "y": 90,
+      "width": 390,
+      "height": 971,
+      "right": 390,
+      "bottom": 1061
+    },
+    "copy": {
+      "x": 16,
+      "y": 90,
+      "width": 358,
+      "height": 716,
+      "right": 374,
+      "bottom": 806
+    },
+    "content": {
+      "x": 16,
+      "y": 252,
+      "width": 358,
+      "height": 516,
+      "right": 374,
+      "bottom": 768
+    },
+    "title": {
+      "x": 16,
+      "y": 132,
+      "width": 358,
+      "height": 96,
+      "right": 374,
+      "bottom": 228
+    },
+    "visual": {
+      "x": 0,
+      "y": 806,
+      "width": 390,
+      "height": 255,
+      "right": 390,
+      "bottom": 1061
+    },
+    "background": "rgb(251, 251, 252)",
+    "titleText": "QUÁ TRÌNH HÌNH THÀNH\n& PHÁT TRIỂN",
+    "paragraphs": 3,
+    "strong": [
+      "Phạm T Yến Linh",
+      "trải nghiệm hội viên",
+      "huấn luyện cá nhân",
+      "phục hồi và wellness",
+      "một phần bền vững của cuộc sống"
+    ],
+    "founder": true,
+    "forbidden": [],
+    "imageSrc": "assets/images/about/story-weights.jpg",
+    "copyAfter": {
+      "display": "none",
+      "width": "4px",
+      "height": "42%",
+      "background": "rgb(240, 23, 41)"
+    },
+    "titleAfter": {
+      "display": "block",
+      "width": "88px",
+      "height": "4px",
+      "background": "rgb(240, 23, 41)"
+    },
+    "copyBeforeVisual": true
+  },
+  {
+    "width": 375,
+    "height": 812,
+    "scrollWidth": 375,
+    "clientWidth": 375,
+    "story": {
+      "x": 0,
+      "y": 90,
+      "width": 375,
+      "height": 968,
+      "right": 375,
+      "bottom": 1058
+    },
+    "copy": {
+      "x": 16,
+      "y": 90,
+      "width": 343,
+      "height": 713,
+      "right": 359,
+      "bottom": 803
+    },
+    "content": {
+      "x": 16,
+      "y": 249,
+      "width": 343,
+      "height": 516,
+      "right": 359,
+      "bottom": 765
+    },
+    "title": {
+      "x": 16,
+      "y": 132,
+      "width": 343,
+      "height": 93,
+      "right": 359,
+      "bottom": 225
+    },
+    "visual": {
+      "x": 0,
+      "y": 803,
+      "width": 375,
+      "height": 255,
+      "right": 375,
+      "bottom": 1058
+    },
+    "background": "rgb(251, 251, 252)",
+    "titleText": "QUÁ TRÌNH HÌNH THÀNH\n& PHÁT TRIỂN",
+    "paragraphs": 3,
+    "strong": [
+      "Phạm T Yến Linh",
+      "trải nghiệm hội viên",
+      "huấn luyện cá nhân",
+      "phục hồi và wellness",
+      "một phần bền vững của cuộc sống"
+    ],
+    "founder": true,
+    "forbidden": [],
+    "imageSrc": "assets/images/about/story-weights.jpg",
+    "copyAfter": {
+      "display": "none",
+      "width": "4px",
+      "height": "42%",
+      "background": "rgb(240, 23, 41)"
+    },
+    "titleAfter": {
+      "display": "block",
+      "width": "88px",
+      "height": "4px",
+      "background": "rgb(240, 23, 41)"
+    },
+    "copyBeforeVisual": true
+  }
+]

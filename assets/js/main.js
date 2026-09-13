@@ -376,21 +376,24 @@ document.querySelector('.search-toggle').addEventListener('click',()=>{searchDia
 /* Change this one URL to update both the hero preview and the lightbox. */
 const RELOAD_VIDEO_URL = "https://video.xx.fbcdn.net/o1/v/t2/f2/m366/AQNW8bJaGtwzDML_elazSGW4vyfogVncrD4Shujx3cZA0qOAcQQTDhjEAvExb0T0Dl516s16oCHJubQ_NbcD22XbGBP41V4zpCRFbMt6KMkfvg.mp4?_nc_cat=107&_nc_oc=AdoIOKmWFE76dcq0YS6kXgfuMQWwSRnImxiybSDEL8lO-fPEVKIfsFJxeToF6uJ-vMc&_nc_sid=5e9851&_nc_ht=scontent.fsgn5-7.fna.fbcdn.net&_nc_ohc=3mLdrTmyOiYQ7kNvwFXy4gd&efg=eyJ2ZW5jb2RlX3RhZyI6Inhwdl9wcm9ncmVzc2l2ZS5GQUNFQk9PSy4uQzMuNzIwLmRhc2hfaDI2NC1iYXNpYy1nZW4yXzcyMHAiLCJ4cHZfYXNzZXRfaWQiOjMxODk4MDU1OTQ1NjM4NDksImFzc2V0X2FnZV9kYXlzIjoyMCwidmlfdXNlY2FzZV9pZCI6MTIzNzMsImR1cmF0aW9uX3MiOjY1LCJ1cmxnZW5fc291cmNlIjoid3d3In0%3D&ccb=17-1&vs=bcdb5ae24fc52748&_nc_vs=HBksFQIYRWZiX2VwaGVtZXJhbC8xQzQ3RjYxNDg4NEZENzE2NEY0RjAzRjIxMDA1OEQ5OF9tdF8xX3ZpZGVvX2Rhc2hpbml0Lm1wNBUAAsgBEgAVAhhAZmJfcGVybWFuZW50LzgzNDAzMkY2NzZCODA5Nzk1NUU1MTFFRjJEODVDRjlGX2F1ZGlvX2Rhc2hpbml0Lm1wNBUCAsgBEgAoABgAGwKIB3VzZV9vaWwBMRJwcm9ncmVzc2l2ZV9yZWNpcGUBMRUAACaS1O7Vj8eqCxUCKAJDMywXQFBzMzMzMzMYGWRhc2hfaDI2NC1iYXNpYy1nZW4yXzcyMHARAHUCZarBAQA&_nc_gid=VoB8WK-9uq2ddZb-IBbh5w&_nc_map=urlgen_bucketless&_nc_zt=28&_nc_eui2=AeEJlmxH0DB7YKTvnhTUwMsBHx8fJC3W-SQfHx8kLdb5JPhpAvHr8j0C6yz65_N3zDyaCSH6m2LcO7CsdW2owLed&_nc_ss=7b2a8&oh=00_AQLIt3ZwcWEA8e4tFjJVl9KKRPG96lVuPcHcNlnbcrmj3w&oe=6AA6E721&bitrate=2517856&tag=dash_h264-basic-gen2_720p";
 (() => {
-  const card = document.querySelector('.video-preview');
-  const modal = document.querySelector('#reload-video-modal');
-  if (!card || !modal) return;
+  const card = document.querySelector('.video-preview, .about-hero__video');
+  if (!card) return;
+  const trigger = card.matches('.about-hero__video') ? card : card.querySelector('.video-preview__trigger');
+  const modal = document.querySelector(`#${trigger?.getAttribute('aria-controls') || 'reload-video-modal'}`);
+  if (!trigger || !modal) return;
   const preview = card.querySelector('video');
   const player = modal.querySelector('video');
-  const trigger = card.querySelector('.video-preview__trigger');
   const error = modal.querySelector('.video-modal__error');
   let previousOverflow = '';
-  preview.muted = true;
-  preview.src = RELOAD_VIDEO_URL;
+  if (preview) {
+    preview.muted = true;
+    preview.src = RELOAD_VIDEO_URL;
+  }
   // Metadata-only preview keeps motion and bandwidth modest; playback starts on request.
   trigger.addEventListener('click', () => {
     if (modal.open) return;
     previousOverflow = document.body.style.overflow;
-    preview.pause();
+    preview?.pause();
     modal.showModal();
     document.body.style.overflow = 'hidden';
     error.hidden = true;
