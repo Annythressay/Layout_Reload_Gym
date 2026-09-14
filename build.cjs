@@ -34,6 +34,7 @@ for (const [name, [title, description]] of Object.entries(pages)) {
   const aboutStylesheet = name === 'about' ? '  <link rel="stylesheet" href="assets/css/about.css">\n' : '';
   const facilitiesStylesheet = name === 'facilities' ? '  <link rel="stylesheet" href="assets/css/facilities.css">\n' : '';
   const aboutScript = name === 'about' ? '  <script src="assets/js/about.js" defer></script>\n' : '';
+  const facilitiesScript = name === 'facilities' ? '  <script src="assets/js/facilities.js" defer></script>\n' : '';
   const html = `<!DOCTYPE html>
 <html lang="vi">
 <head>
@@ -45,7 +46,7 @@ for (const [name, [title, description]] of Object.entries(pages)) {
   <link rel="icon" type="image/png" href="assets/images/logo/reload-logo.png">
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@7.3.1/css/all.min.css">
   <link rel="stylesheet" href="assets/css/style.css">
-${aboutStylesheet}${facilitiesStylesheet}${aboutScript}  <script src="assets/js/main.js" defer></script>
+${aboutStylesheet}${facilitiesStylesheet}${aboutScript}${facilitiesScript}  <script src="assets/js/main.js" defer></script>
 </head>
 <body class="page-${name} ${name === 'index' ? 'home-page' : 'inner-page'}">
 <a class="skip-link" href="#main">Đi đến nội dung chính</a>
@@ -53,7 +54,7 @@ ${activeHeader}
 <main id="main">
 ${read('pages/' + name)}
 </main>
-${name === 'about' ? '' : promoPopup}
+${promoPopup}
 ${footer}
 ${floatingContact}
 ${read('dialogs')}

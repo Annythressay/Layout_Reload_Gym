@@ -409,3 +409,40 @@ const RELOAD_VIDEO_URL = "https://video.xx.fbcdn.net/o1/v/t2/f2/m366/AQNW8bJaGtw
     trigger.focus({ preventScroll: true });
   });
 })();
+
+/* Facilities page location image gallery */
+document.querySelectorAll('[data-facility-gallery]').forEach(gallery => {
+  const slides = [...gallery.querySelectorAll('.facility-location__slide')];
+  const prevBtn = gallery.querySelector('.facility-location__arrow--prev');
+  const nextBtn = gallery.querySelector('.facility-location__arrow--next');
+  const counter = gallery.querySelector('.facility-location__counter');
+
+  if (!slides.length) return;
+
+  let currentIndex = 0;
+
+  function updateSlide(index) {
+    currentIndex = (index + slides.length) % slides.length;
+    slides.forEach((slide, idx) => {
+      const isActive = idx === currentIndex;
+      slide.classList.toggle('is-active', isActive);
+      slide.setAttribute('aria-hidden', String(!isActive));
+    });
+    if (counter) {
+      const currentFormatted = String(currentIndex + 1).padStart(2, '0');
+      const totalFormatted = String(slides.length).padStart(2, '0');
+      counter.textContent = `${currentFormatted} / ${totalFormatted}`;
+    }
+  }
+
+  if (slides.length <= 1) {
+    if (prevBtn) prevBtn.hidden = true;
+    if (nextBtn) nextBtn.hidden = true;
+    if (counter) counter.hidden = true;
+  } else {
+    prevBtn?.addEventListener('click', () => updateSlide(currentIndex - 1));
+    nextBtn?.addEventListener('click', () => updateSlide(currentIndex + 1));
+  }
+
+  updateSlide(0);
+});

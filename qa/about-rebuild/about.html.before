@@ -1,0 +1,111 @@
+<section class="about-hero" aria-labelledby="about-title">
+  <img class="about-hero__background" src="assets/images/about/about-hero-gym-bg-new.webp" alt="" width="2048" height="1024" fetchpriority="high">
+  <div class="container about-hero__inner">
+    <div class="about-hero__content">
+      <p class="about-hero__eyebrow">OUR STORY</p>
+      <h1 class="about-hero__title" id="about-title"><span>Hành trình</span><strong>RELOAD</strong></h1>
+      <p class="about-hero__statement">KHỎE HƠN HÔM QUA<br>ĐỂ SỐNG TỐT HƠN NGÀY MAI</p>
+      <p class="about-hero__description">RELOAD không chỉ là một phòng gym. Đó là hành trình kiến tạo phiên bản tốt hơn của chính bạn – mạnh mẽ hơn, tự tin hơn và hạnh phúc hơn mỗi ngày.</p>
+      <div class="about-hero__actions">
+        <a class="button button-red" href="membership.html">BẮT ĐẦU HÀNH TRÌNH <i class="fa-solid fa-arrow-right" aria-hidden="true"></i></a>
+        <button class="about-hero__video" type="button" aria-label="Xem video về RELOAD" aria-haspopup="dialog" aria-controls="about-video-modal">
+          <span class="about-hero__play" aria-hidden="true"><i class="fa-solid fa-play"></i></span>
+          <span class="about-hero__video-copy"><strong>XEM VIDEO</strong><span>VỀ RELOAD</span></span>
+        </button>
+      </div>
+    </div>
+    <picture class="about-hero__subjects">
+      <img src="assets/images/about/about-hero-women-hero.png" alt="Hai thành viên nữ RELOAD trong không gian tập luyện" width="960" height="540" fetchpriority="high">
+    </picture>
+    <p class="about-hero__side-copy" aria-hidden="true">STRONG<br>GIRLS<br>BRIGHTER<br>TOMORROW</p>
+  </div>
+</section>
+
+<dialog class="video-modal" id="about-video-modal" aria-label="Video giới thiệu RELOAD">
+  <button class="video-modal__close" type="button" aria-label="Đóng video" autofocus><i class="fa-solid fa-xmark" aria-hidden="true"></i></button>
+  <div class="video-modal__content">
+    <video controls autoplay playsinline preload="none" aria-label="Trải nghiệm không gian RELOAD"></video>
+    <p class="video-modal__error" role="status" hidden>Video hiện không khả dụng. Vui lòng thử lại sau.</p>
+  </div>
+</dialog>
+
+<section class="about-story" aria-labelledby="story-title">
+  <div class="about-story__visual">
+    <img src="assets/images/about/story-weights.jpg" alt="Dãy tạ đen trong không gian RELOAD" width="1536" height="1024" loading="lazy">
+    <p aria-hidden="true">TRAIN.<br>RECOVER.<br><em>RELOAD.</em></p>
+  </div>
+  <div class="container">
+    <div class="about-story__copy">
+      <h2 class="about-story__title" id="story-title">
+        <span>QUÁ TRÌNH HÌNH THÀNH</span>
+        <strong>&amp; PHÁT TRIỂN</strong>
+      </h2>
+      <div class="about-story__scroll-wrap">
+        <div class="about-story__content text qua-trinh-des-scroll" tabindex="0" aria-label="Nội dung quá trình hình thành và phát triển của RELOAD">
+          <p>Được hình thành từ tâm huyết của nhà sáng lập <strong>Phạm T Yến Linh</strong>, <strong>RELOAD – GYM &amp; WELLNESS</strong> hướng đến một không gian tập luyện hiện đại, gần gũi, nơi mỗi người có thể bắt đầu hành trình chăm sóc bản thân. Chúng tôi mong muốn giúp hội viên <strong>xây dựng thói quen vận động đúng cách</strong>, hiểu hơn về cơ thể và tìm thấy niềm vui trong việc duy trì một lối sống khỏe mạnh.</p>
+          <p>Với định hướng kết hợp <strong>tập luyện, phục hồi và wellness</strong>, RELOAD mang đến các lựa chọn từ <strong>huấn luyện cá nhân</strong> đến lớp tập nhóm và những hoạt động chăm sóc thể chất, tinh thần. Chúng tôi chú trọng <strong>trải nghiệm hội viên</strong>, hướng đến việc giúp mỗi người tìm được hình thức vận động phù hợp với thể trạng, mục tiêu và nhịp sống của mình.</p>
+          <p><strong>Sự tiến bộ của hội viên</strong> là giá trị RELOAD mong muốn theo đuổi. Thay vì đặt nặng những thay đổi tức thời, chúng tôi khuyến khích mỗi người bắt đầu từ <strong>những mục tiêu vừa sức</strong>, duy trì sự đều đặn và dành thời gian phục hồi. Mỗi bước tiến, dù nhỏ, đều góp phần xây dựng <strong>nền tảng thể lực và sự tự tin lâu dài</strong>.</p>
+          <p>Với mong muốn trở thành <strong>không gian gym và wellness gắn bó với cuộc sống hằng ngày</strong>, RELOAD hướng đến một cộng đồng cùng tập luyện, chia sẻ và động viên nhau. Chúng tôi tin rằng chăm sóc sức khỏe không chỉ diễn ra trong một buổi tập, mà là <strong>một phần bền vững của cuộc sống</strong>, để mỗi người khỏe hơn hôm nay và sống tốt hơn mỗi ngày.</p>
+        </div>
+        <div class="about-story__scrollbar" aria-hidden="true"><span></span></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="about-purpose container" aria-labelledby="purpose-title">
+  <div class="about-heading about-heading--center">
+    <h2 id="purpose-title">TẦM NHÌN &amp; SỨ MỆNH</h2>
+    <p>Vì một thế hệ sống khỏe mạnh hơn, hạnh phúc hơn.</p>
+  </div>
+  <div class="about-pair">
+    <article class="about-purpose__card">
+      <img src="assets/images/about/vision.jpg" alt="Nữ vận động viên hướng về không gian tập luyện" width="1536" height="1024" loading="lazy">
+      <div class="about-purpose__copy"><span class="about-icon" aria-hidden="true"><i class="fa-regular fa-eye"></i></span>
+        <h3>TẦM NHÌN</h3>
+        <p>Trở thành hệ sinh thái Gym &amp; Wellness hàng đầu Việt Nam, truyền cảm hứng về lối sống khỏe mạnh, hiện đại và bền vững. Nơi mỗi người đều có thể khám phá và vượt qua giới hạn của bản thân để sống một cuộc sống tốt đẹp hơn.</p>
+      </div>
+    </article>
+    <article class="about-purpose__card">
+      <img src="assets/images/about/mission.jpg" alt="Nhóm học viên tập squat cùng huấn luyện viên" width="1536" height="1024" loading="lazy">
+      <div class="about-purpose__copy"><span class="about-icon" aria-hidden="true"><i class="fa-solid fa-bullseye"></i></span>
+        <h3>SỨ MỆNH</h3>
+        <p>Mang đến trải nghiệm tập luyện, phục hồi và chăm sóc sức khỏe toàn diện. Kết hợp chuyên môn, thiết bị hiện đại và cộng đồng tích cực để mỗi người dễ dàng xây dựng lối sống khỏe mạnh — cả về thể chất lẫn tinh thần.</p>
+      </div>
+    </article>
+  </div>
+  <dl class="about-stats">
+    <div><dt><span class="about-stats__number" data-count="2">0</span></dt><dd>Cơ sở hiện đại</dd></div>
+    <div><dt><span class="about-stats__number" data-count="3000" data-format="dot">0</span><span class="about-stats__suffix">+</span></dt><dd>Hội viên tin tưởng</dd></div>
+    <div><dt><span class="about-stats__number" data-count="500">0</span><span class="about-stats__suffix">+</span></dt><dd>Lớp tập mỗi tháng</dd></div>
+    <div><dt><span class="about-stats__number" data-count="20">0</span><span class="about-stats__suffix">+</span></dt><dd>Huấn luyện viên chuyên nghiệp</dd></div>
+  </dl>
+</section>
+
+<div class="about-strip" aria-label="RELOAD — Tập luyện. Phục hồi. Tái tạo.">
+  <div class="about-strip__track" aria-hidden="true">
+    <div class="about-strip__group"><b>RELOAD</b><span>››</span> TRAIN. RECOVER. RELOAD. <b>RELOAD</b><span>››</span> TRAIN. RECOVER. RELOAD. <b>RELOAD</b><span>››</span> TRAIN. RECOVER. RELOAD.</div>
+    <div class="about-strip__group"><b>RELOAD</b><span>››</span> TRAIN. RECOVER. RELOAD. <b>RELOAD</b><span>››</span> TRAIN. RECOVER. RELOAD. <b>RELOAD</b><span>››</span> TRAIN. RECOVER. RELOAD.</div>
+  </div>
+</div>
+
+<section class="about-journey" aria-labelledby="journey-title">
+  <div class="about-journey__top container">
+    <div class="about-heading">
+      <h2 id="journey-title">HÀNH TRÌNH<br><em>HÌNH THÀNH &amp; PHÁT TRIỂN</em></h2>
+      <p>Từ một không gian tập luyện nhỏ với khát vọng lan tỏa lối sống khỏe mạnh, RELOAD từng bước phát triển thành hệ sinh thái Gym &amp; Wellness. Mỗi cột mốc là một bước tiến trong chất lượng trải nghiệm, kết nối cộng đồng và hành trình sống khỏe mạnh hơn, hạnh phúc hơn.</p>
+    </div>
+    <div class="about-journey__visual"><img src="assets/images/about/journey.jpg" alt="Không gian gym với bảng hiệu RELOAD và dãy tạ" width="1672" height="941" loading="lazy"></div>
+  </div>
+  <ol class="about-timeline container">
+    <li><time datetime="2020">2020</time><h3>Khởi đầu</h3><p>Đặt nền móng cho hành trình RELOAD, từ niềm tin vào sức mạnh của việc tập luyện mỗi ngày.</p></li>
+    <li><time datetime="2022">2022</time><h3>Mở rộng cơ sở thứ hai</h3><p>Nâng cao trải nghiệm hội viên và hoàn thiện không gian tập luyện chuyên sâu.</p></li>
+    <li><time datetime="2024">2024</time><h3>Hệ sinh thái Gym &amp; Wellness</h3><p>Kết nối tập luyện, phục hồi và chăm sóc sức khỏe toàn diện trong cùng một hành trình.</p></li>
+    <li><time datetime="2025">2025</time><h3>Tiếp tục vươn xa</h3><p>Mở rộng cộng đồng, hướng tới vị thế thương hiệu mạnh về lối sống khỏe và bền vững.</p></li>
+  </ol>
+</section>
+
+<section class="about-cta" aria-labelledby="cta-title">
+  <img src="assets/images/about/cta-motion.jpg" alt="" width="1672" height="941" loading="lazy">
+  <div class="container about-cta__content"><div><p class="about-eyebrow">BẮT ĐẦU HÀNH TRÌNH CỦA BẠN NGAY HÔM NAY</p><h2 id="cta-title">SẴN SÀNG <em>RELOAD?</em></h2><p>Cơ thể khỏe hơn. Tinh thần mạnh mẽ hơn. Một phiên bản tốt hơn của bạn.</p></div><a class="button button-white" href="membership.html">ĐĂNG KÝ NGAY <span aria-hidden="true">→</span></a></div>
+</section>

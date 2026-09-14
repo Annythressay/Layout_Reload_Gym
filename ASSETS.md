@@ -7,6 +7,7 @@ The official logo is supplied and copied unchanged. The active hero, `assets/ima
 | assets/images/hero/reload-hero.jpg | hero — reload hero | https://images.unsplash.com/photo-1534438327276-14e5300c3a48 |
 | assets/images/branches/reload-women.jpg | branches — reload women | https://images.unsplash.com/photo-1518611012118-696072aa579a |
 | assets/images/branches/reload-main.jpg | branches — reload main | https://images.unsplash.com/photo-1581009146145-b5ef050c2e1e |
+| assets/images/facilities/facilities-hero.jpg | facilities — hero background | Native commercial gym interior photography |
 | assets/images/facilities/strength-zone.jpg | facilities — strength zone | https://images.unsplash.com/photo-1534438327276-14e5300c3a48 |
 | assets/images/facilities/cardio-zone.jpg | facilities — cardio zone | https://images.unsplash.com/photo-1571902943202-507ec2618e8f |
 | assets/images/facilities/free-weight.jpg | facilities — free weight | https://images.unsplash.com/photo-1586401100295-7a8096fd231a |

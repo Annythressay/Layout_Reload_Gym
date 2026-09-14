@@ -1,0 +1,115 @@
+{
+  "sizes": [
+    {
+      "width": 1920,
+      "height": 1080,
+      "overflow": false,
+      "broken": [],
+      "oneH1": true,
+      "storyDOM": true,
+      "storyStyles": true
+    },
+    {
+      "width": 1600,
+      "height": 900,
+      "overflow": false,
+      "broken": [],
+      "oneH1": true,
+      "storyDOM": true,
+      "storyStyles": true
+    },
+    {
+      "width": 1440,
+      "height": 900,
+      "overflow": false,
+      "broken": [],
+      "oneH1": true,
+      "storyDOM": true,
+      "storyStyles": true
+    },
+    {
+      "width": 1366,
+      "height": 768,
+      "overflow": false,
+      "broken": [],
+      "oneH1": true,
+      "storyDOM": true,
+      "storyStyles": true
+    },
+    {
+      "width": 1280,
+      "height": 720,
+      "overflow": false,
+      "broken": [],
+      "oneH1": true,
+      "storyDOM": true,
+      "storyStyles": true
+    },
+    {
+      "width": 1024,
+      "height": 768,
+      "overflow": false,
+      "broken": [],
+      "oneH1": true,
+      "storyDOM": true,
+      "storyStyles": true
+    },
+    {
+      "width": 768,
+      "height": 1024,
+      "overflow": false,
+      "broken": [],
+      "oneH1": true,
+      "storyDOM": true,
+      "storyStyles": true
+    },
+    {
+      "width": 430,
+      "height": 932,
+      "overflow": false,
+      "broken": [],
+      "oneH1": true,
+      "storyDOM": true,
+      "storyStyles": true
+    },
+    {
+      "width": 412,
+      "height": 915,
+      "overflow": false,
+      "broken": [],
+      "oneH1": true,
+      "storyDOM": true,
+      "storyStyles": true
+    },
+    {
+      "width": 390,
+      "height": 844,
+      "overflow": false,
+      "broken": [],
+      "oneH1": true,
+      "storyDOM": true,
+      "storyStyles": true
+    },
+    {
+      "width": 375,
+      "height": 812,
+      "overflow": false,
+      "broken": [],
+      "oneH1": true,
+      "storyDOM": true,
+      "storyStyles": true
+    }
+  ],
+  "errors": [],
+  "unchanged": {
+    "index.html": true,
+    "facilities.html": true,
+    "blog.html": true,
+    "assets/css/style.css": true,
+    "assets/js/main.js": true,
+    "templates/header.html": true,
+    "templates/footer.html": true,
+    "templates/floating-contact.html": true,
+    "templates/promo-popup.html": true
+  }
+}

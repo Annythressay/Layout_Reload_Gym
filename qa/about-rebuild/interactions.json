@@ -1,0 +1,13 @@
+{
+  "popupOpenCloseValidation": true,
+  "popupSubmission": "Existing TODO; no endpoint. Unchanged shared logic.",
+  "floatingContact": true,
+  "headerSearchAndMobileMenu": true,
+  "footerMaps": true,
+  "storyScroll": true,
+  "formValidation": true,
+  "zaloHandoff": true,
+  "clipboard": true,
+  "noAutomaticSubmission": true,
+  "errors": []
+}

@@ -1,76 +1,193 @@
 <section class="facilities-hero" aria-labelledby="facilities-title">
-  <div class="facilities-hero__visual">
-    <img src="assets/images/facilities/facilities-hero.webp" width="1942" height="809" alt="Hội viên nữ mang túi tập bước vào không gian gym và khu lễ tân RELOAD" fetchpriority="high">
-    <span class="logo facilities-hero__wall-logo" aria-hidden="true"><img src="assets/images/logo/reload-logo.png" alt=""></span>
+  <div class="facilities-hero__bg">
+    <img src="assets/images/facilities/facilities-hero.jpg" width="1376" height="768" alt="Không gian phòng tập RELOAD hiện đại, máy móc cao cấp và ánh sáng trầm ấm" fetchpriority="high">
+    <div class="facilities-hero__overlay" aria-hidden="true"></div>
   </div>
-  <div class="container facilities-hero__inner">
-    <div class="facilities-hero__content">
-      <p class="facilities-eyebrow">RELOAD GYM &amp; WELLNESS</p>
-      <h1 id="facilities-title">CƠ SỞ VẬT CHẤT</h1>
-      <p class="facilities-hero__statement">KHÔNG GIAN TRUYỀN CẢM HỨNG<br>CHO MỘT PHIÊN BẢN TỐT HƠN CỦA BẠN</p>
-      <span class="facilities-hero__divider" aria-hidden="true"></span>
-      <p class="facilities-hero__description">Khám phá hệ thống cơ sở vật chất hiện đại, được thiết kế để mang đến trải nghiệm tập luyện an toàn, hiệu quả và đầy cảm hứng.</p>
+  <div class="container facilities-hero__container">
+    <p class="facilities-hero__eyebrow">KHÁM PHÁ KHÔNG GIAN RELOAD</p>
+    <h1 id="facilities-title" class="facilities-hero__title">CƠ SỞ VẬT CHẤT</h1>
+    <nav class="facilities-hero__nav" aria-label="Điều hướng nhanh chi nhánh">
+      <a href="#reload-women" class="facilities-hero__nav-btn">RELOAD WOMEN</a>
+      <a href="#reload-gym-wellness" class="facilities-hero__nav-btn">RELOAD GYM &amp; WELLNESS</a>
+    </nav>
+  </div>
+</section>
+
+<section class="facilities-area-filter" aria-label="Khu vực cơ sở RELOAD">
+  <div class="container facilities-area-filter__inner">
+    <div class="facilities-area-filter__tabs" role="tablist" aria-label="Chọn khu vực cơ sở">
+      <button
+        type="button"
+        class="facilities-area-filter__tab is-active"
+        id="facilities-tab-ba-ria"
+        role="tab"
+        aria-selected="true"
+        aria-controls="facilities-panel-ba-ria"
+        data-area="ba-ria"
+      >
+        <span class="facilities-area-filter__label">CƠ SỞ PHƯỜNG BÀ RỊA</span>
+        <span class="facilities-area-filter__count" data-area-count="ba-ria">(2)</span>
+      </button>
+      <button
+        type="button"
+        class="facilities-area-filter__tab"
+        id="facilities-tab-vung-tau"
+        role="tab"
+        aria-selected="false"
+        aria-controls="facilities-panel-vung-tau"
+        data-area="vung-tau"
+        data-coming-soon="true"
+      >
+        <span class="facilities-area-filter__label">CƠ SỞ PHƯỜNG VŨNG TÀU</span>
+        <span class="facilities-area-filter__status" data-area-status="vung-tau">(SẮP RA MẮT)</span>
+      </button>
     </div>
   </div>
 </section>
 
-<section class="facilities-choices" id="facilities" aria-labelledby="facilities-choices-title">
-  <div class="container">
-    <div class="facilities-choices__header">
-      <p class="facilities-eyebrow">CHỌN CHI NHÁNH PHÙ HỢP VỚI BẠN</p>
-      <h2 id="facilities-choices-title">HAI TRẢI NGHIỆM – CÙNG MỘT TRIẾT LÝ</h2>
-      <p>Mỗi chi nhánh mang một cá tính riêng, nhưng đều hướng đến mục tiêu giúp bạn khỏe mạnh hơn mỗi ngày.</p>
+<div class="facilities-area-panel is-active" id="facilities-panel-ba-ria" role="tabpanel" aria-labelledby="facilities-tab-ba-ria" data-area-panel="ba-ria">
+
+<section class="facility-location" id="reload-women" data-area="ba-ria" aria-labelledby="women-title">
+  <div class="container facility-location__grid">
+    <div class="facility-location__info">
+      <span class="facility-location__tag">01 &bull; DÀNH RIÊNG CHO NỮ</span>
+      <h2 id="women-title" class="facility-location__title">RELOAD WOMEN</h2>
+      <div class="facility-location__desc">
+        <p>RELOAD WOMEN là không gian tập luyện dành riêng cho nữ, được thiết kế với sự riêng tư, thoải mái và an toàn làm trọng tâm.</p>
+        <p>Không gian tập luyện hiện đại, đa dạng thiết bị và các hình thức huấn luyện giúp hội viên dễ dàng lựa chọn phương pháp phù hợp với mục tiêu của mình.</p>
+        <p>Từ tập luyện cá nhân, PT đến các hoạt động fitness dành cho nữ, RELOAD WOMEN hướng đến một môi trường nơi mỗi thành viên có thể tự tin tập luyện và trở nên mạnh mẽ hơn mỗi ngày.</p>
+      </div>
+      <ul class="facility-location__features">
+        <li><i class="fa-solid fa-person-dress" aria-hidden="true"></i><span>Không gian dành riêng cho nữ</span></li>
+        <li><i class="fa-solid fa-dumbbell" aria-hidden="true"></i><span>Trang thiết bị hiện đại</span></li>
+        <li><i class="fa-solid fa-user-check" aria-hidden="true"></i><span>Huấn luyện cá nhân / PT</span></li>
+        <li><i class="fa-solid fa-shield-heart" aria-hidden="true"></i><span>Không gian thoải mái &amp; riêng tư</span></li>
+        <li><i class="fa-solid fa-layer-group" aria-hidden="true"></i><span>Đa dạng hình thức tập luyện</span></li>
+      </ul>
     </div>
-    <div class="facilities-choices__grid" id="facility-gallery">
-      <article class="facilities-experience facilities-experience--women">
-        <div class="facilities-experience__media">
-          <img src="assets/images/facilities/facilities-women.webp" width="1086" height="1448" alt="Hội viên nữ với khăn và bình nước trong không gian RELOAD Women" loading="lazy">
-          <p class="facilities-experience__motto" aria-hidden="true">Stronger<br>Happier<br><span>You</span></p>
+
+    <div class="facility-location__media">
+      <div class="facility-location__gallery" data-facility-gallery="women">
+        <div class="facility-location__track">
+          <figure class="facility-location__slide is-active" aria-hidden="false">
+            <img src="assets/images/locations/reload-women_2.jpg" width="1448" height="1086" alt="Không gian studio tập luyện dành riêng cho nữ tại RELOAD Women" loading="lazy">
+          </figure>
+          <figure class="facility-location__slide" aria-hidden="true">
+            <img src="assets/images/facilities/group-class-studio.jpg" width="1600" height="1067" alt="Khu vực studio và tập luyện lớp nhóm tại RELOAD Women" loading="lazy">
+          </figure>
+          <figure class="facility-location__slide" aria-hidden="true">
+            <img src="assets/images/facilities/locker-wellness.jpg" width="1600" height="1067" alt="Không gian tiện ích và khu vực nghỉ ngơi tại RELOAD Women" loading="lazy">
+          </figure>
         </div>
-        <div class="facilities-experience__content">
-          <span class="facilities-experience__badge">DÀNH CHO NỮ</span>
-          <h3><span class="facilities-experience__brand">RELOAD</span><span class="facilities-experience__name">WOMEN</span></h3>
-          <p class="facilities-experience__subtitle">Phòng tập chỉ dành cho nữ</p>
-          <ul class="facilities-experience__features">
-            <li><i class="fa-regular fa-user" aria-hidden="true"></i><span>Không gian riêng tư</span></li>
-            <li><i class="fa-regular fa-heart" aria-hidden="true"></i><span>An toàn &amp; thoải mái</span></li>
-            <li><i class="fa-solid fa-dumbbell" aria-hidden="true"></i><span>Truyền cảm hứng mỗi ngày</span></li>
-          </ul>
-          <a class="facilities-experience__link" href="locations.html#reload-women" aria-label="Khám phá chi nhánh RELOAD Women"><i class="fa-solid fa-arrow-right" aria-hidden="true"></i></a>
-        </div>
-      </article>
-      <article class="facilities-experience facilities-experience--wellness">
-        <div class="facilities-experience__media">
-          <img src="assets/images/facilities/facilities-gym-wellness.webp" width="1086" height="1448" alt="Hội viên nam trong khu tập sức mạnh tại RELOAD Gym &amp; Wellness" loading="lazy">
-          <p class="facilities-experience__motto" aria-hidden="true">Better<br>Stronger<br><span>Together</span></p>
-        </div>
-        <div class="facilities-experience__content">
-          <h3><span class="facilities-experience__brand">RELOAD</span><span class="facilities-experience__name">GYM &amp; WELLNESS</span></h3>
-          <p class="facilities-experience__subtitle">Phòng tập quy mô lớn cho nam &amp; nữ</p>
-          <ul class="facilities-experience__features">
-            <li><i class="fa-solid fa-dumbbell" aria-hidden="true"></i><span>Trang thiết bị hiện đại</span></li>
-            <li><i class="fa-solid fa-people-group" aria-hidden="true"></i><span>Đa dạng bộ môn tập luyện</span></li>
-            <li><i class="fa-solid fa-star" aria-hidden="true"></i><span>Phù hợp cho mọi mục tiêu</span></li>
-          </ul>
-          <a class="facilities-experience__link" href="locations.html#reload-main" aria-label="Khám phá chi nhánh RELOAD Gym &amp; Wellness"><i class="fa-solid fa-arrow-right" aria-hidden="true"></i></a>
-        </div>
-      </article>
+        <button type="button" class="facility-location__arrow facility-location__arrow--prev" aria-label="Ảnh trước của RELOAD Women">
+          <i class="fa-solid fa-chevron-left" aria-hidden="true"></i>
+        </button>
+        <button type="button" class="facility-location__arrow facility-location__arrow--next" aria-label="Ảnh tiếp theo của RELOAD Women">
+          <i class="fa-solid fa-chevron-right" aria-hidden="true"></i>
+        </button>
+        <span class="facility-location__counter" aria-hidden="true">01 / 03</span>
+      </div>
+      <div class="facility-location__meta">
+        <address class="facility-location__address">
+          <i class="fa-solid fa-location-dot" aria-hidden="true"></i>
+          <span>933 Phạm Hùng, Bà Rịa, Hồ Chí Minh, Việt Nam</span>
+        </address>
+        <a href="https://maps.app.goo.gl/tBJgHBijSkqsCqBx8" target="_blank" rel="noopener noreferrer" class="facility-location__directions">
+          CHỈ ĐƯỜNG
+          <i class="fa-solid fa-arrow-right" aria-hidden="true"></i>
+        </a>
+      </div>
     </div>
   </div>
 </section>
+
+<div class="container"><div class="facility-divider" aria-hidden="true"></div></div>
+
+<section class="facility-location" id="reload-gym-wellness" data-area="ba-ria" aria-labelledby="gym-title">
+  <div class="container facility-location__grid">
+    <div class="facility-location__info">
+      <span class="facility-location__tag">02 &bull; TẬP LUYỆN TOÀN DIỆN</span>
+      <h2 id="gym-title" class="facility-location__title">RELOAD GYM &amp; WELLNESS</h2>
+      <div class="facility-location__desc">
+        <p>RELOAD GYM &amp; WELLNESS là không gian tập luyện quy mô lớn dành cho cả nam và nữ, được xây dựng với hệ thống máy móc đa dạng và nhiều khu vực tập luyện chuyên biệt.</p>
+        <p>Không gian phù hợp với nhiều mục tiêu — từ cải thiện thể lực, tăng cơ, giảm mỡ, PT, boxing đến các lớp tập nhóm và hoạt động wellness.</p>
+        <p>RELOAD hướng đến trải nghiệm tập luyện hiện đại, năng động và toàn diện cho mọi đối tượng.</p>
+      </div>
+      <ul class="facility-location__features">
+        <li><i class="fa-solid fa-dumbbell" aria-hidden="true"></i><span>Hệ thống máy tập hiện đại</span></li>
+        <li><i class="fa-solid fa-weight-hanging" aria-hidden="true"></i><span>Khu strength &amp; free weight</span></li>
+        <li><i class="fa-solid fa-person-running" aria-hidden="true"></i><span>Khu cardio chuyên biệt</span></li>
+        <li><i class="fa-solid fa-user-check" aria-hidden="true"></i><span>Huấn luyện cá nhân / PT</span></li>
+        <li><i class="fa-solid fa-users" aria-hidden="true"></i><span>Group Class &amp; Boxing</span></li>
+        <li><i class="fa-solid fa-heart-pulse" aria-hidden="true"></i><span>Không gian phục hồi &amp; wellness</span></li>
+      </ul>
+    </div>
+
+    <div class="facility-location__media">
+      <div class="facility-location__gallery" data-facility-gallery="gym-wellness">
+        <div class="facility-location__track">
+          <figure class="facility-location__slide is-active" aria-hidden="false">
+            <img src="assets/images/locations/reload-main_2.jpg" width="1448" height="1086" alt="Toàn cảnh sàn tập hiện đại tại RELOAD Gym &amp; Wellness" loading="lazy">
+          </figure>
+          <figure class="facility-location__slide" aria-hidden="true">
+            <img src="assets/images/facilities/strength-zone.jpg" width="1600" height="1067" alt="Hệ thống máy tập sức mạnh đa dạng tại RELOAD Gym &amp; Wellness" loading="lazy">
+          </figure>
+          <figure class="facility-location__slide" aria-hidden="true">
+            <img src="assets/images/facilities/cardio-zone.jpg" width="1600" height="1199" alt="Khu vực máy chạy bộ và cardio chuyên sâu tại RELOAD Gym &amp; Wellness" loading="lazy">
+          </figure>
+          <figure class="facility-location__slide" aria-hidden="true">
+            <img src="assets/images/facilities/boxing-area.jpg" width="1600" height="2400" alt="Khu vực tập luyện boxing và rèn luyện thể lực tại RELOAD Gym &amp; Wellness" loading="lazy">
+          </figure>
+        </div>
+        <button type="button" class="facility-location__arrow facility-location__arrow--prev" aria-label="Ảnh trước của RELOAD Gym &amp; Wellness">
+          <i class="fa-solid fa-chevron-left" aria-hidden="true"></i>
+        </button>
+        <button type="button" class="facility-location__arrow facility-location__arrow--next" aria-label="Ảnh tiếp theo của RELOAD Gym &amp; Wellness">
+          <i class="fa-solid fa-chevron-right" aria-hidden="true"></i>
+        </button>
+        <span class="facility-location__counter" aria-hidden="true">01 / 04</span>
+      </div>
+      <div class="facility-location__meta">
+        <address class="facility-location__address">
+          <i class="fa-solid fa-location-dot" aria-hidden="true"></i>
+          <span>168 Tôn Đức Thắng, Bà Rịa, Hồ Chí Minh, Việt Nam</span>
+        </address>
+        <a href="https://maps.app.goo.gl/osGeqMGhhYJRpyCe7" target="_blank" rel="noopener noreferrer" class="facility-location__directions">
+          CHỈ ĐƯỜNG
+          <i class="fa-solid fa-arrow-right" aria-hidden="true"></i>
+        </a>
+      </div>
+    </div>
+  </div>
+</section>
+</div>
+
+<div class="facilities-area-panel" id="facilities-panel-vung-tau" role="tabpanel" aria-labelledby="facilities-tab-vung-tau" data-area-panel="vung-tau" hidden>
+  <div class="facilities-coming-soon">
+    <div class="container facilities-coming-soon__inner">
+      <span class="facilities-coming-soon__eyebrow">SẮP RA MẮT</span>
+      <h2 class="facilities-coming-soon__heading">RELOAD TẠI PHƯỜNG VŨNG TÀU</h2>
+      <p class="facilities-coming-soon__desc">
+        RELOAD đang chuẩn bị một không gian tập luyện mới tại Phường Vũng Tàu. Thông tin chi tiết sẽ được cập nhật trong thời gian tới.
+      </p>
+      <div class="facilities-coming-soon__badge">
+        <i class="fa-solid fa-location-dot" aria-hidden="true"></i>
+        <span>KHÔNG GIAN TIẾP THEO ĐANG ĐƯỢC CHUẨN BỊ</span>
+      </div>
+    </div>
+  </div>
+</div>
 
 <section class="facilities-cta" aria-labelledby="facilities-cta-title">
-  <img class="facilities-cta__background" src="assets/images/facilities/facilities-cta.webp" width="2172" height="724" alt="" loading="lazy">
   <div class="container facilities-cta__inner">
     <div class="facilities-cta__content">
       <p class="facilities-eyebrow">HÀNH TRÌNH RELOAD</p>
-      <h2 id="facilities-cta-title">SẴN SÀNG TRẢI NGHIỆM?</h2>
-      <p>Bắt đầu hành trình khỏe mạnh hơn với không gian tập luyện được thiết kế dành riêng cho bạn.</p>
+      <h2 id="facilities-cta-title">SẴN SÀNG KHÁM PHÁ RELOAD?</h2>
+      <p>Chọn không gian phù hợp và bắt đầu hành trình tập luyện của bạn ngay hôm nay.</p>
     </div>
     <div class="facilities-cta__actions">
       <a class="button button-red" href="locations.html#contact">ĐẶT LỊCH THAM QUAN <i class="fa-solid fa-arrow-right" aria-hidden="true"></i></a>
       <a class="button" href="https://zalo.me/0374432221" target="_blank" rel="noopener noreferrer">LIÊN HỆ TƯ VẤN <i class="fa-solid fa-arrow-right" aria-hidden="true"></i></a>
     </div>
-    <p class="facilities-cta__motto" aria-hidden="true">More than a gym</p>
   </div>
 </section>

@@ -1,0 +1,38 @@
+[
+  {
+    "file": "assets\\images\\about-new\\about-new-cta.webp",
+    "bytes": 113746,
+    "sha256": "0e179f2a0783139b0021cac63a76f01ca2d65e31c5638f0133d6fc8f9c6056b6",
+    "matchesOld": []
+  },
+  {
+    "file": "assets\\images\\about-new\\about-new-hero.webp",
+    "bytes": 61234,
+    "sha256": "e9ab4a124c5c13490b70225aeb67803d3a78a541067e6d657235f006448183d5",
+    "matchesOld": []
+  },
+  {
+    "file": "assets\\images\\about-new\\about-new-journey.webp",
+    "bytes": 77564,
+    "sha256": "e584960f5ee4f5c8e0fd09d5f6873d2dc0171f2743cafc3654624607bf5fba30",
+    "matchesOld": []
+  },
+  {
+    "file": "assets\\images\\about-new\\about-new-mission.webp",
+    "bytes": 90762,
+    "sha256": "85613e09384a368a3a270ee8d285e917530f52034a34e48b3aa54d4c791a8b9b",
+    "matchesOld": []
+  },
+  {
+    "file": "assets\\images\\about-new\\about-new-values-bg.webp",
+    "bytes": 195472,
+    "sha256": "5450ac4e687ceec11308fbc0daebf9337b77c97ac3416b3bbe0875ebf51fc1ab",
+    "matchesOld": []
+  },
+  {
+    "file": "assets\\images\\about-new\\about-new-vision.webp",
+    "bytes": 85254,
+    "sha256": "a1b9e3bc59c74036bfdc4b7c7a160961a8acf2b63104bc8d2f5818af5deda08b",
+    "matchesOld": []
+  }
+]
