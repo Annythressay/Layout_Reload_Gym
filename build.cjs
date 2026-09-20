@@ -14,6 +14,7 @@ const socialLinks = [...floatingContact.matchAll(/<a class="floating-contact__it
 if (!socialLinks || (socialLinks.match(/<a /g) || []).length !== 4) throw new Error('Expected four floating contacts');
 const footer = read('footer').replace(/(<div class="social-links">)[\s\S]*?(<\/div>)/, `$1\n${socialLinks}\n$2`);
 const pages = {
+  'body-visualizer': ['Body Visualizer | RELOAD Gym & Wellness', 'Mô phỏng vóc dáng hiện tại, xác định mục tiêu tập luyện và khám phá lộ trình phù hợp cùng RELOAD Gym & Wellness.'],
   index: ['RELOAD Gym & Wellness', 'Khám phá RELOAD với hai chi nhánh, không gian tập luyện hiện đại và cộng đồng giúp bạn mạnh mẽ hơn mỗi ngày.'],
   about: ['Giới thiệu RELOAD | RELOAD Gym & Wellness', 'Tìm hiểu triết lý, cơ sở vật chất, huấn luyện viên và cộng đồng RELOAD Gym & Wellness.'],
   facilities: ['Cơ sở vật chất | RELOAD Gym & Wellness', 'Khám phá khu sức mạnh, cardio, tạ tự do, functional, boxing, studio và chăm sóc sức khỏe tại RELOAD.'],
@@ -35,6 +36,7 @@ for (const [name, [title, description]] of Object.entries(pages)) {
   const facilitiesStylesheet = name === 'facilities' ? '  <link rel="stylesheet" href="assets/css/facilities.css">\n' : '';
   const aboutScript = name === 'about' ? '  <script src="assets/js/about.js" defer></script>\n' : '';
   const facilitiesScript = name === 'facilities' ? '  <script src="assets/js/facilities.js" defer></script>\n' : '';
+  const visualizerAssets = ['index', 'body-visualizer'].includes(name) ? '<link rel="stylesheet" href="assets/css/body-visualizer.css">\n' + (name === 'body-visualizer' ? '<script type="module" src="assets/js/body-visualizer/app.js"></script>\n' : '') : '';
   const html = `<!DOCTYPE html>
 <html lang="vi">
 <head>
@@ -46,7 +48,7 @@ for (const [name, [title, description]] of Object.entries(pages)) {
   <link rel="icon" type="image/png" href="assets/images/logo/reload-logo.png">
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@7.3.1/css/all.min.css">
   <link rel="stylesheet" href="assets/css/style.css">
-${aboutStylesheet}${facilitiesStylesheet}${aboutScript}${facilitiesScript}  <script src="assets/js/main.js" defer></script>
+${aboutStylesheet}${facilitiesStylesheet}${aboutScript}${facilitiesScript}${visualizerAssets}  <script src="assets/js/main.js" defer></script>
 </head>
 <body class="page-${name} ${name === 'index' ? 'home-page' : 'inner-page'}">
 <a class="skip-link" href="#main">Đi đến nội dung chính</a>
@@ -63,4 +65,4 @@ ${read('dialogs')}
 `;
   fs.writeFileSync(path.join(root, name + '.html'), html);
 }
-console.log('Built ' + (selectedPages.length ? selectedPages.join(', ') : 'all eight pages') + ' from shared templates.');
+console.log('Built ' + (selectedPages.length ? selectedPages.join(', ') : 'all pages') + ' from shared templates.');

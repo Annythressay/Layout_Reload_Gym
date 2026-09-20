@@ -1,5 +1,11 @@
 # RELOAD Gym & Wellness
 
+## Body Visualizer
+
+Open `body-visualizer.html` (or `/body-visualizer` on the preview server and Vercel). Build with `node build.cjs index body-visualizer`; all-page builds include the new ninth page automatically. The homepage teaser and site search link to this tool.
+
+The feature uses local Three.js modules, a procedural mannequin, independent current/goal measurements, split comparison and the existing contact channels. Serve over HTTP for native JavaScript modules. Measurements remain in memory only. See [implementation and QA](qa/BODY-VISUALIZER.md) for file ownership, mapping, limits and test commands.
+
 Eight static HTML pages using the original black/red/white visual system, one shared stylesheet and one shared vanilla JavaScript file. No runtime framework is required.
 
 ## Local preview

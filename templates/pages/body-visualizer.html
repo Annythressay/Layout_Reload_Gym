@@ -1,0 +1,36 @@
+<div class="body-visualizer container">
+  <section class="bv-intro">
+    <div><p class="eyebrow">CÔNG CỤ RELOAD / MÔ PHỎNG VÓC DÁNG</p><h1>HIỂU CƠ THỂ.<br><em>XÁC ĐỊNH MỤC TIÊU.</em></h1></div>
+    <p>Điều chỉnh số đo. Hình dung mục tiêu.<br>Bắt đầu hành trình của riêng bạn.<span>BODY VISUALIZER</span></p>
+  </section>
+  <nav class="bv-steps" aria-label="Các bước mô phỏng">
+    <button data-step="0" aria-current="step">01 <span>Hiện tại</span></button><button data-step="1">02 <span>Mục tiêu</span></button><button data-step="2" disabled>03 <span>So sánh</span></button><button data-step="3" disabled>04 <span>Lộ trình</span></button>
+  </nav>
+  <div class="bv-workspace">
+    <section class="bv-viewer" aria-label="Mô hình cơ thể tương tác">
+      <div class="bv-viewer__top"><span>MÔ PHỎNG 3D</span><span data-model-label>HIỆN TẠI</span></div>
+      <div class="bv-stage" tabindex="0" role="region" aria-label="Mô hình 3D. Dùng phím mũi tên để xoay, dấu cộng trừ để thu phóng.">
+        <div class="bv-loading" role="status"><span class="bv-loading__mark">R/</span><strong>RELOAD BODY VISUALIZER</strong><p data-load-message>Đang chuẩn bị mô hình…</p><button class="button" data-retry hidden>THỬ LẠI</button></div>
+        <div class="bv-compare-labels" hidden><span>HIỆN TẠI</span><span>MỤC TIÊU</span></div>
+        <div class="bv-divider" hidden></div>
+      </div>
+      <div class="bv-split" hidden><label for="bv-split">Kéo để so sánh hiện tại / mục tiêu</label><input id="bv-split" type="range" min="0" max="100" value="50" aria-label="Ranh giới so sánh"></div>
+      <div class="bv-camera" aria-label="Góc nhìn"><button data-view="front" aria-pressed="true">Trước</button><button data-view="side" aria-pressed="false">Bên</button><button data-view="back" aria-pressed="false">Sau</button><button data-view="reset">Đặt lại góc</button></div>
+      <p class="bv-hint">Kéo để xoay · Cuộn hoặc chụm hai ngón để thu phóng</p>
+    </section>
+    <section class="bv-panel" aria-labelledby="bv-panel-title">
+      <p class="eyebrow" data-step-label>01 / HIỆN TẠI</p><h2 id="bv-panel-title" tabindex="-1">VÓC DÁNG HIỆN TẠI</h2><p class="bv-description" data-description>Nhập một vài thông tin cơ bản để tạo mô phỏng gần với số đo của bạn.</p>
+      <div data-measurements></div>
+      <div class="bv-bmi"><span>Chỉ số BMI tham khảo</span><output data-bmi>22.0</output><details><summary>Hiểu về BMI</summary><p>BMI chỉ là một chỉ số tổng quát dựa trên chiều cao và cân nặng, không phản ánh đầy đủ thành phần cơ thể.</p></details></div>
+      <div data-comparison hidden><div class="bv-modes" aria-label="Chế độ mô hình"><button data-mode="current">Hiện tại</button><button data-mode="goal">Mục tiêu</button><button data-mode="compare">So sánh</button></div><h3>THAY ĐỔI MỤC TIÊU</h3><div data-differences></div></div>
+      <div data-fitness hidden><fieldset class="bv-goals"><legend>Chọn một mục tiêu chính</legend></fieldset><div class="bv-recommendation" hidden aria-live="polite"><p class="eyebrow">GỢI Ý CHO BẠN</p><h3 data-goal-title></h3><p data-recommendation></p><p>Gợi ý khởi đầu để trao đổi cùng huấn luyện viên; điều chỉnh theo kinh nghiệm và lịch sinh hoạt của bạn.</p><a class="button button-red" href="#bv-conversion">NHẬN LỘ TRÌNH CÁ NHÂN</a></div></div>
+      <p class="bv-error" data-form-error role="status"></p>
+      <button class="button button-red bv-next" data-next>ĐẶT MỤC TIÊU <span aria-hidden="true">→</span></button>
+      <button class="bv-reset" data-reset>Đặt lại số đo</button>
+    </section>
+  </div>
+  <div class="bv-notes"><p>Hình ảnh cơ thể 3D chỉ mang tính mô phỏng dựa trên các số đo được nhập và không đại diện chính xác cho hình thể, thành phần cơ thể hoặc kết quả luyện tập thực tế. BMI chỉ mang tính tham khảo và không thay thế đánh giá chuyên môn.</p><p><i class="fa-solid fa-lock" aria-hidden="true"></i> Số đo chỉ nằm trong phiên này trên thiết bị của bạn. Không lưu trữ hoặc gửi lên máy chủ.</p></div>
+  <section class="bv-conversion" id="bv-conversion" hidden><div><p class="eyebrow">BƯỚC TIẾP THEO, CÙNG RELOAD</p><h2>SẴN SÀNG BẮT ĐẦU?</h2><p>RELOAD có thể giúp bạn xây dựng lộ trình tập luyện phù hợp với mục tiêu, thể trạng và lịch sinh hoạt.</p></div><div class="button-row"><a class="button button-red" data-contact href="locations.html#contact">NHẬN TƯ VẤN LỘ TRÌNH</a><a class="button" href="about.html#about-register">ĐĂNG KÝ TẬP THỬ</a></div></section>
+  <dialog class="bv-reset-dialog" aria-labelledby="bv-reset-title"><h2 id="bv-reset-title">Đặt lại tất cả số đo về mặc định?</h2><p>Cả số đo hiện tại, mục tiêu và lựa chọn tập luyện sẽ được đặt lại.</p><form method="dialog" class="button-row"><button class="button" value="cancel" autofocus>Hủy</button><button class="button button-red" value="reset">Đặt lại</button></form></dialog>
+  <noscript><p>Bật JavaScript để sử dụng mô phỏng. Bạn vẫn có thể <a href="about.html#about-register">đăng ký tư vấn với RELOAD</a>.</p></noscript>
+</div>

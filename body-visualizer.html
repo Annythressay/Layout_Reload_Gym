@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#080808">
+  <title>Body Visualizer | RELOAD Gym & Wellness</title>
+  <meta name="description" content="Mô phỏng vóc dáng hiện tại, xác định mục tiêu tập luyện và khám phá lộ trình phù hợp cùng RELOAD Gym & Wellness.">
+  <link rel="icon" type="image/png" href="assets/images/logo/reload-logo.png">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@7.3.1/css/all.min.css">
+  <link rel="stylesheet" href="assets/css/style.css">
+<link rel="stylesheet" href="assets/css/body-visualizer.css">
+<script type="module" src="assets/js/body-visualizer/app.js"></script>
+  <script src="assets/js/main.js" defer></script>
+</head>
+<body class="page-body-visualizer inner-page">
+<a class="skip-link" href="#main">Đi đến nội dung chính</a>
+<header class="header" id="header"><div class="container header-inner"><a class="logo" href="index.html" aria-label="Trang chủ RELOAD"><img src="assets/images/logo/reload-logo.png" alt="RELOAD Gym &amp; Wellness"></a><nav class="navigation" id="navigation" aria-label="Điều hướng chính"><a href="index.html">Trang chủ</a><a href="about.html">Giới thiệu</a><a href="facilities.html">Cơ sở vật chất</a><a href="services.html">Dịch vụ</a><a href="class-schedule.html">Lịch lớp</a><a href="membership.html">Gói tập</a><a href="locations.html">Chi nhánh</a><a href="blog.html">Tin tức</a></nav><button class="search-toggle" aria-label="Tìm kiếm trên website"><i class="fa-solid fa-magnifying-glass" aria-hidden="true"></i></button><a class="button button-red" href="membership.html">ĐĂNG KÝ NGAY <i class="fa-solid fa-arrow-right" aria-hidden="true"></i></a><button class="menu-toggle" aria-label="Mở menu điều hướng" aria-expanded="false" aria-controls="navigation"><i class="fa-solid fa-bars menu-toggle__open" aria-hidden="true"></i><i class="fa-solid fa-xmark menu-toggle__close" aria-hidden="true"></i></button></div></header>
+<main id="main">
+<div class="body-visualizer container">
+  <section class="bv-intro">
+    <div><p class="eyebrow">CÔNG CỤ RELOAD / MÔ PHỎNG VÓC DÁNG</p><h1>HIỂU CƠ THỂ.<br><em>XÁC ĐỊNH MỤC TIÊU.</em></h1></div>
+    <p>Điều chỉnh số đo. Hình dung mục tiêu.<br>Bắt đầu hành trình của riêng bạn.<span>BODY VISUALIZER</span></p>
+  </section>
+  <nav class="bv-steps" aria-label="Các bước mô phỏng">
+    <button data-step="0" aria-current="step">01 <span>Hiện tại</span></button><button data-step="1">02 <span>Mục tiêu</span></button><button data-step="2" disabled>03 <span>So sánh</span></button><button data-step="3" disabled>04 <span>Lộ trình</span></button>
+  </nav>
+  <div class="bv-workspace">
+    <section class="bv-viewer" aria-label="Mô hình cơ thể tương tác">
+      <div class="bv-viewer__top"><span>MÔ PHỎNG 3D</span><span data-model-label>HIỆN TẠI</span></div>
+      <div class="bv-stage" tabindex="0" role="region" aria-label="Mô hình 3D. Dùng phím mũi tên để xoay, dấu cộng trừ để thu phóng.">
+        <div class="bv-loading" role="status"><span class="bv-loading__mark">R/</span><strong>RELOAD BODY VISUALIZER</strong><p data-load-message>Đang chuẩn bị mô hình…</p><button class="button" data-retry hidden>THỬ LẠI</button></div>
+        <div class="bv-compare-labels" hidden><span>HIỆN TẠI</span><span>MỤC TIÊU</span></div>
+        <div class="bv-divider" hidden></div>
+      </div>
+      <div class="bv-split" hidden><label for="bv-split">Kéo để so sánh hiện tại / mục tiêu</label><input id="bv-split" type="range" min="0" max="100" value="50" aria-label="Ranh giới so sánh"></div>
+      <div class="bv-camera" aria-label="Góc nhìn"><button data-view="front" aria-pressed="true">Trước</button><button data-view="side" aria-pressed="false">Bên</button><button data-view="back" aria-pressed="false">Sau</button><button data-view="reset">Đặt lại góc</button></div>
+      <p class="bv-hint">Kéo để xoay · Cuộn hoặc chụm hai ngón để thu phóng</p>
+    </section>
+    <section class="bv-panel" aria-labelledby="bv-panel-title">
+      <p class="eyebrow" data-step-label>01 / HIỆN TẠI</p><h2 id="bv-panel-title" tabindex="-1">VÓC DÁNG HIỆN TẠI</h2><p class="bv-description" data-description>Nhập một vài thông tin cơ bản để tạo mô phỏng gần với số đo của bạn.</p>
+      <div data-measurements></div>
+      <div class="bv-bmi"><span>Chỉ số BMI tham khảo</span><output data-bmi>22.0</output><details><summary>Hiểu về BMI</summary><p>BMI chỉ là một chỉ số tổng quát dựa trên chiều cao và cân nặng, không phản ánh đầy đủ thành phần cơ thể.</p></details></div>
+      <div data-comparison hidden><div class="bv-modes" aria-label="Chế độ mô hình"><button data-mode="current">Hiện tại</button><button data-mode="goal">Mục tiêu</button><button data-mode="compare">So sánh</button></div><h3>THAY ĐỔI MỤC TIÊU</h3><div data-differences></div></div>
+      <div data-fitness hidden><fieldset class="bv-goals"><legend>Chọn một mục tiêu chính</legend></fieldset><div class="bv-recommendation" hidden aria-live="polite"><p class="eyebrow">GỢI Ý CHO BẠN</p><h3 data-goal-title></h3><p data-recommendation></p><p>Gợi ý khởi đầu để trao đổi cùng huấn luyện viên; điều chỉnh theo kinh nghiệm và lịch sinh hoạt của bạn.</p><a class="button button-red" href="#bv-conversion">NHẬN LỘ TRÌNH CÁ NHÂN</a></div></div>
+      <p class="bv-error" data-form-error role="status"></p>
+      <button class="button button-red bv-next" data-next>ĐẶT MỤC TIÊU <span aria-hidden="true">→</span></button>
+      <button class="bv-reset" data-reset>Đặt lại số đo</button>
+    </section>
+  </div>
+  <div class="bv-notes"><p>Hình ảnh cơ thể 3D chỉ mang tính mô phỏng dựa trên các số đo được nhập và không đại diện chính xác cho hình thể, thành phần cơ thể hoặc kết quả luyện tập thực tế. BMI chỉ mang tính tham khảo và không thay thế đánh giá chuyên môn.</p><p><i class="fa-solid fa-lock" aria-hidden="true"></i> Số đo chỉ nằm trong phiên này trên thiết bị của bạn. Không lưu trữ hoặc gửi lên máy chủ.</p></div>
+  <section class="bv-conversion" id="bv-conversion" hidden><div><p class="eyebrow">BƯỚC TIẾP THEO, CÙNG RELOAD</p><h2>SẴN SÀNG BẮT ĐẦU?</h2><p>RELOAD có thể giúp bạn xây dựng lộ trình tập luyện phù hợp với mục tiêu, thể trạng và lịch sinh hoạt.</p></div><div class="button-row"><a class="button button-red" data-contact href="locations.html#contact">NHẬN TƯ VẤN LỘ TRÌNH</a><a class="button" href="about.html#about-register">ĐĂNG KÝ TẬP THỬ</a></div></section>
+  <dialog class="bv-reset-dialog" aria-labelledby="bv-reset-title"><h2 id="bv-reset-title">Đặt lại tất cả số đo về mặc định?</h2><p>Cả số đo hiện tại, mục tiêu và lựa chọn tập luyện sẽ được đặt lại.</p><form method="dialog" class="button-row"><button class="button" value="cancel" autofocus>Hủy</button><button class="button button-red" value="reset">Đặt lại</button></form></dialog>
+  <noscript><p>Bật JavaScript để sử dụng mô phỏng. Bạn vẫn có thể <a href="about.html#about-register">đăng ký tư vấn với RELOAD</a>.</p></noscript>
+</div>
+
+</main>
+<div class="reload-promo" data-reload-promo hidden>
+  <div class="reload-promo__overlay" data-reload-promo-backdrop></div>
+  <section class="reload-promo__modal" role="dialog" aria-modal="true" aria-labelledby="reload-promo-title" tabindex="-1">
+    <button class="reload-promo__close" type="button" data-reload-promo-close aria-label="Đóng cửa sổ đăng ký"><i class="fa-solid fa-xmark" aria-hidden="true"></i></button>
+
+    <div class="reload-promo__campaign">
+      <img src="assets/images/popup/reload-signature-promo.png" alt="Nhận ngay combo quà tặng trị giá 3.000.000 VND" fetchpriority="high">
+    </div>
+
+    <div class="reload-promo__content">
+      <h2 class="sr-only" id="reload-promo-title">Đăng ký nhận ưu đãi RELOAD</h2>
+      <form class="reload-promo__form" data-reload-promo-form novalidate>
+        <div class="reload-promo__field">
+          <label class="sr-only" for="reload-promo-branch">Chọn chi nhánh tập luyện</label>
+          <select id="reload-promo-branch" name="branch" required aria-describedby="reload-promo-branch-error">
+            <option value="" selected disabled>Chọn chi nhánh tập luyện</option>
+            <option value="reload-women">RELOAD WOMEN</option>
+            <option value="reload-gym-wellness">RELOAD GYM &amp; WELLNESS</option>
+          </select>
+          <small class="reload-promo__error" id="reload-promo-branch-error" role="alert" hidden></small>
+        </div>
+
+        <div class="reload-promo__field">
+          <label class="sr-only" for="reload-promo-full-name">Họ và tên</label>
+          <input id="reload-promo-full-name" name="fullName" type="text" placeholder="Họ và tên" autocomplete="name" required aria-describedby="reload-promo-full-name-error">
+          <small class="reload-promo__error" id="reload-promo-full-name-error" role="alert" hidden></small>
+        </div>
+
+        <div class="reload-promo__fields-row">
+          <div class="reload-promo__field">
+            <label class="sr-only" for="reload-promo-phone">Số điện thoại</label>
+            <input id="reload-promo-phone" name="phone" type="tel" placeholder="0909 123 456" autocomplete="tel" inputmode="tel" required aria-describedby="reload-promo-phone-error">
+            <small class="reload-promo__error" id="reload-promo-phone-error" role="alert" hidden></small>
+          </div>
+          <div class="reload-promo__field">
+            <label class="sr-only" for="reload-promo-email">Email</label>
+            <input id="reload-promo-email" name="email" type="email" placeholder="example@email.com" autocomplete="email" aria-describedby="reload-promo-email-error">
+            <small class="reload-promo__error" id="reload-promo-email-error" role="alert" hidden></small>
+          </div>
+        </div>
+
+        <div class="reload-promo__actions">
+          <button class="button button-red reload-promo__submit" type="submit">ĐĂNG KÝ <i class="fa-solid fa-arrow-right" aria-hidden="true"></i></button>
+          <a class="reload-promo__brand logo" href="index.html" aria-label="Trang chủ RELOAD"><img src="assets/images/logo/reload-logo.png" alt="RELOAD Gym &amp; Wellness"></a>
+        </div>
+      </form>
+
+      <div class="reload-promo__success" data-reload-promo-success hidden>
+        <p class="eyebrow">RELOAD GYM &amp; WELLNESS</p>
+        <h2>ĐĂNG KÝ THÀNH CÔNG</h2>
+        <p>Cảm ơn bạn đã đăng ký.<br>Đội ngũ RELOAD sẽ liên hệ với bạn sớm nhất.</p>
+        <button class="button button-red" type="button" data-reload-promo-close>ĐÓNG</button>
+      </div>
+    </div>
+  </section>
+</div>
+
+<footer><div class="container footer-grid"><div><a class="logo" href="index.html" aria-label="Trang chủ RELOAD"><img src="assets/images/logo/reload-logo.png" alt="RELOAD Gym &amp; Wellness"></a><p class="footer-tagline">CON NGƯỜI MẠNH MẼ HƠN.<br>NGÀY MAI KHỎE MẠNH HƠN.</p></div><div><h3>LIÊN KẾT NHANH</h3><a href="about.html">Giới thiệu</a><a href="facilities.html">Cơ sở vật chất</a><a href="services.html">Dịch vụ</a><a href="membership.html">Gói tập</a><a href="class-schedule.html">Lịch lớp</a><a href="locations.html">Chi nhánh</a><a href="blog.html">Tin tức</a></div><div><h3>HỖ TRỢ</h3><a href="locations.html#contact">Liên hệ</a><a href="membership.html#membership-faq">CÂU HỎI THƯỜNG GẶP</a><a href="membership.html#membership-faq">Điều khoản gói tập</a><button class="text-link" data-info="Chính sách bảo mật: vui lòng liên hệ đội ngũ RELOAD khi website chính thức ra mắt. Bản xem trước này không thu thập thông tin cá nhân.">Chính sách bảo mật</button><a href="locations.html#contact">Đặt lịch / Tham quan</a></div><div class="newsletter"><h3>KẾT NỐI VỚI RELOAD</h3><div class="social-links">
+<a href="https://zalo.me/0374432221" target="_blank" rel="noopener noreferrer" aria-label="Zalo"><i class="fa-solid fa-comment-dots" aria-hidden="true"></i></a>
+<a href="https://www.facebook.com/profile.php?id=100078970451357&amp;locale=vi_VN" target="_blank" rel="noopener noreferrer" aria-label="Liên hệ RELOAD qua Facebook"><i class="fa-brands fa-facebook-f" aria-hidden="true"></i></a>
+<a href="https://www.tiktok.com/@reloadgymforwomen?lang=vi-VN" target="_blank" rel="noopener noreferrer" aria-label="Liên hệ RELOAD qua TikTok"><i class="fa-brands fa-tiktok" aria-hidden="true"></i></a>
+<a href="tel:0374432221" aria-label="Gọi RELOAD theo số 037 443 2221"><i class="fa-solid fa-phone" aria-hidden="true"></i></a>
+</div><p>Nhận thông tin mới nhất về sự kiện và ưu đãi.</p><form id="newsletter-form"><label class="sr-only" for="newsletter-email">Email của bạn</label><input id="newsletter-email" type="email" placeholder="Email của bạn" required=""><button aria-label="Đăng ký nhận bản tin"><i class="fa-solid fa-paper-plane" aria-hidden="true"></i></button></form><p id="newsletter-status" role="status"></p></div><div><h3>HAI CHI NHÁNH</h3><a class="footer-location" href="https://maps.app.goo.gl/tBJgHBijSkqsCqBx8" target="_blank" rel="noopener noreferrer" aria-label="Xem RELOAD WOMEN trên Google Maps"><span class="footer-location__heading"><i class="icon fa-solid fa-location-dot" aria-hidden="true"></i> RELOAD WOMEN</span><span class="footer-location__address">933 Phạm Hùng, Bà Rịa,<br>Hồ Chí Minh, Việt Nam</span></a><a class="footer-location" href="https://maps.app.goo.gl/osGeqMGhhYJRpyCe7" target="_blank" rel="noopener noreferrer" aria-label="Xem RELOAD GYM &amp; WELLNESS trên Google Maps"><span class="footer-location__heading"><i class="icon fa-solid fa-location-dot" aria-hidden="true"></i> RELOAD GYM &amp; WELLNESS</span><span class="footer-location__address">168 Tôn Đức Thắng, Bà Rịa,<br>Hồ Chí Minh, Việt Nam</span></a></div></div><div class="container footer-bottom"><p>© 2026 RELOAD – Gym &amp; Wellness. Đã đăng ký bản quyền.</p><a href="index.html">Tập luyện. Phục hồi. Tái tạo. <i class="fa-solid fa-arrow-right" aria-hidden="true"></i></a></div></footer>
+
+<aside class="floating-contact" data-floating-contact>
+  <div class="floating-contact__menu" id="floating-contact-menu" data-floating-contact-menu aria-label="Các kênh liên hệ" aria-hidden="true">
+    <a class="floating-contact__item" href="https://zalo.me/0374432221" target="_blank" rel="noopener noreferrer" tabindex="-1" aria-label="Liên hệ RELOAD qua Zalo">
+      <span class="floating-contact__icon" aria-hidden="true"><i class="fa-solid fa-comment-dots"></i></span>
+    </a>
+    <a class="floating-contact__item" href="https://www.facebook.com/profile.php?id=100078970451357&amp;locale=vi_VN" target="_blank" rel="noopener noreferrer" tabindex="-1" aria-label="Liên hệ RELOAD qua Facebook">
+      <span class="floating-contact__icon" aria-hidden="true"><i class="fa-brands fa-facebook-f"></i></span>
+    </a>
+    <a class="floating-contact__item" href="https://www.tiktok.com/@reloadgymforwomen?lang=vi-VN" target="_blank" rel="noopener noreferrer" tabindex="-1" aria-label="Liên hệ RELOAD qua TikTok">
+      <span class="floating-contact__icon" aria-hidden="true"><i class="fa-brands fa-tiktok"></i></span>
+    </a>
+    <a class="floating-contact__item" href="tel:0374432221" tabindex="-1" aria-label="Gọi RELOAD theo số 037 443 2221">
+      <span class="floating-contact__icon" aria-hidden="true"><i class="fa-solid fa-phone"></i></span>
+    </a>
+  </div>
+  <button class="floating-contact__toggle" type="button" data-floating-contact-toggle aria-label="Mở menu liên hệ" aria-expanded="false" aria-controls="floating-contact-menu">
+    <i class="fa-solid fa-comments floating-contact__toggle-icon floating-contact__toggle-icon--chat" aria-hidden="true"></i>
+    <i class="fa-solid fa-xmark floating-contact__toggle-icon floating-contact__toggle-icon--close" aria-hidden="true"></i>
+  </button>
+</aside>
+
+<dialog id="info-dialog"><button class="dialog-close" aria-label="Đóng hộp thoại"><i class="fa-solid fa-xmark" aria-hidden="true"></i></button><p class="eyebrow">RELOAD GYM &amp; WELLNESS</p><h2 id="dialog-title"></h2><p id="dialog-message"></p><button class="button button-red dialog-done">ĐÃ HIỂU</button></dialog><dialog id="search-dialog"><button class="dialog-close" aria-label="Đóng tìm kiếm"><i class="fa-solid fa-xmark" aria-hidden="true"></i></button><h2>TÌM KIẾM TẠI RELOAD</h2><label for="site-search">Tìm cơ sở vật chất, dịch vụ và nội dung khác</label><input id="site-search" type="search" placeholder="Thử tìm “gói tập” hoặc “boxing”"><div id="search-results"></div></dialog>
+</body>
+</html>
