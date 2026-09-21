@@ -1,3 +1,4 @@
+import {baselinesAtHeight,baseHeightBaselines} from './height-calibration.js';
 export const fields = {
   height: ['Chiều cao', 130, 210, 'cm'], weight: ['Cân nặng', 35, 180, 'kg'],
   chest: ['Vòng ngực', 60, 150, 'cm'], waist: ['Vòng eo', 45, 160, 'cm'],
@@ -8,8 +9,9 @@ export const fields = {
 export const defaults = Object.freeze({gender:'neutral', height:165, weight:60, chest:88, waist:72, hip:92, inseam:76, shoulder:38, arm:28, thigh:52,calf:null});
 export function configureCalibrationFields(profiles){
   for(const [key,p] of Object.entries(profiles)){
-    if(key==='calf'){fields[key][1]=Math.floor(p.min);fields[key][2]=Math.ceil(p.max);}
-    else{fields[key][1]=Math.min(fields[key][1],Math.floor(p.min));fields[key][2]=Math.max(fields[key][2],Math.ceil(p.max));}
+    const low=p.min+baselinesAtHeight(-.3)[p.measurement]-baseHeightBaselines[p.measurement],high=p.max+baselinesAtHeight(.3)[p.measurement]-baseHeightBaselines[p.measurement];
+    if(key==='calf'){fields[key][1]=Math.floor(low);fields[key][2]=Math.ceil(high);}
+    else{fields[key][1]=Math.min(fields[key][1],Math.floor(low));fields[key][2]=Math.max(fields[key][2],Math.ceil(high));}
   }
 }
 export function validateMeasurement(key, raw) {
@@ -23,7 +25,7 @@ export function calculateBMI(heightCm, weightKg) {
 export function createState() { return {currentBody:{...defaults}, goalBody:null, mode:'current', step:0, selectedGoal:null}; }
 const clamp = (v, a, b) => Math.min(b, Math.max(a, v));
 // LEGACY ONLY: GLB scene does not call calculateBodyMorph; normalization.js
-// owns the production mapping and deliberately excludes height/weight.
+// owns production measurement/Height mapping and deliberately excludes weight.
 // Illustration, not anthropometric reconstruction. Independent of Three.js.
 // Circumferences approximate elliptical sections; guard proportions at extreme inputs.
 export function calculateBodyMorph(m) {

@@ -1,0 +1,68 @@
+{
+  "errors": [],
+  "warnings": [],
+  "failures": [],
+  "layouts": [
+    {
+      "width": 1440,
+      "scrollWidth": 1440,
+      "canvasCount": 1,
+      "canvas": [
+        841.859375,
+        520
+      ],
+      "stage": [
+        841.859375,
+        520
+      ],
+      "webglError": 0,
+      "debugPanels": 0,
+      "id": "96a61249-5b8f-4362-a124-cba4c32446ec"
+    },
+    {
+      "width": 768,
+      "scrollWidth": 768,
+      "canvasCount": 1,
+      "canvas": [
+        664.546875,
+        400
+      ],
+      "stage": [
+        664.546875,
+        400
+      ],
+      "webglError": 0,
+      "debugPanels": 0,
+      "id": "96a61249-5b8f-4362-a124-cba4c32446ec"
+    },
+    {
+      "width": 390,
+      "scrollWidth": 390,
+      "canvasCount": 1,
+      "canvas": [
+        332,
+        320
+      ],
+      "stage": [
+        332,
+        320
+      ],
+      "webglError": 0,
+      "debugPanels": 0,
+      "id": "96a61249-5b8f-4362-a124-cba4c32446ec"
+    }
+  ],
+  "glbRequests": [
+    {
+      "url": "http://127.0.0.1:4187/3D/male-mpfb-production-morph-v4.glb",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:4187/3D/male-mpfb-production-morph-v4.glb",
+      "status": 200
+    }
+  ],
+  "animationInvalidHeightPass": true,
+  "animationResetPass": true,
+  "pass": true
+}

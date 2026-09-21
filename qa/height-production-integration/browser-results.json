@@ -1,0 +1,7738 @@
+{
+  "checks": [
+    {
+      "name": "viewer ready",
+      "pass": true
+    },
+    {
+      "name": "exactly 19 targets",
+      "pass": true
+    },
+    {
+      "name": "Height roundtrip 151.21778195689558",
+      "pass": true
+    },
+    {
+      "name": "raw Height preserved 151.21778195689558",
+      "pass": true
+    },
+    {
+      "name": "Height roundtrip 155",
+      "pass": true
+    },
+    {
+      "name": "raw Height preserved 155",
+      "pass": true
+    },
+    {
+      "name": "Height roundtrip 160",
+      "pass": true
+    },
+    {
+      "name": "raw Height preserved 160",
+      "pass": true
+    },
+    {
+      "name": "Height roundtrip 165",
+      "pass": true
+    },
+    {
+      "name": "raw Height preserved 165",
+      "pass": true
+    },
+    {
+      "name": "Height roundtrip 170",
+      "pass": true
+    },
+    {
+      "name": "raw Height preserved 170",
+      "pass": true
+    },
+    {
+      "name": "Height roundtrip 172.91078380973204",
+      "pass": true
+    },
+    {
+      "name": "raw Height preserved 172.91078380973204",
+      "pass": true
+    },
+    {
+      "name": "Height roundtrip 175",
+      "pass": true
+    },
+    {
+      "name": "raw Height preserved 175",
+      "pass": true
+    },
+    {
+      "name": "Height roundtrip 180",
+      "pass": true
+    },
+    {
+      "name": "raw Height preserved 180",
+      "pass": true
+    },
+    {
+      "name": "Height roundtrip 185",
+      "pass": true
+    },
+    {
+      "name": "raw Height preserved 185",
+      "pass": true
+    },
+    {
+      "name": "Height roundtrip 190",
+      "pass": true
+    },
+    {
+      "name": "raw Height preserved 190",
+      "pass": true
+    },
+    {
+      "name": "Height roundtrip 194.6037856625685",
+      "pass": true
+    },
+    {
+      "name": "raw Height preserved 194.6037856625685",
+      "pass": true
+    },
+    {
+      "name": "Height roundtrip 140",
+      "pass": true
+    },
+    {
+      "name": "raw Height preserved 140",
+      "pass": true
+    },
+    {
+      "name": "Height roundtrip 200",
+      "pass": true
+    },
+    {
+      "name": "raw Height preserved 200",
+      "pass": true
+    },
+    {
+      "name": "baseline -0.3 waist",
+      "pass": true
+    },
+    {
+      "name": "baseline -0.3 chest",
+      "pass": true
+    },
+    {
+      "name": "baseline -0.3 shoulder",
+      "pass": true
+    },
+    {
+      "name": "baseline -0.3 arm",
+      "pass": true
+    },
+    {
+      "name": "baseline -0.3 thigh",
+      "pass": true
+    },
+    {
+      "name": "baseline -0.3 calf",
+      "pass": true
+    },
+    {
+      "name": "baseline -0.3 hip",
+      "pass": true
+    },
+    {
+      "name": "baseline-neutral inputs -0.3",
+      "pass": true
+    },
+    {
+      "name": "neutral geometry -0.3",
+      "pass": true
+    },
+    {
+      "name": "baseline -0.2 waist",
+      "pass": true
+    },
+    {
+      "name": "baseline -0.2 chest",
+      "pass": true
+    },
+    {
+      "name": "baseline -0.2 shoulder",
+      "pass": true
+    },
+    {
+      "name": "baseline -0.2 arm",
+      "pass": true
+    },
+    {
+      "name": "baseline -0.2 thigh",
+      "pass": true
+    },
+    {
+      "name": "baseline -0.2 calf",
+      "pass": true
+    },
+    {
+      "name": "baseline -0.2 hip",
+      "pass": true
+    },
+    {
+      "name": "baseline-neutral inputs -0.2",
+      "pass": true
+    },
+    {
+      "name": "neutral geometry -0.2",
+      "pass": true
+    },
+    {
+      "name": "baseline -0.1 waist",
+      "pass": true
+    },
+    {
+      "name": "baseline -0.1 chest",
+      "pass": true
+    },
+    {
+      "name": "baseline -0.1 shoulder",
+      "pass": true
+    },
+    {
+      "name": "baseline -0.1 arm",
+      "pass": true
+    },
+    {
+      "name": "baseline -0.1 thigh",
+      "pass": true
+    },
+    {
+      "name": "baseline -0.1 calf",
+      "pass": true
+    },
+    {
+      "name": "baseline -0.1 hip",
+      "pass": true
+    },
+    {
+      "name": "baseline-neutral inputs -0.1",
+      "pass": true
+    },
+    {
+      "name": "neutral geometry -0.1",
+      "pass": true
+    },
+    {
+      "name": "baseline 0 waist",
+      "pass": true
+    },
+    {
+      "name": "baseline 0 chest",
+      "pass": true
+    },
+    {
+      "name": "baseline 0 shoulder",
+      "pass": true
+    },
+    {
+      "name": "baseline 0 arm",
+      "pass": true
+    },
+    {
+      "name": "baseline 0 thigh",
+      "pass": true
+    },
+    {
+      "name": "baseline 0 calf",
+      "pass": true
+    },
+    {
+      "name": "baseline 0 hip",
+      "pass": true
+    },
+    {
+      "name": "baseline-neutral inputs 0",
+      "pass": true
+    },
+    {
+      "name": "neutral geometry 0",
+      "pass": true
+    },
+    {
+      "name": "baseline 0.1 waist",
+      "pass": true
+    },
+    {
+      "name": "baseline 0.1 chest",
+      "pass": true
+    },
+    {
+      "name": "baseline 0.1 shoulder",
+      "pass": true
+    },
+    {
+      "name": "baseline 0.1 arm",
+      "pass": true
+    },
+    {
+      "name": "baseline 0.1 thigh",
+      "pass": true
+    },
+    {
+      "name": "baseline 0.1 calf",
+      "pass": true
+    },
+    {
+      "name": "baseline 0.1 hip",
+      "pass": true
+    },
+    {
+      "name": "baseline-neutral inputs 0.1",
+      "pass": true
+    },
+    {
+      "name": "neutral geometry 0.1",
+      "pass": true
+    },
+    {
+      "name": "baseline 0.2 waist",
+      "pass": true
+    },
+    {
+      "name": "baseline 0.2 chest",
+      "pass": true
+    },
+    {
+      "name": "baseline 0.2 shoulder",
+      "pass": true
+    },
+    {
+      "name": "baseline 0.2 arm",
+      "pass": true
+    },
+    {
+      "name": "baseline 0.2 thigh",
+      "pass": true
+    },
+    {
+      "name": "baseline 0.2 calf",
+      "pass": true
+    },
+    {
+      "name": "baseline 0.2 hip",
+      "pass": true
+    },
+    {
+      "name": "baseline-neutral inputs 0.2",
+      "pass": true
+    },
+    {
+      "name": "neutral geometry 0.2",
+      "pass": true
+    },
+    {
+      "name": "baseline 0.3 waist",
+      "pass": true
+    },
+    {
+      "name": "baseline 0.3 chest",
+      "pass": true
+    },
+    {
+      "name": "baseline 0.3 shoulder",
+      "pass": true
+    },
+    {
+      "name": "baseline 0.3 arm",
+      "pass": true
+    },
+    {
+      "name": "baseline 0.3 thigh",
+      "pass": true
+    },
+    {
+      "name": "baseline 0.3 calf",
+      "pass": true
+    },
+    {
+      "name": "baseline 0.3 hip",
+      "pass": true
+    },
+    {
+      "name": "baseline-neutral inputs 0.3",
+      "pass": true
+    },
+    {
+      "name": "neutral geometry 0.3",
+      "pass": true
+    },
+    {
+      "name": "sample weight -0.3 waist -1",
+      "pass": true
+    },
+    {
+      "name": "sample measured geometry -0.3 waist -1",
+      "pass": true
+    },
+    {
+      "name": "sample invariant",
+      "pass": true
+    },
+    {
+      "name": "sample weight -0.3 waist -0.75",
+      "pass": true
+    },
+    {
+      "name": "sample measured geometry -0.3 waist -0.75",
+      "pass": true
+    },
+    {
+      "name": "sample invariant",
+      "pass": true
+    },
+    {
+      "name": "sample weight -0.3 waist -0.5",
+      "pass": true
+    },
+    {
+      "name": "sample measured geometry -0.3 waist -0.5",
+      "pass": true
+    },
+    {
+      "name": "sample invariant",
+      "pass": true
+    },
+    {
+      "name": "sample weight -0.3 waist -0.25",
+      "pass": true
+    },
+    {
+      "name": "sample measured geometry -0.3 waist -0.25",
+      "pass": true
+    },
+    {
+      "name": "sample invariant",
+      "pass": true
+    },
+    {
+      "name": "sample weight -0.3 waist 0",
+      "pass": true
+    },
+    {
+      "name": "sample measured geometry -0.3 waist 0",
+      "pass": true
+    },
+    {
+      "name": "sample invariant",
+      "pass": true
+    },
+    {
+      "name": "sample weight -0.3 waist 0.25",
+      "pass": true
+    },
+    {
+      "name": "sample measured geometry -0.3 waist 0.25",
+      "pass": true
+    },
+    {
+      "name": "sample invariant",
+      "pass": true
+    },
+    {
+      "name": "sample weight -0.3 waist 0.5",
+      "pass": true
+    },
+    {
+      "name": "sample measured geometry -0.3 waist 0.5",
+      "pass": true
+    },
+    {
+      "name": "sample invariant",
+      "pass": true
+    },
+    {
+      "name": "sample weight -0.3 waist 0.75",
+      "pass": true
+    },
+    {
+      "name": "sample measured geometry -0.3 waist 0.75",
+      "pass": true
+    },
+    {
+      "name": "sample invariant",
+      "pass": true
+    },
+    {
+      "name": "sample weight -0.3 waist 1",
+      "pass": true
+    },
+    {
+      "name": "sample measured geometry -0.3 waist 1",
+      "pass": true
+    },
+    {
+      "name": "sample invariant",
+      "pass": true
+    },
+    {
+      "name": "sample weight -0.3 chest -1",
+      "pass": true
+    },
+    {
+      "name": "sample measured geometry -0.3 chest -1",
+      "pass": true
+    },
+    {
+      "name": "sample invariant",
+      "pass": true
+    },
+    {
+      "name": "sample weight -0.3 chest -0.75",
+      "pass": true
+    },
+    {
+      "name": "sample measured geometry -0.3 chest -0.75",
+      "pass": true
+    },
+    {
+      "name": "sample invariant",
+      "pass": true
+    },
+    {
+      "name": "sample weight -0.3 chest -0.5",
+      "pass": true
+    },
+    {
+      "name": "sample measured geometry -0.3 chest -0.5",
+      "pass": true
+    },
+    {
+      "name": "sample invariant",
+      "pass": true
+    },
+    {
+      "name": "sample weight -0.3 chest -0.25",
+      "pass": true
+    },
+    {
+      "name": "sample measured geometry -0.3 chest -0.25",
+      "pass": true
+    },
+    {
+      "name": "sample invariant",
+      "pass": true
+    },
+    {
+      "name": "sample weight -0.3 chest 0",
+      "pass": true
+    },
+    {
+      "name": "sample measured geometry -0.3 chest 0",
+      "pass": true
+    },
+    {
+      "name": "sample invariant",
+      "pass": true
+    },
+    {
+      "name": "sample weight -0.3 chest 0.25",
+      "pass": true
+    },
+    {
+      "name": "sample measured geometry -0.3 chest 0.25",
+      "pass": true
+    },
+    {
+      "name": "sample invariant",
+      "pass": true
+    },
+    {
+      "name": "sample weight -0.3 chest 0.5",
+      "pass": true
+    },
+    {
+      "name": "sample measured geometry -0.3 chest 0.5",
+      "pass": true
+    },
+    {
+      "name": "sample invariant",
+      "pass": true
+    },
+    {
+      "name": "sample weight -0.3 chest 0.75",
+      "pass": true
+    },
+    {
+      "name": "sample measured geometry -0.3 chest 0.75",
+      "pass": true
+    },
+    {
+      "name": "sample invariant",
+      "pass": true
+    },
+    {
+      "name": "sample weight -0.3 chest 1",
+      "pass": true
+    },
+    {
+      "name": "sample measured geometry -0.3 chest 1",
+      "pass": true
+    },
+    {
+      "name": "sample invariant",
+      "pass": true
+    },
+    {
+      "name": "sample weight -0.3 shoulder -1",
+      "pass": true
+    },
+    {
+      "name": "sample measured geometry -0.3 shoulder -1",
+      "pass": true
+    },
+    {
+      "name": "sample invariant",
+      "pass": true
+    },
+    {
+      "name": "sample weight -0.3 shoulder -0.75",
+      "pass": true
+    },
+    {
+      "name": "sample measured geometry -0.3 shoulder -0.75",
+      "pass": true
+    },
+    {
+      "name": "sample invariant",
+      "pass": true
+    },
+    {
+      "name": "sample weight -0.3 shoulder -0.5",
+      "pass": true
+    },
+    {
+      "name": "sample measured geometry -0.3 shoulder -0.5",
+      "pass": true
+    },
+    {
+      "name": "sample invariant",
+      "pass": true
+    },
+    {
+      "name": "sample weight -0.3 shoulder -0.25",
+      "pass": true
+    },
+    {
+      "name": "sample measured geometry -0.3 shoulder -0.25",
+      "pass": true
+    },
+    {
+      "name": "sample invariant",
+      "pass": true
+    },
+    {
+      "name": "sample weight -0.3 shoulder 0",
+      "pass": true
+    },
+    {
+      "name": "sample measured geometry -0.3 shoulder 0",
+      "pass": true
+    },
+    {
+      "name": "sample invariant",
+      "pass": true
+    },
+    {
+      "name": "sample weight -0.3 shoulder 0.25",
+      "pass": true
+    },
+    {
+      "name": "sample measured geometry -0.3 shoulder 0.25",
+      "pass": true
+    },
+    {
+      "name": "sample invariant",
+      "pass": true
+    },
+    {
+      "name": "sample weight -0.3 shoulder 0.5",
+      "pass": true
+    },
+    {
+      "name": "sample measured geometry -0.3 shoulder 0.5",
+      "pass": true
+    },
+    {
+      "name": "sample invariant",
+      "pass": true
+    },
+    {
+      "name": "sample weight -0.3 shoulder 0.75",
+      "pass": true
+    },
+    {
+      "name": "sample measured geometry -0.3 shoulder 0.75",
+      "pass": true
+    },
+    {
+      "name": "sample invariant",
+      "pass": true
+    },
+    {
+      "name": "sample weight -0.3 shoulder 1",
+      "pass": true
+    },
+    {
+      "name": "sample measured geometry -0.3 shoulder 1",
+      "pass": true
+    },
+    {
+      "name": "sample invariant",
+      "pass": true
+    },
+    {
+      "name": "sample weight -0.3 arm -1",
+      "pass": true
+    },
+    {
+      "name": "sample measured geometry -0.3 arm -1",
+      "pass": true
+    },
+    {
+      "name": "sample invariant",
+      "pass": true
+    },
+    {
+      "name": "sample weight -0.3 arm -0.75",
+      "pass": true
+    },
+    {
+      "name": "sample measured geometry -0.3 arm -0.75",
+      "pass": true
+    },
+    {
+      "name": "sample invariant",
+      "pass": true
+    },
+    {
+      "name": "sample weight -0.3 arm -0.5",
+      "pass": true
+    },
+    {
+      "name": "sample measured geometry -0.3 arm -0.5",
+      "pass": true
+    },
+    {
+      "name": "sample invariant",
+      "pass": true
+    },
+    {
+      "name": "sample weight -0.3 arm -0.25",
+      "pass": true
+    },
+    {
+      "name": "sample measured geometry -0.3 arm -0.25",
+      "pass": true
+    },
+    {
+      "name": "sample invariant",
+      "pass": true
+    },
+    {
+      "name": "sample weight -0.3 arm 0",
+      "pass": true
+    },
+    {
+      "name": "sample measured geometry -0.3 arm 0",
+      "pass": true
+    },
+    {
+      "name": "sample invariant",
+      "pass": true
+    },
+    {
+      "name": "sample weight -0.3 arm 0.25",
+      "pass": true
+    },
+    {
+      "name": "sample measured geometry -0.3 arm 0.25",
+      "pass": true
+    },
+    {
+      "name": "sample invariant",
+      "pass": true
+    },
+    {
+      "name": "sample weight -0.3 arm 0.5",
+      "pass": true
+    },
+    {
+      "name": "sample measured geometry -0.3 arm 0.5",
+      "pass": true
+    },
+    {
+      "name": "sample invariant",
+      "pass": true
+    },
+    {
+      "name": "sample weight -0.3 arm 0.75",
+      "pass": true
+    },
+    {
+      "name": "sample measured geometry -0.3 arm 0.75",
+      "pass": true
+    },
+    {
+      "name": "sample invariant",
+      "pass": true
+    },
+    {
+      "name": "sample weight -0.3 arm 1",
+      "pass": true
+    },
+    {
+      "name": "sample measured geometry -0.3 arm 1",
+      "pass": true
+    },
+    {
+      "name": "sample invariant",
+      "pass": true
+    },
+    {
+      "name": "sample weight -0.3 thigh -1",
+      "pass": true
+    },
+    {
+      "name": "sample measured geometry -0.3 thigh -1",
+      "pass": true
+    },
+    {
+      "name": "sample invariant",
+      "pass": true
+    },
+    {
+      "name": "sample weight -0.3 thigh -0.75",
+      "pass": true
+    },
+    {
+      "name": "sample measured geometry -0.3 thigh -0.75",
+      "pass": true
+    },
+    {
+      "name": "sample invariant",
+      "pass": true
+    },
+    {
+      "name": "sample weight -0.3 thigh -0.5",
+      "pass": true
+    },
+    {
+      "name": "sample measured geometry -0.3 thigh -0.5",
+      "pass": true
+    },
+    {
+      "name": "sample invariant",
+      "pass": true
+    },
+    {
+      "name": "sample weight -0.3 thigh -0.25",
+      "pass": true
+    },
+    {
+      "name": "sample measured geometry -0.3 thigh -0.25",
+      "pass": true
+    },
+    {
+      "name": "sample invariant",
+      "pass": true
+    },
+    {
+      "name": "sample weight -0.3 thigh 0",
+      "pass": true
+    },
+    {
+      "name": "sample measured geometry -0.3 thigh 0",
+      "pass": true
+    },
+    {
+      "name": "sample invariant",
+      "pass": true
+    },
+    {
+      "name": "sample weight -0.3 thigh 0.25",
+      "pass": true
+    },
+    {
+      "name": "sample measured geometry -0.3 thigh 0.25",
+      "pass": true
+    },
+    {
+      "name": "sample invariant",
+      "pass": true
+    },
+    {
+      "name": "sample weight -0.3 thigh 0.5",
+      "pass": true
+    },
+    {
+      "name": "sample measured geometry -0.3 thigh 0.5",
+      "pass": true
+    },
+    {
+      "name": "sample invariant",
+      "pass": true
+    },
+    {
+      "name": "sample weight -0.3 thigh 0.75",
+      "pass": true
+    },
+    {
+      "name": "sample measured geometry -0.3 thigh 0.75",
+      "pass": true
+    },
+    {
+      "name": "sample invariant",
+      "pass": true
+    },
+    {
+      "name": "sample weight -0.3 thigh 1",
+      "pass": true
+    },
+    {
+      "name": "sample measured geometry -0.3 thigh 1",
+      "pass": true
+    },
+    {
+      "name": "sample invariant",
+      "pass": true
+    },
+    {
+      "name": "sample weight -0.3 calf -1",
+      "pass": true
+    },
+    {
+      "name": "sample measured geometry -0.3 calf -1",
+      "pass": true
+    },
+    {
+      "name": "sample invariant",
+      "pass": true
+    },
+    {
+      "name": "sample weight -0.3 calf -0.75",
+      "pass": true
+    },
+    {
+      "name": "sample measured geometry -0.3 calf -0.75",
+      "pass": true
+    },
+    {
+      "name": "sample invariant",
+      "pass": true
+    },
+    {
+      "name": "sample weight -0.3 calf -0.5",
+      "pass": true
+    },
+    {
+      "name": "sample measured geometry -0.3 calf -0.5",
+      "pass": true
+    },
+    {
+      "name": "sample invariant",
+      "pass": true
+    },
+    {
+      "name": "sample weight -0.3 calf -0.25",
+      "pass": true
+    },
+    {
+      "name": "sample measured geometry -0.3 calf -0.25",
+      "pass": true
+    },
+    {
+      "name": "sample invariant",
+      "pass": true
+    },
+    {
+      "name": "sample weight -0.3 calf 0",
+      "pass": true
+    },
+    {
+      "name": "sample measured geometry -0.3 calf 0",
+      "pass": true
+    },
+    {
+      "name": "sample invariant",
+      "pass": true
+    },
+    {
+      "name": "sample weight -0.3 calf 0.25",
+      "pass": true
+    },
+    {
+      "name": "sample measured geometry -0.3 calf 0.25",
+      "pass": true
+    },
+    {
+      "name": "sample invariant",
+      "pass": true
+    },
+    {
+      "name": "sample weight -0.3 calf 0.5",
+      "pass": true
+    },
+    {
+      "name": "sample measured geometry -0.3 calf 0.5",
+      "pass": true
+    },
+    {
+      "name": "sample invariant",
+      "pass": true
+    },
+    {
+      "name": "sample weight -0.3 calf 0.75",
+      "pass": true
+    },
+    {
+      "name": "sample measured geometry -0.3 calf 0.75",
+      "pass": true
+    },
+    {
+      "name": "sample invariant",
+      "pass": true
+    },
+    {
+      "name": "sample weight -0.3 calf 1",
+      "pass": true
+    },
+    {
+      "name": "sample measured geometry -0.3 calf 1",
+      "pass": true
+    },
+    {
+      "name": "sample invariant",
+      "pass": true
+    },
+    {
+      "name": "sample weight -0.3 hip -1",
+      "pass": true
+    },
+    {
+      "name": "sample measured geometry -0.3 hip -1",
+      "pass": true
+    },
+    {
+      "name": "sample invariant",
+      "pass": true
+    },
+    {
+      "name": "sample weight -0.3 hip -0.75",
+      "pass": true
+    },
+    {
+      "name": "sample measured geometry -0.3 hip -0.75",
+      "pass": true
+    },
+    {
+      "name": "sample invariant",
+      "pass": true
+    },
+    {
+      "name": "sample weight -0.3 hip -0.5",
+      "pass": true
+    },
+    {
+      "name": "sample measured geometry -0.3 hip -0.5",
+      "pass": true
+    },
+    {
+      "name": "sample invariant",
+      "pass": true
+    },
+    {
+      "name": "sample weight -0.3 hip -0.25",
+      "pass": true
+    },
+    {
+      "name": "sample measured geometry -0.3 hip -0.25",
+      "pass": true
+    },
+    {
+      "name": "sample invariant",
+      "pass": true
+    },
+    {
+      "name": "sample weight -0.3 hip 0",
+      "pass": true
+    },
+    {
+      "name": "sample measured geometry -0.3 hip 0",
+      "pass": true
+    },
+    {
+      "name": "sample invariant",
+      "pass": true
+    },
+    {
+      "name": "sample weight -0.3 hip 0.25",
+      "pass": true
+    },
+    {
+      "name": "sample measured geometry -0.3 hip 0.25",
+      "pass": true
+    },
+    {
+      "name": "sample invariant",
+      "pass": true
+    },
+    {
+      "name": "sample weight -0.3 hip 0.5",
+      "pass": true
+    },
+    {
+      "name": "sample measured geometry -0.3 hip 0.5",
+      "pass": true
+    },
+    {
+      "name": "sample invariant",
+      "pass": true
+    },
+    {
+      "name": "sample weight -0.3 hip 0.75",
+      "pass": true
+    },
+    {
+      "name": "sample measured geometry -0.3 hip 0.75",
+      "pass": true
+    },
+    {
+      "name": "sample invariant",
+      "pass": true
+    },
+    {
+      "name": "sample weight -0.3 hip 1",
+      "pass": true
+    },
+    {
+      "name": "sample measured geometry -0.3 hip 1",
+      "pass": true
+    },
+    {
+      "name": "sample invariant",
+      "pass": true
+    },
+    {
+      "name": "sample weight 0 waist -1",
+      "pass": true
+    },
+    {
+      "name": "sample measured geometry 0 waist -1",
+      "pass": true
+    },
+    {
+      "name": "sample invariant",
+      "pass": true
+    },
+    {
+      "name": "sample weight 0 waist -0.75",
+      "pass": true
+    },
+    {
+      "name": "sample measured geometry 0 waist -0.75",
+      "pass": true
+    },
+    {
+      "name": "sample invariant",
+      "pass": true
+    },
+    {
+      "name": "sample weight 0 waist -0.5",
+      "pass": true
+    },
+    {
+      "name": "sample measured geometry 0 waist -0.5",
+      "pass": true
+    },
+    {
+      "name": "sample invariant",
+      "pass": true
+    },
+    {
+      "name": "sample weight 0 waist -0.25",
+      "pass": true
+    },
+    {
+      "name": "sample measured geometry 0 waist -0.25",
+      "pass": true
+    },
+    {
+      "name": "sample invariant",
+      "pass": true
+    },
+    {
+      "name": "sample weight 0 waist 0",
+      "pass": true
+    },
+    {
+      "name": "sample measured geometry 0 waist 0",
+      "pass": true
+    },
+    {
+      "name": "sample invariant",
+      "pass": true
+    },
+    {
+      "name": "sample weight 0 waist 0.25",
+      "pass": true
+    },
+    {
+      "name": "sample measured geometry 0 waist 0.25",
+      "pass": true
+    },
+    {
+      "name": "sample invariant",
+      "pass": true
+    },
+    {
+      "name": "sample weight 0 waist 0.5",
+      "pass": true
+    },
+    {
+      "name": "sample measured geometry 0 waist 0.5",
+      "pass": true
+    },
+    {
+      "name": "sample invariant",
+      "pass": true
+    },
+    {
+      "name": "sample weight 0 waist 0.75",
+      "pass": true
+    },
+    {
+      "name": "sample measured geometry 0 waist 0.75",
+      "pass": true
+    },
+    {
+      "name": "sample invariant",
+      "pass": true
+    },
+    {
+      "name": "sample weight 0 waist 1",
+      "pass": true
+    },
+    {
+      "name": "sample measured geometry 0 waist 1",
+      "pass": true
+    },
+    {
+      "name": "sample invariant",
+      "pass": true
+    },
+    {
+      "name": "sample weight 0 chest -1",
+      "pass": true
+    },
+    {
+      "name": "sample measured geometry 0 chest -1",
+      "pass": true
+    },
+    {
+      "name": "sample invariant",
+      "pass": true
+    },
+    {
+      "name": "sample weight 0 chest -0.75",
+      "pass": true
+    },
+    {
+      "name": "sample measured geometry 0 chest -0.75",
+      "pass": true
+    },
+    {
+      "name": "sample invariant",
+      "pass": true
+    },
+    {
+      "name": "sample weight 0 chest -0.5",
+      "pass": true
+    },
+    {
+      "name": "sample measured geometry 0 chest -0.5",
+      "pass": true
+    },
+    {
+      "name": "sample invariant",
+      "pass": true
+    },
+    {
+      "name": "sample weight 0 chest -0.25",
+      "pass": true
+    },
+    {
+      "name": "sample measured geometry 0 chest -0.25",
+      "pass": true
+    },
+    {
+      "name": "sample invariant",
+      "pass": true
+    },
+    {
+      "name": "sample weight 0 chest 0",
+      "pass": true
+    },
+    {
+      "name": "sample measured geometry 0 chest 0",
+      "pass": true
+    },
+    {
+      "name": "sample invariant",
+      "pass": true
+    },
+    {
+      "name": "sample weight 0 chest 0.25",
+      "pass": true
+    },
+    {
+      "name": "sample measured geometry 0 chest 0.25",
+      "pass": true
+    },
+    {
+      "name": "sample invariant",
+      "pass": true
+    },
+    {
+      "name": "sample weight 0 chest 0.5",
+      "pass": true
+    },
+    {
+      "name": "sample measured geometry 0 chest 0.5",
+      "pass": true
+    },
+    {
+      "name": "sample invariant",
+      "pass": true
+    },
+    {
+      "name": "sample weight 0 chest 0.75",
+      "pass": true
+    },
+    {
+      "name": "sample measured geometry 0 chest 0.75",
+      "pass": true
+    },
+    {
+      "name": "sample invariant",
+      "pass": true
+    },
+    {
+      "name": "sample weight 0 chest 1",
+      "pass": true
+    },
+    {
+      "name": "sample measured geometry 0 chest 1",
+      "pass": true
+    },
+    {
+      "name": "sample invariant",
+      "pass": true
+    },
+    {
+      "name": "sample weight 0 shoulder -1",
+      "pass": true
+    },
+    {
+      "name": "sample measured geometry 0 shoulder -1",
+      "pass": true
+    },
+    {
+      "name": "sample invariant",
+      "pass": true
+    },
+    {
+      "name": "sample weight 0 shoulder -0.75",
+      "pass": true
+    },
+    {
+      "name": "sample measured geometry 0 shoulder -0.75",
+      "pass": true
+    },
+    {
+      "name": "sample invariant",
+      "pass": true
+    },
+    {
+      "name": "sample weight 0 shoulder -0.5",
+      "pass": true
+    },
+    {
+      "name": "sample measured geometry 0 shoulder -0.5",
+      "pass": true
+    },
+    {
+      "name": "sample invariant",
+      "pass": true
+    },
+    {
+      "name": "sample weight 0 shoulder -0.25",
+      "pass": true
+    },
+    {
+      "name": "sample measured geometry 0 shoulder -0.25",
+      "pass": true
+    },
+    {
+      "name": "sample invariant",
+      "pass": true
+    },
+    {
+      "name": "sample weight 0 shoulder 0",
+      "pass": true
+    },
+    {
+      "name": "sample measured geometry 0 shoulder 0",
+      "pass": true
+    },
+    {
+      "name": "sample invariant",
+      "pass": true
+    },
+    {
+      "name": "sample weight 0 shoulder 0.25",
+      "pass": true
+    },
+    {
+      "name": "sample measured geometry 0 shoulder 0.25",
+      "pass": true
+    },
+    {
+      "name": "sample invariant",
+      "pass": true
+    },
+    {
+      "name": "sample weight 0 shoulder 0.5",
+      "pass": true
+    },
+    {
+      "name": "sample measured geometry 0 shoulder 0.5",
+      "pass": true
+    },
+    {
+      "name": "sample invariant",
+      "pass": true
+    },
+    {
+      "name": "sample weight 0 shoulder 0.75",
+      "pass": true
+    },
+    {
+      "name": "sample measured geometry 0 shoulder 0.75",
+      "pass": true
+    },
+    {
+      "name": "sample invariant",
+      "pass": true
+    },
+    {
+      "name": "sample weight 0 shoulder 1",
+      "pass": true
+    },
+    {
+      "name": "sample measured geometry 0 shoulder 1",
+      "pass": true
+    },
+    {
+      "name": "sample invariant",
+      "pass": true
+    },
+    {
+      "name": "sample weight 0 arm -1",
+      "pass": true
+    },
+    {
+      "name": "sample measured geometry 0 arm -1",
+      "pass": true
+    },
+    {
+      "name": "sample invariant",
+      "pass": true
+    },
+    {
+      "name": "sample weight 0 arm -0.75",
+      "pass": true
+    },
+    {
+      "name": "sample measured geometry 0 arm -0.75",
+      "pass": true
+    },
+    {
+      "name": "sample invariant",
+      "pass": true
+    },
+    {
+      "name": "sample weight 0 arm -0.5",
+      "pass": true
+    },
+    {
+      "name": "sample measured geometry 0 arm -0.5",
+      "pass": true
+    },
+    {
+      "name": "sample invariant",
+      "pass": true
+    },
+    {
+      "name": "sample weight 0 arm -0.25",
+      "pass": true
+    },
+    {
+      "name": "sample measured geometry 0 arm -0.25",
+      "pass": true
+    },
+    {
+      "name": "sample invariant",
+      "pass": true
+    },
+    {
+      "name": "sample weight 0 arm 0",
+      "pass": true
+    },
+    {
+      "name": "sample measured geometry 0 arm 0",
+      "pass": true
+    },
+    {
+      "name": "sample invariant",
+      "pass": true
+    },
+    {
+      "name": "sample weight 0 arm 0.25",
+      "pass": true
+    },
+    {
+      "name": "sample measured geometry 0 arm 0.25",
+      "pass": true
+    },
+    {
+      "name": "sample invariant",
+      "pass": true
+    },
+    {
+      "name": "sample weight 0 arm 0.5",
+      "pass": true
+    },
+    {
+      "name": "sample measured geometry 0 arm 0.5",
+      "pass": true
+    },
+    {
+      "name": "sample invariant",
+      "pass": true
+    },
+    {
+      "name": "sample weight 0 arm 0.75",
+      "pass": true
+    },
+    {
+      "name": "sample measured geometry 0 arm 0.75",
+      "pass": true
+    },
+    {
+      "name": "sample invariant",
+      "pass": true
+    },
+    {
+      "name": "sample weight 0 arm 1",
+      "pass": true
+    },
+    {
+      "name": "sample measured geometry 0 arm 1",
+      "pass": true
+    },
+    {
+      "name": "sample invariant",
+      "pass": true
+    },
+    {
+      "name": "sample weight 0 thigh -1",
+      "pass": true
+    },
+    {
+      "name": "sample measured geometry 0 thigh -1",
+      "pass": true
+    },
+    {
+      "name": "sample invariant",
+      "pass": true
+    },
+    {
+      "name": "sample weight 0 thigh -0.75",
+      "pass": true
+    },
+    {
+      "name": "sample measured geometry 0 thigh -0.75",
+      "pass": true
+    },
+    {
+      "name": "sample invariant",
+      "pass": true
+    },
+    {
+      "name": "sample weight 0 thigh -0.5",
+      "pass": true
+    },
+    {
+      "name": "sample measured geometry 0 thigh -0.5",
+      "pass": true
+    },
+    {
+      "name": "sample invariant",
+      "pass": true
+    },
+    {
+      "name": "sample weight 0 thigh -0.25",
+      "pass": true
+    },
+    {
+      "name": "sample measured geometry 0 thigh -0.25",
+      "pass": true
+    },
+    {
+      "name": "sample invariant",
+      "pass": true
+    },
+    {
+      "name": "sample weight 0 thigh 0",
+      "pass": true
+    },
+    {
+      "name": "sample measured geometry 0 thigh 0",
+      "pass": true
+    },
+    {
+      "name": "sample invariant",
+      "pass": true
+    },
+    {
+      "name": "sample weight 0 thigh 0.25",
+      "pass": true
+    },
+    {
+      "name": "sample measured geometry 0 thigh 0.25",
+      "pass": true
+    },
+    {
+      "name": "sample invariant",
+      "pass": true
+    },
+    {
+      "name": "sample weight 0 thigh 0.5",
+      "pass": true
+    },
+    {
+      "name": "sample measured geometry 0 thigh 0.5",
+      "pass": true
+    },
+    {
+      "name": "sample invariant",
+      "pass": true
+    },
+    {
+      "name": "sample weight 0 thigh 0.75",
+      "pass": true
+    },
+    {
+      "name": "sample measured geometry 0 thigh 0.75",
+      "pass": true
+    },
+    {
+      "name": "sample invariant",
+      "pass": true
+    },
+    {
+      "name": "sample weight 0 thigh 1",
+      "pass": true
+    },
+    {
+      "name": "sample measured geometry 0 thigh 1",
+      "pass": true
+    },
+    {
+      "name": "sample invariant",
+      "pass": true
+    },
+    {
+      "name": "sample weight 0 calf -1",
+      "pass": true
+    },
+    {
+      "name": "sample measured geometry 0 calf -1",
+      "pass": true
+    },
+    {
+      "name": "sample invariant",
+      "pass": true
+    },
+    {
+      "name": "sample weight 0 calf -0.75",
+      "pass": true
+    },
+    {
+      "name": "sample measured geometry 0 calf -0.75",
+      "pass": true
+    },
+    {
+      "name": "sample invariant",
+      "pass": true
+    },
+    {
+      "name": "sample weight 0 calf -0.5",
+      "pass": true
+    },
+    {
+      "name": "sample measured geometry 0 calf -0.5",
+      "pass": true
+    },
+    {
+      "name": "sample invariant",
+      "pass": true
+    },
+    {
+      "name": "sample weight 0 calf -0.25",
+      "pass": true
+    },
+    {
+      "name": "sample measured geometry 0 calf -0.25",
+      "pass": true
+    },
+    {
+      "name": "sample invariant",
+      "pass": true
+    },
+    {
+      "name": "sample weight 0 calf 0",
+      "pass": true
+    },
+    {
+      "name": "sample measured geometry 0 calf 0",
+      "pass": true
+    },
+    {
+      "name": "sample invariant",
+      "pass": true
+    },
+    {
+      "name": "sample weight 0 calf 0.25",
+      "pass": true
+    },
+    {
+      "name": "sample measured geometry 0 calf 0.25",
+      "pass": true
+    },
+    {
+      "name": "sample invariant",
+      "pass": true
+    },
+    {
+      "name": "sample weight 0 calf 0.5",
+      "pass": true
+    },
+    {
+      "name": "sample measured geometry 0 calf 0.5",
+      "pass": true
+    },
+    {
+      "name": "sample invariant",
+      "pass": true
+    },
+    {
+      "name": "sample weight 0 calf 0.75",
+      "pass": true
+    },
+    {
+      "name": "sample measured geometry 0 calf 0.75",
+      "pass": true
+    },
+    {
+      "name": "sample invariant",
+      "pass": true
+    },
+    {
+      "name": "sample weight 0 calf 1",
+      "pass": true
+    },
+    {
+      "name": "sample measured geometry 0 calf 1",
+      "pass": true
+    },
+    {
+      "name": "sample invariant",
+      "pass": true
+    },
+    {
+      "name": "sample weight 0 hip -1",
+      "pass": true
+    },
+    {
+      "name": "sample measured geometry 0 hip -1",
+      "pass": true
+    },
+    {
+      "name": "sample invariant",
+      "pass": true
+    },
+    {
+      "name": "sample weight 0 hip -0.75",
+      "pass": true
+    },
+    {
+      "name": "sample measured geometry 0 hip -0.75",
+      "pass": true
+    },
+    {
+      "name": "sample invariant",
+      "pass": true
+    },
+    {
+      "name": "sample weight 0 hip -0.5",
+      "pass": true
+    },
+    {
+      "name": "sample measured geometry 0 hip -0.5",
+      "pass": true
+    },
+    {
+      "name": "sample invariant",
+      "pass": true
+    },
+    {
+      "name": "sample weight 0 hip -0.25",
+      "pass": true
+    },
+    {
+      "name": "sample measured geometry 0 hip -0.25",
+      "pass": true
+    },
+    {
+      "name": "sample invariant",
+      "pass": true
+    },
+    {
+      "name": "sample weight 0 hip 0",
+      "pass": true
+    },
+    {
+      "name": "sample measured geometry 0 hip 0",
+      "pass": true
+    },
+    {
+      "name": "sample invariant",
+      "pass": true
+    },
+    {
+      "name": "sample weight 0 hip 0.25",
+      "pass": true
+    },
+    {
+      "name": "sample measured geometry 0 hip 0.25",
+      "pass": true
+    },
+    {
+      "name": "sample invariant",
+      "pass": true
+    },
+    {
+      "name": "sample weight 0 hip 0.5",
+      "pass": true
+    },
+    {
+      "name": "sample measured geometry 0 hip 0.5",
+      "pass": true
+    },
+    {
+      "name": "sample invariant",
+      "pass": true
+    },
+    {
+      "name": "sample weight 0 hip 0.75",
+      "pass": true
+    },
+    {
+      "name": "sample measured geometry 0 hip 0.75",
+      "pass": true
+    },
+    {
+      "name": "sample invariant",
+      "pass": true
+    },
+    {
+      "name": "sample weight 0 hip 1",
+      "pass": true
+    },
+    {
+      "name": "sample measured geometry 0 hip 1",
+      "pass": true
+    },
+    {
+      "name": "sample invariant",
+      "pass": true
+    },
+    {
+      "name": "sample weight 0.3 waist -1",
+      "pass": true
+    },
+    {
+      "name": "sample measured geometry 0.3 waist -1",
+      "pass": true
+    },
+    {
+      "name": "sample invariant",
+      "pass": true
+    },
+    {
+      "name": "sample weight 0.3 waist -0.75",
+      "pass": true
+    },
+    {
+      "name": "sample measured geometry 0.3 waist -0.75",
+      "pass": true
+    },
+    {
+      "name": "sample invariant",
+      "pass": true
+    },
+    {
+      "name": "sample weight 0.3 waist -0.5",
+      "pass": true
+    },
+    {
+      "name": "sample measured geometry 0.3 waist -0.5",
+      "pass": true
+    },
+    {
+      "name": "sample invariant",
+      "pass": true
+    },
+    {
+      "name": "sample weight 0.3 waist -0.25",
+      "pass": true
+    },
+    {
+      "name": "sample measured geometry 0.3 waist -0.25",
+      "pass": true
+    },
+    {
+      "name": "sample invariant",
+      "pass": true
+    },
+    {
+      "name": "sample weight 0.3 waist 0",
+      "pass": true
+    },
+    {
+      "name": "sample measured geometry 0.3 waist 0",
+      "pass": true
+    },
+    {
+      "name": "sample invariant",
+      "pass": true
+    },
+    {
+      "name": "sample weight 0.3 waist 0.25",
+      "pass": true
+    },
+    {
+      "name": "sample measured geometry 0.3 waist 0.25",
+      "pass": true
+    },
+    {
+      "name": "sample invariant",
+      "pass": true
+    },
+    {
+      "name": "sample weight 0.3 waist 0.5",
+      "pass": true
+    },
+    {
+      "name": "sample measured geometry 0.3 waist 0.5",
+      "pass": true
+    },
+    {
+      "name": "sample invariant",
+      "pass": true
+    },
+    {
+      "name": "sample weight 0.3 waist 0.75",
+      "pass": true
+    },
+    {
+      "name": "sample measured geometry 0.3 waist 0.75",
+      "pass": true
+    },
+    {
+      "name": "sample invariant",
+      "pass": true
+    },
+    {
+      "name": "sample weight 0.3 waist 1",
+      "pass": true
+    },
+    {
+      "name": "sample measured geometry 0.3 waist 1",
+      "pass": true
+    },
+    {
+      "name": "sample invariant",
+      "pass": true
+    },
+    {
+      "name": "sample weight 0.3 chest -1",
+      "pass": true
+    },
+    {
+      "name": "sample measured geometry 0.3 chest -1",
+      "pass": true
+    },
+    {
+      "name": "sample invariant",
+      "pass": true
+    },
+    {
+      "name": "sample weight 0.3 chest -0.75",
+      "pass": true
+    },
+    {
+      "name": "sample measured geometry 0.3 chest -0.75",
+      "pass": true
+    },
+    {
+      "name": "sample invariant",
+      "pass": true
+    },
+    {
+      "name": "sample weight 0.3 chest -0.5",
+      "pass": true
+    },
+    {
+      "name": "sample measured geometry 0.3 chest -0.5",
+      "pass": true
+    },
+    {
+      "name": "sample invariant",
+      "pass": true
+    },
+    {
+      "name": "sample weight 0.3 chest -0.25",
+      "pass": true
+    },
+    {
+      "name": "sample measured geometry 0.3 chest -0.25",
+      "pass": true
+    },
+    {
+      "name": "sample invariant",
+      "pass": true
+    },
+    {
+      "name": "sample weight 0.3 chest 0",
+      "pass": true
+    },
+    {
+      "name": "sample measured geometry 0.3 chest 0",
+      "pass": true
+    },
+    {
+      "name": "sample invariant",
+      "pass": true
+    },
+    {
+      "name": "sample weight 0.3 chest 0.25",
+      "pass": true
+    },
+    {
+      "name": "sample measured geometry 0.3 chest 0.25",
+      "pass": true
+    },
+    {
+      "name": "sample invariant",
+      "pass": true
+    },
+    {
+      "name": "sample weight 0.3 chest 0.5",
+      "pass": true
+    },
+    {
+      "name": "sample measured geometry 0.3 chest 0.5",
+      "pass": true
+    },
+    {
+      "name": "sample invariant",
+      "pass": true
+    },
+    {
+      "name": "sample weight 0.3 chest 0.75",
+      "pass": true
+    },
+    {
+      "name": "sample measured geometry 0.3 chest 0.75",
+      "pass": true
+    },
+    {
+      "name": "sample invariant",
+      "pass": true
+    },
+    {
+      "name": "sample weight 0.3 chest 1",
+      "pass": true
+    },
+    {
+      "name": "sample measured geometry 0.3 chest 1",
+      "pass": true
+    },
+    {
+      "name": "sample invariant",
+      "pass": true
+    },
+    {
+      "name": "sample weight 0.3 shoulder -1",
+      "pass": true
+    },
+    {
+      "name": "sample measured geometry 0.3 shoulder -1",
+      "pass": true
+    },
+    {
+      "name": "sample invariant",
+      "pass": true
+    },
+    {
+      "name": "sample weight 0.3 shoulder -0.75",
+      "pass": true
+    },
+    {
+      "name": "sample measured geometry 0.3 shoulder -0.75",
+      "pass": true
+    },
+    {
+      "name": "sample invariant",
+      "pass": true
+    },
+    {
+      "name": "sample weight 0.3 shoulder -0.5",
+      "pass": true
+    },
+    {
+      "name": "sample measured geometry 0.3 shoulder -0.5",
+      "pass": true
+    },
+    {
+      "name": "sample invariant",
+      "pass": true
+    },
+    {
+      "name": "sample weight 0.3 shoulder -0.25",
+      "pass": true
+    },
+    {
+      "name": "sample measured geometry 0.3 shoulder -0.25",
+      "pass": true
+    },
+    {
+      "name": "sample invariant",
+      "pass": true
+    },
+    {
+      "name": "sample weight 0.3 shoulder 0",
+      "pass": true
+    },
+    {
+      "name": "sample measured geometry 0.3 shoulder 0",
+      "pass": true
+    },
+    {
+      "name": "sample invariant",
+      "pass": true
+    },
+    {
+      "name": "sample weight 0.3 shoulder 0.25",
+      "pass": true
+    },
+    {
+      "name": "sample measured geometry 0.3 shoulder 0.25",
+      "pass": true
+    },
+    {
+      "name": "sample invariant",
+      "pass": true
+    },
+    {
+      "name": "sample weight 0.3 shoulder 0.5",
+      "pass": true
+    },
+    {
+      "name": "sample measured geometry 0.3 shoulder 0.5",
+      "pass": true
+    },
+    {
+      "name": "sample invariant",
+      "pass": true
+    },
+    {
+      "name": "sample weight 0.3 shoulder 0.75",
+      "pass": true
+    },
+    {
+      "name": "sample measured geometry 0.3 shoulder 0.75",
+      "pass": true
+    },
+    {
+      "name": "sample invariant",
+      "pass": true
+    },
+    {
+      "name": "sample weight 0.3 shoulder 1",
+      "pass": true
+    },
+    {
+      "name": "sample measured geometry 0.3 shoulder 1",
+      "pass": true
+    },
+    {
+      "name": "sample invariant",
+      "pass": true
+    },
+    {
+      "name": "sample weight 0.3 arm -1",
+      "pass": true
+    },
+    {
+      "name": "sample measured geometry 0.3 arm -1",
+      "pass": true
+    },
+    {
+      "name": "sample invariant",
+      "pass": true
+    },
+    {
+      "name": "sample weight 0.3 arm -0.75",
+      "pass": true
+    },
+    {
+      "name": "sample measured geometry 0.3 arm -0.75",
+      "pass": true
+    },
+    {
+      "name": "sample invariant",
+      "pass": true
+    },
+    {
+      "name": "sample weight 0.3 arm -0.5",
+      "pass": true
+    },
+    {
+      "name": "sample measured geometry 0.3 arm -0.5",
+      "pass": true
+    },
+    {
+      "name": "sample invariant",
+      "pass": true
+    },
+    {
+      "name": "sample weight 0.3 arm -0.25",
+      "pass": true
+    },
+    {
+      "name": "sample measured geometry 0.3 arm -0.25",
+      "pass": true
+    },
+    {
+      "name": "sample invariant",
+      "pass": true
+    },
+    {
+      "name": "sample weight 0.3 arm 0",
+      "pass": true
+    },
+    {
+      "name": "sample measured geometry 0.3 arm 0",
+      "pass": true
+    },
+    {
+      "name": "sample invariant",
+      "pass": true
+    },
+    {
+      "name": "sample weight 0.3 arm 0.25",
+      "pass": true
+    },
+    {
+      "name": "sample measured geometry 0.3 arm 0.25",
+      "pass": true
+    },
+    {
+      "name": "sample invariant",
+      "pass": true
+    },
+    {
+      "name": "sample weight 0.3 arm 0.5",
+      "pass": true
+    },
+    {
+      "name": "sample measured geometry 0.3 arm 0.5",
+      "pass": true
+    },
+    {
+      "name": "sample invariant",
+      "pass": true
+    },
+    {
+      "name": "sample weight 0.3 arm 0.75",
+      "pass": true
+    },
+    {
+      "name": "sample measured geometry 0.3 arm 0.75",
+      "pass": true
+    },
+    {
+      "name": "sample invariant",
+      "pass": true
+    },
+    {
+      "name": "sample weight 0.3 arm 1",
+      "pass": true
+    },
+    {
+      "name": "sample measured geometry 0.3 arm 1",
+      "pass": true
+    },
+    {
+      "name": "sample invariant",
+      "pass": true
+    },
+    {
+      "name": "sample weight 0.3 thigh -1",
+      "pass": true
+    },
+    {
+      "name": "sample measured geometry 0.3 thigh -1",
+      "pass": true
+    },
+    {
+      "name": "sample invariant",
+      "pass": true
+    },
+    {
+      "name": "sample weight 0.3 thigh -0.75",
+      "pass": true
+    },
+    {
+      "name": "sample measured geometry 0.3 thigh -0.75",
+      "pass": true
+    },
+    {
+      "name": "sample invariant",
+      "pass": true
+    },
+    {
+      "name": "sample weight 0.3 thigh -0.5",
+      "pass": true
+    },
+    {
+      "name": "sample measured geometry 0.3 thigh -0.5",
+      "pass": true
+    },
+    {
+      "name": "sample invariant",
+      "pass": true
+    },
+    {
+      "name": "sample weight 0.3 thigh -0.25",
+      "pass": true
+    },
+    {
+      "name": "sample measured geometry 0.3 thigh -0.25",
+      "pass": true
+    },
+    {
+      "name": "sample invariant",
+      "pass": true
+    },
+    {
+      "name": "sample weight 0.3 thigh 0",
+      "pass": true
+    },
+    {
+      "name": "sample measured geometry 0.3 thigh 0",
+      "pass": true
+    },
+    {
+      "name": "sample invariant",
+      "pass": true
+    },
+    {
+      "name": "sample weight 0.3 thigh 0.25",
+      "pass": true
+    },
+    {
+      "name": "sample measured geometry 0.3 thigh 0.25",
+      "pass": true
+    },
+    {
+      "name": "sample invariant",
+      "pass": true
+    },
+    {
+      "name": "sample weight 0.3 thigh 0.5",
+      "pass": true
+    },
+    {
+      "name": "sample measured geometry 0.3 thigh 0.5",
+      "pass": true
+    },
+    {
+      "name": "sample invariant",
+      "pass": true
+    },
+    {
+      "name": "sample weight 0.3 thigh 0.75",
+      "pass": true
+    },
+    {
+      "name": "sample measured geometry 0.3 thigh 0.75",
+      "pass": true
+    },
+    {
+      "name": "sample invariant",
+      "pass": true
+    },
+    {
+      "name": "sample weight 0.3 thigh 1",
+      "pass": true
+    },
+    {
+      "name": "sample measured geometry 0.3 thigh 1",
+      "pass": true
+    },
+    {
+      "name": "sample invariant",
+      "pass": true
+    },
+    {
+      "name": "sample weight 0.3 calf -1",
+      "pass": true
+    },
+    {
+      "name": "sample measured geometry 0.3 calf -1",
+      "pass": true
+    },
+    {
+      "name": "sample invariant",
+      "pass": true
+    },
+    {
+      "name": "sample weight 0.3 calf -0.75",
+      "pass": true
+    },
+    {
+      "name": "sample measured geometry 0.3 calf -0.75",
+      "pass": true
+    },
+    {
+      "name": "sample invariant",
+      "pass": true
+    },
+    {
+      "name": "sample weight 0.3 calf -0.5",
+      "pass": true
+    },
+    {
+      "name": "sample measured geometry 0.3 calf -0.5",
+      "pass": true
+    },
+    {
+      "name": "sample invariant",
+      "pass": true
+    },
+    {
+      "name": "sample weight 0.3 calf -0.25",
+      "pass": true
+    },
+    {
+      "name": "sample measured geometry 0.3 calf -0.25",
+      "pass": true
+    },
+    {
+      "name": "sample invariant",
+      "pass": true
+    },
+    {
+      "name": "sample weight 0.3 calf 0",
+      "pass": true
+    },
+    {
+      "name": "sample measured geometry 0.3 calf 0",
+      "pass": true
+    },
+    {
+      "name": "sample invariant",
+      "pass": true
+    },
+    {
+      "name": "sample weight 0.3 calf 0.25",
+      "pass": true
+    },
+    {
+      "name": "sample measured geometry 0.3 calf 0.25",
+      "pass": true
+    },
+    {
+      "name": "sample invariant",
+      "pass": true
+    },
+    {
+      "name": "sample weight 0.3 calf 0.5",
+      "pass": true
+    },
+    {
+      "name": "sample measured geometry 0.3 calf 0.5",
+      "pass": true
+    },
+    {
+      "name": "sample invariant",
+      "pass": true
+    },
+    {
+      "name": "sample weight 0.3 calf 0.75",
+      "pass": true
+    },
+    {
+      "name": "sample measured geometry 0.3 calf 0.75",
+      "pass": true
+    },
+    {
+      "name": "sample invariant",
+      "pass": true
+    },
+    {
+      "name": "sample weight 0.3 calf 1",
+      "pass": true
+    },
+    {
+      "name": "sample measured geometry 0.3 calf 1",
+      "pass": true
+    },
+    {
+      "name": "sample invariant",
+      "pass": true
+    },
+    {
+      "name": "sample weight 0.3 hip -1",
+      "pass": true
+    },
+    {
+      "name": "sample measured geometry 0.3 hip -1",
+      "pass": true
+    },
+    {
+      "name": "sample invariant",
+      "pass": true
+    },
+    {
+      "name": "sample weight 0.3 hip -0.75",
+      "pass": true
+    },
+    {
+      "name": "sample measured geometry 0.3 hip -0.75",
+      "pass": true
+    },
+    {
+      "name": "sample invariant",
+      "pass": true
+    },
+    {
+      "name": "sample weight 0.3 hip -0.5",
+      "pass": true
+    },
+    {
+      "name": "sample measured geometry 0.3 hip -0.5",
+      "pass": true
+    },
+    {
+      "name": "sample invariant",
+      "pass": true
+    },
+    {
+      "name": "sample weight 0.3 hip -0.25",
+      "pass": true
+    },
+    {
+      "name": "sample measured geometry 0.3 hip -0.25",
+      "pass": true
+    },
+    {
+      "name": "sample invariant",
+      "pass": true
+    },
+    {
+      "name": "sample weight 0.3 hip 0",
+      "pass": true
+    },
+    {
+      "name": "sample measured geometry 0.3 hip 0",
+      "pass": true
+    },
+    {
+      "name": "sample invariant",
+      "pass": true
+    },
+    {
+      "name": "sample weight 0.3 hip 0.25",
+      "pass": true
+    },
+    {
+      "name": "sample measured geometry 0.3 hip 0.25",
+      "pass": true
+    },
+    {
+      "name": "sample invariant",
+      "pass": true
+    },
+    {
+      "name": "sample weight 0.3 hip 0.5",
+      "pass": true
+    },
+    {
+      "name": "sample measured geometry 0.3 hip 0.5",
+      "pass": true
+    },
+    {
+      "name": "sample invariant",
+      "pass": true
+    },
+    {
+      "name": "sample weight 0.3 hip 0.75",
+      "pass": true
+    },
+    {
+      "name": "sample measured geometry 0.3 hip 0.75",
+      "pass": true
+    },
+    {
+      "name": "sample invariant",
+      "pass": true
+    },
+    {
+      "name": "sample weight 0.3 hip 1",
+      "pass": true
+    },
+    {
+      "name": "sample measured geometry 0.3 hip 1",
+      "pass": true
+    },
+    {
+      "name": "sample invariant",
+      "pass": true
+    },
+    {
+      "name": "edge stable A",
+      "pass": true
+    },
+    {
+      "name": "edge weights A",
+      "pass": true
+    },
+    {
+      "name": "edge stable B",
+      "pass": true
+    },
+    {
+      "name": "edge weights B",
+      "pass": true
+    },
+    {
+      "name": "edge stable C",
+      "pass": true
+    },
+    {
+      "name": "edge weights C",
+      "pass": true
+    },
+    {
+      "name": "edge stable D",
+      "pass": true
+    },
+    {
+      "name": "edge weights D",
+      "pass": true
+    },
+    {
+      "name": "edge stable E",
+      "pass": true
+    },
+    {
+      "name": "edge weights E",
+      "pass": true
+    },
+    {
+      "name": "edge stable F",
+      "pass": true
+    },
+    {
+      "name": "edge weights F",
+      "pass": true
+    },
+    {
+      "name": "BMI 180/80",
+      "pass": true
+    },
+    {
+      "name": "BMI Weight update",
+      "pass": true
+    },
+    {
+      "name": "Weight no deformation",
+      "pass": true
+    },
+    {
+      "name": "invalid Height neutral",
+      "pass": true
+    },
+    {
+      "name": "invalid form blocks next",
+      "pass": true
+    },
+    {
+      "name": "empty Height neutral/BMI empty",
+      "pass": true
+    },
+    {
+      "name": "invalid measurement neutral waist",
+      "pass": true
+    },
+    {
+      "name": "empty measurement waist",
+      "pass": true
+    },
+    {
+      "name": "invalid measurement neutral chest",
+      "pass": true
+    },
+    {
+      "name": "empty measurement chest",
+      "pass": true
+    },
+    {
+      "name": "invalid measurement neutral shoulder",
+      "pass": true
+    },
+    {
+      "name": "empty measurement shoulder",
+      "pass": true
+    },
+    {
+      "name": "invalid measurement neutral arm",
+      "pass": true
+    },
+    {
+      "name": "empty measurement arm",
+      "pass": true
+    },
+    {
+      "name": "invalid measurement neutral thigh",
+      "pass": true
+    },
+    {
+      "name": "empty measurement thigh",
+      "pass": true
+    },
+    {
+      "name": "invalid measurement neutral calf",
+      "pass": true
+    },
+    {
+      "name": "empty measurement calf",
+      "pass": true
+    },
+    {
+      "name": "invalid measurement neutral hip",
+      "pass": true
+    },
+    {
+      "name": "empty measurement hip",
+      "pass": true
+    },
+    {
+      "name": "invalid Weight still blocks form",
+      "pass": true
+    },
+    {
+      "name": "valid next to goal",
+      "pass": true
+    },
+    {
+      "name": "current/goal independent",
+      "pass": true
+    },
+    {
+      "name": "Height retained in goal/compare",
+      "pass": true
+    },
+    {
+      "name": "fitness step navigation",
+      "pass": true
+    },
+    {
+      "name": "goal selection unchanged",
+      "pass": true
+    },
+    {
+      "name": "reset geometry camera lifecycle",
+      "pass": true
+    },
+    {
+      "name": "reset 15 production channels zero",
+      "pass": true
+    },
+    {
+      "name": "reset fields neutral",
+      "pass": true
+    },
+    {
+      "name": "stress resource invariant",
+      "pass": true
+    },
+    {
+      "name": "stress resource invariant",
+      "pass": true
+    },
+    {
+      "name": "stress resource invariant",
+      "pass": true
+    },
+    {
+      "name": "stress resource invariant",
+      "pass": true
+    },
+    {
+      "name": "stress resource invariant",
+      "pass": true
+    },
+    {
+      "name": "stress resource invariant",
+      "pass": true
+    },
+    {
+      "name": "stress resource invariant",
+      "pass": true
+    },
+    {
+      "name": "stress resource invariant",
+      "pass": true
+    },
+    {
+      "name": "stress resource invariant",
+      "pass": true
+    },
+    {
+      "name": "stress resource invariant",
+      "pass": true
+    },
+    {
+      "name": "stress resource invariant",
+      "pass": true
+    },
+    {
+      "name": "stress resource invariant",
+      "pass": true
+    },
+    {
+      "name": "stress resource invariant",
+      "pass": true
+    },
+    {
+      "name": "stress resource invariant",
+      "pass": true
+    },
+    {
+      "name": "stress resource invariant",
+      "pass": true
+    },
+    {
+      "name": "stress resource invariant",
+      "pass": true
+    },
+    {
+      "name": "stress resource invariant",
+      "pass": true
+    },
+    {
+      "name": "stress resource invariant",
+      "pass": true
+    },
+    {
+      "name": "stress resource invariant",
+      "pass": true
+    },
+    {
+      "name": "stress resource invariant",
+      "pass": true
+    },
+    {
+      "name": "height 500 updates",
+      "pass": true,
+      "milliseconds": 413.3999999985099
+    },
+    {
+      "name": "stress resource invariant",
+      "pass": true
+    },
+    {
+      "name": "stress resource invariant",
+      "pass": true
+    },
+    {
+      "name": "stress resource invariant",
+      "pass": true
+    },
+    {
+      "name": "stress resource invariant",
+      "pass": true
+    },
+    {
+      "name": "stress resource invariant",
+      "pass": true
+    },
+    {
+      "name": "stress resource invariant",
+      "pass": true
+    },
+    {
+      "name": "stress resource invariant",
+      "pass": true
+    },
+    {
+      "name": "stress resource invariant",
+      "pass": true
+    },
+    {
+      "name": "stress resource invariant",
+      "pass": true
+    },
+    {
+      "name": "stress resource invariant",
+      "pass": true
+    },
+    {
+      "name": "stress resource invariant",
+      "pass": true
+    },
+    {
+      "name": "stress resource invariant",
+      "pass": true
+    },
+    {
+      "name": "stress resource invariant",
+      "pass": true
+    },
+    {
+      "name": "stress resource invariant",
+      "pass": true
+    },
+    {
+      "name": "stress resource invariant",
+      "pass": true
+    },
+    {
+      "name": "stress resource invariant",
+      "pass": true
+    },
+    {
+      "name": "stress resource invariant",
+      "pass": true
+    },
+    {
+      "name": "stress resource invariant",
+      "pass": true
+    },
+    {
+      "name": "stress resource invariant",
+      "pass": true
+    },
+    {
+      "name": "stress resource invariant",
+      "pass": true
+    },
+    {
+      "name": "measurement 500 updates",
+      "pass": true,
+      "milliseconds": 912.5
+    },
+    {
+      "name": "stress resource invariant",
+      "pass": true
+    },
+    {
+      "name": "stress resource invariant",
+      "pass": true
+    },
+    {
+      "name": "stress resource invariant",
+      "pass": true
+    },
+    {
+      "name": "stress resource invariant",
+      "pass": true
+    },
+    {
+      "name": "stress resource invariant",
+      "pass": true
+    },
+    {
+      "name": "stress resource invariant",
+      "pass": true
+    },
+    {
+      "name": "stress resource invariant",
+      "pass": true
+    },
+    {
+      "name": "stress resource invariant",
+      "pass": true
+    },
+    {
+      "name": "stress resource invariant",
+      "pass": true
+    },
+    {
+      "name": "stress resource invariant",
+      "pass": true
+    },
+    {
+      "name": "stress resource invariant",
+      "pass": true
+    },
+    {
+      "name": "stress resource invariant",
+      "pass": true
+    },
+    {
+      "name": "stress resource invariant",
+      "pass": true
+    },
+    {
+      "name": "stress resource invariant",
+      "pass": true
+    },
+    {
+      "name": "stress resource invariant",
+      "pass": true
+    },
+    {
+      "name": "stress resource invariant",
+      "pass": true
+    },
+    {
+      "name": "stress resource invariant",
+      "pass": true
+    },
+    {
+      "name": "stress resource invariant",
+      "pass": true
+    },
+    {
+      "name": "stress resource invariant",
+      "pass": true
+    },
+    {
+      "name": "stress resource invariant",
+      "pass": true
+    },
+    {
+      "name": "combined 500 updates",
+      "pass": true,
+      "milliseconds": 1048.1000000014901
+    },
+    {
+      "name": "idle RAF stops",
+      "pass": true
+    },
+    {
+      "name": "stable GPU resource allocations",
+      "pass": true
+    },
+    {
+      "name": "v4 loads once",
+      "pass": true
+    }
+  ],
+  "roundTrips": [
+    {
+      "requestedCm": 151.21778195689558,
+      "clampedCm": 151.21778195689558,
+      "influence": -0.3,
+      "measuredCm": 151.21778195689558,
+      "errorCm": 0
+    },
+    {
+      "requestedCm": 155,
+      "clampedCm": 155,
+      "influence": -0.24769440298632694,
+      "measuredCm": 155,
+      "errorCm": 0
+    },
+    {
+      "requestedCm": 160,
+      "clampedCm": 160,
+      "influence": -0.1785476795325663,
+      "measuredCm": 160,
+      "errorCm": 0
+    },
+    {
+      "requestedCm": 165,
+      "clampedCm": 165,
+      "influence": -0.10940095607880566,
+      "measuredCm": 165,
+      "errorCm": 0
+    },
+    {
+      "requestedCm": 170,
+      "clampedCm": 170,
+      "influence": -0.04025423262504502,
+      "measuredCm": 170,
+      "errorCm": 0
+    },
+    {
+      "requestedCm": 172.91078380973204,
+      "clampedCm": 172.91078380973204,
+      "influence": 0,
+      "measuredCm": 172.91078380973204,
+      "errorCm": 0
+    },
+    {
+      "requestedCm": 175,
+      "clampedCm": 175,
+      "influence": 0.028892490828715627,
+      "measuredCm": 175,
+      "errorCm": 0
+    },
+    {
+      "requestedCm": 180,
+      "clampedCm": 180,
+      "influence": 0.09803921428247628,
+      "measuredCm": 180,
+      "errorCm": 0
+    },
+    {
+      "requestedCm": 185,
+      "clampedCm": 185,
+      "influence": 0.1671859377362369,
+      "measuredCm": 185,
+      "errorCm": 0
+    },
+    {
+      "requestedCm": 190,
+      "clampedCm": 190,
+      "influence": 0.23633266118999757,
+      "measuredCm": 190,
+      "errorCm": 0
+    },
+    {
+      "requestedCm": 194.6037856625685,
+      "clampedCm": 194.6037856625685,
+      "influence": 0.3,
+      "measuredCm": 194.6037856625685,
+      "errorCm": 0
+    },
+    {
+      "requestedCm": 140,
+      "clampedCm": 151.21778195689558,
+      "influence": -0.3,
+      "measuredCm": 151.21778195689558,
+      "errorCm": 0
+    },
+    {
+      "requestedCm": 200,
+      "clampedCm": 194.6037856625685,
+      "influence": 0.3,
+      "measuredCm": 194.6037856625685,
+      "errorCm": 0
+    }
+  ],
+  "baselines": [
+    {
+      "h": -0.3,
+      "field": "waist",
+      "measuredCm": 68.80505430513168,
+      "expectedCm": 68.80505430513168,
+      "errorCm": 0
+    },
+    {
+      "h": -0.3,
+      "field": "chest",
+      "measuredCm": 85.4334782686696,
+      "expectedCm": 85.4334782686696,
+      "errorCm": 0
+    },
+    {
+      "h": -0.3,
+      "field": "shoulder",
+      "measuredCm": 34.44052259836553,
+      "expectedCm": 34.44052259836553,
+      "errorCm": 0
+    },
+    {
+      "h": -0.3,
+      "field": "arm",
+      "measuredCm": 26.680326879547007,
+      "expectedCm": 26.680326879547007,
+      "errorCm": 0
+    },
+    {
+      "h": -0.3,
+      "field": "thigh",
+      "measuredCm": 49.982556249349045,
+      "expectedCm": 49.982556249349045,
+      "errorCm": 0
+    },
+    {
+      "h": -0.3,
+      "field": "calf",
+      "measuredCm": 35.35033830747055,
+      "expectedCm": 35.35033830747055,
+      "errorCm": 0
+    },
+    {
+      "h": -0.3,
+      "field": "hip",
+      "measuredCm": 88.63506912294648,
+      "expectedCm": 88.63506912294648,
+      "errorCm": 0
+    },
+    {
+      "h": -0.2,
+      "field": "waist",
+      "measuredCm": 70.94332416012496,
+      "expectedCm": 70.94332416012496,
+      "errorCm": 0
+    },
+    {
+      "h": -0.2,
+      "field": "chest",
+      "measuredCm": 87.91718215704695,
+      "expectedCm": 87.91718215704695,
+      "errorCm": 0
+    },
+    {
+      "h": -0.2,
+      "field": "shoulder",
+      "measuredCm": 35.51452259931921,
+      "expectedCm": 35.51452259931921,
+      "errorCm": 0
+    },
+    {
+      "h": -0.2,
+      "field": "arm",
+      "measuredCm": 27.47805052410418,
+      "expectedCm": 27.47805052410418,
+      "errorCm": 0
+    },
+    {
+      "h": -0.2,
+      "field": "thigh",
+      "measuredCm": 51.42722615045325,
+      "expectedCm": 51.42722615045325,
+      "errorCm": 0
+    },
+    {
+      "h": -0.2,
+      "field": "calf",
+      "measuredCm": 36.288474112993235,
+      "expectedCm": 36.288474112993235,
+      "errorCm": 0
+    },
+    {
+      "h": -0.2,
+      "field": "hip",
+      "measuredCm": 91.42308801870686,
+      "expectedCm": 91.42308801870686,
+      "errorCm": 0
+    },
+    {
+      "h": -0.1,
+      "field": "waist",
+      "measuredCm": 73.08225814636981,
+      "expectedCm": 73.08225814636981,
+      "errorCm": 0
+    },
+    {
+      "h": -0.1,
+      "field": "chest",
+      "measuredCm": 90.40209354077255,
+      "expectedCm": 90.40209354077255,
+      "errorCm": 0
+    },
+    {
+      "h": -0.1,
+      "field": "shoulder",
+      "measuredCm": 36.58852260027288,
+      "expectedCm": 36.58852260027288,
+      "errorCm": 0
+    },
+    {
+      "h": -0.1,
+      "field": "arm",
+      "measuredCm": 28.27650055835496,
+      "expectedCm": 28.27650055835496,
+      "errorCm": 0
+    },
+    {
+      "h": -0.1,
+      "field": "thigh",
+      "measuredCm": 52.87434717719187,
+      "expectedCm": 52.87434717719187,
+      "errorCm": 0
+    },
+    {
+      "h": -0.1,
+      "field": "calf",
+      "measuredCm": 37.23306170937389,
+      "expectedCm": 37.23306170937389,
+      "errorCm": 0
+    },
+    {
+      "h": -0.1,
+      "field": "hip",
+      "measuredCm": 94.21206326746811,
+      "expectedCm": 94.21206326746811,
+      "errorCm": 0
+    },
+    {
+      "h": 0,
+      "field": "waist",
+      "measuredCm": 75.22169269657549,
+      "expectedCm": 75.22169269657549,
+      "errorCm": 0
+    },
+    {
+      "h": 0,
+      "field": "chest",
+      "measuredCm": 92.8883686746983,
+      "expectedCm": 92.8883686746983,
+      "errorCm": 0
+    },
+    {
+      "h": 0,
+      "field": "shoulder",
+      "measuredCm": 37.662522601226556,
+      "expectedCm": 37.662522601226556,
+      "errorCm": 0
+    },
+    {
+      "h": 0,
+      "field": "arm",
+      "measuredCm": 29.07581960504171,
+      "expectedCm": 29.07581960504171,
+      "errorCm": 0
+    },
+    {
+      "h": 0,
+      "field": "thigh",
+      "measuredCm": 54.32370654187157,
+      "expectedCm": 54.32370654187157,
+      "errorCm": 0
+    },
+    {
+      "h": 0,
+      "field": "calf",
+      "measuredCm": 38.183614349092764,
+      "expectedCm": 38.183614349092764,
+      "errorCm": 0
+    },
+    {
+      "h": 0,
+      "field": "hip",
+      "measuredCm": 97.00190919505901,
+      "expectedCm": 97.00190919505901,
+      "errorCm": 0
+    },
+    {
+      "h": 0.1,
+      "field": "waist",
+      "measuredCm": 77.35956613828196,
+      "expectedCm": 77.35956613828196,
+      "errorCm": 0
+    },
+    {
+      "h": 0.1,
+      "field": "chest",
+      "measuredCm": 95.3753969097425,
+      "expectedCm": 95.3753969097425,
+      "errorCm": 0
+    },
+    {
+      "h": 0.1,
+      "field": "shoulder",
+      "measuredCm": 38.73652260218023,
+      "expectedCm": 38.73652260218023,
+      "errorCm": 0
+    },
+    {
+      "h": 0.1,
+      "field": "arm",
+      "measuredCm": 29.875728636751685,
+      "expectedCm": 29.875728636751685,
+      "errorCm": 0
+    },
+    {
+      "h": 0.1,
+      "field": "thigh",
+      "measuredCm": 55.77506447622327,
+      "expectedCm": 55.77506447622327,
+      "errorCm": 0
+    },
+    {
+      "h": 0.1,
+      "field": "calf",
+      "measuredCm": 39.13969181974478,
+      "expectedCm": 39.13969181974478,
+      "errorCm": 0
+    },
+    {
+      "h": 0.1,
+      "field": "hip",
+      "measuredCm": 99.79255021111342,
+      "expectedCm": 99.79255021111342,
+      "errorCm": 0
+    },
+    {
+      "h": 0.2,
+      "field": "waist",
+      "measuredCm": 79.49610042219149,
+      "expectedCm": 79.49610042219149,
+      "errorCm": 0
+    },
+    {
+      "h": 0.2,
+      "field": "chest",
+      "measuredCm": 97.8633879901529,
+      "expectedCm": 97.8633879901529,
+      "errorCm": 0
+    },
+    {
+      "h": 0.2,
+      "field": "shoulder",
+      "measuredCm": 39.810522603133904,
+      "expectedCm": 39.810522603133904,
+      "errorCm": 0
+    },
+    {
+      "h": 0.2,
+      "field": "arm",
+      "measuredCm": 30.676301801624923,
+      "expectedCm": 30.676301801624923,
+      "errorCm": 0
+    },
+    {
+      "h": 0.2,
+      "field": "thigh",
+      "measuredCm": 57.228179248090036,
+      "expectedCm": 57.228179248090036,
+      "errorCm": 0
+    },
+    {
+      "h": 0.2,
+      "field": "calf",
+      "measuredCm": 40.10089493314154,
+      "expectedCm": 40.10089493314154,
+      "errorCm": 0
+    },
+    {
+      "h": 0.2,
+      "field": "hip",
+      "measuredCm": 102.58391934431002,
+      "expectedCm": 102.58391934431002,
+      "errorCm": 0
+    },
+    {
+      "h": 0.3,
+      "field": "waist",
+      "measuredCm": 81.63376232639092,
+      "expectedCm": 81.63376232639092,
+      "errorCm": 0
+    },
+    {
+      "h": 0.3,
+      "field": "chest",
+      "measuredCm": 100.3524813711902,
+      "expectedCm": 100.3524813711902,
+      "errorCm": 0
+    },
+    {
+      "h": 0.3,
+      "field": "shoulder",
+      "measuredCm": 40.88452260408758,
+      "expectedCm": 40.88452260408758,
+      "errorCm": 0
+    },
+    {
+      "h": 0.3,
+      "field": "arm",
+      "measuredCm": 31.477372019336887,
+      "expectedCm": 31.477372019336887,
+      "errorCm": 0
+    },
+    {
+      "h": 0.3,
+      "field": "thigh",
+      "measuredCm": 58.68309893748413,
+      "expectedCm": 58.68309893748413,
+      "errorCm": 0
+    },
+    {
+      "h": 0.3,
+      "field": "calf",
+      "measuredCm": 41.06686085417412,
+      "expectedCm": 41.06686085417412,
+      "errorCm": 0
+    },
+    {
+      "h": 0.3,
+      "field": "hip",
+      "measuredCm": 105.3759570297909,
+      "expectedCm": 105.3759570297909,
+      "errorCm": 0
+    }
+  ],
+  "samples": [
+    {
+      "h": -0.3,
+      "field": "waist",
+      "requestedCm": 58.84858779787105,
+      "equivalentCm": 65.26522618931486,
+      "expectedWeight": -1,
+      "actualWeight": -1,
+      "measuredCm": 58.88500401518878,
+      "errorCm": 0.03641621731772915
+    },
+    {
+      "h": -0.3,
+      "field": "waist",
+      "requestedCm": 61.298380908350296,
+      "equivalentCm": 67.71501929979411,
+      "expectedWeight": -0.75,
+      "actualWeight": -0.75,
+      "measuredCm": 61.31912765343639,
+      "errorCm": 0.0207467450860932
+    },
+    {
+      "h": -0.3,
+      "field": "waist",
+      "requestedCm": 63.77662526314235,
+      "equivalentCm": 70.19326365458616,
+      "expectedWeight": -0.5,
+      "actualWeight": -0.5,
+      "measuredCm": 63.786669468831704,
+      "errorCm": 0.010044205689354158
+    },
+    {
+      "h": -0.3,
+      "field": "waist",
+      "requestedCm": 66.2798167214553,
+      "equivalentCm": 72.69645511289912,
+      "expectedWeight": -0.25,
+      "actualWeight": -0.25,
+      "measuredCm": 66.28318508057598,
+      "errorCm": 0.003368359120671016
+    },
+    {
+      "h": -0.3,
+      "field": "waist",
+      "requestedCm": 68.80505430513169,
+      "equivalentCm": 75.2216926965755,
+      "expectedWeight": 0,
+      "actualWeight": 0,
+      "measuredCm": 68.80505430513168,
+      "errorCm": 1.4210854715202004e-14
+    },
+    {
+      "h": -0.3,
+      "field": "waist",
+      "requestedCm": 71.34990705232887,
+      "equivalentCm": 77.76654544377269,
+      "expectedWeight": 0.25,
+      "actualWeight": 0.25,
+      "measuredCm": 71.34928346335072,
+      "errorCm": 0.0006235889781578408
+    },
+    {
+      "h": -0.3,
+      "field": "waist",
+      "requestedCm": 73.91231559461913,
+      "equivalentCm": 80.32895398606294,
+      "expectedWeight": 0.5,
+      "actualWeight": 0.5,
+      "measuredCm": 73.91336374649279,
+      "errorCm": 0.0010481518736611406
+    },
+    {
+      "h": -0.3,
+      "field": "waist",
+      "requestedCm": 76.49051877754071,
+      "equivalentCm": 82.90715716898453,
+      "expectedWeight": 0.75,
+      "actualWeight": 0.75,
+      "measuredCm": 76.4951685833512,
+      "errorCm": 0.004649805810487351
+    },
+    {
+      "h": -0.3,
+      "field": "waist",
+      "requestedCm": 79.08299778195273,
+      "equivalentCm": 85.49963617339654,
+      "expectedWeight": 1,
+      "actualWeight": 1,
+      "measuredCm": 79.09287768901795,
+      "errorCm": 0.009879907065226234
+    },
+    {
+      "h": -0.3,
+      "field": "chest",
+      "requestedCm": 71.16887344929144,
+      "equivalentCm": 78.62376385532014,
+      "expectedWeight": -1,
+      "actualWeight": -1,
+      "measuredCm": 71.21442757640321,
+      "errorCm": 0.04555412711177098
+    },
+    {
+      "h": -0.3,
+      "field": "chest",
+      "requestedCm": 74.70204697979663,
+      "equivalentCm": 82.15693738582533,
+      "expectedWeight": -0.75,
+      "actualWeight": -0.75,
+      "measuredCm": 74.73002185783906,
+      "errorCm": 0.027974878042428486
+    },
+    {
+      "h": -0.3,
+      "field": "chest",
+      "requestedCm": 78.25889802065537,
+      "equivalentCm": 85.71378842668406,
+      "expectedWeight": -0.5,
+      "actualWeight": -0.5,
+      "measuredCm": 78.27392409710941,
+      "errorCm": 0.015026076454049075
+    },
+    {
+      "h": -0.3,
+      "field": "chest",
+      "requestedCm": 81.8367909600553,
+      "equivalentCm": 89.29168136608399,
+      "expectedWeight": -0.25,
+      "actualWeight": -0.25,
+      "measuredCm": 81.84270280944597,
+      "errorCm": 0.005911849390670909
+    },
+    {
+      "h": -0.3,
+      "field": "chest",
+      "requestedCm": 85.43347826866962,
+      "equivalentCm": 92.88836867469831,
+      "expectedWeight": 0,
+      "actualWeight": 0,
+      "measuredCm": 85.4334782686696,
+      "errorCm": 1.4210854715202004e-14
+    },
+    {
+      "h": -0.3,
+      "field": "chest",
+      "requestedCm": 89.89982607901167,
+      "equivalentCm": 97.35471648504037,
+      "expectedWeight": 0.25,
+      "actualWeight": 0.25,
+      "measuredCm": 89.87567332709891,
+      "errorCm": 0.02415275191276578
+    },
+    {
+      "h": -0.3,
+      "field": "chest",
+      "requestedCm": 94.38813642684865,
+      "equivalentCm": 101.84302683287734,
+      "expectedWeight": 0.5,
+      "actualWeight": 0.5,
+      "measuredCm": 94.35536966995161,
+      "errorCm": 0.03276675689703268
+    },
+    {
+      "h": -0.3,
+      "field": "chest",
+      "requestedCm": 98.90261787837183,
+      "equivalentCm": 106.35750828440052,
+      "expectedWeight": 0.75,
+      "actualWeight": 0.75,
+      "measuredCm": 98.86901786419376,
+      "errorCm": 0.03360001417806302
+    },
+    {
+      "h": -0.3,
+      "field": "chest",
+      "requestedCm": 103.44404626965702,
+      "equivalentCm": 110.89893667568572,
+      "expectedWeight": 1,
+      "actualWeight": 1,
+      "measuredCm": 103.41572544547486,
+      "errorCm": 0.028320824182159754
+    },
+    {
+      "h": -0.3,
+      "field": "shoulder",
+      "requestedCm": 31.7405215970075,
+      "equivalentCm": 34.96252159986852,
+      "expectedWeight": -1,
+      "actualWeight": -1,
+      "measuredCm": 31.740521597007497,
+      "errorCm": 3.552713678800501e-15
+    },
+    {
+      "h": -0.3,
+      "field": "shoulder",
+      "requestedCm": 32.41552184734701,
+      "equivalentCm": 35.63752185020803,
+      "expectedWeight": -0.75,
+      "actualWeight": -0.75,
+      "measuredCm": 32.41552184734701,
+      "errorCm": 0
+    },
+    {
+      "h": -0.3,
+      "field": "shoulder",
+      "requestedCm": 33.09052209768652,
+      "equivalentCm": 36.31252210054754,
+      "expectedWeight": -0.5,
+      "actualWeight": -0.5,
+      "measuredCm": 33.09052209768652,
+      "errorCm": 0
+    },
+    {
+      "h": -0.3,
+      "field": "shoulder",
+      "requestedCm": 33.765522348026025,
+      "equivalentCm": 36.98752235088705,
+      "expectedWeight": -0.25,
+      "actualWeight": -0.25,
+      "measuredCm": 33.765522348026025,
+      "errorCm": 0
+    },
+    {
+      "h": -0.3,
+      "field": "shoulder",
+      "requestedCm": 34.44052259836553,
+      "equivalentCm": 37.662522601226556,
+      "expectedWeight": 0,
+      "actualWeight": 0,
+      "measuredCm": 34.44052259836553,
+      "errorCm": 0
+    },
+    {
+      "h": -0.3,
+      "field": "shoulder",
+      "requestedCm": 35.68552281175016,
+      "equivalentCm": 38.907522814611184,
+      "expectedWeight": 0.25,
+      "actualWeight": 0.25,
+      "measuredCm": 35.68552281175016,
+      "errorCm": 0
+    },
+    {
+      "h": -0.3,
+      "field": "shoulder",
+      "requestedCm": 36.93052302513479,
+      "equivalentCm": 40.15252302799581,
+      "expectedWeight": 0.5,
+      "actualWeight": 0.5,
+      "measuredCm": 36.93052302513479,
+      "errorCm": 0
+    },
+    {
+      "h": -0.3,
+      "field": "shoulder",
+      "requestedCm": 38.17552323851942,
+      "equivalentCm": 41.39752324138044,
+      "expectedWeight": 0.75,
+      "actualWeight": 0.75,
+      "measuredCm": 38.17552323851942,
+      "errorCm": 0
+    },
+    {
+      "h": -0.3,
+      "field": "shoulder",
+      "requestedCm": 39.420523451904046,
+      "equivalentCm": 42.64252345476507,
+      "expectedWeight": 1,
+      "actualWeight": 1,
+      "measuredCm": 39.420523451904046,
+      "errorCm": 0
+    },
+    {
+      "h": -0.3,
+      "field": "arm",
+      "requestedCm": 16.954366399664345,
+      "equivalentCm": 19.349859125159046,
+      "expectedWeight": -1,
+      "actualWeight": -1,
+      "measuredCm": 17.00851924908964,
+      "errorCm": 0.05415284942529652
+    },
+    {
+      "h": -0.3,
+      "field": "arm",
+      "requestedCm": 19.357077757891673,
+      "equivalentCm": 21.752570483386375,
+      "expectedWeight": -0.75,
+      "actualWeight": -0.75,
+      "measuredCm": 19.388624233477643,
+      "errorCm": 0.03154647558596935
+    },
+    {
+      "h": -0.3,
+      "field": "arm",
+      "requestedCm": 21.781627382812907,
+      "equivalentCm": 24.17712010830761,
+      "expectedWeight": -0.5,
+      "actualWeight": -0.5,
+      "measuredCm": 21.797918859729137,
+      "errorCm": 0.016291476916229897
+    },
+    {
+      "h": -0.3,
+      "field": "arm",
+      "requestedCm": 24.223244998996357,
+      "equivalentCm": 26.61873772449106,
+      "expectedWeight": -0.25,
+      "actualWeight": -0.25,
+      "measuredCm": 24.228594013153508,
+      "errorCm": 0.005349014157150833
+    },
+    {
+      "h": -0.3,
+      "field": "arm",
+      "requestedCm": 26.680326879547003,
+      "equivalentCm": 29.075819605041705,
+      "expectedWeight": 0,
+      "actualWeight": 0,
+      "measuredCm": 26.680326879547007,
+      "errorCm": 3.552713678800501e-15
+    },
+    {
+      "h": -0.3,
+      "field": "arm",
+      "requestedCm": 29.1474381535186,
+      "equivalentCm": 31.5429308790133,
+      "expectedWeight": 0.25,
+      "actualWeight": 0.25,
+      "measuredCm": 29.140996948882027,
+      "errorCm": 0.006441204636573161
+    },
+    {
+      "h": -0.3,
+      "field": "arm",
+      "requestedCm": 31.60054688289319,
+      "equivalentCm": 33.99603960838789,
+      "expectedWeight": 0.5,
+      "actualWeight": 0.5,
+      "measuredCm": 31.583433202476712,
+      "errorCm": 0.01711368041647887
+    },
+    {
+      "h": -0.3,
+      "field": "arm",
+      "requestedCm": 34.03561669112303,
+      "equivalentCm": 36.43110941661773,
+      "expectedWeight": 0.75,
+      "actualWeight": 0.75,
+      "measuredCm": 34.000269480743704,
+      "errorCm": 0.035347210379327976
+    },
+    {
+      "h": -0.3,
+      "field": "arm",
+      "requestedCm": 36.45277701421701,
+      "equivalentCm": 38.84826973971171,
+      "expectedWeight": 1,
+      "actualWeight": 1,
+      "measuredCm": 36.39308897061486,
+      "errorCm": 0.05968804360215074
+    },
+    {
+      "h": -0.3,
+      "field": "thigh",
+      "requestedCm": 44.16933984601681,
+      "equivalentCm": 48.51049013853934,
+      "expectedWeight": -1,
+      "actualWeight": -1,
+      "measuredCm": 44.153096657583575,
+      "errorCm": 0.016243188433236355
+    },
+    {
+      "h": -0.3,
+      "field": "thigh",
+      "requestedCm": 45.630047147339766,
+      "equivalentCm": 49.971197439862294,
+      "expectedWeight": -0.75,
+      "actualWeight": -0.75,
+      "measuredCm": 45.620471039769924,
+      "errorCm": 0.009576107569841952
+    },
+    {
+      "h": -0.3,
+      "field": "thigh",
+      "requestedCm": 47.08542738024644,
+      "equivalentCm": 51.42657767276897,
+      "expectedWeight": -0.5,
+      "actualWeight": -0.5,
+      "measuredCm": 47.08054605301232,
+      "errorCm": 0.004881327234123489
+    },
+    {
+      "h": -0.3,
+      "field": "thigh",
+      "requestedCm": 48.53631448970468,
+      "equivalentCm": 52.87746478222721,
+      "expectedWeight": -0.25,
+      "actualWeight": -0.25,
+      "measuredCm": 48.534602807154336,
+      "errorCm": 0.0017116825503435962
+    },
+    {
+      "h": -0.3,
+      "field": "thigh",
+      "requestedCm": 49.982556249349045,
+      "equivalentCm": 54.32370654187157,
+      "expectedWeight": 0,
+      "actualWeight": 0,
+      "measuredCm": 49.982556249349045,
+      "errorCm": 0
+    },
+    {
+      "h": -0.3,
+      "field": "thigh",
+      "requestedCm": 52.18756553083129,
+      "equivalentCm": 56.52871582335382,
+      "expectedWeight": 0.25,
+      "actualWeight": 0.25,
+      "measuredCm": 52.18903181547469,
+      "errorCm": 0.0014662846433992627
+    },
+    {
+      "h": -0.3,
+      "field": "thigh",
+      "requestedCm": 54.382848200609175,
+      "equivalentCm": 58.7239984931317,
+      "expectedWeight": 0.5,
+      "actualWeight": 0.5,
+      "measuredCm": 54.38383993227202,
+      "errorCm": 0.000991731662843165
+    },
+    {
+      "h": -0.3,
+      "field": "thigh",
+      "requestedCm": 56.56806606420463,
+      "equivalentCm": 60.90921635672716,
+      "expectedWeight": 0.75,
+      "actualWeight": 0.75,
+      "measuredCm": 56.5682030970061,
+      "errorCm": 0.0001370328014687061
+    },
+    {
+      "h": -0.3,
+      "field": "thigh",
+      "requestedCm": 58.74384596340457,
+      "equivalentCm": 63.084996255927095,
+      "expectedWeight": 1,
+      "actualWeight": 1,
+      "measuredCm": 58.742728139053355,
+      "errorCm": 0.0011178243512119934
+    },
+    {
+      "h": -0.3,
+      "field": "calf",
+      "requestedCm": 25.275486789903923,
+      "equivalentCm": 28.108762831526136,
+      "expectedWeight": -1,
+      "actualWeight": -1,
+      "measuredCm": 25.19759082982098,
+      "errorCm": 0.07789596008294097
+    },
+    {
+      "h": -0.3,
+      "field": "calf",
+      "requestedCm": 27.784618784715576,
+      "equivalentCm": 30.61789482633779,
+      "expectedWeight": -0.75,
+      "actualWeight": -0.75,
+      "measuredCm": 27.71983383145748,
+      "errorCm": 0.06478495325809774
+    },
+    {
+      "h": -0.3,
+      "field": "calf",
+      "requestedCm": 30.309453024550606,
+      "equivalentCm": 33.14272906617282,
+      "expectedWeight": -0.5,
+      "actualWeight": -0.5,
+      "measuredCm": 30.264605784626138,
+      "errorCm": 0.044847239924468596
+    },
+    {
+      "h": -0.3,
+      "field": "calf",
+      "requestedCm": 32.83730319278149,
+      "equivalentCm": 35.670579234403704,
+      "expectedWeight": -0.25,
+      "actualWeight": -0.25,
+      "measuredCm": 32.81820503502367,
+      "errorCm": 0.019098157757824197
+    },
+    {
+      "h": -0.3,
+      "field": "calf",
+      "requestedCm": 35.35033830747055,
+      "equivalentCm": 38.183614349092764,
+      "expectedWeight": 0,
+      "actualWeight": 0,
+      "measuredCm": 35.35033830747055,
+      "errorCm": 0
+    },
+    {
+      "h": -0.3,
+      "field": "calf",
+      "requestedCm": 37.846662048250934,
+      "equivalentCm": 40.67993808987315,
+      "expectedWeight": 0.25,
+      "actualWeight": 0.25,
+      "measuredCm": 37.850715289254474,
+      "errorCm": 0.004053241003539654
+    },
+    {
+      "h": -0.3,
+      "field": "calf",
+      "requestedCm": 40.31445343341038,
+      "equivalentCm": 43.14772947503259,
+      "expectedWeight": 0.5,
+      "actualWeight": 0.5,
+      "measuredCm": 40.30742530362439,
+      "errorCm": 0.007028129785986437
+    },
+    {
+      "h": -0.3,
+      "field": "calf",
+      "requestedCm": 42.75515871000145,
+      "equivalentCm": 45.588434751623666,
+      "expectedWeight": 0.75,
+      "actualWeight": 0.75,
+      "measuredCm": 42.73459772985823,
+      "errorCm": 0.020560980143223162
+    },
+    {
+      "h": -0.3,
+      "field": "calf",
+      "requestedCm": 45.175475383143265,
+      "equivalentCm": 48.00875142476548,
+      "expectedWeight": 1,
+      "actualWeight": 1,
+      "measuredCm": 45.13542039837122,
+      "errorCm": 0.040054984772048385
+    },
+    {
+      "h": -0.3,
+      "field": "hip",
+      "requestedCm": 79.0404507596257,
+      "equivalentCm": 87.40729083173824,
+      "expectedWeight": -1,
+      "actualWeight": -1,
+      "measuredCm": 79.06147178745242,
+      "errorCm": 0.021021027826719774
+    },
+    {
+      "h": -0.3,
+      "field": "hip",
+      "requestedCm": 81.43764872702393,
+      "equivalentCm": 89.80448879913646,
+      "expectedWeight": -0.75,
+      "actualWeight": -0.75,
+      "measuredCm": 81.45311193611391,
+      "errorCm": 0.015463209089986663
+    },
+    {
+      "h": -0.3,
+      "field": "hip",
+      "requestedCm": 83.83585784266235,
+      "equivalentCm": 92.20269791477489,
+      "expectedWeight": -0.5,
+      "actualWeight": -0.5,
+      "measuredCm": 83.84597936735237,
+      "errorCm": 0.010121524690021033
+    },
+    {
+      "h": -0.3,
+      "field": "hip",
+      "requestedCm": 86.2350164851707,
+      "equivalentCm": 94.60185655728324,
+      "expectedWeight": -0.25,
+      "actualWeight": -0.25,
+      "measuredCm": 86.23999002357196,
+      "errorCm": 0.004973538401259248
+    },
+    {
+      "h": -0.3,
+      "field": "hip",
+      "requestedCm": 88.63506912294649,
+      "equivalentCm": 97.00190919505903,
+      "expectedWeight": 0,
+      "actualWeight": 0,
+      "measuredCm": 88.63506912294648,
+      "errorCm": 1.4210854715202004e-14
+    },
+    {
+      "h": -0.3,
+      "field": "hip",
+      "requestedCm": 93.44563691089321,
+      "equivalentCm": 101.81247698300575,
+      "expectedWeight": 0.25,
+      "actualWeight": 0.25,
+      "measuredCm": 93.43614839368122,
+      "errorCm": 0.00948851721199162
+    },
+    {
+      "h": -0.3,
+      "field": "hip",
+      "requestedCm": 98.25908055796997,
+      "equivalentCm": 106.6259206300825,
+      "expectedWeight": 0.5,
+      "actualWeight": 0.5,
+      "measuredCm": 98.24060476159244,
+      "errorCm": 0.01847579637752972
+    },
+    {
+      "h": -0.3,
+      "field": "hip",
+      "requestedCm": 103.07513261656781,
+      "equivalentCm": 111.44197268868035,
+      "expectedWeight": 0.75,
+      "actualWeight": 0.75,
+      "measuredCm": 103.04809436220741,
+      "errorCm": 0.027038254360405745
+    },
+    {
+      "h": -0.3,
+      "field": "hip",
+      "requestedCm": 107.89356550580946,
+      "equivalentCm": 116.260405577922,
+      "expectedWeight": 1,
+      "actualWeight": 1,
+      "measuredCm": 107.85832960762541,
+      "errorCm": 0.03523589818405526
+    },
+    {
+      "h": 0,
+      "field": "waist",
+      "requestedCm": 65.26522618931487,
+      "equivalentCm": 65.26522618931487,
+      "expectedWeight": -1,
+      "actualWeight": -1,
+      "measuredCm": 65.26522618931487,
+      "errorCm": 0
+    },
+    {
+      "h": 0,
+      "field": "waist",
+      "requestedCm": 67.7150192997941,
+      "equivalentCm": 67.7150192997941,
+      "expectedWeight": -0.75,
+      "actualWeight": -0.75,
+      "measuredCm": 67.71501929979411,
+      "errorCm": 1.4210854715202004e-14
+    },
+    {
+      "h": 0,
+      "field": "waist",
+      "requestedCm": 70.19326365458618,
+      "equivalentCm": 70.19326365458618,
+      "expectedWeight": -0.5,
+      "actualWeight": -0.5,
+      "measuredCm": 70.19326365458618,
+      "errorCm": 0
+    },
+    {
+      "h": 0,
+      "field": "waist",
+      "requestedCm": 72.6964551128991,
+      "equivalentCm": 72.6964551128991,
+      "expectedWeight": -0.25,
+      "actualWeight": -0.25,
+      "measuredCm": 72.69645511289912,
+      "errorCm": 1.4210854715202004e-14
+    },
+    {
+      "h": 0,
+      "field": "waist",
+      "requestedCm": 75.22169269657549,
+      "equivalentCm": 75.22169269657549,
+      "expectedWeight": 0,
+      "actualWeight": 0,
+      "measuredCm": 75.22169269657549,
+      "errorCm": 0
+    },
+    {
+      "h": 0,
+      "field": "waist",
+      "requestedCm": 77.7665454437727,
+      "equivalentCm": 77.7665454437727,
+      "expectedWeight": 0.25,
+      "actualWeight": 0.25,
+      "measuredCm": 77.7665454437727,
+      "errorCm": 0
+    },
+    {
+      "h": 0,
+      "field": "waist",
+      "requestedCm": 80.32895398606293,
+      "equivalentCm": 80.32895398606293,
+      "expectedWeight": 0.5,
+      "actualWeight": 0.5,
+      "measuredCm": 80.32895398606293,
+      "errorCm": 0
+    },
+    {
+      "h": 0,
+      "field": "waist",
+      "requestedCm": 82.90715716898454,
+      "equivalentCm": 82.90715716898454,
+      "expectedWeight": 0.75,
+      "actualWeight": 0.75,
+      "measuredCm": 82.90715716898454,
+      "errorCm": 0
+    },
+    {
+      "h": 0,
+      "field": "waist",
+      "requestedCm": 85.49963617339652,
+      "equivalentCm": 85.49963617339652,
+      "expectedWeight": 1,
+      "actualWeight": 1,
+      "measuredCm": 85.49963617339654,
+      "errorCm": 1.4210854715202004e-14
+    },
+    {
+      "h": 0,
+      "field": "chest",
+      "requestedCm": 78.62376385532015,
+      "equivalentCm": 78.62376385532015,
+      "expectedWeight": -1,
+      "actualWeight": -1,
+      "measuredCm": 78.62376385532015,
+      "errorCm": 0
+    },
+    {
+      "h": 0,
+      "field": "chest",
+      "requestedCm": 82.15693738582532,
+      "equivalentCm": 82.15693738582532,
+      "expectedWeight": -0.75,
+      "actualWeight": -0.75,
+      "measuredCm": 82.15693738582533,
+      "errorCm": 1.4210854715202004e-14
+    },
+    {
+      "h": 0,
+      "field": "chest",
+      "requestedCm": 85.71378842668405,
+      "equivalentCm": 85.71378842668405,
+      "expectedWeight": -0.5,
+      "actualWeight": -0.5,
+      "measuredCm": 85.71378842668405,
+      "errorCm": 0
+    },
+    {
+      "h": 0,
+      "field": "chest",
+      "requestedCm": 89.291681366084,
+      "equivalentCm": 89.291681366084,
+      "expectedWeight": -0.25,
+      "actualWeight": -0.25,
+      "measuredCm": 89.29168136608399,
+      "errorCm": 1.4210854715202004e-14
+    },
+    {
+      "h": 0,
+      "field": "chest",
+      "requestedCm": 92.8883686746983,
+      "equivalentCm": 92.8883686746983,
+      "expectedWeight": 0,
+      "actualWeight": 0,
+      "measuredCm": 92.8883686746983,
+      "errorCm": 0
+    },
+    {
+      "h": 0,
+      "field": "chest",
+      "requestedCm": 97.35471648504036,
+      "equivalentCm": 97.35471648504036,
+      "expectedWeight": 0.25,
+      "actualWeight": 0.25,
+      "measuredCm": 97.35471648504037,
+      "errorCm": 1.4210854715202004e-14
+    },
+    {
+      "h": 0,
+      "field": "chest",
+      "requestedCm": 101.84302683287736,
+      "equivalentCm": 101.84302683287736,
+      "expectedWeight": 0.5,
+      "actualWeight": 0.5,
+      "measuredCm": 101.84302683287734,
+      "errorCm": 1.4210854715202004e-14
+    },
+    {
+      "h": 0,
+      "field": "chest",
+      "requestedCm": 106.35750828440054,
+      "equivalentCm": 106.35750828440054,
+      "expectedWeight": 0.75,
+      "actualWeight": 0.75,
+      "measuredCm": 106.35750828440054,
+      "errorCm": 0
+    },
+    {
+      "h": 0,
+      "field": "chest",
+      "requestedCm": 110.89893667568573,
+      "equivalentCm": 110.89893667568573,
+      "expectedWeight": 1,
+      "actualWeight": 1,
+      "measuredCm": 110.89893667568572,
+      "errorCm": 1.4210854715202004e-14
+    },
+    {
+      "h": 0,
+      "field": "shoulder",
+      "requestedCm": 34.96252159986852,
+      "equivalentCm": 34.96252159986852,
+      "expectedWeight": -1,
+      "actualWeight": -1,
+      "measuredCm": 34.96252159986852,
+      "errorCm": 0
+    },
+    {
+      "h": 0,
+      "field": "shoulder",
+      "requestedCm": 35.63752185020803,
+      "equivalentCm": 35.63752185020803,
+      "expectedWeight": -0.75,
+      "actualWeight": -0.75,
+      "measuredCm": 35.63752185020803,
+      "errorCm": 0
+    },
+    {
+      "h": 0,
+      "field": "shoulder",
+      "requestedCm": 36.31252210054754,
+      "equivalentCm": 36.31252210054754,
+      "expectedWeight": -0.5,
+      "actualWeight": -0.5,
+      "measuredCm": 36.31252210054754,
+      "errorCm": 0
+    },
+    {
+      "h": 0,
+      "field": "shoulder",
+      "requestedCm": 36.98752235088705,
+      "equivalentCm": 36.98752235088705,
+      "expectedWeight": -0.25,
+      "actualWeight": -0.25,
+      "measuredCm": 36.98752235088705,
+      "errorCm": 0
+    },
+    {
+      "h": 0,
+      "field": "shoulder",
+      "requestedCm": 37.662522601226556,
+      "equivalentCm": 37.662522601226556,
+      "expectedWeight": 0,
+      "actualWeight": 0,
+      "measuredCm": 37.662522601226556,
+      "errorCm": 0
+    },
+    {
+      "h": 0,
+      "field": "shoulder",
+      "requestedCm": 38.907522814611184,
+      "equivalentCm": 38.907522814611184,
+      "expectedWeight": 0.25,
+      "actualWeight": 0.25,
+      "measuredCm": 38.907522814611184,
+      "errorCm": 0
+    },
+    {
+      "h": 0,
+      "field": "shoulder",
+      "requestedCm": 40.15252302799581,
+      "equivalentCm": 40.15252302799581,
+      "expectedWeight": 0.5,
+      "actualWeight": 0.5,
+      "measuredCm": 40.15252302799581,
+      "errorCm": 0
+    },
+    {
+      "h": 0,
+      "field": "shoulder",
+      "requestedCm": 41.39752324138044,
+      "equivalentCm": 41.39752324138044,
+      "expectedWeight": 0.75,
+      "actualWeight": 0.75,
+      "measuredCm": 41.39752324138044,
+      "errorCm": 0
+    },
+    {
+      "h": 0,
+      "field": "shoulder",
+      "requestedCm": 42.64252345476507,
+      "equivalentCm": 42.64252345476507,
+      "expectedWeight": 1,
+      "actualWeight": 1,
+      "measuredCm": 42.64252345476507,
+      "errorCm": 0
+    },
+    {
+      "h": 0,
+      "field": "arm",
+      "requestedCm": 19.34985912515905,
+      "equivalentCm": 19.34985912515905,
+      "expectedWeight": -1,
+      "actualWeight": -1,
+      "measuredCm": 19.349859125159046,
+      "errorCm": 3.552713678800501e-15
+    },
+    {
+      "h": 0,
+      "field": "arm",
+      "requestedCm": 21.75257048338637,
+      "equivalentCm": 21.75257048338637,
+      "expectedWeight": -0.75,
+      "actualWeight": -0.75,
+      "measuredCm": 21.752570483386375,
+      "errorCm": 3.552713678800501e-15
+    },
+    {
+      "h": 0,
+      "field": "arm",
+      "requestedCm": 24.177120108307605,
+      "equivalentCm": 24.177120108307605,
+      "expectedWeight": -0.5,
+      "actualWeight": -0.5,
+      "measuredCm": 24.177120108307605,
+      "errorCm": 0
+    },
+    {
+      "h": 0,
+      "field": "arm",
+      "requestedCm": 26.618737724491055,
+      "equivalentCm": 26.618737724491055,
+      "expectedWeight": -0.25,
+      "actualWeight": -0.25,
+      "measuredCm": 26.618737724491055,
+      "errorCm": 0
+    },
+    {
+      "h": 0,
+      "field": "arm",
+      "requestedCm": 29.07581960504171,
+      "equivalentCm": 29.07581960504171,
+      "expectedWeight": 0,
+      "actualWeight": 0,
+      "measuredCm": 29.07581960504171,
+      "errorCm": 0
+    },
+    {
+      "h": 0,
+      "field": "arm",
+      "requestedCm": 31.542930879013305,
+      "equivalentCm": 31.542930879013305,
+      "expectedWeight": 0.25,
+      "actualWeight": 0.25,
+      "measuredCm": 31.542930879013305,
+      "errorCm": 0
+    },
+    {
+      "h": 0,
+      "field": "arm",
+      "requestedCm": 33.99603960838789,
+      "equivalentCm": 33.99603960838789,
+      "expectedWeight": 0.5,
+      "actualWeight": 0.5,
+      "measuredCm": 33.99603960838789,
+      "errorCm": 0
+    },
+    {
+      "h": 0,
+      "field": "arm",
+      "requestedCm": 36.43110941661774,
+      "equivalentCm": 36.43110941661774,
+      "expectedWeight": 0.75,
+      "actualWeight": 0.75,
+      "measuredCm": 36.43110941661774,
+      "errorCm": 0
+    },
+    {
+      "h": 0,
+      "field": "arm",
+      "requestedCm": 38.84826973971172,
+      "equivalentCm": 38.84826973971172,
+      "expectedWeight": 1,
+      "actualWeight": 1,
+      "measuredCm": 38.84826973971172,
+      "errorCm": 0
+    },
+    {
+      "h": 0,
+      "field": "thigh",
+      "requestedCm": 48.51049013853934,
+      "equivalentCm": 48.51049013853934,
+      "expectedWeight": -1,
+      "actualWeight": -1,
+      "measuredCm": 48.51049013853934,
+      "errorCm": 0
+    },
+    {
+      "h": 0,
+      "field": "thigh",
+      "requestedCm": 49.971197439862294,
+      "equivalentCm": 49.971197439862294,
+      "expectedWeight": -0.75,
+      "actualWeight": -0.75,
+      "measuredCm": 49.971197439862294,
+      "errorCm": 0
+    },
+    {
+      "h": 0,
+      "field": "thigh",
+      "requestedCm": 51.42657767276897,
+      "equivalentCm": 51.42657767276897,
+      "expectedWeight": -0.5,
+      "actualWeight": -0.5,
+      "measuredCm": 51.42657767276897,
+      "errorCm": 0
+    },
+    {
+      "h": 0,
+      "field": "thigh",
+      "requestedCm": 52.87746478222722,
+      "equivalentCm": 52.87746478222722,
+      "expectedWeight": -0.25,
+      "actualWeight": -0.25,
+      "measuredCm": 52.877464782227214,
+      "errorCm": 7.105427357601002e-15
+    },
+    {
+      "h": 0,
+      "field": "thigh",
+      "requestedCm": 54.32370654187157,
+      "equivalentCm": 54.32370654187157,
+      "expectedWeight": 0,
+      "actualWeight": 0,
+      "measuredCm": 54.32370654187157,
+      "errorCm": 0
+    },
+    {
+      "h": 0,
+      "field": "thigh",
+      "requestedCm": 56.52871582335381,
+      "equivalentCm": 56.52871582335381,
+      "expectedWeight": 0.25,
+      "actualWeight": 0.25,
+      "measuredCm": 56.528715823353814,
+      "errorCm": 7.105427357601002e-15
+    },
+    {
+      "h": 0,
+      "field": "thigh",
+      "requestedCm": 58.7239984931317,
+      "equivalentCm": 58.7239984931317,
+      "expectedWeight": 0.5,
+      "actualWeight": 0.5,
+      "measuredCm": 58.7239984931317,
+      "errorCm": 0
+    },
+    {
+      "h": 0,
+      "field": "thigh",
+      "requestedCm": 60.90921635672716,
+      "equivalentCm": 60.90921635672716,
+      "expectedWeight": 0.75,
+      "actualWeight": 0.75,
+      "measuredCm": 60.90921635672716,
+      "errorCm": 0
+    },
+    {
+      "h": 0,
+      "field": "thigh",
+      "requestedCm": 63.084996255927095,
+      "equivalentCm": 63.084996255927095,
+      "expectedWeight": 1,
+      "actualWeight": 1,
+      "measuredCm": 63.084996255927095,
+      "errorCm": 0
+    },
+    {
+      "h": 0,
+      "field": "calf",
+      "requestedCm": 28.108762831526136,
+      "equivalentCm": 28.108762831526136,
+      "expectedWeight": -1,
+      "actualWeight": -1,
+      "measuredCm": 28.108762831526136,
+      "errorCm": 0
+    },
+    {
+      "h": 0,
+      "field": "calf",
+      "requestedCm": 30.61789482633779,
+      "equivalentCm": 30.61789482633779,
+      "expectedWeight": -0.75,
+      "actualWeight": -0.75,
+      "measuredCm": 30.61789482633779,
+      "errorCm": 0
+    },
+    {
+      "h": 0,
+      "field": "calf",
+      "requestedCm": 33.14272906617282,
+      "equivalentCm": 33.14272906617282,
+      "expectedWeight": -0.5,
+      "actualWeight": -0.5,
+      "measuredCm": 33.14272906617282,
+      "errorCm": 0
+    },
+    {
+      "h": 0,
+      "field": "calf",
+      "requestedCm": 35.670579234403704,
+      "equivalentCm": 35.670579234403704,
+      "expectedWeight": -0.25,
+      "actualWeight": -0.25,
+      "measuredCm": 35.670579234403704,
+      "errorCm": 0
+    },
+    {
+      "h": 0,
+      "field": "calf",
+      "requestedCm": 38.183614349092764,
+      "equivalentCm": 38.183614349092764,
+      "expectedWeight": 0,
+      "actualWeight": 0,
+      "measuredCm": 38.183614349092764,
+      "errorCm": 0
+    },
+    {
+      "h": 0,
+      "field": "calf",
+      "requestedCm": 40.67993808987315,
+      "equivalentCm": 40.67993808987315,
+      "expectedWeight": 0.25,
+      "actualWeight": 0.25,
+      "measuredCm": 40.67993808987315,
+      "errorCm": 0
+    },
+    {
+      "h": 0,
+      "field": "calf",
+      "requestedCm": 43.14772947503259,
+      "equivalentCm": 43.14772947503259,
+      "expectedWeight": 0.5,
+      "actualWeight": 0.5,
+      "measuredCm": 43.1477294750326,
+      "errorCm": 7.105427357601002e-15
+    },
+    {
+      "h": 0,
+      "field": "calf",
+      "requestedCm": 45.588434751623666,
+      "equivalentCm": 45.588434751623666,
+      "expectedWeight": 0.75,
+      "actualWeight": 0.75,
+      "measuredCm": 45.588434751623666,
+      "errorCm": 0
+    },
+    {
+      "h": 0,
+      "field": "calf",
+      "requestedCm": 48.00875142476548,
+      "equivalentCm": 48.00875142476548,
+      "expectedWeight": 1,
+      "actualWeight": 1,
+      "measuredCm": 48.00875142476548,
+      "errorCm": 0
+    },
+    {
+      "h": 0,
+      "field": "hip",
+      "requestedCm": 87.40729083173822,
+      "equivalentCm": 87.40729083173822,
+      "expectedWeight": -1,
+      "actualWeight": -1,
+      "measuredCm": 87.40729083173824,
+      "errorCm": 1.4210854715202004e-14
+    },
+    {
+      "h": 0,
+      "field": "hip",
+      "requestedCm": 89.80448879913648,
+      "equivalentCm": 89.80448879913648,
+      "expectedWeight": -0.75,
+      "actualWeight": -0.75,
+      "measuredCm": 89.80448879913648,
+      "errorCm": 0
+    },
+    {
+      "h": 0,
+      "field": "hip",
+      "requestedCm": 92.20269791477487,
+      "equivalentCm": 92.20269791477487,
+      "expectedWeight": -0.5,
+      "actualWeight": -0.5,
+      "measuredCm": 92.20269791477489,
+      "errorCm": 1.4210854715202004e-14
+    },
+    {
+      "h": 0,
+      "field": "hip",
+      "requestedCm": 94.60185655728326,
+      "equivalentCm": 94.60185655728326,
+      "expectedWeight": -0.25,
+      "actualWeight": -0.25,
+      "measuredCm": 94.60185655728324,
+      "errorCm": 1.4210854715202004e-14
+    },
+    {
+      "h": 0,
+      "field": "hip",
+      "requestedCm": 97.00190919505901,
+      "equivalentCm": 97.00190919505901,
+      "expectedWeight": 0,
+      "actualWeight": 0,
+      "measuredCm": 97.00190919505901,
+      "errorCm": 0
+    },
+    {
+      "h": 0,
+      "field": "hip",
+      "requestedCm": 101.81247698300574,
+      "equivalentCm": 101.81247698300574,
+      "expectedWeight": 0.25,
+      "actualWeight": 0.25,
+      "measuredCm": 101.81247698300575,
+      "errorCm": 1.4210854715202004e-14
+    },
+    {
+      "h": 0,
+      "field": "hip",
+      "requestedCm": 106.62592063008252,
+      "equivalentCm": 106.62592063008252,
+      "expectedWeight": 0.5,
+      "actualWeight": 0.5,
+      "measuredCm": 106.62592063008252,
+      "errorCm": 0
+    },
+    {
+      "h": 0,
+      "field": "hip",
+      "requestedCm": 111.44197268868037,
+      "equivalentCm": 111.44197268868037,
+      "expectedWeight": 0.75,
+      "actualWeight": 0.75,
+      "measuredCm": 111.44197268868035,
+      "errorCm": 1.4210854715202004e-14
+    },
+    {
+      "h": 0,
+      "field": "hip",
+      "requestedCm": 116.26040557792201,
+      "equivalentCm": 116.26040557792201,
+      "expectedWeight": 1,
+      "actualWeight": 1,
+      "measuredCm": 116.26040557792201,
+      "errorCm": 0
+    },
+    {
+      "h": 0.3,
+      "field": "waist",
+      "requestedCm": 71.67729581913032,
+      "equivalentCm": 65.26522618931489,
+      "expectedWeight": -1,
+      "actualWeight": -1,
+      "measuredCm": 71.63897002464802,
+      "errorCm": 0.03832579448230433
+    },
+    {
+      "h": 0.3,
+      "field": "waist",
+      "requestedCm": 74.12708892960954,
+      "equivalentCm": 67.71501929979411,
+      "expectedWeight": -0.75,
+      "actualWeight": -0.75,
+      "measuredCm": 74.10370117806629,
+      "errorCm": 0.0233877515432539
+    },
+    {
+      "h": 0.3,
+      "field": "waist",
+      "requestedCm": 76.60533328440162,
+      "equivalentCm": 70.19326365458619,
+      "expectedWeight": -0.5,
+      "actualWeight": -0.5,
+      "measuredCm": 76.59288388505469,
+      "errorCm": 0.012449399346934342
+    },
+    {
+      "h": 0.3,
+      "field": "waist",
+      "requestedCm": 79.10852474271455,
+      "equivalentCm": 72.69645511289912,
+      "expectedWeight": -0.25,
+      "actualWeight": -0.25,
+      "measuredCm": 79.10369434516585,
+      "errorCm": 0.004830397548701626
+    },
+    {
+      "h": 0.3,
+      "field": "waist",
+      "requestedCm": 81.63376232639091,
+      "equivalentCm": 75.22169269657547,
+      "expectedWeight": 0,
+      "actualWeight": 0,
+      "measuredCm": 81.63376232639092,
+      "errorCm": 1.4210854715202004e-14
+    },
+    {
+      "h": 0.3,
+      "field": "waist",
+      "requestedCm": 84.17861507358815,
+      "equivalentCm": 77.76654544377271,
+      "expectedWeight": 0.25,
+      "actualWeight": 0.25,
+      "measuredCm": 84.18107839692526,
+      "errorCm": 0.0024633233371105234
+    },
+    {
+      "h": 0.3,
+      "field": "waist",
+      "requestedCm": 86.74102361587835,
+      "equivalentCm": 80.32895398606291,
+      "expectedWeight": 0.5,
+      "actualWeight": 0.5,
+      "measuredCm": 86.74392344139598,
+      "errorCm": 0.002899825517630461
+    },
+    {
+      "h": 0.3,
+      "field": "waist",
+      "requestedCm": 89.31922679879999,
+      "equivalentCm": 82.90715716898455,
+      "expectedWeight": 0.75,
+      "actualWeight": 0.75,
+      "measuredCm": 89.32081501610166,
+      "errorCm": 0.0015882173016734669
+    },
+    {
+      "h": 0.3,
+      "field": "waist",
+      "requestedCm": 91.91170580321197,
+      "equivalentCm": 85.49963617339654,
+      "expectedWeight": 1,
+      "actualWeight": 1,
+      "measuredCm": 91.91046547473981,
+      "errorCm": 0.001240328472164265
+    },
+    {
+      "h": 0.3,
+      "field": "chest",
+      "requestedCm": 86.08787655181204,
+      "equivalentCm": 78.62376385532015,
+      "expectedWeight": -1,
+      "actualWeight": -1,
+      "measuredCm": 86.05661081012155,
+      "errorCm": 0.03126574169048979
+    },
+    {
+      "h": 0.3,
+      "field": "chest",
+      "requestedCm": 89.62105008231721,
+      "equivalentCm": 82.15693738582532,
+      "expectedWeight": -0.75,
+      "actualWeight": -0.75,
+      "measuredCm": 89.60214982771309,
+      "errorCm": 0.018900254604119482
+    },
+    {
+      "h": 0.3,
+      "field": "chest",
+      "requestedCm": 93.17790112317594,
+      "equivalentCm": 85.71378842668405,
+      "expectedWeight": -0.5,
+      "actualWeight": -0.5,
+      "measuredCm": 93.16799111331143,
+      "errorCm": 0.009910009864512404
+    },
+    {
+      "h": 0.3,
+      "field": "chest",
+      "requestedCm": 96.7557940625759,
+      "equivalentCm": 89.291681366084,
+      "expectedWeight": -0.25,
+      "actualWeight": -0.25,
+      "measuredCm": 96.75203839558732,
+      "errorCm": 0.003755666988581652
+    },
+    {
+      "h": 0.3,
+      "field": "chest",
+      "requestedCm": 100.3524813711902,
+      "equivalentCm": 92.8883686746983,
+      "expectedWeight": 0,
+      "actualWeight": 0,
+      "measuredCm": 100.3524813711902,
+      "errorCm": 0
+    },
+    {
+      "h": 0.3,
+      "field": "chest",
+      "requestedCm": 104.81882918153225,
+      "equivalentCm": 97.35471648504036,
+      "expectedWeight": 0.25,
+      "actualWeight": 0.25,
+      "measuredCm": 104.83305520559989,
+      "errorCm": 0.014226024067639287
+    },
+    {
+      "h": 0.3,
+      "field": "chest",
+      "requestedCm": 109.30713952936925,
+      "equivalentCm": 101.84302683287736,
+      "expectedWeight": 0.5,
+      "actualWeight": 0.5,
+      "measuredCm": 109.33440909421257,
+      "errorCm": 0.02726956484332277
+    },
+    {
+      "h": 0.3,
+      "field": "chest",
+      "requestedCm": 113.82162098089243,
+      "equivalentCm": 106.35750828440054,
+      "expectedWeight": 0.75,
+      "actualWeight": 0.75,
+      "measuredCm": 113.85160304261721,
+      "errorCm": 0.02998206172478035
+    },
+    {
+      "h": 0.3,
+      "field": "chest",
+      "requestedCm": 118.36304937217763,
+      "equivalentCm": 110.89893667568573,
+      "expectedWeight": 1,
+      "actualWeight": 1,
+      "measuredCm": 118.38992918799924,
+      "errorCm": 0.026879815821615693
+    },
+    {
+      "h": 0.3,
+      "field": "shoulder",
+      "requestedCm": 38.184521602729546,
+      "equivalentCm": 34.96252159986852,
+      "expectedWeight": -1,
+      "actualWeight": -1,
+      "measuredCm": 38.184521602729546,
+      "errorCm": 0
+    },
+    {
+      "h": 0.3,
+      "field": "shoulder",
+      "requestedCm": 38.859521853069054,
+      "equivalentCm": 35.63752185020803,
+      "expectedWeight": -0.75,
+      "actualWeight": -0.75,
+      "measuredCm": 38.859521853069054,
+      "errorCm": 0
+    },
+    {
+      "h": 0.3,
+      "field": "shoulder",
+      "requestedCm": 39.53452210340856,
+      "equivalentCm": 36.31252210054754,
+      "expectedWeight": -0.5,
+      "actualWeight": -0.5,
+      "measuredCm": 39.53452210340856,
+      "errorCm": 0
+    },
+    {
+      "h": 0.3,
+      "field": "shoulder",
+      "requestedCm": 40.20952235374807,
+      "equivalentCm": 36.98752235088705,
+      "expectedWeight": -0.25,
+      "actualWeight": -0.25,
+      "measuredCm": 40.20952235374807,
+      "errorCm": 0
+    },
+    {
+      "h": 0.3,
+      "field": "shoulder",
+      "requestedCm": 40.88452260408758,
+      "equivalentCm": 37.662522601226556,
+      "expectedWeight": 0,
+      "actualWeight": 0,
+      "measuredCm": 40.88452260408758,
+      "errorCm": 0
+    },
+    {
+      "h": 0.3,
+      "field": "shoulder",
+      "requestedCm": 42.12952281747221,
+      "equivalentCm": 38.907522814611184,
+      "expectedWeight": 0.25,
+      "actualWeight": 0.25,
+      "measuredCm": 42.12952281747221,
+      "errorCm": 0
+    },
+    {
+      "h": 0.3,
+      "field": "shoulder",
+      "requestedCm": 43.374523030856835,
+      "equivalentCm": 40.15252302799581,
+      "expectedWeight": 0.5,
+      "actualWeight": 0.5,
+      "measuredCm": 43.374523030856835,
+      "errorCm": 0
+    },
+    {
+      "h": 0.3,
+      "field": "shoulder",
+      "requestedCm": 44.61952324424146,
+      "equivalentCm": 41.39752324138044,
+      "expectedWeight": 0.75,
+      "actualWeight": 0.75,
+      "measuredCm": 44.61952324424146,
+      "errorCm": 0
+    },
+    {
+      "h": 0.3,
+      "field": "shoulder",
+      "requestedCm": 45.86452345762609,
+      "equivalentCm": 42.64252345476507,
+      "expectedWeight": 1,
+      "actualWeight": 1,
+      "measuredCm": 45.86452345762609,
+      "errorCm": 0
+    },
+    {
+      "h": 0.3,
+      "field": "arm",
+      "requestedCm": 21.751411539454224,
+      "equivalentCm": 19.349859125159046,
+      "expectedWeight": -1,
+      "actualWeight": -1,
+      "measuredCm": 21.709394419800315,
+      "errorCm": 0.04201711965390942
+    },
+    {
+      "h": 0.3,
+      "field": "arm",
+      "requestedCm": 24.154122897681553,
+      "equivalentCm": 21.752570483386375,
+      "expectedWeight": -0.75,
+      "actualWeight": -0.75,
+      "measuredCm": 24.127940438205176,
+      "errorCm": 0.026182459476377318
+    },
+    {
+      "h": 0.3,
+      "field": "arm",
+      "requestedCm": 26.57867252260278,
+      "equivalentCm": 24.1771201083076,
+      "expectedWeight": -0.5,
+      "actualWeight": -0.5,
+      "measuredCm": 26.564464593162434,
+      "errorCm": 0.014207929440345879
+    },
+    {
+      "h": 0.3,
+      "field": "arm",
+      "requestedCm": 29.02029013878623,
+      "equivalentCm": 26.61873772449105,
+      "expectedWeight": -0.25,
+      "actualWeight": -0.25,
+      "measuredCm": 29.01442036280923,
+      "errorCm": 0.0058697759770005575
+    },
+    {
+      "h": 0.3,
+      "field": "arm",
+      "requestedCm": 31.47737201933689,
+      "equivalentCm": 29.075819605041712,
+      "expectedWeight": 0,
+      "actualWeight": 0,
+      "measuredCm": 31.477372019336887,
+      "errorCm": 3.552713678800501e-15
+    },
+    {
+      "h": 0.3,
+      "field": "arm",
+      "requestedCm": 33.94448329330849,
+      "equivalentCm": 31.54293087901331,
+      "expectedWeight": 0.25,
+      "actualWeight": 0.25,
+      "measuredCm": 33.948891783011774,
+      "errorCm": 0.004408489703287444
+    },
+    {
+      "h": 0.3,
+      "field": "arm",
+      "requestedCm": 36.397592022683064,
+      "equivalentCm": 33.99603960838789,
+      "expectedWeight": 0.5,
+      "actualWeight": 0.5,
+      "measuredCm": 36.41008015128236,
+      "errorCm": 0.012488128599294157
+    },
+    {
+      "h": 0.3,
+      "field": "arm",
+      "requestedCm": 38.83266183091292,
+      "equivalentCm": 36.431109416617744,
+      "expectedWeight": 0.75,
+      "actualWeight": 0.75,
+      "measuredCm": 38.85623843171421,
+      "errorCm": 0.023576600801291647
+    },
+    {
+      "h": 0.3,
+      "field": "arm",
+      "requestedCm": 41.2498221540069,
+      "equivalentCm": 38.848269739711725,
+      "expectedWeight": 1,
+      "actualWeight": 1,
+      "measuredCm": 41.28822161048681,
+      "errorCm": 0.03839945647990817
+    },
+    {
+      "h": 0.3,
+      "field": "thigh",
+      "requestedCm": 52.8698825341519,
+      "equivalentCm": 48.51049013853934,
+      "expectedWeight": -1,
+      "actualWeight": -1,
+      "measuredCm": 52.88058686414103,
+      "errorCm": 0.010704329989131622
+    },
+    {
+      "h": 0.3,
+      "field": "thigh",
+      "requestedCm": 54.33058983547485,
+      "equivalentCm": 49.971197439862294,
+      "expectedWeight": -0.75,
+      "actualWeight": -0.75,
+      "measuredCm": 54.33717408311245,
+      "errorCm": 0.006584247637597684
+    },
+    {
+      "h": 0.3,
+      "field": "thigh",
+      "requestedCm": 55.78597006838153,
+      "equivalentCm": 51.42657767276897,
+      "expectedWeight": -0.5,
+      "actualWeight": -0.5,
+      "measuredCm": 55.78956556850382,
+      "errorCm": 0.003595500122287376
+    },
+    {
+      "h": 0.3,
+      "field": "thigh",
+      "requestedCm": 57.23685717783978,
+      "equivalentCm": 52.87746478222722,
+      "expectedWeight": -0.25,
+      "actualWeight": -0.25,
+      "measuredCm": 57.238127429778395,
+      "errorCm": 0.0012702519386138533
+    },
+    {
+      "h": 0.3,
+      "field": "thigh",
+      "requestedCm": 58.68309893748413,
+      "equivalentCm": 54.32370654187157,
+      "expectedWeight": 0,
+      "actualWeight": 0,
+      "measuredCm": 58.68309893748413,
+      "errorCm": 0
+    },
+    {
+      "h": 0.3,
+      "field": "thigh",
+      "requestedCm": 60.888108218966366,
+      "equivalentCm": 56.52871582335381,
+      "expectedWeight": 0.25,
+      "actualWeight": 0.25,
+      "measuredCm": 60.887559283125306,
+      "errorCm": 0.0005489358410599721
+    },
+    {
+      "h": 0.3,
+      "field": "thigh",
+      "requestedCm": 63.08339088874426,
+      "equivalentCm": 58.7239984931317,
+      "expectedWeight": 0.5,
+      "actualWeight": 0.5,
+      "measuredCm": 63.08266423367298,
+      "errorCm": 0.000726655071282778
+    },
+    {
+      "h": 0.3,
+      "field": "thigh",
+      "requestedCm": 65.26860875233972,
+      "equivalentCm": 60.90921635672716,
+      "expectedWeight": 0.75,
+      "actualWeight": 0.75,
+      "measuredCm": 65.26886820007938,
+      "errorCm": 0.00025944773966557477
+    },
+    {
+      "h": 0.3,
+      "field": "thigh",
+      "requestedCm": 67.44438865153965,
+      "equivalentCm": 63.084996255927095,
+      "expectedWeight": 1,
+      "actualWeight": 1,
+      "measuredCm": 67.44597829607997,
+      "errorCm": 0.001589644540317181
+    },
+    {
+      "h": 0.3,
+      "field": "calf",
+      "requestedCm": 30.992009336607495,
+      "equivalentCm": 28.108762831526143,
+      "expectedWeight": -1,
+      "actualWeight": -1,
+      "measuredCm": 31.04299550712189,
+      "errorCm": 0.05098617051439547
+    },
+    {
+      "h": 0.3,
+      "field": "calf",
+      "requestedCm": 33.501141331419134,
+      "equivalentCm": 30.617894826337782,
+      "expectedWeight": -0.75,
+      "actualWeight": -0.75,
+      "measuredCm": 33.54359445534492,
+      "errorCm": 0.042453123925788816
+    },
+    {
+      "h": 0.3,
+      "field": "calf",
+      "requestedCm": 36.025975571254165,
+      "equivalentCm": 33.14272906617281,
+      "expectedWeight": -0.5,
+      "actualWeight": -0.5,
+      "measuredCm": 36.05565217454768,
+      "errorCm": 0.029676603293516735
+    },
+    {
+      "h": 0.3,
+      "field": "calf",
+      "requestedCm": 38.55382573948505,
+      "equivalentCm": 35.6705792344037,
+      "expectedWeight": -0.25,
+      "actualWeight": -0.25,
+      "measuredCm": 38.565580879919885,
+      "errorCm": 0.011755140434836164
+    },
+    {
+      "h": 0.3,
+      "field": "calf",
+      "requestedCm": 41.066860854174124,
+      "equivalentCm": 38.18361434909277,
+      "expectedWeight": 0,
+      "actualWeight": 0,
+      "measuredCm": 41.06686085417412,
+      "errorCm": 7.105427357601002e-15
+    },
+    {
+      "h": 0.3,
+      "field": "calf",
+      "requestedCm": 43.56318459495451,
+      "equivalentCm": 40.679938089873154,
+      "expectedWeight": 0.25,
+      "actualWeight": 0.25,
+      "measuredCm": 43.55983728503574,
+      "errorCm": 0.0033473099187659727
+    },
+    {
+      "h": 0.3,
+      "field": "calf",
+      "requestedCm": 46.03097598011395,
+      "equivalentCm": 43.1477294750326,
+      "expectedWeight": 0.5,
+      "actualWeight": 0.5,
+      "measuredCm": 46.03497961657255,
+      "errorCm": 0.004003636458598692
+    },
+    {
+      "h": 0.3,
+      "field": "calf",
+      "requestedCm": 48.471681256705025,
+      "equivalentCm": 45.58843475162367,
+      "expectedWeight": 0.75,
+      "actualWeight": 0.75,
+      "measuredCm": 48.48558675818871,
+      "errorCm": 0.01390550148368419
+    },
+    {
+      "h": 0.3,
+      "field": "calf",
+      "requestedCm": 50.89199792984682,
+      "equivalentCm": 48.00875142476547,
+      "expectedWeight": 1,
+      "actualWeight": 1,
+      "measuredCm": 50.91971820326303,
+      "errorCm": 0.02772027341620742
+    },
+    {
+      "h": 0.3,
+      "field": "hip",
+      "requestedCm": 95.78133866647012,
+      "equivalentCm": 87.40729083173824,
+      "expectedWeight": -1,
+      "actualWeight": -1,
+      "measuredCm": 95.76459913114019,
+      "errorCm": 0.016739535329932664
+    },
+    {
+      "h": 0.3,
+      "field": "hip",
+      "requestedCm": 98.17853663386835,
+      "equivalentCm": 89.80448879913646,
+      "expectedWeight": -0.75,
+      "actualWeight": -0.75,
+      "measuredCm": 98.1662004235233,
+      "errorCm": 0.0123362103450404
+    },
+    {
+      "h": 0.3,
+      "field": "hip",
+      "requestedCm": 100.57674574950677,
+      "equivalentCm": 92.20269791477489,
+      "expectedWeight": -0.5,
+      "actualWeight": -0.5,
+      "measuredCm": 100.56865786504096,
+      "errorCm": 0.00808788446580877
+    },
+    {
+      "h": 0.3,
+      "field": "hip",
+      "requestedCm": 102.97590439201512,
+      "equivalentCm": 94.60185655728324,
+      "expectedWeight": -0.25,
+      "actualWeight": -0.25,
+      "measuredCm": 102.97192436256812,
+      "errorCm": 0.0039800294470069275
+    },
+    {
+      "h": 0.3,
+      "field": "hip",
+      "requestedCm": 105.37595702979091,
+      "equivalentCm": 97.00190919505903,
+      "expectedWeight": 0,
+      "actualWeight": 0,
+      "measuredCm": 105.3759570297909,
+      "errorCm": 1.4210854715202004e-14
+    },
+    {
+      "h": 0.3,
+      "field": "hip",
+      "requestedCm": 110.18652481773763,
+      "equivalentCm": 101.81247698300575,
+      "expectedWeight": 0.25,
+      "actualWeight": 0.25,
+      "measuredCm": 110.19415153971677,
+      "errorCm": 0.007626721979136164
+    },
+    {
+      "h": 0.3,
+      "field": "hip",
+      "requestedCm": 114.99996846481439,
+      "equivalentCm": 106.6259206300825,
+      "expectedWeight": 0.5,
+      "actualWeight": 0.5,
+      "measuredCm": 115.01484512469187,
+      "errorCm": 0.014876659877486986
+    },
+    {
+      "h": 0.3,
+      "field": "hip",
+      "requestedCm": 119.81602052341223,
+      "equivalentCm": 111.44197268868035,
+      "expectedWeight": 0.75,
+      "actualWeight": 0.75,
+      "measuredCm": 119.83782315997907,
+      "errorCm": 0.021802636566832234
+    },
+    {
+      "h": 0.3,
+      "field": "hip",
+      "requestedCm": 124.63445341265388,
+      "equivalentCm": 116.260405577922,
+      "expectedWeight": 1,
+      "actualWeight": 1,
+      "measuredCm": 124.66290040230395,
+      "errorCm": 0.02844698965006387
+    }
+  ],
+  "edges": [
+    {
+      "name": "A",
+      "h": -0.3,
+      "weights": {
+        "height": -0.3,
+        "waist": -1,
+        "chest": -1,
+        "shoulder": -1,
+        "arm": -1,
+        "thigh": -1,
+        "calf": -1,
+        "hip": -1
+      },
+      "quality": {
+        "finite": true,
+        "degenerate": 0,
+        "rotatedNormals": 0,
+        "minAreaRatio": 0.20632858632155537
+      },
+      "heightCm": 151.21778195689558
+    },
+    {
+      "name": "B",
+      "h": -0.3,
+      "weights": {
+        "height": -0.3,
+        "waist": 1,
+        "chest": 1,
+        "shoulder": 1,
+        "arm": 1,
+        "thigh": 1,
+        "calf": 1,
+        "hip": 1
+      },
+      "quality": {
+        "finite": true,
+        "degenerate": 0,
+        "rotatedNormals": 12,
+        "minAreaRatio": 0.3395773635895365
+      },
+      "heightCm": 151.21778195689558
+    },
+    {
+      "name": "C",
+      "h": 0.3,
+      "weights": {
+        "height": 0.3,
+        "waist": -1,
+        "chest": -1,
+        "shoulder": -1,
+        "arm": -1,
+        "thigh": -1,
+        "calf": -1,
+        "hip": -1
+      },
+      "quality": {
+        "finite": true,
+        "degenerate": 0,
+        "rotatedNormals": 0,
+        "minAreaRatio": 0.60890631725442
+      },
+      "heightCm": 194.6037856625685
+    },
+    {
+      "name": "D",
+      "h": 0.3,
+      "weights": {
+        "height": 0.3,
+        "waist": 1,
+        "chest": 1,
+        "shoulder": 1,
+        "arm": 1,
+        "thigh": 1,
+        "calf": 1,
+        "hip": 1
+      },
+      "quality": {
+        "finite": true,
+        "degenerate": 0,
+        "rotatedNormals": 6,
+        "minAreaRatio": 0.6001695572275553
+      },
+      "heightCm": 194.6037856625685
+    },
+    {
+      "name": "E",
+      "h": -0.3,
+      "weights": {
+        "height": -0.3,
+        "waist": -1,
+        "chest": 1,
+        "shoulder": 0,
+        "arm": 0,
+        "thigh": 0,
+        "calf": 0,
+        "hip": 1
+      },
+      "quality": {
+        "finite": true,
+        "degenerate": 0,
+        "rotatedNormals": 8,
+        "minAreaRatio": 0.28546358476096817
+      },
+      "heightCm": 151.21778195689558
+    },
+    {
+      "name": "F",
+      "h": 0.3,
+      "weights": {
+        "height": 0.3,
+        "waist": 1,
+        "chest": -1,
+        "shoulder": 0,
+        "arm": 0,
+        "thigh": 0,
+        "calf": 0,
+        "hip": -1
+      },
+      "quality": {
+        "finite": true,
+        "degenerate": 0,
+        "rotatedNormals": 0,
+        "minAreaRatio": 0.72625839063874
+      },
+      "heightCm": 194.6037856625685
+    }
+  ],
+  "stress": [
+    {
+      "phase": "height",
+      "updates": 25,
+      "memory": {
+        "geometries": 1,
+        "textures": 1
+      },
+      "heap": 59711190,
+      "ids": [
+        "72a85ed4-b13d-410f-814c-c88182029e9a",
+        "0a5d13f4-1c40-4215-aa09-1ab0263401ac",
+        "4a35ad7a-a0bf-49c1-8917-c70df2ef5857",
+        "e920e27b-8df4-4365-b835-4e5cb3b8962d"
+      ],
+      "canvas": 1,
+      "webglError": 0
+    },
+    {
+      "phase": "height",
+      "updates": 50,
+      "memory": {
+        "geometries": 1,
+        "textures": 1
+      },
+      "heap": 59711190,
+      "ids": [
+        "72a85ed4-b13d-410f-814c-c88182029e9a",
+        "0a5d13f4-1c40-4215-aa09-1ab0263401ac",
+        "4a35ad7a-a0bf-49c1-8917-c70df2ef5857",
+        "e920e27b-8df4-4365-b835-4e5cb3b8962d"
+      ],
+      "canvas": 1,
+      "webglError": 0
+    },
+    {
+      "phase": "height",
+      "updates": 75,
+      "memory": {
+        "geometries": 1,
+        "textures": 1
+      },
+      "heap": 60671109,
+      "ids": [
+        "72a85ed4-b13d-410f-814c-c88182029e9a",
+        "0a5d13f4-1c40-4215-aa09-1ab0263401ac",
+        "4a35ad7a-a0bf-49c1-8917-c70df2ef5857",
+        "e920e27b-8df4-4365-b835-4e5cb3b8962d"
+      ],
+      "canvas": 1,
+      "webglError": 0
+    },
+    {
+      "phase": "height",
+      "updates": 100,
+      "memory": {
+        "geometries": 1,
+        "textures": 1
+      },
+      "heap": 60671109,
+      "ids": [
+        "72a85ed4-b13d-410f-814c-c88182029e9a",
+        "0a5d13f4-1c40-4215-aa09-1ab0263401ac",
+        "4a35ad7a-a0bf-49c1-8917-c70df2ef5857",
+        "e920e27b-8df4-4365-b835-4e5cb3b8962d"
+      ],
+      "canvas": 1,
+      "webglError": 0
+    },
+    {
+      "phase": "height",
+      "updates": 125,
+      "memory": {
+        "geometries": 1,
+        "textures": 1
+      },
+      "heap": 60671109,
+      "ids": [
+        "72a85ed4-b13d-410f-814c-c88182029e9a",
+        "0a5d13f4-1c40-4215-aa09-1ab0263401ac",
+        "4a35ad7a-a0bf-49c1-8917-c70df2ef5857",
+        "e920e27b-8df4-4365-b835-4e5cb3b8962d"
+      ],
+      "canvas": 1,
+      "webglError": 0
+    },
+    {
+      "phase": "height",
+      "updates": 150,
+      "memory": {
+        "geometries": 1,
+        "textures": 1
+      },
+      "heap": 62100382,
+      "ids": [
+        "72a85ed4-b13d-410f-814c-c88182029e9a",
+        "0a5d13f4-1c40-4215-aa09-1ab0263401ac",
+        "4a35ad7a-a0bf-49c1-8917-c70df2ef5857",
+        "e920e27b-8df4-4365-b835-4e5cb3b8962d"
+      ],
+      "canvas": 1,
+      "webglError": 0
+    },
+    {
+      "phase": "height",
+      "updates": 175,
+      "memory": {
+        "geometries": 1,
+        "textures": 1
+      },
+      "heap": 62100382,
+      "ids": [
+        "72a85ed4-b13d-410f-814c-c88182029e9a",
+        "0a5d13f4-1c40-4215-aa09-1ab0263401ac",
+        "4a35ad7a-a0bf-49c1-8917-c70df2ef5857",
+        "e920e27b-8df4-4365-b835-4e5cb3b8962d"
+      ],
+      "canvas": 1,
+      "webglError": 0
+    },
+    {
+      "phase": "height",
+      "updates": 200,
+      "memory": {
+        "geometries": 1,
+        "textures": 1
+      },
+      "heap": 62100382,
+      "ids": [
+        "72a85ed4-b13d-410f-814c-c88182029e9a",
+        "0a5d13f4-1c40-4215-aa09-1ab0263401ac",
+        "4a35ad7a-a0bf-49c1-8917-c70df2ef5857",
+        "e920e27b-8df4-4365-b835-4e5cb3b8962d"
+      ],
+      "canvas": 1,
+      "webglError": 0
+    },
+    {
+      "phase": "height",
+      "updates": 225,
+      "memory": {
+        "geometries": 1,
+        "textures": 1
+      },
+      "heap": 63516697,
+      "ids": [
+        "72a85ed4-b13d-410f-814c-c88182029e9a",
+        "0a5d13f4-1c40-4215-aa09-1ab0263401ac",
+        "4a35ad7a-a0bf-49c1-8917-c70df2ef5857",
+        "e920e27b-8df4-4365-b835-4e5cb3b8962d"
+      ],
+      "canvas": 1,
+      "webglError": 0
+    },
+    {
+      "phase": "height",
+      "updates": 250,
+      "memory": {
+        "geometries": 1,
+        "textures": 1
+      },
+      "heap": 63516697,
+      "ids": [
+        "72a85ed4-b13d-410f-814c-c88182029e9a",
+        "0a5d13f4-1c40-4215-aa09-1ab0263401ac",
+        "4a35ad7a-a0bf-49c1-8917-c70df2ef5857",
+        "e920e27b-8df4-4365-b835-4e5cb3b8962d"
+      ],
+      "canvas": 1,
+      "webglError": 0
+    },
+    {
+      "phase": "height",
+      "updates": 275,
+      "memory": {
+        "geometries": 1,
+        "textures": 1
+      },
+      "heap": 63516697,
+      "ids": [
+        "72a85ed4-b13d-410f-814c-c88182029e9a",
+        "0a5d13f4-1c40-4215-aa09-1ab0263401ac",
+        "4a35ad7a-a0bf-49c1-8917-c70df2ef5857",
+        "e920e27b-8df4-4365-b835-4e5cb3b8962d"
+      ],
+      "canvas": 1,
+      "webglError": 0
+    },
+    {
+      "phase": "height",
+      "updates": 300,
+      "memory": {
+        "geometries": 1,
+        "textures": 1
+      },
+      "heap": 64930150,
+      "ids": [
+        "72a85ed4-b13d-410f-814c-c88182029e9a",
+        "0a5d13f4-1c40-4215-aa09-1ab0263401ac",
+        "4a35ad7a-a0bf-49c1-8917-c70df2ef5857",
+        "e920e27b-8df4-4365-b835-4e5cb3b8962d"
+      ],
+      "canvas": 1,
+      "webglError": 0
+    },
+    {
+      "phase": "height",
+      "updates": 325,
+      "memory": {
+        "geometries": 1,
+        "textures": 1
+      },
+      "heap": 64930150,
+      "ids": [
+        "72a85ed4-b13d-410f-814c-c88182029e9a",
+        "0a5d13f4-1c40-4215-aa09-1ab0263401ac",
+        "4a35ad7a-a0bf-49c1-8917-c70df2ef5857",
+        "e920e27b-8df4-4365-b835-4e5cb3b8962d"
+      ],
+      "canvas": 1,
+      "webglError": 0
+    },
+    {
+      "phase": "height",
+      "updates": 350,
+      "memory": {
+        "geometries": 1,
+        "textures": 1
+      },
+      "heap": 64930150,
+      "ids": [
+        "72a85ed4-b13d-410f-814c-c88182029e9a",
+        "0a5d13f4-1c40-4215-aa09-1ab0263401ac",
+        "4a35ad7a-a0bf-49c1-8917-c70df2ef5857",
+        "e920e27b-8df4-4365-b835-4e5cb3b8962d"
+      ],
+      "canvas": 1,
+      "webglError": 0
+    },
+    {
+      "phase": "height",
+      "updates": 375,
+      "memory": {
+        "geometries": 1,
+        "textures": 1
+      },
+      "heap": 66346154,
+      "ids": [
+        "72a85ed4-b13d-410f-814c-c88182029e9a",
+        "0a5d13f4-1c40-4215-aa09-1ab0263401ac",
+        "4a35ad7a-a0bf-49c1-8917-c70df2ef5857",
+        "e920e27b-8df4-4365-b835-4e5cb3b8962d"
+      ],
+      "canvas": 1,
+      "webglError": 0
+    },
+    {
+      "phase": "height",
+      "updates": 400,
+      "memory": {
+        "geometries": 1,
+        "textures": 1
+      },
+      "heap": 66346154,
+      "ids": [
+        "72a85ed4-b13d-410f-814c-c88182029e9a",
+        "0a5d13f4-1c40-4215-aa09-1ab0263401ac",
+        "4a35ad7a-a0bf-49c1-8917-c70df2ef5857",
+        "e920e27b-8df4-4365-b835-4e5cb3b8962d"
+      ],
+      "canvas": 1,
+      "webglError": 0
+    },
+    {
+      "phase": "height",
+      "updates": 425,
+      "memory": {
+        "geometries": 1,
+        "textures": 1
+      },
+      "heap": 66346154,
+      "ids": [
+        "72a85ed4-b13d-410f-814c-c88182029e9a",
+        "0a5d13f4-1c40-4215-aa09-1ab0263401ac",
+        "4a35ad7a-a0bf-49c1-8917-c70df2ef5857",
+        "e920e27b-8df4-4365-b835-4e5cb3b8962d"
+      ],
+      "canvas": 1,
+      "webglError": 0
+    },
+    {
+      "phase": "height",
+      "updates": 450,
+      "memory": {
+        "geometries": 1,
+        "textures": 1
+      },
+      "heap": 67758587,
+      "ids": [
+        "72a85ed4-b13d-410f-814c-c88182029e9a",
+        "0a5d13f4-1c40-4215-aa09-1ab0263401ac",
+        "4a35ad7a-a0bf-49c1-8917-c70df2ef5857",
+        "e920e27b-8df4-4365-b835-4e5cb3b8962d"
+      ],
+      "canvas": 1,
+      "webglError": 0
+    },
+    {
+      "phase": "height",
+      "updates": 475,
+      "memory": {
+        "geometries": 1,
+        "textures": 1
+      },
+      "heap": 67758587,
+      "ids": [
+        "72a85ed4-b13d-410f-814c-c88182029e9a",
+        "0a5d13f4-1c40-4215-aa09-1ab0263401ac",
+        "4a35ad7a-a0bf-49c1-8917-c70df2ef5857",
+        "e920e27b-8df4-4365-b835-4e5cb3b8962d"
+      ],
+      "canvas": 1,
+      "webglError": 0
+    },
+    {
+      "phase": "height",
+      "updates": 500,
+      "memory": {
+        "geometries": 1,
+        "textures": 1
+      },
+      "heap": 67758587,
+      "ids": [
+        "72a85ed4-b13d-410f-814c-c88182029e9a",
+        "0a5d13f4-1c40-4215-aa09-1ab0263401ac",
+        "4a35ad7a-a0bf-49c1-8917-c70df2ef5857",
+        "e920e27b-8df4-4365-b835-4e5cb3b8962d"
+      ],
+      "canvas": 1,
+      "webglError": 0
+    },
+    {
+      "phase": "measurement",
+      "updates": 25,
+      "memory": {
+        "geometries": 1,
+        "textures": 1
+      },
+      "heap": 69595263,
+      "ids": [
+        "72a85ed4-b13d-410f-814c-c88182029e9a",
+        "0a5d13f4-1c40-4215-aa09-1ab0263401ac",
+        "4a35ad7a-a0bf-49c1-8917-c70df2ef5857",
+        "e920e27b-8df4-4365-b835-4e5cb3b8962d"
+      ],
+      "canvas": 1,
+      "webglError": 0
+    },
+    {
+      "phase": "measurement",
+      "updates": 50,
+      "memory": {
+        "geometries": 1,
+        "textures": 1
+      },
+      "heap": 69595263,
+      "ids": [
+        "72a85ed4-b13d-410f-814c-c88182029e9a",
+        "0a5d13f4-1c40-4215-aa09-1ab0263401ac",
+        "4a35ad7a-a0bf-49c1-8917-c70df2ef5857",
+        "e920e27b-8df4-4365-b835-4e5cb3b8962d"
+      ],
+      "canvas": 1,
+      "webglError": 0
+    },
+    {
+      "phase": "measurement",
+      "updates": 75,
+      "memory": {
+        "geometries": 1,
+        "textures": 1
+      },
+      "heap": 71426603,
+      "ids": [
+        "72a85ed4-b13d-410f-814c-c88182029e9a",
+        "0a5d13f4-1c40-4215-aa09-1ab0263401ac",
+        "4a35ad7a-a0bf-49c1-8917-c70df2ef5857",
+        "e920e27b-8df4-4365-b835-4e5cb3b8962d"
+      ],
+      "canvas": 1,
+      "webglError": 0
+    },
+    {
+      "phase": "measurement",
+      "updates": 100,
+      "memory": {
+        "geometries": 1,
+        "textures": 1
+      },
+      "heap": 71426603,
+      "ids": [
+        "72a85ed4-b13d-410f-814c-c88182029e9a",
+        "0a5d13f4-1c40-4215-aa09-1ab0263401ac",
+        "4a35ad7a-a0bf-49c1-8917-c70df2ef5857",
+        "e920e27b-8df4-4365-b835-4e5cb3b8962d"
+      ],
+      "canvas": 1,
+      "webglError": 0
+    },
+    {
+      "phase": "measurement",
+      "updates": 125,
+      "memory": {
+        "geometries": 1,
+        "textures": 1
+      },
+      "heap": 73229755,
+      "ids": [
+        "72a85ed4-b13d-410f-814c-c88182029e9a",
+        "0a5d13f4-1c40-4215-aa09-1ab0263401ac",
+        "4a35ad7a-a0bf-49c1-8917-c70df2ef5857",
+        "e920e27b-8df4-4365-b835-4e5cb3b8962d"
+      ],
+      "canvas": 1,
+      "webglError": 0
+    },
+    {
+      "phase": "measurement",
+      "updates": 150,
+      "memory": {
+        "geometries": 1,
+        "textures": 1
+      },
+      "heap": 73229755,
+      "ids": [
+        "72a85ed4-b13d-410f-814c-c88182029e9a",
+        "0a5d13f4-1c40-4215-aa09-1ab0263401ac",
+        "4a35ad7a-a0bf-49c1-8917-c70df2ef5857",
+        "e920e27b-8df4-4365-b835-4e5cb3b8962d"
+      ],
+      "canvas": 1,
+      "webglError": 0
+    },
+    {
+      "phase": "measurement",
+      "updates": 175,
+      "memory": {
+        "geometries": 1,
+        "textures": 1
+      },
+      "heap": 50962431,
+      "ids": [
+        "72a85ed4-b13d-410f-814c-c88182029e9a",
+        "0a5d13f4-1c40-4215-aa09-1ab0263401ac",
+        "4a35ad7a-a0bf-49c1-8917-c70df2ef5857",
+        "e920e27b-8df4-4365-b835-4e5cb3b8962d"
+      ],
+      "canvas": 1,
+      "webglError": 0
+    },
+    {
+      "phase": "measurement",
+      "updates": 200,
+      "memory": {
+        "geometries": 1,
+        "textures": 1
+      },
+      "heap": 50962431,
+      "ids": [
+        "72a85ed4-b13d-410f-814c-c88182029e9a",
+        "0a5d13f4-1c40-4215-aa09-1ab0263401ac",
+        "4a35ad7a-a0bf-49c1-8917-c70df2ef5857",
+        "e920e27b-8df4-4365-b835-4e5cb3b8962d"
+      ],
+      "canvas": 1,
+      "webglError": 0
+    },
+    {
+      "phase": "measurement",
+      "updates": 225,
+      "memory": {
+        "geometries": 1,
+        "textures": 1
+      },
+      "heap": 52765255,
+      "ids": [
+        "72a85ed4-b13d-410f-814c-c88182029e9a",
+        "0a5d13f4-1c40-4215-aa09-1ab0263401ac",
+        "4a35ad7a-a0bf-49c1-8917-c70df2ef5857",
+        "e920e27b-8df4-4365-b835-4e5cb3b8962d"
+      ],
+      "canvas": 1,
+      "webglError": 0
+    },
+    {
+      "phase": "measurement",
+      "updates": 250,
+      "memory": {
+        "geometries": 1,
+        "textures": 1
+      },
+      "heap": 52765255,
+      "ids": [
+        "72a85ed4-b13d-410f-814c-c88182029e9a",
+        "0a5d13f4-1c40-4215-aa09-1ab0263401ac",
+        "4a35ad7a-a0bf-49c1-8917-c70df2ef5857",
+        "e920e27b-8df4-4365-b835-4e5cb3b8962d"
+      ],
+      "canvas": 1,
+      "webglError": 0
+    },
+    {
+      "phase": "measurement",
+      "updates": 275,
+      "memory": {
+        "geometries": 1,
+        "textures": 1
+      },
+      "heap": 54583583,
+      "ids": [
+        "72a85ed4-b13d-410f-814c-c88182029e9a",
+        "0a5d13f4-1c40-4215-aa09-1ab0263401ac",
+        "4a35ad7a-a0bf-49c1-8917-c70df2ef5857",
+        "e920e27b-8df4-4365-b835-4e5cb3b8962d"
+      ],
+      "canvas": 1,
+      "webglError": 0
+    },
+    {
+      "phase": "measurement",
+      "updates": 300,
+      "memory": {
+        "geometries": 1,
+        "textures": 1
+      },
+      "heap": 54583583,
+      "ids": [
+        "72a85ed4-b13d-410f-814c-c88182029e9a",
+        "0a5d13f4-1c40-4215-aa09-1ab0263401ac",
+        "4a35ad7a-a0bf-49c1-8917-c70df2ef5857",
+        "e920e27b-8df4-4365-b835-4e5cb3b8962d"
+      ],
+      "canvas": 1,
+      "webglError": 0
+    },
+    {
+      "phase": "measurement",
+      "updates": 325,
+      "memory": {
+        "geometries": 1,
+        "textures": 1
+      },
+      "heap": 56385259,
+      "ids": [
+        "72a85ed4-b13d-410f-814c-c88182029e9a",
+        "0a5d13f4-1c40-4215-aa09-1ab0263401ac",
+        "4a35ad7a-a0bf-49c1-8917-c70df2ef5857",
+        "e920e27b-8df4-4365-b835-4e5cb3b8962d"
+      ],
+      "canvas": 1,
+      "webglError": 0
+    },
+    {
+      "phase": "measurement",
+      "updates": 350,
+      "memory": {
+        "geometries": 1,
+        "textures": 1
+      },
+      "heap": 56385259,
+      "ids": [
+        "72a85ed4-b13d-410f-814c-c88182029e9a",
+        "0a5d13f4-1c40-4215-aa09-1ab0263401ac",
+        "4a35ad7a-a0bf-49c1-8917-c70df2ef5857",
+        "e920e27b-8df4-4365-b835-4e5cb3b8962d"
+      ],
+      "canvas": 1,
+      "webglError": 0
+    },
+    {
+      "phase": "measurement",
+      "updates": 375,
+      "memory": {
+        "geometries": 1,
+        "textures": 1
+      },
+      "heap": 58214623,
+      "ids": [
+        "72a85ed4-b13d-410f-814c-c88182029e9a",
+        "0a5d13f4-1c40-4215-aa09-1ab0263401ac",
+        "4a35ad7a-a0bf-49c1-8917-c70df2ef5857",
+        "e920e27b-8df4-4365-b835-4e5cb3b8962d"
+      ],
+      "canvas": 1,
+      "webglError": 0
+    },
+    {
+      "phase": "measurement",
+      "updates": 400,
+      "memory": {
+        "geometries": 1,
+        "textures": 1
+      },
+      "heap": 58214623,
+      "ids": [
+        "72a85ed4-b13d-410f-814c-c88182029e9a",
+        "0a5d13f4-1c40-4215-aa09-1ab0263401ac",
+        "4a35ad7a-a0bf-49c1-8917-c70df2ef5857",
+        "e920e27b-8df4-4365-b835-4e5cb3b8962d"
+      ],
+      "canvas": 1,
+      "webglError": 0
+    },
+    {
+      "phase": "measurement",
+      "updates": 425,
+      "memory": {
+        "geometries": 1,
+        "textures": 1
+      },
+      "heap": 60016419,
+      "ids": [
+        "72a85ed4-b13d-410f-814c-c88182029e9a",
+        "0a5d13f4-1c40-4215-aa09-1ab0263401ac",
+        "4a35ad7a-a0bf-49c1-8917-c70df2ef5857",
+        "e920e27b-8df4-4365-b835-4e5cb3b8962d"
+      ],
+      "canvas": 1,
+      "webglError": 0
+    },
+    {
+      "phase": "measurement",
+      "updates": 450,
+      "memory": {
+        "geometries": 1,
+        "textures": 1
+      },
+      "heap": 60016419,
+      "ids": [
+        "72a85ed4-b13d-410f-814c-c88182029e9a",
+        "0a5d13f4-1c40-4215-aa09-1ab0263401ac",
+        "4a35ad7a-a0bf-49c1-8917-c70df2ef5857",
+        "e920e27b-8df4-4365-b835-4e5cb3b8962d"
+      ],
+      "canvas": 1,
+      "webglError": 0
+    },
+    {
+      "phase": "measurement",
+      "updates": 475,
+      "memory": {
+        "geometries": 1,
+        "textures": 1
+      },
+      "heap": 61819803,
+      "ids": [
+        "72a85ed4-b13d-410f-814c-c88182029e9a",
+        "0a5d13f4-1c40-4215-aa09-1ab0263401ac",
+        "4a35ad7a-a0bf-49c1-8917-c70df2ef5857",
+        "e920e27b-8df4-4365-b835-4e5cb3b8962d"
+      ],
+      "canvas": 1,
+      "webglError": 0
+    },
+    {
+      "phase": "measurement",
+      "updates": 500,
+      "memory": {
+        "geometries": 1,
+        "textures": 1
+      },
+      "heap": 61819803,
+      "ids": [
+        "72a85ed4-b13d-410f-814c-c88182029e9a",
+        "0a5d13f4-1c40-4215-aa09-1ab0263401ac",
+        "4a35ad7a-a0bf-49c1-8917-c70df2ef5857",
+        "e920e27b-8df4-4365-b835-4e5cb3b8962d"
+      ],
+      "canvas": 1,
+      "webglError": 0
+    },
+    {
+      "phase": "combined",
+      "updates": 25,
+      "memory": {
+        "geometries": 1,
+        "textures": 1
+      },
+      "heap": 64030360,
+      "ids": [
+        "72a85ed4-b13d-410f-814c-c88182029e9a",
+        "0a5d13f4-1c40-4215-aa09-1ab0263401ac",
+        "4a35ad7a-a0bf-49c1-8917-c70df2ef5857",
+        "e920e27b-8df4-4365-b835-4e5cb3b8962d"
+      ],
+      "canvas": 1,
+      "webglError": 0
+    },
+    {
+      "phase": "combined",
+      "updates": 50,
+      "memory": {
+        "geometries": 1,
+        "textures": 1
+      },
+      "heap": 64030360,
+      "ids": [
+        "72a85ed4-b13d-410f-814c-c88182029e9a",
+        "0a5d13f4-1c40-4215-aa09-1ab0263401ac",
+        "4a35ad7a-a0bf-49c1-8917-c70df2ef5857",
+        "e920e27b-8df4-4365-b835-4e5cb3b8962d"
+      ],
+      "canvas": 1,
+      "webglError": 0
+    },
+    {
+      "phase": "combined",
+      "updates": 75,
+      "memory": {
+        "geometries": 1,
+        "textures": 1
+      },
+      "heap": 66651940,
+      "ids": [
+        "72a85ed4-b13d-410f-814c-c88182029e9a",
+        "0a5d13f4-1c40-4215-aa09-1ab0263401ac",
+        "4a35ad7a-a0bf-49c1-8917-c70df2ef5857",
+        "e920e27b-8df4-4365-b835-4e5cb3b8962d"
+      ],
+      "canvas": 1,
+      "webglError": 0
+    },
+    {
+      "phase": "combined",
+      "updates": 100,
+      "memory": {
+        "geometries": 1,
+        "textures": 1
+      },
+      "heap": 67991673,
+      "ids": [
+        "72a85ed4-b13d-410f-814c-c88182029e9a",
+        "0a5d13f4-1c40-4215-aa09-1ab0263401ac",
+        "4a35ad7a-a0bf-49c1-8917-c70df2ef5857",
+        "e920e27b-8df4-4365-b835-4e5cb3b8962d"
+      ],
+      "canvas": 1,
+      "webglError": 0
+    },
+    {
+      "phase": "combined",
+      "updates": 125,
+      "memory": {
+        "geometries": 1,
+        "textures": 1
+      },
+      "heap": 69302912,
+      "ids": [
+        "72a85ed4-b13d-410f-814c-c88182029e9a",
+        "0a5d13f4-1c40-4215-aa09-1ab0263401ac",
+        "4a35ad7a-a0bf-49c1-8917-c70df2ef5857",
+        "e920e27b-8df4-4365-b835-4e5cb3b8962d"
+      ],
+      "canvas": 1,
+      "webglError": 0
+    },
+    {
+      "phase": "combined",
+      "updates": 150,
+      "memory": {
+        "geometries": 1,
+        "textures": 1
+      },
+      "heap": 70613794,
+      "ids": [
+        "72a85ed4-b13d-410f-814c-c88182029e9a",
+        "0a5d13f4-1c40-4215-aa09-1ab0263401ac",
+        "4a35ad7a-a0bf-49c1-8917-c70df2ef5857",
+        "e920e27b-8df4-4365-b835-4e5cb3b8962d"
+      ],
+      "canvas": 1,
+      "webglError": 0
+    },
+    {
+      "phase": "combined",
+      "updates": 175,
+      "memory": {
+        "geometries": 1,
+        "textures": 1
+      },
+      "heap": 71931689,
+      "ids": [
+        "72a85ed4-b13d-410f-814c-c88182029e9a",
+        "0a5d13f4-1c40-4215-aa09-1ab0263401ac",
+        "4a35ad7a-a0bf-49c1-8917-c70df2ef5857",
+        "e920e27b-8df4-4365-b835-4e5cb3b8962d"
+      ],
+      "canvas": 1,
+      "webglError": 0
+    },
+    {
+      "phase": "combined",
+      "updates": 200,
+      "memory": {
+        "geometries": 1,
+        "textures": 1
+      },
+      "heap": 73242810,
+      "ids": [
+        "72a85ed4-b13d-410f-814c-c88182029e9a",
+        "0a5d13f4-1c40-4215-aa09-1ab0263401ac",
+        "4a35ad7a-a0bf-49c1-8917-c70df2ef5857",
+        "e920e27b-8df4-4365-b835-4e5cb3b8962d"
+      ],
+      "canvas": 1,
+      "webglError": 0
+    },
+    {
+      "phase": "combined",
+      "updates": 225,
+      "memory": {
+        "geometries": 1,
+        "textures": 1
+      },
+      "heap": 50080600,
+      "ids": [
+        "72a85ed4-b13d-410f-814c-c88182029e9a",
+        "0a5d13f4-1c40-4215-aa09-1ab0263401ac",
+        "4a35ad7a-a0bf-49c1-8917-c70df2ef5857",
+        "e920e27b-8df4-4365-b835-4e5cb3b8962d"
+      ],
+      "canvas": 1,
+      "webglError": 0
+    },
+    {
+      "phase": "combined",
+      "updates": 250,
+      "memory": {
+        "geometries": 1,
+        "textures": 1
+      },
+      "heap": 51391963,
+      "ids": [
+        "72a85ed4-b13d-410f-814c-c88182029e9a",
+        "0a5d13f4-1c40-4215-aa09-1ab0263401ac",
+        "4a35ad7a-a0bf-49c1-8917-c70df2ef5857",
+        "e920e27b-8df4-4365-b835-4e5cb3b8962d"
+      ],
+      "canvas": 1,
+      "webglError": 0
+    },
+    {
+      "phase": "combined",
+      "updates": 275,
+      "memory": {
+        "geometries": 1,
+        "textures": 1
+      },
+      "heap": 52703762,
+      "ids": [
+        "72a85ed4-b13d-410f-814c-c88182029e9a",
+        "0a5d13f4-1c40-4215-aa09-1ab0263401ac",
+        "4a35ad7a-a0bf-49c1-8917-c70df2ef5857",
+        "e920e27b-8df4-4365-b835-4e5cb3b8962d"
+      ],
+      "canvas": 1,
+      "webglError": 0
+    },
+    {
+      "phase": "combined",
+      "updates": 300,
+      "memory": {
+        "geometries": 1,
+        "textures": 1
+      },
+      "heap": 52703762,
+      "ids": [
+        "72a85ed4-b13d-410f-814c-c88182029e9a",
+        "0a5d13f4-1c40-4215-aa09-1ab0263401ac",
+        "4a35ad7a-a0bf-49c1-8917-c70df2ef5857",
+        "e920e27b-8df4-4365-b835-4e5cb3b8962d"
+      ],
+      "canvas": 1,
+      "webglError": 0
+    },
+    {
+      "phase": "combined",
+      "updates": 325,
+      "memory": {
+        "geometries": 1,
+        "textures": 1
+      },
+      "heap": 55324090,
+      "ids": [
+        "72a85ed4-b13d-410f-814c-c88182029e9a",
+        "0a5d13f4-1c40-4215-aa09-1ab0263401ac",
+        "4a35ad7a-a0bf-49c1-8917-c70df2ef5857",
+        "e920e27b-8df4-4365-b835-4e5cb3b8962d"
+      ],
+      "canvas": 1,
+      "webglError": 0
+    },
+    {
+      "phase": "combined",
+      "updates": 350,
+      "memory": {
+        "geometries": 1,
+        "textures": 1
+      },
+      "heap": 56621398,
+      "ids": [
+        "72a85ed4-b13d-410f-814c-c88182029e9a",
+        "0a5d13f4-1c40-4215-aa09-1ab0263401ac",
+        "4a35ad7a-a0bf-49c1-8917-c70df2ef5857",
+        "e920e27b-8df4-4365-b835-4e5cb3b8962d"
+      ],
+      "canvas": 1,
+      "webglError": 0
+    },
+    {
+      "phase": "combined",
+      "updates": 375,
+      "memory": {
+        "geometries": 1,
+        "textures": 1
+      },
+      "heap": 57867368,
+      "ids": [
+        "72a85ed4-b13d-410f-814c-c88182029e9a",
+        "0a5d13f4-1c40-4215-aa09-1ab0263401ac",
+        "4a35ad7a-a0bf-49c1-8917-c70df2ef5857",
+        "e920e27b-8df4-4365-b835-4e5cb3b8962d"
+      ],
+      "canvas": 1,
+      "webglError": 0
+    },
+    {
+      "phase": "combined",
+      "updates": 400,
+      "memory": {
+        "geometries": 1,
+        "textures": 1
+      },
+      "heap": 59109201,
+      "ids": [
+        "72a85ed4-b13d-410f-814c-c88182029e9a",
+        "0a5d13f4-1c40-4215-aa09-1ab0263401ac",
+        "4a35ad7a-a0bf-49c1-8917-c70df2ef5857",
+        "e920e27b-8df4-4365-b835-4e5cb3b8962d"
+      ],
+      "canvas": 1,
+      "webglError": 0
+    },
+    {
+      "phase": "combined",
+      "updates": 425,
+      "memory": {
+        "geometries": 1,
+        "textures": 1
+      },
+      "heap": 59109201,
+      "ids": [
+        "72a85ed4-b13d-410f-814c-c88182029e9a",
+        "0a5d13f4-1c40-4215-aa09-1ab0263401ac",
+        "4a35ad7a-a0bf-49c1-8917-c70df2ef5857",
+        "e920e27b-8df4-4365-b835-4e5cb3b8962d"
+      ],
+      "canvas": 1,
+      "webglError": 0
+    },
+    {
+      "phase": "combined",
+      "updates": 450,
+      "memory": {
+        "geometries": 1,
+        "textures": 1
+      },
+      "heap": 61594762,
+      "ids": [
+        "72a85ed4-b13d-410f-814c-c88182029e9a",
+        "0a5d13f4-1c40-4215-aa09-1ab0263401ac",
+        "4a35ad7a-a0bf-49c1-8917-c70df2ef5857",
+        "e920e27b-8df4-4365-b835-4e5cb3b8962d"
+      ],
+      "canvas": 1,
+      "webglError": 0
+    },
+    {
+      "phase": "combined",
+      "updates": 475,
+      "memory": {
+        "geometries": 1,
+        "textures": 1
+      },
+      "heap": 62836412,
+      "ids": [
+        "72a85ed4-b13d-410f-814c-c88182029e9a",
+        "0a5d13f4-1c40-4215-aa09-1ab0263401ac",
+        "4a35ad7a-a0bf-49c1-8917-c70df2ef5857",
+        "e920e27b-8df4-4365-b835-4e5cb3b8962d"
+      ],
+      "canvas": 1,
+      "webglError": 0
+    },
+    {
+      "phase": "combined",
+      "updates": 500,
+      "memory": {
+        "geometries": 1,
+        "textures": 1
+      },
+      "heap": 62836412,
+      "ids": [
+        "72a85ed4-b13d-410f-814c-c88182029e9a",
+        "0a5d13f4-1c40-4215-aa09-1ab0263401ac",
+        "4a35ad7a-a0bf-49c1-8917-c70df2ef5857",
+        "e920e27b-8df4-4365-b835-4e5cb3b8962d"
+      ],
+      "canvas": 1,
+      "webglError": 0
+    }
+  ],
+  "initial": {
+    "state": {
+      "currentBody": {
+        "gender": "neutral",
+        "height": 165,
+        "weight": 60,
+        "chest": 88,
+        "waist": 72,
+        "hip": 92,
+        "inseam": 76,
+        "shoulder": 38,
+        "arm": 28,
+        "thigh": 52,
+        "calf": null
+      },
+      "goalBody": null,
+      "mode": "current",
+      "step": 0,
+      "selectedGoal": null
+    },
+    "inputs": {
+      "height": {
+        "raw": "165",
+        "invalid": false
+      },
+      "weight": {
+        "raw": "60",
+        "invalid": false
+      },
+      "chest": {
+        "raw": "88",
+        "invalid": false
+      },
+      "waist": {
+        "raw": "72",
+        "invalid": false
+      },
+      "hip": {
+        "raw": "92",
+        "invalid": false
+      },
+      "inseam": {
+        "raw": "76",
+        "invalid": false
+      },
+      "shoulder": {
+        "raw": "38",
+        "invalid": false
+      },
+      "arm": {
+        "raw": "28",
+        "invalid": false
+      },
+      "thigh": {
+        "raw": "52",
+        "invalid": false
+      },
+      "calf": {
+        "raw": "",
+        "invalid": false
+      }
+    },
+    "viewer": {
+      "threeRevision": "180",
+      "modelId": "72a85ed4-b13d-410f-814c-c88182029e9a",
+      "geometryIds": [
+        "e920e27b-8df4-4365-b835-4e5cb3b8962d"
+      ],
+      "rendererCanvasCount": 1,
+      "meshes": [
+        {
+          "name": "Human_export_copy_v4",
+          "dictionary": {
+            "$md-$as-$ma-$yn": 0,
+            "$md-$ca-$ma-$yn": 1,
+            "$md-$af-$ma-$yn": 2,
+            "$md-universal-$ma-$yn-$av$mu-$av$wg": 3,
+            "measure-waist-circ-incr": 4,
+            "measure-waist-circ-decr": 5,
+            "measure-bust-circ-incr": 6,
+            "measure-bust-circ-decr": 7,
+            "measure-shoulder-dist-incr": 8,
+            "measure-shoulder-dist-decr": 9,
+            "measure-upperarm-circ-incr": 10,
+            "measure-upperarm-circ-decr": 11,
+            "measure-thigh-circ-incr": 12,
+            "measure-thigh-circ-decr": 13,
+            "measure-calf-circ-incr": 14,
+            "measure-calf-circ-decr": 15,
+            "measure-hips-circ-incr": 16,
+            "measure-hips-circ-decr": 17,
+            "$md-$ma-$yn-$av$mu-$av$wg-max$hg": 18
+          },
+          "initial": [
+            0.3267660140991211,
+            0.3267660140991211,
+            0.3267660140991211,
+            0.9901999831199646,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "influences": [
+            0.3267660140991211,
+            0.3267660140991211,
+            0.3267660140991211,
+            0.9901999831199646,
+            0,
+            0.08723586700788957,
+            0,
+            0.15072579643740708,
+            0.3037034957591396,
+            0,
+            0,
+            0.020493953429236073,
+            0,
+            0.12761507341268652,
+            0,
+            0,
+            0,
+            0.203105077449435,
+            -0.10940095607880566
+          ],
+          "scale": [
+            1,
+            1,
+            1
+          ],
+          "phenotypePreserved": true
+        }
+      ],
+      "currentWeights": {
+        "height": -0.10940095607880566,
+        "waist": -0.08723586700788957,
+        "chest": -0.15072579643740708,
+        "shoulder": 0.3037034957591396,
+        "arm": -0.020493953429236073,
+        "thigh": -0.12761507341268652,
+        "calf": 0,
+        "hip": -0.203105077449435
+      },
+      "goalWeights": {
+        "height": -0.10940095607880566,
+        "waist": -0.08723586700788957,
+        "chest": -0.15072579643740708,
+        "shoulder": 0.3037034957591396,
+        "arm": -0.020493953429236073,
+        "thigh": -0.12761507341268652,
+        "calf": 0,
+        "hip": -0.203105077449435
+      },
+      "mappingDebug": {
+        "current": {
+          "waist": {
+            "input": 74.34052753652382,
+            "base": 75.22169269657549,
+            "min": 65.26522618931487,
+            "max": 85.49963617339654,
+            "valid": true,
+            "branch": "decrease",
+            "signedWeight": -0.08723586700788957,
+            "weight": 0.08723586700788957,
+            "increase": 0,
+            "decrease": 0.08723586700788957,
+            "clamped": false,
+            "clampDirection": null,
+            "effectiveCm": 74.34052753652382,
+            "segment": [
+              {
+                "cm": 72.69645511289912,
+                "weight": -0.25
+              },
+              {
+                "cm": 75.22169269657549,
+                "weight": 0
+              }
+            ],
+            "requestedCm": 72,
+            "heightAdjustedBaseline": 72.88116516005167,
+            "equivalentBaseHeightMeasurement": 74.34052753652382
+          },
+          "chest": {
+            "input": 90.71991443818948,
+            "base": 92.8883686746983,
+            "min": 78.62376385532015,
+            "max": 110.89893667568572,
+            "valid": true,
+            "branch": "decrease",
+            "signedWeight": -0.15072579643740708,
+            "weight": 0.15072579643740708,
+            "increase": 0,
+            "decrease": 0.15072579643740708,
+            "clamped": false,
+            "clampDirection": null,
+            "effectiveCm": 90.71991443818948,
+            "segment": [
+              {
+                "cm": 89.29168136608399,
+                "weight": -0.25
+              },
+              {
+                "cm": 92.8883686746983,
+                "weight": 0
+              }
+            ],
+            "requestedCm": 88,
+            "heightAdjustedBaseline": 90.16845423650882,
+            "equivalentBaseHeightMeasurement": 90.71991443818948
+          },
+          "shoulder": {
+            "input": 39.1749662693297,
+            "base": 37.662522601226556,
+            "min": 34.96252159986852,
+            "max": 42.64252345476507,
+            "valid": true,
+            "branch": "increase",
+            "signedWeight": 0.3037034957591396,
+            "weight": 0.3037034957591396,
+            "increase": 0.3037034957591396,
+            "decrease": 0,
+            "clamped": false,
+            "clampDirection": null,
+            "effectiveCm": 39.1749662693297,
+            "segment": [
+              {
+                "cm": 38.907522814611184,
+                "weight": 0.25
+              },
+              {
+                "cm": 40.15252302799581,
+                "weight": 0.5
+              }
+            ],
+            "requestedCm": 38,
+            "heightAdjustedBaseline": 36.487556331896855,
+            "equivalentBaseHeightMeasurement": 39.1749662693297
+          },
+          "arm": {
+            "input": 28.87439831851441,
+            "base": 29.07581960504171,
+            "min": 19.349859125159046,
+            "max": 38.84826973971172,
+            "valid": true,
+            "branch": "decrease",
+            "signedWeight": -0.020493953429236073,
+            "weight": 0.020493953429236073,
+            "increase": 0,
+            "decrease": 0.020493953429236073,
+            "clamped": false,
+            "clampDirection": null,
+            "effectiveCm": 28.87439831851441,
+            "segment": [
+              {
+                "cm": 26.618737724491055,
+                "weight": -0.25
+              },
+              {
+                "cm": 29.07581960504171,
+                "weight": 0
+              }
+            ],
+            "requestedCm": 28,
+            "heightAdjustedBaseline": 28.2014212865273,
+            "equivalentBaseHeightMeasurement": 28.87439831851441
+          },
+          "thigh": {
+            "input": 53.58545754855354,
+            "base": 54.32370654187157,
+            "min": 48.51049013853934,
+            "max": 63.084996255927095,
+            "valid": true,
+            "branch": "decrease",
+            "signedWeight": -0.12761507341268652,
+            "weight": 0.12761507341268652,
+            "increase": 0,
+            "decrease": 0.12761507341268652,
+            "clamped": false,
+            "clampDirection": null,
+            "effectiveCm": 53.58545754855354,
+            "segment": [
+              {
+                "cm": 52.877464782227214,
+                "weight": -0.25
+              },
+              {
+                "cm": 54.32370654187157,
+                "weight": 0
+              }
+            ],
+            "requestedCm": 52,
+            "heightAdjustedBaseline": 52.73824899331803,
+            "equivalentBaseHeightMeasurement": 53.58545754855354
+          },
+          "calf": {
+            "input": null,
+            "base": 38.183614349092764,
+            "min": 28.108762831526136,
+            "max": 48.00875142476548,
+            "valid": false,
+            "branch": "empty",
+            "signedWeight": 0,
+            "weight": 0,
+            "increase": 0,
+            "decrease": 0,
+            "clamped": false,
+            "clampDirection": null,
+            "effectiveCm": null,
+            "segment": null,
+            "requestedCm": null,
+            "heightAdjustedBaseline": 37.14411575014289,
+            "equivalentBaseHeightMeasurement": null
+          },
+          "hip": {
+            "input": 95.05205768754634,
+            "base": 97.00190919505901,
+            "min": 87.40729083173824,
+            "max": 116.26040557792201,
+            "valid": true,
+            "branch": "decrease",
+            "signedWeight": -0.203105077449435,
+            "weight": 0.203105077449435,
+            "increase": 0,
+            "decrease": 0.203105077449435,
+            "clamped": false,
+            "clampDirection": null,
+            "effectiveCm": 95.05205768754634,
+            "segment": [
+              {
+                "cm": 94.60185655728324,
+                "weight": -0.25
+              },
+              {
+                "cm": 97.00190919505901,
+                "weight": 0
+              }
+            ],
+            "requestedCm": 92,
+            "heightAdjustedBaseline": 93.94985150751268,
+            "equivalentBaseHeightMeasurement": 95.05205768754634
+          }
+        },
+        "goal": {
+          "waist": {
+            "input": 74.34052753652382,
+            "base": 75.22169269657549,
+            "min": 65.26522618931487,
+            "max": 85.49963617339654,
+            "valid": true,
+            "branch": "decrease",
+            "signedWeight": -0.08723586700788957,
+            "weight": 0.08723586700788957,
+            "increase": 0,
+            "decrease": 0.08723586700788957,
+            "clamped": false,
+            "clampDirection": null,
+            "effectiveCm": 74.34052753652382,
+            "segment": [
+              {
+                "cm": 72.69645511289912,
+                "weight": -0.25
+              },
+              {
+                "cm": 75.22169269657549,
+                "weight": 0
+              }
+            ],
+            "requestedCm": 72,
+            "heightAdjustedBaseline": 72.88116516005167,
+            "equivalentBaseHeightMeasurement": 74.34052753652382
+          },
+          "chest": {
+            "input": 90.71991443818948,
+            "base": 92.8883686746983,
+            "min": 78.62376385532015,
+            "max": 110.89893667568572,
+            "valid": true,
+            "branch": "decrease",
+            "signedWeight": -0.15072579643740708,
+            "weight": 0.15072579643740708,
+            "increase": 0,
+            "decrease": 0.15072579643740708,
+            "clamped": false,
+            "clampDirection": null,
+            "effectiveCm": 90.71991443818948,
+            "segment": [
+              {
+                "cm": 89.29168136608399,
+                "weight": -0.25
+              },
+              {
+                "cm": 92.8883686746983,
+                "weight": 0
+              }
+            ],
+            "requestedCm": 88,
+            "heightAdjustedBaseline": 90.16845423650882,
+            "equivalentBaseHeightMeasurement": 90.71991443818948
+          },
+          "shoulder": {
+            "input": 39.1749662693297,
+            "base": 37.662522601226556,
+            "min": 34.96252159986852,
+            "max": 42.64252345476507,
+            "valid": true,
+            "branch": "increase",
+            "signedWeight": 0.3037034957591396,
+            "weight": 0.3037034957591396,
+            "increase": 0.3037034957591396,
+            "decrease": 0,
+            "clamped": false,
+            "clampDirection": null,
+            "effectiveCm": 39.1749662693297,
+            "segment": [
+              {
+                "cm": 38.907522814611184,
+                "weight": 0.25
+              },
+              {
+                "cm": 40.15252302799581,
+                "weight": 0.5
+              }
+            ],
+            "requestedCm": 38,
+            "heightAdjustedBaseline": 36.487556331896855,
+            "equivalentBaseHeightMeasurement": 39.1749662693297
+          },
+          "arm": {
+            "input": 28.87439831851441,
+            "base": 29.07581960504171,
+            "min": 19.349859125159046,
+            "max": 38.84826973971172,
+            "valid": true,
+            "branch": "decrease",
+            "signedWeight": -0.020493953429236073,
+            "weight": 0.020493953429236073,
+            "increase": 0,
+            "decrease": 0.020493953429236073,
+            "clamped": false,
+            "clampDirection": null,
+            "effectiveCm": 28.87439831851441,
+            "segment": [
+              {
+                "cm": 26.618737724491055,
+                "weight": -0.25
+              },
+              {
+                "cm": 29.07581960504171,
+                "weight": 0
+              }
+            ],
+            "requestedCm": 28,
+            "heightAdjustedBaseline": 28.2014212865273,
+            "equivalentBaseHeightMeasurement": 28.87439831851441
+          },
+          "thigh": {
+            "input": 53.58545754855354,
+            "base": 54.32370654187157,
+            "min": 48.51049013853934,
+            "max": 63.084996255927095,
+            "valid": true,
+            "branch": "decrease",
+            "signedWeight": -0.12761507341268652,
+            "weight": 0.12761507341268652,
+            "increase": 0,
+            "decrease": 0.12761507341268652,
+            "clamped": false,
+            "clampDirection": null,
+            "effectiveCm": 53.58545754855354,
+            "segment": [
+              {
+                "cm": 52.877464782227214,
+                "weight": -0.25
+              },
+              {
+                "cm": 54.32370654187157,
+                "weight": 0
+              }
+            ],
+            "requestedCm": 52,
+            "heightAdjustedBaseline": 52.73824899331803,
+            "equivalentBaseHeightMeasurement": 53.58545754855354
+          },
+          "calf": {
+            "input": null,
+            "base": 38.183614349092764,
+            "min": 28.108762831526136,
+            "max": 48.00875142476548,
+            "valid": false,
+            "branch": "empty",
+            "signedWeight": 0,
+            "weight": 0,
+            "increase": 0,
+            "decrease": 0,
+            "clamped": false,
+            "clampDirection": null,
+            "effectiveCm": null,
+            "segment": null,
+            "requestedCm": null,
+            "heightAdjustedBaseline": 37.14411575014289,
+            "equivalentBaseHeightMeasurement": null
+          },
+          "hip": {
+            "input": 95.05205768754634,
+            "base": 97.00190919505901,
+            "min": 87.40729083173824,
+            "max": 116.26040557792201,
+            "valid": true,
+            "branch": "decrease",
+            "signedWeight": -0.203105077449435,
+            "weight": 0.203105077449435,
+            "increase": 0,
+            "decrease": 0.203105077449435,
+            "clamped": false,
+            "clampDirection": null,
+            "effectiveCm": 95.05205768754634,
+            "segment": [
+              {
+                "cm": 94.60185655728324,
+                "weight": -0.25
+              },
+              {
+                "cm": 97.00190919505901,
+                "weight": 0
+              }
+            ],
+            "requestedCm": 92,
+            "heightAdjustedBaseline": 93.94985150751268,
+            "equivalentBaseHeightMeasurement": 95.05205768754634
+          }
+        },
+        "currentHeight": {
+          "target": "$md-$ma-$yn-$av$mu-$av$wg-max$hg",
+          "valid": true,
+          "requestedCm": 165,
+          "clampedCm": 165,
+          "influence": -0.10940095607880566,
+          "clamped": false,
+          "baselines": {
+            "bust": 90.16845423650882,
+            "waist": 72.88116516005167,
+            "hips": 93.94985150751268,
+            "shoulder": 36.487556331896855,
+            "upperarm": 28.2014212865273,
+            "thigh": 52.73824899331803,
+            "calf": 37.14411575014289
+          }
+        },
+        "goalHeight": {
+          "target": "$md-$ma-$yn-$av$mu-$av$wg-max$hg",
+          "valid": true,
+          "requestedCm": 165,
+          "clampedCm": 165,
+          "influence": -0.10940095607880566,
+          "clamped": false,
+          "baselines": {
+            "bust": 90.16845423650882,
+            "waist": 72.88116516005167,
+            "hips": 93.94985150751268,
+            "shoulder": 36.487556331896855,
+            "upperarm": 28.2014212865273,
+            "thigh": 52.73824899331803,
+            "calf": 37.14411575014289
+          }
+        }
+      },
+      "applied": {
+        "waist": {
+          "measure-waist-circ-incr": 0,
+          "measure-waist-circ-decr": 0.08723586700788957
+        },
+        "chest": {
+          "measure-bust-circ-incr": 0,
+          "measure-bust-circ-decr": 0.15072579643740708
+        },
+        "shoulder": {
+          "measure-shoulder-dist-incr": 0.3037034957591396,
+          "measure-shoulder-dist-decr": 0
+        },
+        "arm": {
+          "measure-upperarm-circ-incr": 0,
+          "measure-upperarm-circ-decr": 0.020493953429236073
+        },
+        "thigh": {
+          "measure-thigh-circ-incr": 0,
+          "measure-thigh-circ-decr": 0.12761507341268652
+        },
+        "calf": {
+          "measure-calf-circ-incr": 0,
+          "measure-calf-circ-decr": 0
+        },
+        "hip": {
+          "measure-hips-circ-incr": 0,
+          "measure-hips-circ-decr": 0.203105077449435
+        }
+      },
+      "appliedHeight": -0.10940095607880566,
+      "sceneId": "0a5d13f4-1c40-4215-aa09-1ab0263401ac",
+      "rendererId": "4a35ad7a-a0bf-49c1-8917-c70df2ef5857",
+      "webglError": 0,
+      "mode": "current",
+      "renderCount": 3,
+      "pendingFrame": false,
+      "animating": false,
+      "camera": [
+        0,
+        0.9721489457563056,
+        3.6900622078970655
+      ],
+      "target": [
+        0,
+        0.9721489457563054,
+        0.15638189020361967
+      ],
+      "memory": {
+        "geometries": 1,
+        "textures": 1
+      },
+      "size": {
+        "width": 842,
+        "height": 520
+      },
+      "disposed": false
+    }
+  },
+  "reset": {
+    "maxDeviationM": 0,
+    "cameraPreserved": true,
+    "identityPreserved": true,
+    "weights": [
+      0.3267660140991211,
+      0.3267660140991211,
+      0.3267660140991211,
+      0.9901999831199646,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  "final": {
+    "state": {
+      "currentBody": {
+        "gender": "neutral",
+        "height": null,
+        "weight": 60,
+        "chest": null,
+        "waist": null,
+        "hip": null,
+        "inseam": 76,
+        "shoulder": null,
+        "arm": null,
+        "thigh": null,
+        "calf": null
+      },
+      "goalBody": null,
+      "mode": "current",
+      "step": 0,
+      "selectedGoal": null
+    },
+    "inputs": {
+      "height": {
+        "raw": "",
+        "invalid": false
+      },
+      "weight": {
+        "raw": "60",
+        "invalid": false
+      },
+      "chest": {
+        "raw": "",
+        "invalid": false
+      },
+      "waist": {
+        "raw": "",
+        "invalid": false
+      },
+      "hip": {
+        "raw": "",
+        "invalid": false
+      },
+      "inseam": {
+        "raw": "76",
+        "invalid": false
+      },
+      "shoulder": {
+        "raw": "",
+        "invalid": false
+      },
+      "arm": {
+        "raw": "",
+        "invalid": false
+      },
+      "thigh": {
+        "raw": "",
+        "invalid": false
+      },
+      "calf": {
+        "raw": "",
+        "invalid": false
+      }
+    },
+    "viewer": {
+      "threeRevision": "180",
+      "modelId": "72a85ed4-b13d-410f-814c-c88182029e9a",
+      "geometryIds": [
+        "e920e27b-8df4-4365-b835-4e5cb3b8962d"
+      ],
+      "rendererCanvasCount": 1,
+      "meshes": [
+        {
+          "name": "Human_export_copy_v4",
+          "dictionary": {
+            "$md-$as-$ma-$yn": 0,
+            "$md-$ca-$ma-$yn": 1,
+            "$md-$af-$ma-$yn": 2,
+            "$md-universal-$ma-$yn-$av$mu-$av$wg": 3,
+            "measure-waist-circ-incr": 4,
+            "measure-waist-circ-decr": 5,
+            "measure-bust-circ-incr": 6,
+            "measure-bust-circ-decr": 7,
+            "measure-shoulder-dist-incr": 8,
+            "measure-shoulder-dist-decr": 9,
+            "measure-upperarm-circ-incr": 10,
+            "measure-upperarm-circ-decr": 11,
+            "measure-thigh-circ-incr": 12,
+            "measure-thigh-circ-decr": 13,
+            "measure-calf-circ-incr": 14,
+            "measure-calf-circ-decr": 15,
+            "measure-hips-circ-incr": 16,
+            "measure-hips-circ-decr": 17,
+            "$md-$ma-$yn-$av$mu-$av$wg-max$hg": 18
+          },
+          "initial": [
+            0.3267660140991211,
+            0.3267660140991211,
+            0.3267660140991211,
+            0.9901999831199646,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "influences": [
+            0.3267660140991211,
+            0.3267660140991211,
+            0.3267660140991211,
+            0.9901999831199646,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "scale": [
+            1,
+            1,
+            1
+          ],
+          "phenotypePreserved": true
+        }
+      ],
+      "currentWeights": {
+        "height": 0,
+        "waist": 0,
+        "chest": 0,
+        "shoulder": 0,
+        "arm": 0,
+        "thigh": 0,
+        "calf": 0,
+        "hip": 0
+      },
+      "goalWeights": {
+        "height": 0,
+        "waist": 0,
+        "chest": 0,
+        "shoulder": 0,
+        "arm": 0,
+        "thigh": 0,
+        "calf": 0,
+        "hip": 0
+      },
+      "mappingDebug": {
+        "current": {
+          "waist": {
+            "input": null,
+            "base": 75.22169269657549,
+            "min": 65.26522618931487,
+            "max": 85.49963617339654,
+            "valid": false,
+            "branch": "empty",
+            "signedWeight": 0,
+            "weight": 0,
+            "increase": 0,
+            "decrease": 0,
+            "clamped": false,
+            "clampDirection": null,
+            "effectiveCm": null,
+            "segment": null,
+            "requestedCm": null,
+            "heightAdjustedBaseline": 75.22169269657549,
+            "equivalentBaseHeightMeasurement": null
+          },
+          "chest": {
+            "input": null,
+            "base": 92.8883686746983,
+            "min": 78.62376385532015,
+            "max": 110.89893667568572,
+            "valid": false,
+            "branch": "empty",
+            "signedWeight": 0,
+            "weight": 0,
+            "increase": 0,
+            "decrease": 0,
+            "clamped": false,
+            "clampDirection": null,
+            "effectiveCm": null,
+            "segment": null,
+            "requestedCm": null,
+            "heightAdjustedBaseline": 92.8883686746983,
+            "equivalentBaseHeightMeasurement": null
+          },
+          "shoulder": {
+            "input": null,
+            "base": 37.662522601226556,
+            "min": 34.96252159986852,
+            "max": 42.64252345476507,
+            "valid": false,
+            "branch": "empty",
+            "signedWeight": 0,
+            "weight": 0,
+            "increase": 0,
+            "decrease": 0,
+            "clamped": false,
+            "clampDirection": null,
+            "effectiveCm": null,
+            "segment": null,
+            "requestedCm": null,
+            "heightAdjustedBaseline": 37.662522601226556,
+            "equivalentBaseHeightMeasurement": null
+          },
+          "arm": {
+            "input": null,
+            "base": 29.07581960504171,
+            "min": 19.349859125159046,
+            "max": 38.84826973971172,
+            "valid": false,
+            "branch": "empty",
+            "signedWeight": 0,
+            "weight": 0,
+            "increase": 0,
+            "decrease": 0,
+            "clamped": false,
+            "clampDirection": null,
+            "effectiveCm": null,
+            "segment": null,
+            "requestedCm": null,
+            "heightAdjustedBaseline": 29.07581960504171,
+            "equivalentBaseHeightMeasurement": null
+          },
+          "thigh": {
+            "input": null,
+            "base": 54.32370654187157,
+            "min": 48.51049013853934,
+            "max": 63.084996255927095,
+            "valid": false,
+            "branch": "empty",
+            "signedWeight": 0,
+            "weight": 0,
+            "increase": 0,
+            "decrease": 0,
+            "clamped": false,
+            "clampDirection": null,
+            "effectiveCm": null,
+            "segment": null,
+            "requestedCm": null,
+            "heightAdjustedBaseline": 54.32370654187157,
+            "equivalentBaseHeightMeasurement": null
+          },
+          "calf": {
+            "input": null,
+            "base": 38.183614349092764,
+            "min": 28.108762831526136,
+            "max": 48.00875142476548,
+            "valid": false,
+            "branch": "empty",
+            "signedWeight": 0,
+            "weight": 0,
+            "increase": 0,
+            "decrease": 0,
+            "clamped": false,
+            "clampDirection": null,
+            "effectiveCm": null,
+            "segment": null,
+            "requestedCm": null,
+            "heightAdjustedBaseline": 38.183614349092764,
+            "equivalentBaseHeightMeasurement": null
+          },
+          "hip": {
+            "input": null,
+            "base": 97.00190919505901,
+            "min": 87.40729083173824,
+            "max": 116.26040557792201,
+            "valid": false,
+            "branch": "empty",
+            "signedWeight": 0,
+            "weight": 0,
+            "increase": 0,
+            "decrease": 0,
+            "clamped": false,
+            "clampDirection": null,
+            "effectiveCm": null,
+            "segment": null,
+            "requestedCm": null,
+            "heightAdjustedBaseline": 97.00190919505901,
+            "equivalentBaseHeightMeasurement": null
+          }
+        },
+        "goal": {
+          "waist": {
+            "input": null,
+            "base": 75.22169269657549,
+            "min": 65.26522618931487,
+            "max": 85.49963617339654,
+            "valid": false,
+            "branch": "empty",
+            "signedWeight": 0,
+            "weight": 0,
+            "increase": 0,
+            "decrease": 0,
+            "clamped": false,
+            "clampDirection": null,
+            "effectiveCm": null,
+            "segment": null,
+            "requestedCm": null,
+            "heightAdjustedBaseline": 75.22169269657549,
+            "equivalentBaseHeightMeasurement": null
+          },
+          "chest": {
+            "input": null,
+            "base": 92.8883686746983,
+            "min": 78.62376385532015,
+            "max": 110.89893667568572,
+            "valid": false,
+            "branch": "empty",
+            "signedWeight": 0,
+            "weight": 0,
+            "increase": 0,
+            "decrease": 0,
+            "clamped": false,
+            "clampDirection": null,
+            "effectiveCm": null,
+            "segment": null,
+            "requestedCm": null,
+            "heightAdjustedBaseline": 92.8883686746983,
+            "equivalentBaseHeightMeasurement": null
+          },
+          "shoulder": {
+            "input": null,
+            "base": 37.662522601226556,
+            "min": 34.96252159986852,
+            "max": 42.64252345476507,
+            "valid": false,
+            "branch": "empty",
+            "signedWeight": 0,
+            "weight": 0,
+            "increase": 0,
+            "decrease": 0,
+            "clamped": false,
+            "clampDirection": null,
+            "effectiveCm": null,
+            "segment": null,
+            "requestedCm": null,
+            "heightAdjustedBaseline": 37.662522601226556,
+            "equivalentBaseHeightMeasurement": null
+          },
+          "arm": {
+            "input": null,
+            "base": 29.07581960504171,
+            "min": 19.349859125159046,
+            "max": 38.84826973971172,
+            "valid": false,
+            "branch": "empty",
+            "signedWeight": 0,
+            "weight": 0,
+            "increase": 0,
+            "decrease": 0,
+            "clamped": false,
+            "clampDirection": null,
+            "effectiveCm": null,
+            "segment": null,
+            "requestedCm": null,
+            "heightAdjustedBaseline": 29.07581960504171,
+            "equivalentBaseHeightMeasurement": null
+          },
+          "thigh": {
+            "input": null,
+            "base": 54.32370654187157,
+            "min": 48.51049013853934,
+            "max": 63.084996255927095,
+            "valid": false,
+            "branch": "empty",
+            "signedWeight": 0,
+            "weight": 0,
+            "increase": 0,
+            "decrease": 0,
+            "clamped": false,
+            "clampDirection": null,
+            "effectiveCm": null,
+            "segment": null,
+            "requestedCm": null,
+            "heightAdjustedBaseline": 54.32370654187157,
+            "equivalentBaseHeightMeasurement": null
+          },
+          "calf": {
+            "input": null,
+            "base": 38.183614349092764,
+            "min": 28.108762831526136,
+            "max": 48.00875142476548,
+            "valid": false,
+            "branch": "empty",
+            "signedWeight": 0,
+            "weight": 0,
+            "increase": 0,
+            "decrease": 0,
+            "clamped": false,
+            "clampDirection": null,
+            "effectiveCm": null,
+            "segment": null,
+            "requestedCm": null,
+            "heightAdjustedBaseline": 38.183614349092764,
+            "equivalentBaseHeightMeasurement": null
+          },
+          "hip": {
+            "input": null,
+            "base": 97.00190919505901,
+            "min": 87.40729083173824,
+            "max": 116.26040557792201,
+            "valid": false,
+            "branch": "empty",
+            "signedWeight": 0,
+            "weight": 0,
+            "increase": 0,
+            "decrease": 0,
+            "clamped": false,
+            "clampDirection": null,
+            "effectiveCm": null,
+            "segment": null,
+            "requestedCm": null,
+            "heightAdjustedBaseline": 97.00190919505901,
+            "equivalentBaseHeightMeasurement": null
+          }
+        },
+        "currentHeight": {
+          "target": "$md-$ma-$yn-$av$mu-$av$wg-max$hg",
+          "valid": false,
+          "requestedCm": null,
+          "clampedCm": 172.91078380973204,
+          "influence": 0,
+          "clamped": false,
+          "baselines": {
+            "bust": 92.8883686746983,
+            "waist": 75.22169269657549,
+            "hips": 97.00190919505901,
+            "shoulder": 37.662522601226556,
+            "upperarm": 29.07581960504171,
+            "thigh": 54.32370654187157,
+            "calf": 38.183614349092764
+          }
+        },
+        "goalHeight": {
+          "target": "$md-$ma-$yn-$av$mu-$av$wg-max$hg",
+          "valid": false,
+          "requestedCm": null,
+          "clampedCm": 172.91078380973204,
+          "influence": 0,
+          "clamped": false,
+          "baselines": {
+            "bust": 92.8883686746983,
+            "waist": 75.22169269657549,
+            "hips": 97.00190919505901,
+            "shoulder": 37.662522601226556,
+            "upperarm": 29.07581960504171,
+            "thigh": 54.32370654187157,
+            "calf": 38.183614349092764
+          }
+        }
+      },
+      "applied": {
+        "waist": {
+          "measure-waist-circ-incr": 0,
+          "measure-waist-circ-decr": 0
+        },
+        "chest": {
+          "measure-bust-circ-incr": 0,
+          "measure-bust-circ-decr": 0
+        },
+        "shoulder": {
+          "measure-shoulder-dist-incr": 0,
+          "measure-shoulder-dist-decr": 0
+        },
+        "arm": {
+          "measure-upperarm-circ-incr": 0,
+          "measure-upperarm-circ-decr": 0
+        },
+        "thigh": {
+          "measure-thigh-circ-incr": 0,
+          "measure-thigh-circ-decr": 0
+        },
+        "calf": {
+          "measure-calf-circ-incr": 0,
+          "measure-calf-circ-decr": 0
+        },
+        "hip": {
+          "measure-hips-circ-incr": 0,
+          "measure-hips-circ-decr": 0
+        }
+      },
+      "appliedHeight": 0,
+      "sceneId": "0a5d13f4-1c40-4215-aa09-1ab0263401ac",
+      "rendererId": "4a35ad7a-a0bf-49c1-8917-c70df2ef5857",
+      "webglError": 0,
+      "mode": "current",
+      "renderCount": 336,
+      "pendingFrame": false,
+      "animating": false,
+      "camera": [
+        0,
+        0.9721489457563056,
+        3.6900622078970655
+      ],
+      "target": [
+        0,
+        0.9721489457563054,
+        0.15638189020361967
+      ],
+      "memory": {
+        "geometries": 1,
+        "textures": 1
+      },
+      "size": {
+        "width": 842,
+        "height": 520
+      },
+      "disposed": false
+    }
+  },
+  "pass": true
+}

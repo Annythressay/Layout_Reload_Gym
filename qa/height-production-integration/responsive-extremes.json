@@ -1,0 +1,371 @@
+{
+  "rows": [
+    {
+      "width": 1440,
+      "cm": 151.21778195689558,
+      "view": "front",
+      "scrollWidth": 1440,
+      "canvas": [
+        841.859375,
+        520
+      ],
+      "stage": [
+        841.859375,
+        520
+      ],
+      "canvasCount": 1,
+      "modelId": "a90364d7-6945-4040-828f-9913f4424f76",
+      "rendererId": "b10d50e0-7fea-43a8-b894-75e1971f8178",
+      "sceneId": "7ff6d91b-06ac-4604-983b-44a82511b6a0",
+      "webglError": 0,
+      "debugPanels": 0
+    },
+    {
+      "width": 1440,
+      "cm": 151.21778195689558,
+      "view": "side",
+      "scrollWidth": 1440,
+      "canvas": [
+        841.859375,
+        520
+      ],
+      "stage": [
+        841.859375,
+        520
+      ],
+      "canvasCount": 1,
+      "modelId": "a90364d7-6945-4040-828f-9913f4424f76",
+      "rendererId": "b10d50e0-7fea-43a8-b894-75e1971f8178",
+      "sceneId": "7ff6d91b-06ac-4604-983b-44a82511b6a0",
+      "webglError": 0,
+      "debugPanels": 0
+    },
+    {
+      "width": 1440,
+      "cm": 151.21778195689558,
+      "view": "back",
+      "scrollWidth": 1440,
+      "canvas": [
+        841.859375,
+        520
+      ],
+      "stage": [
+        841.859375,
+        520
+      ],
+      "canvasCount": 1,
+      "modelId": "a90364d7-6945-4040-828f-9913f4424f76",
+      "rendererId": "b10d50e0-7fea-43a8-b894-75e1971f8178",
+      "sceneId": "7ff6d91b-06ac-4604-983b-44a82511b6a0",
+      "webglError": 0,
+      "debugPanels": 0
+    },
+    {
+      "width": 1440,
+      "cm": 194.6037856625685,
+      "view": "front",
+      "scrollWidth": 1440,
+      "canvas": [
+        841.859375,
+        520
+      ],
+      "stage": [
+        841.859375,
+        520
+      ],
+      "canvasCount": 1,
+      "modelId": "a90364d7-6945-4040-828f-9913f4424f76",
+      "rendererId": "b10d50e0-7fea-43a8-b894-75e1971f8178",
+      "sceneId": "7ff6d91b-06ac-4604-983b-44a82511b6a0",
+      "webglError": 0,
+      "debugPanels": 0
+    },
+    {
+      "width": 1440,
+      "cm": 194.6037856625685,
+      "view": "side",
+      "scrollWidth": 1440,
+      "canvas": [
+        841.859375,
+        520
+      ],
+      "stage": [
+        841.859375,
+        520
+      ],
+      "canvasCount": 1,
+      "modelId": "a90364d7-6945-4040-828f-9913f4424f76",
+      "rendererId": "b10d50e0-7fea-43a8-b894-75e1971f8178",
+      "sceneId": "7ff6d91b-06ac-4604-983b-44a82511b6a0",
+      "webglError": 0,
+      "debugPanels": 0
+    },
+    {
+      "width": 1440,
+      "cm": 194.6037856625685,
+      "view": "back",
+      "scrollWidth": 1440,
+      "canvas": [
+        841.859375,
+        520
+      ],
+      "stage": [
+        841.859375,
+        520
+      ],
+      "canvasCount": 1,
+      "modelId": "a90364d7-6945-4040-828f-9913f4424f76",
+      "rendererId": "b10d50e0-7fea-43a8-b894-75e1971f8178",
+      "sceneId": "7ff6d91b-06ac-4604-983b-44a82511b6a0",
+      "webglError": 0,
+      "debugPanels": 0
+    },
+    {
+      "width": 768,
+      "cm": 151.21778195689558,
+      "view": "front",
+      "scrollWidth": 768,
+      "canvas": [
+        664.546875,
+        400
+      ],
+      "stage": [
+        664.546875,
+        400
+      ],
+      "canvasCount": 1,
+      "modelId": "a90364d7-6945-4040-828f-9913f4424f76",
+      "rendererId": "b10d50e0-7fea-43a8-b894-75e1971f8178",
+      "sceneId": "7ff6d91b-06ac-4604-983b-44a82511b6a0",
+      "webglError": 0,
+      "debugPanels": 0
+    },
+    {
+      "width": 768,
+      "cm": 151.21778195689558,
+      "view": "side",
+      "scrollWidth": 768,
+      "canvas": [
+        664.546875,
+        400
+      ],
+      "stage": [
+        664.546875,
+        400
+      ],
+      "canvasCount": 1,
+      "modelId": "a90364d7-6945-4040-828f-9913f4424f76",
+      "rendererId": "b10d50e0-7fea-43a8-b894-75e1971f8178",
+      "sceneId": "7ff6d91b-06ac-4604-983b-44a82511b6a0",
+      "webglError": 0,
+      "debugPanels": 0
+    },
+    {
+      "width": 768,
+      "cm": 151.21778195689558,
+      "view": "back",
+      "scrollWidth": 768,
+      "canvas": [
+        664.546875,
+        400
+      ],
+      "stage": [
+        664.546875,
+        400
+      ],
+      "canvasCount": 1,
+      "modelId": "a90364d7-6945-4040-828f-9913f4424f76",
+      "rendererId": "b10d50e0-7fea-43a8-b894-75e1971f8178",
+      "sceneId": "7ff6d91b-06ac-4604-983b-44a82511b6a0",
+      "webglError": 0,
+      "debugPanels": 0
+    },
+    {
+      "width": 768,
+      "cm": 194.6037856625685,
+      "view": "front",
+      "scrollWidth": 768,
+      "canvas": [
+        664.546875,
+        400
+      ],
+      "stage": [
+        664.546875,
+        400
+      ],
+      "canvasCount": 1,
+      "modelId": "a90364d7-6945-4040-828f-9913f4424f76",
+      "rendererId": "b10d50e0-7fea-43a8-b894-75e1971f8178",
+      "sceneId": "7ff6d91b-06ac-4604-983b-44a82511b6a0",
+      "webglError": 0,
+      "debugPanels": 0
+    },
+    {
+      "width": 768,
+      "cm": 194.6037856625685,
+      "view": "side",
+      "scrollWidth": 768,
+      "canvas": [
+        664.546875,
+        400
+      ],
+      "stage": [
+        664.546875,
+        400
+      ],
+      "canvasCount": 1,
+      "modelId": "a90364d7-6945-4040-828f-9913f4424f76",
+      "rendererId": "b10d50e0-7fea-43a8-b894-75e1971f8178",
+      "sceneId": "7ff6d91b-06ac-4604-983b-44a82511b6a0",
+      "webglError": 0,
+      "debugPanels": 0
+    },
+    {
+      "width": 768,
+      "cm": 194.6037856625685,
+      "view": "back",
+      "scrollWidth": 768,
+      "canvas": [
+        664.546875,
+        400
+      ],
+      "stage": [
+        664.546875,
+        400
+      ],
+      "canvasCount": 1,
+      "modelId": "a90364d7-6945-4040-828f-9913f4424f76",
+      "rendererId": "b10d50e0-7fea-43a8-b894-75e1971f8178",
+      "sceneId": "7ff6d91b-06ac-4604-983b-44a82511b6a0",
+      "webglError": 0,
+      "debugPanels": 0
+    },
+    {
+      "width": 390,
+      "cm": 151.21778195689558,
+      "view": "front",
+      "scrollWidth": 390,
+      "canvas": [
+        332,
+        320
+      ],
+      "stage": [
+        332,
+        320
+      ],
+      "canvasCount": 1,
+      "modelId": "a90364d7-6945-4040-828f-9913f4424f76",
+      "rendererId": "b10d50e0-7fea-43a8-b894-75e1971f8178",
+      "sceneId": "7ff6d91b-06ac-4604-983b-44a82511b6a0",
+      "webglError": 0,
+      "debugPanels": 0
+    },
+    {
+      "width": 390,
+      "cm": 151.21778195689558,
+      "view": "side",
+      "scrollWidth": 390,
+      "canvas": [
+        332,
+        320
+      ],
+      "stage": [
+        332,
+        320
+      ],
+      "canvasCount": 1,
+      "modelId": "a90364d7-6945-4040-828f-9913f4424f76",
+      "rendererId": "b10d50e0-7fea-43a8-b894-75e1971f8178",
+      "sceneId": "7ff6d91b-06ac-4604-983b-44a82511b6a0",
+      "webglError": 0,
+      "debugPanels": 0
+    },
+    {
+      "width": 390,
+      "cm": 151.21778195689558,
+      "view": "back",
+      "scrollWidth": 390,
+      "canvas": [
+        332,
+        320
+      ],
+      "stage": [
+        332,
+        320
+      ],
+      "canvasCount": 1,
+      "modelId": "a90364d7-6945-4040-828f-9913f4424f76",
+      "rendererId": "b10d50e0-7fea-43a8-b894-75e1971f8178",
+      "sceneId": "7ff6d91b-06ac-4604-983b-44a82511b6a0",
+      "webglError": 0,
+      "debugPanels": 0
+    },
+    {
+      "width": 390,
+      "cm": 194.6037856625685,
+      "view": "front",
+      "scrollWidth": 390,
+      "canvas": [
+        332,
+        320
+      ],
+      "stage": [
+        332,
+        320
+      ],
+      "canvasCount": 1,
+      "modelId": "a90364d7-6945-4040-828f-9913f4424f76",
+      "rendererId": "b10d50e0-7fea-43a8-b894-75e1971f8178",
+      "sceneId": "7ff6d91b-06ac-4604-983b-44a82511b6a0",
+      "webglError": 0,
+      "debugPanels": 0
+    },
+    {
+      "width": 390,
+      "cm": 194.6037856625685,
+      "view": "side",
+      "scrollWidth": 390,
+      "canvas": [
+        332,
+        320
+      ],
+      "stage": [
+        332,
+        320
+      ],
+      "canvasCount": 1,
+      "modelId": "a90364d7-6945-4040-828f-9913f4424f76",
+      "rendererId": "b10d50e0-7fea-43a8-b894-75e1971f8178",
+      "sceneId": "7ff6d91b-06ac-4604-983b-44a82511b6a0",
+      "webglError": 0,
+      "debugPanels": 0
+    },
+    {
+      "width": 390,
+      "cm": 194.6037856625685,
+      "view": "back",
+      "scrollWidth": 390,
+      "canvas": [
+        332,
+        320
+      ],
+      "stage": [
+        332,
+        320
+      ],
+      "canvasCount": 1,
+      "modelId": "a90364d7-6945-4040-828f-9913f4424f76",
+      "rendererId": "b10d50e0-7fea-43a8-b894-75e1971f8178",
+      "sceneId": "7ff6d91b-06ac-4604-983b-44a82511b6a0",
+      "webglError": 0,
+      "debugPanels": 0
+    }
+  ],
+  "glb": [
+    "http://127.0.0.1:4187/3D/male-mpfb-production-morph-v4.glb"
+  ],
+  "errors": [],
+  "warnings": [],
+  "failures": [],
+  "pass": true
+}

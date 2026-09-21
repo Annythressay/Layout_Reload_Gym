@@ -1,4 +1,5 @@
-// One source of truth: measured mesh samples. No duplicated calibration values.
+import {mapHeight,baselinesAtHeight,baseHeightBaselines} from './height-calibration.js';
+// Keep original shape-response curves; shift absolute inputs by measured Height drift.
 export const calibrationURL=new URL('../../../qa/body-measurement-calibration/measurements.json',import.meta.url);
 export const hipCalibrationURL=new URL('../../../qa/hip-measurement-calibration/measurements.json',import.meta.url);
 export const calibratedFields=Object.freeze({waist:'waist',chest:'bust',shoulder:'shoulder',arm:'upperarm',thigh:'thigh',calf:'calf',hip:'hips'});
@@ -39,8 +40,16 @@ export function measurementCmToMorphWeight(input,profile){
   result.signedWeight=Math.max(-1,Math.min(1,signed));result.weight=Math.abs(result.signedWeight);result.branch=signed<0?'decrease':signed>0?'increase':'base';result.increase=Math.max(0,result.signedWeight);result.decrease=Math.max(0,-result.signedWeight);return result;
 }
 export function mapMeasurements(body,profiles){
-  const weights={hipHorizontal:0,hipDepth:0},debug={};
-  for(const field of Object.keys(calibratedFields)){debug[field]=measurementCmToMorphWeight(body[field],profiles[field]);weights[field]=debug[field].signedWeight;}
-  return {weights,debug};
+  const height=mapHeight(body.height),baselines=baselinesAtHeight(height.influence);
+  const weights={height:height.influence},debug={};
+  for(const [field,region] of Object.entries(calibratedFields)){
+    const input=body[field],empty=input==null||(typeof input==='string'&&input.trim()==='');
+    const requested=!empty&&['number','string'].includes(typeof input)?Number(input):NaN;
+    const valid=Number.isFinite(requested)&&requested>0;
+    const equivalent=valid?baseHeightBaselines[region]+(requested-baselines[region]):empty?null:NaN;
+    debug[field]={...measurementCmToMorphWeight(equivalent,profiles[field]),requestedCm:valid?requested:null,heightAdjustedBaseline:baselines[region],equivalentBaseHeightMeasurement:valid?equivalent:null};
+    weights[field]=debug[field].signedWeight;
+  }
+  return {weights,debug,height:{...height,baselines}};
 }
 export function measurementsToMorphs(body,profiles){return mapMeasurements(body,profiles).weights;}

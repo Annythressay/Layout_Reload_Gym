@@ -1,0 +1,16 @@
+{
+  "verdict": "Calibrated Height production integration: PASS",
+  "gates": {
+    "unit": true,
+    "browser": true,
+    "roundTrip": true,
+    "baseline": true,
+    "calibration": true,
+    "edges": true,
+    "reset": true,
+    "performance": true,
+    "responsive": true,
+    "console": true,
+    "preservation": true
+  }
+}

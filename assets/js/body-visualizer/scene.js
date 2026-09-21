@@ -2,6 +2,7 @@ import * as THREE from '../../vendor/three/three.module.min.js';
 import {OrbitControls} from '../../vendor/three/OrbitControls.js';
 import {loadBody} from './glb-model.js';
 import {loadCalibration,mapMeasurements} from './normalization.js';
+import {HEIGHT_TARGET,HEIGHT_MIN_INFLUENCE,HEIGHT_MAX_INFLUENCE} from './height-calibration.js';
 import {morphPairs} from './morph-controller.js';
 
 export async function createScene(host, onFailure, onCameraChange) {
@@ -20,7 +21,11 @@ export async function createScene(host, onFailure, onCameraChange) {
   const controls=new OrbitControls(camera,canvas);
   controls.enablePan=false;controls.minDistance=2.25;controls.maxDistance=5.5;
   controls.minPolarAngle=Math.PI*.28;controls.maxPolarAngle=Math.PI*.65;
-  const bounds=new THREE.Box3().setFromObject(body.group,true),center=bounds.getCenter(new THREE.Vector3()),size=bounds.getSize(new THREE.Vector3());
+  // Frame the audited Height envelope once; input/reset never moves the camera.
+  const bounds=new THREE.Box3();
+  for(const h of [HEIGHT_MIN_INFLUENCE,HEIGHT_MAX_INFLUENCE]){body.controller.setMorph(HEIGHT_TARGET,h);bounds.union(new THREE.Box3().setFromObject(body.group,true));}
+  body.controller.resetProductionMorphs();
+  const center=bounds.getCenter(new THREE.Vector3()),size=bounds.getSize(new THREE.Vector3()),rendererId=THREE.MathUtils.generateUUID();
   controls.target.copy(center); controls.enableDamping=false;
   scene.add(new THREE.HemisphereLight(0xffffff,0x555555,2));
   for(const [x,y,z,intensity] of [[-3,5,4,3],[3,2,2,1],[-1,3,-4,2]]) {const light=new THREE.DirectionalLight(0xffffff,intensity);light.position.set(x,y,z);scene.add(light);}
@@ -43,9 +48,10 @@ export async function createScene(host, onFailure, onCameraChange) {
   function setState(state){
     mode=state.mode;
     const current=mapMeasurements(state.currentBody,profiles),goal=mapMeasurements(state.goalBody||state.currentBody,profiles);
-    currentWeights=current.weights;goalWeights=goal.weights;mappingDebug={current:current.debug,goal:goal.debug};
+    currentWeights=current.weights;goalWeights=goal.weights;mappingDebug={current:current.debug,goal:goal.debug,currentHeight:current.height,goalHeight:goal.height};
     // Invalid/empty regions are neutral immediately, including during transitions.
     const selected=mode==='goal'?goal.debug:current.debug;
+    if(!(mode==='goal'?goal.height:current.height).valid){if(displayed)displayed.height=0;body.controller.setMorph(HEIGHT_TARGET,0);}
     if(displayed)for(const [key,info] of Object.entries(selected))if(!info.valid){displayed[key]=0;body.controller.setBidirectionalMorph(key,0);}
     const target=mode==='goal'?goalWeights:currentWeights;
     if(displayed&&!reduced.matches&&mode!=='compare'&&Object.keys(target).some(key=>target[key]!==displayed[key]))animation={from:{...displayed},to:target,start:performance.now()};
@@ -69,7 +75,7 @@ export async function createScene(host, onFailure, onCameraChange) {
     // Explicit QA snapshot, read-only; never called by normal rendering/input.
     inspectGeometry(){const result=[];body.group.updateMatrixWorld(true);body.group.traverse(mesh=>{if(!mesh.isMesh)return;const v=new THREE.Vector3(),vertices=[];for(let i=0;i<mesh.geometry.attributes.position.count;i++){mesh.getVertexPosition(i,v).applyMatrix4(mesh.matrixWorld);vertices.push(v.toArray());}result.push({id:mesh.uuid,geometryId:mesh.geometry.uuid,vertices,index:Array.from(mesh.geometry.index.array)});});return result;},
     resetProductionMorphs(){animation=null;displayed=Object.fromEntries(Object.keys(currentWeights||{}).map(key=>[key,0]));currentWeights={...displayed};goalWeights={...displayed};body.controller.resetProductionMorphs();requestRender();},
-    inspect(){const meshes=body.controller.inspect();const applied={};for(const [key,prefix] of Object.entries(morphPairs)){applied[key]=Object.fromEntries(['incr','decr'].map(direction=>{const name=prefix+'-'+direction;return [name,meshes[0].influences[meshes[0].dictionary[name]]];}));}return {threeRevision:THREE.REVISION,modelId:body.group.uuid,geometryIds:body.group.children.filter(o=>o.isMesh).map(o=>o.geometry.uuid),rendererCanvasCount:host.querySelectorAll('canvas').length,meshes,currentWeights:{...currentWeights},goalWeights:{...goalWeights},mappingDebug:structuredClone(mappingDebug),applied,mode,renderCount,pendingFrame:!!frame,animating:!!animation,camera:camera.position.toArray(),target:controls.target.toArray(),memory:{...renderer.info.memory},size:{width:canvas.clientWidth,height:canvas.clientHeight},disposed};},
+    inspect(){const meshes=body.controller.inspect();const applied={};for(const [key,prefix] of Object.entries(morphPairs)){applied[key]=Object.fromEntries(['incr','decr'].map(direction=>{const name=prefix+'-'+direction;return [name,meshes[0].influences[meshes[0].dictionary[name]]];}));}return {threeRevision:THREE.REVISION,modelId:body.group.uuid,geometryIds:body.group.children.filter(o=>o.isMesh).map(o=>o.geometry.uuid),rendererCanvasCount:host.querySelectorAll('canvas').length,meshes,currentWeights:{...currentWeights},goalWeights:{...goalWeights},mappingDebug:structuredClone(mappingDebug),applied,appliedHeight:meshes[0].influences[meshes[0].dictionary[HEIGHT_TARGET]],sceneId:scene.uuid,rendererId,webglError:context.getError(),mode,renderCount,pendingFrame:!!frame,animating:!!animation,camera:camera.position.toArray(),target:controls.target.toArray(),memory:{...renderer.info.memory},size:{width:canvas.clientWidth,height:canvas.clientHeight},disposed};},
     setSplit(value){split=THREE.MathUtils.clamp(value/100,0,1);requestRender();},
     dispose(){if(disposed)return;disposed=true;cancelAnimationFrame(frame);frame=0;animation=null;observer.disconnect();intersection.disconnect();controls.dispose();document.removeEventListener('visibilitychange',visibility);host.removeEventListener('keydown',keyboard);canvas.removeEventListener('webglcontextlost',contextLost);body.dispose();renderer.dispose();canvas.remove();}};
 }
