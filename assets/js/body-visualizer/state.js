@@ -2,19 +2,28 @@ export const fields = {
   height: ['Chiều cao', 130, 210, 'cm'], weight: ['Cân nặng', 35, 180, 'kg'],
   chest: ['Vòng ngực', 60, 150, 'cm'], waist: ['Vòng eo', 45, 160, 'cm'],
   hip: ['Vòng hông', 60, 170, 'cm'], inseam: ['Chiều dài chân', 50, 110, 'cm'],
-  shoulder: ['Chiều rộng vai', 28, 65, 'cm'], arm: ['Bắp tay', 20, 70, 'cm'], thigh: ['Vòng đùi', 30, 100, 'cm']
+  shoulder: ['Chiều rộng vai', 28, 65, 'cm'], arm: ['Bắp tay', 20, 70, 'cm'], thigh: ['Vòng đùi', 30, 100, 'cm'],
+  calf: ['Vòng bắp chân', 0, 100, 'cm'] // Bounds replaced from calibration before viewer is ready.
 };
-export const defaults = Object.freeze({gender:'neutral', height:165, weight:60, chest:88, waist:72, hip:92, inseam:76, shoulder:38, arm:28, thigh:52});
+export const defaults = Object.freeze({gender:'neutral', height:165, weight:60, chest:88, waist:72, hip:92, inseam:76, shoulder:38, arm:28, thigh:52,calf:null});
+export function configureCalibrationFields(profiles){
+  for(const [key,p] of Object.entries(profiles)){
+    if(key==='calf'){fields[key][1]=Math.floor(p.min);fields[key][2]=Math.ceil(p.max);}
+    else{fields[key][1]=Math.min(fields[key][1],Math.floor(p.min));fields[key][2]=Math.max(fields[key][2],Math.ceil(p.max));}
+  }
+}
 export function validateMeasurement(key, raw) {
   const field = fields[key];
   const value = Number(raw);
-  return field && String(raw).trim() && Number.isFinite(value) && value >= field[1] && value <= field[2] ? Math.round(value * 10) / 10 : null;
+  return field && raw!=null && String(raw).trim() && Number.isFinite(value) && value >= field[1] && value <= field[2] ? value : null;
 }
 export function calculateBMI(heightCm, weightKg) {
   return Number.isFinite(heightCm) && Number.isFinite(weightKg) && heightCm > 0 && weightKg > 0 ? (weightKg / (heightCm / 100) ** 2).toFixed(1) : null;
 }
 export function createState() { return {currentBody:{...defaults}, goalBody:null, mode:'current', step:0, selectedGoal:null}; }
 const clamp = (v, a, b) => Math.min(b, Math.max(a, v));
+// LEGACY ONLY: GLB scene does not call calculateBodyMorph; normalization.js
+// owns the production mapping and deliberately excludes height/weight.
 // Illustration, not anthropometric reconstruction. Independent of Three.js.
 // Circumferences approximate elliptical sections; guard proportions at extreme inputs.
 export function calculateBodyMorph(m) {

@@ -1,5 +1,7 @@
 import * as THREE from '../../vendor/three/three.module.min.js';
 
+// LEGACY ONLY: no longer imported by scene.js. Retained for the separate
+// Height/Weight task; its procedural geometry/scaling must not drive the GLB.
 // A continuous elliptical torso and tapered limbs; all meshes are reused.
 export function createBody(material) {
   const group = new THREE.Group();
