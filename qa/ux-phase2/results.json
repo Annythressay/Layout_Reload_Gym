@@ -1,0 +1,87 @@
+{
+  "checks": [
+    "desktop unchanged 1440",
+    "desktop unchanged 1024",
+    "trip waist 390",
+    "trip thigh 390",
+    "trip waist 390",
+    "wrong-step invalidation 390",
+    "menu/dialog suppression 390",
+    "keyboard shrink/inline/return 390",
+    "trip waist 390",
+    "Comparison/Roadmap excluded 390",
+    "no overflow 390",
+    "trip waist 768",
+    "trip thigh 768",
+    "trip waist 768",
+    "wrong-step invalidation 768",
+    "menu/dialog suppression 768",
+    "keyboard shrink/inline/return 768",
+    "trip waist 768",
+    "Comparison/Roadmap excluded 768",
+    "no overflow 768",
+    "slow threshold/hysteresis and header alignment",
+    "focused field wins utility band; utility recovers after field exits",
+    "110 visibility cycles, geometry/camera/identity preserved",
+    "no listener/active observer growth; render stays idle",
+    "keyboard restores number control",
+    "trip waist 390",
+    "normal and reduced motion",
+    "outside form hidden",
+    "20 Current/Goal round trips without active observer growth",
+    "touch/coarse pointer inline action and non-editable return focus",
+    "protected hashes unchanged",
+    "console/network clean"
+  ],
+  "errors": [],
+  "warnings": [],
+  "httpErrors": [],
+  "protectedFiles": [
+    {
+      "path": "3D/male-mpfb-production-morph-v4.glb",
+      "sha256": "a3362fbdafb30d63b584204122258377ce2d169a37be9b8ab815a84de1fb67f0",
+      "unchanged": true
+    },
+    {
+      "path": "assets/js/body-visualizer/scene.js",
+      "sha256": "6e56c35dabab3147f82488e674268d1049f8d225b8960b3c1057316ba3a21e6e",
+      "unchanged": true
+    },
+    {
+      "path": "assets/js/body-visualizer/normalization.js",
+      "sha256": "e7a8b89d6fd6a4c4496c1bfd0b73c173c50fe7a55f3867df9e0c7e94ede9215b",
+      "unchanged": true
+    },
+    {
+      "path": "assets/js/body-visualizer/height-calibration.js",
+      "sha256": "47375a557ad312c70474bf590724da16deb0ae68a3db4c543388aa087bcb5be3",
+      "unchanged": true
+    },
+    {
+      "path": "assets/js/body-visualizer/height-baselines.js",
+      "sha256": "2fc0e1ebc69120af10d92aef394113c8c603b5ee64852406eb6dbb7903369820",
+      "unchanged": true
+    },
+    {
+      "path": "assets/js/body-visualizer/morph-controller.js",
+      "sha256": "3f077ebb9b1efd55c460731b6e994eaeb908f87a4a49451a25af930de744b88b",
+      "unchanged": true
+    },
+    {
+      "path": "assets/js/body-visualizer/glb-model.js",
+      "sha256": "b5189531eb3f606e23b0dcfa73b5857445055bfa9fb2601e74add11234cb4bce",
+      "unchanged": true
+    },
+    {
+      "path": "qa/body-measurement-calibration/measurements.json",
+      "sha256": "f83bb14c5e95fbe0467542e3151cb2cecfaeb9daf9a49459e705b3581ecf20c2",
+      "unchanged": true
+    },
+    {
+      "path": "qa/hip-measurement-calibration/measurements.json",
+      "sha256": "867a4a54db7f4548e0611204b53b00738023638d816b76790ff3c9e2f538d209",
+      "unchanged": true
+    }
+  ],
+  "pass": true
+}

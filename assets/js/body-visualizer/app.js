@@ -78,6 +78,7 @@ function updateSummary({updateGeometry=true}={}){
   if(updateGeometry)scene?.setState(state);
 }
 function renderStep(focus=false){
+  modelAccess?.reset();
   $('[data-step-label]').textContent=`0${state.step+1} / ${['HIỆN TẠI','MỤC TIÊU','SO SÁNH','LỘ TRÌNH'][state.step]}`;
   $('#bv-panel-title').textContent=headings[state.step];$('[data-description]').textContent=descriptions[state.step];
   $('[data-measurements]').hidden=state.step>1;$('.bv-bmi').hidden=state.step===3;
@@ -132,6 +133,109 @@ async function loadScene(){
 $('[data-retry]').addEventListener('click',loadScene);
 window.addEventListener('pagehide',()=>{pageInactive=true;scene?.dispose();scene=null;});
 window.addEventListener('pageshow',event=>{pageInactive=false;if(event.persisted&&!loading)loadScene();});
+const modelAccess=createModelAccess();
 renderStep();loadScene();
+
+// Page-local navigation only. The viewer host, scene and data are never changed.
+function createModelAccess(){
+  const small=matchMedia('(max-width: 991.98px)'),motion=matchMedia('(prefers-reduced-motion: reduce)');
+  const quick=$('[data-model-quick]'),back=$('[data-model-return]'),panel=$('.bv-panel'),stage=$('.bv-stage'),viewer=$('.bv-viewer');
+  const header=document.querySelector('.header'),vv=window.visualViewport;
+  const inline=document.createElement('button');inline.type='button';inline.className='bv-model-action bv-model-inline';inline.hidden=true;inline.dataset.modelInline='';
+  let anchor=null,lastField=null,lastControl=null,keyboardNavigation=false,away=false,inForm=false,editing=false,headerHeight=65;
+  let baseline=vv?.height||innerHeight,resizeTimer=0,focusTimer=0,operation=0,stageObserver,formObserver,fieldObserver,fieldBlocked=false;
+  const context=()=>state.step===0?'HIỆN TẠI':'MỤC TIÊU';
+  const eligible=()=>small.matches&&state.step<2;
+  const editable=()=>document.activeElement?.matches('input[type="number"],textarea,[contenteditable="true"]');
+  const competing=()=>!!document.querySelector('dialog[open],.floating-contact.is-open,.navigation.open,[data-reload-promo]:not([hidden])')||document.body.classList.contains('nav-open')||document.body.classList.contains('modal-open');
+  const validAnchor=()=>anchor&&anchor.step===state.step&&$(`[data-field="${anchor.key}"]`);
+  function hide(button){if(!button.hidden&&document.activeElement===button){const target=lastField?.isConnected?lastField:$('#bv-panel-title');target.tabIndex=-1;target.focus({preventScroll:true});}button.hidden=true;}
+  function update(){
+    const allowed=eligible()&&!competing();
+    const label=`Xem mô hình · ${context()}`;
+    if(quick.textContent!==label)quick.textContent=label;
+    if(inline.textContent!==label)inline.textContent=label;
+    const show=allowed&&away&&inForm&&!anchor;
+    if(show&&!editing&&!fieldBlocked)quick.hidden=false;else hide(quick);
+    if(show&&editing&&lastField?.isConnected){if(inline.parentElement!==lastField)lastField.append(inline);inline.hidden=false;}else hide(inline);
+    if(allowed&&validAnchor()){back.textContent=`Quay lại số đo · ${fields[anchor.key][0]}`;back.setAttribute('aria-label',`${back.textContent} · ${context()}`);back.hidden=false;}else hide(back);
+  }
+  function observeField(field){
+    fieldObserver?.disconnect();fieldBlocked=false;
+    if(!field)return;
+    // A focused field crossing the utility band takes priority over the utility.
+    fieldObserver=new IntersectionObserver(entries=>{fieldBlocked=entries[0].isIntersecting;update();},{rootMargin:`-${headerHeight}px 0px -${Math.max(0,innerHeight-headerHeight-52)}px 0px`,threshold:0});
+    fieldObserver.observe(field);
+  }
+  function observers(){
+    headerHeight=header?.getBoundingClientRect().height||65;root.style.setProperty('--bv-header-height',`${headerHeight}px`);
+    const slot=$('.bv-quick-slot').getBoundingClientRect();root.style.setProperty('--bv-utility-left',`${slot.left}px`);root.style.setProperty('--bv-utility-width',`${slot.width}px`);
+    stageObserver?.disconnect();formObserver?.disconnect();
+    stageObserver=new IntersectionObserver(entries=>{const bottom=entries[0].boundingClientRect.bottom;if(bottom<=headerHeight-6)away=true;else if(bottom>=headerHeight+6)away=false;update();},{rootMargin:`-${headerHeight-6}px 0px 0px 0px`,threshold:[0,.04]});
+    formObserver=new IntersectionObserver(entries=>{inForm=entries[0].isIntersecting;update();},{rootMargin:`-${headerHeight+52}px 0px 0px 0px`,threshold:0});
+    // Wait for the whole viewer (including camera buttons) to clear the header.
+    stageObserver.observe(viewer);formObserver.observe(panel);observeField(lastField);update();
+  }
+  function viewportChanged(){
+    clearTimeout(resizeTimer);resizeTimer=setTimeout(()=>{
+      const height=vv?.height||innerHeight;
+      if(!editable()&&!editing)baseline=Math.max(baseline,height);
+      editing=!!editable()&&(baseline-height>100||matchMedia('(pointer: coarse)').matches);
+      observers();
+    },100);
+  }
+  function focusChanged(event){
+    const field=event.target.closest?.('[data-field]');
+    if(field){lastField=field;if(event.target.matches('input'))lastControl=event.target.type;observeField(field);}
+    // Touch number entry is treated conservatively even before the OS resizes.
+    editing=!!editable()&&(baseline-(vv?.height||innerHeight)>100||matchMedia('(pointer: coarse)').matches);
+    update();
+  }
+  function saveAnchor(){
+    const rendered=$$('[data-field]').filter(e=>e.getClientRects().length&&!e.closest('.bv-advanced:not([open])'));
+    const visible=rendered.filter(e=>e.getBoundingClientRect().bottom>headerHeight+52&&e.getBoundingClientRect().top<(vv?.height||innerHeight));
+    const field=visible.includes(lastField)?lastField:visible[0]||rendered.sort((a,b)=>Math.abs(a.getBoundingClientRect().top-headerHeight)-Math.abs(b.getBoundingClientRect().top-headerHeight))[0];if(!field)return null;
+    return {step:state.step,key:field.dataset.field,control:field===lastField?lastControl:null,advanced:!!$('.bv-advanced')?.open,helpers:$$('.bv-measure-help').map(e=>({key:e.closest('[data-field]').dataset.field,open:e.open})),offset:field.getBoundingClientRect().top,keyboard:keyboardNavigation};
+  }
+  async function settleViewport(){
+    // Bounded quiet-period wait; no render loop and no focus/scroll per resize.
+    let previous='',stable=0;
+    for(let i=0;i<12&&stable<3;i++){await new Promise(resolve=>setTimeout(resolve,50));const next=`${vv?.height||innerHeight}/${vv?.offsetTop||0}`;stable=next===previous?stable+1:0;previous=next;}
+  }
+  async function view(){
+    if(!eligible()||competing())return;
+    const saved=saveAnchor();if(!saved)return;
+    const token=++operation;anchor=saved;
+    if(editable())document.activeElement.blur();editing=false;
+    stage.focus({preventScroll:true});update();await settleViewport();
+    if(token!==operation||!validAnchor()||!eligible()||competing())return;
+    window.scrollTo({top:scrollY+viewer.getBoundingClientRect().top-headerHeight-8,behavior:motion.matches?'instant':'smooth'});
+  }
+  async function returnToField(){
+    const field=validAnchor();if(!field)return;
+    const saved=anchor,token=++operation;
+    const advanced=$('.bv-advanced');if(advanced&&(saved.advanced||advanced.contains(field)))advanced.open=true;
+    for(const helper of saved.helpers){const disclosure=$(`[data-field="${helper.key}"] .bv-measure-help`);if(disclosure)disclosure.open=helper.open;}
+    await settleViewport();if(token!==operation||state.step!==saved.step||!eligible()||competing())return;
+    anchor=null;lastField=field;field.tabIndex=-1;
+    const control=saved.keyboard&&saved.control?field.querySelector(`input[type="${saved.control}"]`):null;
+    (control||field).focus({preventScroll:true});
+    const height=vv?.height||innerHeight,offset=Math.max(headerHeight+56,Math.min(saved.offset,height-Math.min(field.offsetHeight,200)-24));
+    window.scrollTo({top:scrollY+field.getBoundingClientRect().top-offset,behavior:motion.matches?'instant':'smooth'});update();
+  }
+  quick.addEventListener('click',view);inline.addEventListener('click',view);back.addEventListener('click',returnToField);
+  // Keep the inline action alive until click even when its source input blurs.
+  [quick,inline,back].forEach(button=>button.addEventListener('pointerdown',event=>event.preventDefault()));
+  document.addEventListener('pointerdown',()=>{keyboardNavigation=false;},true);
+  document.addEventListener('keydown',event=>{if(['Tab','Enter',' '].includes(event.key))keyboardNavigation=true;},true);
+  root.addEventListener('focusin',focusChanged);
+  root.addEventListener('focusout',()=>{clearTimeout(focusTimer);focusTimer=setTimeout(()=>{editing=!!editable()&&(baseline-(vv?.height||innerHeight)>100||matchMedia('(pointer: coarse)').matches);update();},0);});
+  const suppression=new MutationObserver(update);
+  [document.body,document.querySelector('.floating-contact'),...document.querySelectorAll('dialog,[data-reload-promo]')].filter(Boolean).forEach(e=>suppression.observe(e,{attributes:true,attributeFilter:['class','open','hidden']}));
+  window.addEventListener('resize',viewportChanged);vv?.addEventListener('resize',viewportChanged);
+  small.addEventListener('change',()=>{baseline=vv?.height||innerHeight;reset();});
+  function reset(){operation++;anchor=null;if(document.activeElement===inline)$('#bv-panel-title').focus({preventScroll:true});lastField=null;lastControl=null;fieldBlocked=false;editing=false;fieldObserver?.disconnect();inline.remove();root.classList.toggle('bv-model-access',eligible());observers();}
+  return {reset};
+}
 // Explicit local QA mode only; normal visitors do not load or see the panel.
 if(new URLSearchParams(location.search).has('morph-debug'))import('./debug.js').then(({mountMorphDebug})=>mountMorphDebug(root,inspectVisualizer));

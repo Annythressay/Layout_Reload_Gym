@@ -27,6 +27,7 @@
   </nav>
   <div class="bv-workspace">
     <section class="bv-viewer" aria-label="Mô hình cơ thể tương tác">
+      <div class="bv-return-slot"><button type="button" class="bv-model-action" data-model-return hidden></button></div>
       <div class="bv-viewer__top"><span>MÔ PHỎNG 3D</span><span data-model-label>HIỆN TẠI</span></div>
       <div class="bv-stage" tabindex="0" role="region" aria-label="Mô hình 3D. Dùng phím mũi tên để xoay, dấu cộng trừ để thu phóng.">
         <div class="bv-loading" role="status"><span class="bv-loading__mark">R/</span><strong>RELOAD BODY VISUALIZER</strong><p data-load-message>Đang chuẩn bị mô hình…</p><button class="button" data-retry hidden>THỬ LẠI</button></div>
@@ -38,6 +39,7 @@
       <p class="bv-hint">Kéo để xoay · Cuộn hoặc chụm hai ngón để thu phóng</p>
     </section>
     <section class="bv-panel" aria-labelledby="bv-panel-title">
+      <div class="bv-quick-slot"><button type="button" class="bv-model-action" data-model-quick hidden>Xem mô hình · HIỆN TẠI</button></div>
       <p class="eyebrow" data-step-label>01 / HIỆN TẠI</p><h2 id="bv-panel-title" tabindex="-1">VÓC DÁNG HIỆN TẠI</h2><p class="bv-description" data-description>Nhập một vài thông tin cơ bản để tạo mô phỏng gần với số đo của bạn.</p>
       <p class="bv-description">Mô phỏng hiện dùng mẫu nam. Chiều cao, ngực, eo, hông, vai, bắp tay, đùi và bắp chân được điều chỉnh theo số đo đã kiểm thử trên mô hình; hình ảnh dừng ở giới hạn này nếu số đo vượt phạm vi. Để trống số đo để giữ vùng đó ở dáng gốc. Kiểu mô hình, cân nặng và chiều dài chân chưa thay đổi hình ảnh 3D.</p>
       <p class="bv-field-help" data-height-clamp role="status" hidden>Mô hình 3D đang hiển thị ở giới hạn chiều cao được hỗ trợ. BMI vẫn dùng chiều cao bạn nhập.</p>

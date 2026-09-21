@@ -120,3 +120,15 @@
 
 .bv-field__top>.bv-field-label {color:var(--white)}
 .bv-advanced .bv-measure-help summary::before {content:none}
+
+/* Phase 2: navigation utility only; the 3D stage keeps its original size/host. */
+.bv-quick-slot,.bv-return-slot,.bv-model-inline {display:none}
+.bv-model-action {background:#111;color:#fff;border:0;border-left:2px solid var(--red);padding:10px 12px;text-align:left;font-family:inherit;font-size:12px;font-weight:600;line-height:1.5;min-height:44px;cursor:pointer}
+@media(max-width:991.98px){
+  .bv-model-access .bv-quick-slot {display:block;position:sticky;top:var(--bv-header-height,65px);height:44px;margin-bottom:16px;z-index:10;pointer-events:none}
+  .bv-model-access .bv-quick-slot button {position:fixed;top:var(--bv-header-height,65px);left:var(--bv-utility-left);width:var(--bv-utility-width);height:44px;pointer-events:auto}
+  .bv-model-access .bv-return-slot {display:block;height:44px;margin-bottom:8px;padding-right:56px}
+  .bv-model-access .bv-return-slot button {width:100%;height:44px}
+  .bv-model-access .bv-model-inline {display:block;margin-top:8px;max-width:calc(100% - 44px)}
+  .bv-model-access [data-field],.bv-model-access [data-field] input {scroll-margin-top:calc(var(--bv-header-height,65px) + 60px)}
+}
