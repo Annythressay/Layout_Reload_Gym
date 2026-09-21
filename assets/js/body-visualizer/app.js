@@ -1,5 +1,6 @@
 import {fields,createState,validateMeasurement,calculateBMI,configureCalibrationFields} from './state.js';
 import {calibratedFields,loadCalibration} from './normalization.js';
+import {mapHeight} from './height-calibration.js';
 
 const root=document.querySelector('.body-visualizer');
 const $=selector=>root.querySelector(selector);
@@ -18,19 +19,27 @@ const goals=[
 const headings=['VÓC DÁNG HIỆN TẠI','VÓC DÁNG MỤC TIÊU','SO SÁNH VÓC DÁNG','MỤC TIÊU TẬP LUYỆN'];
 const descriptions=['Nhập một vài thông tin cơ bản để tạo mô phỏng gần với số đo của bạn.','Bạn muốn hướng tới vóc dáng như thế nào? Điều chỉnh những số đo bạn quan tâm.','Cùng một góc nhìn. Hai điểm trên hành trình của bạn.','Điều gì quan trọng nhất với bạn lúc này?'];
 const editedBody=()=>state.step===1?state.goalBody:state.currentBody;
-function fieldMarkup(key){const [label,min,max,unit]=fields[key],value=editedBody()[key],valid=Number.isFinite(value);return `<div class="bv-field" data-field="${key}"><div class="bv-field__top"><label for="bv-${key}">${label}</label><div><input id="bv-${key}" data-number="${key}" type="number" inputmode="decimal" min="${min}" max="${max}" step="${key in calibratedFields||key==='height'?'any':'0.1'}" value="${valid?value:''}" aria-describedby="bv-error-${key}"><span>${unit}</span></div></div><input type="range" data-range="${key}" min="${min}" max="${max}" step="0.1" value="${valid?value:(min+max)/2}" aria-label="${label}" aria-valuemin="${min}" aria-valuemax="${max}" ${valid?`aria-valuenow="${value}"`:'aria-valuetext="Chưa nhập số đo"'}><small id="bv-error-${key}" class="bv-error"></small></div>`;}
+function fieldMarkup(key){const [label,min,max,unit]=fields[key],value=editedBody()[key],valid=Number.isFinite(value);return `<div class="bv-field" data-field="${key}"><div class="bv-field__top"><label for="bv-${key}">${label}</label><div><input id="bv-${key}" data-number="${key}" type="number" inputmode="decimal" min="${min}" max="${max}" step="${key in calibratedFields||key==='height'?'any':'0.1'}" value="${valid?value:''}" aria-describedby="bv-error-${key}${key==='weight'?' bv-weight-help':''}"><span>${unit}</span></div></div><input type="range" data-range="${key}" min="${min}" max="${max}" step="0.1" value="${valid?value:(min+max)/2}" aria-label="${label}" aria-valuemin="${min}" aria-valuemax="${max}" ${valid?`aria-valuenow="${value}"`:'aria-valuetext="Chưa nhập số đo"'}>${key==='weight'?'<small id="bv-weight-help" class="bv-field-help">Cân nặng dùng để tính BMI và so sánh mục tiêu; không trực tiếp thay đổi mô hình 3D.</small>':''}<small id="bv-error-${key}" class="bv-error"></small></div>`;}
 function renderFields(){
   const goal=state.step===1;
   $('[data-measurements]').innerHTML=goal ? `<div class="bv-goal-note">MỤC TIÊU CỦA BẠN <span>Khởi tạo từ số đo hiện tại</span></div>${['weight','waist','hip','chest','thigh','calf'].map(fieldMarkup).join('')}` : `<fieldset class="bv-gender"><legend>Kiểu mô hình</legend>${[['female','Nữ'],['male','Nam'],['neutral','Trung lập']].map(([value,label])=>`<label><input type="radio" name="bv-gender" value="${value}" ${state.currentBody.gender===value?'checked':''}><span>${label}</span></label>`).join('')}</fieldset>${['height','weight','chest','waist','hip','inseam'].map(fieldMarkup).join('')}<details class="bv-advanced"><summary>Thêm số đo chi tiết</summary>${['shoulder','arm','thigh','calf'].map(fieldMarkup).join('')}</details>`;
 }
-function updateSummary(){
+function updateSummary({updateGeometry=true}={}){
   const m=state.mode==='goal'?state.goalBody:state.currentBody;
-  $('[data-bmi]').textContent=calculateBMI(m.height,m.weight);
+  // Visible invalid drafts must never borrow BMI from last-known-valid state.
+  const invalidDraft=state.step<2&&['height','weight'].some(key=>{
+    const input=$('[data-number="'+key+'"]');
+    return input&&(input.getAttribute('aria-invalid')==='true'||validateMeasurement(key,input.value)===null);
+  });
+  const bmi=invalidDraft?null:calculateBMI(m.height,m.weight);
+  $('[data-bmi]').textContent=bmi??'—';
+  $('[data-bmi]').setAttribute('aria-label',bmi===null?'BMI chưa khả dụng':'BMI '+bmi);
+  $('[data-height-clamp]').hidden=!mapHeight(m.height).clamped;
   $('[data-model-label]').textContent=state.mode==='compare'?'HIỆN TẠI / MỤC TIÊU':state.mode==='goal'?'MỤC TIÊU':'HIỆN TẠI';
   for(const selector of ['.bv-split','.bv-divider','.bv-compare-labels'])$(selector).hidden=state.mode!=='compare';
   $$('[data-mode]').forEach(button=>button.setAttribute('aria-pressed',String(button.dataset.mode===state.mode)));
   if(state.goalBody)$('[data-differences]').innerHTML=['weight','chest','waist','hip','thigh','calf'].map(key=>`<div class="bv-difference"><span>${fields[key][0]}</span><span>${state.currentBody[key]??'—'} <span aria-hidden="true">→</span><span class="sr-only">sang mục tiêu</span> <strong>${state.goalBody[key]??'—'} ${fields[key][3]}</strong></span></div>`).join('');
-  scene?.setState(state);
+  if(updateGeometry)scene?.setState(state);
 }
 function renderStep(focus=false){
   $('[data-step-label]').textContent=`0${state.step+1} / ${['HIỆN TẠI','MỤC TIÊU','SO SÁNH','LỘ TRÌNH'][state.step]}`;
@@ -53,10 +62,10 @@ root.addEventListener('input',event=>{
   if(!key)return;
   const value=validateMeasurement(key,input.value),field=input.closest('[data-field]');
   if(value===null){const optionalEmpty=key in calibratedFields&&input.value.trim()===''&&!input.validity.badInput;input.setAttribute('aria-invalid',String(!optionalEmpty));field.querySelector('.bv-error').textContent=optionalEmpty?'':`Nhập từ ${fields[key][1]} đến ${fields[key][2]} ${fields[key][3]}.`;
-    if(key in calibratedFields||key==='height'){const stateKey=state.step===1?'goalBody':'currentBody';state[stateKey]={...state[stateKey],[key]:null};const slider=field.querySelector('[data-range]');slider.removeAttribute('aria-valuenow');slider.setAttribute('aria-valuetext',optionalEmpty?'Chưa nhập số đo':'Số đo không hợp lệ');updateSummary();}return;}
+    if(key in calibratedFields||key==='height'){const stateKey=state.step===1?'goalBody':'currentBody';state[stateKey]={...state[stateKey],[key]:null};const slider=field.querySelector('[data-range]');slider.removeAttribute('aria-valuenow');slider.setAttribute('aria-valuetext',optionalEmpty?'Chưa nhập số đo':'Số đo không hợp lệ');updateSummary();}else if(key==='weight')updateSummary({updateGeometry:false});return;}
   field.querySelector('.bv-error').textContent='';$('[data-form-error]').textContent='';
   field.querySelectorAll('input').forEach(el=>{el.removeAttribute('aria-invalid');if(el!==input)el.value=value;if(el.type==='range'){el.setAttribute('aria-valuenow',el.value);el.removeAttribute('aria-valuetext');}});
-  const stateKey=state.step===1?'goalBody':'currentBody';state[stateKey]={...state[stateKey],[key]:value};updateSummary();
+  const stateKey=state.step===1?'goalBody':'currentBody';state[stateKey]={...state[stateKey],[key]:value};updateSummary({updateGeometry:key!=='weight'});
 });
 root.addEventListener('change',event=>{if(event.target.name==='bv-gender'){state.currentBody={...state.currentBody,gender:event.target.value};updateSummary();}});
 $$('[data-step]').forEach(button=>button.addEventListener('click',()=>goTo(Number(button.dataset.step))));
