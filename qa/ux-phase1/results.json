@@ -1,0 +1,91 @@
+{
+  "checks": [
+    "popup suppressed 1440/reduce",
+    "Current -> Goal focus/scroll 1440/reduce",
+    "Goal -> Comparison focus/scroll 1440/reduce",
+    "Comparison -> Roadmap focus/scroll 1440/reduce",
+    "seven helpers keyboard + layout 1440/reduce",
+    "popup suppressed 1440/no-preference",
+    "Current -> Goal focus/scroll 1440/no-preference",
+    "Goal -> Comparison focus/scroll 1440/no-preference",
+    "Comparison -> Roadmap focus/scroll 1440/no-preference",
+    "seven helpers keyboard + layout 1440/no-preference",
+    "popup suppressed 768/reduce",
+    "Current -> Goal focus/scroll 768/reduce",
+    "Goal -> Comparison focus/scroll 768/reduce",
+    "Comparison -> Roadmap focus/scroll 768/reduce",
+    "seven helpers keyboard + layout 768/reduce",
+    "popup suppressed 768/no-preference",
+    "Current -> Goal focus/scroll 768/no-preference",
+    "Goal -> Comparison focus/scroll 768/no-preference",
+    "Comparison -> Roadmap focus/scroll 768/no-preference",
+    "seven helpers keyboard + layout 768/no-preference",
+    "popup suppressed 390/reduce",
+    "Current -> Goal focus/scroll 390/reduce",
+    "Goal -> Comparison focus/scroll 390/reduce",
+    "Comparison -> Roadmap focus/scroll 390/reduce",
+    "seven helpers keyboard + layout 390/reduce",
+    "popup suppressed 390/no-preference",
+    "Current -> Goal focus/scroll 390/no-preference",
+    "Goal -> Comparison focus/scroll 390/no-preference",
+    "Comparison -> Roadmap focus/scroll 390/no-preference",
+    "seven helpers keyboard + layout 390/no-preference",
+    "unsupported copy",
+    "guidance leaves geometry/camera/identities unchanged",
+    "BMI unavailable/recovery and actual Height",
+    "all seven clamps are contextual; empty sliders recover without injected baseline",
+    "slider unit/helper/error associations",
+    "Goal remains a one-time independent copy",
+    "reset copy, geometry, phenotype and heading",
+    "About popup still auto-opens in fresh session",
+    "console/network clean"
+  ],
+  "errors": [],
+  "warnings": [],
+  "httpErrors": [],
+  "layouts": [
+    {
+      "width": 1440,
+      "scroll": 1440,
+      "stage": 520,
+      "slider": 44,
+      "motion": "reduce"
+    },
+    {
+      "width": 1440,
+      "scroll": 1440,
+      "stage": 520,
+      "slider": 44,
+      "motion": "no-preference"
+    },
+    {
+      "width": 768,
+      "scroll": 768,
+      "stage": 400,
+      "slider": 44,
+      "motion": "reduce"
+    },
+    {
+      "width": 768,
+      "scroll": 768,
+      "stage": 400,
+      "slider": 44,
+      "motion": "no-preference"
+    },
+    {
+      "width": 390,
+      "scroll": 390,
+      "stage": 320,
+      "slider": 44,
+      "motion": "reduce"
+    },
+    {
+      "width": 390,
+      "scroll": 390,
+      "stage": 320,
+      "slider": 44,
+      "motion": "no-preference"
+    }
+  ],
+  "pass": true
+}

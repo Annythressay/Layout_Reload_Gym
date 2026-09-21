@@ -95,3 +95,28 @@
 @media(max-width:575.98px){.bv-stage{height:320px}.bv-camera button{padding:8px 12px}.bv-hint{font-size:9px}.bv-viewer__top{font-size:9px;letter-spacing:.8px}.bv-intro h1{font-size:42px}.bv-panel{padding:22px 18px}.bv-teaser{gap:20px}.bv-teaser .button{width:100%}}
 
 .bv-field-help {display:block;color:var(--muted);font-size:11px;line-height:1.6;margin:0 0 6px}
+
+/* Phase 1: contextual guidance only; viewer layout stays unchanged. */
+#bv-panel-title {scroll-margin-top:110px}
+.bv-gender {flex-wrap:wrap}
+.bv-gender>.bv-field-help {flex-basis:100%;margin-bottom:8px}
+.bv-measure-help {margin:0 0 8px;color:var(--muted);font-size:11px;line-height:1.6}
+.bv-measure-help summary {display:inline-flex;align-items:center;min-height:44px;cursor:pointer;text-decoration:underline;text-underline-offset:3px}
+.bv-measure-help summary::before {content:'+';margin-right:6px;color:var(--red)}
+.bv-measure-help[open] summary::before {content:'−'}
+.bv-measure-help p {margin:0 0 8px;overflow-wrap:anywhere}
+.bv-field[data-empty=true] input[type=range] {opacity:.55}
+.bv-field[data-empty=true] input[type=range]:focus-visible {opacity:1}
+.bv-bmi>[data-bmi-unavailable] {grid-column:1/-1;margin:6px 0 0;line-height:1.6}
+@media(max-width:767.98px){.bv-hint{font-size:11px;line-height:1.6}.bv-camera button{font-size:12px}}
+
+.bv-field__top>.bv-field-label {display:block;flex:1;min-width:0}
+.bv-field-label>.bv-measure-help {display:inline-block;vertical-align:middle;margin:0}
+.bv-measure-help summary {justify-content:center;min-width:44px;text-decoration:none;font-weight:600}
+.bv-measure-help summary::before {content:none}
+.bv-measure-help[open] {display:block}
+.bv-measure-help[open] summary::before {content:none}
+.bv-measure-help[open] summary {text-decoration:underline}
+
+.bv-field__top>.bv-field-label {color:var(--white)}
+.bv-advanced .bv-measure-help summary::before {content:none}

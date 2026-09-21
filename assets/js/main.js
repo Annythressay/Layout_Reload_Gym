@@ -272,7 +272,7 @@ document.addEventListener('keydown',event=>{
 });
 
 // Development reset: sessionStorage.removeItem('reloadPromoClosed');
-window.setTimeout(openPromo,300);
+if(!document.body.classList.contains('page-body-visualizer'))window.setTimeout(openPromo,300);
 })();
 /* BMI calculator: height and weight drive the estimate; remaining fields are optional. */
 (()=>{

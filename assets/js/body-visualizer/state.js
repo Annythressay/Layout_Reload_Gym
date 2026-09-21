@@ -3,7 +3,7 @@ export const fields = {
   height: ['Chiều cao', 130, 210, 'cm'], weight: ['Cân nặng', 35, 180, 'kg'],
   chest: ['Vòng ngực', 60, 150, 'cm'], waist: ['Vòng eo', 45, 160, 'cm'],
   hip: ['Vòng hông', 60, 170, 'cm'], inseam: ['Chiều dài chân', 50, 110, 'cm'],
-  shoulder: ['Chiều rộng vai', 28, 65, 'cm'], arm: ['Bắp tay', 20, 70, 'cm'], thigh: ['Vòng đùi', 30, 100, 'cm'],
+  shoulder: ['Chiều rộng vai', 28, 65, 'cm'], arm: ['Vòng bắp tay', 20, 70, 'cm'], thigh: ['Vòng đùi', 30, 100, 'cm'],
   calf: ['Vòng bắp chân', 0, 100, 'cm'] // Bounds replaced from calibration before viewer is ready.
 };
 export const defaults = Object.freeze({gender:'neutral', height:165, weight:60, chest:88, waist:72, hip:92, inseam:76, shoulder:38, arm:28, thigh:52,calf:null});
