@@ -1,6 +1,6 @@
 import {GLTFLoader} from '../../vendor/three/GLTFLoader.js';
 import {createMorphController,productionMorphs,phenotypeMorphs} from './morph-controller.js';
-export const modelURL=new URL('../../../3D/male-mpfb-production-morph-v4.glb',import.meta.url);
+export const modelURL=new URL('../../../3D/male-mpfb-production-morph-v5-candidate.glb',import.meta.url);
 let bytesPromise=null;
 // Cache source bytes across a context-loss retry; no duplicate network GLB load.
 function loadBytes(){return bytesPromise??=(async()=>{const response=await fetch(modelURL);if(!response.ok)throw new Error(`GLB HTTP ${response.status}`);return response.arrayBuffer();})().catch(error=>{bytesPromise=null;throw error;});}
