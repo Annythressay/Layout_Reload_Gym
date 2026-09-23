@@ -105,8 +105,17 @@
 .bv-measure-help summary::before {content:'+';margin-right:6px;color:var(--red)}
 .bv-measure-help[open] summary::before {content:'−'}
 .bv-measure-help p {margin:0 0 8px;overflow-wrap:anywhere}
-.bv-field[data-empty=true] input[type=range] {opacity:.55}
-.bv-field[data-empty=true] input[type=range]:focus-visible {opacity:1}
+.bv-field[data-unset=true] input[type=range] {appearance:none;-webkit-appearance:none;background:transparent;accent-color:#777}
+.bv-field[data-unset=true] input[type=range]::-webkit-slider-runnable-track {height:4px;background:#777;border-radius:99px}
+.bv-field[data-unset=true] input[type=range]::-moz-range-track,.bv-field[data-unset=true] input[type=range]::-moz-range-progress {height:4px;background:#777;border-radius:99px}
+.bv-field[data-unset=true] input[type=range]::-webkit-slider-thumb {appearance:none;-webkit-appearance:none;width:18px;height:18px;border:0;background:transparent;box-shadow:none}
+.bv-field[data-unset=true] input[type=range]::-moz-range-thumb {width:18px;height:18px;border:0;background:transparent;box-shadow:none}
+.bv-near {color:#bcbcbc}
+.bv-limit-action,.bv-height-transaction button {display:block;border:0;background:none;padding:3px 0;color:#fff;font:inherit;font-size:11px;text-align:left;text-decoration:underline;text-underline-offset:3px;cursor:pointer}
+.bv-limit-action:hover,.bv-height-transaction button:hover {color:var(--red)}
+.bv-height-transaction {border-left:2px solid var(--red);padding:4px 0 4px 10px;margin:6px 0 10px;font-size:11px;line-height:1.5}
+.bv-height-transaction p {margin:0 0 4px}
+.bv-height-transaction button {display:block;text-align:left}
 .bv-bmi>[data-bmi-unavailable] {grid-column:1/-1;margin:6px 0 0;line-height:1.6}
 @media(max-width:767.98px){.bv-hint{font-size:11px;line-height:1.6}.bv-camera button{font-size:12px}}
 

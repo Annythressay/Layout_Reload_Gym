@@ -1,13 +1,14 @@
-import {fields,createState,validateMeasurement,calculateBMI,configureCalibrationFields} from './state.js';
-import {calibratedFields,loadCalibration,mapMeasurements} from './normalization.js';
-import {mapHeight} from './height-calibration.js';
+import {fields,createState,calculateBMI,configureCalibrationFields} from './state.js';
+import {calibratedFields,loadCalibration} from './normalization.js';
+import {supportedRange,validateDraft,technicalStatus,displayCm,displayNumber,displayedRange,normalizeMeasurement,nearest,sliderPosition,sliderValue,SLIDER_STEPS,isCalibrated} from './measurement-constraints.js';
 
 const root=document.querySelector('.body-visualizer');
 const $=selector=>root.querySelector(selector);
 const $$=selector=>[...root.querySelectorAll(selector)];
 let state=createState(),scene=null,loading=false,pageInactive=false;
 let uxProfiles=null;
-export function inspectVisualizer({includeGeometry=false}={}){return {state:structuredClone(state),inputs:Object.fromEntries($$('[data-number]').map(el=>[el.dataset.number,{raw:el.value,invalid:el.getAttribute('aria-invalid')==='true'}])),viewer:scene?.inspect()||null,...(includeGeometry?{geometry:scene?.inspectGeometry()||null}:{})};}
+let drafts={current:{},goal:{}},pendingHeight=null;
+export function inspectVisualizer({includeGeometry=false}={}){return {state:structuredClone(state),drafts:structuredClone(drafts),pendingHeight:structuredClone(pendingHeight),inputs:Object.fromEntries($$('[data-number]').map(el=>[el.dataset.number,{raw:el.value,invalid:el.getAttribute('aria-invalid')==='true'}])),viewer:scene?.inspect()||null,...(includeGeometry?{geometry:scene?.inspectGeometry()||null}:{})};}
 const goals=[
   ['Giảm mỡ','Kết hợp tập sức mạnh, vận động tim mạch và vận động linh hoạt.'],
   ['Tăng cơ','Ưu tiên tập sức mạnh, kỹ thuật động tác và thời gian phục hồi.'],
@@ -20,6 +21,17 @@ const goals=[
 const headings=['VÓC DÁNG HIỆN TẠI','VÓC DÁNG MỤC TIÊU','SO SÁNH VÓC DÁNG','MỤC TIÊU TẬP LUYỆN'];
 const descriptions=['Nhập một vài thông tin cơ bản để tạo mô phỏng gần với số đo của bạn.','Bạn muốn hướng tới vóc dáng như thế nào? Điều chỉnh những số đo bạn quan tâm.','Cùng một góc nhìn. Hai điểm trên hành trình của bạn.','Điều gì quan trọng nhất với bạn lúc này?'];
 const editedBody=()=>state.step===1?state.goalBody:state.currentBody;
+const draftBucket=()=>state.step===1?drafts.goal:drafts.current;
+const policyRange=key=>supportedRange(key,editedBody().height,uxProfiles)||{min:fields[key][1],max:fields[key][2]};
+const validate=(key,raw,badInput=false)=>validateDraft(key,raw,{height:editedBody().height,profiles:uxProfiles,fallback:{min:fields[key][1],max:fields[key][2]},allowEmpty:isCalibrated(key),badInput});
+const typedValue=(key,value)=>value==null?'':fields[key][3]==='cm'?displayNumber(value):String(value);
+const summaryValue=(key,value)=>value==null?'—':fields[key][3]==='cm'?displayNumber(value):String(value);
+const fieldError=(key,result)=>{
+  if(key==='height'&&result.status==='unsupported')return 'Mô hình hỗ trợ chiều cao từ 151,2 đến 194,6 cm.';
+  if(result.status==='unsupported'&&isCalibrated(key))return `Số đo này nằm ngoài phạm vi mô hình ở chiều cao ${displayCm(editedBody().height)} cm. Chọn từ ${displayCm(result.range.min)} đến ${displayCm(result.range.max)} cm.`;
+  if(result.status==='unsupported')return `Nhập từ ${fields[key][1]} đến ${fields[key][2]} ${fields[key][3]}.`;
+  return 'Nhập một số đo hợp lệ.';
+};
 // Guidance intentionally stops at the region/type supported by the QA landmarks.
 // Those landmarks do not establish maximum girth, navel level or clinical endpoints.
 const measurementGuidance={
@@ -32,26 +44,47 @@ const measurementGuidance={
   calf:'Số đo chu vi quanh một bắp chân, tính bằng cm; không phải chiều dài chân.'
 };
 function fieldMarkup(key){
-  const [label,min,max,unit]=fields[key],value=editedBody()[key],valid=Number.isFinite(value);
-  const helper=key==='weight'?'Cân nặng dùng để tính BMI và so sánh mục tiêu; không trực tiếp thay đổi mô hình 3D.':key==='inseam'?'Chiều dài chân hiện chưa thay đổi mô hình 3D.':'';
-  const description=`bv-unit-${key} bv-error-${key} bv-empty-${key}${helper?` bv-${key}-help`:''}${key in calibratedFields?` bv-clamp-${key}`:''}`;
-  return `<div class="bv-field" data-field="${key}"><div class="bv-field__top"><div class="bv-field-label"><label for="bv-${key}">${label}</label>${measurementGuidance[key]?`<details class="bv-measure-help"><summary aria-label="Cách đo ${label.toLowerCase()}">?</summary><p>${measurementGuidance[key]}</p></details>`:''}</div><div><input id="bv-${key}" data-number="${key}" type="number" inputmode="decimal" min="${min}" max="${max}" step="${key in calibratedFields||key==='height'?'any':'0.1'}" value="${valid?value:''}" aria-describedby="${description}"><span id="bv-unit-${key}">${unit}</span></div></div><input type="range" data-range="${key}" min="${min}" max="${max}" step="0.1" value="${valid?value:(min+max)/2}" aria-label="${label}" aria-describedby="${description}" aria-valuemin="${min}" aria-valuemax="${max}" ${valid?`aria-valuenow="${value}"`:'aria-valuetext="Chưa nhập số đo"'}><small id="bv-empty-${key}" class="bv-field-help" ${valid?'hidden':''}>Chưa nhập số đo · Kéo thanh trượt hoặc nhập số để chọn.</small>${helper?`<small id="bv-${key}-help" class="bv-field-help">${helper}</small>`:''}${measurementGuidance[key]?`<small id="bv-clamp-${key}" class="bv-field-help bv-clamp" role="status" hidden>Mô hình đã đạt giới hạn hiển thị cho số đo này. Số bạn nhập vẫn được giữ nguyên.</small>`:''}<small id="bv-error-${key}" class="bv-error"></small></div>`;
+  const [originalLabel,,,unit]=fields[key],label=key==='inseam'?'Chiều dài chân (tham khảo)':originalLabel;
+  const value=editedBody()[key],range=policyRange(key),valid=Number.isFinite(value),calibrated=isCalibrated(key),normalized=calibrated||key==='height';
+  const helper=key==='weight'?'Cân nặng chỉ dùng để tính BMI tham khảo; không thay đổi mô hình 3D.':key==='inseam'?'Số đo này hiện chưa thay đổi mô hình 3D.':'';
+  const draft=draftBucket()[key],raw=draft===undefined?typedValue(key,value):draft;
+  const numberRange=normalized?displayedRange(range):range;
+  const description=`bv-unit-${key} bv-error-${key} bv-empty-${key}${helper?` bv-${key}-help`:''}${calibrated?` bv-near-${key}`:''}${key==='height'?' bv-height-transaction':''}`;
+  const sliderMin=normalized?0:range.min,sliderMax=normalized?SLIDER_STEPS:range.max;
+  const sliderValueNow=valid?(normalized?sliderPosition(value,range):value):(sliderMin+sliderMax)/2;
+  return `<div class="bv-field" data-field="${key}" data-unset="${!valid}"><div class="bv-field__top"><div class="bv-field-label"><label for="bv-${key}">${label}</label>${measurementGuidance[key]?`<details class="bv-measure-help"><summary aria-label="Cách đo ${label.toLowerCase()}">?</summary><p>${measurementGuidance[key]}</p></details>`:''}</div><div><input id="bv-${key}" data-number="${key}" type="number" inputmode="decimal" min="${numberRange.min}" max="${numberRange.max}" step="any" value="${raw}" aria-describedby="${description}" ${normalized&&!uxProfiles?'disabled':''}><span id="bv-unit-${key}">${unit}</span></div></div><input type="range" data-range="${key}" min="${sliderMin}" max="${sliderMax}" step="${normalized?1:0.1}" value="${sliderValueNow}" aria-label="${label}" aria-describedby="${description}" aria-valuemin="${range.min}" aria-valuemax="${range.max}" ${valid?`aria-valuenow="${value}" aria-valuetext="${displayCm(value)} ${unit}"`:'aria-valuetext="Chưa nhập số đo"'} ${normalized&&!uxProfiles?'disabled':''}><small id="bv-empty-${key}" class="bv-field-help" ${valid?'hidden':''}>Chưa nhập số đo; mô hình giữ mức trung tính cho vùng này.</small>${helper?`<small id="bv-${key}-help" class="bv-field-help">${helper}</small>`:''}${calibrated?`<small id="bv-near-${key}" class="bv-field-help bv-near" role="status" hidden>Gần giới hạn mô phỏng.</small>`:''}<small id="bv-error-${key}" class="bv-error" role="status"></small>${calibrated?`<button type="button" class="bv-limit-action" data-use-limit="${key}" hidden></button>`:''}${key==='height'?'<div id="bv-height-transaction" class="bv-height-transaction" data-height-transaction role="status" hidden><p data-height-message></p><button type="button" data-apply-height></button><button type="button" data-cancel-height>Hủy thay đổi chiều cao</button></div>':''}</div>`;
 }
 function updateFieldFeedback(){
-  const active=document.activeElement?.closest('[data-field]');
-  const mapped=uxProfiles&&state.step<2?mapMeasurements(editedBody(),uxProfiles):null;
   $$('[data-field]').forEach(field=>{
     const key=field.dataset.field,input=field.querySelector('[data-number]'),slider=field.querySelector('[data-range]');
-    const valid=validateMeasurement(key,input.value)!==null;
-    const empty=input.value.trim()===''&&!input.validity.badInput;
-    const note=field.querySelector('#bv-empty-'+key);
-    note.hidden=valid;
-    note.textContent=empty?'Chưa nhập số đo · Kéo thanh trượt hoặc nhập số để chọn.':'Chưa có số đo hợp lệ · Kéo thanh trượt hoặc sửa số đã nhập.';
-    field.dataset.empty=String(!valid);
-    if(!valid){slider.removeAttribute('aria-valuenow');slider.setAttribute('aria-valuetext',empty?'Chưa nhập số đo':'Số đo không hợp lệ');}
-    const clamp=field.querySelector('.bv-clamp');
-    if(clamp)clamp.hidden=!(active===field&&valid&&mapped?.debug[key]?.clamped);
+    const committed=editedBody()[key],range=policyRange(key),draft=draftBucket()[key];
+    const result=draft===undefined?null:validate(key,draft,input.validity.badInput);
+    const pending=key==='height'&&pendingHeight&&state.step===0;
+    const invalid=Boolean(result&&!result.valid)||Boolean(pending);
+    if(draft===undefined&&document.activeElement!==input)input.value=typedValue(key,committed);
+    const numberRange=isCalibrated(key)||key==='height'?displayedRange(range):range;
+    input.min=numberRange.min;input.max=numberRange.max;
+    if(uxProfiles){input.disabled=false;slider.disabled=false;}
+    input.setAttribute('aria-invalid',String(invalid));
+    field.querySelector('.bv-error').textContent=pending?'Chiều cao mới cần điều chỉnh các số đo được liệt kê.':invalid?fieldError(key,result):'';
+    const action=field.querySelector('[data-use-limit]');
+    if(action){action.hidden=!(result?.status==='unsupported');if(!action.hidden)action.textContent=`Dùng giới hạn ${displayCm(result.nearest)} cm`;}
+    const valueValid=Number.isFinite(committed),empty=committed==null&&draft===undefined;
+    field.dataset.unset=String(committed==null);field.dataset.empty=String(empty);
+    field.dataset.endpoint=String(isCalibrated(key)&&valueValid&&(committed===range.min||committed===range.max));
+    const note=field.querySelector('#bv-empty-'+key);note.hidden=!empty;
+    if(isCalibrated(key)){
+      slider.min=0;slider.max=SLIDER_STEPS;slider.step=1;
+      slider.value=valueValid?sliderPosition(committed,range):SLIDER_STEPS/2;
+      field.querySelector('.bv-near').hidden=!technicalStatus(key,committed,editedBody().height,uxProfiles).near;
+    }else if(key==='height'){slider.min=0;slider.max=SLIDER_STEPS;slider.step=1;slider.value=valueValid?sliderPosition(committed,range):SLIDER_STEPS/2;}
+    else{slider.min=range.min;slider.max=range.max;slider.step=.1;slider.value=valueValid?committed:(range.min+range.max)/2;}
+    slider.setAttribute('aria-valuemin',range.min);slider.setAttribute('aria-valuemax',range.max);
+    if(valueValid){slider.setAttribute('aria-valuenow',committed);slider.setAttribute('aria-valuetext',`${displayCm(committed)} ${fields[key][3]}`);}
+    else{slider.removeAttribute('aria-valuenow');slider.setAttribute('aria-valuetext','Chưa nhập số đo');}
   });
+  const transaction=$('[data-height-transaction]');
+  if(transaction){transaction.hidden=!pendingHeight;if(pendingHeight){transaction.querySelector('[data-height-message]').textContent=`Chiều cao ${displayCm(pendingHeight.value)} cm khiến ${pendingHeight.affected.length} số đo vượt giới hạn: ${pendingHeight.affected.map(key=>fields[key][0]).join(', ')}.`;transaction.querySelector('[data-apply-height]').textContent=`Điều chỉnh ${pendingHeight.affected.length} số đo & áp dụng chiều cao`;}}
 }
 function renderFields(){
   const goal=state.step===1;
@@ -59,22 +92,17 @@ function renderFields(){
 }
 function updateSummary({updateGeometry=true}={}){
   const m=state.mode==='goal'?state.goalBody:state.currentBody;
-  // Visible invalid drafts must never borrow BMI from last-known-valid state.
-  const invalidDraft=state.step<2&&['height','weight'].some(key=>{
-    const input=$('[data-number="'+key+'"]');
-    return input&&(input.getAttribute('aria-invalid')==='true'||validateMeasurement(key,input.value)===null);
-  });
-  const bmi=invalidDraft?null:calculateBMI(m.height,m.weight);
+  updateFieldFeedback();
+  // Drafts never replace committed Height/Weight, including pending Height.
+  const bmi=calculateBMI(m.height,m.weight);
   $('[data-bmi]').textContent=bmi??'—';
   $('[data-bmi-label]').textContent=state.mode==='goal'?'BMI mục tiêu · tham khảo':'BMI hiện tại · tham khảo';
   $('[data-bmi-unavailable]').hidden=bmi!==null;
-  updateFieldFeedback();
   $('[data-bmi]').setAttribute('aria-label',bmi===null?'BMI chưa khả dụng':'BMI '+bmi);
-  $('[data-height-clamp]').hidden=!mapHeight(m.height).clamped;
   $('[data-model-label]').textContent=state.mode==='compare'?'HIỆN TẠI / MỤC TIÊU':state.mode==='goal'?'MỤC TIÊU':'HIỆN TẠI';
   for(const selector of ['.bv-split','.bv-divider','.bv-compare-labels'])$(selector).hidden=state.mode!=='compare';
   $$('[data-mode]').forEach(button=>button.setAttribute('aria-pressed',String(button.dataset.mode===state.mode)));
-  if(state.goalBody)$('[data-differences]').innerHTML=['weight','chest','waist','hip','thigh','calf'].map(key=>`<div class="bv-difference"><span>${fields[key][0]}</span><span>${state.currentBody[key]??'—'} <span aria-hidden="true">→</span><span class="sr-only">sang mục tiêu</span> <strong>${state.goalBody[key]??'—'} ${fields[key][3]}</strong></span></div>`).join('');
+  if(state.goalBody)$('[data-differences]').innerHTML=['weight','chest','waist','hip','thigh','calf'].map(key=>`<div class="bv-difference"><span>${fields[key][0]}</span><span>${summaryValue(key,state.currentBody[key])} <span aria-hidden="true">→</span><span class="sr-only">sang mục tiêu</span> <strong>${summaryValue(key,state.goalBody[key])} ${fields[key][3]}</strong></span></div>`).join('');
   if(updateGeometry)scene?.setState(state);
 }
 function renderStep(focus=false){
@@ -100,15 +128,60 @@ function goTo(step){
 }
 root.addEventListener('focusin',updateFieldFeedback);
 root.addEventListener('focusout',()=>queueMicrotask(updateFieldFeedback));
+const fieldFor=key=>$(`[data-field="${key}"]`);
+function affectedAtHeight(height,body){
+  return Object.keys(calibratedFields).filter(key=>{
+    const value=body[key];if(value==null)return false;
+    const range=supportedRange(key,height,uxProfiles);
+    return range&&(value<range.min||value>range.max);
+  });
+}
+function commit(key,value){
+  const stateKey=state.step===1?'goalBody':'currentBody';
+  state[stateKey]={...state[stateKey],[key]:value};
+  delete draftBucket()[key];
+  if(pendingHeight&&state.step===0&&key!=='height'){
+    pendingHeight.affected=affectedAtHeight(pendingHeight.value,state.currentBody);
+    if(!pendingHeight.affected.length){state.currentBody={...state.currentBody,height:pendingHeight.value};delete drafts.current.height;pendingHeight=null;}
+  }
+  updateSummary({updateGeometry:key!=='weight'});
+}
 root.addEventListener('input',event=>{
   const input=event.target,key=input.dataset.number||input.dataset.range;
   if(!key)return;
-  const value=validateMeasurement(key,input.value),field=input.closest('[data-field]');
-  if(value===null){const optionalEmpty=key in calibratedFields&&input.value.trim()===''&&!input.validity.badInput;input.setAttribute('aria-invalid',String(!optionalEmpty));field.querySelector('.bv-error').textContent=optionalEmpty?'':`Nhập từ ${fields[key][1]} đến ${fields[key][2]} ${fields[key][3]}.`;
-    if(key in calibratedFields||key==='height'){const stateKey=state.step===1?'goalBody':'currentBody';state[stateKey]={...state[stateKey],[key]:null};const slider=field.querySelector('[data-range]');slider.removeAttribute('aria-valuenow');slider.setAttribute('aria-valuetext',optionalEmpty?'Chưa nhập số đo':'Số đo không hợp lệ');updateSummary();}else if(key==='weight')updateSummary({updateGeometry:false});updateFieldFeedback();return;}
-  field.querySelector('.bv-error').textContent='';$('[data-form-error]').textContent='';
-  field.querySelectorAll('input').forEach(el=>{el.removeAttribute('aria-invalid');if(el!==input)el.value=value;if(el.type==='range'){el.setAttribute('aria-valuenow',el.value);el.removeAttribute('aria-valuetext');}});
-  const stateKey=state.step===1?'goalBody':'currentBody';state[stateKey]={...state[stateKey],[key]:value};updateSummary({updateGeometry:key!=='weight'});
+  if(input.dataset.range){
+    const range=policyRange(key),normalized=isCalibrated(key)||key==='height';
+    const value=normalized?sliderValue(input.value,range):Number(input.value);
+    const committed=normalized&&Number(input.value)!==0&&Number(input.value)!==SLIDER_STEPS?nearest(Number(value.toFixed(1)),range):value;
+    if(key==='height'){
+      const affected=affectedAtHeight(committed,state.currentBody);
+      if(affected.length){drafts.current.height=typedValue(key,committed);fieldFor(key).querySelector('[data-number]').value=typedValue(key,committed);pendingHeight={value:committed,affected};updateSummary({updateGeometry:false});return;}
+    }
+    commit(key,committed);fieldFor(key).querySelector('[data-number]').value=typedValue(key,committed);return;
+  }
+  draftBucket()[key]=input.value;
+  const result=validate(key,input.value,input.validity.badInput);
+  if(!result.valid){if(key==='height')pendingHeight=null;updateSummary({updateGeometry:false});return;}
+  const committed=(isCalibrated(key)||key==='height')&&result.value!=null?normalizeMeasurement(result.value,result.range):result.value;
+  if(key==='height'){
+    if(committed!==state.currentBody.height){
+      const affected=affectedAtHeight(committed,state.currentBody);
+      if(affected.length){pendingHeight={value:committed,affected};updateSummary({updateGeometry:false});return;}
+    }
+    pendingHeight=null;
+  }
+  commit(key,committed);$('[data-form-error]').textContent='';
+});
+root.addEventListener('click',event=>{
+  const limit=event.target.closest('[data-use-limit]');
+  if(limit){const key=limit.dataset.useLimit,result=validate(key,draftBucket()[key]);if(result.status==='unsupported'){commit(key,result.nearest);fieldFor(key).querySelector('[data-number]').value=typedValue(key,result.nearest);}return;}
+  if(event.target.closest('[data-apply-height]')&&pendingHeight){
+    const height=pendingHeight.value,next={...state.currentBody,height};
+    for(const key of pendingHeight.affected){next[key]=nearest(next[key],supportedRange(key,height,uxProfiles));delete drafts.current[key];}
+    state.currentBody=next;pendingHeight=null;delete drafts.current.height;
+    updateSummary();return;
+  }
+  if(event.target.closest('[data-cancel-height]')){pendingHeight=null;delete drafts.current.height;fieldFor('height').querySelector('[data-number]').value=typedValue('height',state.currentBody.height);updateSummary({updateGeometry:false});}
 });
 root.addEventListener('change',event=>{if(event.target.name==='bv-gender'){state.currentBody={...state.currentBody,gender:event.target.value};updateSummary();}});
 $$('[data-step]').forEach(button=>button.addEventListener('click',()=>goTo(Number(button.dataset.step))));
@@ -121,12 +194,12 @@ $('.bv-goals').addEventListener('change',event=>{state.selectedGoal=Number(event
 const contact=document.querySelector('.floating-contact__item[href^="https://zalo.me/"]');
 if(contact){$('[data-contact]').href=contact.href;$('[data-contact]').target='_blank';$('[data-contact]').rel='noopener noreferrer';}
 const dialog=$('.bv-reset-dialog');$('[data-reset]').addEventListener('click',()=>dialog.showModal());
-dialog.addEventListener('close',()=>{if(dialog.returnValue==='reset'){state=createState();state.currentBody.height=null;for(const key of Object.keys(calibratedFields))state.currentBody[key]=null;scene?.resetProductionMorphs();$('.bv-recommendation').hidden=true;$('.bv-conversion').hidden=true;$$('[name="bv-goal"]').forEach(el=>el.checked=false);$('[data-form-error]').textContent='';$('#bv-split').value=50;$('.bv-divider').style.left='50%';scene?.setSplit(50);renderStep(true);}});
+dialog.addEventListener('close',()=>{if(dialog.returnValue==='reset'){state=createState();drafts={current:{},goal:{}};pendingHeight=null;$('.bv-recommendation').hidden=true;$('.bv-conversion').hidden=true;$$('[name="bv-goal"]').forEach(el=>el.checked=false);$('[data-form-error]').textContent='';$('#bv-split').value=50;$('.bv-divider').style.left='50%';scene?.setSplit(50);renderStep(true);}});
 function fallback(message){$('.bv-loading').hidden=false;$('[data-load-message]').textContent=message;$('[data-retry]').hidden=false;root.dataset.viewer='fallback';}
 async function loadScene(){
   if(loading)return;loading=true;scene?.dispose();scene=null;
   $('[data-retry]').hidden=true;$('[data-load-message]').textContent='Đang chuẩn bị mô hình…';
-  try{const profiles=await loadCalibration();uxProfiles=profiles;configureCalibrationFields(profiles);for(const [key] of Object.entries(profiles)){const field=$(`[data-field="${key}"]`);field?.querySelectorAll('input').forEach(input=>{input.min=fields[key][1];input.max=fields[key][2];if(input.type==='range'){input.setAttribute('aria-valuemin',input.min);input.setAttribute('aria-valuemax',input.max);}});}const {createScene}=await import('./scene.js');const loaded=await createScene($('.bv-stage'),fallback,()=>$$('[data-view]').forEach(b=>b.setAttribute('aria-pressed','false')));if(pageInactive){loaded.dispose();return;}scene=loaded;scene.setState(state);scene.setSplit(Number($('#bv-split').value));$('.bv-loading').hidden=true;root.dataset.viewer='ready';updateFieldFeedback();$('[data-view="front"]').setAttribute('aria-pressed','true');}
+  try{const profiles=await loadCalibration();uxProfiles=profiles;configureCalibrationFields(profiles);updateFieldFeedback();const {createScene}=await import('./scene.js');const loaded=await createScene($('.bv-stage'),fallback,()=>$$('[data-view]').forEach(b=>b.setAttribute('aria-pressed','false')));if(pageInactive){loaded.dispose();return;}scene=loaded;scene.setState(state);scene.setSplit(Number($('#bv-split').value));$('.bv-loading').hidden=true;root.dataset.viewer='ready';updateFieldFeedback();$('[data-view="front"]').setAttribute('aria-pressed','true');}
   catch{fallback('Trình duyệt của bạn hiện không hỗ trợ chế độ mô phỏng 3D hoặc không thể tải mô hình. Bạn vẫn có thể nhập số đo, so sánh và chọn mục tiêu.');}
   finally{loading=false;}
 }
