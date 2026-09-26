@@ -9,7 +9,7 @@ export async function loadBody(){
   const group=gltf.scene,controller=createMorphController(group);
   const dispose=()=>{const geometries=new Set(),materials=new Set(),textures=new Set();group.traverse(o=>{if(o.isMesh){geometries.add(o.geometry);for(const m of [o.material].flat()){materials.add(m);for(const value of Object.values(m))if(value?.isTexture)textures.add(value);}}});for(const x of [...textures,...materials,...geometries])x.dispose();};
   const expected=[...phenotypeMorphs,...productionMorphs];
-  if(controller.missing.length||!controller.inspect().length||controller.inspect().some(m=>Object.keys(m.dictionary).length!==19||expected.some(n=>m.dictionary[n]===undefined))){dispose();throw new Error('Invalid production v4 morph dictionary');}
+  if(controller.missing.length||!controller.inspect().length||controller.inspect().some(m=>Object.keys(m.dictionary).length!==19||expected.some(n=>m.dictionary[n]===undefined))){dispose();throw new Error('Invalid production v5 morph dictionary');}
   controller.resetProductionMorphs();
   return {group,controller,dispose};
 }
