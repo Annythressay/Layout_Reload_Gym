@@ -1,3 +1,4 @@
+import {inputPolicyRange} from './input-policy.js';
 import {HEIGHT_MIN_CM,HEIGHT_MAX_CM,mapHeight,baselinesAtHeight,baseHeightBaselines} from './height-calibration.js';
 import {calibratedFields,measurementCmToMorphWeight} from './normalization.js';
 
@@ -36,12 +37,8 @@ export function validateDraft(key,raw,{height,profiles,fallback,allowEmpty=false
   if(!text)return allowEmpty?{status:'empty',valid:true,value:null}:{status:'empty-required',valid:false};
   const value=Number(text);
   if(!Number.isFinite(value))return {status:'malformed',valid:false};
-  const range=supportedRange(key,height,profiles)||fallback;
+  const range=inputPolicyRange(key)||fallback;
   if(!range)return {status:'unavailable',valid:false};
-  if(key==='height'||isCalibrated(key)){
-    const endpoint=canonicalEndpoint(value,range);
-    if(endpoint!==null)return {status:'valid',valid:true,value:endpoint,range,canonicalized:true};
-  }
   if(value<range.min||value>range.max)return {status:'unsupported',valid:false,value,range,nearest:nearest(value,range)};
   return {status:'valid',valid:true,value,range};
 }

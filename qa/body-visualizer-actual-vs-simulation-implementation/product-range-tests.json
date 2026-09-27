@@ -1,0 +1,266 @@
+{
+  "pass": true,
+  "cases": [
+    {
+      "key": "thigh",
+      "actualValue": 40,
+      "simulationValue": 46.9250325899858,
+      "mappingValue": 46.9250325899858,
+      "simulationMin": 46.9250325899858,
+      "simulationMax": 61.49953870737355,
+      "simulationStatus": "BELOW_SIMULATION_RANGE"
+    },
+    {
+      "key": "thigh",
+      "actualValue": 46.9,
+      "simulationValue": 46.9,
+      "mappingValue": 46.9250325899858,
+      "simulationMin": 46.9250325899858,
+      "simulationMax": 61.49953870737355,
+      "simulationStatus": "SUPPORTED"
+    },
+    {
+      "key": "thigh",
+      "actualValue": 52,
+      "simulationValue": 52,
+      "mappingValue": 52,
+      "simulationMin": 46.9250325899858,
+      "simulationMax": 61.49953870737355,
+      "simulationStatus": "SUPPORTED"
+    },
+    {
+      "key": "thigh",
+      "actualValue": 61.5,
+      "simulationValue": 61.5,
+      "mappingValue": 61.49953870737355,
+      "simulationMin": 46.9250325899858,
+      "simulationMax": 61.49953870737355,
+      "simulationStatus": "SUPPORTED"
+    },
+    {
+      "key": "thigh",
+      "actualValue": 68,
+      "simulationValue": 61.49953870737355,
+      "mappingValue": 61.49953870737355,
+      "simulationMin": 46.9250325899858,
+      "simulationMax": 61.49953870737355,
+      "simulationStatus": "ABOVE_SIMULATION_RANGE"
+    },
+    {
+      "key": "thigh",
+      "actualValue": 72,
+      "simulationValue": 61.49953870737355,
+      "mappingValue": 61.49953870737355,
+      "simulationMin": 46.9250325899858,
+      "simulationMax": 61.49953870737355,
+      "simulationStatus": "ABOVE_SIMULATION_RANGE"
+    },
+    {
+      "key": "thigh",
+      "actualValue": 75,
+      "simulationValue": 61.49953870737355,
+      "mappingValue": 61.49953870737355,
+      "simulationMin": 46.9250325899858,
+      "simulationMax": 61.49953870737355,
+      "simulationStatus": "ABOVE_SIMULATION_RANGE"
+    },
+    {
+      "key": "arm",
+      "actualValue": 18,
+      "simulationValue": 18.475460806644637,
+      "mappingValue": 18.475460806644637,
+      "simulationMin": 18.475460806644637,
+      "simulationMax": 37.97387142119731,
+      "simulationStatus": "BELOW_SIMULATION_RANGE"
+    },
+    {
+      "key": "arm",
+      "actualValue": 28,
+      "simulationValue": 28,
+      "mappingValue": 28,
+      "simulationMin": 18.475460806644637,
+      "simulationMax": 37.97387142119731,
+      "simulationStatus": "SUPPORTED"
+    },
+    {
+      "key": "arm",
+      "actualValue": 38,
+      "simulationValue": 38,
+      "mappingValue": 37.97387142119731,
+      "simulationMin": 18.475460806644637,
+      "simulationMax": 37.97387142119731,
+      "simulationStatus": "SUPPORTED"
+    },
+    {
+      "key": "arm",
+      "actualValue": 45,
+      "simulationValue": 37.97387142119731,
+      "mappingValue": 37.97387142119731,
+      "simulationMin": 18.475460806644637,
+      "simulationMax": 37.97387142119731,
+      "simulationStatus": "ABOVE_SIMULATION_RANGE"
+    },
+    {
+      "key": "arm",
+      "actualValue": 48,
+      "simulationValue": 37.97387142119731,
+      "mappingValue": 37.97387142119731,
+      "simulationMin": 18.475460806644637,
+      "simulationMax": 37.97387142119731,
+      "simulationStatus": "ABOVE_SIMULATION_RANGE"
+    },
+    {
+      "key": "arm",
+      "actualValue": 50,
+      "simulationValue": 37.97387142119731,
+      "mappingValue": 37.97387142119731,
+      "simulationMin": 18.475460806644637,
+      "simulationMax": 37.97387142119731,
+      "simulationStatus": "ABOVE_SIMULATION_RANGE"
+    },
+    {
+      "key": "waist",
+      "actualValue": 55,
+      "simulationValue": 62.92469865279105,
+      "mappingValue": 62.92469865279105,
+      "simulationMin": 62.92469865279105,
+      "simulationMax": 83.15910863687272,
+      "simulationStatus": "BELOW_SIMULATION_RANGE"
+    },
+    {
+      "key": "waist",
+      "actualValue": 72,
+      "simulationValue": 72,
+      "mappingValue": 72,
+      "simulationMin": 62.92469865279105,
+      "simulationMax": 83.15910863687272,
+      "simulationStatus": "SUPPORTED"
+    },
+    {
+      "key": "waist",
+      "actualValue": 83,
+      "simulationValue": 83,
+      "mappingValue": 83,
+      "simulationMin": 62.92469865279105,
+      "simulationMax": 83.15910863687272,
+      "simulationStatus": "SUPPORTED"
+    },
+    {
+      "key": "waist",
+      "actualValue": 100,
+      "simulationValue": 83.15910863687272,
+      "mappingValue": 83.15910863687272,
+      "simulationMin": 62.92469865279105,
+      "simulationMax": 83.15910863687272,
+      "simulationStatus": "ABOVE_SIMULATION_RANGE"
+    },
+    {
+      "key": "waist",
+      "actualValue": 120,
+      "simulationValue": 83.15910863687272,
+      "mappingValue": 83.15910863687272,
+      "simulationMin": 62.92469865279105,
+      "simulationMax": 83.15910863687272,
+      "simulationStatus": "ABOVE_SIMULATION_RANGE"
+    },
+    {
+      "key": "waist",
+      "actualValue": 150,
+      "simulationValue": 83.15910863687272,
+      "mappingValue": 83.15910863687272,
+      "simulationMin": 62.92469865279105,
+      "simulationMax": 83.15910863687272,
+      "simulationStatus": "ABOVE_SIMULATION_RANGE"
+    },
+    {
+      "key": "chest",
+      "actualValue": 70,
+      "simulationValue": 75.90384941713067,
+      "mappingValue": 75.90384941713067,
+      "simulationMin": 75.90384941713067,
+      "simulationMax": 108.17902223749624,
+      "simulationStatus": "BELOW_SIMULATION_RANGE"
+    },
+    {
+      "key": "chest",
+      "actualValue": 88,
+      "simulationValue": 88,
+      "mappingValue": 88,
+      "simulationMin": 75.90384941713067,
+      "simulationMax": 108.17902223749624,
+      "simulationStatus": "SUPPORTED"
+    },
+    {
+      "key": "chest",
+      "actualValue": 108,
+      "simulationValue": 108,
+      "mappingValue": 108,
+      "simulationMin": 75.90384941713067,
+      "simulationMax": 108.17902223749624,
+      "simulationStatus": "SUPPORTED"
+    },
+    {
+      "key": "chest",
+      "actualValue": 120,
+      "simulationValue": 108.17902223749624,
+      "mappingValue": 108.17902223749624,
+      "simulationMin": 75.90384941713067,
+      "simulationMax": 108.17902223749624,
+      "simulationStatus": "ABOVE_SIMULATION_RANGE"
+    },
+    {
+      "key": "chest",
+      "actualValue": 140,
+      "simulationValue": 108.17902223749624,
+      "mappingValue": 108.17902223749624,
+      "simulationMin": 75.90384941713067,
+      "simulationMax": 108.17902223749624,
+      "simulationStatus": "ABOVE_SIMULATION_RANGE"
+    },
+    {
+      "key": "height",
+      "actualValue": 145,
+      "simulationValue": 151.21778195689558,
+      "mappingValue": 151.21778195689558,
+      "simulationMin": 151.21778195689558,
+      "simulationMax": 194.6037856625685,
+      "simulationStatus": "BELOW_SIMULATION_RANGE"
+    },
+    {
+      "key": "height",
+      "actualValue": 151.2,
+      "simulationValue": 151.2,
+      "mappingValue": 151.21778195689558,
+      "simulationMin": 151.21778195689558,
+      "simulationMax": 194.6037856625685,
+      "simulationStatus": "SUPPORTED"
+    },
+    {
+      "key": "height",
+      "actualValue": 165,
+      "simulationValue": 165,
+      "mappingValue": 165,
+      "simulationMin": 151.21778195689558,
+      "simulationMax": 194.6037856625685,
+      "simulationStatus": "SUPPORTED"
+    },
+    {
+      "key": "height",
+      "actualValue": 194.6,
+      "simulationValue": 194.6,
+      "mappingValue": 194.6037856625685,
+      "simulationMin": 151.21778195689558,
+      "simulationMax": 194.6037856625685,
+      "simulationStatus": "SUPPORTED"
+    },
+    {
+      "key": "height",
+      "actualValue": 205,
+      "simulationValue": 194.6037856625685,
+      "mappingValue": 194.6037856625685,
+      "simulationMin": 151.21778195689558,
+      "simulationMax": 194.6037856625685,
+      "simulationStatus": "ABOVE_SIMULATION_RANGE"
+    }
+  ]
+}

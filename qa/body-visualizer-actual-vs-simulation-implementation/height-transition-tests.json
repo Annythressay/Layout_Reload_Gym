@@ -1,0 +1,393 @@
+{
+  "pass": true,
+  "derivations": [
+    {
+      "actualHeight": 190,
+      "simulationHeight": 190,
+      "sceneBody": {
+        "gender": "neutral",
+        "height": 190,
+        "weight": 60,
+        "chest": 88,
+        "waist": 72,
+        "hip": 94.00366436374559,
+        "inseam": 76,
+        "shoulder": 38,
+        "arm": 28,
+        "thigh": 65,
+        "calf": null
+      },
+      "fields": {
+        "height": {
+          "actualValue": 190,
+          "simulationValue": 190,
+          "mappingValue": 190,
+          "simulationMin": 151.21778195689558,
+          "simulationMax": 194.6037856625685,
+          "simulationStatus": "SUPPORTED"
+        },
+        "waist": {
+          "actualValue": 72,
+          "simulationValue": 72,
+          "mappingValue": 72,
+          "simulationMin": 70.31620957426176,
+          "simulationMax": 90.55061955834343,
+          "simulationStatus": "SUPPORTED"
+        },
+        "chest": {
+          "actualValue": 88,
+          "simulationValue": 88,
+          "mappingValue": 88,
+          "simulationMin": 84.50304187763582,
+          "simulationMax": 116.77821469800139,
+          "simulationStatus": "SUPPORTED"
+        },
+        "shoulder": {
+          "actualValue": 38,
+          "simulationValue": 38,
+          "mappingValue": 38,
+          "simulationMin": 37.50073438330294,
+          "simulationMax": 45.180736238199486,
+          "simulationStatus": "SUPPORTED"
+        },
+        "arm": {
+          "actualValue": 28,
+          "simulationValue": 28,
+          "mappingValue": 28,
+          "simulationMin": 21.24136217843469,
+          "simulationMax": 40.73977279298737,
+          "simulationStatus": "SUPPORTED"
+        },
+        "thigh": {
+          "actualValue": 65,
+          "simulationValue": 65,
+          "mappingValue": 65,
+          "simulationMin": 51.94342367056115,
+          "simulationMax": 66.5179297879489,
+          "simulationStatus": "SUPPORTED"
+        },
+        "calf": {
+          "actualValue": null,
+          "simulationValue": null,
+          "mappingValue": null,
+          "simulationMin": 30.376587456234134,
+          "simulationMax": 50.276576049473476,
+          "simulationStatus": "UNSET"
+        },
+        "hip": {
+          "actualValue": 92,
+          "simulationValue": 94.00366436374559,
+          "mappingValue": 94.00366436374559,
+          "simulationMin": 94.00366436374559,
+          "simulationMax": 122.85677910992936,
+          "simulationStatus": "BELOW_SIMULATION_RANGE"
+        },
+        "weight": {
+          "actualValue": 60,
+          "simulationValue": null,
+          "simulationMin": null,
+          "simulationMax": null,
+          "simulationStatus": "NOT_APPLICABLE"
+        },
+        "inseam": {
+          "actualValue": 76,
+          "simulationValue": null,
+          "simulationMin": null,
+          "simulationMax": null,
+          "simulationStatus": "NOT_APPLICABLE"
+        }
+      }
+    },
+    {
+      "actualHeight": 160,
+      "simulationHeight": 160,
+      "sceneBody": {
+        "gender": "neutral",
+        "height": 160,
+        "weight": 60,
+        "chest": 88,
+        "waist": 72,
+        "hip": 92,
+        "inseam": 76,
+        "shoulder": 38,
+        "arm": 28,
+        "thigh": 60.498831463065834,
+        "calf": null
+      },
+      "fields": {
+        "height": {
+          "actualValue": 160,
+          "simulationValue": 160,
+          "mappingValue": 160,
+          "simulationMin": 151.21778195689558,
+          "simulationMax": 194.6037856625685,
+          "simulationStatus": "SUPPORTED"
+        },
+        "waist": {
+          "actualValue": 72,
+          "simulationValue": 72,
+          "mappingValue": 72,
+          "simulationMin": 61.44567955047941,
+          "simulationMax": 81.68008953456108,
+          "simulationStatus": "SUPPORTED"
+        },
+        "chest": {
+          "actualValue": 88,
+          "simulationValue": 88,
+          "mappingValue": 88,
+          "simulationMin": 74.18557118728744,
+          "simulationMax": 106.460744007653,
+          "simulationStatus": "SUPPORTED"
+        },
+        "shoulder": {
+          "actualValue": 38,
+          "simulationValue": 38,
+          "mappingValue": 38,
+          "simulationMin": 33.044919519985996,
+          "simulationMax": 40.72492137488254,
+          "simulationStatus": "SUPPORTED"
+        },
+        "arm": {
+          "actualValue": 28,
+          "simulationValue": 28,
+          "mappingValue": 28,
+          "simulationMin": 17.923336547555035,
+          "simulationMax": 37.42174716210771,
+          "simulationStatus": "SUPPORTED"
+        },
+        "thigh": {
+          "actualValue": 65,
+          "simulationValue": 60.498831463065834,
+          "mappingValue": 60.498831463065834,
+          "simulationMin": 45.92432534567808,
+          "simulationMax": 60.498831463065834,
+          "simulationStatus": "ABOVE_SIMULATION_RANGE"
+        },
+        "calf": {
+          "actualValue": null,
+          "simulationValue": null,
+          "mappingValue": null,
+          "simulationMin": 26.415926089851986,
+          "simulationMax": 46.31591468309133,
+          "simulationStatus": "UNSET"
+        },
+        "hip": {
+          "actualValue": 92,
+          "simulationValue": 92,
+          "mappingValue": 92,
+          "simulationMin": 82.42672068053409,
+          "simulationMax": 111.27983542671787,
+          "simulationStatus": "SUPPORTED"
+        },
+        "weight": {
+          "actualValue": 60,
+          "simulationValue": null,
+          "simulationMin": null,
+          "simulationMax": null,
+          "simulationStatus": "NOT_APPLICABLE"
+        },
+        "inseam": {
+          "actualValue": 76,
+          "simulationValue": null,
+          "simulationMin": null,
+          "simulationMax": null,
+          "simulationStatus": "NOT_APPLICABLE"
+        }
+      }
+    },
+    {
+      "actualHeight": 205,
+      "simulationHeight": 194.6037856625685,
+      "sceneBody": {
+        "gender": "neutral",
+        "height": 194.6037856625685,
+        "weight": 60,
+        "chest": 88,
+        "waist": 72,
+        "hip": 95.78133866647012,
+        "inseam": 76,
+        "shoulder": 38.184521602729546,
+        "arm": 28,
+        "thigh": 65,
+        "calf": null
+      },
+      "fields": {
+        "height": {
+          "actualValue": 205,
+          "simulationValue": 194.6037856625685,
+          "mappingValue": 194.6037856625685,
+          "simulationMin": 151.21778195689558,
+          "simulationMax": 194.6037856625685,
+          "simulationStatus": "ABOVE_SIMULATION_RANGE"
+        },
+        "waist": {
+          "actualValue": 72,
+          "simulationValue": 72,
+          "mappingValue": 72,
+          "simulationMin": 71.67729581913031,
+          "simulationMax": 91.91170580321197,
+          "simulationStatus": "SUPPORTED"
+        },
+        "chest": {
+          "actualValue": 88,
+          "simulationValue": 88,
+          "mappingValue": 88,
+          "simulationMin": 86.08787655181204,
+          "simulationMax": 118.36304937217761,
+          "simulationStatus": "SUPPORTED"
+        },
+        "shoulder": {
+          "actualValue": 38,
+          "simulationValue": 38.184521602729546,
+          "mappingValue": 38.184521602729546,
+          "simulationMin": 38.184521602729546,
+          "simulationMax": 45.86452345762609,
+          "simulationStatus": "BELOW_SIMULATION_RANGE"
+        },
+        "arm": {
+          "actualValue": 28,
+          "simulationValue": 28,
+          "mappingValue": 28,
+          "simulationMin": 21.751411539454224,
+          "simulationMax": 41.24982215400689,
+          "simulationStatus": "SUPPORTED"
+        },
+        "thigh": {
+          "actualValue": 65,
+          "simulationValue": 65,
+          "mappingValue": 65,
+          "simulationMin": 52.8698825341519,
+          "simulationMax": 67.44438865153965,
+          "simulationStatus": "SUPPORTED"
+        },
+        "calf": {
+          "actualValue": null,
+          "simulationValue": null,
+          "mappingValue": null,
+          "simulationMin": 30.992009336607488,
+          "simulationMax": 50.89199792984683,
+          "simulationStatus": "UNSET"
+        },
+        "hip": {
+          "actualValue": 92,
+          "simulationValue": 95.78133866647012,
+          "mappingValue": 95.78133866647012,
+          "simulationMin": 95.78133866647012,
+          "simulationMax": 124.6344534126539,
+          "simulationStatus": "BELOW_SIMULATION_RANGE"
+        },
+        "weight": {
+          "actualValue": 60,
+          "simulationValue": null,
+          "simulationMin": null,
+          "simulationMax": null,
+          "simulationStatus": "NOT_APPLICABLE"
+        },
+        "inseam": {
+          "actualValue": 76,
+          "simulationValue": null,
+          "simulationMin": null,
+          "simulationMax": null,
+          "simulationStatus": "NOT_APPLICABLE"
+        }
+      }
+    },
+    {
+      "actualHeight": 190,
+      "simulationHeight": 190,
+      "sceneBody": {
+        "gender": "neutral",
+        "height": 190,
+        "weight": 60,
+        "chest": 88,
+        "waist": 72,
+        "hip": 94.00366436374559,
+        "inseam": 76,
+        "shoulder": 38,
+        "arm": 28,
+        "thigh": 65,
+        "calf": null
+      },
+      "fields": {
+        "height": {
+          "actualValue": 190,
+          "simulationValue": 190,
+          "mappingValue": 190,
+          "simulationMin": 151.21778195689558,
+          "simulationMax": 194.6037856625685,
+          "simulationStatus": "SUPPORTED"
+        },
+        "waist": {
+          "actualValue": 72,
+          "simulationValue": 72,
+          "mappingValue": 72,
+          "simulationMin": 70.31620957426176,
+          "simulationMax": 90.55061955834343,
+          "simulationStatus": "SUPPORTED"
+        },
+        "chest": {
+          "actualValue": 88,
+          "simulationValue": 88,
+          "mappingValue": 88,
+          "simulationMin": 84.50304187763582,
+          "simulationMax": 116.77821469800139,
+          "simulationStatus": "SUPPORTED"
+        },
+        "shoulder": {
+          "actualValue": 38,
+          "simulationValue": 38,
+          "mappingValue": 38,
+          "simulationMin": 37.50073438330294,
+          "simulationMax": 45.180736238199486,
+          "simulationStatus": "SUPPORTED"
+        },
+        "arm": {
+          "actualValue": 28,
+          "simulationValue": 28,
+          "mappingValue": 28,
+          "simulationMin": 21.24136217843469,
+          "simulationMax": 40.73977279298737,
+          "simulationStatus": "SUPPORTED"
+        },
+        "thigh": {
+          "actualValue": 65,
+          "simulationValue": 65,
+          "mappingValue": 65,
+          "simulationMin": 51.94342367056115,
+          "simulationMax": 66.5179297879489,
+          "simulationStatus": "SUPPORTED"
+        },
+        "calf": {
+          "actualValue": null,
+          "simulationValue": null,
+          "mappingValue": null,
+          "simulationMin": 30.376587456234134,
+          "simulationMax": 50.276576049473476,
+          "simulationStatus": "UNSET"
+        },
+        "hip": {
+          "actualValue": 92,
+          "simulationValue": 94.00366436374559,
+          "mappingValue": 94.00366436374559,
+          "simulationMin": 94.00366436374559,
+          "simulationMax": 122.85677910992936,
+          "simulationStatus": "BELOW_SIMULATION_RANGE"
+        },
+        "weight": {
+          "actualValue": 60,
+          "simulationValue": null,
+          "simulationMin": null,
+          "simulationMax": null,
+          "simulationStatus": "NOT_APPLICABLE"
+        },
+        "inseam": {
+          "actualValue": 76,
+          "simulationValue": null,
+          "simulationMin": null,
+          "simulationMax": null,
+          "simulationStatus": "NOT_APPLICABLE"
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,899 @@
+{
+  "source": "qa/body-measurement-calibration/measurements.json",
+  "pass": true,
+  "count": 223,
+  "results": [
+    {
+      "name": "waist sample -1",
+      "pass": true
+    },
+    {
+      "name": "waist sample -0.75",
+      "pass": true
+    },
+    {
+      "name": "waist sample -0.5",
+      "pass": true
+    },
+    {
+      "name": "waist sample -0.25",
+      "pass": true
+    },
+    {
+      "name": "waist sample 0",
+      "pass": true
+    },
+    {
+      "name": "waist sample 0.25",
+      "pass": true
+    },
+    {
+      "name": "waist sample 0.5",
+      "pass": true
+    },
+    {
+      "name": "waist sample 0.75",
+      "pass": true
+    },
+    {
+      "name": "waist sample 1",
+      "pass": true
+    },
+    {
+      "name": "waist midpoint 1",
+      "pass": true
+    },
+    {
+      "name": "waist midpoint 2",
+      "pass": true
+    },
+    {
+      "name": "waist midpoint 3",
+      "pass": true
+    },
+    {
+      "name": "waist midpoint 4",
+      "pass": true
+    },
+    {
+      "name": "waist midpoint 5",
+      "pass": true
+    },
+    {
+      "name": "waist midpoint 6",
+      "pass": true
+    },
+    {
+      "name": "waist midpoint 7",
+      "pass": true
+    },
+    {
+      "name": "waist midpoint 8",
+      "pass": true
+    },
+    {
+      "name": "waist clamp below",
+      "pass": true
+    },
+    {
+      "name": "waist clamp above",
+      "pass": true
+    },
+    {
+      "name": "waist invalid/empty null",
+      "pass": true
+    },
+    {
+      "name": "waist invalid/empty undefined",
+      "pass": true
+    },
+    {
+      "name": "waist invalid/empty ",
+      "pass": true
+    },
+    {
+      "name": "waist invalid/empty   ",
+      "pass": true
+    },
+    {
+      "name": "waist invalid/empty NaN",
+      "pass": true
+    },
+    {
+      "name": "waist invalid/empty Infinity",
+      "pass": true
+    },
+    {
+      "name": "waist invalid/empty -Infinity",
+      "pass": true
+    },
+    {
+      "name": "waist invalid/empty invalid",
+      "pass": true
+    },
+    {
+      "name": "waist invalid/empty true",
+      "pass": true
+    },
+    {
+      "name": "waist invalid/empty [object Object]",
+      "pass": true
+    },
+    {
+      "name": "waist invalid/empty ",
+      "pass": true
+    },
+    {
+      "name": "waist numeric input string",
+      "pass": true
+    },
+    {
+      "name": "chest sample -1",
+      "pass": true
+    },
+    {
+      "name": "chest sample -0.75",
+      "pass": true
+    },
+    {
+      "name": "chest sample -0.5",
+      "pass": true
+    },
+    {
+      "name": "chest sample -0.25",
+      "pass": true
+    },
+    {
+      "name": "chest sample 0",
+      "pass": true
+    },
+    {
+      "name": "chest sample 0.25",
+      "pass": true
+    },
+    {
+      "name": "chest sample 0.5",
+      "pass": true
+    },
+    {
+      "name": "chest sample 0.75",
+      "pass": true
+    },
+    {
+      "name": "chest sample 1",
+      "pass": true
+    },
+    {
+      "name": "chest midpoint 1",
+      "pass": true
+    },
+    {
+      "name": "chest midpoint 2",
+      "pass": true
+    },
+    {
+      "name": "chest midpoint 3",
+      "pass": true
+    },
+    {
+      "name": "chest midpoint 4",
+      "pass": true
+    },
+    {
+      "name": "chest midpoint 5",
+      "pass": true
+    },
+    {
+      "name": "chest midpoint 6",
+      "pass": true
+    },
+    {
+      "name": "chest midpoint 7",
+      "pass": true
+    },
+    {
+      "name": "chest midpoint 8",
+      "pass": true
+    },
+    {
+      "name": "chest clamp below",
+      "pass": true
+    },
+    {
+      "name": "chest clamp above",
+      "pass": true
+    },
+    {
+      "name": "chest invalid/empty null",
+      "pass": true
+    },
+    {
+      "name": "chest invalid/empty undefined",
+      "pass": true
+    },
+    {
+      "name": "chest invalid/empty ",
+      "pass": true
+    },
+    {
+      "name": "chest invalid/empty   ",
+      "pass": true
+    },
+    {
+      "name": "chest invalid/empty NaN",
+      "pass": true
+    },
+    {
+      "name": "chest invalid/empty Infinity",
+      "pass": true
+    },
+    {
+      "name": "chest invalid/empty -Infinity",
+      "pass": true
+    },
+    {
+      "name": "chest invalid/empty invalid",
+      "pass": true
+    },
+    {
+      "name": "chest invalid/empty true",
+      "pass": true
+    },
+    {
+      "name": "chest invalid/empty [object Object]",
+      "pass": true
+    },
+    {
+      "name": "chest invalid/empty ",
+      "pass": true
+    },
+    {
+      "name": "chest numeric input string",
+      "pass": true
+    },
+    {
+      "name": "shoulder sample -1",
+      "pass": true
+    },
+    {
+      "name": "shoulder sample -0.75",
+      "pass": true
+    },
+    {
+      "name": "shoulder sample -0.5",
+      "pass": true
+    },
+    {
+      "name": "shoulder sample -0.25",
+      "pass": true
+    },
+    {
+      "name": "shoulder sample 0",
+      "pass": true
+    },
+    {
+      "name": "shoulder sample 0.25",
+      "pass": true
+    },
+    {
+      "name": "shoulder sample 0.5",
+      "pass": true
+    },
+    {
+      "name": "shoulder sample 0.75",
+      "pass": true
+    },
+    {
+      "name": "shoulder sample 1",
+      "pass": true
+    },
+    {
+      "name": "shoulder midpoint 1",
+      "pass": true
+    },
+    {
+      "name": "shoulder midpoint 2",
+      "pass": true
+    },
+    {
+      "name": "shoulder midpoint 3",
+      "pass": true
+    },
+    {
+      "name": "shoulder midpoint 4",
+      "pass": true
+    },
+    {
+      "name": "shoulder midpoint 5",
+      "pass": true
+    },
+    {
+      "name": "shoulder midpoint 6",
+      "pass": true
+    },
+    {
+      "name": "shoulder midpoint 7",
+      "pass": true
+    },
+    {
+      "name": "shoulder midpoint 8",
+      "pass": true
+    },
+    {
+      "name": "shoulder clamp below",
+      "pass": true
+    },
+    {
+      "name": "shoulder clamp above",
+      "pass": true
+    },
+    {
+      "name": "shoulder invalid/empty null",
+      "pass": true
+    },
+    {
+      "name": "shoulder invalid/empty undefined",
+      "pass": true
+    },
+    {
+      "name": "shoulder invalid/empty ",
+      "pass": true
+    },
+    {
+      "name": "shoulder invalid/empty   ",
+      "pass": true
+    },
+    {
+      "name": "shoulder invalid/empty NaN",
+      "pass": true
+    },
+    {
+      "name": "shoulder invalid/empty Infinity",
+      "pass": true
+    },
+    {
+      "name": "shoulder invalid/empty -Infinity",
+      "pass": true
+    },
+    {
+      "name": "shoulder invalid/empty invalid",
+      "pass": true
+    },
+    {
+      "name": "shoulder invalid/empty true",
+      "pass": true
+    },
+    {
+      "name": "shoulder invalid/empty [object Object]",
+      "pass": true
+    },
+    {
+      "name": "shoulder invalid/empty ",
+      "pass": true
+    },
+    {
+      "name": "shoulder numeric input string",
+      "pass": true
+    },
+    {
+      "name": "arm sample -1",
+      "pass": true
+    },
+    {
+      "name": "arm sample -0.75",
+      "pass": true
+    },
+    {
+      "name": "arm sample -0.5",
+      "pass": true
+    },
+    {
+      "name": "arm sample -0.25",
+      "pass": true
+    },
+    {
+      "name": "arm sample 0",
+      "pass": true
+    },
+    {
+      "name": "arm sample 0.25",
+      "pass": true
+    },
+    {
+      "name": "arm sample 0.5",
+      "pass": true
+    },
+    {
+      "name": "arm sample 0.75",
+      "pass": true
+    },
+    {
+      "name": "arm sample 1",
+      "pass": true
+    },
+    {
+      "name": "arm midpoint 1",
+      "pass": true
+    },
+    {
+      "name": "arm midpoint 2",
+      "pass": true
+    },
+    {
+      "name": "arm midpoint 3",
+      "pass": true
+    },
+    {
+      "name": "arm midpoint 4",
+      "pass": true
+    },
+    {
+      "name": "arm midpoint 5",
+      "pass": true
+    },
+    {
+      "name": "arm midpoint 6",
+      "pass": true
+    },
+    {
+      "name": "arm midpoint 7",
+      "pass": true
+    },
+    {
+      "name": "arm midpoint 8",
+      "pass": true
+    },
+    {
+      "name": "arm clamp below",
+      "pass": true
+    },
+    {
+      "name": "arm clamp above",
+      "pass": true
+    },
+    {
+      "name": "arm invalid/empty null",
+      "pass": true
+    },
+    {
+      "name": "arm invalid/empty undefined",
+      "pass": true
+    },
+    {
+      "name": "arm invalid/empty ",
+      "pass": true
+    },
+    {
+      "name": "arm invalid/empty   ",
+      "pass": true
+    },
+    {
+      "name": "arm invalid/empty NaN",
+      "pass": true
+    },
+    {
+      "name": "arm invalid/empty Infinity",
+      "pass": true
+    },
+    {
+      "name": "arm invalid/empty -Infinity",
+      "pass": true
+    },
+    {
+      "name": "arm invalid/empty invalid",
+      "pass": true
+    },
+    {
+      "name": "arm invalid/empty true",
+      "pass": true
+    },
+    {
+      "name": "arm invalid/empty [object Object]",
+      "pass": true
+    },
+    {
+      "name": "arm invalid/empty ",
+      "pass": true
+    },
+    {
+      "name": "arm numeric input string",
+      "pass": true
+    },
+    {
+      "name": "thigh sample -1",
+      "pass": true
+    },
+    {
+      "name": "thigh sample -0.75",
+      "pass": true
+    },
+    {
+      "name": "thigh sample -0.5",
+      "pass": true
+    },
+    {
+      "name": "thigh sample -0.25",
+      "pass": true
+    },
+    {
+      "name": "thigh sample 0",
+      "pass": true
+    },
+    {
+      "name": "thigh sample 0.25",
+      "pass": true
+    },
+    {
+      "name": "thigh sample 0.5",
+      "pass": true
+    },
+    {
+      "name": "thigh sample 0.75",
+      "pass": true
+    },
+    {
+      "name": "thigh sample 1",
+      "pass": true
+    },
+    {
+      "name": "thigh midpoint 1",
+      "pass": true
+    },
+    {
+      "name": "thigh midpoint 2",
+      "pass": true
+    },
+    {
+      "name": "thigh midpoint 3",
+      "pass": true
+    },
+    {
+      "name": "thigh midpoint 4",
+      "pass": true
+    },
+    {
+      "name": "thigh midpoint 5",
+      "pass": true
+    },
+    {
+      "name": "thigh midpoint 6",
+      "pass": true
+    },
+    {
+      "name": "thigh midpoint 7",
+      "pass": true
+    },
+    {
+      "name": "thigh midpoint 8",
+      "pass": true
+    },
+    {
+      "name": "thigh clamp below",
+      "pass": true
+    },
+    {
+      "name": "thigh clamp above",
+      "pass": true
+    },
+    {
+      "name": "thigh invalid/empty null",
+      "pass": true
+    },
+    {
+      "name": "thigh invalid/empty undefined",
+      "pass": true
+    },
+    {
+      "name": "thigh invalid/empty ",
+      "pass": true
+    },
+    {
+      "name": "thigh invalid/empty   ",
+      "pass": true
+    },
+    {
+      "name": "thigh invalid/empty NaN",
+      "pass": true
+    },
+    {
+      "name": "thigh invalid/empty Infinity",
+      "pass": true
+    },
+    {
+      "name": "thigh invalid/empty -Infinity",
+      "pass": true
+    },
+    {
+      "name": "thigh invalid/empty invalid",
+      "pass": true
+    },
+    {
+      "name": "thigh invalid/empty true",
+      "pass": true
+    },
+    {
+      "name": "thigh invalid/empty [object Object]",
+      "pass": true
+    },
+    {
+      "name": "thigh invalid/empty ",
+      "pass": true
+    },
+    {
+      "name": "thigh numeric input string",
+      "pass": true
+    },
+    {
+      "name": "calf sample -1",
+      "pass": true
+    },
+    {
+      "name": "calf sample -0.75",
+      "pass": true
+    },
+    {
+      "name": "calf sample -0.5",
+      "pass": true
+    },
+    {
+      "name": "calf sample -0.25",
+      "pass": true
+    },
+    {
+      "name": "calf sample 0",
+      "pass": true
+    },
+    {
+      "name": "calf sample 0.25",
+      "pass": true
+    },
+    {
+      "name": "calf sample 0.5",
+      "pass": true
+    },
+    {
+      "name": "calf sample 0.75",
+      "pass": true
+    },
+    {
+      "name": "calf sample 1",
+      "pass": true
+    },
+    {
+      "name": "calf midpoint 1",
+      "pass": true
+    },
+    {
+      "name": "calf midpoint 2",
+      "pass": true
+    },
+    {
+      "name": "calf midpoint 3",
+      "pass": true
+    },
+    {
+      "name": "calf midpoint 4",
+      "pass": true
+    },
+    {
+      "name": "calf midpoint 5",
+      "pass": true
+    },
+    {
+      "name": "calf midpoint 6",
+      "pass": true
+    },
+    {
+      "name": "calf midpoint 7",
+      "pass": true
+    },
+    {
+      "name": "calf midpoint 8",
+      "pass": true
+    },
+    {
+      "name": "calf clamp below",
+      "pass": true
+    },
+    {
+      "name": "calf clamp above",
+      "pass": true
+    },
+    {
+      "name": "calf invalid/empty null",
+      "pass": true
+    },
+    {
+      "name": "calf invalid/empty undefined",
+      "pass": true
+    },
+    {
+      "name": "calf invalid/empty ",
+      "pass": true
+    },
+    {
+      "name": "calf invalid/empty   ",
+      "pass": true
+    },
+    {
+      "name": "calf invalid/empty NaN",
+      "pass": true
+    },
+    {
+      "name": "calf invalid/empty Infinity",
+      "pass": true
+    },
+    {
+      "name": "calf invalid/empty -Infinity",
+      "pass": true
+    },
+    {
+      "name": "calf invalid/empty invalid",
+      "pass": true
+    },
+    {
+      "name": "calf invalid/empty true",
+      "pass": true
+    },
+    {
+      "name": "calf invalid/empty [object Object]",
+      "pass": true
+    },
+    {
+      "name": "calf invalid/empty ",
+      "pass": true
+    },
+    {
+      "name": "calf numeric input string",
+      "pass": true
+    },
+    {
+      "name": "hip sample -1",
+      "pass": true
+    },
+    {
+      "name": "hip sample -0.75",
+      "pass": true
+    },
+    {
+      "name": "hip sample -0.5",
+      "pass": true
+    },
+    {
+      "name": "hip sample -0.25",
+      "pass": true
+    },
+    {
+      "name": "hip sample 0",
+      "pass": true
+    },
+    {
+      "name": "hip sample 0.25",
+      "pass": true
+    },
+    {
+      "name": "hip sample 0.5",
+      "pass": true
+    },
+    {
+      "name": "hip sample 0.75",
+      "pass": true
+    },
+    {
+      "name": "hip sample 1",
+      "pass": true
+    },
+    {
+      "name": "hip midpoint 1",
+      "pass": true
+    },
+    {
+      "name": "hip midpoint 2",
+      "pass": true
+    },
+    {
+      "name": "hip midpoint 3",
+      "pass": true
+    },
+    {
+      "name": "hip midpoint 4",
+      "pass": true
+    },
+    {
+      "name": "hip midpoint 5",
+      "pass": true
+    },
+    {
+      "name": "hip midpoint 6",
+      "pass": true
+    },
+    {
+      "name": "hip midpoint 7",
+      "pass": true
+    },
+    {
+      "name": "hip midpoint 8",
+      "pass": true
+    },
+    {
+      "name": "hip clamp below",
+      "pass": true
+    },
+    {
+      "name": "hip clamp above",
+      "pass": true
+    },
+    {
+      "name": "hip invalid/empty null",
+      "pass": true
+    },
+    {
+      "name": "hip invalid/empty undefined",
+      "pass": true
+    },
+    {
+      "name": "hip invalid/empty ",
+      "pass": true
+    },
+    {
+      "name": "hip invalid/empty   ",
+      "pass": true
+    },
+    {
+      "name": "hip invalid/empty NaN",
+      "pass": true
+    },
+    {
+      "name": "hip invalid/empty Infinity",
+      "pass": true
+    },
+    {
+      "name": "hip invalid/empty -Infinity",
+      "pass": true
+    },
+    {
+      "name": "hip invalid/empty invalid",
+      "pass": true
+    },
+    {
+      "name": "hip invalid/empty true",
+      "pass": true
+    },
+    {
+      "name": "hip invalid/empty [object Object]",
+      "pass": true
+    },
+    {
+      "name": "hip invalid/empty ",
+      "pass": true
+    },
+    {
+      "name": "hip numeric input string",
+      "pass": true
+    },
+    {
+      "name": "non-monotonic data rejected",
+      "pass": true
+    },
+    {
+      "name": "missing sample rejected",
+      "pass": true
+    },
+    {
+      "name": "missing field rejected",
+      "pass": true
+    },
+    {
+      "name": "excluded Weight Inseam Gender",
+      "pass": true
+    },
+    {
+      "name": "empty state stays zero / no baseline injection",
+      "pass": true
+    },
+    {
+      "name": "Height and Hip are geometric after production integration",
+      "pass": true
+    }
+  ]
+}

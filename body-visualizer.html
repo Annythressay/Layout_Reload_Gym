@@ -43,9 +43,19 @@
       <p class="eyebrow" data-step-label>01 / HIỆN TẠI</p><h2 id="bv-panel-title" tabindex="-1">SỐ ĐO HIỆN TẠI</h2><p class="bv-description" data-description>Bắt đầu với số đo thực tế của bạn.</p>
       <div class="bv-sample-notice" data-sample-notice><strong>GIÁ TRỊ MẪU</strong><p>Các số đo đang hiển thị là giá trị mẫu.<br>Hãy thay bằng số đo thực tế của bạn.</p></div>
       <div data-measurements></div>
-      <div class="bv-bmi"><span data-bmi-label>BMI hiện tại · tham khảo</span><output data-bmi aria-describedby="bv-bmi-unavailable">22.0</output><p id="bv-bmi-unavailable" data-bmi-unavailable hidden>Nhập chiều cao và cân nặng hợp lệ để xem BMI tham khảo.</p><details><summary>Hiểu về BMI</summary><p>BMI chỉ là một chỉ số tổng quát dựa trên chiều cao và cân nặng, không phản ánh đầy đủ thành phần cơ thể.</p></details></div>
+      <div class="bv-bmi">
+        <div class="bv-bmi__heading"><span data-bmi-label>BMI hiện tại · tham khảo</span><output data-bmi aria-describedby="bv-bmi-status bv-bmi-unavailable">22.0</output></div>
+        <strong class="bv-bmi__status" id="bv-bmi-status" data-bmi-status>Bình thường</strong>
+        <p id="bv-bmi-unavailable" data-bmi-unavailable hidden>Nhập chiều cao và cân nặng hợp lệ để xem BMI tham khảo.</p>
+        <div class="bv-bmi__scale" data-bmi-range role="img" aria-label="Thang BMI tham khảo">
+          <div class="bv-bmi__bar" aria-hidden="true"><span class="bv-bmi__segment bv-bmi__segment--low"></span><span class="bv-bmi__segment bv-bmi__segment--normal"></span><span class="bv-bmi__segment bv-bmi__segment--high"></span><span class="bv-bmi__segment bv-bmi__segment--obese"></span><span class="bv-bmi__marker" data-bmi-marker></span></div>
+          <div class="bv-bmi__labels" aria-hidden="true"><span style="--tick:0%">15</span><span style="--tick:14%">18.5</span><span style="--tick:40%">25</span><span style="--tick:60%">30</span><span style="--tick:80%">35</span><span style="--tick:100%">40</span></div>
+        </div>
+        <p class="bv-bmi__note">BMI chỉ mang tính tham khảo, không thay thế đánh giá chuyên môn.</p>
+        <details><summary>Hiểu về BMI</summary><p>BMI chỉ là một chỉ số tổng quát dựa trên chiều cao và cân nặng, không phản ánh đầy đủ thành phần cơ thể.</p></details>
+      </div>
       <div data-measurements-secondary></div>
-      <details class="bv-simulation-info" data-simulation-info><summary>Thông tin về mô phỏng</summary><p>Mô phỏng hiện dùng mẫu nam. Các số đo được áp dụng trong phạm vi mô hình hỗ trợ. Cân nặng dùng để tính BMI; chiều dài chân hiện chỉ mang tính tham khảo.</p></details>
+      <details class="bv-simulation-info" data-simulation-info><summary>Thông tin về mô phỏng</summary><p>Mô phỏng hiện dùng mẫu nam. Phạm vi mô phỏng 3D phụ thuộc vào chiều cao và khả năng của mô hình hiện tại. Số đo thực tế của bạn vẫn được giữ nguyên khi nằm ngoài phạm vi này. Cân nặng dùng để tính BMI; chiều dài chân hiện chỉ mang tính tham khảo.</p></details>
       <div data-comparison hidden><div class="bv-modes" aria-label="Chế độ mô hình"><button data-mode="current">Hiện tại</button><button data-mode="goal">Mục tiêu</button><button data-mode="compare">So sánh</button></div><h3>THAY ĐỔI MỤC TIÊU</h3><div data-differences></div></div>
       <div data-fitness hidden><fieldset class="bv-goals"><legend>Chọn một mục tiêu chính</legend></fieldset><div class="bv-recommendation" hidden aria-live="polite"><p class="eyebrow">GỢI Ý CHO BẠN</p><h3 data-goal-title></h3><p data-recommendation></p><p>Gợi ý khởi đầu để trao đổi cùng huấn luyện viên; điều chỉnh theo kinh nghiệm và lịch sinh hoạt của bạn.</p><a class="button button-red" href="#bv-conversion">TRAO ĐỔI VỀ LỘ TRÌNH TẬP LUYỆN</a></div></div>
       <p class="bv-error" data-form-error role="status"></p>

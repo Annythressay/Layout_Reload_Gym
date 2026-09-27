@@ -1,0 +1,964 @@
+{
+  "pass": true,
+  "errors": [],
+  "V5Requests": 1,
+  "morphCount": 19,
+  "V16Requests": 0,
+  "ITER03Requests": 0,
+  "corrective": false,
+  "products": [
+    {
+      "key": "thigh",
+      "value": 40,
+      "simulation": {
+        "actualValue": 40,
+        "simulationValue": 46.9250325899858,
+        "mappingValue": 46.9250325899858,
+        "simulationMin": 46.9250325899858,
+        "simulationMax": 61.49953870737355,
+        "simulationStatus": "BELOW_SIMULATION_RANGE"
+      }
+    },
+    {
+      "key": "thigh",
+      "value": 46.9,
+      "simulation": {
+        "actualValue": 46.9,
+        "simulationValue": 46.9,
+        "mappingValue": 46.9250325899858,
+        "simulationMin": 46.9250325899858,
+        "simulationMax": 61.49953870737355,
+        "simulationStatus": "SUPPORTED"
+      }
+    },
+    {
+      "key": "thigh",
+      "value": 52,
+      "simulation": {
+        "actualValue": 52,
+        "simulationValue": 52,
+        "mappingValue": 52,
+        "simulationMin": 46.9250325899858,
+        "simulationMax": 61.49953870737355,
+        "simulationStatus": "SUPPORTED"
+      }
+    },
+    {
+      "key": "thigh",
+      "value": 61.5,
+      "simulation": {
+        "actualValue": 61.5,
+        "simulationValue": 61.5,
+        "mappingValue": 61.49953870737355,
+        "simulationMin": 46.9250325899858,
+        "simulationMax": 61.49953870737355,
+        "simulationStatus": "SUPPORTED"
+      }
+    },
+    {
+      "key": "thigh",
+      "value": 68,
+      "simulation": {
+        "actualValue": 68,
+        "simulationValue": 61.49953870737355,
+        "mappingValue": 61.49953870737355,
+        "simulationMin": 46.9250325899858,
+        "simulationMax": 61.49953870737355,
+        "simulationStatus": "ABOVE_SIMULATION_RANGE"
+      }
+    },
+    {
+      "key": "thigh",
+      "value": 72,
+      "simulation": {
+        "actualValue": 72,
+        "simulationValue": 61.49953870737355,
+        "mappingValue": 61.49953870737355,
+        "simulationMin": 46.9250325899858,
+        "simulationMax": 61.49953870737355,
+        "simulationStatus": "ABOVE_SIMULATION_RANGE"
+      }
+    },
+    {
+      "key": "thigh",
+      "value": 75,
+      "simulation": {
+        "actualValue": 75,
+        "simulationValue": 61.49953870737355,
+        "mappingValue": 61.49953870737355,
+        "simulationMin": 46.9250325899858,
+        "simulationMax": 61.49953870737355,
+        "simulationStatus": "ABOVE_SIMULATION_RANGE"
+      }
+    },
+    {
+      "key": "arm",
+      "value": 18,
+      "simulation": {
+        "actualValue": 18,
+        "simulationValue": 18.475460806644637,
+        "mappingValue": 18.475460806644637,
+        "simulationMin": 18.475460806644637,
+        "simulationMax": 37.97387142119731,
+        "simulationStatus": "BELOW_SIMULATION_RANGE"
+      }
+    },
+    {
+      "key": "arm",
+      "value": 28,
+      "simulation": {
+        "actualValue": 28,
+        "simulationValue": 28,
+        "mappingValue": 28,
+        "simulationMin": 18.475460806644637,
+        "simulationMax": 37.97387142119731,
+        "simulationStatus": "SUPPORTED"
+      }
+    },
+    {
+      "key": "arm",
+      "value": 38,
+      "simulation": {
+        "actualValue": 38,
+        "simulationValue": 38,
+        "mappingValue": 37.97387142119731,
+        "simulationMin": 18.475460806644637,
+        "simulationMax": 37.97387142119731,
+        "simulationStatus": "SUPPORTED"
+      }
+    },
+    {
+      "key": "arm",
+      "value": 45,
+      "simulation": {
+        "actualValue": 45,
+        "simulationValue": 37.97387142119731,
+        "mappingValue": 37.97387142119731,
+        "simulationMin": 18.475460806644637,
+        "simulationMax": 37.97387142119731,
+        "simulationStatus": "ABOVE_SIMULATION_RANGE"
+      }
+    },
+    {
+      "key": "arm",
+      "value": 48,
+      "simulation": {
+        "actualValue": 48,
+        "simulationValue": 37.97387142119731,
+        "mappingValue": 37.97387142119731,
+        "simulationMin": 18.475460806644637,
+        "simulationMax": 37.97387142119731,
+        "simulationStatus": "ABOVE_SIMULATION_RANGE"
+      }
+    },
+    {
+      "key": "arm",
+      "value": 50,
+      "simulation": {
+        "actualValue": 50,
+        "simulationValue": 37.97387142119731,
+        "mappingValue": 37.97387142119731,
+        "simulationMin": 18.475460806644637,
+        "simulationMax": 37.97387142119731,
+        "simulationStatus": "ABOVE_SIMULATION_RANGE"
+      }
+    },
+    {
+      "key": "waist",
+      "value": 55,
+      "simulation": {
+        "actualValue": 55,
+        "simulationValue": 62.92469865279105,
+        "mappingValue": 62.92469865279105,
+        "simulationMin": 62.92469865279105,
+        "simulationMax": 83.15910863687272,
+        "simulationStatus": "BELOW_SIMULATION_RANGE"
+      }
+    },
+    {
+      "key": "waist",
+      "value": 72,
+      "simulation": {
+        "actualValue": 72,
+        "simulationValue": 72,
+        "mappingValue": 72,
+        "simulationMin": 62.92469865279105,
+        "simulationMax": 83.15910863687272,
+        "simulationStatus": "SUPPORTED"
+      }
+    },
+    {
+      "key": "waist",
+      "value": 83,
+      "simulation": {
+        "actualValue": 83,
+        "simulationValue": 83,
+        "mappingValue": 83,
+        "simulationMin": 62.92469865279105,
+        "simulationMax": 83.15910863687272,
+        "simulationStatus": "SUPPORTED"
+      }
+    },
+    {
+      "key": "waist",
+      "value": 100,
+      "simulation": {
+        "actualValue": 100,
+        "simulationValue": 83.15910863687272,
+        "mappingValue": 83.15910863687272,
+        "simulationMin": 62.92469865279105,
+        "simulationMax": 83.15910863687272,
+        "simulationStatus": "ABOVE_SIMULATION_RANGE"
+      }
+    },
+    {
+      "key": "waist",
+      "value": 120,
+      "simulation": {
+        "actualValue": 120,
+        "simulationValue": 83.15910863687272,
+        "mappingValue": 83.15910863687272,
+        "simulationMin": 62.92469865279105,
+        "simulationMax": 83.15910863687272,
+        "simulationStatus": "ABOVE_SIMULATION_RANGE"
+      }
+    },
+    {
+      "key": "waist",
+      "value": 150,
+      "simulation": {
+        "actualValue": 150,
+        "simulationValue": 83.15910863687272,
+        "mappingValue": 83.15910863687272,
+        "simulationMin": 62.92469865279105,
+        "simulationMax": 83.15910863687272,
+        "simulationStatus": "ABOVE_SIMULATION_RANGE"
+      }
+    },
+    {
+      "key": "chest",
+      "value": 70,
+      "simulation": {
+        "actualValue": 70,
+        "simulationValue": 75.90384941713067,
+        "mappingValue": 75.90384941713067,
+        "simulationMin": 75.90384941713067,
+        "simulationMax": 108.17902223749624,
+        "simulationStatus": "BELOW_SIMULATION_RANGE"
+      }
+    },
+    {
+      "key": "chest",
+      "value": 88,
+      "simulation": {
+        "actualValue": 88,
+        "simulationValue": 88,
+        "mappingValue": 88,
+        "simulationMin": 75.90384941713067,
+        "simulationMax": 108.17902223749624,
+        "simulationStatus": "SUPPORTED"
+      }
+    },
+    {
+      "key": "chest",
+      "value": 108,
+      "simulation": {
+        "actualValue": 108,
+        "simulationValue": 108,
+        "mappingValue": 108,
+        "simulationMin": 75.90384941713067,
+        "simulationMax": 108.17902223749624,
+        "simulationStatus": "SUPPORTED"
+      }
+    },
+    {
+      "key": "chest",
+      "value": 120,
+      "simulation": {
+        "actualValue": 120,
+        "simulationValue": 108.17902223749624,
+        "mappingValue": 108.17902223749624,
+        "simulationMin": 75.90384941713067,
+        "simulationMax": 108.17902223749624,
+        "simulationStatus": "ABOVE_SIMULATION_RANGE"
+      }
+    },
+    {
+      "key": "chest",
+      "value": 140,
+      "simulation": {
+        "actualValue": 140,
+        "simulationValue": 108.17902223749624,
+        "mappingValue": 108.17902223749624,
+        "simulationMin": 75.90384941713067,
+        "simulationMax": 108.17902223749624,
+        "simulationStatus": "ABOVE_SIMULATION_RANGE"
+      }
+    },
+    {
+      "key": "height",
+      "value": 145,
+      "simulation": {
+        "actualValue": 145,
+        "simulationValue": 151.21778195689558,
+        "mappingValue": 151.21778195689558,
+        "simulationMin": 151.21778195689558,
+        "simulationMax": 194.6037856625685,
+        "simulationStatus": "BELOW_SIMULATION_RANGE"
+      }
+    },
+    {
+      "key": "height",
+      "value": 151.2,
+      "simulation": {
+        "actualValue": 151.2,
+        "simulationValue": 151.2,
+        "mappingValue": 151.21778195689558,
+        "simulationMin": 151.21778195689558,
+        "simulationMax": 194.6037856625685,
+        "simulationStatus": "SUPPORTED"
+      }
+    },
+    {
+      "key": "height",
+      "value": 165,
+      "simulation": {
+        "actualValue": 165,
+        "simulationValue": 165,
+        "mappingValue": 165,
+        "simulationMin": 151.21778195689558,
+        "simulationMax": 194.6037856625685,
+        "simulationStatus": "SUPPORTED"
+      }
+    },
+    {
+      "key": "height",
+      "value": 194.6,
+      "simulation": {
+        "actualValue": 194.6,
+        "simulationValue": 194.6,
+        "mappingValue": 194.6037856625685,
+        "simulationMin": 151.21778195689558,
+        "simulationMax": 194.6037856625685,
+        "simulationStatus": "SUPPORTED"
+      }
+    },
+    {
+      "key": "height",
+      "value": 205,
+      "simulation": {
+        "actualValue": 205,
+        "simulationValue": 194.6037856625685,
+        "mappingValue": 194.6037856625685,
+        "simulationMin": 151.21778195689558,
+        "simulationMax": 194.6037856625685,
+        "simulationStatus": "ABOVE_SIMULATION_RANGE"
+      }
+    }
+  ],
+  "viewer": {
+    "threeRevision": "180",
+    "modelId": "e6a6fdf9-fe1d-43e6-965a-f0679e8a3682",
+    "geometryIds": [
+      "37e1c16c-178b-478f-bbd5-5fa6e7a13c9b"
+    ],
+    "rendererCanvasCount": 1,
+    "meshes": [
+      {
+        "name": "Human_export_copy_v4",
+        "dictionary": {
+          "$md-$as-$ma-$yn": 0,
+          "$md-$ca-$ma-$yn": 1,
+          "$md-$af-$ma-$yn": 2,
+          "$md-universal-$ma-$yn-$av$mu-$av$wg": 3,
+          "measure-waist-circ-incr": 4,
+          "measure-waist-circ-decr": 5,
+          "measure-bust-circ-incr": 6,
+          "measure-bust-circ-decr": 7,
+          "measure-shoulder-dist-incr": 8,
+          "measure-shoulder-dist-decr": 9,
+          "measure-upperarm-circ-incr": 10,
+          "measure-upperarm-circ-decr": 11,
+          "measure-thigh-circ-incr": 12,
+          "measure-thigh-circ-decr": 13,
+          "measure-calf-circ-incr": 14,
+          "measure-calf-circ-decr": 15,
+          "measure-hips-circ-incr": 16,
+          "measure-hips-circ-decr": 17,
+          "$md-$ma-$yn-$av$mu-$av$wg-max$hg": 18
+        },
+        "initial": [
+          0.3267660140991211,
+          0.3267660140991211,
+          0.3267660140991211,
+          0.9901999831199646,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "influences": [
+          0.3267660140991211,
+          0.3267660140991211,
+          0.3267660140991211,
+          0.9901999831199646,
+          1,
+          0,
+          1,
+          0,
+          1,
+          0,
+          1,
+          0,
+          1,
+          0,
+          0.9078635102024761,
+          0,
+          1,
+          0,
+          0.3
+        ],
+        "scale": [
+          1,
+          1,
+          1
+        ],
+        "phenotypePreserved": true
+      }
+    ],
+    "currentWeights": {
+      "height": 0.3,
+      "waist": 1,
+      "chest": 1,
+      "shoulder": 1,
+      "arm": 1,
+      "thigh": 1,
+      "calf": 0.9078635102024761,
+      "hip": 1
+    },
+    "goalWeights": {
+      "height": 0.3,
+      "waist": 1,
+      "chest": 1,
+      "shoulder": 1,
+      "arm": 1,
+      "thigh": 1,
+      "calf": 0.9078635102024761,
+      "hip": 1
+    },
+    "mappingDebug": {
+      "current": {
+        "waist": {
+          "input": 85.49963617339654,
+          "base": 75.22169269657549,
+          "min": 65.26522618931487,
+          "max": 85.49963617339654,
+          "valid": true,
+          "branch": "increase",
+          "signedWeight": 1,
+          "weight": 1,
+          "increase": 1,
+          "decrease": 0,
+          "clamped": false,
+          "clampDirection": null,
+          "effectiveCm": 85.49963617339654,
+          "segment": [
+            {
+              "cm": 85.49963617339654,
+              "weight": 1
+            },
+            {
+              "cm": 85.49963617339654,
+              "weight": 1
+            }
+          ],
+          "requestedCm": 91.91170580321197,
+          "heightAdjustedBaseline": 81.63376232639092,
+          "equivalentBaseHeightMeasurement": 85.49963617339654
+        },
+        "chest": {
+          "input": 110.89893667568572,
+          "base": 92.8883686746983,
+          "min": 78.62376385532015,
+          "max": 110.89893667568572,
+          "valid": true,
+          "branch": "increase",
+          "signedWeight": 1,
+          "weight": 1,
+          "increase": 1,
+          "decrease": 0,
+          "clamped": false,
+          "clampDirection": null,
+          "effectiveCm": 110.89893667568572,
+          "segment": [
+            {
+              "cm": 110.89893667568572,
+              "weight": 1
+            },
+            {
+              "cm": 110.89893667568572,
+              "weight": 1
+            }
+          ],
+          "requestedCm": 118.36304937217761,
+          "heightAdjustedBaseline": 100.3524813711902,
+          "equivalentBaseHeightMeasurement": 110.89893667568572
+        },
+        "shoulder": {
+          "input": 42.64252345476507,
+          "base": 37.662522601226556,
+          "min": 34.96252159986852,
+          "max": 42.64252345476507,
+          "valid": true,
+          "branch": "increase",
+          "signedWeight": 1,
+          "weight": 1,
+          "increase": 1,
+          "decrease": 0,
+          "clamped": false,
+          "clampDirection": null,
+          "effectiveCm": 42.64252345476507,
+          "segment": [
+            {
+              "cm": 42.64252345476507,
+              "weight": 1
+            },
+            {
+              "cm": 42.64252345476507,
+              "weight": 1
+            }
+          ],
+          "requestedCm": 45.86452345762609,
+          "heightAdjustedBaseline": 40.88452260408758,
+          "equivalentBaseHeightMeasurement": 42.64252345476507
+        },
+        "arm": {
+          "input": 38.84826973971171,
+          "base": 29.07581960504171,
+          "min": 19.349859125159046,
+          "max": 38.84826973971172,
+          "valid": true,
+          "branch": "increase",
+          "signedWeight": 1,
+          "weight": 1,
+          "increase": 1,
+          "decrease": 0,
+          "clamped": false,
+          "clampDirection": null,
+          "effectiveCm": 38.84826973971171,
+          "segment": [
+            {
+              "cm": 38.84826973971172,
+              "weight": 1
+            },
+            {
+              "cm": 38.84826973971172,
+              "weight": 1
+            }
+          ],
+          "requestedCm": 41.24982215400689,
+          "heightAdjustedBaseline": 31.477372019336887,
+          "equivalentBaseHeightMeasurement": 38.84826973971171
+        },
+        "thigh": {
+          "input": 63.084996255927095,
+          "base": 54.32370654187157,
+          "min": 48.51049013853934,
+          "max": 63.084996255927095,
+          "valid": true,
+          "branch": "increase",
+          "signedWeight": 1,
+          "weight": 1,
+          "increase": 1,
+          "decrease": 0,
+          "clamped": false,
+          "clampDirection": null,
+          "effectiveCm": 63.084996255927095,
+          "segment": [
+            {
+              "cm": 63.084996255927095,
+              "weight": 1
+            },
+            {
+              "cm": 63.084996255927095,
+              "weight": 1
+            }
+          ],
+          "requestedCm": 67.44438865153965,
+          "heightAdjustedBaseline": 58.68309893748413,
+          "equivalentBaseHeightMeasurement": 63.084996255927095
+        },
+        "calf": {
+          "input": 47.11675349491865,
+          "base": 38.183614349092764,
+          "min": 28.108762831526136,
+          "max": 48.00875142476548,
+          "valid": true,
+          "branch": "increase",
+          "signedWeight": 0.9078635102024761,
+          "weight": 0.9078635102024761,
+          "increase": 0.9078635102024761,
+          "decrease": 0,
+          "clamped": false,
+          "clampDirection": null,
+          "effectiveCm": 47.11675349491865,
+          "segment": [
+            {
+              "cm": 45.588434751623666,
+              "weight": 0.75
+            },
+            {
+              "cm": 48.00875142476548,
+              "weight": 1
+            }
+          ],
+          "requestedCm": 50,
+          "heightAdjustedBaseline": 41.06686085417412,
+          "equivalentBaseHeightMeasurement": 47.11675349491865
+        },
+        "hip": {
+          "input": 116.26040557792201,
+          "base": 97.00190919505901,
+          "min": 87.40729083173824,
+          "max": 116.26040557792201,
+          "valid": true,
+          "branch": "increase",
+          "signedWeight": 1,
+          "weight": 1,
+          "increase": 1,
+          "decrease": 0,
+          "clamped": false,
+          "clampDirection": null,
+          "effectiveCm": 116.26040557792201,
+          "segment": [
+            {
+              "cm": 116.26040557792201,
+              "weight": 1
+            },
+            {
+              "cm": 116.26040557792201,
+              "weight": 1
+            }
+          ],
+          "requestedCm": 124.6344534126539,
+          "heightAdjustedBaseline": 105.3759570297909,
+          "equivalentBaseHeightMeasurement": 116.26040557792201
+        }
+      },
+      "goal": {
+        "waist": {
+          "input": 85.49963617339654,
+          "base": 75.22169269657549,
+          "min": 65.26522618931487,
+          "max": 85.49963617339654,
+          "valid": true,
+          "branch": "increase",
+          "signedWeight": 1,
+          "weight": 1,
+          "increase": 1,
+          "decrease": 0,
+          "clamped": false,
+          "clampDirection": null,
+          "effectiveCm": 85.49963617339654,
+          "segment": [
+            {
+              "cm": 85.49963617339654,
+              "weight": 1
+            },
+            {
+              "cm": 85.49963617339654,
+              "weight": 1
+            }
+          ],
+          "requestedCm": 91.91170580321197,
+          "heightAdjustedBaseline": 81.63376232639092,
+          "equivalentBaseHeightMeasurement": 85.49963617339654
+        },
+        "chest": {
+          "input": 110.89893667568572,
+          "base": 92.8883686746983,
+          "min": 78.62376385532015,
+          "max": 110.89893667568572,
+          "valid": true,
+          "branch": "increase",
+          "signedWeight": 1,
+          "weight": 1,
+          "increase": 1,
+          "decrease": 0,
+          "clamped": false,
+          "clampDirection": null,
+          "effectiveCm": 110.89893667568572,
+          "segment": [
+            {
+              "cm": 110.89893667568572,
+              "weight": 1
+            },
+            {
+              "cm": 110.89893667568572,
+              "weight": 1
+            }
+          ],
+          "requestedCm": 118.36304937217761,
+          "heightAdjustedBaseline": 100.3524813711902,
+          "equivalentBaseHeightMeasurement": 110.89893667568572
+        },
+        "shoulder": {
+          "input": 42.64252345476507,
+          "base": 37.662522601226556,
+          "min": 34.96252159986852,
+          "max": 42.64252345476507,
+          "valid": true,
+          "branch": "increase",
+          "signedWeight": 1,
+          "weight": 1,
+          "increase": 1,
+          "decrease": 0,
+          "clamped": false,
+          "clampDirection": null,
+          "effectiveCm": 42.64252345476507,
+          "segment": [
+            {
+              "cm": 42.64252345476507,
+              "weight": 1
+            },
+            {
+              "cm": 42.64252345476507,
+              "weight": 1
+            }
+          ],
+          "requestedCm": 45.86452345762609,
+          "heightAdjustedBaseline": 40.88452260408758,
+          "equivalentBaseHeightMeasurement": 42.64252345476507
+        },
+        "arm": {
+          "input": 38.84826973971171,
+          "base": 29.07581960504171,
+          "min": 19.349859125159046,
+          "max": 38.84826973971172,
+          "valid": true,
+          "branch": "increase",
+          "signedWeight": 1,
+          "weight": 1,
+          "increase": 1,
+          "decrease": 0,
+          "clamped": false,
+          "clampDirection": null,
+          "effectiveCm": 38.84826973971171,
+          "segment": [
+            {
+              "cm": 38.84826973971172,
+              "weight": 1
+            },
+            {
+              "cm": 38.84826973971172,
+              "weight": 1
+            }
+          ],
+          "requestedCm": 41.24982215400689,
+          "heightAdjustedBaseline": 31.477372019336887,
+          "equivalentBaseHeightMeasurement": 38.84826973971171
+        },
+        "thigh": {
+          "input": 63.084996255927095,
+          "base": 54.32370654187157,
+          "min": 48.51049013853934,
+          "max": 63.084996255927095,
+          "valid": true,
+          "branch": "increase",
+          "signedWeight": 1,
+          "weight": 1,
+          "increase": 1,
+          "decrease": 0,
+          "clamped": false,
+          "clampDirection": null,
+          "effectiveCm": 63.084996255927095,
+          "segment": [
+            {
+              "cm": 63.084996255927095,
+              "weight": 1
+            },
+            {
+              "cm": 63.084996255927095,
+              "weight": 1
+            }
+          ],
+          "requestedCm": 67.44438865153965,
+          "heightAdjustedBaseline": 58.68309893748413,
+          "equivalentBaseHeightMeasurement": 63.084996255927095
+        },
+        "calf": {
+          "input": 47.11675349491865,
+          "base": 38.183614349092764,
+          "min": 28.108762831526136,
+          "max": 48.00875142476548,
+          "valid": true,
+          "branch": "increase",
+          "signedWeight": 0.9078635102024761,
+          "weight": 0.9078635102024761,
+          "increase": 0.9078635102024761,
+          "decrease": 0,
+          "clamped": false,
+          "clampDirection": null,
+          "effectiveCm": 47.11675349491865,
+          "segment": [
+            {
+              "cm": 45.588434751623666,
+              "weight": 0.75
+            },
+            {
+              "cm": 48.00875142476548,
+              "weight": 1
+            }
+          ],
+          "requestedCm": 50,
+          "heightAdjustedBaseline": 41.06686085417412,
+          "equivalentBaseHeightMeasurement": 47.11675349491865
+        },
+        "hip": {
+          "input": 116.26040557792201,
+          "base": 97.00190919505901,
+          "min": 87.40729083173824,
+          "max": 116.26040557792201,
+          "valid": true,
+          "branch": "increase",
+          "signedWeight": 1,
+          "weight": 1,
+          "increase": 1,
+          "decrease": 0,
+          "clamped": false,
+          "clampDirection": null,
+          "effectiveCm": 116.26040557792201,
+          "segment": [
+            {
+              "cm": 116.26040557792201,
+              "weight": 1
+            },
+            {
+              "cm": 116.26040557792201,
+              "weight": 1
+            }
+          ],
+          "requestedCm": 124.6344534126539,
+          "heightAdjustedBaseline": 105.3759570297909,
+          "equivalentBaseHeightMeasurement": 116.26040557792201
+        }
+      },
+      "currentHeight": {
+        "target": "$md-$ma-$yn-$av$mu-$av$wg-max$hg",
+        "valid": true,
+        "requestedCm": 194.6037856625685,
+        "clampedCm": 194.6037856625685,
+        "influence": 0.3,
+        "clamped": false,
+        "baselines": {
+          "bust": 100.3524813711902,
+          "waist": 81.63376232639092,
+          "hips": 105.3759570297909,
+          "shoulder": 40.88452260408758,
+          "upperarm": 31.477372019336887,
+          "thigh": 58.68309893748413,
+          "calf": 41.06686085417412
+        }
+      },
+      "goalHeight": {
+        "target": "$md-$ma-$yn-$av$mu-$av$wg-max$hg",
+        "valid": true,
+        "requestedCm": 194.6037856625685,
+        "clampedCm": 194.6037856625685,
+        "influence": 0.3,
+        "clamped": false,
+        "baselines": {
+          "bust": 100.3524813711902,
+          "waist": 81.63376232639092,
+          "hips": 105.3759570297909,
+          "shoulder": 40.88452260408758,
+          "upperarm": 31.477372019336887,
+          "thigh": 58.68309893748413,
+          "calf": 41.06686085417412
+        }
+      }
+    },
+    "applied": {
+      "waist": {
+        "measure-waist-circ-incr": 1,
+        "measure-waist-circ-decr": 0
+      },
+      "chest": {
+        "measure-bust-circ-incr": 1,
+        "measure-bust-circ-decr": 0
+      },
+      "shoulder": {
+        "measure-shoulder-dist-incr": 1,
+        "measure-shoulder-dist-decr": 0
+      },
+      "arm": {
+        "measure-upperarm-circ-incr": 1,
+        "measure-upperarm-circ-decr": 0
+      },
+      "thigh": {
+        "measure-thigh-circ-incr": 1,
+        "measure-thigh-circ-decr": 0
+      },
+      "calf": {
+        "measure-calf-circ-incr": 0.9078635102024761,
+        "measure-calf-circ-decr": 0
+      },
+      "hip": {
+        "measure-hips-circ-incr": 1,
+        "measure-hips-circ-decr": 0
+      }
+    },
+    "appliedHeight": 0.3,
+    "sceneId": "8081da97-d7c6-45ae-8c4a-2b57a5cc3e5b",
+    "rendererId": "8235b38d-a00c-437e-b8e1-c5328e103807",
+    "webglError": 0,
+    "mode": "current",
+    "renderCount": 77,
+    "pendingFrame": false,
+    "animating": false,
+    "camera": [
+      0,
+      0.9721489457563056,
+      3.6900622078970655
+    ],
+    "target": [
+      0,
+      0.9721489457563054,
+      0.15638189020361967
+    ],
+    "memory": {
+      "geometries": 1,
+      "textures": 1
+    },
+    "size": {
+      "width": 317,
+      "height": 305
+    },
+    "disposed": false
+  },
+  "checks": [
+    "all inputs",
+    "actual preservation",
+    "height confirm/cancel",
+    "BMI actual",
+    "goal exact copy/null",
+    "compare +3",
+    "split",
+    "camera buttons",
+    "reset",
+    "invalid draft",
+    "keyboard slider",
+    "one canvas"
+  ]
+}

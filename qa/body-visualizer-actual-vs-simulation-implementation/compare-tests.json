@@ -1,0 +1,30 @@
+{
+  "pass": true,
+  "difference": 3,
+  "current": {
+    "gender": "neutral",
+    "height": 165,
+    "weight": 60,
+    "chest": 88,
+    "waist": 72,
+    "hip": 92,
+    "inseam": 76,
+    "shoulder": 38,
+    "arm": 28,
+    "thigh": 72,
+    "calf": null
+  },
+  "goal": {
+    "gender": "neutral",
+    "height": 165,
+    "weight": 60,
+    "chest": 88,
+    "waist": 72,
+    "hip": 92,
+    "inseam": 76,
+    "shoulder": 38,
+    "arm": 28,
+    "thigh": 75,
+    "calf": null
+  }
+}

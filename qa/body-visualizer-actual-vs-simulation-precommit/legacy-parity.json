@@ -1,0 +1,4323 @@
+{
+  "pass": true,
+  "legacySource": "git HEAD:measurement-constraints.js evaluated independently",
+  "cases": 604,
+  "maxMappingValueDifference": 0,
+  "maxInfluenceDifference": 0,
+  "excluded": [
+    {
+      "key": "shoulder",
+      "height": 151.2,
+      "raw": 31.7405215970075,
+      "reason": "Intentional product band differs from old model band; mapping remains tested in raw calibration suites."
+    },
+    {
+      "key": "shoulder",
+      "height": 151.2,
+      "raw": 31.7,
+      "reason": "Intentional product band differs from old model band; mapping remains tested in raw calibration suites."
+    },
+    {
+      "key": "shoulder",
+      "height": 151.2,
+      "raw": 31.7405215970075,
+      "reason": "Intentional product band differs from old model band; mapping remains tested in raw calibration suites."
+    },
+    {
+      "key": "arm",
+      "height": 151.2,
+      "raw": 16.954366399664345,
+      "reason": "Intentional product band differs from old model band; mapping remains tested in raw calibration suites."
+    },
+    {
+      "key": "arm",
+      "height": 151.2,
+      "raw": 17,
+      "reason": "Intentional product band differs from old model band; mapping remains tested in raw calibration suites."
+    },
+    {
+      "key": "arm",
+      "height": 151.2,
+      "raw": 16.954366399664345,
+      "reason": "Intentional product band differs from old model band; mapping remains tested in raw calibration suites."
+    },
+    {
+      "key": "arm",
+      "height": 160,
+      "raw": 17.923336547555035,
+      "reason": "Intentional product band differs from old model band; mapping remains tested in raw calibration suites."
+    },
+    {
+      "key": "arm",
+      "height": 160,
+      "raw": 17.9,
+      "reason": "Intentional product band differs from old model band; mapping remains tested in raw calibration suites."
+    },
+    {
+      "key": "calf",
+      "height": 190,
+      "raw": 50.276576049473476,
+      "reason": "Intentional product band differs from old model band; mapping remains tested in raw calibration suites."
+    },
+    {
+      "key": "calf",
+      "height": 190,
+      "raw": 50.3,
+      "reason": "Intentional product band differs from old model band; mapping remains tested in raw calibration suites."
+    },
+    {
+      "key": "calf",
+      "height": 190,
+      "raw": 50.276576049473476,
+      "reason": "Intentional product band differs from old model band; mapping remains tested in raw calibration suites."
+    },
+    {
+      "key": "calf",
+      "height": 194.6,
+      "raw": 50.89199792984683,
+      "reason": "Intentional product band differs from old model band; mapping remains tested in raw calibration suites."
+    },
+    {
+      "key": "calf",
+      "height": 194.6,
+      "raw": 50.9,
+      "reason": "Intentional product band differs from old model band; mapping remains tested in raw calibration suites."
+    },
+    {
+      "key": "calf",
+      "height": 194.6,
+      "raw": 50.89199792984682,
+      "reason": "Intentional product band differs from old model band; mapping remains tested in raw calibration suites."
+    }
+  ],
+  "casesDetail": [
+    {
+      "key": "waist",
+      "height": 151.2,
+      "raw": 58.84858779787106,
+      "mappingValue": 58.84858779787106,
+      "pass": true
+    },
+    {
+      "key": "waist",
+      "height": 151.2,
+      "raw": 79.08299778195273,
+      "mappingValue": 79.08299778195273,
+      "pass": true
+    },
+    {
+      "key": "waist",
+      "height": 151.2,
+      "raw": 58.8,
+      "mappingValue": 58.84858779787106,
+      "pass": true
+    },
+    {
+      "key": "waist",
+      "height": 151.2,
+      "raw": 79.1,
+      "mappingValue": 79.08299778195273,
+      "pass": true
+    },
+    {
+      "key": "waist",
+      "height": 151.2,
+      "raw": 61.298380908350296,
+      "mappingValue": 61.3,
+      "pass": true
+    },
+    {
+      "key": "waist",
+      "height": 151.2,
+      "raw": 63.77662526314235,
+      "mappingValue": 63.8,
+      "pass": true
+    },
+    {
+      "key": "waist",
+      "height": 151.2,
+      "raw": 66.2798167214553,
+      "mappingValue": 66.3,
+      "pass": true
+    },
+    {
+      "key": "waist",
+      "height": 151.2,
+      "raw": 68.80505430513169,
+      "mappingValue": 68.8,
+      "pass": true
+    },
+    {
+      "key": "waist",
+      "height": 151.2,
+      "raw": 71.34990705232887,
+      "mappingValue": 71.3,
+      "pass": true
+    },
+    {
+      "key": "waist",
+      "height": 151.2,
+      "raw": 73.91231559461913,
+      "mappingValue": 73.9,
+      "pass": true
+    },
+    {
+      "key": "waist",
+      "height": 151.2,
+      "raw": 76.49051877754071,
+      "mappingValue": 76.5,
+      "pass": true
+    },
+    {
+      "key": "waist",
+      "height": 151.2,
+      "raw": 79.08299778195273,
+      "mappingValue": 79.08299778195273,
+      "pass": true
+    },
+    {
+      "key": "chest",
+      "height": 151.2,
+      "raw": 71.16887344929145,
+      "mappingValue": 71.16887344929145,
+      "pass": true
+    },
+    {
+      "key": "chest",
+      "height": 151.2,
+      "raw": 103.44404626965702,
+      "mappingValue": 103.44404626965702,
+      "pass": true
+    },
+    {
+      "key": "chest",
+      "height": 151.2,
+      "raw": 71.2,
+      "mappingValue": 71.16887344929145,
+      "pass": true
+    },
+    {
+      "key": "chest",
+      "height": 151.2,
+      "raw": 103.4,
+      "mappingValue": 103.44404626965702,
+      "pass": true
+    },
+    {
+      "key": "chest",
+      "height": 151.2,
+      "raw": 74.70204697979663,
+      "mappingValue": 74.7,
+      "pass": true
+    },
+    {
+      "key": "chest",
+      "height": 151.2,
+      "raw": 78.25889802065537,
+      "mappingValue": 78.3,
+      "pass": true
+    },
+    {
+      "key": "chest",
+      "height": 151.2,
+      "raw": 81.8367909600553,
+      "mappingValue": 81.8,
+      "pass": true
+    },
+    {
+      "key": "chest",
+      "height": 151.2,
+      "raw": 85.43347826866962,
+      "mappingValue": 85.4,
+      "pass": true
+    },
+    {
+      "key": "chest",
+      "height": 151.2,
+      "raw": 89.89982607901167,
+      "mappingValue": 89.9,
+      "pass": true
+    },
+    {
+      "key": "chest",
+      "height": 151.2,
+      "raw": 94.38813642684865,
+      "mappingValue": 94.4,
+      "pass": true
+    },
+    {
+      "key": "chest",
+      "height": 151.2,
+      "raw": 98.90261787837183,
+      "mappingValue": 98.9,
+      "pass": true
+    },
+    {
+      "key": "chest",
+      "height": 151.2,
+      "raw": 103.44404626965702,
+      "mappingValue": 103.44404626965702,
+      "pass": true
+    },
+    {
+      "key": "shoulder",
+      "height": 151.2,
+      "raw": 39.420523451904046,
+      "mappingValue": 39.420523451904046,
+      "pass": true
+    },
+    {
+      "key": "shoulder",
+      "height": 151.2,
+      "raw": 39.4,
+      "mappingValue": 39.420523451904046,
+      "pass": true
+    },
+    {
+      "key": "shoulder",
+      "height": 151.2,
+      "raw": 32.41552184734701,
+      "mappingValue": 32.4,
+      "pass": true
+    },
+    {
+      "key": "shoulder",
+      "height": 151.2,
+      "raw": 33.09052209768652,
+      "mappingValue": 33.1,
+      "pass": true
+    },
+    {
+      "key": "shoulder",
+      "height": 151.2,
+      "raw": 33.765522348026025,
+      "mappingValue": 33.8,
+      "pass": true
+    },
+    {
+      "key": "shoulder",
+      "height": 151.2,
+      "raw": 34.44052259836553,
+      "mappingValue": 34.4,
+      "pass": true
+    },
+    {
+      "key": "shoulder",
+      "height": 151.2,
+      "raw": 35.68552281175016,
+      "mappingValue": 35.7,
+      "pass": true
+    },
+    {
+      "key": "shoulder",
+      "height": 151.2,
+      "raw": 36.93052302513479,
+      "mappingValue": 36.9,
+      "pass": true
+    },
+    {
+      "key": "shoulder",
+      "height": 151.2,
+      "raw": 38.17552323851942,
+      "mappingValue": 38.2,
+      "pass": true
+    },
+    {
+      "key": "shoulder",
+      "height": 151.2,
+      "raw": 39.420523451904046,
+      "mappingValue": 39.420523451904046,
+      "pass": true
+    },
+    {
+      "key": "arm",
+      "height": 151.2,
+      "raw": 36.45277701421702,
+      "mappingValue": 36.45277701421702,
+      "pass": true
+    },
+    {
+      "key": "arm",
+      "height": 151.2,
+      "raw": 36.5,
+      "mappingValue": 36.45277701421702,
+      "pass": true
+    },
+    {
+      "key": "arm",
+      "height": 151.2,
+      "raw": 19.357077757891673,
+      "mappingValue": 19.4,
+      "pass": true
+    },
+    {
+      "key": "arm",
+      "height": 151.2,
+      "raw": 21.781627382812907,
+      "mappingValue": 21.8,
+      "pass": true
+    },
+    {
+      "key": "arm",
+      "height": 151.2,
+      "raw": 24.223244998996357,
+      "mappingValue": 24.2,
+      "pass": true
+    },
+    {
+      "key": "arm",
+      "height": 151.2,
+      "raw": 26.680326879547003,
+      "mappingValue": 26.7,
+      "pass": true
+    },
+    {
+      "key": "arm",
+      "height": 151.2,
+      "raw": 29.1474381535186,
+      "mappingValue": 29.1,
+      "pass": true
+    },
+    {
+      "key": "arm",
+      "height": 151.2,
+      "raw": 31.60054688289319,
+      "mappingValue": 31.6,
+      "pass": true
+    },
+    {
+      "key": "arm",
+      "height": 151.2,
+      "raw": 34.03561669112303,
+      "mappingValue": 34,
+      "pass": true
+    },
+    {
+      "key": "arm",
+      "height": 151.2,
+      "raw": 36.45277701421701,
+      "mappingValue": 36.45277701421702,
+      "pass": true
+    },
+    {
+      "key": "thigh",
+      "height": 151.2,
+      "raw": 44.16933984601681,
+      "mappingValue": 44.16933984601681,
+      "pass": true
+    },
+    {
+      "key": "thigh",
+      "height": 151.2,
+      "raw": 58.74384596340457,
+      "mappingValue": 58.74384596340457,
+      "pass": true
+    },
+    {
+      "key": "thigh",
+      "height": 151.2,
+      "raw": 44.2,
+      "mappingValue": 44.16933984601681,
+      "pass": true
+    },
+    {
+      "key": "thigh",
+      "height": 151.2,
+      "raw": 58.7,
+      "mappingValue": 58.74384596340457,
+      "pass": true
+    },
+    {
+      "key": "thigh",
+      "height": 151.2,
+      "raw": 44.16933984601681,
+      "mappingValue": 44.16933984601681,
+      "pass": true
+    },
+    {
+      "key": "thigh",
+      "height": 151.2,
+      "raw": 45.630047147339766,
+      "mappingValue": 45.6,
+      "pass": true
+    },
+    {
+      "key": "thigh",
+      "height": 151.2,
+      "raw": 47.08542738024644,
+      "mappingValue": 47.1,
+      "pass": true
+    },
+    {
+      "key": "thigh",
+      "height": 151.2,
+      "raw": 48.53631448970468,
+      "mappingValue": 48.5,
+      "pass": true
+    },
+    {
+      "key": "thigh",
+      "height": 151.2,
+      "raw": 49.982556249349045,
+      "mappingValue": 50,
+      "pass": true
+    },
+    {
+      "key": "thigh",
+      "height": 151.2,
+      "raw": 52.18756553083129,
+      "mappingValue": 52.2,
+      "pass": true
+    },
+    {
+      "key": "thigh",
+      "height": 151.2,
+      "raw": 54.382848200609175,
+      "mappingValue": 54.4,
+      "pass": true
+    },
+    {
+      "key": "thigh",
+      "height": 151.2,
+      "raw": 56.56806606420463,
+      "mappingValue": 56.6,
+      "pass": true
+    },
+    {
+      "key": "thigh",
+      "height": 151.2,
+      "raw": 58.74384596340457,
+      "mappingValue": 58.74384596340457,
+      "pass": true
+    },
+    {
+      "key": "calf",
+      "height": 151.2,
+      "raw": 25.275486789903923,
+      "mappingValue": 25.275486789903923,
+      "pass": true
+    },
+    {
+      "key": "calf",
+      "height": 151.2,
+      "raw": 45.175475383143265,
+      "mappingValue": 45.175475383143265,
+      "pass": true
+    },
+    {
+      "key": "calf",
+      "height": 151.2,
+      "raw": 25.3,
+      "mappingValue": 25.275486789903923,
+      "pass": true
+    },
+    {
+      "key": "calf",
+      "height": 151.2,
+      "raw": 45.2,
+      "mappingValue": 45.175475383143265,
+      "pass": true
+    },
+    {
+      "key": "calf",
+      "height": 151.2,
+      "raw": 25.275486789903923,
+      "mappingValue": 25.275486789903923,
+      "pass": true
+    },
+    {
+      "key": "calf",
+      "height": 151.2,
+      "raw": 27.784618784715576,
+      "mappingValue": 27.8,
+      "pass": true
+    },
+    {
+      "key": "calf",
+      "height": 151.2,
+      "raw": 30.309453024550606,
+      "mappingValue": 30.3,
+      "pass": true
+    },
+    {
+      "key": "calf",
+      "height": 151.2,
+      "raw": 32.83730319278149,
+      "mappingValue": 32.8,
+      "pass": true
+    },
+    {
+      "key": "calf",
+      "height": 151.2,
+      "raw": 35.35033830747055,
+      "mappingValue": 35.4,
+      "pass": true
+    },
+    {
+      "key": "calf",
+      "height": 151.2,
+      "raw": 37.846662048250934,
+      "mappingValue": 37.8,
+      "pass": true
+    },
+    {
+      "key": "calf",
+      "height": 151.2,
+      "raw": 40.31445343341038,
+      "mappingValue": 40.3,
+      "pass": true
+    },
+    {
+      "key": "calf",
+      "height": 151.2,
+      "raw": 42.75515871000145,
+      "mappingValue": 42.8,
+      "pass": true
+    },
+    {
+      "key": "calf",
+      "height": 151.2,
+      "raw": 45.175475383143265,
+      "mappingValue": 45.175475383143265,
+      "pass": true
+    },
+    {
+      "key": "hip",
+      "height": 151.2,
+      "raw": 79.0404507596257,
+      "mappingValue": 79.0404507596257,
+      "pass": true
+    },
+    {
+      "key": "hip",
+      "height": 151.2,
+      "raw": 107.89356550580948,
+      "mappingValue": 107.89356550580948,
+      "pass": true
+    },
+    {
+      "key": "hip",
+      "height": 151.2,
+      "raw": 79,
+      "mappingValue": 79.0404507596257,
+      "pass": true
+    },
+    {
+      "key": "hip",
+      "height": 151.2,
+      "raw": 107.9,
+      "mappingValue": 107.89356550580948,
+      "pass": true
+    },
+    {
+      "key": "hip",
+      "height": 151.2,
+      "raw": 79.0404507596257,
+      "mappingValue": 79.0404507596257,
+      "pass": true
+    },
+    {
+      "key": "hip",
+      "height": 151.2,
+      "raw": 81.43764872702393,
+      "mappingValue": 81.4,
+      "pass": true
+    },
+    {
+      "key": "hip",
+      "height": 151.2,
+      "raw": 83.83585784266235,
+      "mappingValue": 83.8,
+      "pass": true
+    },
+    {
+      "key": "hip",
+      "height": 151.2,
+      "raw": 86.2350164851707,
+      "mappingValue": 86.2,
+      "pass": true
+    },
+    {
+      "key": "hip",
+      "height": 151.2,
+      "raw": 88.63506912294649,
+      "mappingValue": 88.6,
+      "pass": true
+    },
+    {
+      "key": "hip",
+      "height": 151.2,
+      "raw": 93.44563691089321,
+      "mappingValue": 93.4,
+      "pass": true
+    },
+    {
+      "key": "hip",
+      "height": 151.2,
+      "raw": 98.25908055796997,
+      "mappingValue": 98.3,
+      "pass": true
+    },
+    {
+      "key": "hip",
+      "height": 151.2,
+      "raw": 103.07513261656781,
+      "mappingValue": 103.1,
+      "pass": true
+    },
+    {
+      "key": "hip",
+      "height": 151.2,
+      "raw": 107.89356550580946,
+      "mappingValue": 107.89356550580948,
+      "pass": true
+    },
+    {
+      "key": "waist",
+      "height": 160,
+      "raw": 61.44567955047941,
+      "mappingValue": 61.44567955047941,
+      "pass": true
+    },
+    {
+      "key": "waist",
+      "height": 160,
+      "raw": 81.68008953456108,
+      "mappingValue": 81.68008953456108,
+      "pass": true
+    },
+    {
+      "key": "waist",
+      "height": 160,
+      "raw": 61.4,
+      "mappingValue": 61.44567955047941,
+      "pass": true
+    },
+    {
+      "key": "waist",
+      "height": 160,
+      "raw": 81.7,
+      "mappingValue": 81.68008953456108,
+      "pass": true
+    },
+    {
+      "key": "waist",
+      "height": 160,
+      "raw": 61.445679550479426,
+      "mappingValue": 61.44567955047941,
+      "pass": true
+    },
+    {
+      "key": "waist",
+      "height": 160,
+      "raw": 63.895472660958646,
+      "mappingValue": 63.9,
+      "pass": true
+    },
+    {
+      "key": "waist",
+      "height": 160,
+      "raw": 66.37371701575073,
+      "mappingValue": 66.4,
+      "pass": true
+    },
+    {
+      "key": "waist",
+      "height": 160,
+      "raw": 68.87690847406365,
+      "mappingValue": 68.9,
+      "pass": true
+    },
+    {
+      "key": "waist",
+      "height": 160,
+      "raw": 71.40214605774001,
+      "mappingValue": 71.4,
+      "pass": true
+    },
+    {
+      "key": "waist",
+      "height": 160,
+      "raw": 73.94699880493725,
+      "mappingValue": 73.9,
+      "pass": true
+    },
+    {
+      "key": "waist",
+      "height": 160,
+      "raw": 76.50940734722745,
+      "mappingValue": 76.5,
+      "pass": true
+    },
+    {
+      "key": "waist",
+      "height": 160,
+      "raw": 79.08761053014909,
+      "mappingValue": 79.1,
+      "pass": true
+    },
+    {
+      "key": "waist",
+      "height": 160,
+      "raw": 81.68008953456108,
+      "mappingValue": 81.68008953456108,
+      "pass": true
+    },
+    {
+      "key": "chest",
+      "height": 160,
+      "raw": 74.18557118728744,
+      "mappingValue": 74.18557118728744,
+      "pass": true
+    },
+    {
+      "key": "chest",
+      "height": 160,
+      "raw": 106.460744007653,
+      "mappingValue": 106.460744007653,
+      "pass": true
+    },
+    {
+      "key": "chest",
+      "height": 160,
+      "raw": 74.2,
+      "mappingValue": 74.18557118728744,
+      "pass": true
+    },
+    {
+      "key": "chest",
+      "height": 160,
+      "raw": 106.5,
+      "mappingValue": 106.460744007653,
+      "pass": true
+    },
+    {
+      "key": "chest",
+      "height": 160,
+      "raw": 74.18557118728744,
+      "mappingValue": 74.18557118728744,
+      "pass": true
+    },
+    {
+      "key": "chest",
+      "height": 160,
+      "raw": 77.71874471779263,
+      "mappingValue": 77.7,
+      "pass": true
+    },
+    {
+      "key": "chest",
+      "height": 160,
+      "raw": 81.27559575865133,
+      "mappingValue": 81.3,
+      "pass": true
+    },
+    {
+      "key": "chest",
+      "height": 160,
+      "raw": 84.85348869805127,
+      "mappingValue": 84.9,
+      "pass": true
+    },
+    {
+      "key": "chest",
+      "height": 160,
+      "raw": 88.45017600666559,
+      "mappingValue": 88.5,
+      "pass": true
+    },
+    {
+      "key": "chest",
+      "height": 160,
+      "raw": 92.91652381700767,
+      "mappingValue": 92.9,
+      "pass": true
+    },
+    {
+      "key": "chest",
+      "height": 160,
+      "raw": 97.40483416484462,
+      "mappingValue": 97.4,
+      "pass": true
+    },
+    {
+      "key": "chest",
+      "height": 160,
+      "raw": 101.91931561636783,
+      "mappingValue": 101.9,
+      "pass": true
+    },
+    {
+      "key": "chest",
+      "height": 160,
+      "raw": 106.46074400765299,
+      "mappingValue": 106.460744007653,
+      "pass": true
+    },
+    {
+      "key": "shoulder",
+      "height": 160,
+      "raw": 33.044919519985996,
+      "mappingValue": 33.044919519985996,
+      "pass": true
+    },
+    {
+      "key": "shoulder",
+      "height": 160,
+      "raw": 40.72492137488254,
+      "mappingValue": 40.72492137488254,
+      "pass": true
+    },
+    {
+      "key": "shoulder",
+      "height": 160,
+      "raw": 33,
+      "mappingValue": 33.044919519985996,
+      "pass": true
+    },
+    {
+      "key": "shoulder",
+      "height": 160,
+      "raw": 40.7,
+      "mappingValue": 40.72492137488254,
+      "pass": true
+    },
+    {
+      "key": "shoulder",
+      "height": 160,
+      "raw": 33.044919519985996,
+      "mappingValue": 33.044919519985996,
+      "pass": true
+    },
+    {
+      "key": "shoulder",
+      "height": 160,
+      "raw": 33.719919770325504,
+      "mappingValue": 33.7,
+      "pass": true
+    },
+    {
+      "key": "shoulder",
+      "height": 160,
+      "raw": 34.39492002066501,
+      "mappingValue": 34.4,
+      "pass": true
+    },
+    {
+      "key": "shoulder",
+      "height": 160,
+      "raw": 35.06992027100452,
+      "mappingValue": 35.1,
+      "pass": true
+    },
+    {
+      "key": "shoulder",
+      "height": 160,
+      "raw": 35.74492052134403,
+      "mappingValue": 35.7,
+      "pass": true
+    },
+    {
+      "key": "shoulder",
+      "height": 160,
+      "raw": 36.989920734728656,
+      "mappingValue": 37,
+      "pass": true
+    },
+    {
+      "key": "shoulder",
+      "height": 160,
+      "raw": 38.234920948113285,
+      "mappingValue": 38.2,
+      "pass": true
+    },
+    {
+      "key": "shoulder",
+      "height": 160,
+      "raw": 39.47992116149791,
+      "mappingValue": 39.5,
+      "pass": true
+    },
+    {
+      "key": "shoulder",
+      "height": 160,
+      "raw": 40.72492137488254,
+      "mappingValue": 40.72492137488254,
+      "pass": true
+    },
+    {
+      "key": "arm",
+      "height": 160,
+      "raw": 37.42174716210771,
+      "mappingValue": 37.42174716210771,
+      "pass": true
+    },
+    {
+      "key": "arm",
+      "height": 160,
+      "raw": 37.4,
+      "mappingValue": 37.42174716210771,
+      "pass": true
+    },
+    {
+      "key": "arm",
+      "height": 160,
+      "raw": 20.326047905782367,
+      "mappingValue": 20.3,
+      "pass": true
+    },
+    {
+      "key": "arm",
+      "height": 160,
+      "raw": 22.750597530703594,
+      "mappingValue": 22.8,
+      "pass": true
+    },
+    {
+      "key": "arm",
+      "height": 160,
+      "raw": 25.192215146887044,
+      "mappingValue": 25.2,
+      "pass": true
+    },
+    {
+      "key": "arm",
+      "height": 160,
+      "raw": 27.649297027437697,
+      "mappingValue": 27.6,
+      "pass": true
+    },
+    {
+      "key": "arm",
+      "height": 160,
+      "raw": 30.116408301409294,
+      "mappingValue": 30.1,
+      "pass": true
+    },
+    {
+      "key": "arm",
+      "height": 160,
+      "raw": 32.56951703078388,
+      "mappingValue": 32.6,
+      "pass": true
+    },
+    {
+      "key": "arm",
+      "height": 160,
+      "raw": 35.00458683901372,
+      "mappingValue": 35,
+      "pass": true
+    },
+    {
+      "key": "arm",
+      "height": 160,
+      "raw": 37.4217471621077,
+      "mappingValue": 37.42174716210771,
+      "pass": true
+    },
+    {
+      "key": "thigh",
+      "height": 160,
+      "raw": 45.92432534567808,
+      "mappingValue": 45.92432534567808,
+      "pass": true
+    },
+    {
+      "key": "thigh",
+      "height": 160,
+      "raw": 60.498831463065834,
+      "mappingValue": 60.498831463065834,
+      "pass": true
+    },
+    {
+      "key": "thigh",
+      "height": 160,
+      "raw": 45.9,
+      "mappingValue": 45.92432534567808,
+      "pass": true
+    },
+    {
+      "key": "thigh",
+      "height": 160,
+      "raw": 60.5,
+      "mappingValue": 60.498831463065834,
+      "pass": true
+    },
+    {
+      "key": "thigh",
+      "height": 160,
+      "raw": 47.38503264700104,
+      "mappingValue": 47.4,
+      "pass": true
+    },
+    {
+      "key": "thigh",
+      "height": 160,
+      "raw": 48.8404128799077,
+      "mappingValue": 48.8,
+      "pass": true
+    },
+    {
+      "key": "thigh",
+      "height": 160,
+      "raw": 50.29129998936595,
+      "mappingValue": 50.3,
+      "pass": true
+    },
+    {
+      "key": "thigh",
+      "height": 160,
+      "raw": 51.737541749010305,
+      "mappingValue": 51.7,
+      "pass": true
+    },
+    {
+      "key": "thigh",
+      "height": 160,
+      "raw": 53.94255103049255,
+      "mappingValue": 53.9,
+      "pass": true
+    },
+    {
+      "key": "thigh",
+      "height": 160,
+      "raw": 56.137833700270434,
+      "mappingValue": 56.1,
+      "pass": true
+    },
+    {
+      "key": "thigh",
+      "height": 160,
+      "raw": 58.32305156386589,
+      "mappingValue": 58.3,
+      "pass": true
+    },
+    {
+      "key": "thigh",
+      "height": 160,
+      "raw": 60.49883146306583,
+      "mappingValue": 60.498831463065834,
+      "pass": true
+    },
+    {
+      "key": "calf",
+      "height": 160,
+      "raw": 26.415926089851986,
+      "mappingValue": 26.415926089851986,
+      "pass": true
+    },
+    {
+      "key": "calf",
+      "height": 160,
+      "raw": 46.31591468309133,
+      "mappingValue": 46.31591468309133,
+      "pass": true
+    },
+    {
+      "key": "calf",
+      "height": 160,
+      "raw": 26.4,
+      "mappingValue": 26.415926089851986,
+      "pass": true
+    },
+    {
+      "key": "calf",
+      "height": 160,
+      "raw": 46.3,
+      "mappingValue": 46.31591468309133,
+      "pass": true
+    },
+    {
+      "key": "calf",
+      "height": 160,
+      "raw": 26.415926089851993,
+      "mappingValue": 26.415926089851986,
+      "pass": true
+    },
+    {
+      "key": "calf",
+      "height": 160,
+      "raw": 28.925058084663632,
+      "mappingValue": 28.9,
+      "pass": true
+    },
+    {
+      "key": "calf",
+      "height": 160,
+      "raw": 31.449892324498663,
+      "mappingValue": 31.4,
+      "pass": true
+    },
+    {
+      "key": "calf",
+      "height": 160,
+      "raw": 33.97774249272955,
+      "mappingValue": 34,
+      "pass": true
+    },
+    {
+      "key": "calf",
+      "height": 160,
+      "raw": 36.49077760741862,
+      "mappingValue": 36.5,
+      "pass": true
+    },
+    {
+      "key": "calf",
+      "height": 160,
+      "raw": 38.987101348199005,
+      "mappingValue": 39,
+      "pass": true
+    },
+    {
+      "key": "calf",
+      "height": 160,
+      "raw": 41.45489273335845,
+      "mappingValue": 41.5,
+      "pass": true
+    },
+    {
+      "key": "calf",
+      "height": 160,
+      "raw": 43.89559800994952,
+      "mappingValue": 43.9,
+      "pass": true
+    },
+    {
+      "key": "calf",
+      "height": 160,
+      "raw": 46.31591468309132,
+      "mappingValue": 46.31591468309133,
+      "pass": true
+    },
+    {
+      "key": "hip",
+      "height": 160,
+      "raw": 82.42672068053409,
+      "mappingValue": 82.42672068053409,
+      "pass": true
+    },
+    {
+      "key": "hip",
+      "height": 160,
+      "raw": 111.27983542671787,
+      "mappingValue": 111.27983542671787,
+      "pass": true
+    },
+    {
+      "key": "hip",
+      "height": 160,
+      "raw": 82.4,
+      "mappingValue": 82.42672068053409,
+      "pass": true
+    },
+    {
+      "key": "hip",
+      "height": 160,
+      "raw": 111.3,
+      "mappingValue": 111.27983542671787,
+      "pass": true
+    },
+    {
+      "key": "hip",
+      "height": 160,
+      "raw": 82.4267206805341,
+      "mappingValue": 82.42672068053409,
+      "pass": true
+    },
+    {
+      "key": "hip",
+      "height": 160,
+      "raw": 84.82391864793233,
+      "mappingValue": 84.8,
+      "pass": true
+    },
+    {
+      "key": "hip",
+      "height": 160,
+      "raw": 87.22212776357075,
+      "mappingValue": 87.2,
+      "pass": true
+    },
+    {
+      "key": "hip",
+      "height": 160,
+      "raw": 89.62128640607908,
+      "mappingValue": 89.6,
+      "pass": true
+    },
+    {
+      "key": "hip",
+      "height": 160,
+      "raw": 92.02133904385487,
+      "mappingValue": 92,
+      "pass": true
+    },
+    {
+      "key": "hip",
+      "height": 160,
+      "raw": 96.83190683180162,
+      "mappingValue": 96.8,
+      "pass": true
+    },
+    {
+      "key": "hip",
+      "height": 160,
+      "raw": 101.64535047887837,
+      "mappingValue": 101.6,
+      "pass": true
+    },
+    {
+      "key": "hip",
+      "height": 160,
+      "raw": 106.46140253747619,
+      "mappingValue": 106.5,
+      "pass": true
+    },
+    {
+      "key": "hip",
+      "height": 160,
+      "raw": 111.27983542671787,
+      "mappingValue": 111.27983542671787,
+      "pass": true
+    },
+    {
+      "key": "waist",
+      "height": 165,
+      "raw": 62.92469865279105,
+      "mappingValue": 62.92469865279105,
+      "pass": true
+    },
+    {
+      "key": "waist",
+      "height": 165,
+      "raw": 83.15910863687272,
+      "mappingValue": 83.15910863687272,
+      "pass": true
+    },
+    {
+      "key": "waist",
+      "height": 165,
+      "raw": 62.9,
+      "mappingValue": 62.92469865279105,
+      "pass": true
+    },
+    {
+      "key": "waist",
+      "height": 165,
+      "raw": 83.2,
+      "mappingValue": 83.15910863687272,
+      "pass": true
+    },
+    {
+      "key": "waist",
+      "height": 165,
+      "raw": 65.37449176327029,
+      "mappingValue": 65.4,
+      "pass": true
+    },
+    {
+      "key": "waist",
+      "height": 165,
+      "raw": 67.85273611806234,
+      "mappingValue": 67.9,
+      "pass": true
+    },
+    {
+      "key": "waist",
+      "height": 165,
+      "raw": 70.3559275763753,
+      "mappingValue": 70.4,
+      "pass": true
+    },
+    {
+      "key": "waist",
+      "height": 165,
+      "raw": 72.88116516005168,
+      "mappingValue": 72.9,
+      "pass": true
+    },
+    {
+      "key": "waist",
+      "height": 165,
+      "raw": 75.42601790724886,
+      "mappingValue": 75.4,
+      "pass": true
+    },
+    {
+      "key": "waist",
+      "height": 165,
+      "raw": 77.98842644953912,
+      "mappingValue": 78,
+      "pass": true
+    },
+    {
+      "key": "waist",
+      "height": 165,
+      "raw": 80.5666296324607,
+      "mappingValue": 80.6,
+      "pass": true
+    },
+    {
+      "key": "waist",
+      "height": 165,
+      "raw": 83.15910863687272,
+      "mappingValue": 83.15910863687272,
+      "pass": true
+    },
+    {
+      "key": "chest",
+      "height": 165,
+      "raw": 75.90384941713067,
+      "mappingValue": 75.90384941713067,
+      "pass": true
+    },
+    {
+      "key": "chest",
+      "height": 165,
+      "raw": 108.17902223749624,
+      "mappingValue": 108.17902223749624,
+      "pass": true
+    },
+    {
+      "key": "chest",
+      "height": 165,
+      "raw": 75.9,
+      "mappingValue": 75.90384941713067,
+      "pass": true
+    },
+    {
+      "key": "chest",
+      "height": 165,
+      "raw": 108.2,
+      "mappingValue": 108.17902223749624,
+      "pass": true
+    },
+    {
+      "key": "chest",
+      "height": 165,
+      "raw": 75.90384941713067,
+      "mappingValue": 75.90384941713067,
+      "pass": true
+    },
+    {
+      "key": "chest",
+      "height": 165,
+      "raw": 79.43702294763587,
+      "mappingValue": 79.4,
+      "pass": true
+    },
+    {
+      "key": "chest",
+      "height": 165,
+      "raw": 82.99387398849457,
+      "mappingValue": 83,
+      "pass": true
+    },
+    {
+      "key": "chest",
+      "height": 165,
+      "raw": 86.5717669278945,
+      "mappingValue": 86.6,
+      "pass": true
+    },
+    {
+      "key": "chest",
+      "height": 165,
+      "raw": 90.16845423650882,
+      "mappingValue": 90.2,
+      "pass": true
+    },
+    {
+      "key": "chest",
+      "height": 165,
+      "raw": 94.63480204685091,
+      "mappingValue": 94.6,
+      "pass": true
+    },
+    {
+      "key": "chest",
+      "height": 165,
+      "raw": 99.12311239468785,
+      "mappingValue": 99.1,
+      "pass": true
+    },
+    {
+      "key": "chest",
+      "height": 165,
+      "raw": 103.63759384621106,
+      "mappingValue": 103.6,
+      "pass": true
+    },
+    {
+      "key": "chest",
+      "height": 165,
+      "raw": 108.17902223749623,
+      "mappingValue": 108.17902223749624,
+      "pass": true
+    },
+    {
+      "key": "shoulder",
+      "height": 165,
+      "raw": 33.78755533053882,
+      "mappingValue": 33.78755533053882,
+      "pass": true
+    },
+    {
+      "key": "shoulder",
+      "height": 165,
+      "raw": 41.46755718543537,
+      "mappingValue": 41.46755718543537,
+      "pass": true
+    },
+    {
+      "key": "shoulder",
+      "height": 165,
+      "raw": 33.8,
+      "mappingValue": 33.78755533053882,
+      "pass": true
+    },
+    {
+      "key": "shoulder",
+      "height": 165,
+      "raw": 41.5,
+      "mappingValue": 41.46755718543537,
+      "pass": true
+    },
+    {
+      "key": "shoulder",
+      "height": 165,
+      "raw": 33.78755533053882,
+      "mappingValue": 33.78755533053882,
+      "pass": true
+    },
+    {
+      "key": "shoulder",
+      "height": 165,
+      "raw": 34.46255558087833,
+      "mappingValue": 34.5,
+      "pass": true
+    },
+    {
+      "key": "shoulder",
+      "height": 165,
+      "raw": 35.13755583121784,
+      "mappingValue": 35.1,
+      "pass": true
+    },
+    {
+      "key": "shoulder",
+      "height": 165,
+      "raw": 35.81255608155735,
+      "mappingValue": 35.8,
+      "pass": true
+    },
+    {
+      "key": "shoulder",
+      "height": 165,
+      "raw": 36.487556331896855,
+      "mappingValue": 36.5,
+      "pass": true
+    },
+    {
+      "key": "shoulder",
+      "height": 165,
+      "raw": 37.73255654528148,
+      "mappingValue": 37.7,
+      "pass": true
+    },
+    {
+      "key": "shoulder",
+      "height": 165,
+      "raw": 38.97755675866611,
+      "mappingValue": 39,
+      "pass": true
+    },
+    {
+      "key": "shoulder",
+      "height": 165,
+      "raw": 40.22255697205074,
+      "mappingValue": 40.2,
+      "pass": true
+    },
+    {
+      "key": "shoulder",
+      "height": 165,
+      "raw": 41.46755718543537,
+      "mappingValue": 41.46755718543537,
+      "pass": true
+    },
+    {
+      "key": "arm",
+      "height": 165,
+      "raw": 18.475460806644637,
+      "mappingValue": 18.475460806644637,
+      "pass": true
+    },
+    {
+      "key": "arm",
+      "height": 165,
+      "raw": 37.97387142119731,
+      "mappingValue": 37.97387142119731,
+      "pass": true
+    },
+    {
+      "key": "arm",
+      "height": 165,
+      "raw": 18.5,
+      "mappingValue": 18.475460806644637,
+      "pass": true
+    },
+    {
+      "key": "arm",
+      "height": 165,
+      "raw": 38,
+      "mappingValue": 37.97387142119731,
+      "pass": true
+    },
+    {
+      "key": "arm",
+      "height": 165,
+      "raw": 18.47546080664464,
+      "mappingValue": 18.475460806644637,
+      "pass": true
+    },
+    {
+      "key": "arm",
+      "height": 165,
+      "raw": 20.878172164871962,
+      "mappingValue": 20.9,
+      "pass": true
+    },
+    {
+      "key": "arm",
+      "height": 165,
+      "raw": 23.302721789793196,
+      "mappingValue": 23.3,
+      "pass": true
+    },
+    {
+      "key": "arm",
+      "height": 165,
+      "raw": 25.744339405976646,
+      "mappingValue": 25.7,
+      "pass": true
+    },
+    {
+      "key": "arm",
+      "height": 165,
+      "raw": 28.2014212865273,
+      "mappingValue": 28.2,
+      "pass": true
+    },
+    {
+      "key": "arm",
+      "height": 165,
+      "raw": 30.668532560498896,
+      "mappingValue": 30.7,
+      "pass": true
+    },
+    {
+      "key": "arm",
+      "height": 165,
+      "raw": 33.12164128987348,
+      "mappingValue": 33.1,
+      "pass": true
+    },
+    {
+      "key": "arm",
+      "height": 165,
+      "raw": 35.55671109810333,
+      "mappingValue": 35.6,
+      "pass": true
+    },
+    {
+      "key": "arm",
+      "height": 165,
+      "raw": 37.97387142119731,
+      "mappingValue": 37.97387142119731,
+      "pass": true
+    },
+    {
+      "key": "thigh",
+      "height": 165,
+      "raw": 46.9250325899858,
+      "mappingValue": 46.9250325899858,
+      "pass": true
+    },
+    {
+      "key": "thigh",
+      "height": 165,
+      "raw": 61.49953870737355,
+      "mappingValue": 61.49953870737355,
+      "pass": true
+    },
+    {
+      "key": "thigh",
+      "height": 165,
+      "raw": 46.9,
+      "mappingValue": 46.9250325899858,
+      "pass": true
+    },
+    {
+      "key": "thigh",
+      "height": 165,
+      "raw": 61.5,
+      "mappingValue": 61.49953870737355,
+      "pass": true
+    },
+    {
+      "key": "thigh",
+      "height": 165,
+      "raw": 46.925032589985804,
+      "mappingValue": 46.9250325899858,
+      "pass": true
+    },
+    {
+      "key": "thigh",
+      "height": 165,
+      "raw": 48.385739891308745,
+      "mappingValue": 48.4,
+      "pass": true
+    },
+    {
+      "key": "thigh",
+      "height": 165,
+      "raw": 49.841120124215436,
+      "mappingValue": 49.8,
+      "pass": true
+    },
+    {
+      "key": "thigh",
+      "height": 165,
+      "raw": 51.29200723367367,
+      "mappingValue": 51.3,
+      "pass": true
+    },
+    {
+      "key": "thigh",
+      "height": 165,
+      "raw": 52.73824899331804,
+      "mappingValue": 52.7,
+      "pass": true
+    },
+    {
+      "key": "thigh",
+      "height": 165,
+      "raw": 54.94325827480027,
+      "mappingValue": 54.9,
+      "pass": true
+    },
+    {
+      "key": "thigh",
+      "height": 165,
+      "raw": 57.13854094457817,
+      "mappingValue": 57.1,
+      "pass": true
+    },
+    {
+      "key": "thigh",
+      "height": 165,
+      "raw": 59.32375880817362,
+      "mappingValue": 59.3,
+      "pass": true
+    },
+    {
+      "key": "calf",
+      "height": 165,
+      "raw": 27.06926423257626,
+      "mappingValue": 27.06926423257626,
+      "pass": true
+    },
+    {
+      "key": "calf",
+      "height": 165,
+      "raw": 46.9692528258156,
+      "mappingValue": 46.9692528258156,
+      "pass": true
+    },
+    {
+      "key": "calf",
+      "height": 165,
+      "raw": 27.1,
+      "mappingValue": 27.06926423257626,
+      "pass": true
+    },
+    {
+      "key": "calf",
+      "height": 165,
+      "raw": 47,
+      "mappingValue": 46.9692528258156,
+      "pass": true
+    },
+    {
+      "key": "calf",
+      "height": 165,
+      "raw": 27.06926423257626,
+      "mappingValue": 27.06926423257626,
+      "pass": true
+    },
+    {
+      "key": "calf",
+      "height": 165,
+      "raw": 29.578396227387913,
+      "mappingValue": 29.6,
+      "pass": true
+    },
+    {
+      "key": "calf",
+      "height": 165,
+      "raw": 32.10323046722294,
+      "mappingValue": 32.1,
+      "pass": true
+    },
+    {
+      "key": "calf",
+      "height": 165,
+      "raw": 34.63108063545383,
+      "mappingValue": 34.6,
+      "pass": true
+    },
+    {
+      "key": "calf",
+      "height": 165,
+      "raw": 37.14411575014289,
+      "mappingValue": 37.1,
+      "pass": true
+    },
+    {
+      "key": "calf",
+      "height": 165,
+      "raw": 39.64043949092327,
+      "mappingValue": 39.6,
+      "pass": true
+    },
+    {
+      "key": "calf",
+      "height": 165,
+      "raw": 42.108230876082715,
+      "mappingValue": 42.1,
+      "pass": true
+    },
+    {
+      "key": "calf",
+      "height": 165,
+      "raw": 44.54893615267379,
+      "mappingValue": 44.5,
+      "pass": true
+    },
+    {
+      "key": "calf",
+      "height": 165,
+      "raw": 46.9692528258156,
+      "mappingValue": 46.9692528258156,
+      "pass": true
+    },
+    {
+      "key": "hip",
+      "height": 165,
+      "raw": 84.3552331441919,
+      "mappingValue": 84.3552331441919,
+      "pass": true
+    },
+    {
+      "key": "hip",
+      "height": 165,
+      "raw": 113.20834789037568,
+      "mappingValue": 113.20834789037568,
+      "pass": true
+    },
+    {
+      "key": "hip",
+      "height": 165,
+      "raw": 84.4,
+      "mappingValue": 84.3552331441919,
+      "pass": true
+    },
+    {
+      "key": "hip",
+      "height": 165,
+      "raw": 113.2,
+      "mappingValue": 113.20834789037568,
+      "pass": true
+    },
+    {
+      "key": "hip",
+      "height": 165,
+      "raw": 84.3552331441919,
+      "mappingValue": 84.3552331441919,
+      "pass": true
+    },
+    {
+      "key": "hip",
+      "height": 165,
+      "raw": 86.75243111159016,
+      "mappingValue": 86.8,
+      "pass": true
+    },
+    {
+      "key": "hip",
+      "height": 165,
+      "raw": 89.15064022722855,
+      "mappingValue": 89.2,
+      "pass": true
+    },
+    {
+      "key": "hip",
+      "height": 165,
+      "raw": 91.5497988697369,
+      "mappingValue": 91.5,
+      "pass": true
+    },
+    {
+      "key": "hip",
+      "height": 165,
+      "raw": 93.94985150751266,
+      "mappingValue": 93.9,
+      "pass": true
+    },
+    {
+      "key": "hip",
+      "height": 165,
+      "raw": 98.76041929545941,
+      "mappingValue": 98.8,
+      "pass": true
+    },
+    {
+      "key": "hip",
+      "height": 165,
+      "raw": 103.5738629425362,
+      "mappingValue": 103.6,
+      "pass": true
+    },
+    {
+      "key": "hip",
+      "height": 165,
+      "raw": 108.38991500113401,
+      "mappingValue": 108.4,
+      "pass": true
+    },
+    {
+      "key": "waist",
+      "height": 170,
+      "raw": 64.40396677766712,
+      "mappingValue": 64.40396677766712,
+      "pass": true
+    },
+    {
+      "key": "waist",
+      "height": 170,
+      "raw": 84.63837676174879,
+      "mappingValue": 84.63837676174879,
+      "pass": true
+    },
+    {
+      "key": "waist",
+      "height": 170,
+      "raw": 64.4,
+      "mappingValue": 64.40396677766712,
+      "pass": true
+    },
+    {
+      "key": "waist",
+      "height": 170,
+      "raw": 84.6,
+      "mappingValue": 84.63837676174879,
+      "pass": true
+    },
+    {
+      "key": "waist",
+      "height": 170,
+      "raw": 64.40396677766712,
+      "mappingValue": 64.40396677766712,
+      "pass": true
+    },
+    {
+      "key": "waist",
+      "height": 170,
+      "raw": 66.85375988814637,
+      "mappingValue": 66.9,
+      "pass": true
+    },
+    {
+      "key": "waist",
+      "height": 170,
+      "raw": 69.33200424293842,
+      "mappingValue": 69.3,
+      "pass": true
+    },
+    {
+      "key": "waist",
+      "height": 170,
+      "raw": 71.83519570125138,
+      "mappingValue": 71.8,
+      "pass": true
+    },
+    {
+      "key": "waist",
+      "height": 170,
+      "raw": 74.36043328492774,
+      "mappingValue": 74.4,
+      "pass": true
+    },
+    {
+      "key": "waist",
+      "height": 170,
+      "raw": 76.90528603212495,
+      "mappingValue": 76.9,
+      "pass": true
+    },
+    {
+      "key": "waist",
+      "height": 170,
+      "raw": 79.46769457441518,
+      "mappingValue": 79.5,
+      "pass": true
+    },
+    {
+      "key": "waist",
+      "height": 170,
+      "raw": 82.04589775733679,
+      "mappingValue": 82,
+      "pass": true
+    },
+    {
+      "key": "chest",
+      "height": 170,
+      "raw": 77.62280315494945,
+      "mappingValue": 77.62280315494945,
+      "pass": true
+    },
+    {
+      "key": "chest",
+      "height": 170,
+      "raw": 109.89797597531502,
+      "mappingValue": 109.89797597531502,
+      "pass": true
+    },
+    {
+      "key": "chest",
+      "height": 170,
+      "raw": 77.6,
+      "mappingValue": 77.62280315494945,
+      "pass": true
+    },
+    {
+      "key": "chest",
+      "height": 170,
+      "raw": 109.9,
+      "mappingValue": 109.89797597531502,
+      "pass": true
+    },
+    {
+      "key": "chest",
+      "height": 170,
+      "raw": 77.62280315494947,
+      "mappingValue": 77.62280315494945,
+      "pass": true
+    },
+    {
+      "key": "chest",
+      "height": 170,
+      "raw": 81.15597668545463,
+      "mappingValue": 81.2,
+      "pass": true
+    },
+    {
+      "key": "chest",
+      "height": 170,
+      "raw": 84.71282772631334,
+      "mappingValue": 84.7,
+      "pass": true
+    },
+    {
+      "key": "chest",
+      "height": 170,
+      "raw": 88.2907206657133,
+      "mappingValue": 88.3,
+      "pass": true
+    },
+    {
+      "key": "chest",
+      "height": 170,
+      "raw": 91.88740797432759,
+      "mappingValue": 91.9,
+      "pass": true
+    },
+    {
+      "key": "chest",
+      "height": 170,
+      "raw": 96.35375578466967,
+      "mappingValue": 96.4,
+      "pass": true
+    },
+    {
+      "key": "chest",
+      "height": 170,
+      "raw": 100.84206613250664,
+      "mappingValue": 100.8,
+      "pass": true
+    },
+    {
+      "key": "chest",
+      "height": 170,
+      "raw": 105.35654758402985,
+      "mappingValue": 105.4,
+      "pass": true
+    },
+    {
+      "key": "chest",
+      "height": 170,
+      "raw": 109.89797597531502,
+      "mappingValue": 109.89797597531502,
+      "pass": true
+    },
+    {
+      "key": "shoulder",
+      "height": 170,
+      "raw": 34.53019114109165,
+      "mappingValue": 34.53019114109165,
+      "pass": true
+    },
+    {
+      "key": "shoulder",
+      "height": 170,
+      "raw": 42.210192995988194,
+      "mappingValue": 42.210192995988194,
+      "pass": true
+    },
+    {
+      "key": "shoulder",
+      "height": 170,
+      "raw": 34.5,
+      "mappingValue": 34.53019114109165,
+      "pass": true
+    },
+    {
+      "key": "shoulder",
+      "height": 170,
+      "raw": 42.2,
+      "mappingValue": 42.210192995988194,
+      "pass": true
+    },
+    {
+      "key": "shoulder",
+      "height": 170,
+      "raw": 34.53019114109165,
+      "mappingValue": 34.53019114109165,
+      "pass": true
+    },
+    {
+      "key": "shoulder",
+      "height": 170,
+      "raw": 35.20519139143116,
+      "mappingValue": 35.2,
+      "pass": true
+    },
+    {
+      "key": "shoulder",
+      "height": 170,
+      "raw": 35.880191641770665,
+      "mappingValue": 35.9,
+      "pass": true
+    },
+    {
+      "key": "shoulder",
+      "height": 170,
+      "raw": 36.55519189211017,
+      "mappingValue": 36.6,
+      "pass": true
+    },
+    {
+      "key": "shoulder",
+      "height": 170,
+      "raw": 37.23019214244968,
+      "mappingValue": 37.2,
+      "pass": true
+    },
+    {
+      "key": "shoulder",
+      "height": 170,
+      "raw": 38.47519235583431,
+      "mappingValue": 38.5,
+      "pass": true
+    },
+    {
+      "key": "shoulder",
+      "height": 170,
+      "raw": 39.72019256921894,
+      "mappingValue": 39.7,
+      "pass": true
+    },
+    {
+      "key": "shoulder",
+      "height": 170,
+      "raw": 40.965192782603566,
+      "mappingValue": 41,
+      "pass": true
+    },
+    {
+      "key": "shoulder",
+      "height": 170,
+      "raw": 42.210192995988194,
+      "mappingValue": 42.210192995988194,
+      "pass": true
+    },
+    {
+      "key": "arm",
+      "height": 170,
+      "raw": 19.028004197348576,
+      "mappingValue": 19.028004197348576,
+      "pass": true
+    },
+    {
+      "key": "arm",
+      "height": 170,
+      "raw": 38.52641481190125,
+      "mappingValue": 38.52641481190125,
+      "pass": true
+    },
+    {
+      "key": "arm",
+      "height": 170,
+      "raw": 19,
+      "mappingValue": 19.028004197348576,
+      "pass": true
+    },
+    {
+      "key": "arm",
+      "height": 170,
+      "raw": 38.5,
+      "mappingValue": 38.52641481190125,
+      "pass": true
+    },
+    {
+      "key": "arm",
+      "height": 170,
+      "raw": 21.430715555575908,
+      "mappingValue": 21.4,
+      "pass": true
+    },
+    {
+      "key": "arm",
+      "height": 170,
+      "raw": 23.855265180497135,
+      "mappingValue": 23.9,
+      "pass": true
+    },
+    {
+      "key": "arm",
+      "height": 170,
+      "raw": 26.296882796680585,
+      "mappingValue": 26.3,
+      "pass": true
+    },
+    {
+      "key": "arm",
+      "height": 170,
+      "raw": 28.753964677231238,
+      "mappingValue": 28.8,
+      "pass": true
+    },
+    {
+      "key": "arm",
+      "height": 170,
+      "raw": 31.221075951202835,
+      "mappingValue": 31.2,
+      "pass": true
+    },
+    {
+      "key": "arm",
+      "height": 170,
+      "raw": 33.67418468057742,
+      "mappingValue": 33.7,
+      "pass": true
+    },
+    {
+      "key": "arm",
+      "height": 170,
+      "raw": 36.109254488807274,
+      "mappingValue": 36.1,
+      "pass": true
+    },
+    {
+      "key": "thigh",
+      "height": 170,
+      "raw": 47.926846178963814,
+      "mappingValue": 47.926846178963814,
+      "pass": true
+    },
+    {
+      "key": "thigh",
+      "height": 170,
+      "raw": 62.50135229635157,
+      "mappingValue": 62.50135229635157,
+      "pass": true
+    },
+    {
+      "key": "thigh",
+      "height": 170,
+      "raw": 47.9,
+      "mappingValue": 47.926846178963814,
+      "pass": true
+    },
+    {
+      "key": "thigh",
+      "height": 170,
+      "raw": 62.5,
+      "mappingValue": 62.50135229635157,
+      "pass": true
+    },
+    {
+      "key": "thigh",
+      "height": 170,
+      "raw": 47.926846178963814,
+      "mappingValue": 47.926846178963814,
+      "pass": true
+    },
+    {
+      "key": "thigh",
+      "height": 170,
+      "raw": 49.38755348028677,
+      "mappingValue": 49.4,
+      "pass": true
+    },
+    {
+      "key": "thigh",
+      "height": 170,
+      "raw": 50.842933713193446,
+      "mappingValue": 50.8,
+      "pass": true
+    },
+    {
+      "key": "thigh",
+      "height": 170,
+      "raw": 52.29382082265168,
+      "mappingValue": 52.3,
+      "pass": true
+    },
+    {
+      "key": "thigh",
+      "height": 170,
+      "raw": 53.74006258229605,
+      "mappingValue": 53.7,
+      "pass": true
+    },
+    {
+      "key": "thigh",
+      "height": 170,
+      "raw": 55.945071863778296,
+      "mappingValue": 55.9,
+      "pass": true
+    },
+    {
+      "key": "thigh",
+      "height": 170,
+      "raw": 58.14035453355618,
+      "mappingValue": 58.1,
+      "pass": true
+    },
+    {
+      "key": "thigh",
+      "height": 170,
+      "raw": 60.32557239715163,
+      "mappingValue": 60.3,
+      "pass": true
+    },
+    {
+      "key": "thigh",
+      "height": 170,
+      "raw": 62.50135229635157,
+      "mappingValue": 62.50135229635157,
+      "pass": true
+    },
+    {
+      "key": "calf",
+      "height": 170,
+      "raw": 27.725547837989353,
+      "mappingValue": 27.725547837989353,
+      "pass": true
+    },
+    {
+      "key": "calf",
+      "height": 170,
+      "raw": 47.625536431228696,
+      "mappingValue": 47.625536431228696,
+      "pass": true
+    },
+    {
+      "key": "calf",
+      "height": 170,
+      "raw": 27.7,
+      "mappingValue": 27.725547837989353,
+      "pass": true
+    },
+    {
+      "key": "calf",
+      "height": 170,
+      "raw": 47.6,
+      "mappingValue": 47.625536431228696,
+      "pass": true
+    },
+    {
+      "key": "calf",
+      "height": 170,
+      "raw": 27.725547837989353,
+      "mappingValue": 27.725547837989353,
+      "pass": true
+    },
+    {
+      "key": "calf",
+      "height": 170,
+      "raw": 30.234679832801007,
+      "mappingValue": 30.2,
+      "pass": true
+    },
+    {
+      "key": "calf",
+      "height": 170,
+      "raw": 32.75951407263604,
+      "mappingValue": 32.8,
+      "pass": true
+    },
+    {
+      "key": "calf",
+      "height": 170,
+      "raw": 35.28736424086692,
+      "mappingValue": 35.3,
+      "pass": true
+    },
+    {
+      "key": "calf",
+      "height": 170,
+      "raw": 37.80039935555598,
+      "mappingValue": 37.8,
+      "pass": true
+    },
+    {
+      "key": "calf",
+      "height": 170,
+      "raw": 40.296723096336365,
+      "mappingValue": 40.3,
+      "pass": true
+    },
+    {
+      "key": "calf",
+      "height": 170,
+      "raw": 42.76451448149582,
+      "mappingValue": 42.8,
+      "pass": true
+    },
+    {
+      "key": "calf",
+      "height": 170,
+      "raw": 45.20521975808688,
+      "mappingValue": 45.2,
+      "pass": true
+    },
+    {
+      "key": "calf",
+      "height": 170,
+      "raw": 47.625536431228696,
+      "mappingValue": 47.625536431228696,
+      "pass": true
+    },
+    {
+      "key": "hip",
+      "height": 170,
+      "raw": 86.28417611978472,
+      "mappingValue": 86.28417611978472,
+      "pass": true
+    },
+    {
+      "key": "hip",
+      "height": 170,
+      "raw": 115.1372908659685,
+      "mappingValue": 115.1372908659685,
+      "pass": true
+    },
+    {
+      "key": "hip",
+      "height": 170,
+      "raw": 86.3,
+      "mappingValue": 86.28417611978472,
+      "pass": true
+    },
+    {
+      "key": "hip",
+      "height": 170,
+      "raw": 115.1,
+      "mappingValue": 115.1372908659685,
+      "pass": true
+    },
+    {
+      "key": "hip",
+      "height": 170,
+      "raw": 88.68137408718296,
+      "mappingValue": 88.7,
+      "pass": true
+    },
+    {
+      "key": "hip",
+      "height": 170,
+      "raw": 91.07958320282135,
+      "mappingValue": 91.1,
+      "pass": true
+    },
+    {
+      "key": "hip",
+      "height": 170,
+      "raw": 93.47874184532974,
+      "mappingValue": 93.5,
+      "pass": true
+    },
+    {
+      "key": "hip",
+      "height": 170,
+      "raw": 95.8787944831055,
+      "mappingValue": 95.9,
+      "pass": true
+    },
+    {
+      "key": "hip",
+      "height": 170,
+      "raw": 100.68936227105222,
+      "mappingValue": 100.7,
+      "pass": true
+    },
+    {
+      "key": "hip",
+      "height": 170,
+      "raw": 105.502805918129,
+      "mappingValue": 105.5,
+      "pass": true
+    },
+    {
+      "key": "hip",
+      "height": 170,
+      "raw": 110.31885797672685,
+      "mappingValue": 110.3,
+      "pass": true
+    },
+    {
+      "key": "hip",
+      "height": 170,
+      "raw": 115.1372908659685,
+      "mappingValue": 115.1372908659685,
+      "pass": true
+    },
+    {
+      "key": "waist",
+      "height": 180,
+      "raw": 67.36121758533636,
+      "mappingValue": 67.36121758533636,
+      "pass": true
+    },
+    {
+      "key": "waist",
+      "height": 180,
+      "raw": 87.59562756941803,
+      "mappingValue": 87.59562756941803,
+      "pass": true
+    },
+    {
+      "key": "waist",
+      "height": 180,
+      "raw": 67.4,
+      "mappingValue": 67.36121758533636,
+      "pass": true
+    },
+    {
+      "key": "waist",
+      "height": 180,
+      "raw": 87.6,
+      "mappingValue": 87.59562756941803,
+      "pass": true
+    },
+    {
+      "key": "waist",
+      "height": 180,
+      "raw": 69.8110106958156,
+      "mappingValue": 69.8,
+      "pass": true
+    },
+    {
+      "key": "waist",
+      "height": 180,
+      "raw": 72.28925505060765,
+      "mappingValue": 72.3,
+      "pass": true
+    },
+    {
+      "key": "waist",
+      "height": 180,
+      "raw": 74.7924465089206,
+      "mappingValue": 74.8,
+      "pass": true
+    },
+    {
+      "key": "waist",
+      "height": 180,
+      "raw": 77.31768409259699,
+      "mappingValue": 77.3,
+      "pass": true
+    },
+    {
+      "key": "waist",
+      "height": 180,
+      "raw": 79.86253683979417,
+      "mappingValue": 79.9,
+      "pass": true
+    },
+    {
+      "key": "waist",
+      "height": 180,
+      "raw": 82.42494538208443,
+      "mappingValue": 82.4,
+      "pass": true
+    },
+    {
+      "key": "waist",
+      "height": 180,
+      "raw": 85.00314856500601,
+      "mappingValue": 85,
+      "pass": true
+    },
+    {
+      "key": "waist",
+      "height": 180,
+      "raw": 87.59562756941803,
+      "mappingValue": 87.59562756941803,
+      "pass": true
+    },
+    {
+      "key": "chest",
+      "height": 180,
+      "raw": 81.06202556476705,
+      "mappingValue": 81.06202556476705,
+      "pass": true
+    },
+    {
+      "key": "chest",
+      "height": 180,
+      "raw": 113.33719838513262,
+      "mappingValue": 113.33719838513262,
+      "pass": true
+    },
+    {
+      "key": "chest",
+      "height": 180,
+      "raw": 81.1,
+      "mappingValue": 81.06202556476705,
+      "pass": true
+    },
+    {
+      "key": "chest",
+      "height": 180,
+      "raw": 113.3,
+      "mappingValue": 113.33719838513262,
+      "pass": true
+    },
+    {
+      "key": "chest",
+      "height": 180,
+      "raw": 81.06202556476707,
+      "mappingValue": 81.06202556476705,
+      "pass": true
+    },
+    {
+      "key": "chest",
+      "height": 180,
+      "raw": 84.59519909527224,
+      "mappingValue": 84.6,
+      "pass": true
+    },
+    {
+      "key": "chest",
+      "height": 180,
+      "raw": 88.15205013613094,
+      "mappingValue": 88.2,
+      "pass": true
+    },
+    {
+      "key": "chest",
+      "height": 180,
+      "raw": 91.7299430755309,
+      "mappingValue": 91.7,
+      "pass": true
+    },
+    {
+      "key": "chest",
+      "height": 180,
+      "raw": 95.32663038414519,
+      "mappingValue": 95.3,
+      "pass": true
+    },
+    {
+      "key": "chest",
+      "height": 180,
+      "raw": 99.79297819448728,
+      "mappingValue": 99.8,
+      "pass": true
+    },
+    {
+      "key": "chest",
+      "height": 180,
+      "raw": 104.28128854232425,
+      "mappingValue": 104.3,
+      "pass": true
+    },
+    {
+      "key": "chest",
+      "height": 180,
+      "raw": 108.79576999384746,
+      "mappingValue": 108.8,
+      "pass": true
+    },
+    {
+      "key": "chest",
+      "height": 180,
+      "raw": 113.33719838513262,
+      "mappingValue": 113.33719838513262,
+      "pass": true
+    },
+    {
+      "key": "shoulder",
+      "height": 180,
+      "raw": 36.015462762197295,
+      "mappingValue": 36.015462762197295,
+      "pass": true
+    },
+    {
+      "key": "shoulder",
+      "height": 180,
+      "raw": 43.69546461709384,
+      "mappingValue": 43.69546461709384,
+      "pass": true
+    },
+    {
+      "key": "shoulder",
+      "height": 180,
+      "raw": 36,
+      "mappingValue": 36.015462762197295,
+      "pass": true
+    },
+    {
+      "key": "shoulder",
+      "height": 180,
+      "raw": 43.7,
+      "mappingValue": 43.69546461709384,
+      "pass": true
+    },
+    {
+      "key": "shoulder",
+      "height": 180,
+      "raw": 36.0154627621973,
+      "mappingValue": 36.015462762197295,
+      "pass": true
+    },
+    {
+      "key": "shoulder",
+      "height": 180,
+      "raw": 36.69046301253681,
+      "mappingValue": 36.7,
+      "pass": true
+    },
+    {
+      "key": "shoulder",
+      "height": 180,
+      "raw": 37.36546326287632,
+      "mappingValue": 37.4,
+      "pass": true
+    },
+    {
+      "key": "shoulder",
+      "height": 180,
+      "raw": 38.040463513215826,
+      "mappingValue": 38,
+      "pass": true
+    },
+    {
+      "key": "shoulder",
+      "height": 180,
+      "raw": 38.715463763555334,
+      "mappingValue": 38.7,
+      "pass": true
+    },
+    {
+      "key": "shoulder",
+      "height": 180,
+      "raw": 39.96046397693996,
+      "mappingValue": 40,
+      "pass": true
+    },
+    {
+      "key": "shoulder",
+      "height": 180,
+      "raw": 41.20546419032459,
+      "mappingValue": 41.2,
+      "pass": true
+    },
+    {
+      "key": "shoulder",
+      "height": 180,
+      "raw": 42.45046440370922,
+      "mappingValue": 42.5,
+      "pass": true
+    },
+    {
+      "key": "arm",
+      "height": 180,
+      "raw": 20.13408144185336,
+      "mappingValue": 20.13408144185336,
+      "pass": true
+    },
+    {
+      "key": "arm",
+      "height": 180,
+      "raw": 39.632492056406036,
+      "mappingValue": 39.632492056406036,
+      "pass": true
+    },
+    {
+      "key": "arm",
+      "height": 180,
+      "raw": 20.1,
+      "mappingValue": 20.13408144185336,
+      "pass": true
+    },
+    {
+      "key": "arm",
+      "height": 180,
+      "raw": 39.6,
+      "mappingValue": 39.632492056406036,
+      "pass": true
+    },
+    {
+      "key": "arm",
+      "height": 180,
+      "raw": 20.13408144185336,
+      "mappingValue": 20.13408144185336,
+      "pass": true
+    },
+    {
+      "key": "arm",
+      "height": 180,
+      "raw": 22.53679280008069,
+      "mappingValue": 22.5,
+      "pass": true
+    },
+    {
+      "key": "arm",
+      "height": 180,
+      "raw": 24.961342425001924,
+      "mappingValue": 25,
+      "pass": true
+    },
+    {
+      "key": "arm",
+      "height": 180,
+      "raw": 27.402960041185374,
+      "mappingValue": 27.4,
+      "pass": true
+    },
+    {
+      "key": "arm",
+      "height": 180,
+      "raw": 29.86004192173602,
+      "mappingValue": 29.9,
+      "pass": true
+    },
+    {
+      "key": "arm",
+      "height": 180,
+      "raw": 32.327153195707616,
+      "mappingValue": 32.3,
+      "pass": true
+    },
+    {
+      "key": "arm",
+      "height": 180,
+      "raw": 34.78026192508221,
+      "mappingValue": 34.8,
+      "pass": true
+    },
+    {
+      "key": "arm",
+      "height": 180,
+      "raw": 37.21533173331205,
+      "mappingValue": 37.2,
+      "pass": true
+    },
+    {
+      "key": "arm",
+      "height": 180,
+      "raw": 39.63249205640603,
+      "mappingValue": 39.632492056406036,
+      "pass": true
+    },
+    {
+      "key": "thigh",
+      "height": 180,
+      "raw": 49.93338147554323,
+      "mappingValue": 49.93338147554323,
+      "pass": true
+    },
+    {
+      "key": "thigh",
+      "height": 180,
+      "raw": 64.50788759293098,
+      "mappingValue": 64.50788759293098,
+      "pass": true
+    },
+    {
+      "key": "thigh",
+      "height": 180,
+      "raw": 49.9,
+      "mappingValue": 49.93338147554323,
+      "pass": true
+    },
+    {
+      "key": "thigh",
+      "height": 180,
+      "raw": 64.5,
+      "mappingValue": 64.50788759293098,
+      "pass": true
+    },
+    {
+      "key": "thigh",
+      "height": 180,
+      "raw": 49.93338147554323,
+      "mappingValue": 49.93338147554323,
+      "pass": true
+    },
+    {
+      "key": "thigh",
+      "height": 180,
+      "raw": 51.394088776866184,
+      "mappingValue": 51.4,
+      "pass": true
+    },
+    {
+      "key": "thigh",
+      "height": 180,
+      "raw": 52.84946900977286,
+      "mappingValue": 52.8,
+      "pass": true
+    },
+    {
+      "key": "thigh",
+      "height": 180,
+      "raw": 54.3003561192311,
+      "mappingValue": 54.3,
+      "pass": true
+    },
+    {
+      "key": "thigh",
+      "height": 180,
+      "raw": 55.74659787887546,
+      "mappingValue": 55.7,
+      "pass": true
+    },
+    {
+      "key": "thigh",
+      "height": 180,
+      "raw": 57.95160716035771,
+      "mappingValue": 58,
+      "pass": true
+    },
+    {
+      "key": "thigh",
+      "height": 180,
+      "raw": 60.14688983013559,
+      "mappingValue": 60.1,
+      "pass": true
+    },
+    {
+      "key": "thigh",
+      "height": 180,
+      "raw": 62.33210769373105,
+      "mappingValue": 62.3,
+      "pass": true
+    },
+    {
+      "key": "thigh",
+      "height": 180,
+      "raw": 64.50788759293098,
+      "mappingValue": 64.50788759293098,
+      "pass": true
+    },
+    {
+      "key": "calf",
+      "height": 180,
+      "raw": 29.046067602982298,
+      "mappingValue": 29.046067602982298,
+      "pass": true
+    },
+    {
+      "key": "calf",
+      "height": 180,
+      "raw": 48.94605619622164,
+      "mappingValue": 48.94605619622164,
+      "pass": true
+    },
+    {
+      "key": "calf",
+      "height": 180,
+      "raw": 29,
+      "mappingValue": 29.046067602982298,
+      "pass": true
+    },
+    {
+      "key": "calf",
+      "height": 180,
+      "raw": 48.9,
+      "mappingValue": 48.94605619622164,
+      "pass": true
+    },
+    {
+      "key": "calf",
+      "height": 180,
+      "raw": 31.55519959779396,
+      "mappingValue": 31.6,
+      "pass": true
+    },
+    {
+      "key": "calf",
+      "height": 180,
+      "raw": 34.08003383762899,
+      "mappingValue": 34.1,
+      "pass": true
+    },
+    {
+      "key": "calf",
+      "height": 180,
+      "raw": 36.60788400585987,
+      "mappingValue": 36.6,
+      "pass": true
+    },
+    {
+      "key": "calf",
+      "height": 180,
+      "raw": 39.12091912054892,
+      "mappingValue": 39.1,
+      "pass": true
+    },
+    {
+      "key": "calf",
+      "height": 180,
+      "raw": 41.6172428613293,
+      "mappingValue": 41.6,
+      "pass": true
+    },
+    {
+      "key": "calf",
+      "height": 180,
+      "raw": 44.08503424648876,
+      "mappingValue": 44.1,
+      "pass": true
+    },
+    {
+      "key": "calf",
+      "height": 180,
+      "raw": 46.52573952307982,
+      "mappingValue": 46.5,
+      "pass": true
+    },
+    {
+      "key": "hip",
+      "height": 180,
+      "raw": 90.14320963129445,
+      "mappingValue": 90.14320963129445,
+      "pass": true
+    },
+    {
+      "key": "hip",
+      "height": 180,
+      "raw": 118.99632437747823,
+      "mappingValue": 118.99632437747823,
+      "pass": true
+    },
+    {
+      "key": "hip",
+      "height": 180,
+      "raw": 90.1,
+      "mappingValue": 90.14320963129445,
+      "pass": true
+    },
+    {
+      "key": "hip",
+      "height": 180,
+      "raw": 119,
+      "mappingValue": 118.99632437747823,
+      "pass": true
+    },
+    {
+      "key": "hip",
+      "height": 180,
+      "raw": 90.14320963129445,
+      "mappingValue": 90.14320963129445,
+      "pass": true
+    },
+    {
+      "key": "hip",
+      "height": 180,
+      "raw": 92.54040759869268,
+      "mappingValue": 92.5,
+      "pass": true
+    },
+    {
+      "key": "hip",
+      "height": 180,
+      "raw": 94.9386167143311,
+      "mappingValue": 94.9,
+      "pass": true
+    },
+    {
+      "key": "hip",
+      "height": 180,
+      "raw": 97.33777535683946,
+      "mappingValue": 97.3,
+      "pass": true
+    },
+    {
+      "key": "hip",
+      "height": 180,
+      "raw": 99.73782799461524,
+      "mappingValue": 99.7,
+      "pass": true
+    },
+    {
+      "key": "hip",
+      "height": 180,
+      "raw": 104.54839578256197,
+      "mappingValue": 104.5,
+      "pass": true
+    },
+    {
+      "key": "hip",
+      "height": 180,
+      "raw": 109.36183942963872,
+      "mappingValue": 109.4,
+      "pass": true
+    },
+    {
+      "key": "hip",
+      "height": 180,
+      "raw": 114.17789148823657,
+      "mappingValue": 114.2,
+      "pass": true
+    },
+    {
+      "key": "hip",
+      "height": 180,
+      "raw": 118.99632437747822,
+      "mappingValue": 118.99632437747823,
+      "pass": true
+    },
+    {
+      "key": "waist",
+      "height": 190,
+      "raw": 70.31620957426176,
+      "mappingValue": 70.31620957426176,
+      "pass": true
+    },
+    {
+      "key": "waist",
+      "height": 190,
+      "raw": 90.55061955834343,
+      "mappingValue": 90.55061955834343,
+      "pass": true
+    },
+    {
+      "key": "waist",
+      "height": 190,
+      "raw": 70.3,
+      "mappingValue": 70.31620957426176,
+      "pass": true
+    },
+    {
+      "key": "waist",
+      "height": 190,
+      "raw": 90.6,
+      "mappingValue": 90.55061955834343,
+      "pass": true
+    },
+    {
+      "key": "waist",
+      "height": 190,
+      "raw": 70.31620957426178,
+      "mappingValue": 70.31620957426176,
+      "pass": true
+    },
+    {
+      "key": "waist",
+      "height": 190,
+      "raw": 72.766002684741,
+      "mappingValue": 72.8,
+      "pass": true
+    },
+    {
+      "key": "waist",
+      "height": 190,
+      "raw": 75.24424703953308,
+      "mappingValue": 75.2,
+      "pass": true
+    },
+    {
+      "key": "waist",
+      "height": 190,
+      "raw": 77.747438497846,
+      "mappingValue": 77.7,
+      "pass": true
+    },
+    {
+      "key": "waist",
+      "height": 190,
+      "raw": 80.27267608152236,
+      "mappingValue": 80.3,
+      "pass": true
+    },
+    {
+      "key": "waist",
+      "height": 190,
+      "raw": 82.8175288287196,
+      "mappingValue": 82.8,
+      "pass": true
+    },
+    {
+      "key": "waist",
+      "height": 190,
+      "raw": 85.3799373710098,
+      "mappingValue": 85.4,
+      "pass": true
+    },
+    {
+      "key": "waist",
+      "height": 190,
+      "raw": 87.95814055393144,
+      "mappingValue": 88,
+      "pass": true
+    },
+    {
+      "key": "waist",
+      "height": 190,
+      "raw": 90.55061955834343,
+      "mappingValue": 90.55061955834343,
+      "pass": true
+    },
+    {
+      "key": "chest",
+      "height": 190,
+      "raw": 84.50304187763582,
+      "mappingValue": 84.50304187763582,
+      "pass": true
+    },
+    {
+      "key": "chest",
+      "height": 190,
+      "raw": 116.77821469800139,
+      "mappingValue": 116.77821469800139,
+      "pass": true
+    },
+    {
+      "key": "chest",
+      "height": 190,
+      "raw": 84.5,
+      "mappingValue": 84.50304187763582,
+      "pass": true
+    },
+    {
+      "key": "chest",
+      "height": 190,
+      "raw": 116.8,
+      "mappingValue": 116.77821469800139,
+      "pass": true
+    },
+    {
+      "key": "chest",
+      "height": 190,
+      "raw": 84.50304187763582,
+      "mappingValue": 84.50304187763582,
+      "pass": true
+    },
+    {
+      "key": "chest",
+      "height": 190,
+      "raw": 88.03621540814102,
+      "mappingValue": 88,
+      "pass": true
+    },
+    {
+      "key": "chest",
+      "height": 190,
+      "raw": 91.59306644899972,
+      "mappingValue": 91.6,
+      "pass": true
+    },
+    {
+      "key": "chest",
+      "height": 190,
+      "raw": 95.17095938839965,
+      "mappingValue": 95.2,
+      "pass": true
+    },
+    {
+      "key": "chest",
+      "height": 190,
+      "raw": 98.76764669701397,
+      "mappingValue": 98.8,
+      "pass": true
+    },
+    {
+      "key": "chest",
+      "height": 190,
+      "raw": 103.23399450735606,
+      "mappingValue": 103.2,
+      "pass": true
+    },
+    {
+      "key": "chest",
+      "height": 190,
+      "raw": 107.722304855193,
+      "mappingValue": 107.7,
+      "pass": true
+    },
+    {
+      "key": "chest",
+      "height": 190,
+      "raw": 112.23678630671621,
+      "mappingValue": 112.2,
+      "pass": true
+    },
+    {
+      "key": "chest",
+      "height": 190,
+      "raw": 116.77821469800138,
+      "mappingValue": 116.77821469800139,
+      "pass": true
+    },
+    {
+      "key": "shoulder",
+      "height": 190,
+      "raw": 37.50073438330294,
+      "mappingValue": 37.50073438330294,
+      "pass": true
+    },
+    {
+      "key": "shoulder",
+      "height": 190,
+      "raw": 45.180736238199486,
+      "mappingValue": 45.180736238199486,
+      "pass": true
+    },
+    {
+      "key": "shoulder",
+      "height": 190,
+      "raw": 37.5,
+      "mappingValue": 37.50073438330294,
+      "pass": true
+    },
+    {
+      "key": "shoulder",
+      "height": 190,
+      "raw": 45.2,
+      "mappingValue": 45.180736238199486,
+      "pass": true
+    },
+    {
+      "key": "shoulder",
+      "height": 190,
+      "raw": 37.50073438330294,
+      "mappingValue": 37.50073438330294,
+      "pass": true
+    },
+    {
+      "key": "shoulder",
+      "height": 190,
+      "raw": 38.17573463364245,
+      "mappingValue": 38.2,
+      "pass": true
+    },
+    {
+      "key": "shoulder",
+      "height": 190,
+      "raw": 38.85073488398196,
+      "mappingValue": 38.9,
+      "pass": true
+    },
+    {
+      "key": "shoulder",
+      "height": 190,
+      "raw": 39.525735134321465,
+      "mappingValue": 39.5,
+      "pass": true
+    },
+    {
+      "key": "shoulder",
+      "height": 190,
+      "raw": 40.20073538466097,
+      "mappingValue": 40.2,
+      "pass": true
+    },
+    {
+      "key": "shoulder",
+      "height": 190,
+      "raw": 41.4457355980456,
+      "mappingValue": 41.4,
+      "pass": true
+    },
+    {
+      "key": "shoulder",
+      "height": 190,
+      "raw": 42.69073581143023,
+      "mappingValue": 42.7,
+      "pass": true
+    },
+    {
+      "key": "shoulder",
+      "height": 190,
+      "raw": 43.93573602481486,
+      "mappingValue": 43.9,
+      "pass": true
+    },
+    {
+      "key": "shoulder",
+      "height": 190,
+      "raw": 45.180736238199486,
+      "mappingValue": 45.180736238199486,
+      "pass": true
+    },
+    {
+      "key": "arm",
+      "height": 190,
+      "raw": 21.24136217843469,
+      "mappingValue": 21.24136217843469,
+      "pass": true
+    },
+    {
+      "key": "arm",
+      "height": 190,
+      "raw": 40.73977279298737,
+      "mappingValue": 40.73977279298737,
+      "pass": true
+    },
+    {
+      "key": "arm",
+      "height": 190,
+      "raw": 21.2,
+      "mappingValue": 21.24136217843469,
+      "pass": true
+    },
+    {
+      "key": "arm",
+      "height": 190,
+      "raw": 40.7,
+      "mappingValue": 40.73977279298737,
+      "pass": true
+    },
+    {
+      "key": "arm",
+      "height": 190,
+      "raw": 21.24136217843469,
+      "mappingValue": 21.24136217843469,
+      "pass": true
+    },
+    {
+      "key": "arm",
+      "height": 190,
+      "raw": 23.64407353666202,
+      "mappingValue": 23.6,
+      "pass": true
+    },
+    {
+      "key": "arm",
+      "height": 190,
+      "raw": 26.068623161583254,
+      "mappingValue": 26.1,
+      "pass": true
+    },
+    {
+      "key": "arm",
+      "height": 190,
+      "raw": 28.510240777766704,
+      "mappingValue": 28.5,
+      "pass": true
+    },
+    {
+      "key": "arm",
+      "height": 190,
+      "raw": 30.96732265831735,
+      "mappingValue": 31,
+      "pass": true
+    },
+    {
+      "key": "arm",
+      "height": 190,
+      "raw": 33.43443393228895,
+      "mappingValue": 33.4,
+      "pass": true
+    },
+    {
+      "key": "arm",
+      "height": 190,
+      "raw": 35.88754266166354,
+      "mappingValue": 35.9,
+      "pass": true
+    },
+    {
+      "key": "arm",
+      "height": 190,
+      "raw": 38.32261246989338,
+      "mappingValue": 38.3,
+      "pass": true
+    },
+    {
+      "key": "arm",
+      "height": 190,
+      "raw": 40.73977279298736,
+      "mappingValue": 40.73977279298737,
+      "pass": true
+    },
+    {
+      "key": "thigh",
+      "height": 190,
+      "raw": 51.94342367056115,
+      "mappingValue": 51.94342367056115,
+      "pass": true
+    },
+    {
+      "key": "thigh",
+      "height": 190,
+      "raw": 66.5179297879489,
+      "mappingValue": 66.5179297879489,
+      "pass": true
+    },
+    {
+      "key": "thigh",
+      "height": 190,
+      "raw": 51.9,
+      "mappingValue": 51.94342367056115,
+      "pass": true
+    },
+    {
+      "key": "thigh",
+      "height": 190,
+      "raw": 66.5,
+      "mappingValue": 66.5179297879489,
+      "pass": true
+    },
+    {
+      "key": "thigh",
+      "height": 190,
+      "raw": 51.94342367056116,
+      "mappingValue": 51.94342367056115,
+      "pass": true
+    },
+    {
+      "key": "thigh",
+      "height": 190,
+      "raw": 53.4041309718841,
+      "mappingValue": 53.4,
+      "pass": true
+    },
+    {
+      "key": "thigh",
+      "height": 190,
+      "raw": 54.85951120479079,
+      "mappingValue": 54.9,
+      "pass": true
+    },
+    {
+      "key": "thigh",
+      "height": 190,
+      "raw": 56.31039831424903,
+      "mappingValue": 56.3,
+      "pass": true
+    },
+    {
+      "key": "thigh",
+      "height": 190,
+      "raw": 57.756640073893394,
+      "mappingValue": 57.8,
+      "pass": true
+    },
+    {
+      "key": "thigh",
+      "height": 190,
+      "raw": 59.96164935537563,
+      "mappingValue": 60,
+      "pass": true
+    },
+    {
+      "key": "thigh",
+      "height": 190,
+      "raw": 62.15693202515352,
+      "mappingValue": 62.2,
+      "pass": true
+    },
+    {
+      "key": "thigh",
+      "height": 190,
+      "raw": 64.34214988874898,
+      "mappingValue": 64.3,
+      "pass": true
+    },
+    {
+      "key": "calf",
+      "height": 190,
+      "raw": 30.376587456234134,
+      "mappingValue": 30.376587456234134,
+      "pass": true
+    },
+    {
+      "key": "calf",
+      "height": 190,
+      "raw": 30.4,
+      "mappingValue": 30.376587456234134,
+      "pass": true
+    },
+    {
+      "key": "calf",
+      "height": 190,
+      "raw": 30.376587456234134,
+      "mappingValue": 30.376587456234134,
+      "pass": true
+    },
+    {
+      "key": "calf",
+      "height": 190,
+      "raw": 32.88571945104579,
+      "mappingValue": 32.9,
+      "pass": true
+    },
+    {
+      "key": "calf",
+      "height": 190,
+      "raw": 35.41055369088082,
+      "mappingValue": 35.4,
+      "pass": true
+    },
+    {
+      "key": "calf",
+      "height": 190,
+      "raw": 37.9384038591117,
+      "mappingValue": 37.9,
+      "pass": true
+    },
+    {
+      "key": "calf",
+      "height": 190,
+      "raw": 40.45143897380076,
+      "mappingValue": 40.5,
+      "pass": true
+    },
+    {
+      "key": "calf",
+      "height": 190,
+      "raw": 42.947762714581145,
+      "mappingValue": 42.9,
+      "pass": true
+    },
+    {
+      "key": "calf",
+      "height": 190,
+      "raw": 45.41555409974059,
+      "mappingValue": 45.4,
+      "pass": true
+    },
+    {
+      "key": "calf",
+      "height": 190,
+      "raw": 47.856259376331664,
+      "mappingValue": 47.9,
+      "pass": true
+    },
+    {
+      "key": "hip",
+      "height": 190,
+      "raw": 94.00366436374559,
+      "mappingValue": 94.00366436374559,
+      "pass": true
+    },
+    {
+      "key": "hip",
+      "height": 190,
+      "raw": 122.85677910992936,
+      "mappingValue": 122.85677910992936,
+      "pass": true
+    },
+    {
+      "key": "hip",
+      "height": 190,
+      "raw": 94,
+      "mappingValue": 94.00366436374559,
+      "pass": true
+    },
+    {
+      "key": "hip",
+      "height": 190,
+      "raw": 122.9,
+      "mappingValue": 122.85677910992936,
+      "pass": true
+    },
+    {
+      "key": "hip",
+      "height": 190,
+      "raw": 94.00366436374559,
+      "mappingValue": 94.00366436374559,
+      "pass": true
+    },
+    {
+      "key": "hip",
+      "height": 190,
+      "raw": 96.40086233114384,
+      "mappingValue": 96.4,
+      "pass": true
+    },
+    {
+      "key": "hip",
+      "height": 190,
+      "raw": 98.79907144678224,
+      "mappingValue": 98.8,
+      "pass": true
+    },
+    {
+      "key": "hip",
+      "height": 190,
+      "raw": 101.19823008929059,
+      "mappingValue": 101.2,
+      "pass": true
+    },
+    {
+      "key": "hip",
+      "height": 190,
+      "raw": 103.59828272706635,
+      "mappingValue": 103.6,
+      "pass": true
+    },
+    {
+      "key": "hip",
+      "height": 190,
+      "raw": 108.4088505150131,
+      "mappingValue": 108.4,
+      "pass": true
+    },
+    {
+      "key": "hip",
+      "height": 190,
+      "raw": 113.22229416208988,
+      "mappingValue": 113.2,
+      "pass": true
+    },
+    {
+      "key": "hip",
+      "height": 190,
+      "raw": 118.0383462206877,
+      "mappingValue": 118,
+      "pass": true
+    },
+    {
+      "key": "waist",
+      "height": 194.6,
+      "raw": 71.67729581913031,
+      "mappingValue": 71.67729581913031,
+      "pass": true
+    },
+    {
+      "key": "waist",
+      "height": 194.6,
+      "raw": 91.91170580321197,
+      "mappingValue": 91.91170580321197,
+      "pass": true
+    },
+    {
+      "key": "waist",
+      "height": 194.6,
+      "raw": 71.7,
+      "mappingValue": 71.67729581913031,
+      "pass": true
+    },
+    {
+      "key": "waist",
+      "height": 194.6,
+      "raw": 91.9,
+      "mappingValue": 91.91170580321197,
+      "pass": true
+    },
+    {
+      "key": "waist",
+      "height": 194.6,
+      "raw": 71.67729581913032,
+      "mappingValue": 71.67729581913031,
+      "pass": true
+    },
+    {
+      "key": "waist",
+      "height": 194.6,
+      "raw": 74.12708892960954,
+      "mappingValue": 74.1,
+      "pass": true
+    },
+    {
+      "key": "waist",
+      "height": 194.6,
+      "raw": 76.60533328440162,
+      "mappingValue": 76.6,
+      "pass": true
+    },
+    {
+      "key": "waist",
+      "height": 194.6,
+      "raw": 79.10852474271455,
+      "mappingValue": 79.1,
+      "pass": true
+    },
+    {
+      "key": "waist",
+      "height": 194.6,
+      "raw": 81.63376232639091,
+      "mappingValue": 81.6,
+      "pass": true
+    },
+    {
+      "key": "waist",
+      "height": 194.6,
+      "raw": 84.17861507358815,
+      "mappingValue": 84.2,
+      "pass": true
+    },
+    {
+      "key": "waist",
+      "height": 194.6,
+      "raw": 86.74102361587835,
+      "mappingValue": 86.7,
+      "pass": true
+    },
+    {
+      "key": "waist",
+      "height": 194.6,
+      "raw": 89.31922679879999,
+      "mappingValue": 89.3,
+      "pass": true
+    },
+    {
+      "key": "waist",
+      "height": 194.6,
+      "raw": 91.91170580321197,
+      "mappingValue": 91.91170580321197,
+      "pass": true
+    },
+    {
+      "key": "chest",
+      "height": 194.6,
+      "raw": 86.08787655181204,
+      "mappingValue": 86.08787655181204,
+      "pass": true
+    },
+    {
+      "key": "chest",
+      "height": 194.6,
+      "raw": 118.36304937217761,
+      "mappingValue": 118.36304937217761,
+      "pass": true
+    },
+    {
+      "key": "chest",
+      "height": 194.6,
+      "raw": 86.1,
+      "mappingValue": 86.08787655181204,
+      "pass": true
+    },
+    {
+      "key": "chest",
+      "height": 194.6,
+      "raw": 118.4,
+      "mappingValue": 118.36304937217761,
+      "pass": true
+    },
+    {
+      "key": "chest",
+      "height": 194.6,
+      "raw": 86.08787655181204,
+      "mappingValue": 86.08787655181204,
+      "pass": true
+    },
+    {
+      "key": "chest",
+      "height": 194.6,
+      "raw": 89.62105008231721,
+      "mappingValue": 89.6,
+      "pass": true
+    },
+    {
+      "key": "chest",
+      "height": 194.6,
+      "raw": 93.17790112317594,
+      "mappingValue": 93.2,
+      "pass": true
+    },
+    {
+      "key": "chest",
+      "height": 194.6,
+      "raw": 96.7557940625759,
+      "mappingValue": 96.8,
+      "pass": true
+    },
+    {
+      "key": "chest",
+      "height": 194.6,
+      "raw": 100.3524813711902,
+      "mappingValue": 100.4,
+      "pass": true
+    },
+    {
+      "key": "chest",
+      "height": 194.6,
+      "raw": 104.81882918153225,
+      "mappingValue": 104.8,
+      "pass": true
+    },
+    {
+      "key": "chest",
+      "height": 194.6,
+      "raw": 109.30713952936925,
+      "mappingValue": 109.3,
+      "pass": true
+    },
+    {
+      "key": "chest",
+      "height": 194.6,
+      "raw": 113.82162098089243,
+      "mappingValue": 113.8,
+      "pass": true
+    },
+    {
+      "key": "shoulder",
+      "height": 194.6,
+      "raw": 38.184521602729546,
+      "mappingValue": 38.184521602729546,
+      "pass": true
+    },
+    {
+      "key": "shoulder",
+      "height": 194.6,
+      "raw": 45.86452345762609,
+      "mappingValue": 45.86452345762609,
+      "pass": true
+    },
+    {
+      "key": "shoulder",
+      "height": 194.6,
+      "raw": 38.2,
+      "mappingValue": 38.184521602729546,
+      "pass": true
+    },
+    {
+      "key": "shoulder",
+      "height": 194.6,
+      "raw": 45.9,
+      "mappingValue": 45.86452345762609,
+      "pass": true
+    },
+    {
+      "key": "shoulder",
+      "height": 194.6,
+      "raw": 38.184521602729546,
+      "mappingValue": 38.184521602729546,
+      "pass": true
+    },
+    {
+      "key": "shoulder",
+      "height": 194.6,
+      "raw": 38.859521853069054,
+      "mappingValue": 38.9,
+      "pass": true
+    },
+    {
+      "key": "shoulder",
+      "height": 194.6,
+      "raw": 39.53452210340856,
+      "mappingValue": 39.5,
+      "pass": true
+    },
+    {
+      "key": "shoulder",
+      "height": 194.6,
+      "raw": 40.20952235374807,
+      "mappingValue": 40.2,
+      "pass": true
+    },
+    {
+      "key": "shoulder",
+      "height": 194.6,
+      "raw": 40.88452260408758,
+      "mappingValue": 40.9,
+      "pass": true
+    },
+    {
+      "key": "shoulder",
+      "height": 194.6,
+      "raw": 42.12952281747221,
+      "mappingValue": 42.1,
+      "pass": true
+    },
+    {
+      "key": "shoulder",
+      "height": 194.6,
+      "raw": 43.374523030856835,
+      "mappingValue": 43.4,
+      "pass": true
+    },
+    {
+      "key": "shoulder",
+      "height": 194.6,
+      "raw": 44.61952324424146,
+      "mappingValue": 44.6,
+      "pass": true
+    },
+    {
+      "key": "shoulder",
+      "height": 194.6,
+      "raw": 45.86452345762609,
+      "mappingValue": 45.86452345762609,
+      "pass": true
+    },
+    {
+      "key": "arm",
+      "height": 194.6,
+      "raw": 21.751411539454224,
+      "mappingValue": 21.751411539454224,
+      "pass": true
+    },
+    {
+      "key": "arm",
+      "height": 194.6,
+      "raw": 41.24982215400689,
+      "mappingValue": 41.24982215400689,
+      "pass": true
+    },
+    {
+      "key": "arm",
+      "height": 194.6,
+      "raw": 21.8,
+      "mappingValue": 21.751411539454224,
+      "pass": true
+    },
+    {
+      "key": "arm",
+      "height": 194.6,
+      "raw": 41.2,
+      "mappingValue": 41.24982215400689,
+      "pass": true
+    },
+    {
+      "key": "arm",
+      "height": 194.6,
+      "raw": 21.751411539454224,
+      "mappingValue": 21.751411539454224,
+      "pass": true
+    },
+    {
+      "key": "arm",
+      "height": 194.6,
+      "raw": 24.154122897681553,
+      "mappingValue": 24.2,
+      "pass": true
+    },
+    {
+      "key": "arm",
+      "height": 194.6,
+      "raw": 26.57867252260278,
+      "mappingValue": 26.6,
+      "pass": true
+    },
+    {
+      "key": "arm",
+      "height": 194.6,
+      "raw": 29.02029013878623,
+      "mappingValue": 29,
+      "pass": true
+    },
+    {
+      "key": "arm",
+      "height": 194.6,
+      "raw": 31.47737201933689,
+      "mappingValue": 31.5,
+      "pass": true
+    },
+    {
+      "key": "arm",
+      "height": 194.6,
+      "raw": 33.94448329330849,
+      "mappingValue": 33.9,
+      "pass": true
+    },
+    {
+      "key": "arm",
+      "height": 194.6,
+      "raw": 36.397592022683064,
+      "mappingValue": 36.4,
+      "pass": true
+    },
+    {
+      "key": "arm",
+      "height": 194.6,
+      "raw": 38.83266183091292,
+      "mappingValue": 38.8,
+      "pass": true
+    },
+    {
+      "key": "thigh",
+      "height": 194.6,
+      "raw": 52.8698825341519,
+      "mappingValue": 52.8698825341519,
+      "pass": true
+    },
+    {
+      "key": "thigh",
+      "height": 194.6,
+      "raw": 67.44438865153965,
+      "mappingValue": 67.44438865153965,
+      "pass": true
+    },
+    {
+      "key": "thigh",
+      "height": 194.6,
+      "raw": 52.9,
+      "mappingValue": 52.8698825341519,
+      "pass": true
+    },
+    {
+      "key": "thigh",
+      "height": 194.6,
+      "raw": 67.4,
+      "mappingValue": 67.44438865153965,
+      "pass": true
+    },
+    {
+      "key": "thigh",
+      "height": 194.6,
+      "raw": 52.8698825341519,
+      "mappingValue": 52.8698825341519,
+      "pass": true
+    },
+    {
+      "key": "thigh",
+      "height": 194.6,
+      "raw": 54.33058983547485,
+      "mappingValue": 54.3,
+      "pass": true
+    },
+    {
+      "key": "thigh",
+      "height": 194.6,
+      "raw": 55.78597006838153,
+      "mappingValue": 55.8,
+      "pass": true
+    },
+    {
+      "key": "thigh",
+      "height": 194.6,
+      "raw": 57.23685717783978,
+      "mappingValue": 57.2,
+      "pass": true
+    },
+    {
+      "key": "thigh",
+      "height": 194.6,
+      "raw": 58.68309893748413,
+      "mappingValue": 58.7,
+      "pass": true
+    },
+    {
+      "key": "thigh",
+      "height": 194.6,
+      "raw": 60.888108218966366,
+      "mappingValue": 60.9,
+      "pass": true
+    },
+    {
+      "key": "thigh",
+      "height": 194.6,
+      "raw": 63.08339088874426,
+      "mappingValue": 63.1,
+      "pass": true
+    },
+    {
+      "key": "thigh",
+      "height": 194.6,
+      "raw": 65.26860875233972,
+      "mappingValue": 65.3,
+      "pass": true
+    },
+    {
+      "key": "thigh",
+      "height": 194.6,
+      "raw": 67.44438865153965,
+      "mappingValue": 67.44438865153965,
+      "pass": true
+    },
+    {
+      "key": "calf",
+      "height": 194.6,
+      "raw": 30.992009336607488,
+      "mappingValue": 30.992009336607488,
+      "pass": true
+    },
+    {
+      "key": "calf",
+      "height": 194.6,
+      "raw": 31,
+      "mappingValue": 30.992009336607488,
+      "pass": true
+    },
+    {
+      "key": "calf",
+      "height": 194.6,
+      "raw": 30.992009336607495,
+      "mappingValue": 30.992009336607488,
+      "pass": true
+    },
+    {
+      "key": "calf",
+      "height": 194.6,
+      "raw": 33.501141331419134,
+      "mappingValue": 33.5,
+      "pass": true
+    },
+    {
+      "key": "calf",
+      "height": 194.6,
+      "raw": 36.025975571254165,
+      "mappingValue": 36,
+      "pass": true
+    },
+    {
+      "key": "calf",
+      "height": 194.6,
+      "raw": 38.55382573948505,
+      "mappingValue": 38.6,
+      "pass": true
+    },
+    {
+      "key": "calf",
+      "height": 194.6,
+      "raw": 41.066860854174124,
+      "mappingValue": 41.1,
+      "pass": true
+    },
+    {
+      "key": "calf",
+      "height": 194.6,
+      "raw": 43.56318459495451,
+      "mappingValue": 43.6,
+      "pass": true
+    },
+    {
+      "key": "calf",
+      "height": 194.6,
+      "raw": 46.03097598011395,
+      "mappingValue": 46,
+      "pass": true
+    },
+    {
+      "key": "calf",
+      "height": 194.6,
+      "raw": 48.471681256705025,
+      "mappingValue": 48.5,
+      "pass": true
+    },
+    {
+      "key": "hip",
+      "height": 194.6,
+      "raw": 95.78133866647012,
+      "mappingValue": 95.78133866647012,
+      "pass": true
+    },
+    {
+      "key": "hip",
+      "height": 194.6,
+      "raw": 124.6344534126539,
+      "mappingValue": 124.6344534126539,
+      "pass": true
+    },
+    {
+      "key": "hip",
+      "height": 194.6,
+      "raw": 95.8,
+      "mappingValue": 95.78133866647012,
+      "pass": true
+    },
+    {
+      "key": "hip",
+      "height": 194.6,
+      "raw": 124.6,
+      "mappingValue": 124.6344534126539,
+      "pass": true
+    },
+    {
+      "key": "hip",
+      "height": 194.6,
+      "raw": 95.78133866647012,
+      "mappingValue": 95.78133866647012,
+      "pass": true
+    },
+    {
+      "key": "hip",
+      "height": 194.6,
+      "raw": 98.17853663386835,
+      "mappingValue": 98.2,
+      "pass": true
+    },
+    {
+      "key": "hip",
+      "height": 194.6,
+      "raw": 100.57674574950677,
+      "mappingValue": 100.6,
+      "pass": true
+    },
+    {
+      "key": "hip",
+      "height": 194.6,
+      "raw": 102.97590439201512,
+      "mappingValue": 103,
+      "pass": true
+    },
+    {
+      "key": "hip",
+      "height": 194.6,
+      "raw": 105.37595702979091,
+      "mappingValue": 105.4,
+      "pass": true
+    },
+    {
+      "key": "hip",
+      "height": 194.6,
+      "raw": 110.18652481773763,
+      "mappingValue": 110.2,
+      "pass": true
+    },
+    {
+      "key": "hip",
+      "height": 194.6,
+      "raw": 114.99996846481439,
+      "mappingValue": 115,
+      "pass": true
+    },
+    {
+      "key": "hip",
+      "height": 194.6,
+      "raw": 119.81602052341223,
+      "mappingValue": 119.8,
+      "pass": true
+    },
+    {
+      "key": "hip",
+      "height": 194.6,
+      "raw": 124.63445341265388,
+      "mappingValue": 124.6344534126539,
+      "pass": true
+    }
+  ]
+}

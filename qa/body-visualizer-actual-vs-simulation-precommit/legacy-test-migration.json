@@ -1,0 +1,708 @@
+{
+  "counts": {
+    "A": 2,
+    "B": 7,
+    "C": 14,
+    "D": 73
+  },
+  "unit": "source entrypoint/helper file (not individual assertions)",
+  "entries": [
+    {
+      "category": "A",
+      "file": "qa/body-visualizer-regression.cjs",
+      "reason": "State utility, eight-site-page layout, header/footer, menu/search assertions remain valid.",
+      "replacement": "legacy-site-results.json",
+      "action": "Only local port and report destination changed; all56 layout assertions executed."
+    },
+    {
+      "category": "A",
+      "file": "qa/body-visualizer-measurement-guidance-bmi/run-qa.cjs",
+      "reason": "Guidance/BMI/icon semantics and responsive checks remain valid.",
+      "replacement": "legacy-guidance/functional-regression.json",
+      "action": "Output folder and explicit allowed candidate+QA paths updated; functional assertions unchanged and PASS."
+    },
+    {
+      "category": "B",
+      "file": "qa/body-visualizer.test.cjs",
+      "reason": "Old 82.0 display string is now actual82; gender section is inside the already-existing disclosure.",
+      "replacement": "legacy-body-visualizer-results.json",
+      "action": "Updated presentation selector/value plus port/output only; all viewer, touch, context, fallback and navigation assertions retained and PASS."
+    },
+    {
+      "category": "B",
+      "file": "qa/measurement-constraints-phase1.cjs",
+      "reason": "Old rejection of calibrated-range overflow, exact endpoints in actual state, million-step model sliders, Height girth rewriting, rounded actual precision, Weight200 rejection conflict with approved product contract.",
+      "replacement": "contract.cjs; regression-results.json; legacy-parity.json",
+      "action": "Migrated entrypoint to comprehensive replacement suite; exact original preserved in legacy-originals. No passing assertion removed without replacement category below."
+    },
+    {
+      "category": "B",
+      "file": "qa/measurement-constraints-phase1-ux-fix/run-browser.cjs",
+      "reason": "Actual108.2 must stay108.2, explicit invalid150 correction uses product140, Height confirmation preserves75.9/62.9/84.4 instead of new model minima.",
+      "replacement": "legacy-ux-fix/browser-results.json",
+      "action": "Updated only these expectations and local/output wiring; BMI pending, null slider, model count and responsive assertions retained; PASS."
+    },
+    {
+      "category": "B",
+      "file": "qa/weight-ux/tests.mjs",
+      "reason": "180.1 is valid now; maximum product Weight is200.",
+      "replacement": "legacy-weight-unit.json",
+      "action": "Invalid fixture changed to200.1; valid200 added;20 assertions PASS."
+    },
+    {
+      "category": "B",
+      "file": "qa/body-calibrated-mapping/tests.mjs",
+      "reason": "Raw calibration support does not imply product acceptance. Calibration sample weights/interpolation/clamps must remain unchanged.",
+      "replacement": "body-calibrated-mapping-unit.json",
+      "action": "Preserved calibration assertions; validateMeasurement expectation explicitly uses product bands. Older pre-Height/Hip nongeometry exclusions replaced by Weight/Inseam/Gender invariance plus positive Height/Hip geometry checks. Original files preserved. Body calibration loader now merges the existing separate hip dataset. PASS."
+    },
+    {
+      "category": "B",
+      "file": "qa/hip-production-integration/tests.mjs",
+      "reason": "Raw calibration support does not imply product acceptance. Calibration sample weights/interpolation/clamps must remain unchanged.",
+      "replacement": "hip-production-integration-unit.json",
+      "action": "Preserved calibration assertions; validateMeasurement expectation explicitly uses product bands. Older pre-Height/Hip nongeometry exclusions replaced by Weight/Inseam/Gender invariance plus positive Height/Hip geometry checks. Original files preserved. Body calibration loader now merges the existing separate hip dataset. PASS."
+    },
+    {
+      "category": "B",
+      "file": "qa/height-production-integration/tests.mjs",
+      "reason": "Raw calibration support does not imply product acceptance. Calibration sample weights/interpolation/clamps must remain unchanged.",
+      "replacement": "height-production-integration-unit.json",
+      "action": "Preserved calibration assertions; validateMeasurement expectation explicitly uses product bands. Older pre-Height/Hip nongeometry exclusions replaced by Weight/Inseam/Gender invariance plus positive Height/Hip geometry checks. Original files preserved. Body calibration loader now merges the existing separate hip dataset. PASS."
+    },
+    {
+      "category": "C",
+      "file": "qa/measurement-constraints-phase1-ui-review/run-ui-review.cjs",
+      "reason": "Historical UI capture expects near-limit badge, invalid just-outside model draft, endpoint writeback, Height girth adjustment and rejected Weight200.",
+      "replacement": "contract.cjs aliases/invalid/Height/nongeometry/reset/Goal; legacy-ux-fix; guidance",
+      "action": "Historical source retained unchanged; explicitly superseded, not executed as a current acceptance test."
+    },
+    {
+      "category": "C",
+      "file": "qa/weight-ux/run.cjs",
+      "reason": "Pre-sample-default contract expects invalid drafts to blank BMI/Height, reset nulls, Height140 accepted and data-height-clamp.",
+      "replacement": "contract.cjs BMI/state/null/reset; parity.mjs; lifecycle.cjs",
+      "action": "Historical source retained unchanged; explicitly superseded, not executed as a current acceptance test."
+    },
+    {
+      "category": "C",
+      "file": "qa/weight-ux/responsive.cjs",
+      "reason": "Historical presentation uses retired clamp/helper containers.",
+      "replacement": "responsive-regression.json; legacy-guidance",
+      "action": "Historical source retained unchanged; explicitly superseded, not executed as a current acceptance test."
+    },
+    {
+      "category": "C",
+      "file": "qa/ux-phase1/run.cjs",
+      "reason": "Pre-sample-default reset, old field-only clamps and old fixed stage dimensions are superseded; input associations and navigation still required.",
+      "replacement": "contract.cjs; legacy-guidance; touch.cjs; body-visualizer.test.cjs",
+      "action": "Historical source retained unchanged; explicitly superseded, not executed as a current acceptance test."
+    },
+    {
+      "category": "C",
+      "file": "qa/ux-phase2/run.cjs",
+      "reason": "Old fixed520/480 stage and1024 sticky assumptions precede current stacked presentation; recorded historical hashes refer to that earlier version.",
+      "replacement": "touch.cjs390/768 preserves relevant return-focus/contact/keyboard behaviors; lifecycle.cjs identity. Historical110-cycle stress not claimed rerun.",
+      "action": "Historical source retained unchanged; explicitly superseded, not executed as a current acceptance test."
+    },
+    {
+      "category": "C",
+      "file": "qa/body-calibrated-mapping/browser.js",
+      "reason": "Pre-Height/Hip integration browser fixture assumes base-plane mapping and sample-neutral reset.",
+      "replacement": "parity.mjs; migrated mapping unit; contract.cjs",
+      "action": "Historical source retained unchanged; explicitly superseded, not executed as a current acceptance test."
+    },
+    {
+      "category": "C",
+      "file": "qa/hip-production-integration/browser.js",
+      "reason": "Pre-Height browser calibration samples omit Height baseline drift and expect old target set.",
+      "replacement": "parity.mjs; migrated hip/Height unit; contract.cjs",
+      "action": "Historical source retained unchanged; explicitly superseded, not executed as a current acceptance test."
+    },
+    {
+      "category": "C",
+      "file": "qa/hip-production-integration/run-browser.cjs",
+      "reason": "Launcher for historical browser.js above.",
+      "replacement": "Same replacement as browser.js",
+      "action": "Historical source retained unchanged; explicitly superseded, not executed as a current acceptance test."
+    },
+    {
+      "category": "C",
+      "file": "qa/hip-production-integration/controller-tests.mjs",
+      "reason": "Old removed hip-scale targets and reset topology are a historical controller contract, independent of actual/simulation.",
+      "replacement": "Existing unchanged controller/GLB hashes;1094 Height/controller unit checks; runtime19-target checks",
+      "action": "Historical source retained unchanged; explicitly superseded, not executed as a current acceptance test."
+    },
+    {
+      "category": "C",
+      "file": "qa/height-production-integration/browser.js",
+      "reason": "Old raw-full-precision/no-rounding browser contract, null Height neutral reset and Height140 accepted predate model-range validation.",
+      "replacement": "parity.mjs independently evaluates immediate legacy contract; migrated1094 raw mapping/controller checks; contract.cjs",
+      "action": "Historical source retained unchanged; explicitly superseded, not executed as a current acceptance test."
+    },
+    {
+      "category": "C",
+      "file": "qa/height-production-integration/run.cjs",
+      "reason": "Launcher for historical Height browser contract.",
+      "replacement": "Same replacement as browser.js",
+      "action": "Historical source retained unchanged; explicitly superseded, not executed as a current acceptance test."
+    },
+    {
+      "category": "C",
+      "file": "qa/height-production-integration/responsive.cjs",
+      "reason": "Old runner changes Height without applying pending transaction, so endpoint screenshots would be mislabeled.",
+      "replacement": "contract.cjs transitions/responsive; lifecycle.cjs",
+      "action": "Historical source retained unchanged; explicitly superseded, not executed as a current acceptance test."
+    },
+    {
+      "category": "C",
+      "file": "qa/body-visualizer-production-v5-audit/_runtime-audit-runner.cjs",
+      "reason": "Historical V5 audit snapshots direct scene-bound state and model-domain inputs; not the new acceptance oracle.",
+      "replacement": "contract.cjs network/bounds; protected-hashes.json; legacy-parity.json",
+      "action": "Historical source retained unchanged; explicitly superseded, not executed as a current acceptance test."
+    },
+    {
+      "category": "C",
+      "file": "qa/body-morph-integration-browser.js",
+      "reason": "Historical production morph/geometry audit before current Height and input policy.",
+      "replacement": "Unchanged protected model stack; migrated raw mapping tests; current browser contract",
+      "action": "Historical source retained unchanged; explicitly superseded, not executed as a current acceptance test."
+    },
+    {
+      "category": "D",
+      "file": "qa/about-interactions.cjs",
+      "reason": "Site-specific unrelated test, reporting/extraction helper, fixture or infrastructure; not a model-range input acceptance oracle.",
+      "replacement": "Unchanged unless explicitly listed in executed suites.",
+      "action": "Retained; not claimed executed."
+    },
+    {
+      "category": "D",
+      "file": "qa/about-rebuild.cjs",
+      "reason": "Site-specific unrelated test, reporting/extraction helper, fixture or infrastructure; not a model-range input acceptance oracle.",
+      "replacement": "Unchanged unless explicitly listed in executed suites.",
+      "action": "Retained; not claimed executed."
+    },
+    {
+      "category": "D",
+      "file": "qa/body-calibrated-mapping/server.cjs",
+      "reason": "Site-specific unrelated test, reporting/extraction helper, fixture or infrastructure; not a model-range input acceptance oracle.",
+      "replacement": "Unchanged unless explicitly listed in executed suites.",
+      "action": "Retained; not claimed executed."
+    },
+    {
+      "category": "D",
+      "file": "qa/body-calibrated-mapping/write-report.cjs",
+      "reason": "Site-specific unrelated test, reporting/extraction helper, fixture or infrastructure; not a model-range input acceptance oracle.",
+      "replacement": "Unchanged unless explicitly listed in executed suites.",
+      "action": "Retained; not claimed executed."
+    },
+    {
+      "category": "D",
+      "file": "qa/body-measurement-calibration/app.js",
+      "reason": "R&D/calibration/reporting asset or historical model harness; outside this product-input migration.",
+      "replacement": "Unchanged unless explicitly listed in executed suites.",
+      "action": "Retained; not claimed executed."
+    },
+    {
+      "category": "D",
+      "file": "qa/body-measurement-calibration/geometry-tests.mjs",
+      "reason": "R&D/calibration/reporting asset or historical model harness; outside this product-input migration.",
+      "replacement": "Unchanged unless explicitly listed in executed suites.",
+      "action": "Retained; not claimed executed."
+    },
+    {
+      "category": "D",
+      "file": "qa/body-measurement-calibration/geometry.js",
+      "reason": "R&D/calibration/reporting asset or historical model harness; outside this product-input migration.",
+      "replacement": "Unchanged unless explicitly listed in executed suites.",
+      "action": "Retained; not claimed executed."
+    },
+    {
+      "category": "D",
+      "file": "qa/body-measurement-calibration/prepare-landmarks.cjs",
+      "reason": "R&D/calibration/reporting asset or historical model harness; outside this product-input migration.",
+      "replacement": "Unchanged unless explicitly listed in executed suites.",
+      "action": "Retained; not claimed executed."
+    },
+    {
+      "category": "D",
+      "file": "qa/body-measurement-calibration/server.cjs",
+      "reason": "R&D/calibration/reporting asset or historical model harness; outside this product-input migration.",
+      "replacement": "Unchanged unless explicitly listed in executed suites.",
+      "action": "Retained; not claimed executed."
+    },
+    {
+      "category": "D",
+      "file": "qa/body-measurement-calibration/write-report.cjs",
+      "reason": "R&D/calibration/reporting asset or historical model harness; outside this product-input migration.",
+      "replacement": "Unchanged unless explicitly listed in executed suites.",
+      "action": "Retained; not claimed executed."
+    },
+    {
+      "category": "D",
+      "file": "qa/body-morph-controller-checks.js",
+      "reason": "Site-specific unrelated test, reporting/extraction helper, fixture or infrastructure; not a model-range input acceptance oracle.",
+      "replacement": "Unchanged unless explicitly listed in executed suites.",
+      "action": "Retained; not claimed executed."
+    },
+    {
+      "category": "D",
+      "file": "qa/body-morph-integration-server.cjs",
+      "reason": "Site-specific unrelated test, reporting/extraction helper, fixture or infrastructure; not a model-range input acceptance oracle.",
+      "replacement": "Unchanged unless explicitly listed in executed suites.",
+      "action": "Retained; not claimed executed."
+    },
+    {
+      "category": "D",
+      "file": "qa/body-visualizer-actual-vs-simulation-implementation/protected.cjs",
+      "reason": "New architecture evidence, not a legacy test.",
+      "replacement": "Unchanged unless explicitly listed in executed suites.",
+      "action": "Retained; not claimed executed."
+    },
+    {
+      "category": "D",
+      "file": "qa/body-visualizer-actual-vs-simulation-implementation/regression.mjs",
+      "reason": "New architecture evidence, not a legacy test.",
+      "replacement": "Unchanged unless explicitly listed in executed suites.",
+      "action": "Retained; not claimed executed."
+    },
+    {
+      "category": "D",
+      "file": "qa/body-visualizer-actual-vs-simulation-implementation/runtime.cjs",
+      "reason": "New architecture evidence, not a legacy test.",
+      "replacement": "Unchanged unless explicitly listed in executed suites.",
+      "action": "Retained; not claimed executed."
+    },
+    {
+      "category": "D",
+      "file": "qa/body-visualizer-human-vs-model-range-audit/extract-audit.mjs",
+      "reason": "Site-specific unrelated test, reporting/extraction helper, fixture or infrastructure; not a model-range input acceptance oracle.",
+      "replacement": "Unchanged unless explicitly listed in executed suites.",
+      "action": "Retained; not claimed executed."
+    },
+    {
+      "category": "D",
+      "file": "qa/facilities-review.cjs",
+      "reason": "Site-specific unrelated test, reporting/extraction helper, fixture or infrastructure; not a model-range input acceptance oracle.",
+      "replacement": "Unchanged unless explicitly listed in executed suites.",
+      "action": "Retained; not claimed executed."
+    },
+    {
+      "category": "D",
+      "file": "qa/floating-contact.test.cjs",
+      "reason": "Site-specific unrelated test, reporting/extraction helper, fixture or infrastructure; not a model-range input acceptance oracle.",
+      "replacement": "Unchanged unless explicitly listed in executed suites.",
+      "action": "Retained; not claimed executed."
+    },
+    {
+      "category": "D",
+      "file": "qa/font-awesome.test.cjs",
+      "reason": "Site-specific unrelated test, reporting/extraction helper, fixture or infrastructure; not a model-range input acceptance oracle.",
+      "replacement": "Unchanged unless explicitly listed in executed suites.",
+      "action": "Retained; not claimed executed."
+    },
+    {
+      "category": "D",
+      "file": "qa/footer-social.test.cjs",
+      "reason": "Site-specific unrelated test, reporting/extraction helper, fixture or infrastructure; not a model-range input acceptance oracle.",
+      "replacement": "Unchanged unless explicitly listed in executed suites.",
+      "action": "Retained; not claimed executed."
+    },
+    {
+      "category": "D",
+      "file": "qa/height-edge-validation/app.js",
+      "reason": "R&D/calibration/reporting asset or historical model harness; outside this product-input migration.",
+      "replacement": "Unchanged unless explicitly listed in executed suites.",
+      "action": "Retained; not claimed executed."
+    },
+    {
+      "category": "D",
+      "file": "qa/height-edge-validation/check-collision.cjs",
+      "reason": "R&D/calibration/reporting asset or historical model harness; outside this product-input migration.",
+      "replacement": "Unchanged unless explicitly listed in executed suites.",
+      "action": "Retained; not claimed executed."
+    },
+    {
+      "category": "D",
+      "file": "qa/height-edge-validation/collision.js",
+      "reason": "R&D/calibration/reporting asset or historical model harness; outside this product-input migration.",
+      "replacement": "Unchanged unless explicitly listed in executed suites.",
+      "action": "Retained; not claimed executed."
+    },
+    {
+      "category": "D",
+      "file": "qa/height-edge-validation/contact.cjs",
+      "reason": "R&D/calibration/reporting asset or historical model harness; outside this product-input migration.",
+      "replacement": "Unchanged unless explicitly listed in executed suites.",
+      "action": "Retained; not claimed executed."
+    },
+    {
+      "category": "D",
+      "file": "qa/height-edge-validation/prepare.cjs",
+      "reason": "R&D/calibration/reporting asset or historical model harness; outside this product-input migration.",
+      "replacement": "Unchanged unless explicitly listed in executed suites.",
+      "action": "Retained; not claimed executed."
+    },
+    {
+      "category": "D",
+      "file": "qa/height-edge-validation/report.cjs",
+      "reason": "R&D/calibration/reporting asset or historical model harness; outside this product-input migration.",
+      "replacement": "Unchanged unless explicitly listed in executed suites.",
+      "action": "Retained; not claimed executed."
+    },
+    {
+      "category": "D",
+      "file": "qa/height-edge-validation/run.cjs",
+      "reason": "R&D/calibration/reporting asset or historical model harness; outside this product-input migration.",
+      "replacement": "Unchanged unless explicitly listed in executed suites.",
+      "action": "Retained; not claimed executed."
+    },
+    {
+      "category": "D",
+      "file": "qa/height-full-range/app.js",
+      "reason": "R&D/calibration/reporting asset or historical model harness; outside this product-input migration.",
+      "replacement": "Unchanged unless explicitly listed in executed suites.",
+      "action": "Retained; not claimed executed."
+    },
+    {
+      "category": "D",
+      "file": "qa/height-full-range/prepare.cjs",
+      "reason": "R&D/calibration/reporting asset or historical model harness; outside this product-input migration.",
+      "replacement": "Unchanged unless explicitly listed in executed suites.",
+      "action": "Retained; not claimed executed."
+    },
+    {
+      "category": "D",
+      "file": "qa/height-full-range/report.cjs",
+      "reason": "R&D/calibration/reporting asset or historical model harness; outside this product-input migration.",
+      "replacement": "Unchanged unless explicitly listed in executed suites.",
+      "action": "Retained; not claimed executed."
+    },
+    {
+      "category": "D",
+      "file": "qa/height-full-range/run.cjs",
+      "reason": "R&D/calibration/reporting asset or historical model harness; outside this product-input migration.",
+      "replacement": "Unchanged unless explicitly listed in executed suites.",
+      "action": "Retained; not claimed executed."
+    },
+    {
+      "category": "D",
+      "file": "qa/height-production-integration/report.cjs",
+      "reason": "Site-specific unrelated test, reporting/extraction helper, fixture or infrastructure; not a model-range input acceptance oracle.",
+      "replacement": "Unchanged unless explicitly listed in executed suites.",
+      "action": "Retained; not claimed executed."
+    },
+    {
+      "category": "D",
+      "file": "qa/height-production-integration/server.cjs",
+      "reason": "Site-specific unrelated test, reporting/extraction helper, fixture or infrastructure; not a model-range input acceptance oracle.",
+      "replacement": "Unchanged unless explicitly listed in executed suites.",
+      "action": "Retained; not claimed executed."
+    },
+    {
+      "category": "D",
+      "file": "qa/height-range-interaction/app.js",
+      "reason": "R&D/calibration/reporting asset or historical model harness; outside this product-input migration.",
+      "replacement": "Unchanged unless explicitly listed in executed suites.",
+      "action": "Retained; not claimed executed."
+    },
+    {
+      "category": "D",
+      "file": "qa/height-range-interaction/report.cjs",
+      "reason": "R&D/calibration/reporting asset or historical model harness; outside this product-input migration.",
+      "replacement": "Unchanged unless explicitly listed in executed suites.",
+      "action": "Retained; not claimed executed."
+    },
+    {
+      "category": "D",
+      "file": "qa/height-range-interaction/run.cjs",
+      "reason": "R&D/calibration/reporting asset or historical model harness; outside this product-input migration.",
+      "replacement": "Unchanged unless explicitly listed in executed suites.",
+      "action": "Retained; not claimed executed."
+    },
+    {
+      "category": "D",
+      "file": "qa/height-rnd-audit/app.js",
+      "reason": "R&D/calibration/reporting asset or historical model harness; outside this product-input migration.",
+      "replacement": "Unchanged unless explicitly listed in executed suites.",
+      "action": "Retained; not claimed executed."
+    },
+    {
+      "category": "D",
+      "file": "qa/height-rnd-audit/report.cjs",
+      "reason": "R&D/calibration/reporting asset or historical model harness; outside this product-input migration.",
+      "replacement": "Unchanged unless explicitly listed in executed suites.",
+      "action": "Retained; not claimed executed."
+    },
+    {
+      "category": "D",
+      "file": "qa/height-rnd-audit/run.cjs",
+      "reason": "R&D/calibration/reporting asset or historical model harness; outside this product-input migration.",
+      "replacement": "Unchanged unless explicitly listed in executed suites.",
+      "action": "Retained; not claimed executed."
+    },
+    {
+      "category": "D",
+      "file": "qa/hip-measurement-calibration/app.js",
+      "reason": "R&D/calibration/reporting asset or historical model harness; outside this product-input migration.",
+      "replacement": "Unchanged unless explicitly listed in executed suites.",
+      "action": "Retained; not claimed executed."
+    },
+    {
+      "category": "D",
+      "file": "qa/hip-measurement-calibration/browser.cjs",
+      "reason": "R&D/calibration/reporting asset or historical model harness; outside this product-input migration.",
+      "replacement": "Unchanged unless explicitly listed in executed suites.",
+      "action": "Retained; not claimed executed."
+    },
+    {
+      "category": "D",
+      "file": "qa/hip-measurement-calibration/contact.cjs",
+      "reason": "R&D/calibration/reporting asset or historical model harness; outside this product-input migration.",
+      "replacement": "Unchanged unless explicitly listed in executed suites.",
+      "action": "Retained; not claimed executed."
+    },
+    {
+      "category": "D",
+      "file": "qa/hip-measurement-calibration/prepare.cjs",
+      "reason": "R&D/calibration/reporting asset or historical model harness; outside this product-input migration.",
+      "replacement": "Unchanged unless explicitly listed in executed suites.",
+      "action": "Retained; not claimed executed."
+    },
+    {
+      "category": "D",
+      "file": "qa/hip-measurement-calibration/report.cjs",
+      "reason": "R&D/calibration/reporting asset or historical model harness; outside this product-input migration.",
+      "replacement": "Unchanged unless explicitly listed in executed suites.",
+      "action": "Retained; not claimed executed."
+    },
+    {
+      "category": "D",
+      "file": "qa/hip-measurement-calibration/server.cjs",
+      "reason": "R&D/calibration/reporting asset or historical model harness; outside this product-input migration.",
+      "replacement": "Unchanged unless explicitly listed in executed suites.",
+      "action": "Retained; not claimed executed."
+    },
+    {
+      "category": "D",
+      "file": "qa/hip-production-integration/hip-flow.cjs",
+      "reason": "Site-specific unrelated test, reporting/extraction helper, fixture or infrastructure; not a model-range input acceptance oracle.",
+      "replacement": "Unchanged unless explicitly listed in executed suites.",
+      "action": "Retained; not claimed executed."
+    },
+    {
+      "category": "D",
+      "file": "qa/hip-production-integration/prepare.cjs",
+      "reason": "Site-specific unrelated test, reporting/extraction helper, fixture or infrastructure; not a model-range input acceptance oracle.",
+      "replacement": "Unchanged unless explicitly listed in executed suites.",
+      "action": "Retained; not claimed executed."
+    },
+    {
+      "category": "D",
+      "file": "qa/hip-production-integration/report.cjs",
+      "reason": "Site-specific unrelated test, reporting/extraction helper, fixture or infrastructure; not a model-range input acceptance oracle.",
+      "replacement": "Unchanged unless explicitly listed in executed suites.",
+      "action": "Retained; not claimed executed."
+    },
+    {
+      "category": "D",
+      "file": "qa/hip-production-integration/server.cjs",
+      "reason": "Site-specific unrelated test, reporting/extraction helper, fixture or infrastructure; not a model-range input acceptance oracle.",
+      "replacement": "Unchanged unless explicitly listed in executed suites.",
+      "action": "Retained; not claimed executed."
+    },
+    {
+      "category": "D",
+      "file": "qa/news-new-card.test.cjs",
+      "reason": "Site-specific unrelated test, reporting/extraction helper, fixture or infrastructure; not a model-range input acceptance oracle.",
+      "replacement": "Unchanged unless explicitly listed in executed suites.",
+      "action": "Retained; not claimed executed."
+    },
+    {
+      "category": "D",
+      "file": "qa/phase2-combination-safety/app.js",
+      "reason": "R&D/calibration/reporting asset or historical model harness; outside this product-input migration.",
+      "replacement": "Unchanged unless explicitly listed in executed suites.",
+      "action": "Retained; not claimed executed."
+    },
+    {
+      "category": "D",
+      "file": "qa/phase2-combination-safety/focus.cjs",
+      "reason": "R&D/calibration/reporting asset or historical model harness; outside this product-input migration.",
+      "replacement": "Unchanged unless explicitly listed in executed suites.",
+      "action": "Retained; not claimed executed."
+    },
+    {
+      "category": "D",
+      "file": "qa/phase2-combination-safety/regional.cjs",
+      "reason": "R&D/calibration/reporting asset or historical model harness; outside this product-input migration.",
+      "replacement": "Unchanged unless explicitly listed in executed suites.",
+      "action": "Retained; not claimed executed."
+    },
+    {
+      "category": "D",
+      "file": "qa/phase2-combination-safety/run.cjs",
+      "reason": "R&D/calibration/reporting asset or historical model harness; outside this product-input migration.",
+      "replacement": "Unchanged unless explicitly listed in executed suites.",
+      "action": "Retained; not claimed executed."
+    },
+    {
+      "category": "D",
+      "file": "qa/phase2-combination-safety/validate-parser.cjs",
+      "reason": "R&D/calibration/reporting asset or historical model harness; outside this product-input migration.",
+      "replacement": "Unchanged unless explicitly listed in executed suites.",
+      "action": "Retained; not claimed executed."
+    },
+    {
+      "category": "D",
+      "file": "qa/production-morph-v2-server.cjs",
+      "reason": "R&D/calibration/reporting asset or historical model harness; outside this product-input migration.",
+      "replacement": "Unchanged unless explicitly listed in executed suites.",
+      "action": "Retained; not claimed executed."
+    },
+    {
+      "category": "D",
+      "file": "qa/production-morph-v2-static.cjs",
+      "reason": "R&D/calibration/reporting asset or historical model harness; outside this product-input migration.",
+      "replacement": "Unchanged unless explicitly listed in executed suites.",
+      "action": "Retained; not claimed executed."
+    },
+    {
+      "category": "D",
+      "file": "qa/production-morph-v3/app.js",
+      "reason": "R&D/calibration/reporting asset or historical model harness; outside this product-input migration.",
+      "replacement": "Unchanged unless explicitly listed in executed suites.",
+      "action": "Retained; not claimed executed."
+    },
+    {
+      "category": "D",
+      "file": "qa/production-morph-v3/browser.cjs",
+      "reason": "R&D/calibration/reporting asset or historical model harness; outside this product-input migration.",
+      "replacement": "Unchanged unless explicitly listed in executed suites.",
+      "action": "Retained; not claimed executed."
+    },
+    {
+      "category": "D",
+      "file": "qa/production-morph-v3/contact.cjs",
+      "reason": "R&D/calibration/reporting asset or historical model harness; outside this product-input migration.",
+      "replacement": "Unchanged unless explicitly listed in executed suites.",
+      "action": "Retained; not claimed executed."
+    },
+    {
+      "category": "D",
+      "file": "qa/production-morph-v3/prepare.cjs",
+      "reason": "R&D/calibration/reporting asset or historical model harness; outside this product-input migration.",
+      "replacement": "Unchanged unless explicitly listed in executed suites.",
+      "action": "Retained; not claimed executed."
+    },
+    {
+      "category": "D",
+      "file": "qa/production-morph-v3/report.cjs",
+      "reason": "R&D/calibration/reporting asset or historical model harness; outside this product-input migration.",
+      "replacement": "Unchanged unless explicitly listed in executed suites.",
+      "action": "Retained; not claimed executed."
+    },
+    {
+      "category": "D",
+      "file": "qa/production-morph-v3/server.cjs",
+      "reason": "R&D/calibration/reporting asset or historical model harness; outside this product-input migration.",
+      "replacement": "Unchanged unless explicitly listed in executed suites.",
+      "action": "Retained; not claimed executed."
+    },
+    {
+      "category": "D",
+      "file": "qa/production-morph-v3/static.cjs",
+      "reason": "R&D/calibration/reporting asset or historical model harness; outside this product-input migration.",
+      "replacement": "Unchanged unless explicitly listed in executed suites.",
+      "action": "Retained; not claimed executed."
+    },
+    {
+      "category": "D",
+      "file": "qa/production-morph-v4/app.js",
+      "reason": "R&D/calibration/reporting asset or historical model harness; outside this product-input migration.",
+      "replacement": "Unchanged unless explicitly listed in executed suites.",
+      "action": "Retained; not claimed executed."
+    },
+    {
+      "category": "D",
+      "file": "qa/production-morph-v4/report.cjs",
+      "reason": "R&D/calibration/reporting asset or historical model harness; outside this product-input migration.",
+      "replacement": "Unchanged unless explicitly listed in executed suites.",
+      "action": "Retained; not claimed executed."
+    },
+    {
+      "category": "D",
+      "file": "qa/production-morph-v4/run.cjs",
+      "reason": "R&D/calibration/reporting asset or historical model harness; outside this product-input migration.",
+      "replacement": "Unchanged unless explicitly listed in executed suites.",
+      "action": "Retained; not claimed executed."
+    },
+    {
+      "category": "D",
+      "file": "qa/production-morph-v4/static.cjs",
+      "reason": "R&D/calibration/reporting asset or historical model harness; outside this product-input migration.",
+      "replacement": "Unchanged unless explicitly listed in executed suites.",
+      "action": "Retained; not claimed executed."
+    },
+    {
+      "category": "D",
+      "file": "qa/responsive/before/main.js",
+      "reason": "Site-specific unrelated test, reporting/extraction helper, fixture or infrastructure; not a model-range input acceptance oracle.",
+      "replacement": "Unchanged unless explicitly listed in executed suites.",
+      "action": "Retained; not claimed executed."
+    },
+    {
+      "category": "D",
+      "file": "qa/responsive-audit.cjs",
+      "reason": "Site-specific unrelated test, reporting/extraction helper, fixture or infrastructure; not a model-range input acceptance oracle.",
+      "replacement": "Unchanged unless explicitly listed in executed suites.",
+      "action": "Retained; not claimed executed."
+    },
+    {
+      "category": "D",
+      "file": "qa/responsive-interactions.cjs",
+      "reason": "Site-specific unrelated test, reporting/extraction helper, fixture or infrastructure; not a model-range input acceptance oracle.",
+      "replacement": "Unchanged unless explicitly listed in executed suites.",
+      "action": "Retained; not claimed executed."
+    },
+    {
+      "category": "D",
+      "file": "qa/responsive-scroll.cjs",
+      "reason": "Site-specific unrelated test, reporting/extraction helper, fixture or infrastructure; not a model-range input acceptance oracle.",
+      "replacement": "Unchanged unless explicitly listed in executed suites.",
+      "action": "Retained; not claimed executed."
+    },
+    {
+      "category": "D",
+      "file": "qa/video-preview.test.cjs",
+      "reason": "Site-specific unrelated test, reporting/extraction helper, fixture or infrastructure; not a model-range input acceptance oracle.",
+      "replacement": "Unchanged unless explicitly listed in executed suites.",
+      "action": "Retained; not claimed executed."
+    }
+  ],
+  "assertionMigration": {
+    "unchanged": [
+      "19 targets/one canvas/model request",
+      "draft retention/malformed inputs",
+      "BMI committed actual formula",
+      "independent Goal",
+      "null optional semantics",
+      "nongeometry Weight/Inseam",
+      "reset approved samples",
+      "camera/touch/context/homepage"
+    ],
+    "changed": [
+      "calibrated overflow invalid → product-valid accepted and bounded derived value",
+      "actual canonical endpoint → actual literal plus exact mappingValue",
+      "model-domain million-step slider → product native0.1",
+      "Height confirm rewrites girths → preserves girths",
+      "round actual precision → preserve actual, round mappingValue",
+      "Weight180.1 invalid → Weight200.1 invalid"
+    ],
+    "replaced": [
+      "near-limit badge → neutral support-range text",
+      "old null-default reset → approved sample reset",
+      "old pre-Height/Hip exclusions → assert geometric Height/Hip, keep Weight/Inseam nongeometry"
+    ]
+  }
+}

@@ -1,0 +1,4382 @@
+{
+  "pass": true,
+  "count": 1094,
+  "results": [
+    {
+      "name": "production dataset preserves every full-precision source sample",
+      "pass": true
+    },
+    {
+      "name": "Height inverse and clamp 151.21778195689558",
+      "pass": true
+    },
+    {
+      "name": "Height inverse and clamp 155",
+      "pass": true
+    },
+    {
+      "name": "Height inverse and clamp 160",
+      "pass": true
+    },
+    {
+      "name": "Height inverse and clamp 165",
+      "pass": true
+    },
+    {
+      "name": "Height inverse and clamp 170",
+      "pass": true
+    },
+    {
+      "name": "Height inverse and clamp 172.91078380973204",
+      "pass": true
+    },
+    {
+      "name": "Height inverse and clamp 175",
+      "pass": true
+    },
+    {
+      "name": "Height inverse and clamp 180",
+      "pass": true
+    },
+    {
+      "name": "Height inverse and clamp 185",
+      "pass": true
+    },
+    {
+      "name": "Height inverse and clamp 190",
+      "pass": true
+    },
+    {
+      "name": "Height inverse and clamp 194.6037856625685",
+      "pass": true
+    },
+    {
+      "name": "Height inverse and clamp 140",
+      "pass": true
+    },
+    {
+      "name": "Height inverse and clamp 200",
+      "pass": true
+    },
+    {
+      "name": "invalid Height null",
+      "pass": true
+    },
+    {
+      "name": "invalid Height undefined",
+      "pass": true
+    },
+    {
+      "name": "invalid Height ",
+      "pass": true
+    },
+    {
+      "name": "invalid Height  ",
+      "pass": true
+    },
+    {
+      "name": "invalid Height NaN",
+      "pass": true
+    },
+    {
+      "name": "invalid Height Infinity",
+      "pass": true
+    },
+    {
+      "name": "invalid Height -Infinity",
+      "pass": true
+    },
+    {
+      "name": "invalid Height abc",
+      "pass": true
+    },
+    {
+      "name": "invalid Height [object Object]",
+      "pass": true
+    },
+    {
+      "name": "invalid Height ",
+      "pass": true
+    },
+    {
+      "name": "invalid Height true",
+      "pass": true
+    },
+    {
+      "name": "invalid Height 0",
+      "pass": true
+    },
+    {
+      "name": "invalid Height -3",
+      "pass": true
+    },
+    {
+      "name": "baseline exact -0.3",
+      "pass": true
+    },
+    {
+      "name": "baseline exact -0.25",
+      "pass": true
+    },
+    {
+      "name": "baseline midpoint 1",
+      "pass": true
+    },
+    {
+      "name": "baseline exact -0.2",
+      "pass": true
+    },
+    {
+      "name": "baseline midpoint 2",
+      "pass": true
+    },
+    {
+      "name": "baseline exact -0.15",
+      "pass": true
+    },
+    {
+      "name": "baseline midpoint 3",
+      "pass": true
+    },
+    {
+      "name": "baseline exact -0.1",
+      "pass": true
+    },
+    {
+      "name": "baseline midpoint 4",
+      "pass": true
+    },
+    {
+      "name": "baseline exact -0.05",
+      "pass": true
+    },
+    {
+      "name": "baseline midpoint 5",
+      "pass": true
+    },
+    {
+      "name": "baseline exact 0",
+      "pass": true
+    },
+    {
+      "name": "baseline midpoint 6",
+      "pass": true
+    },
+    {
+      "name": "baseline exact 0.05",
+      "pass": true
+    },
+    {
+      "name": "baseline midpoint 7",
+      "pass": true
+    },
+    {
+      "name": "baseline exact 0.1",
+      "pass": true
+    },
+    {
+      "name": "baseline midpoint 8",
+      "pass": true
+    },
+    {
+      "name": "baseline exact 0.15",
+      "pass": true
+    },
+    {
+      "name": "baseline midpoint 9",
+      "pass": true
+    },
+    {
+      "name": "baseline exact 0.2",
+      "pass": true
+    },
+    {
+      "name": "baseline midpoint 10",
+      "pass": true
+    },
+    {
+      "name": "baseline exact 0.25",
+      "pass": true
+    },
+    {
+      "name": "baseline midpoint 11",
+      "pass": true
+    },
+    {
+      "name": "baseline exact 0.3",
+      "pass": true
+    },
+    {
+      "name": "baseline midpoint 12",
+      "pass": true
+    },
+    {
+      "name": "baseline clamps before lookup",
+      "pass": true
+    },
+    {
+      "name": "-0.3 waist sample -1",
+      "pass": true
+    },
+    {
+      "name": "-0.3 waist sample -0.75",
+      "pass": true
+    },
+    {
+      "name": "-0.3 waist sample -0.5",
+      "pass": true
+    },
+    {
+      "name": "-0.3 waist sample -0.25",
+      "pass": true
+    },
+    {
+      "name": "-0.3 waist sample 0",
+      "pass": true
+    },
+    {
+      "name": "-0.3 waist sample 0.25",
+      "pass": true
+    },
+    {
+      "name": "-0.3 waist sample 0.5",
+      "pass": true
+    },
+    {
+      "name": "-0.3 waist sample 0.75",
+      "pass": true
+    },
+    {
+      "name": "-0.3 waist sample 1",
+      "pass": true
+    },
+    {
+      "name": "-0.3 waist segment 1",
+      "pass": true
+    },
+    {
+      "name": "-0.3 waist segment 2",
+      "pass": true
+    },
+    {
+      "name": "-0.3 waist segment 3",
+      "pass": true
+    },
+    {
+      "name": "-0.3 waist segment 4",
+      "pass": true
+    },
+    {
+      "name": "-0.3 waist segment 5",
+      "pass": true
+    },
+    {
+      "name": "-0.3 waist segment 6",
+      "pass": true
+    },
+    {
+      "name": "-0.3 waist segment 7",
+      "pass": true
+    },
+    {
+      "name": "-0.3 waist segment 8",
+      "pass": true
+    },
+    {
+      "name": "-0.3 chest sample -1",
+      "pass": true
+    },
+    {
+      "name": "-0.3 chest sample -0.75",
+      "pass": true
+    },
+    {
+      "name": "-0.3 chest sample -0.5",
+      "pass": true
+    },
+    {
+      "name": "-0.3 chest sample -0.25",
+      "pass": true
+    },
+    {
+      "name": "-0.3 chest sample 0",
+      "pass": true
+    },
+    {
+      "name": "-0.3 chest sample 0.25",
+      "pass": true
+    },
+    {
+      "name": "-0.3 chest sample 0.5",
+      "pass": true
+    },
+    {
+      "name": "-0.3 chest sample 0.75",
+      "pass": true
+    },
+    {
+      "name": "-0.3 chest sample 1",
+      "pass": true
+    },
+    {
+      "name": "-0.3 chest segment 1",
+      "pass": true
+    },
+    {
+      "name": "-0.3 chest segment 2",
+      "pass": true
+    },
+    {
+      "name": "-0.3 chest segment 3",
+      "pass": true
+    },
+    {
+      "name": "-0.3 chest segment 4",
+      "pass": true
+    },
+    {
+      "name": "-0.3 chest segment 5",
+      "pass": true
+    },
+    {
+      "name": "-0.3 chest segment 6",
+      "pass": true
+    },
+    {
+      "name": "-0.3 chest segment 7",
+      "pass": true
+    },
+    {
+      "name": "-0.3 chest segment 8",
+      "pass": true
+    },
+    {
+      "name": "-0.3 shoulder sample -1",
+      "pass": true
+    },
+    {
+      "name": "-0.3 shoulder sample -0.75",
+      "pass": true
+    },
+    {
+      "name": "-0.3 shoulder sample -0.5",
+      "pass": true
+    },
+    {
+      "name": "-0.3 shoulder sample -0.25",
+      "pass": true
+    },
+    {
+      "name": "-0.3 shoulder sample 0",
+      "pass": true
+    },
+    {
+      "name": "-0.3 shoulder sample 0.25",
+      "pass": true
+    },
+    {
+      "name": "-0.3 shoulder sample 0.5",
+      "pass": true
+    },
+    {
+      "name": "-0.3 shoulder sample 0.75",
+      "pass": true
+    },
+    {
+      "name": "-0.3 shoulder sample 1",
+      "pass": true
+    },
+    {
+      "name": "-0.3 shoulder segment 1",
+      "pass": true
+    },
+    {
+      "name": "-0.3 shoulder segment 2",
+      "pass": true
+    },
+    {
+      "name": "-0.3 shoulder segment 3",
+      "pass": true
+    },
+    {
+      "name": "-0.3 shoulder segment 4",
+      "pass": true
+    },
+    {
+      "name": "-0.3 shoulder segment 5",
+      "pass": true
+    },
+    {
+      "name": "-0.3 shoulder segment 6",
+      "pass": true
+    },
+    {
+      "name": "-0.3 shoulder segment 7",
+      "pass": true
+    },
+    {
+      "name": "-0.3 shoulder segment 8",
+      "pass": true
+    },
+    {
+      "name": "-0.3 arm sample -1",
+      "pass": true
+    },
+    {
+      "name": "-0.3 arm sample -0.75",
+      "pass": true
+    },
+    {
+      "name": "-0.3 arm sample -0.5",
+      "pass": true
+    },
+    {
+      "name": "-0.3 arm sample -0.25",
+      "pass": true
+    },
+    {
+      "name": "-0.3 arm sample 0",
+      "pass": true
+    },
+    {
+      "name": "-0.3 arm sample 0.25",
+      "pass": true
+    },
+    {
+      "name": "-0.3 arm sample 0.5",
+      "pass": true
+    },
+    {
+      "name": "-0.3 arm sample 0.75",
+      "pass": true
+    },
+    {
+      "name": "-0.3 arm sample 1",
+      "pass": true
+    },
+    {
+      "name": "-0.3 arm segment 1",
+      "pass": true
+    },
+    {
+      "name": "-0.3 arm segment 2",
+      "pass": true
+    },
+    {
+      "name": "-0.3 arm segment 3",
+      "pass": true
+    },
+    {
+      "name": "-0.3 arm segment 4",
+      "pass": true
+    },
+    {
+      "name": "-0.3 arm segment 5",
+      "pass": true
+    },
+    {
+      "name": "-0.3 arm segment 6",
+      "pass": true
+    },
+    {
+      "name": "-0.3 arm segment 7",
+      "pass": true
+    },
+    {
+      "name": "-0.3 arm segment 8",
+      "pass": true
+    },
+    {
+      "name": "-0.3 thigh sample -1",
+      "pass": true
+    },
+    {
+      "name": "-0.3 thigh sample -0.75",
+      "pass": true
+    },
+    {
+      "name": "-0.3 thigh sample -0.5",
+      "pass": true
+    },
+    {
+      "name": "-0.3 thigh sample -0.25",
+      "pass": true
+    },
+    {
+      "name": "-0.3 thigh sample 0",
+      "pass": true
+    },
+    {
+      "name": "-0.3 thigh sample 0.25",
+      "pass": true
+    },
+    {
+      "name": "-0.3 thigh sample 0.5",
+      "pass": true
+    },
+    {
+      "name": "-0.3 thigh sample 0.75",
+      "pass": true
+    },
+    {
+      "name": "-0.3 thigh sample 1",
+      "pass": true
+    },
+    {
+      "name": "-0.3 thigh segment 1",
+      "pass": true
+    },
+    {
+      "name": "-0.3 thigh segment 2",
+      "pass": true
+    },
+    {
+      "name": "-0.3 thigh segment 3",
+      "pass": true
+    },
+    {
+      "name": "-0.3 thigh segment 4",
+      "pass": true
+    },
+    {
+      "name": "-0.3 thigh segment 5",
+      "pass": true
+    },
+    {
+      "name": "-0.3 thigh segment 6",
+      "pass": true
+    },
+    {
+      "name": "-0.3 thigh segment 7",
+      "pass": true
+    },
+    {
+      "name": "-0.3 thigh segment 8",
+      "pass": true
+    },
+    {
+      "name": "-0.3 calf sample -1",
+      "pass": true
+    },
+    {
+      "name": "-0.3 calf sample -0.75",
+      "pass": true
+    },
+    {
+      "name": "-0.3 calf sample -0.5",
+      "pass": true
+    },
+    {
+      "name": "-0.3 calf sample -0.25",
+      "pass": true
+    },
+    {
+      "name": "-0.3 calf sample 0",
+      "pass": true
+    },
+    {
+      "name": "-0.3 calf sample 0.25",
+      "pass": true
+    },
+    {
+      "name": "-0.3 calf sample 0.5",
+      "pass": true
+    },
+    {
+      "name": "-0.3 calf sample 0.75",
+      "pass": true
+    },
+    {
+      "name": "-0.3 calf sample 1",
+      "pass": true
+    },
+    {
+      "name": "-0.3 calf segment 1",
+      "pass": true
+    },
+    {
+      "name": "-0.3 calf segment 2",
+      "pass": true
+    },
+    {
+      "name": "-0.3 calf segment 3",
+      "pass": true
+    },
+    {
+      "name": "-0.3 calf segment 4",
+      "pass": true
+    },
+    {
+      "name": "-0.3 calf segment 5",
+      "pass": true
+    },
+    {
+      "name": "-0.3 calf segment 6",
+      "pass": true
+    },
+    {
+      "name": "-0.3 calf segment 7",
+      "pass": true
+    },
+    {
+      "name": "-0.3 calf segment 8",
+      "pass": true
+    },
+    {
+      "name": "-0.3 hip sample -1",
+      "pass": true
+    },
+    {
+      "name": "-0.3 hip sample -0.75",
+      "pass": true
+    },
+    {
+      "name": "-0.3 hip sample -0.5",
+      "pass": true
+    },
+    {
+      "name": "-0.3 hip sample -0.25",
+      "pass": true
+    },
+    {
+      "name": "-0.3 hip sample 0",
+      "pass": true
+    },
+    {
+      "name": "-0.3 hip sample 0.25",
+      "pass": true
+    },
+    {
+      "name": "-0.3 hip sample 0.5",
+      "pass": true
+    },
+    {
+      "name": "-0.3 hip sample 0.75",
+      "pass": true
+    },
+    {
+      "name": "-0.3 hip sample 1",
+      "pass": true
+    },
+    {
+      "name": "-0.3 hip segment 1",
+      "pass": true
+    },
+    {
+      "name": "-0.3 hip segment 2",
+      "pass": true
+    },
+    {
+      "name": "-0.3 hip segment 3",
+      "pass": true
+    },
+    {
+      "name": "-0.3 hip segment 4",
+      "pass": true
+    },
+    {
+      "name": "-0.3 hip segment 5",
+      "pass": true
+    },
+    {
+      "name": "-0.3 hip segment 6",
+      "pass": true
+    },
+    {
+      "name": "-0.3 hip segment 7",
+      "pass": true
+    },
+    {
+      "name": "-0.3 hip segment 8",
+      "pass": true
+    },
+    {
+      "name": "-0.2 waist sample -1",
+      "pass": true
+    },
+    {
+      "name": "-0.2 waist sample -0.75",
+      "pass": true
+    },
+    {
+      "name": "-0.2 waist sample -0.5",
+      "pass": true
+    },
+    {
+      "name": "-0.2 waist sample -0.25",
+      "pass": true
+    },
+    {
+      "name": "-0.2 waist sample 0",
+      "pass": true
+    },
+    {
+      "name": "-0.2 waist sample 0.25",
+      "pass": true
+    },
+    {
+      "name": "-0.2 waist sample 0.5",
+      "pass": true
+    },
+    {
+      "name": "-0.2 waist sample 0.75",
+      "pass": true
+    },
+    {
+      "name": "-0.2 waist sample 1",
+      "pass": true
+    },
+    {
+      "name": "-0.2 waist segment 1",
+      "pass": true
+    },
+    {
+      "name": "-0.2 waist segment 2",
+      "pass": true
+    },
+    {
+      "name": "-0.2 waist segment 3",
+      "pass": true
+    },
+    {
+      "name": "-0.2 waist segment 4",
+      "pass": true
+    },
+    {
+      "name": "-0.2 waist segment 5",
+      "pass": true
+    },
+    {
+      "name": "-0.2 waist segment 6",
+      "pass": true
+    },
+    {
+      "name": "-0.2 waist segment 7",
+      "pass": true
+    },
+    {
+      "name": "-0.2 waist segment 8",
+      "pass": true
+    },
+    {
+      "name": "-0.2 chest sample -1",
+      "pass": true
+    },
+    {
+      "name": "-0.2 chest sample -0.75",
+      "pass": true
+    },
+    {
+      "name": "-0.2 chest sample -0.5",
+      "pass": true
+    },
+    {
+      "name": "-0.2 chest sample -0.25",
+      "pass": true
+    },
+    {
+      "name": "-0.2 chest sample 0",
+      "pass": true
+    },
+    {
+      "name": "-0.2 chest sample 0.25",
+      "pass": true
+    },
+    {
+      "name": "-0.2 chest sample 0.5",
+      "pass": true
+    },
+    {
+      "name": "-0.2 chest sample 0.75",
+      "pass": true
+    },
+    {
+      "name": "-0.2 chest sample 1",
+      "pass": true
+    },
+    {
+      "name": "-0.2 chest segment 1",
+      "pass": true
+    },
+    {
+      "name": "-0.2 chest segment 2",
+      "pass": true
+    },
+    {
+      "name": "-0.2 chest segment 3",
+      "pass": true
+    },
+    {
+      "name": "-0.2 chest segment 4",
+      "pass": true
+    },
+    {
+      "name": "-0.2 chest segment 5",
+      "pass": true
+    },
+    {
+      "name": "-0.2 chest segment 6",
+      "pass": true
+    },
+    {
+      "name": "-0.2 chest segment 7",
+      "pass": true
+    },
+    {
+      "name": "-0.2 chest segment 8",
+      "pass": true
+    },
+    {
+      "name": "-0.2 shoulder sample -1",
+      "pass": true
+    },
+    {
+      "name": "-0.2 shoulder sample -0.75",
+      "pass": true
+    },
+    {
+      "name": "-0.2 shoulder sample -0.5",
+      "pass": true
+    },
+    {
+      "name": "-0.2 shoulder sample -0.25",
+      "pass": true
+    },
+    {
+      "name": "-0.2 shoulder sample 0",
+      "pass": true
+    },
+    {
+      "name": "-0.2 shoulder sample 0.25",
+      "pass": true
+    },
+    {
+      "name": "-0.2 shoulder sample 0.5",
+      "pass": true
+    },
+    {
+      "name": "-0.2 shoulder sample 0.75",
+      "pass": true
+    },
+    {
+      "name": "-0.2 shoulder sample 1",
+      "pass": true
+    },
+    {
+      "name": "-0.2 shoulder segment 1",
+      "pass": true
+    },
+    {
+      "name": "-0.2 shoulder segment 2",
+      "pass": true
+    },
+    {
+      "name": "-0.2 shoulder segment 3",
+      "pass": true
+    },
+    {
+      "name": "-0.2 shoulder segment 4",
+      "pass": true
+    },
+    {
+      "name": "-0.2 shoulder segment 5",
+      "pass": true
+    },
+    {
+      "name": "-0.2 shoulder segment 6",
+      "pass": true
+    },
+    {
+      "name": "-0.2 shoulder segment 7",
+      "pass": true
+    },
+    {
+      "name": "-0.2 shoulder segment 8",
+      "pass": true
+    },
+    {
+      "name": "-0.2 arm sample -1",
+      "pass": true
+    },
+    {
+      "name": "-0.2 arm sample -0.75",
+      "pass": true
+    },
+    {
+      "name": "-0.2 arm sample -0.5",
+      "pass": true
+    },
+    {
+      "name": "-0.2 arm sample -0.25",
+      "pass": true
+    },
+    {
+      "name": "-0.2 arm sample 0",
+      "pass": true
+    },
+    {
+      "name": "-0.2 arm sample 0.25",
+      "pass": true
+    },
+    {
+      "name": "-0.2 arm sample 0.5",
+      "pass": true
+    },
+    {
+      "name": "-0.2 arm sample 0.75",
+      "pass": true
+    },
+    {
+      "name": "-0.2 arm sample 1",
+      "pass": true
+    },
+    {
+      "name": "-0.2 arm segment 1",
+      "pass": true
+    },
+    {
+      "name": "-0.2 arm segment 2",
+      "pass": true
+    },
+    {
+      "name": "-0.2 arm segment 3",
+      "pass": true
+    },
+    {
+      "name": "-0.2 arm segment 4",
+      "pass": true
+    },
+    {
+      "name": "-0.2 arm segment 5",
+      "pass": true
+    },
+    {
+      "name": "-0.2 arm segment 6",
+      "pass": true
+    },
+    {
+      "name": "-0.2 arm segment 7",
+      "pass": true
+    },
+    {
+      "name": "-0.2 arm segment 8",
+      "pass": true
+    },
+    {
+      "name": "-0.2 thigh sample -1",
+      "pass": true
+    },
+    {
+      "name": "-0.2 thigh sample -0.75",
+      "pass": true
+    },
+    {
+      "name": "-0.2 thigh sample -0.5",
+      "pass": true
+    },
+    {
+      "name": "-0.2 thigh sample -0.25",
+      "pass": true
+    },
+    {
+      "name": "-0.2 thigh sample 0",
+      "pass": true
+    },
+    {
+      "name": "-0.2 thigh sample 0.25",
+      "pass": true
+    },
+    {
+      "name": "-0.2 thigh sample 0.5",
+      "pass": true
+    },
+    {
+      "name": "-0.2 thigh sample 0.75",
+      "pass": true
+    },
+    {
+      "name": "-0.2 thigh sample 1",
+      "pass": true
+    },
+    {
+      "name": "-0.2 thigh segment 1",
+      "pass": true
+    },
+    {
+      "name": "-0.2 thigh segment 2",
+      "pass": true
+    },
+    {
+      "name": "-0.2 thigh segment 3",
+      "pass": true
+    },
+    {
+      "name": "-0.2 thigh segment 4",
+      "pass": true
+    },
+    {
+      "name": "-0.2 thigh segment 5",
+      "pass": true
+    },
+    {
+      "name": "-0.2 thigh segment 6",
+      "pass": true
+    },
+    {
+      "name": "-0.2 thigh segment 7",
+      "pass": true
+    },
+    {
+      "name": "-0.2 thigh segment 8",
+      "pass": true
+    },
+    {
+      "name": "-0.2 calf sample -1",
+      "pass": true
+    },
+    {
+      "name": "-0.2 calf sample -0.75",
+      "pass": true
+    },
+    {
+      "name": "-0.2 calf sample -0.5",
+      "pass": true
+    },
+    {
+      "name": "-0.2 calf sample -0.25",
+      "pass": true
+    },
+    {
+      "name": "-0.2 calf sample 0",
+      "pass": true
+    },
+    {
+      "name": "-0.2 calf sample 0.25",
+      "pass": true
+    },
+    {
+      "name": "-0.2 calf sample 0.5",
+      "pass": true
+    },
+    {
+      "name": "-0.2 calf sample 0.75",
+      "pass": true
+    },
+    {
+      "name": "-0.2 calf sample 1",
+      "pass": true
+    },
+    {
+      "name": "-0.2 calf segment 1",
+      "pass": true
+    },
+    {
+      "name": "-0.2 calf segment 2",
+      "pass": true
+    },
+    {
+      "name": "-0.2 calf segment 3",
+      "pass": true
+    },
+    {
+      "name": "-0.2 calf segment 4",
+      "pass": true
+    },
+    {
+      "name": "-0.2 calf segment 5",
+      "pass": true
+    },
+    {
+      "name": "-0.2 calf segment 6",
+      "pass": true
+    },
+    {
+      "name": "-0.2 calf segment 7",
+      "pass": true
+    },
+    {
+      "name": "-0.2 calf segment 8",
+      "pass": true
+    },
+    {
+      "name": "-0.2 hip sample -1",
+      "pass": true
+    },
+    {
+      "name": "-0.2 hip sample -0.75",
+      "pass": true
+    },
+    {
+      "name": "-0.2 hip sample -0.5",
+      "pass": true
+    },
+    {
+      "name": "-0.2 hip sample -0.25",
+      "pass": true
+    },
+    {
+      "name": "-0.2 hip sample 0",
+      "pass": true
+    },
+    {
+      "name": "-0.2 hip sample 0.25",
+      "pass": true
+    },
+    {
+      "name": "-0.2 hip sample 0.5",
+      "pass": true
+    },
+    {
+      "name": "-0.2 hip sample 0.75",
+      "pass": true
+    },
+    {
+      "name": "-0.2 hip sample 1",
+      "pass": true
+    },
+    {
+      "name": "-0.2 hip segment 1",
+      "pass": true
+    },
+    {
+      "name": "-0.2 hip segment 2",
+      "pass": true
+    },
+    {
+      "name": "-0.2 hip segment 3",
+      "pass": true
+    },
+    {
+      "name": "-0.2 hip segment 4",
+      "pass": true
+    },
+    {
+      "name": "-0.2 hip segment 5",
+      "pass": true
+    },
+    {
+      "name": "-0.2 hip segment 6",
+      "pass": true
+    },
+    {
+      "name": "-0.2 hip segment 7",
+      "pass": true
+    },
+    {
+      "name": "-0.2 hip segment 8",
+      "pass": true
+    },
+    {
+      "name": "-0.125 waist sample -1",
+      "pass": true
+    },
+    {
+      "name": "-0.125 waist sample -0.75",
+      "pass": true
+    },
+    {
+      "name": "-0.125 waist sample -0.5",
+      "pass": true
+    },
+    {
+      "name": "-0.125 waist sample -0.25",
+      "pass": true
+    },
+    {
+      "name": "-0.125 waist sample 0",
+      "pass": true
+    },
+    {
+      "name": "-0.125 waist sample 0.25",
+      "pass": true
+    },
+    {
+      "name": "-0.125 waist sample 0.5",
+      "pass": true
+    },
+    {
+      "name": "-0.125 waist sample 0.75",
+      "pass": true
+    },
+    {
+      "name": "-0.125 waist sample 1",
+      "pass": true
+    },
+    {
+      "name": "-0.125 waist segment 1",
+      "pass": true
+    },
+    {
+      "name": "-0.125 waist segment 2",
+      "pass": true
+    },
+    {
+      "name": "-0.125 waist segment 3",
+      "pass": true
+    },
+    {
+      "name": "-0.125 waist segment 4",
+      "pass": true
+    },
+    {
+      "name": "-0.125 waist segment 5",
+      "pass": true
+    },
+    {
+      "name": "-0.125 waist segment 6",
+      "pass": true
+    },
+    {
+      "name": "-0.125 waist segment 7",
+      "pass": true
+    },
+    {
+      "name": "-0.125 waist segment 8",
+      "pass": true
+    },
+    {
+      "name": "-0.125 chest sample -1",
+      "pass": true
+    },
+    {
+      "name": "-0.125 chest sample -0.75",
+      "pass": true
+    },
+    {
+      "name": "-0.125 chest sample -0.5",
+      "pass": true
+    },
+    {
+      "name": "-0.125 chest sample -0.25",
+      "pass": true
+    },
+    {
+      "name": "-0.125 chest sample 0",
+      "pass": true
+    },
+    {
+      "name": "-0.125 chest sample 0.25",
+      "pass": true
+    },
+    {
+      "name": "-0.125 chest sample 0.5",
+      "pass": true
+    },
+    {
+      "name": "-0.125 chest sample 0.75",
+      "pass": true
+    },
+    {
+      "name": "-0.125 chest sample 1",
+      "pass": true
+    },
+    {
+      "name": "-0.125 chest segment 1",
+      "pass": true
+    },
+    {
+      "name": "-0.125 chest segment 2",
+      "pass": true
+    },
+    {
+      "name": "-0.125 chest segment 3",
+      "pass": true
+    },
+    {
+      "name": "-0.125 chest segment 4",
+      "pass": true
+    },
+    {
+      "name": "-0.125 chest segment 5",
+      "pass": true
+    },
+    {
+      "name": "-0.125 chest segment 6",
+      "pass": true
+    },
+    {
+      "name": "-0.125 chest segment 7",
+      "pass": true
+    },
+    {
+      "name": "-0.125 chest segment 8",
+      "pass": true
+    },
+    {
+      "name": "-0.125 shoulder sample -1",
+      "pass": true
+    },
+    {
+      "name": "-0.125 shoulder sample -0.75",
+      "pass": true
+    },
+    {
+      "name": "-0.125 shoulder sample -0.5",
+      "pass": true
+    },
+    {
+      "name": "-0.125 shoulder sample -0.25",
+      "pass": true
+    },
+    {
+      "name": "-0.125 shoulder sample 0",
+      "pass": true
+    },
+    {
+      "name": "-0.125 shoulder sample 0.25",
+      "pass": true
+    },
+    {
+      "name": "-0.125 shoulder sample 0.5",
+      "pass": true
+    },
+    {
+      "name": "-0.125 shoulder sample 0.75",
+      "pass": true
+    },
+    {
+      "name": "-0.125 shoulder sample 1",
+      "pass": true
+    },
+    {
+      "name": "-0.125 shoulder segment 1",
+      "pass": true
+    },
+    {
+      "name": "-0.125 shoulder segment 2",
+      "pass": true
+    },
+    {
+      "name": "-0.125 shoulder segment 3",
+      "pass": true
+    },
+    {
+      "name": "-0.125 shoulder segment 4",
+      "pass": true
+    },
+    {
+      "name": "-0.125 shoulder segment 5",
+      "pass": true
+    },
+    {
+      "name": "-0.125 shoulder segment 6",
+      "pass": true
+    },
+    {
+      "name": "-0.125 shoulder segment 7",
+      "pass": true
+    },
+    {
+      "name": "-0.125 shoulder segment 8",
+      "pass": true
+    },
+    {
+      "name": "-0.125 arm sample -1",
+      "pass": true
+    },
+    {
+      "name": "-0.125 arm sample -0.75",
+      "pass": true
+    },
+    {
+      "name": "-0.125 arm sample -0.5",
+      "pass": true
+    },
+    {
+      "name": "-0.125 arm sample -0.25",
+      "pass": true
+    },
+    {
+      "name": "-0.125 arm sample 0",
+      "pass": true
+    },
+    {
+      "name": "-0.125 arm sample 0.25",
+      "pass": true
+    },
+    {
+      "name": "-0.125 arm sample 0.5",
+      "pass": true
+    },
+    {
+      "name": "-0.125 arm sample 0.75",
+      "pass": true
+    },
+    {
+      "name": "-0.125 arm sample 1",
+      "pass": true
+    },
+    {
+      "name": "-0.125 arm segment 1",
+      "pass": true
+    },
+    {
+      "name": "-0.125 arm segment 2",
+      "pass": true
+    },
+    {
+      "name": "-0.125 arm segment 3",
+      "pass": true
+    },
+    {
+      "name": "-0.125 arm segment 4",
+      "pass": true
+    },
+    {
+      "name": "-0.125 arm segment 5",
+      "pass": true
+    },
+    {
+      "name": "-0.125 arm segment 6",
+      "pass": true
+    },
+    {
+      "name": "-0.125 arm segment 7",
+      "pass": true
+    },
+    {
+      "name": "-0.125 arm segment 8",
+      "pass": true
+    },
+    {
+      "name": "-0.125 thigh sample -1",
+      "pass": true
+    },
+    {
+      "name": "-0.125 thigh sample -0.75",
+      "pass": true
+    },
+    {
+      "name": "-0.125 thigh sample -0.5",
+      "pass": true
+    },
+    {
+      "name": "-0.125 thigh sample -0.25",
+      "pass": true
+    },
+    {
+      "name": "-0.125 thigh sample 0",
+      "pass": true
+    },
+    {
+      "name": "-0.125 thigh sample 0.25",
+      "pass": true
+    },
+    {
+      "name": "-0.125 thigh sample 0.5",
+      "pass": true
+    },
+    {
+      "name": "-0.125 thigh sample 0.75",
+      "pass": true
+    },
+    {
+      "name": "-0.125 thigh sample 1",
+      "pass": true
+    },
+    {
+      "name": "-0.125 thigh segment 1",
+      "pass": true
+    },
+    {
+      "name": "-0.125 thigh segment 2",
+      "pass": true
+    },
+    {
+      "name": "-0.125 thigh segment 3",
+      "pass": true
+    },
+    {
+      "name": "-0.125 thigh segment 4",
+      "pass": true
+    },
+    {
+      "name": "-0.125 thigh segment 5",
+      "pass": true
+    },
+    {
+      "name": "-0.125 thigh segment 6",
+      "pass": true
+    },
+    {
+      "name": "-0.125 thigh segment 7",
+      "pass": true
+    },
+    {
+      "name": "-0.125 thigh segment 8",
+      "pass": true
+    },
+    {
+      "name": "-0.125 calf sample -1",
+      "pass": true
+    },
+    {
+      "name": "-0.125 calf sample -0.75",
+      "pass": true
+    },
+    {
+      "name": "-0.125 calf sample -0.5",
+      "pass": true
+    },
+    {
+      "name": "-0.125 calf sample -0.25",
+      "pass": true
+    },
+    {
+      "name": "-0.125 calf sample 0",
+      "pass": true
+    },
+    {
+      "name": "-0.125 calf sample 0.25",
+      "pass": true
+    },
+    {
+      "name": "-0.125 calf sample 0.5",
+      "pass": true
+    },
+    {
+      "name": "-0.125 calf sample 0.75",
+      "pass": true
+    },
+    {
+      "name": "-0.125 calf sample 1",
+      "pass": true
+    },
+    {
+      "name": "-0.125 calf segment 1",
+      "pass": true
+    },
+    {
+      "name": "-0.125 calf segment 2",
+      "pass": true
+    },
+    {
+      "name": "-0.125 calf segment 3",
+      "pass": true
+    },
+    {
+      "name": "-0.125 calf segment 4",
+      "pass": true
+    },
+    {
+      "name": "-0.125 calf segment 5",
+      "pass": true
+    },
+    {
+      "name": "-0.125 calf segment 6",
+      "pass": true
+    },
+    {
+      "name": "-0.125 calf segment 7",
+      "pass": true
+    },
+    {
+      "name": "-0.125 calf segment 8",
+      "pass": true
+    },
+    {
+      "name": "-0.125 hip sample -1",
+      "pass": true
+    },
+    {
+      "name": "-0.125 hip sample -0.75",
+      "pass": true
+    },
+    {
+      "name": "-0.125 hip sample -0.5",
+      "pass": true
+    },
+    {
+      "name": "-0.125 hip sample -0.25",
+      "pass": true
+    },
+    {
+      "name": "-0.125 hip sample 0",
+      "pass": true
+    },
+    {
+      "name": "-0.125 hip sample 0.25",
+      "pass": true
+    },
+    {
+      "name": "-0.125 hip sample 0.5",
+      "pass": true
+    },
+    {
+      "name": "-0.125 hip sample 0.75",
+      "pass": true
+    },
+    {
+      "name": "-0.125 hip sample 1",
+      "pass": true
+    },
+    {
+      "name": "-0.125 hip segment 1",
+      "pass": true
+    },
+    {
+      "name": "-0.125 hip segment 2",
+      "pass": true
+    },
+    {
+      "name": "-0.125 hip segment 3",
+      "pass": true
+    },
+    {
+      "name": "-0.125 hip segment 4",
+      "pass": true
+    },
+    {
+      "name": "-0.125 hip segment 5",
+      "pass": true
+    },
+    {
+      "name": "-0.125 hip segment 6",
+      "pass": true
+    },
+    {
+      "name": "-0.125 hip segment 7",
+      "pass": true
+    },
+    {
+      "name": "-0.125 hip segment 8",
+      "pass": true
+    },
+    {
+      "name": "0 waist sample -1",
+      "pass": true
+    },
+    {
+      "name": "0 waist sample -0.75",
+      "pass": true
+    },
+    {
+      "name": "0 waist sample -0.5",
+      "pass": true
+    },
+    {
+      "name": "0 waist sample -0.25",
+      "pass": true
+    },
+    {
+      "name": "0 waist sample 0",
+      "pass": true
+    },
+    {
+      "name": "0 waist sample 0.25",
+      "pass": true
+    },
+    {
+      "name": "0 waist sample 0.5",
+      "pass": true
+    },
+    {
+      "name": "0 waist sample 0.75",
+      "pass": true
+    },
+    {
+      "name": "0 waist sample 1",
+      "pass": true
+    },
+    {
+      "name": "0 waist segment 1",
+      "pass": true
+    },
+    {
+      "name": "0 waist segment 2",
+      "pass": true
+    },
+    {
+      "name": "0 waist segment 3",
+      "pass": true
+    },
+    {
+      "name": "0 waist segment 4",
+      "pass": true
+    },
+    {
+      "name": "0 waist segment 5",
+      "pass": true
+    },
+    {
+      "name": "0 waist segment 6",
+      "pass": true
+    },
+    {
+      "name": "0 waist segment 7",
+      "pass": true
+    },
+    {
+      "name": "0 waist segment 8",
+      "pass": true
+    },
+    {
+      "name": "0 chest sample -1",
+      "pass": true
+    },
+    {
+      "name": "0 chest sample -0.75",
+      "pass": true
+    },
+    {
+      "name": "0 chest sample -0.5",
+      "pass": true
+    },
+    {
+      "name": "0 chest sample -0.25",
+      "pass": true
+    },
+    {
+      "name": "0 chest sample 0",
+      "pass": true
+    },
+    {
+      "name": "0 chest sample 0.25",
+      "pass": true
+    },
+    {
+      "name": "0 chest sample 0.5",
+      "pass": true
+    },
+    {
+      "name": "0 chest sample 0.75",
+      "pass": true
+    },
+    {
+      "name": "0 chest sample 1",
+      "pass": true
+    },
+    {
+      "name": "0 chest segment 1",
+      "pass": true
+    },
+    {
+      "name": "0 chest segment 2",
+      "pass": true
+    },
+    {
+      "name": "0 chest segment 3",
+      "pass": true
+    },
+    {
+      "name": "0 chest segment 4",
+      "pass": true
+    },
+    {
+      "name": "0 chest segment 5",
+      "pass": true
+    },
+    {
+      "name": "0 chest segment 6",
+      "pass": true
+    },
+    {
+      "name": "0 chest segment 7",
+      "pass": true
+    },
+    {
+      "name": "0 chest segment 8",
+      "pass": true
+    },
+    {
+      "name": "0 shoulder sample -1",
+      "pass": true
+    },
+    {
+      "name": "0 shoulder sample -0.75",
+      "pass": true
+    },
+    {
+      "name": "0 shoulder sample -0.5",
+      "pass": true
+    },
+    {
+      "name": "0 shoulder sample -0.25",
+      "pass": true
+    },
+    {
+      "name": "0 shoulder sample 0",
+      "pass": true
+    },
+    {
+      "name": "0 shoulder sample 0.25",
+      "pass": true
+    },
+    {
+      "name": "0 shoulder sample 0.5",
+      "pass": true
+    },
+    {
+      "name": "0 shoulder sample 0.75",
+      "pass": true
+    },
+    {
+      "name": "0 shoulder sample 1",
+      "pass": true
+    },
+    {
+      "name": "0 shoulder segment 1",
+      "pass": true
+    },
+    {
+      "name": "0 shoulder segment 2",
+      "pass": true
+    },
+    {
+      "name": "0 shoulder segment 3",
+      "pass": true
+    },
+    {
+      "name": "0 shoulder segment 4",
+      "pass": true
+    },
+    {
+      "name": "0 shoulder segment 5",
+      "pass": true
+    },
+    {
+      "name": "0 shoulder segment 6",
+      "pass": true
+    },
+    {
+      "name": "0 shoulder segment 7",
+      "pass": true
+    },
+    {
+      "name": "0 shoulder segment 8",
+      "pass": true
+    },
+    {
+      "name": "0 arm sample -1",
+      "pass": true
+    },
+    {
+      "name": "0 arm sample -0.75",
+      "pass": true
+    },
+    {
+      "name": "0 arm sample -0.5",
+      "pass": true
+    },
+    {
+      "name": "0 arm sample -0.25",
+      "pass": true
+    },
+    {
+      "name": "0 arm sample 0",
+      "pass": true
+    },
+    {
+      "name": "0 arm sample 0.25",
+      "pass": true
+    },
+    {
+      "name": "0 arm sample 0.5",
+      "pass": true
+    },
+    {
+      "name": "0 arm sample 0.75",
+      "pass": true
+    },
+    {
+      "name": "0 arm sample 1",
+      "pass": true
+    },
+    {
+      "name": "0 arm segment 1",
+      "pass": true
+    },
+    {
+      "name": "0 arm segment 2",
+      "pass": true
+    },
+    {
+      "name": "0 arm segment 3",
+      "pass": true
+    },
+    {
+      "name": "0 arm segment 4",
+      "pass": true
+    },
+    {
+      "name": "0 arm segment 5",
+      "pass": true
+    },
+    {
+      "name": "0 arm segment 6",
+      "pass": true
+    },
+    {
+      "name": "0 arm segment 7",
+      "pass": true
+    },
+    {
+      "name": "0 arm segment 8",
+      "pass": true
+    },
+    {
+      "name": "0 thigh sample -1",
+      "pass": true
+    },
+    {
+      "name": "0 thigh sample -0.75",
+      "pass": true
+    },
+    {
+      "name": "0 thigh sample -0.5",
+      "pass": true
+    },
+    {
+      "name": "0 thigh sample -0.25",
+      "pass": true
+    },
+    {
+      "name": "0 thigh sample 0",
+      "pass": true
+    },
+    {
+      "name": "0 thigh sample 0.25",
+      "pass": true
+    },
+    {
+      "name": "0 thigh sample 0.5",
+      "pass": true
+    },
+    {
+      "name": "0 thigh sample 0.75",
+      "pass": true
+    },
+    {
+      "name": "0 thigh sample 1",
+      "pass": true
+    },
+    {
+      "name": "0 thigh segment 1",
+      "pass": true
+    },
+    {
+      "name": "0 thigh segment 2",
+      "pass": true
+    },
+    {
+      "name": "0 thigh segment 3",
+      "pass": true
+    },
+    {
+      "name": "0 thigh segment 4",
+      "pass": true
+    },
+    {
+      "name": "0 thigh segment 5",
+      "pass": true
+    },
+    {
+      "name": "0 thigh segment 6",
+      "pass": true
+    },
+    {
+      "name": "0 thigh segment 7",
+      "pass": true
+    },
+    {
+      "name": "0 thigh segment 8",
+      "pass": true
+    },
+    {
+      "name": "0 calf sample -1",
+      "pass": true
+    },
+    {
+      "name": "0 calf sample -0.75",
+      "pass": true
+    },
+    {
+      "name": "0 calf sample -0.5",
+      "pass": true
+    },
+    {
+      "name": "0 calf sample -0.25",
+      "pass": true
+    },
+    {
+      "name": "0 calf sample 0",
+      "pass": true
+    },
+    {
+      "name": "0 calf sample 0.25",
+      "pass": true
+    },
+    {
+      "name": "0 calf sample 0.5",
+      "pass": true
+    },
+    {
+      "name": "0 calf sample 0.75",
+      "pass": true
+    },
+    {
+      "name": "0 calf sample 1",
+      "pass": true
+    },
+    {
+      "name": "0 calf segment 1",
+      "pass": true
+    },
+    {
+      "name": "0 calf segment 2",
+      "pass": true
+    },
+    {
+      "name": "0 calf segment 3",
+      "pass": true
+    },
+    {
+      "name": "0 calf segment 4",
+      "pass": true
+    },
+    {
+      "name": "0 calf segment 5",
+      "pass": true
+    },
+    {
+      "name": "0 calf segment 6",
+      "pass": true
+    },
+    {
+      "name": "0 calf segment 7",
+      "pass": true
+    },
+    {
+      "name": "0 calf segment 8",
+      "pass": true
+    },
+    {
+      "name": "0 hip sample -1",
+      "pass": true
+    },
+    {
+      "name": "0 hip sample -0.75",
+      "pass": true
+    },
+    {
+      "name": "0 hip sample -0.5",
+      "pass": true
+    },
+    {
+      "name": "0 hip sample -0.25",
+      "pass": true
+    },
+    {
+      "name": "0 hip sample 0",
+      "pass": true
+    },
+    {
+      "name": "0 hip sample 0.25",
+      "pass": true
+    },
+    {
+      "name": "0 hip sample 0.5",
+      "pass": true
+    },
+    {
+      "name": "0 hip sample 0.75",
+      "pass": true
+    },
+    {
+      "name": "0 hip sample 1",
+      "pass": true
+    },
+    {
+      "name": "0 hip segment 1",
+      "pass": true
+    },
+    {
+      "name": "0 hip segment 2",
+      "pass": true
+    },
+    {
+      "name": "0 hip segment 3",
+      "pass": true
+    },
+    {
+      "name": "0 hip segment 4",
+      "pass": true
+    },
+    {
+      "name": "0 hip segment 5",
+      "pass": true
+    },
+    {
+      "name": "0 hip segment 6",
+      "pass": true
+    },
+    {
+      "name": "0 hip segment 7",
+      "pass": true
+    },
+    {
+      "name": "0 hip segment 8",
+      "pass": true
+    },
+    {
+      "name": "0.1 waist sample -1",
+      "pass": true
+    },
+    {
+      "name": "0.1 waist sample -0.75",
+      "pass": true
+    },
+    {
+      "name": "0.1 waist sample -0.5",
+      "pass": true
+    },
+    {
+      "name": "0.1 waist sample -0.25",
+      "pass": true
+    },
+    {
+      "name": "0.1 waist sample 0",
+      "pass": true
+    },
+    {
+      "name": "0.1 waist sample 0.25",
+      "pass": true
+    },
+    {
+      "name": "0.1 waist sample 0.5",
+      "pass": true
+    },
+    {
+      "name": "0.1 waist sample 0.75",
+      "pass": true
+    },
+    {
+      "name": "0.1 waist sample 1",
+      "pass": true
+    },
+    {
+      "name": "0.1 waist segment 1",
+      "pass": true
+    },
+    {
+      "name": "0.1 waist segment 2",
+      "pass": true
+    },
+    {
+      "name": "0.1 waist segment 3",
+      "pass": true
+    },
+    {
+      "name": "0.1 waist segment 4",
+      "pass": true
+    },
+    {
+      "name": "0.1 waist segment 5",
+      "pass": true
+    },
+    {
+      "name": "0.1 waist segment 6",
+      "pass": true
+    },
+    {
+      "name": "0.1 waist segment 7",
+      "pass": true
+    },
+    {
+      "name": "0.1 waist segment 8",
+      "pass": true
+    },
+    {
+      "name": "0.1 chest sample -1",
+      "pass": true
+    },
+    {
+      "name": "0.1 chest sample -0.75",
+      "pass": true
+    },
+    {
+      "name": "0.1 chest sample -0.5",
+      "pass": true
+    },
+    {
+      "name": "0.1 chest sample -0.25",
+      "pass": true
+    },
+    {
+      "name": "0.1 chest sample 0",
+      "pass": true
+    },
+    {
+      "name": "0.1 chest sample 0.25",
+      "pass": true
+    },
+    {
+      "name": "0.1 chest sample 0.5",
+      "pass": true
+    },
+    {
+      "name": "0.1 chest sample 0.75",
+      "pass": true
+    },
+    {
+      "name": "0.1 chest sample 1",
+      "pass": true
+    },
+    {
+      "name": "0.1 chest segment 1",
+      "pass": true
+    },
+    {
+      "name": "0.1 chest segment 2",
+      "pass": true
+    },
+    {
+      "name": "0.1 chest segment 3",
+      "pass": true
+    },
+    {
+      "name": "0.1 chest segment 4",
+      "pass": true
+    },
+    {
+      "name": "0.1 chest segment 5",
+      "pass": true
+    },
+    {
+      "name": "0.1 chest segment 6",
+      "pass": true
+    },
+    {
+      "name": "0.1 chest segment 7",
+      "pass": true
+    },
+    {
+      "name": "0.1 chest segment 8",
+      "pass": true
+    },
+    {
+      "name": "0.1 shoulder sample -1",
+      "pass": true
+    },
+    {
+      "name": "0.1 shoulder sample -0.75",
+      "pass": true
+    },
+    {
+      "name": "0.1 shoulder sample -0.5",
+      "pass": true
+    },
+    {
+      "name": "0.1 shoulder sample -0.25",
+      "pass": true
+    },
+    {
+      "name": "0.1 shoulder sample 0",
+      "pass": true
+    },
+    {
+      "name": "0.1 shoulder sample 0.25",
+      "pass": true
+    },
+    {
+      "name": "0.1 shoulder sample 0.5",
+      "pass": true
+    },
+    {
+      "name": "0.1 shoulder sample 0.75",
+      "pass": true
+    },
+    {
+      "name": "0.1 shoulder sample 1",
+      "pass": true
+    },
+    {
+      "name": "0.1 shoulder segment 1",
+      "pass": true
+    },
+    {
+      "name": "0.1 shoulder segment 2",
+      "pass": true
+    },
+    {
+      "name": "0.1 shoulder segment 3",
+      "pass": true
+    },
+    {
+      "name": "0.1 shoulder segment 4",
+      "pass": true
+    },
+    {
+      "name": "0.1 shoulder segment 5",
+      "pass": true
+    },
+    {
+      "name": "0.1 shoulder segment 6",
+      "pass": true
+    },
+    {
+      "name": "0.1 shoulder segment 7",
+      "pass": true
+    },
+    {
+      "name": "0.1 shoulder segment 8",
+      "pass": true
+    },
+    {
+      "name": "0.1 arm sample -1",
+      "pass": true
+    },
+    {
+      "name": "0.1 arm sample -0.75",
+      "pass": true
+    },
+    {
+      "name": "0.1 arm sample -0.5",
+      "pass": true
+    },
+    {
+      "name": "0.1 arm sample -0.25",
+      "pass": true
+    },
+    {
+      "name": "0.1 arm sample 0",
+      "pass": true
+    },
+    {
+      "name": "0.1 arm sample 0.25",
+      "pass": true
+    },
+    {
+      "name": "0.1 arm sample 0.5",
+      "pass": true
+    },
+    {
+      "name": "0.1 arm sample 0.75",
+      "pass": true
+    },
+    {
+      "name": "0.1 arm sample 1",
+      "pass": true
+    },
+    {
+      "name": "0.1 arm segment 1",
+      "pass": true
+    },
+    {
+      "name": "0.1 arm segment 2",
+      "pass": true
+    },
+    {
+      "name": "0.1 arm segment 3",
+      "pass": true
+    },
+    {
+      "name": "0.1 arm segment 4",
+      "pass": true
+    },
+    {
+      "name": "0.1 arm segment 5",
+      "pass": true
+    },
+    {
+      "name": "0.1 arm segment 6",
+      "pass": true
+    },
+    {
+      "name": "0.1 arm segment 7",
+      "pass": true
+    },
+    {
+      "name": "0.1 arm segment 8",
+      "pass": true
+    },
+    {
+      "name": "0.1 thigh sample -1",
+      "pass": true
+    },
+    {
+      "name": "0.1 thigh sample -0.75",
+      "pass": true
+    },
+    {
+      "name": "0.1 thigh sample -0.5",
+      "pass": true
+    },
+    {
+      "name": "0.1 thigh sample -0.25",
+      "pass": true
+    },
+    {
+      "name": "0.1 thigh sample 0",
+      "pass": true
+    },
+    {
+      "name": "0.1 thigh sample 0.25",
+      "pass": true
+    },
+    {
+      "name": "0.1 thigh sample 0.5",
+      "pass": true
+    },
+    {
+      "name": "0.1 thigh sample 0.75",
+      "pass": true
+    },
+    {
+      "name": "0.1 thigh sample 1",
+      "pass": true
+    },
+    {
+      "name": "0.1 thigh segment 1",
+      "pass": true
+    },
+    {
+      "name": "0.1 thigh segment 2",
+      "pass": true
+    },
+    {
+      "name": "0.1 thigh segment 3",
+      "pass": true
+    },
+    {
+      "name": "0.1 thigh segment 4",
+      "pass": true
+    },
+    {
+      "name": "0.1 thigh segment 5",
+      "pass": true
+    },
+    {
+      "name": "0.1 thigh segment 6",
+      "pass": true
+    },
+    {
+      "name": "0.1 thigh segment 7",
+      "pass": true
+    },
+    {
+      "name": "0.1 thigh segment 8",
+      "pass": true
+    },
+    {
+      "name": "0.1 calf sample -1",
+      "pass": true
+    },
+    {
+      "name": "0.1 calf sample -0.75",
+      "pass": true
+    },
+    {
+      "name": "0.1 calf sample -0.5",
+      "pass": true
+    },
+    {
+      "name": "0.1 calf sample -0.25",
+      "pass": true
+    },
+    {
+      "name": "0.1 calf sample 0",
+      "pass": true
+    },
+    {
+      "name": "0.1 calf sample 0.25",
+      "pass": true
+    },
+    {
+      "name": "0.1 calf sample 0.5",
+      "pass": true
+    },
+    {
+      "name": "0.1 calf sample 0.75",
+      "pass": true
+    },
+    {
+      "name": "0.1 calf sample 1",
+      "pass": true
+    },
+    {
+      "name": "0.1 calf segment 1",
+      "pass": true
+    },
+    {
+      "name": "0.1 calf segment 2",
+      "pass": true
+    },
+    {
+      "name": "0.1 calf segment 3",
+      "pass": true
+    },
+    {
+      "name": "0.1 calf segment 4",
+      "pass": true
+    },
+    {
+      "name": "0.1 calf segment 5",
+      "pass": true
+    },
+    {
+      "name": "0.1 calf segment 6",
+      "pass": true
+    },
+    {
+      "name": "0.1 calf segment 7",
+      "pass": true
+    },
+    {
+      "name": "0.1 calf segment 8",
+      "pass": true
+    },
+    {
+      "name": "0.1 hip sample -1",
+      "pass": true
+    },
+    {
+      "name": "0.1 hip sample -0.75",
+      "pass": true
+    },
+    {
+      "name": "0.1 hip sample -0.5",
+      "pass": true
+    },
+    {
+      "name": "0.1 hip sample -0.25",
+      "pass": true
+    },
+    {
+      "name": "0.1 hip sample 0",
+      "pass": true
+    },
+    {
+      "name": "0.1 hip sample 0.25",
+      "pass": true
+    },
+    {
+      "name": "0.1 hip sample 0.5",
+      "pass": true
+    },
+    {
+      "name": "0.1 hip sample 0.75",
+      "pass": true
+    },
+    {
+      "name": "0.1 hip sample 1",
+      "pass": true
+    },
+    {
+      "name": "0.1 hip segment 1",
+      "pass": true
+    },
+    {
+      "name": "0.1 hip segment 2",
+      "pass": true
+    },
+    {
+      "name": "0.1 hip segment 3",
+      "pass": true
+    },
+    {
+      "name": "0.1 hip segment 4",
+      "pass": true
+    },
+    {
+      "name": "0.1 hip segment 5",
+      "pass": true
+    },
+    {
+      "name": "0.1 hip segment 6",
+      "pass": true
+    },
+    {
+      "name": "0.1 hip segment 7",
+      "pass": true
+    },
+    {
+      "name": "0.1 hip segment 8",
+      "pass": true
+    },
+    {
+      "name": "0.275 waist sample -1",
+      "pass": true
+    },
+    {
+      "name": "0.275 waist sample -0.75",
+      "pass": true
+    },
+    {
+      "name": "0.275 waist sample -0.5",
+      "pass": true
+    },
+    {
+      "name": "0.275 waist sample -0.25",
+      "pass": true
+    },
+    {
+      "name": "0.275 waist sample 0",
+      "pass": true
+    },
+    {
+      "name": "0.275 waist sample 0.25",
+      "pass": true
+    },
+    {
+      "name": "0.275 waist sample 0.5",
+      "pass": true
+    },
+    {
+      "name": "0.275 waist sample 0.75",
+      "pass": true
+    },
+    {
+      "name": "0.275 waist sample 1",
+      "pass": true
+    },
+    {
+      "name": "0.275 waist segment 1",
+      "pass": true
+    },
+    {
+      "name": "0.275 waist segment 2",
+      "pass": true
+    },
+    {
+      "name": "0.275 waist segment 3",
+      "pass": true
+    },
+    {
+      "name": "0.275 waist segment 4",
+      "pass": true
+    },
+    {
+      "name": "0.275 waist segment 5",
+      "pass": true
+    },
+    {
+      "name": "0.275 waist segment 6",
+      "pass": true
+    },
+    {
+      "name": "0.275 waist segment 7",
+      "pass": true
+    },
+    {
+      "name": "0.275 waist segment 8",
+      "pass": true
+    },
+    {
+      "name": "0.275 chest sample -1",
+      "pass": true
+    },
+    {
+      "name": "0.275 chest sample -0.75",
+      "pass": true
+    },
+    {
+      "name": "0.275 chest sample -0.5",
+      "pass": true
+    },
+    {
+      "name": "0.275 chest sample -0.25",
+      "pass": true
+    },
+    {
+      "name": "0.275 chest sample 0",
+      "pass": true
+    },
+    {
+      "name": "0.275 chest sample 0.25",
+      "pass": true
+    },
+    {
+      "name": "0.275 chest sample 0.5",
+      "pass": true
+    },
+    {
+      "name": "0.275 chest sample 0.75",
+      "pass": true
+    },
+    {
+      "name": "0.275 chest sample 1",
+      "pass": true
+    },
+    {
+      "name": "0.275 chest segment 1",
+      "pass": true
+    },
+    {
+      "name": "0.275 chest segment 2",
+      "pass": true
+    },
+    {
+      "name": "0.275 chest segment 3",
+      "pass": true
+    },
+    {
+      "name": "0.275 chest segment 4",
+      "pass": true
+    },
+    {
+      "name": "0.275 chest segment 5",
+      "pass": true
+    },
+    {
+      "name": "0.275 chest segment 6",
+      "pass": true
+    },
+    {
+      "name": "0.275 chest segment 7",
+      "pass": true
+    },
+    {
+      "name": "0.275 chest segment 8",
+      "pass": true
+    },
+    {
+      "name": "0.275 shoulder sample -1",
+      "pass": true
+    },
+    {
+      "name": "0.275 shoulder sample -0.75",
+      "pass": true
+    },
+    {
+      "name": "0.275 shoulder sample -0.5",
+      "pass": true
+    },
+    {
+      "name": "0.275 shoulder sample -0.25",
+      "pass": true
+    },
+    {
+      "name": "0.275 shoulder sample 0",
+      "pass": true
+    },
+    {
+      "name": "0.275 shoulder sample 0.25",
+      "pass": true
+    },
+    {
+      "name": "0.275 shoulder sample 0.5",
+      "pass": true
+    },
+    {
+      "name": "0.275 shoulder sample 0.75",
+      "pass": true
+    },
+    {
+      "name": "0.275 shoulder sample 1",
+      "pass": true
+    },
+    {
+      "name": "0.275 shoulder segment 1",
+      "pass": true
+    },
+    {
+      "name": "0.275 shoulder segment 2",
+      "pass": true
+    },
+    {
+      "name": "0.275 shoulder segment 3",
+      "pass": true
+    },
+    {
+      "name": "0.275 shoulder segment 4",
+      "pass": true
+    },
+    {
+      "name": "0.275 shoulder segment 5",
+      "pass": true
+    },
+    {
+      "name": "0.275 shoulder segment 6",
+      "pass": true
+    },
+    {
+      "name": "0.275 shoulder segment 7",
+      "pass": true
+    },
+    {
+      "name": "0.275 shoulder segment 8",
+      "pass": true
+    },
+    {
+      "name": "0.275 arm sample -1",
+      "pass": true
+    },
+    {
+      "name": "0.275 arm sample -0.75",
+      "pass": true
+    },
+    {
+      "name": "0.275 arm sample -0.5",
+      "pass": true
+    },
+    {
+      "name": "0.275 arm sample -0.25",
+      "pass": true
+    },
+    {
+      "name": "0.275 arm sample 0",
+      "pass": true
+    },
+    {
+      "name": "0.275 arm sample 0.25",
+      "pass": true
+    },
+    {
+      "name": "0.275 arm sample 0.5",
+      "pass": true
+    },
+    {
+      "name": "0.275 arm sample 0.75",
+      "pass": true
+    },
+    {
+      "name": "0.275 arm sample 1",
+      "pass": true
+    },
+    {
+      "name": "0.275 arm segment 1",
+      "pass": true
+    },
+    {
+      "name": "0.275 arm segment 2",
+      "pass": true
+    },
+    {
+      "name": "0.275 arm segment 3",
+      "pass": true
+    },
+    {
+      "name": "0.275 arm segment 4",
+      "pass": true
+    },
+    {
+      "name": "0.275 arm segment 5",
+      "pass": true
+    },
+    {
+      "name": "0.275 arm segment 6",
+      "pass": true
+    },
+    {
+      "name": "0.275 arm segment 7",
+      "pass": true
+    },
+    {
+      "name": "0.275 arm segment 8",
+      "pass": true
+    },
+    {
+      "name": "0.275 thigh sample -1",
+      "pass": true
+    },
+    {
+      "name": "0.275 thigh sample -0.75",
+      "pass": true
+    },
+    {
+      "name": "0.275 thigh sample -0.5",
+      "pass": true
+    },
+    {
+      "name": "0.275 thigh sample -0.25",
+      "pass": true
+    },
+    {
+      "name": "0.275 thigh sample 0",
+      "pass": true
+    },
+    {
+      "name": "0.275 thigh sample 0.25",
+      "pass": true
+    },
+    {
+      "name": "0.275 thigh sample 0.5",
+      "pass": true
+    },
+    {
+      "name": "0.275 thigh sample 0.75",
+      "pass": true
+    },
+    {
+      "name": "0.275 thigh sample 1",
+      "pass": true
+    },
+    {
+      "name": "0.275 thigh segment 1",
+      "pass": true
+    },
+    {
+      "name": "0.275 thigh segment 2",
+      "pass": true
+    },
+    {
+      "name": "0.275 thigh segment 3",
+      "pass": true
+    },
+    {
+      "name": "0.275 thigh segment 4",
+      "pass": true
+    },
+    {
+      "name": "0.275 thigh segment 5",
+      "pass": true
+    },
+    {
+      "name": "0.275 thigh segment 6",
+      "pass": true
+    },
+    {
+      "name": "0.275 thigh segment 7",
+      "pass": true
+    },
+    {
+      "name": "0.275 thigh segment 8",
+      "pass": true
+    },
+    {
+      "name": "0.275 calf sample -1",
+      "pass": true
+    },
+    {
+      "name": "0.275 calf sample -0.75",
+      "pass": true
+    },
+    {
+      "name": "0.275 calf sample -0.5",
+      "pass": true
+    },
+    {
+      "name": "0.275 calf sample -0.25",
+      "pass": true
+    },
+    {
+      "name": "0.275 calf sample 0",
+      "pass": true
+    },
+    {
+      "name": "0.275 calf sample 0.25",
+      "pass": true
+    },
+    {
+      "name": "0.275 calf sample 0.5",
+      "pass": true
+    },
+    {
+      "name": "0.275 calf sample 0.75",
+      "pass": true
+    },
+    {
+      "name": "0.275 calf sample 1",
+      "pass": true
+    },
+    {
+      "name": "0.275 calf segment 1",
+      "pass": true
+    },
+    {
+      "name": "0.275 calf segment 2",
+      "pass": true
+    },
+    {
+      "name": "0.275 calf segment 3",
+      "pass": true
+    },
+    {
+      "name": "0.275 calf segment 4",
+      "pass": true
+    },
+    {
+      "name": "0.275 calf segment 5",
+      "pass": true
+    },
+    {
+      "name": "0.275 calf segment 6",
+      "pass": true
+    },
+    {
+      "name": "0.275 calf segment 7",
+      "pass": true
+    },
+    {
+      "name": "0.275 calf segment 8",
+      "pass": true
+    },
+    {
+      "name": "0.275 hip sample -1",
+      "pass": true
+    },
+    {
+      "name": "0.275 hip sample -0.75",
+      "pass": true
+    },
+    {
+      "name": "0.275 hip sample -0.5",
+      "pass": true
+    },
+    {
+      "name": "0.275 hip sample -0.25",
+      "pass": true
+    },
+    {
+      "name": "0.275 hip sample 0",
+      "pass": true
+    },
+    {
+      "name": "0.275 hip sample 0.25",
+      "pass": true
+    },
+    {
+      "name": "0.275 hip sample 0.5",
+      "pass": true
+    },
+    {
+      "name": "0.275 hip sample 0.75",
+      "pass": true
+    },
+    {
+      "name": "0.275 hip sample 1",
+      "pass": true
+    },
+    {
+      "name": "0.275 hip segment 1",
+      "pass": true
+    },
+    {
+      "name": "0.275 hip segment 2",
+      "pass": true
+    },
+    {
+      "name": "0.275 hip segment 3",
+      "pass": true
+    },
+    {
+      "name": "0.275 hip segment 4",
+      "pass": true
+    },
+    {
+      "name": "0.275 hip segment 5",
+      "pass": true
+    },
+    {
+      "name": "0.275 hip segment 6",
+      "pass": true
+    },
+    {
+      "name": "0.275 hip segment 7",
+      "pass": true
+    },
+    {
+      "name": "0.275 hip segment 8",
+      "pass": true
+    },
+    {
+      "name": "0.3 waist sample -1",
+      "pass": true
+    },
+    {
+      "name": "0.3 waist sample -0.75",
+      "pass": true
+    },
+    {
+      "name": "0.3 waist sample -0.5",
+      "pass": true
+    },
+    {
+      "name": "0.3 waist sample -0.25",
+      "pass": true
+    },
+    {
+      "name": "0.3 waist sample 0",
+      "pass": true
+    },
+    {
+      "name": "0.3 waist sample 0.25",
+      "pass": true
+    },
+    {
+      "name": "0.3 waist sample 0.5",
+      "pass": true
+    },
+    {
+      "name": "0.3 waist sample 0.75",
+      "pass": true
+    },
+    {
+      "name": "0.3 waist sample 1",
+      "pass": true
+    },
+    {
+      "name": "0.3 waist segment 1",
+      "pass": true
+    },
+    {
+      "name": "0.3 waist segment 2",
+      "pass": true
+    },
+    {
+      "name": "0.3 waist segment 3",
+      "pass": true
+    },
+    {
+      "name": "0.3 waist segment 4",
+      "pass": true
+    },
+    {
+      "name": "0.3 waist segment 5",
+      "pass": true
+    },
+    {
+      "name": "0.3 waist segment 6",
+      "pass": true
+    },
+    {
+      "name": "0.3 waist segment 7",
+      "pass": true
+    },
+    {
+      "name": "0.3 waist segment 8",
+      "pass": true
+    },
+    {
+      "name": "0.3 chest sample -1",
+      "pass": true
+    },
+    {
+      "name": "0.3 chest sample -0.75",
+      "pass": true
+    },
+    {
+      "name": "0.3 chest sample -0.5",
+      "pass": true
+    },
+    {
+      "name": "0.3 chest sample -0.25",
+      "pass": true
+    },
+    {
+      "name": "0.3 chest sample 0",
+      "pass": true
+    },
+    {
+      "name": "0.3 chest sample 0.25",
+      "pass": true
+    },
+    {
+      "name": "0.3 chest sample 0.5",
+      "pass": true
+    },
+    {
+      "name": "0.3 chest sample 0.75",
+      "pass": true
+    },
+    {
+      "name": "0.3 chest sample 1",
+      "pass": true
+    },
+    {
+      "name": "0.3 chest segment 1",
+      "pass": true
+    },
+    {
+      "name": "0.3 chest segment 2",
+      "pass": true
+    },
+    {
+      "name": "0.3 chest segment 3",
+      "pass": true
+    },
+    {
+      "name": "0.3 chest segment 4",
+      "pass": true
+    },
+    {
+      "name": "0.3 chest segment 5",
+      "pass": true
+    },
+    {
+      "name": "0.3 chest segment 6",
+      "pass": true
+    },
+    {
+      "name": "0.3 chest segment 7",
+      "pass": true
+    },
+    {
+      "name": "0.3 chest segment 8",
+      "pass": true
+    },
+    {
+      "name": "0.3 shoulder sample -1",
+      "pass": true
+    },
+    {
+      "name": "0.3 shoulder sample -0.75",
+      "pass": true
+    },
+    {
+      "name": "0.3 shoulder sample -0.5",
+      "pass": true
+    },
+    {
+      "name": "0.3 shoulder sample -0.25",
+      "pass": true
+    },
+    {
+      "name": "0.3 shoulder sample 0",
+      "pass": true
+    },
+    {
+      "name": "0.3 shoulder sample 0.25",
+      "pass": true
+    },
+    {
+      "name": "0.3 shoulder sample 0.5",
+      "pass": true
+    },
+    {
+      "name": "0.3 shoulder sample 0.75",
+      "pass": true
+    },
+    {
+      "name": "0.3 shoulder sample 1",
+      "pass": true
+    },
+    {
+      "name": "0.3 shoulder segment 1",
+      "pass": true
+    },
+    {
+      "name": "0.3 shoulder segment 2",
+      "pass": true
+    },
+    {
+      "name": "0.3 shoulder segment 3",
+      "pass": true
+    },
+    {
+      "name": "0.3 shoulder segment 4",
+      "pass": true
+    },
+    {
+      "name": "0.3 shoulder segment 5",
+      "pass": true
+    },
+    {
+      "name": "0.3 shoulder segment 6",
+      "pass": true
+    },
+    {
+      "name": "0.3 shoulder segment 7",
+      "pass": true
+    },
+    {
+      "name": "0.3 shoulder segment 8",
+      "pass": true
+    },
+    {
+      "name": "0.3 arm sample -1",
+      "pass": true
+    },
+    {
+      "name": "0.3 arm sample -0.75",
+      "pass": true
+    },
+    {
+      "name": "0.3 arm sample -0.5",
+      "pass": true
+    },
+    {
+      "name": "0.3 arm sample -0.25",
+      "pass": true
+    },
+    {
+      "name": "0.3 arm sample 0",
+      "pass": true
+    },
+    {
+      "name": "0.3 arm sample 0.25",
+      "pass": true
+    },
+    {
+      "name": "0.3 arm sample 0.5",
+      "pass": true
+    },
+    {
+      "name": "0.3 arm sample 0.75",
+      "pass": true
+    },
+    {
+      "name": "0.3 arm sample 1",
+      "pass": true
+    },
+    {
+      "name": "0.3 arm segment 1",
+      "pass": true
+    },
+    {
+      "name": "0.3 arm segment 2",
+      "pass": true
+    },
+    {
+      "name": "0.3 arm segment 3",
+      "pass": true
+    },
+    {
+      "name": "0.3 arm segment 4",
+      "pass": true
+    },
+    {
+      "name": "0.3 arm segment 5",
+      "pass": true
+    },
+    {
+      "name": "0.3 arm segment 6",
+      "pass": true
+    },
+    {
+      "name": "0.3 arm segment 7",
+      "pass": true
+    },
+    {
+      "name": "0.3 arm segment 8",
+      "pass": true
+    },
+    {
+      "name": "0.3 thigh sample -1",
+      "pass": true
+    },
+    {
+      "name": "0.3 thigh sample -0.75",
+      "pass": true
+    },
+    {
+      "name": "0.3 thigh sample -0.5",
+      "pass": true
+    },
+    {
+      "name": "0.3 thigh sample -0.25",
+      "pass": true
+    },
+    {
+      "name": "0.3 thigh sample 0",
+      "pass": true
+    },
+    {
+      "name": "0.3 thigh sample 0.25",
+      "pass": true
+    },
+    {
+      "name": "0.3 thigh sample 0.5",
+      "pass": true
+    },
+    {
+      "name": "0.3 thigh sample 0.75",
+      "pass": true
+    },
+    {
+      "name": "0.3 thigh sample 1",
+      "pass": true
+    },
+    {
+      "name": "0.3 thigh segment 1",
+      "pass": true
+    },
+    {
+      "name": "0.3 thigh segment 2",
+      "pass": true
+    },
+    {
+      "name": "0.3 thigh segment 3",
+      "pass": true
+    },
+    {
+      "name": "0.3 thigh segment 4",
+      "pass": true
+    },
+    {
+      "name": "0.3 thigh segment 5",
+      "pass": true
+    },
+    {
+      "name": "0.3 thigh segment 6",
+      "pass": true
+    },
+    {
+      "name": "0.3 thigh segment 7",
+      "pass": true
+    },
+    {
+      "name": "0.3 thigh segment 8",
+      "pass": true
+    },
+    {
+      "name": "0.3 calf sample -1",
+      "pass": true
+    },
+    {
+      "name": "0.3 calf sample -0.75",
+      "pass": true
+    },
+    {
+      "name": "0.3 calf sample -0.5",
+      "pass": true
+    },
+    {
+      "name": "0.3 calf sample -0.25",
+      "pass": true
+    },
+    {
+      "name": "0.3 calf sample 0",
+      "pass": true
+    },
+    {
+      "name": "0.3 calf sample 0.25",
+      "pass": true
+    },
+    {
+      "name": "0.3 calf sample 0.5",
+      "pass": true
+    },
+    {
+      "name": "0.3 calf sample 0.75",
+      "pass": true
+    },
+    {
+      "name": "0.3 calf sample 1",
+      "pass": true
+    },
+    {
+      "name": "0.3 calf segment 1",
+      "pass": true
+    },
+    {
+      "name": "0.3 calf segment 2",
+      "pass": true
+    },
+    {
+      "name": "0.3 calf segment 3",
+      "pass": true
+    },
+    {
+      "name": "0.3 calf segment 4",
+      "pass": true
+    },
+    {
+      "name": "0.3 calf segment 5",
+      "pass": true
+    },
+    {
+      "name": "0.3 calf segment 6",
+      "pass": true
+    },
+    {
+      "name": "0.3 calf segment 7",
+      "pass": true
+    },
+    {
+      "name": "0.3 calf segment 8",
+      "pass": true
+    },
+    {
+      "name": "0.3 hip sample -1",
+      "pass": true
+    },
+    {
+      "name": "0.3 hip sample -0.75",
+      "pass": true
+    },
+    {
+      "name": "0.3 hip sample -0.5",
+      "pass": true
+    },
+    {
+      "name": "0.3 hip sample -0.25",
+      "pass": true
+    },
+    {
+      "name": "0.3 hip sample 0",
+      "pass": true
+    },
+    {
+      "name": "0.3 hip sample 0.25",
+      "pass": true
+    },
+    {
+      "name": "0.3 hip sample 0.5",
+      "pass": true
+    },
+    {
+      "name": "0.3 hip sample 0.75",
+      "pass": true
+    },
+    {
+      "name": "0.3 hip sample 1",
+      "pass": true
+    },
+    {
+      "name": "0.3 hip segment 1",
+      "pass": true
+    },
+    {
+      "name": "0.3 hip segment 2",
+      "pass": true
+    },
+    {
+      "name": "0.3 hip segment 3",
+      "pass": true
+    },
+    {
+      "name": "0.3 hip segment 4",
+      "pass": true
+    },
+    {
+      "name": "0.3 hip segment 5",
+      "pass": true
+    },
+    {
+      "name": "0.3 hip segment 6",
+      "pass": true
+    },
+    {
+      "name": "0.3 hip segment 7",
+      "pass": true
+    },
+    {
+      "name": "0.3 hip segment 8",
+      "pass": true
+    },
+    {
+      "name": "invalid measurement waist null",
+      "pass": true
+    },
+    {
+      "name": "invalid measurement waist undefined",
+      "pass": true
+    },
+    {
+      "name": "invalid measurement waist ",
+      "pass": true
+    },
+    {
+      "name": "invalid measurement waist  ",
+      "pass": true
+    },
+    {
+      "name": "invalid measurement waist NaN",
+      "pass": true
+    },
+    {
+      "name": "invalid measurement waist Infinity",
+      "pass": true
+    },
+    {
+      "name": "invalid measurement waist abc",
+      "pass": true
+    },
+    {
+      "name": "invalid measurement waist true",
+      "pass": true
+    },
+    {
+      "name": "invalid measurement waist [object Object]",
+      "pass": true
+    },
+    {
+      "name": "invalid measurement waist ",
+      "pass": true
+    },
+    {
+      "name": "invalid measurement waist -1",
+      "pass": true
+    },
+    {
+      "name": "invalid measurement waist 0",
+      "pass": true
+    },
+    {
+      "name": "measurement clamp waist -0.3 -1",
+      "pass": true
+    },
+    {
+      "name": "measurement clamp waist -0.3 1",
+      "pass": true
+    },
+    {
+      "name": "measurement clamp waist 0 -1",
+      "pass": true
+    },
+    {
+      "name": "measurement clamp waist 0 1",
+      "pass": true
+    },
+    {
+      "name": "measurement clamp waist 0.3 -1",
+      "pass": true
+    },
+    {
+      "name": "measurement clamp waist 0.3 1",
+      "pass": true
+    },
+    {
+      "name": "original curve unchanged waist -1",
+      "pass": true
+    },
+    {
+      "name": "original curve unchanged waist -0.75",
+      "pass": true
+    },
+    {
+      "name": "original curve unchanged waist -0.5",
+      "pass": true
+    },
+    {
+      "name": "original curve unchanged waist -0.25",
+      "pass": true
+    },
+    {
+      "name": "original curve unchanged waist 0",
+      "pass": true
+    },
+    {
+      "name": "original curve unchanged waist 0.25",
+      "pass": true
+    },
+    {
+      "name": "original curve unchanged waist 0.5",
+      "pass": true
+    },
+    {
+      "name": "original curve unchanged waist 0.75",
+      "pass": true
+    },
+    {
+      "name": "original curve unchanged waist 1",
+      "pass": true
+    },
+    {
+      "name": "invalid measurement chest null",
+      "pass": true
+    },
+    {
+      "name": "invalid measurement chest undefined",
+      "pass": true
+    },
+    {
+      "name": "invalid measurement chest ",
+      "pass": true
+    },
+    {
+      "name": "invalid measurement chest  ",
+      "pass": true
+    },
+    {
+      "name": "invalid measurement chest NaN",
+      "pass": true
+    },
+    {
+      "name": "invalid measurement chest Infinity",
+      "pass": true
+    },
+    {
+      "name": "invalid measurement chest abc",
+      "pass": true
+    },
+    {
+      "name": "invalid measurement chest true",
+      "pass": true
+    },
+    {
+      "name": "invalid measurement chest [object Object]",
+      "pass": true
+    },
+    {
+      "name": "invalid measurement chest ",
+      "pass": true
+    },
+    {
+      "name": "invalid measurement chest -1",
+      "pass": true
+    },
+    {
+      "name": "invalid measurement chest 0",
+      "pass": true
+    },
+    {
+      "name": "measurement clamp chest -0.3 -1",
+      "pass": true
+    },
+    {
+      "name": "measurement clamp chest -0.3 1",
+      "pass": true
+    },
+    {
+      "name": "measurement clamp chest 0 -1",
+      "pass": true
+    },
+    {
+      "name": "measurement clamp chest 0 1",
+      "pass": true
+    },
+    {
+      "name": "measurement clamp chest 0.3 -1",
+      "pass": true
+    },
+    {
+      "name": "measurement clamp chest 0.3 1",
+      "pass": true
+    },
+    {
+      "name": "original curve unchanged chest -1",
+      "pass": true
+    },
+    {
+      "name": "original curve unchanged chest -0.75",
+      "pass": true
+    },
+    {
+      "name": "original curve unchanged chest -0.5",
+      "pass": true
+    },
+    {
+      "name": "original curve unchanged chest -0.25",
+      "pass": true
+    },
+    {
+      "name": "original curve unchanged chest 0",
+      "pass": true
+    },
+    {
+      "name": "original curve unchanged chest 0.25",
+      "pass": true
+    },
+    {
+      "name": "original curve unchanged chest 0.5",
+      "pass": true
+    },
+    {
+      "name": "original curve unchanged chest 0.75",
+      "pass": true
+    },
+    {
+      "name": "original curve unchanged chest 1",
+      "pass": true
+    },
+    {
+      "name": "invalid measurement shoulder null",
+      "pass": true
+    },
+    {
+      "name": "invalid measurement shoulder undefined",
+      "pass": true
+    },
+    {
+      "name": "invalid measurement shoulder ",
+      "pass": true
+    },
+    {
+      "name": "invalid measurement shoulder  ",
+      "pass": true
+    },
+    {
+      "name": "invalid measurement shoulder NaN",
+      "pass": true
+    },
+    {
+      "name": "invalid measurement shoulder Infinity",
+      "pass": true
+    },
+    {
+      "name": "invalid measurement shoulder abc",
+      "pass": true
+    },
+    {
+      "name": "invalid measurement shoulder true",
+      "pass": true
+    },
+    {
+      "name": "invalid measurement shoulder [object Object]",
+      "pass": true
+    },
+    {
+      "name": "invalid measurement shoulder ",
+      "pass": true
+    },
+    {
+      "name": "invalid measurement shoulder -1",
+      "pass": true
+    },
+    {
+      "name": "invalid measurement shoulder 0",
+      "pass": true
+    },
+    {
+      "name": "measurement clamp shoulder -0.3 -1",
+      "pass": true
+    },
+    {
+      "name": "measurement clamp shoulder -0.3 1",
+      "pass": true
+    },
+    {
+      "name": "measurement clamp shoulder 0 -1",
+      "pass": true
+    },
+    {
+      "name": "measurement clamp shoulder 0 1",
+      "pass": true
+    },
+    {
+      "name": "measurement clamp shoulder 0.3 -1",
+      "pass": true
+    },
+    {
+      "name": "measurement clamp shoulder 0.3 1",
+      "pass": true
+    },
+    {
+      "name": "original curve unchanged shoulder -1",
+      "pass": true
+    },
+    {
+      "name": "original curve unchanged shoulder -0.75",
+      "pass": true
+    },
+    {
+      "name": "original curve unchanged shoulder -0.5",
+      "pass": true
+    },
+    {
+      "name": "original curve unchanged shoulder -0.25",
+      "pass": true
+    },
+    {
+      "name": "original curve unchanged shoulder 0",
+      "pass": true
+    },
+    {
+      "name": "original curve unchanged shoulder 0.25",
+      "pass": true
+    },
+    {
+      "name": "original curve unchanged shoulder 0.5",
+      "pass": true
+    },
+    {
+      "name": "original curve unchanged shoulder 0.75",
+      "pass": true
+    },
+    {
+      "name": "original curve unchanged shoulder 1",
+      "pass": true
+    },
+    {
+      "name": "invalid measurement arm null",
+      "pass": true
+    },
+    {
+      "name": "invalid measurement arm undefined",
+      "pass": true
+    },
+    {
+      "name": "invalid measurement arm ",
+      "pass": true
+    },
+    {
+      "name": "invalid measurement arm  ",
+      "pass": true
+    },
+    {
+      "name": "invalid measurement arm NaN",
+      "pass": true
+    },
+    {
+      "name": "invalid measurement arm Infinity",
+      "pass": true
+    },
+    {
+      "name": "invalid measurement arm abc",
+      "pass": true
+    },
+    {
+      "name": "invalid measurement arm true",
+      "pass": true
+    },
+    {
+      "name": "invalid measurement arm [object Object]",
+      "pass": true
+    },
+    {
+      "name": "invalid measurement arm ",
+      "pass": true
+    },
+    {
+      "name": "invalid measurement arm -1",
+      "pass": true
+    },
+    {
+      "name": "invalid measurement arm 0",
+      "pass": true
+    },
+    {
+      "name": "measurement clamp arm -0.3 -1",
+      "pass": true
+    },
+    {
+      "name": "measurement clamp arm -0.3 1",
+      "pass": true
+    },
+    {
+      "name": "measurement clamp arm 0 -1",
+      "pass": true
+    },
+    {
+      "name": "measurement clamp arm 0 1",
+      "pass": true
+    },
+    {
+      "name": "measurement clamp arm 0.3 -1",
+      "pass": true
+    },
+    {
+      "name": "measurement clamp arm 0.3 1",
+      "pass": true
+    },
+    {
+      "name": "original curve unchanged arm -1",
+      "pass": true
+    },
+    {
+      "name": "original curve unchanged arm -0.75",
+      "pass": true
+    },
+    {
+      "name": "original curve unchanged arm -0.5",
+      "pass": true
+    },
+    {
+      "name": "original curve unchanged arm -0.25",
+      "pass": true
+    },
+    {
+      "name": "original curve unchanged arm 0",
+      "pass": true
+    },
+    {
+      "name": "original curve unchanged arm 0.25",
+      "pass": true
+    },
+    {
+      "name": "original curve unchanged arm 0.5",
+      "pass": true
+    },
+    {
+      "name": "original curve unchanged arm 0.75",
+      "pass": true
+    },
+    {
+      "name": "original curve unchanged arm 1",
+      "pass": true
+    },
+    {
+      "name": "invalid measurement thigh null",
+      "pass": true
+    },
+    {
+      "name": "invalid measurement thigh undefined",
+      "pass": true
+    },
+    {
+      "name": "invalid measurement thigh ",
+      "pass": true
+    },
+    {
+      "name": "invalid measurement thigh  ",
+      "pass": true
+    },
+    {
+      "name": "invalid measurement thigh NaN",
+      "pass": true
+    },
+    {
+      "name": "invalid measurement thigh Infinity",
+      "pass": true
+    },
+    {
+      "name": "invalid measurement thigh abc",
+      "pass": true
+    },
+    {
+      "name": "invalid measurement thigh true",
+      "pass": true
+    },
+    {
+      "name": "invalid measurement thigh [object Object]",
+      "pass": true
+    },
+    {
+      "name": "invalid measurement thigh ",
+      "pass": true
+    },
+    {
+      "name": "invalid measurement thigh -1",
+      "pass": true
+    },
+    {
+      "name": "invalid measurement thigh 0",
+      "pass": true
+    },
+    {
+      "name": "measurement clamp thigh -0.3 -1",
+      "pass": true
+    },
+    {
+      "name": "measurement clamp thigh -0.3 1",
+      "pass": true
+    },
+    {
+      "name": "measurement clamp thigh 0 -1",
+      "pass": true
+    },
+    {
+      "name": "measurement clamp thigh 0 1",
+      "pass": true
+    },
+    {
+      "name": "measurement clamp thigh 0.3 -1",
+      "pass": true
+    },
+    {
+      "name": "measurement clamp thigh 0.3 1",
+      "pass": true
+    },
+    {
+      "name": "original curve unchanged thigh -1",
+      "pass": true
+    },
+    {
+      "name": "original curve unchanged thigh -0.75",
+      "pass": true
+    },
+    {
+      "name": "original curve unchanged thigh -0.5",
+      "pass": true
+    },
+    {
+      "name": "original curve unchanged thigh -0.25",
+      "pass": true
+    },
+    {
+      "name": "original curve unchanged thigh 0",
+      "pass": true
+    },
+    {
+      "name": "original curve unchanged thigh 0.25",
+      "pass": true
+    },
+    {
+      "name": "original curve unchanged thigh 0.5",
+      "pass": true
+    },
+    {
+      "name": "original curve unchanged thigh 0.75",
+      "pass": true
+    },
+    {
+      "name": "original curve unchanged thigh 1",
+      "pass": true
+    },
+    {
+      "name": "invalid measurement calf null",
+      "pass": true
+    },
+    {
+      "name": "invalid measurement calf undefined",
+      "pass": true
+    },
+    {
+      "name": "invalid measurement calf ",
+      "pass": true
+    },
+    {
+      "name": "invalid measurement calf  ",
+      "pass": true
+    },
+    {
+      "name": "invalid measurement calf NaN",
+      "pass": true
+    },
+    {
+      "name": "invalid measurement calf Infinity",
+      "pass": true
+    },
+    {
+      "name": "invalid measurement calf abc",
+      "pass": true
+    },
+    {
+      "name": "invalid measurement calf true",
+      "pass": true
+    },
+    {
+      "name": "invalid measurement calf [object Object]",
+      "pass": true
+    },
+    {
+      "name": "invalid measurement calf ",
+      "pass": true
+    },
+    {
+      "name": "invalid measurement calf -1",
+      "pass": true
+    },
+    {
+      "name": "invalid measurement calf 0",
+      "pass": true
+    },
+    {
+      "name": "measurement clamp calf -0.3 -1",
+      "pass": true
+    },
+    {
+      "name": "measurement clamp calf -0.3 1",
+      "pass": true
+    },
+    {
+      "name": "measurement clamp calf 0 -1",
+      "pass": true
+    },
+    {
+      "name": "measurement clamp calf 0 1",
+      "pass": true
+    },
+    {
+      "name": "measurement clamp calf 0.3 -1",
+      "pass": true
+    },
+    {
+      "name": "measurement clamp calf 0.3 1",
+      "pass": true
+    },
+    {
+      "name": "original curve unchanged calf -1",
+      "pass": true
+    },
+    {
+      "name": "original curve unchanged calf -0.75",
+      "pass": true
+    },
+    {
+      "name": "original curve unchanged calf -0.5",
+      "pass": true
+    },
+    {
+      "name": "original curve unchanged calf -0.25",
+      "pass": true
+    },
+    {
+      "name": "original curve unchanged calf 0",
+      "pass": true
+    },
+    {
+      "name": "original curve unchanged calf 0.25",
+      "pass": true
+    },
+    {
+      "name": "original curve unchanged calf 0.5",
+      "pass": true
+    },
+    {
+      "name": "original curve unchanged calf 0.75",
+      "pass": true
+    },
+    {
+      "name": "original curve unchanged calf 1",
+      "pass": true
+    },
+    {
+      "name": "invalid measurement hip null",
+      "pass": true
+    },
+    {
+      "name": "invalid measurement hip undefined",
+      "pass": true
+    },
+    {
+      "name": "invalid measurement hip ",
+      "pass": true
+    },
+    {
+      "name": "invalid measurement hip  ",
+      "pass": true
+    },
+    {
+      "name": "invalid measurement hip NaN",
+      "pass": true
+    },
+    {
+      "name": "invalid measurement hip Infinity",
+      "pass": true
+    },
+    {
+      "name": "invalid measurement hip abc",
+      "pass": true
+    },
+    {
+      "name": "invalid measurement hip true",
+      "pass": true
+    },
+    {
+      "name": "invalid measurement hip [object Object]",
+      "pass": true
+    },
+    {
+      "name": "invalid measurement hip ",
+      "pass": true
+    },
+    {
+      "name": "invalid measurement hip -1",
+      "pass": true
+    },
+    {
+      "name": "invalid measurement hip 0",
+      "pass": true
+    },
+    {
+      "name": "measurement clamp hip -0.3 -1",
+      "pass": true
+    },
+    {
+      "name": "measurement clamp hip -0.3 1",
+      "pass": true
+    },
+    {
+      "name": "measurement clamp hip 0 -1",
+      "pass": true
+    },
+    {
+      "name": "measurement clamp hip 0 1",
+      "pass": true
+    },
+    {
+      "name": "measurement clamp hip 0.3 -1",
+      "pass": true
+    },
+    {
+      "name": "measurement clamp hip 0.3 1",
+      "pass": true
+    },
+    {
+      "name": "original curve unchanged hip -1",
+      "pass": true
+    },
+    {
+      "name": "original curve unchanged hip -0.75",
+      "pass": true
+    },
+    {
+      "name": "original curve unchanged hip -0.5",
+      "pass": true
+    },
+    {
+      "name": "original curve unchanged hip -0.25",
+      "pass": true
+    },
+    {
+      "name": "original curve unchanged hip 0",
+      "pass": true
+    },
+    {
+      "name": "original curve unchanged hip 0.25",
+      "pass": true
+    },
+    {
+      "name": "original curve unchanged hip 0.5",
+      "pass": true
+    },
+    {
+      "name": "original curve unchanged hip 0.75",
+      "pass": true
+    },
+    {
+      "name": "original curve unchanged hip 1",
+      "pass": true
+    },
+    {
+      "name": "19 targets resolved by dictionary, no legacy bindings",
+      "pass": true
+    },
+    {
+      "name": "signed controller -1",
+      "pass": true
+    },
+    {
+      "name": "signed controller -0.3",
+      "pass": true
+    },
+    {
+      "name": "signed controller -0.1",
+      "pass": true
+    },
+    {
+      "name": "signed controller 0",
+      "pass": true
+    },
+    {
+      "name": "signed controller 0.1",
+      "pass": true
+    },
+    {
+      "name": "signed controller 0.3",
+      "pass": true
+    },
+    {
+      "name": "signed controller 1",
+      "pass": true
+    },
+    {
+      "name": "measurement bounds and exclusion waist",
+      "pass": true
+    },
+    {
+      "name": "measurement bounds and exclusion chest",
+      "pass": true
+    },
+    {
+      "name": "measurement bounds and exclusion shoulder",
+      "pass": true
+    },
+    {
+      "name": "measurement bounds and exclusion arm",
+      "pass": true
+    },
+    {
+      "name": "measurement bounds and exclusion thigh",
+      "pass": true
+    },
+    {
+      "name": "measurement bounds and exclusion calf",
+      "pass": true
+    },
+    {
+      "name": "measurement bounds and exclusion hip",
+      "pass": true
+    },
+    {
+      "name": "nonfinite target and unknown target rejected",
+      "pass": true
+    },
+    {
+      "name": "central apply clears previous channels and preserves phenotype",
+      "pass": true
+    },
+    {
+      "name": "reset exact initial phenotype",
+      "pass": true
+    },
+    {
+      "name": "Weight/inseam/gender excluded; Height still feeds BMI",
+      "pass": true
+    }
+  ]
+}

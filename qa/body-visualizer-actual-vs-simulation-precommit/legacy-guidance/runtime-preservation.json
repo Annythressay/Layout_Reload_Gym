@@ -1,0 +1,28 @@
+{
+  "pass": true,
+  "v5Requests": 1,
+  "v4Requests": 0,
+  "v16Requests": 0,
+  "modelSha256": "BCE6B0A5A6804694153FCB13BFA5393EC451A37BF30EBA152F0FD6F33DA872AB",
+  "morphCount": 19,
+  "canvasCount": 1,
+  "consoleErrors": [],
+  "consoleWarnings": [],
+  "glbRequests": [
+    "http://127.0.0.1:4194/3D/male-mpfb-production-morph-v5-candidate.glb"
+  ],
+  "changedTrackedFiles": [
+    "assets/css/body-visualizer.css",
+    "assets/js/body-visualizer/app.js",
+    "assets/js/body-visualizer/measurement-constraints.js",
+    "assets/js/body-visualizer/state.js",
+    "body-visualizer.html",
+    "qa/body-visualizer-regression.cjs",
+    "qa/body-visualizer.test.cjs",
+    "qa/height-production-integration/tests.mjs",
+    "qa/hip-production-integration/tests.mjs",
+    "qa/measurement-constraints-phase1.cjs",
+    "qa/weight-ux/tests.mjs"
+  ],
+  "protectedPathsModified": []
+}

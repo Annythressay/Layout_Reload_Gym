@@ -1,0 +1,89 @@
+{
+  "pass": true,
+  "cases": [
+    {
+      "bmi": "17.0",
+      "status": "Thiếu cân",
+      "markerPercent": 7.996794871794871,
+      "markerInside": true,
+      "disclaimer": "BMI chỉ mang tính tham khảo, không thay thế đánh giá chuyên môn.",
+      "target": 17,
+      "expectedStatus": "Thiếu cân",
+      "expectedPercent": 8
+    },
+    {
+      "bmi": "18.5",
+      "status": "Bình thường",
+      "markerPercent": 13.998397435897436,
+      "markerInside": true,
+      "disclaimer": "BMI chỉ mang tính tham khảo, không thay thế đánh giá chuyên môn.",
+      "target": 18.5,
+      "expectedStatus": "Bình thường",
+      "expectedPercent": 14.000000000000002
+    },
+    {
+      "bmi": "22.0",
+      "status": "Bình thường",
+      "markerPercent": 27.996794871794872,
+      "markerInside": true,
+      "disclaimer": "BMI chỉ mang tính tham khảo, không thay thế đánh giá chuyên môn.",
+      "target": 22,
+      "expectedStatus": "Bình thường",
+      "expectedPercent": 28.000000000000004
+    },
+    {
+      "bmi": "24.9",
+      "status": "Bình thường",
+      "markerPercent": 39.59935897435897,
+      "markerInside": true,
+      "disclaimer": "BMI chỉ mang tính tham khảo, không thay thế đánh giá chuyên môn.",
+      "target": 24.9,
+      "expectedStatus": "Bình thường",
+      "expectedPercent": 39.599999999999994
+    },
+    {
+      "bmi": "25.0",
+      "status": "Thừa cân",
+      "markerPercent": 40,
+      "markerInside": true,
+      "disclaimer": "BMI chỉ mang tính tham khảo, không thay thế đánh giá chuyên môn.",
+      "target": 25,
+      "expectedStatus": "Thừa cân",
+      "expectedPercent": 40
+    },
+    {
+      "bmi": "29.9",
+      "status": "Thừa cân",
+      "markerPercent": 59.59935897435897,
+      "markerInside": true,
+      "disclaimer": "BMI chỉ mang tính tham khảo, không thay thế đánh giá chuyên môn.",
+      "target": 29.9,
+      "expectedStatus": "Thừa cân",
+      "expectedPercent": 59.599999999999994
+    },
+    {
+      "bmi": "30.0",
+      "status": "Béo phì",
+      "markerPercent": 60,
+      "markerInside": true,
+      "disclaimer": "BMI chỉ mang tính tham khảo, không thay thế đánh giá chuyên môn.",
+      "target": 30,
+      "expectedStatus": "Béo phì",
+      "expectedPercent": 60
+    },
+    {
+      "bmi": "35.2",
+      "status": "Béo phì",
+      "markerPercent": 80.79727564102565,
+      "markerInside": true,
+      "disclaimer": "BMI chỉ mang tính tham khảo, không thay thế đánh giá chuyên môn.",
+      "target": 35.2,
+      "expectedStatus": "Béo phì",
+      "expectedPercent": 80.80000000000001
+    }
+  ],
+  "beyond": {
+    "value": "66.1",
+    "left": "98%"
+  }
+}

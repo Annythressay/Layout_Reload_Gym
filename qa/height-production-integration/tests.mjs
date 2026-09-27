@@ -1,3 +1,4 @@
+import {inputPolicyRange} from '../../assets/js/body-visualizer/input-policy.js';
 import fs from 'node:fs';
 import assert from 'node:assert/strict';
 import {heightBaselineSamples} from '../../assets/js/body-visualizer/height-baselines.js';
@@ -18,7 +19,7 @@ for(let i=0;i<dataset.samples.length;i++){
 test('baseline clamps before lookup',()=>{assert.deepEqual(baselinesAtHeight(-999),dataset.samples[0].baselines);assert.deepEqual(baselinesAtHeight(999),dataset.samples.at(-1).baselines);});
 for(const h of [-.3,-.2,-.125,0,.1,.275,.3])for(const [field,p] of Object.entries(profiles)){
  const base=baselinesAtHeight(h)[p.measurement];
- for(const sample of p.samples)test(`${h} ${field} sample ${sample.weight}`,()=>{const requested=base+sample.cm-p.base,r=mapMeasurements({height:heightInfluenceToCm(h),[field]:requested},profiles);close(r.weights[field],sample.weight);close(r.debug[field].equivalentBaseHeightMeasurement,sample.cm);close(r.debug[field].heightAdjustedBaseline,base);close(validateMeasurement(field,String(requested)),requested);});
+ for(const sample of p.samples)test(`${h} ${field} sample ${sample.weight}`,()=>{const requested=base+sample.cm-p.base,r=mapMeasurements({height:heightInfluenceToCm(h),[field]:requested},profiles);close(r.weights[field],sample.weight);close(r.debug[field].equivalentBaseHeightMeasurement,sample.cm);close(r.debug[field].heightAdjustedBaseline,base);assert.equal(validateMeasurement(field,String(requested)),requested>=inputPolicyRange(field).min&&requested<=inputPolicyRange(field).max?requested:null);});
  for(let i=1;i<p.samples.length;i++)test(`${h} ${field} segment ${i}`,()=>{const a=p.samples[i-1],b=p.samples[i],requested=base+(a.cm+b.cm)/2-p.base;close(mapMeasurements({height:heightInfluenceToCm(h),[field]:requested},profiles).weights[field],(a.weight+b.weight)/2);});
 }
 for(const [field,p] of Object.entries(profiles)){
@@ -34,5 +35,5 @@ test('nonfinite target and unknown target rejected',()=>{for(const v of [NaN,Inf
 test('central apply clears previous channels and preserves phenotype',()=>{controller.apply(mapMeasurements({height:155,hip:100},profiles).weights);assert(weight(HEIGHT_TARGET)<0);assert(controller.inspect()[0].phenotypePreserved);controller.apply(mapMeasurements({},profiles).weights);assert.deepEqual(mesh.morphTargetInfluences,initial);});
 test('reset exact initial phenotype',()=>{for(const n of productionMorphs)controller.setMorph(n,1);controller.resetProductionMorphs();assert.deepEqual(mesh.morphTargetInfluences,initial);});
 test('Weight/inseam/gender excluded; Height still feeds BMI',()=>{const a={height:180,waist:80},b={...a,weight:150,inseam:90,gender:'female'};assert.deepEqual(mapMeasurements(a,profiles),mapMeasurements(b,profiles));assert.equal(calculateBMI(180,80),'24.7');assert.equal(calculateBMI(null,80),null);});
-fs.writeFileSync(new URL('unit-results.json',import.meta.url),JSON.stringify({pass:true,count:results.length,results},null,2));console.log(JSON.stringify({pass:true,count:results.length}));
+fs.writeFileSync(new URL('../body-visualizer-actual-vs-simulation-precommit/height-production-integration-unit.json',import.meta.url),JSON.stringify({pass:true,count:results.length,results},null,2));console.log(JSON.stringify({pass:true,count:results.length}));
 

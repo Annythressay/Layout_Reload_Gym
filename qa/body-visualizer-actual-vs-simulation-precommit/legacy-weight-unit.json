@@ -1,0 +1,104 @@
+{
+  "pass": true,
+  "count": 20,
+  "checks": [
+    {
+      "input": "null",
+      "expected": null,
+      "pass": true
+    },
+    {
+      "input": "undefined",
+      "expected": null,
+      "pass": true
+    },
+    {
+      "input": "",
+      "expected": null,
+      "pass": true
+    },
+    {
+      "input": " ",
+      "expected": null,
+      "pass": true
+    },
+    {
+      "input": "abc",
+      "expected": null,
+      "pass": true
+    },
+    {
+      "input": "NaN",
+      "expected": null,
+      "pass": true
+    },
+    {
+      "input": "Infinity",
+      "expected": null,
+      "pass": true
+    },
+    {
+      "input": "-Infinity",
+      "expected": null,
+      "pass": true
+    },
+    {
+      "input": "0",
+      "expected": null,
+      "pass": true
+    },
+    {
+      "input": "-1",
+      "expected": null,
+      "pass": true
+    },
+    {
+      "input": "34.9",
+      "expected": null,
+      "pass": true
+    },
+    {
+      "input": "200.1",
+      "expected": null,
+      "pass": true
+    },
+    {
+      "input": 35,
+      "expected": 35,
+      "pass": true
+    },
+    {
+      "input": 60,
+      "expected": 60,
+      "pass": true
+    },
+    {
+      "input": 65,
+      "expected": 65,
+      "pass": true
+    },
+    {
+      "input": 80,
+      "expected": 80,
+      "pass": true
+    },
+    {
+      "input": 180,
+      "expected": 180,
+      "pass": true
+    },
+    {
+      "input": 200,
+      "expected": 200,
+      "pass": true
+    },
+    {
+      "name": "BMI actual 200 cm",
+      "pass": true
+    },
+    {
+      "name": "BMI missing Height",
+      "pass": true
+    }
+  ]
+}

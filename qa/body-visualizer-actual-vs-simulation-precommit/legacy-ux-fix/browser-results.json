@@ -1,0 +1,33 @@
+{
+  "screenshots": [
+    "screenshots/desktop-normal-fixed.png",
+    "screenshots/desktop-rounded-max-accepted.png",
+    "screenshots/desktop-use-limit-fixed.png",
+    "screenshots/desktop-height-transaction-fixed.png",
+    "screenshots/desktop-pending-height-bmi-fixed.png",
+    "screenshots/desktop-height-transaction-applied-fixed.png",
+    "screenshots/desktop-empty-slider-fixed.png",
+    "screenshots/mobile-rounded-max-accepted.png",
+    "screenshots/mobile-height-transaction-fixed.png",
+    "screenshots/mobile-empty-slider-fixed.png"
+  ],
+  "checks": {
+    "model": "PASS",
+    "roundedMax": "PASS",
+    "useLimit": "PASS",
+    "pendingBMI": "PASS",
+    "transaction": "PASS",
+    "applied": "PASS",
+    "unsetSlider": "PASS",
+    "mobile": "PASS"
+  },
+  "requests": [
+    "http://127.0.0.1:4175/3D/male-mpfb-production-morph-v5-candidate.glb"
+  ],
+  "errors": [],
+  "gltfErrors": [],
+  "sliderVisual": {
+    "background": "none",
+    "thumb": "rgba(0, 0, 0, 0)"
+  }
+}

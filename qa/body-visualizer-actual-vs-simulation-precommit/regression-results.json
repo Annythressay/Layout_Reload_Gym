@@ -1,0 +1,693 @@
+{
+  "checks": [
+    {
+      "name": "single V5 / canvas /19 targets",
+      "pass": true
+    },
+    {
+      "name": "all ten exact product endpoints and ±0.1 invalid drafts",
+      "pass": true
+    },
+    {
+      "name": "upper/lower representation and exact endpoints all 7 fields",
+      "pass": true
+    },
+    {
+      "name": "calibration aliases all 7 pairs, precise actual retained, null optional",
+      "pass": true
+    },
+    {
+      "name": "Height support transitions / confirm / cancel / navigation / Goal independence",
+      "pass": true
+    },
+    {
+      "name": "Current / Goal / Compare supported and saturated cases",
+      "pass": true
+    },
+    {
+      "name": "actual BMI, Weight/Inseam nongeometry, malformed draft",
+      "pass": true
+    },
+    {
+      "name": "keyboard increment, focus, description references",
+      "pass": true
+    },
+    {
+      "name": "responsive / helper wrapping / CTA 7 widths",
+      "pass": true
+    },
+    {
+      "name": "reset state and viewer identity/camera preserved",
+      "pass": true
+    },
+    {
+      "name": "console / warning gate",
+      "pass": true
+    }
+  ],
+  "failures": [],
+  "errors": [],
+  "warnings": [],
+  "thirdParty": [],
+  "requests": [
+    "http://127.0.0.1:4175/body-visualizer.html",
+    "https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@7.3.1/css/all.min.css",
+    "http://127.0.0.1:4175/assets/css/style.css",
+    "http://127.0.0.1:4175/assets/css/body-visualizer.css",
+    "http://127.0.0.1:4175/assets/js/body-visualizer/app.js",
+    "http://127.0.0.1:4175/assets/js/main.js",
+    "http://127.0.0.1:4175/assets/images/logo/reload-logo.png",
+    "http://127.0.0.1:4175/assets/images/popup/reload-signature-promo.png",
+    "https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@600;700;800&family=Inter:wght@400;500;600;700;800;900&display=swap",
+    "http://127.0.0.1:4175/assets/js/body-visualizer/input-policy.js",
+    "http://127.0.0.1:4175/assets/js/body-visualizer/simulation-values.js",
+    "http://127.0.0.1:4175/assets/js/body-visualizer/state.js",
+    "http://127.0.0.1:4175/assets/js/body-visualizer/normalization.js",
+    "http://127.0.0.1:4175/assets/js/body-visualizer/measurement-constraints.js",
+    "http://127.0.0.1:4175/assets/js/body-visualizer/height-calibration.js",
+    "http://127.0.0.1:4175/assets/js/body-visualizer/height-baselines.js",
+    "https://fonts.gstatic.com/s/inter/v20/UcC73FwrK3iLTeHuS_nVMrMxCp50SjIa25L7SUc.woff2",
+    "https://fonts.gstatic.com/s/inter/v20/UcC73FwrK3iLTeHuS_nVMrMxCp50SjIa1ZL7.woff2",
+    "https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@7.3.1/webfonts/fa-solid-900.woff2",
+    "https://fonts.gstatic.com/s/barlowcondensed/v13/HTxwL3I-JCGChYJ8VI-L6OO_au7B46r2z3bWuQ.woff2",
+    "https://fonts.gstatic.com/s/barlowcondensed/v13/HTxwL3I-JCGChYJ8VI-L6OO_au7B47b1z3bWuQ.woff2",
+    "https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@7.3.1/webfonts/fa-brands-400.woff2",
+    "https://fonts.gstatic.com/s/inter/v20/UcC73FwrK3iLTeHuS_nVMrMxCp50SjIa2pL7SUc.woff2",
+    "https://fonts.gstatic.com/s/barlowcondensed/v13/HTxwL3I-JCGChYJ8VI-L6OO_au7B46r2z3jWuZEC.woff2",
+    "https://fonts.gstatic.com/s/barlowcondensed/v13/HTxwL3I-JCGChYJ8VI-L6OO_au7B46r2z3nWuZEC.woff2",
+    "https://fonts.gstatic.com/s/barlowcondensed/v13/HTxwL3I-JCGChYJ8VI-L6OO_au7B47b1z3jWuZEC.woff2",
+    "https://fonts.gstatic.com/s/barlowcondensed/v13/HTxwL3I-JCGChYJ8VI-L6OO_au7B47b1z3nWuZEC.woff2",
+    "http://127.0.0.1:4175/qa/body-measurement-calibration/measurements.json",
+    "http://127.0.0.1:4175/qa/hip-measurement-calibration/measurements.json",
+    "http://127.0.0.1:4175/assets/js/body-visualizer/scene.js",
+    "http://127.0.0.1:4175/assets/vendor/three/three.module.min.js",
+    "http://127.0.0.1:4175/assets/vendor/three/OrbitControls.js",
+    "http://127.0.0.1:4175/assets/js/body-visualizer/glb-model.js",
+    "http://127.0.0.1:4175/assets/js/body-visualizer/morph-controller.js",
+    "http://127.0.0.1:4175/assets/vendor/three/GLTFLoader.js",
+    "http://127.0.0.1:4175/assets/vendor/three/three.core.min.js",
+    "http://127.0.0.1:4175/assets/vendor/three/BufferGeometryUtils.js",
+    "http://127.0.0.1:4175/3D/male-mpfb-production-morph-v5-candidate.glb",
+    "http://127.0.0.1:4175/assets/images/logo/reload-logo.png"
+  ],
+  "endpoints": [
+    {
+      "key": "height",
+      "value": 145,
+      "valid": true
+    },
+    {
+      "key": "height",
+      "value": 205,
+      "valid": true
+    },
+    {
+      "key": "height",
+      "value": 144.9,
+      "valid": false
+    },
+    {
+      "key": "height",
+      "value": 205.1,
+      "valid": false
+    },
+    {
+      "key": "weight",
+      "value": 35,
+      "valid": true
+    },
+    {
+      "key": "weight",
+      "value": 200,
+      "valid": true
+    },
+    {
+      "key": "weight",
+      "value": 34.9,
+      "valid": false
+    },
+    {
+      "key": "weight",
+      "value": 200.1,
+      "valid": false
+    },
+    {
+      "key": "chest",
+      "value": 70,
+      "valid": true
+    },
+    {
+      "key": "chest",
+      "value": 140,
+      "valid": true
+    },
+    {
+      "key": "chest",
+      "value": 69.9,
+      "valid": false
+    },
+    {
+      "key": "chest",
+      "value": 140.1,
+      "valid": false
+    },
+    {
+      "key": "waist",
+      "value": 55,
+      "valid": true
+    },
+    {
+      "key": "waist",
+      "value": 150,
+      "valid": true
+    },
+    {
+      "key": "waist",
+      "value": 54.9,
+      "valid": false
+    },
+    {
+      "key": "waist",
+      "value": 150.1,
+      "valid": false
+    },
+    {
+      "key": "hip",
+      "value": 75,
+      "valid": true
+    },
+    {
+      "key": "hip",
+      "value": 145,
+      "valid": true
+    },
+    {
+      "key": "hip",
+      "value": 74.9,
+      "valid": false
+    },
+    {
+      "key": "hip",
+      "value": 145.1,
+      "valid": false
+    },
+    {
+      "key": "shoulder",
+      "value": 32,
+      "valid": true
+    },
+    {
+      "key": "shoulder",
+      "value": 48,
+      "valid": true
+    },
+    {
+      "key": "shoulder",
+      "value": 31.9,
+      "valid": false
+    },
+    {
+      "key": "shoulder",
+      "value": 48.1,
+      "valid": false
+    },
+    {
+      "key": "arm",
+      "value": 18,
+      "valid": true
+    },
+    {
+      "key": "arm",
+      "value": 50,
+      "valid": true
+    },
+    {
+      "key": "arm",
+      "value": 17.9,
+      "valid": false
+    },
+    {
+      "key": "arm",
+      "value": 50.1,
+      "valid": false
+    },
+    {
+      "key": "thigh",
+      "value": 40,
+      "valid": true
+    },
+    {
+      "key": "thigh",
+      "value": 75,
+      "valid": true
+    },
+    {
+      "key": "thigh",
+      "value": 39.9,
+      "valid": false
+    },
+    {
+      "key": "thigh",
+      "value": 75.1,
+      "valid": false
+    },
+    {
+      "key": "calf",
+      "value": 25,
+      "valid": true
+    },
+    {
+      "key": "calf",
+      "value": 50,
+      "valid": true
+    },
+    {
+      "key": "calf",
+      "value": 24.9,
+      "valid": false
+    },
+    {
+      "key": "calf",
+      "value": 50.1,
+      "valid": false
+    },
+    {
+      "key": "inseam",
+      "value": 50,
+      "valid": true
+    },
+    {
+      "key": "inseam",
+      "value": 110,
+      "valid": true
+    },
+    {
+      "key": "inseam",
+      "value": 49.9,
+      "valid": false
+    },
+    {
+      "key": "inseam",
+      "value": 110.1,
+      "valid": false
+    }
+  ],
+  "aliases": [
+    {
+      "key": "chest",
+      "value": 75.9,
+      "mappingValue": 75.90384941713067,
+      "status": "SUPPORTED"
+    },
+    {
+      "key": "chest",
+      "value": 108.2,
+      "mappingValue": 108.17902223749624,
+      "status": "SUPPORTED"
+    },
+    {
+      "key": "waist",
+      "value": 62.9,
+      "mappingValue": 62.92469865279105,
+      "status": "SUPPORTED"
+    },
+    {
+      "key": "waist",
+      "value": 83.2,
+      "mappingValue": 83.15910863687272,
+      "status": "SUPPORTED"
+    },
+    {
+      "key": "hip",
+      "value": 84.4,
+      "mappingValue": 84.3552331441919,
+      "status": "SUPPORTED"
+    },
+    {
+      "key": "hip",
+      "value": 113.2,
+      "mappingValue": 113.20834789037568,
+      "status": "SUPPORTED"
+    },
+    {
+      "key": "shoulder",
+      "value": 33.8,
+      "mappingValue": 33.78755533053882,
+      "status": "SUPPORTED"
+    },
+    {
+      "key": "shoulder",
+      "value": 41.5,
+      "mappingValue": 41.46755718543537,
+      "status": "SUPPORTED"
+    },
+    {
+      "key": "arm",
+      "value": 18.5,
+      "mappingValue": 18.475460806644637,
+      "status": "SUPPORTED"
+    },
+    {
+      "key": "arm",
+      "value": 38,
+      "mappingValue": 37.97387142119731,
+      "status": "SUPPORTED"
+    },
+    {
+      "key": "thigh",
+      "value": 46.9,
+      "mappingValue": 46.9250325899858,
+      "status": "SUPPORTED"
+    },
+    {
+      "key": "thigh",
+      "value": 61.5,
+      "mappingValue": 61.49953870737355,
+      "status": "SUPPORTED"
+    },
+    {
+      "key": "calf",
+      "value": 27.1,
+      "mappingValue": 27.06926423257626,
+      "status": "SUPPORTED"
+    },
+    {
+      "key": "calf",
+      "value": 47,
+      "mappingValue": 46.9692528258156,
+      "status": "SUPPORTED"
+    }
+  ],
+  "transitions": [
+    {
+      "value": 65,
+      "from": 190,
+      "to": 160,
+      "beforeStatus": "SUPPORTED",
+      "afterStatus": "ABOVE_SIMULATION_RANGE",
+      "goalUnchanged": true
+    },
+    {
+      "value": 65,
+      "from": 160,
+      "to": 190,
+      "beforeStatus": "ABOVE_SIMULATION_RANGE",
+      "afterStatus": "SUPPORTED",
+      "goalUnchanged": true
+    },
+    {
+      "value": 48,
+      "from": 160,
+      "to": 190,
+      "beforeStatus": "SUPPORTED",
+      "afterStatus": "BELOW_SIMULATION_RANGE",
+      "goalUnchanged": true
+    },
+    {
+      "value": 48,
+      "from": 190,
+      "to": 160,
+      "beforeStatus": "BELOW_SIMULATION_RANGE",
+      "afterStatus": "SUPPORTED",
+      "goalUnchanged": true
+    }
+  ],
+  "compare": [
+    {
+      "current": 72,
+      "goal": 75,
+      "difference": 3,
+      "text": "Cân nặng60 →sang mục tiêu 60 kg (0.0)Vòng ngực88.0 →sang mục tiêu 88.0 cm (0.0)Vòng eo72.0 →sang mục tiêu 72.0 cm (0.0)Vòng hông92.0 →sang mục tiêu 92.0 cm (0.0)Vòng đùi72.0 →sang mục tiêu 75.0 cm (+3.0)Vòng bắp chân— →sang mục tiêu — cm (—)Một phần chênh lệch vượt phạm vi mà mô hình 3D hiện có thể thể hiện."
+    },
+    {
+      "current": 52,
+      "goal": 75,
+      "difference": 23,
+      "text": "Cân nặng60 →sang mục tiêu 60 kg (0.0)Vòng ngực88.0 →sang mục tiêu 88.0 cm (0.0)Vòng eo72.0 →sang mục tiêu 72.0 cm (0.0)Vòng hông92.0 →sang mục tiêu 92.0 cm (0.0)Vòng đùi52.0 →sang mục tiêu 75.0 cm (+23.0)Vòng bắp chân— →sang mục tiêu — cm (—)Một phần chênh lệch vượt phạm vi mà mô hình 3D hiện có thể thể hiện."
+    },
+    {
+      "current": 72,
+      "goal": 52,
+      "difference": -20,
+      "text": "Cân nặng60 →sang mục tiêu 60 kg (0.0)Vòng ngực88.0 →sang mục tiêu 88.0 cm (0.0)Vòng eo72.0 →sang mục tiêu 72.0 cm (0.0)Vòng hông92.0 →sang mục tiêu 92.0 cm (0.0)Vòng đùi72.0 →sang mục tiêu 52.0 cm (-20.0)Vòng bắp chân— →sang mục tiêu — cm (—)Một phần chênh lệch vượt phạm vi mà mô hình 3D hiện có thể thể hiện."
+    },
+    {
+      "current": 72,
+      "goal": 72,
+      "difference": 0,
+      "text": "Cân nặng60 →sang mục tiêu 60 kg (0.0)Vòng ngực88.0 →sang mục tiêu 88.0 cm (0.0)Vòng eo72.0 →sang mục tiêu 72.0 cm (0.0)Vòng hông92.0 →sang mục tiêu 92.0 cm (0.0)Vòng đùi72.0 →sang mục tiêu 72.0 cm (0.0)Vòng bắp chân— →sang mục tiêu — cm (—)Một phần chênh lệch vượt phạm vi mà mô hình 3D hiện có thể thể hiện."
+    }
+  ],
+  "layouts": [
+    {
+      "width": 1440,
+      "scrollWidth": 1440,
+      "helper": {
+        "left": 967.390625,
+        "right": 1357.390625,
+        "scroll": 388,
+        "client": 388,
+        "height": 73.5625
+      },
+      "collision": false,
+      "pass": true
+    },
+    {
+      "width": 1280,
+      "scrollWidth": 1280,
+      "helper": {
+        "left": 831.796875,
+        "right": 1205.796875,
+        "scroll": 372,
+        "client": 372,
+        "height": 73.5625
+      },
+      "collision": false,
+      "pass": true
+    },
+    {
+      "width": 1024,
+      "scrollWidth": 1024,
+      "helper": {
+        "left": 67.953125,
+        "right": 956.03125,
+        "scroll": 886,
+        "client": 886,
+        "height": 35.1875
+      },
+      "collision": false,
+      "pass": true
+    },
+    {
+      "width": 768,
+      "scrollWidth": 768,
+      "helper": {
+        "left": 53.71875,
+        "right": 714.265625,
+        "scroll": 659,
+        "client": 659,
+        "height": 54.375
+      },
+      "collision": false,
+      "pass": true
+    },
+    {
+      "width": 430,
+      "scrollWidth": 430,
+      "helper": {
+        "left": 35,
+        "right": 395,
+        "scroll": 358,
+        "client": 358,
+        "height": 73.5625
+      },
+      "collision": false,
+      "pass": true
+    },
+    {
+      "width": 390,
+      "scrollWidth": 390,
+      "helper": {
+        "left": 33,
+        "right": 357,
+        "scroll": 322,
+        "client": 322,
+        "height": 73.5625
+      },
+      "collision": false,
+      "pass": true
+    },
+    {
+      "width": 375,
+      "scrollWidth": 375,
+      "helper": {
+        "left": 33,
+        "right": 342,
+        "scroll": 307,
+        "client": 307,
+        "height": 73.5625
+      },
+      "collision": false,
+      "pass": true
+    }
+  ],
+  "network": {
+    "V5": 1,
+    "V4": 0,
+    "V16": 0,
+    "ITER03": 0,
+    "corrective": 0,
+    "canvas": 1,
+    "morphCount": 19
+  },
+  "pass": true,
+  "legacyParity": {
+    "pass": true,
+    "legacySource": "git HEAD:measurement-constraints.js evaluated independently",
+    "cases": 604,
+    "maxMappingValueDifference": 0,
+    "maxInfluenceDifference": 0,
+    "excluded": [
+      {
+        "key": "shoulder",
+        "height": 151.2,
+        "raw": 31.7405215970075,
+        "reason": "Intentional product band differs from old model band; mapping remains tested in raw calibration suites."
+      },
+      {
+        "key": "shoulder",
+        "height": 151.2,
+        "raw": 31.7,
+        "reason": "Intentional product band differs from old model band; mapping remains tested in raw calibration suites."
+      },
+      {
+        "key": "shoulder",
+        "height": 151.2,
+        "raw": 31.7405215970075,
+        "reason": "Intentional product band differs from old model band; mapping remains tested in raw calibration suites."
+      },
+      {
+        "key": "arm",
+        "height": 151.2,
+        "raw": 16.954366399664345,
+        "reason": "Intentional product band differs from old model band; mapping remains tested in raw calibration suites."
+      },
+      {
+        "key": "arm",
+        "height": 151.2,
+        "raw": 17,
+        "reason": "Intentional product band differs from old model band; mapping remains tested in raw calibration suites."
+      },
+      {
+        "key": "arm",
+        "height": 151.2,
+        "raw": 16.954366399664345,
+        "reason": "Intentional product band differs from old model band; mapping remains tested in raw calibration suites."
+      },
+      {
+        "key": "arm",
+        "height": 160,
+        "raw": 17.923336547555035,
+        "reason": "Intentional product band differs from old model band; mapping remains tested in raw calibration suites."
+      },
+      {
+        "key": "arm",
+        "height": 160,
+        "raw": 17.9,
+        "reason": "Intentional product band differs from old model band; mapping remains tested in raw calibration suites."
+      },
+      {
+        "key": "calf",
+        "height": 190,
+        "raw": 50.276576049473476,
+        "reason": "Intentional product band differs from old model band; mapping remains tested in raw calibration suites."
+      },
+      {
+        "key": "calf",
+        "height": 190,
+        "raw": 50.3,
+        "reason": "Intentional product band differs from old model band; mapping remains tested in raw calibration suites."
+      },
+      {
+        "key": "calf",
+        "height": 190,
+        "raw": 50.276576049473476,
+        "reason": "Intentional product band differs from old model band; mapping remains tested in raw calibration suites."
+      },
+      {
+        "key": "calf",
+        "height": 194.6,
+        "raw": 50.89199792984683,
+        "reason": "Intentional product band differs from old model band; mapping remains tested in raw calibration suites."
+      },
+      {
+        "key": "calf",
+        "height": 194.6,
+        "raw": 50.9,
+        "reason": "Intentional product band differs from old model band; mapping remains tested in raw calibration suites."
+      },
+      {
+        "key": "calf",
+        "height": 194.6,
+        "raw": 50.89199792984682,
+        "reason": "Intentional product band differs from old model band; mapping remains tested in raw calibration suites."
+      }
+    ]
+  },
+  "unitSuites": [
+    {
+      "file": "legacy-weight-unit.json",
+      "pass": true,
+      "count": 20
+    },
+    {
+      "file": "body-calibrated-mapping-unit.json",
+      "pass": true,
+      "count": 223
+    },
+    {
+      "file": "hip-production-integration-unit.json",
+      "pass": true,
+      "count": 223
+    },
+    {
+      "file": "height-production-integration-unit.json",
+      "pass": true,
+      "count": 1094
+    }
+  ],
+  "broadLegacy": {
+    "pass": true,
+    "results": [
+      "Measurement changes rendered pixels",
+      "Validation, sliders, body type, advanced inputs, independent states, split, drag, zoom, keyboard",
+      "Goals, recommendations, existing contact links, reset cancel/confirm",
+      "No idle animation loop",
+      "Refresh privacy, context-loss recovery",
+      "WebGL unavailable and dependency failure preserve flow",
+      "Mobile touch rotation and pinch gestures",
+      "Homepage entry, no homepage Three.js request, route navigation"
+    ]
+  },
+  "guidance": true,
+  "uxFix": {
+    "model": "PASS",
+    "roundedMax": "PASS",
+    "useLimit": "PASS",
+    "pendingBMI": "PASS",
+    "transaction": "PASS",
+    "applied": "PASS",
+    "unsetSlider": "PASS",
+    "mobile": "PASS"
+  },
+  "viewerContext": {
+    "pass": true,
+    "checks": [
+      "Resize preserves camera, state and renderer/model identity",
+      "Context loss/retry creates one renderer and restores derived endpoint with actual72 intact",
+      "Reload restores sample state/session privacy"
+    ],
+    "errors": [],
+    "warnings": []
+  }
+}

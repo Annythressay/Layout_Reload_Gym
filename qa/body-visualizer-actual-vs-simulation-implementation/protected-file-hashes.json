@@ -1,0 +1,106 @@
+{
+  "pass": true,
+  "changed": [],
+  "files": [
+    {
+      "path": "C:\\Users\\cnhan\\Downloads\\Reload Gym\\Website Reload Gym\\reload-gym\\assets\\js\\body-visualizer\\debug.js",
+      "before": "4A951282E2EA2241571DE693329F1F81C545A818B52484A675D3942B1DF10DB3",
+      "after": "4A951282E2EA2241571DE693329F1F81C545A818B52484A675D3942B1DF10DB3"
+    },
+    {
+      "path": "C:\\Users\\cnhan\\Downloads\\Reload Gym\\Website Reload Gym\\reload-gym\\assets\\js\\body-visualizer\\glb-model.js",
+      "before": "3FCA376A55A54AD33C200F96D1DFB32AE272235E566B11DBD2D85B86B14FACA1",
+      "after": "3FCA376A55A54AD33C200F96D1DFB32AE272235E566B11DBD2D85B86B14FACA1"
+    },
+    {
+      "path": "C:\\Users\\cnhan\\Downloads\\Reload Gym\\Website Reload Gym\\reload-gym\\assets\\js\\body-visualizer\\height-baselines.js",
+      "before": "2FC0E1EBC69120AF10D92AEF394113C8C603B5EE64852406EB6DBB7903369820",
+      "after": "2FC0E1EBC69120AF10D92AEF394113C8C603B5EE64852406EB6DBB7903369820"
+    },
+    {
+      "path": "C:\\Users\\cnhan\\Downloads\\Reload Gym\\Website Reload Gym\\reload-gym\\assets\\js\\body-visualizer\\height-calibration.js",
+      "before": "47375A557AD312C70474BF590724DA16DEB0AE68A3DB4C543388AA087BCB5BE3",
+      "after": "47375A557AD312C70474BF590724DA16DEB0AE68A3DB4C543388AA087BCB5BE3"
+    },
+    {
+      "path": "C:\\Users\\cnhan\\Downloads\\Reload Gym\\Website Reload Gym\\reload-gym\\assets\\js\\body-visualizer\\model.js",
+      "before": "A4D209DD3DF5203D1656D157D101A7C7CE3744E339FF5988045D4338B19D3468",
+      "after": "A4D209DD3DF5203D1656D157D101A7C7CE3744E339FF5988045D4338B19D3468"
+    },
+    {
+      "path": "C:\\Users\\cnhan\\Downloads\\Reload Gym\\Website Reload Gym\\reload-gym\\assets\\js\\body-visualizer\\morph-controller.js",
+      "before": "3F077EBB9B1EFD55C460731B6E994EAEB908F87A4A49451A25AF930DE744B88B",
+      "after": "3F077EBB9B1EFD55C460731B6E994EAEB908F87A4A49451A25AF930DE744B88B"
+    },
+    {
+      "path": "C:\\Users\\cnhan\\Downloads\\Reload Gym\\Website Reload Gym\\reload-gym\\assets\\js\\body-visualizer\\normalization.js",
+      "before": "E7A8B89D6FD6A4C4496C1BFD0B73C173C50FE7A55F3867DF9E0C7E94EDE9215B",
+      "after": "E7A8B89D6FD6A4C4496C1BFD0B73C173C50FE7A55F3867DF9E0C7E94EDE9215B"
+    },
+    {
+      "path": "C:\\Users\\cnhan\\Downloads\\Reload Gym\\Website Reload Gym\\reload-gym\\assets\\js\\body-visualizer\\scene.js",
+      "before": "6E56C35DABAB3147F82488E674268D1049F8D225B8960B3C1057316BA3A21E6E",
+      "after": "6E56C35DABAB3147F82488E674268D1049F8D225B8960B3C1057316BA3A21E6E"
+    },
+    {
+      "path": "3D/male-mpfb-production-morph-v5-candidate.glb",
+      "before": "BCE6B0A5A6804694153FCB13BFA5393EC451A37BF30EBA152F0FD6F33DA872AB",
+      "after": "BCE6B0A5A6804694153FCB13BFA5393EC451A37BF30EBA152F0FD6F33DA872AB",
+      "baseline": "HEAD (text normalized LF; initial status clean)"
+    },
+    {
+      "path": "qa/body-measurement-calibration/measurements.json",
+      "before": "F83BB14C5E95FBE0467542E3151CB2CECFAEB9DAF9A49459E705B3581ECF20C2",
+      "after": "F83BB14C5E95FBE0467542E3151CB2CECFAEB9DAF9A49459E705B3581ECF20C2",
+      "baseline": "HEAD (text normalized LF; initial status clean)"
+    },
+    {
+      "path": "qa/hip-measurement-calibration/measurements.json",
+      "before": "867A4A54DB7F4548E0611204B53B00738023638D816B76790FF3C9E2F538D209",
+      "after": "867A4A54DB7F4548E0611204B53B00738023638D816B76790FF3C9E2F538D209",
+      "baseline": "HEAD (text normalized LF; initial status clean)"
+    },
+    {
+      "path": "assets/vendor/three/BufferGeometryUtils.js",
+      "before": "018B6EC0DCBBAEA7D68B02D8D1162AB37783B9DBD4CC85FDBC35506690A993EA",
+      "after": "018B6EC0DCBBAEA7D68B02D8D1162AB37783B9DBD4CC85FDBC35506690A993EA",
+      "baseline": "HEAD (text normalized LF; initial status clean)"
+    },
+    {
+      "path": "assets/vendor/three/GLTFLoader.js",
+      "before": "30531AE54B775554EF082D5E7621DB4B04511C05B95B7AA5C539DB5CBB7698AD",
+      "after": "30531AE54B775554EF082D5E7621DB4B04511C05B95B7AA5C539DB5CBB7698AD",
+      "baseline": "HEAD (text normalized LF; initial status clean)"
+    },
+    {
+      "path": "assets/vendor/three/LICENSE",
+      "before": "BFE119EA4FD413F5F7CA3FCD63ADB0C4A073ED39DAA2FE7D3E6B769E21272601",
+      "after": "BFE119EA4FD413F5F7CA3FCD63ADB0C4A073ED39DAA2FE7D3E6B769E21272601",
+      "baseline": "HEAD (text normalized LF; initial status clean)"
+    },
+    {
+      "path": "assets/vendor/three/OrbitControls.js",
+      "before": "1EEFA2B80F2776850325F826515A37164537B25254A36B0774EBCA22194301F2",
+      "after": "1EEFA2B80F2776850325F826515A37164537B25254A36B0774EBCA22194301F2",
+      "baseline": "HEAD (text normalized LF; initial status clean)"
+    },
+    {
+      "path": "assets/vendor/three/README.md",
+      "before": "815F8D4ED8DBFEB0FBDE0FE89F8CD3E24D4BF8FA0466EFC7F81EC2E486BA4340",
+      "after": "815F8D4ED8DBFEB0FBDE0FE89F8CD3E24D4BF8FA0466EFC7F81EC2E486BA4340",
+      "baseline": "HEAD (text normalized LF; initial status clean)"
+    },
+    {
+      "path": "assets/vendor/three/three.core.min.js",
+      "before": "61BA0DF005B05991361D040D8FF670E1AADFD0CE7AEEBD1FDB0725957A8957DE",
+      "after": "61BA0DF005B05991361D040D8FF670E1AADFD0CE7AEEBD1FDB0725957A8957DE",
+      "baseline": "HEAD (text normalized LF; initial status clean)"
+    },
+    {
+      "path": "assets/vendor/three/three.module.min.js",
+      "before": "E2B5EE6BCCD38FD6D8A2428546B83C5F2426D84B152EF82BE8055556E3B40EB6",
+      "after": "E2B5EE6BCCD38FD6D8A2428546B83C5F2426D84B152EF82BE8055556E3B40EB6",
+      "baseline": "HEAD (text normalized LF; initial status clean)"
+    }
+  ]
+}

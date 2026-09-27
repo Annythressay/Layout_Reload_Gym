@@ -1,0 +1,181 @@
+{
+  "pass": true,
+  "maximumMappingDifference": 0,
+  "matrix": [
+    {
+      "height": 160,
+      "key": "waist",
+      "pass": true
+    },
+    {
+      "height": 160,
+      "key": "chest",
+      "pass": true
+    },
+    {
+      "height": 160,
+      "key": "shoulder",
+      "pass": true
+    },
+    {
+      "height": 160,
+      "key": "arm",
+      "pass": true
+    },
+    {
+      "height": 160,
+      "key": "thigh",
+      "pass": true
+    },
+    {
+      "height": 160,
+      "key": "calf",
+      "pass": true
+    },
+    {
+      "height": 160,
+      "key": "hip",
+      "pass": true
+    },
+    {
+      "height": 165,
+      "key": "waist",
+      "pass": true
+    },
+    {
+      "height": 165,
+      "key": "chest",
+      "pass": true
+    },
+    {
+      "height": 165,
+      "key": "shoulder",
+      "pass": true
+    },
+    {
+      "height": 165,
+      "key": "arm",
+      "pass": true
+    },
+    {
+      "height": 165,
+      "key": "thigh",
+      "pass": true
+    },
+    {
+      "height": 165,
+      "key": "calf",
+      "pass": true
+    },
+    {
+      "height": 165,
+      "key": "hip",
+      "pass": true
+    },
+    {
+      "height": 170,
+      "key": "waist",
+      "pass": true
+    },
+    {
+      "height": 170,
+      "key": "chest",
+      "pass": true
+    },
+    {
+      "height": 170,
+      "key": "shoulder",
+      "pass": true
+    },
+    {
+      "height": 170,
+      "key": "arm",
+      "pass": true
+    },
+    {
+      "height": 170,
+      "key": "thigh",
+      "pass": true
+    },
+    {
+      "height": 170,
+      "key": "calf",
+      "pass": true
+    },
+    {
+      "height": 170,
+      "key": "hip",
+      "pass": true
+    },
+    {
+      "height": 180,
+      "key": "waist",
+      "pass": true
+    },
+    {
+      "height": 180,
+      "key": "chest",
+      "pass": true
+    },
+    {
+      "height": 180,
+      "key": "shoulder",
+      "pass": true
+    },
+    {
+      "height": 180,
+      "key": "arm",
+      "pass": true
+    },
+    {
+      "height": 180,
+      "key": "thigh",
+      "pass": true
+    },
+    {
+      "height": 180,
+      "key": "calf",
+      "pass": true
+    },
+    {
+      "height": 180,
+      "key": "hip",
+      "pass": true
+    },
+    {
+      "height": 190,
+      "key": "waist",
+      "pass": true
+    },
+    {
+      "height": 190,
+      "key": "chest",
+      "pass": true
+    },
+    {
+      "height": 190,
+      "key": "shoulder",
+      "pass": true
+    },
+    {
+      "height": 190,
+      "key": "arm",
+      "pass": true
+    },
+    {
+      "height": 190,
+      "key": "thigh",
+      "pass": true
+    },
+    {
+      "height": 190,
+      "key": "calf",
+      "pass": true
+    },
+    {
+      "height": 190,
+      "key": "hip",
+      "pass": true
+    }
+  ]
+}

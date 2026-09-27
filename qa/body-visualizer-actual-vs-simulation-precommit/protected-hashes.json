@@ -1,0 +1,1714 @@
+{
+  "pass": true,
+  "V5SHA": "BCE6B0A5A6804694153FCB13BFA5393EC451A37BF30EBA152F0FD6F33DA872AB",
+  "expectedV5SHA": "BCE6B0A5A6804694153FCB13BFA5393EC451A37BF30EBA152F0FD6F33DA872AB",
+  "checked": 284,
+  "changed": [],
+  "unexpectedTrackedChanges": [],
+  "rows": [
+    {
+      "path": "assets/js/body-visualizer/app.js",
+      "before": "CA0A5F1161ED913E7D447EE8CB3EC017E341F0B70C01DC881E3EAD58951E197C",
+      "after": "CA0A5F1161ED913E7D447EE8CB3EC017E341F0B70C01DC881E3EAD58951E197C",
+      "unchanged": true
+    },
+    {
+      "path": "assets/js/body-visualizer/debug.js",
+      "before": "4A951282E2EA2241571DE693329F1F81C545A818B52484A675D3942B1DF10DB3",
+      "after": "4A951282E2EA2241571DE693329F1F81C545A818B52484A675D3942B1DF10DB3",
+      "unchanged": true
+    },
+    {
+      "path": "assets/js/body-visualizer/glb-model.js",
+      "before": "3FCA376A55A54AD33C200F96D1DFB32AE272235E566B11DBD2D85B86B14FACA1",
+      "after": "3FCA376A55A54AD33C200F96D1DFB32AE272235E566B11DBD2D85B86B14FACA1",
+      "unchanged": true
+    },
+    {
+      "path": "assets/js/body-visualizer/height-baselines.js",
+      "before": "2FC0E1EBC69120AF10D92AEF394113C8C603B5EE64852406EB6DBB7903369820",
+      "after": "2FC0E1EBC69120AF10D92AEF394113C8C603B5EE64852406EB6DBB7903369820",
+      "unchanged": true
+    },
+    {
+      "path": "assets/js/body-visualizer/height-calibration.js",
+      "before": "47375A557AD312C70474BF590724DA16DEB0AE68A3DB4C543388AA087BCB5BE3",
+      "after": "47375A557AD312C70474BF590724DA16DEB0AE68A3DB4C543388AA087BCB5BE3",
+      "unchanged": true
+    },
+    {
+      "path": "assets/js/body-visualizer/input-policy.js",
+      "before": "79146F10E601B448A32DF51267B0C7E7D1AE4054DA9466F608C3C7E6FA4B7A4E",
+      "after": "79146F10E601B448A32DF51267B0C7E7D1AE4054DA9466F608C3C7E6FA4B7A4E",
+      "unchanged": true
+    },
+    {
+      "path": "assets/js/body-visualizer/measurement-constraints.js",
+      "before": "F74B43EE6CAEAC9F817491E0BC9E18B68AF0391386A505C651CEAC4A4DDCA57B",
+      "after": "F74B43EE6CAEAC9F817491E0BC9E18B68AF0391386A505C651CEAC4A4DDCA57B",
+      "unchanged": true
+    },
+    {
+      "path": "assets/js/body-visualizer/model.js",
+      "before": "A4D209DD3DF5203D1656D157D101A7C7CE3744E339FF5988045D4338B19D3468",
+      "after": "A4D209DD3DF5203D1656D157D101A7C7CE3744E339FF5988045D4338B19D3468",
+      "unchanged": true
+    },
+    {
+      "path": "assets/js/body-visualizer/morph-controller.js",
+      "before": "3F077EBB9B1EFD55C460731B6E994EAEB908F87A4A49451A25AF930DE744B88B",
+      "after": "3F077EBB9B1EFD55C460731B6E994EAEB908F87A4A49451A25AF930DE744B88B",
+      "unchanged": true
+    },
+    {
+      "path": "assets/js/body-visualizer/normalization.js",
+      "before": "E7A8B89D6FD6A4C4496C1BFD0B73C173C50FE7A55F3867DF9E0C7E94EDE9215B",
+      "after": "E7A8B89D6FD6A4C4496C1BFD0B73C173C50FE7A55F3867DF9E0C7E94EDE9215B",
+      "unchanged": true
+    },
+    {
+      "path": "assets/js/body-visualizer/scene.js",
+      "before": "6E56C35DABAB3147F82488E674268D1049F8D225B8960B3C1057316BA3A21E6E",
+      "after": "6E56C35DABAB3147F82488E674268D1049F8D225B8960B3C1057316BA3A21E6E",
+      "unchanged": true
+    },
+    {
+      "path": "assets/js/body-visualizer/simulation-values.js",
+      "before": "3474EF786F360A9E07A88961C330CE2760F6638EDC98CAEB6F5717E267A95C00",
+      "after": "3474EF786F360A9E07A88961C330CE2760F6638EDC98CAEB6F5717E267A95C00",
+      "unchanged": true
+    },
+    {
+      "path": "assets/js/body-visualizer/state.js",
+      "before": "B1459A921D38BF4761ABD405AE009D8119B0E9415B91B0331D0797C23F8902D3",
+      "after": "B1459A921D38BF4761ABD405AE009D8119B0E9415B91B0331D0797C23F8902D3",
+      "unchanged": true
+    },
+    {
+      "path": "assets/vendor/three/BufferGeometryUtils.js",
+      "before": "018B6EC0DCBBAEA7D68B02D8D1162AB37783B9DBD4CC85FDBC35506690A993EA",
+      "after": "018B6EC0DCBBAEA7D68B02D8D1162AB37783B9DBD4CC85FDBC35506690A993EA",
+      "unchanged": true
+    },
+    {
+      "path": "assets/vendor/three/GLTFLoader.js",
+      "before": "30531AE54B775554EF082D5E7621DB4B04511C05B95B7AA5C539DB5CBB7698AD",
+      "after": "30531AE54B775554EF082D5E7621DB4B04511C05B95B7AA5C539DB5CBB7698AD",
+      "unchanged": true
+    },
+    {
+      "path": "assets/vendor/three/LICENSE",
+      "before": "BFE119EA4FD413F5F7CA3FCD63ADB0C4A073ED39DAA2FE7D3E6B769E21272601",
+      "after": "BFE119EA4FD413F5F7CA3FCD63ADB0C4A073ED39DAA2FE7D3E6B769E21272601",
+      "unchanged": true
+    },
+    {
+      "path": "assets/vendor/three/OrbitControls.js",
+      "before": "4C74F404078C30D26D7496D2C819491EE32465DA6F708D77BFEAA53FE4D46511",
+      "after": "4C74F404078C30D26D7496D2C819491EE32465DA6F708D77BFEAA53FE4D46511",
+      "unchanged": true
+    },
+    {
+      "path": "assets/vendor/three/README.md",
+      "before": "815F8D4ED8DBFEB0FBDE0FE89F8CD3E24D4BF8FA0466EFC7F81EC2E486BA4340",
+      "after": "815F8D4ED8DBFEB0FBDE0FE89F8CD3E24D4BF8FA0466EFC7F81EC2E486BA4340",
+      "unchanged": true
+    },
+    {
+      "path": "assets/vendor/three/three.core.min.js",
+      "before": "61BA0DF005B05991361D040D8FF670E1AADFD0CE7AEEBD1FDB0725957A8957DE",
+      "after": "61BA0DF005B05991361D040D8FF670E1AADFD0CE7AEEBD1FDB0725957A8957DE",
+      "unchanged": true
+    },
+    {
+      "path": "assets/vendor/three/three.module.min.js",
+      "before": "E2B5EE6BCCD38FD6D8A2428546B83C5F2426D84B152EF82BE8055556E3B40EB6",
+      "after": "E2B5EE6BCCD38FD6D8A2428546B83C5F2426D84B152EF82BE8055556E3B40EB6",
+      "unchanged": true
+    },
+    {
+      "path": "3D/male-mpfb-clean-morph-test.glb",
+      "before": "ECA271161F44BA111B175194E4C25356841917438B73E0AF7EBD28EC19A6BD20",
+      "after": "ECA271161F44BA111B175194E4C25356841917438B73E0AF7EBD28EC19A6BD20",
+      "unchanged": true
+    },
+    {
+      "path": "3D/male-mpfb-height-rnd.glb",
+      "before": "010ED1D3D700B5EA2A3F61D8388BE572C6F8BE51E4EB7CCF8CB62810207F0493",
+      "after": "010ED1D3D700B5EA2A3F61D8388BE572C6F8BE51E4EB7CCF8CB62810207F0493",
+      "unchanged": true
+    },
+    {
+      "path": "3D/male-mpfb-morph-test.glb",
+      "before": "8973432A6FE0EBCC755E967DEE2FEC24D52EC6B89734FED1F842663F53328C10",
+      "after": "8973432A6FE0EBCC755E967DEE2FEC24D52EC6B89734FED1F842663F53328C10",
+      "unchanged": true
+    },
+    {
+      "path": "3D/male-mpfb-production-morph-v2.glb",
+      "before": "162E022E38230C13CE4441169388C2D81E12DE9E4D7D99ADDB0A73078A5EDA23",
+      "after": "162E022E38230C13CE4441169388C2D81E12DE9E4D7D99ADDB0A73078A5EDA23",
+      "unchanged": true
+    },
+    {
+      "path": "3D/male-mpfb-production-morph-v3.glb",
+      "before": "C1A4D362E03DDC2B4CB98C5C4DD60A919788A6FF76FF89C228D3735555A49FAF",
+      "after": "C1A4D362E03DDC2B4CB98C5C4DD60A919788A6FF76FF89C228D3735555A49FAF",
+      "unchanged": true
+    },
+    {
+      "path": "3D/male-mpfb-production-morph-v4.glb",
+      "before": "A3362FBDAFB30D63B584204122258377CE2D169A37BE9B8AB815A84DE1FB67F0",
+      "after": "A3362FBDAFB30D63B584204122258377CE2D169A37BE9B8AB815A84DE1FB67F0",
+      "unchanged": true
+    },
+    {
+      "path": "3D/male-mpfb-production-morph-v5-candidate.glb",
+      "before": "BCE6B0A5A6804694153FCB13BFA5393EC451A37BF30EBA152F0FD6F33DA872AB",
+      "after": "BCE6B0A5A6804694153FCB13BFA5393EC451A37BF30EBA152F0FD6F33DA872AB",
+      "unchanged": true
+    },
+    {
+      "path": "3D/reload-body-male-base-height-rnd.blend",
+      "before": "C791B554B9AEC6377C025926EF82DEBBF2168E7AEA4775A915B40C02C915A51B",
+      "after": "C791B554B9AEC6377C025926EF82DEBBF2168E7AEA4775A915B40C02C915A51B",
+      "unchanged": true
+    },
+    {
+      "path": "3D/reload-body-male-base-height-rnd.blend1",
+      "before": "8F9560231710949E9BF87AD22E72F2688B5360B8370415AEDB38C359FB6F718F",
+      "after": "8F9560231710949E9BF87AD22E72F2688B5360B8370415AEDB38C359FB6F718F",
+      "unchanged": true
+    },
+    {
+      "path": "3D/reload-body-male-base-morph-v02.blend",
+      "before": "1B9AA74F87D52864F7BF9046EC510C816BC607BC69F6568CDE0187C54261DE9E",
+      "after": "1B9AA74F87D52864F7BF9046EC510C816BC607BC69F6568CDE0187C54261DE9E",
+      "unchanged": true
+    },
+    {
+      "path": "3D/reload-body-male-base-morph-v02.blend1",
+      "before": "C3AF003B848518579A6E9CD27A1401A67CB5754936DF7FECEA0FA127370CC15F",
+      "after": "C3AF003B848518579A6E9CD27A1401A67CB5754936DF7FECEA0FA127370CC15F",
+      "unchanged": true
+    },
+    {
+      "path": "3D/reload-body-male-base-production-v04.blend",
+      "before": "CFB66131E6A73822AF20ADCC6E4155DE89B931917660048BD28A593B114053F0",
+      "after": "CFB66131E6A73822AF20ADCC6E4155DE89B931917660048BD28A593B114053F0",
+      "unchanged": true
+    },
+    {
+      "path": "3D/reload-body-male-base-production-v04.blend1",
+      "before": "7EF20A86446C211F27740266054A980AA12B4EFBCE50C85C9A05EE614CEFE29E",
+      "after": "7EF20A86446C211F27740266054A980AA12B4EFBCE50C85C9A05EE614CEFE29E",
+      "unchanged": true
+    },
+    {
+      "path": "3D/reload-body-male-base.blend",
+      "before": "A1BE4979689015D79EE3F1CA971CF3A764E7A6832F77255DDDD43B3F7CABCCE3",
+      "after": "A1BE4979689015D79EE3F1CA971CF3A764E7A6832F77255DDDD43B3F7CABCCE3",
+      "unchanged": true
+    },
+    {
+      "path": "3D/reload-body-male-base.blend1",
+      "before": "5A24992A3B7B4C86F4E57105D585E5919B078338612725FF511C8A0B42B15116",
+      "after": "5A24992A3B7B4C86F4E57105D585E5919B078338612725FF511C8A0B42B15116",
+      "unchanged": true
+    },
+    {
+      "path": "qa/v5-2-v16-prototype/new-boundary-map.json",
+      "before": "D57E0152D90BAAA3A30BBEFDBDF528119610AE82C83D3372EBDB6414628EA793",
+      "after": "D57E0152D90BAAA3A30BBEFDBDF528119610AE82C83D3372EBDB6414628EA793",
+      "unchanged": true
+    },
+    {
+      "path": "qa/v5-2-v16-prototype/old-to-new-vertex-map.json",
+      "before": "D25F523AB1337523F3B707AA8DAB781D10822E196CB40717DB32F421B540A5EC",
+      "after": "D25F523AB1337523F3B707AA8DAB781D10822E196CB40717DB32F421B540A5EC",
+      "unchanged": true
+    },
+    {
+      "path": "qa/v5-2-v16-prototype/patch-attribute-inventory.json",
+      "before": "C0DDBA65B41FCD3A2BC7BDA586F76A81114D83C062BEEDF2F034933616BBA11B",
+      "after": "C0DDBA65B41FCD3A2BC7BDA586F76A81114D83C062BEEDF2F034933616BBA11B",
+      "unchanged": true
+    },
+    {
+      "path": "qa/v5-2-v16-prototype/preservation-check.json",
+      "before": "D597D6520BFEA19D2D3498D00C3FAB4CE0253352946A17EDD440E6E4170BA80A",
+      "after": "D597D6520BFEA19D2D3498D00C3FAB4CE0253352946A17EDD440E6E4170BA80A",
+      "unchanged": true
+    },
+    {
+      "path": "qa/v5-2-v16-prototype/render_stage1_surface.py",
+      "before": "C81822EEAAA425411AFF46CDCDE65AA21B217D4F28FDA98F15C2CEEA9D1BE99A",
+      "after": "C81822EEAAA425411AFF46CDCDE65AA21B217D4F28FDA98F15C2CEEA9D1BE99A",
+      "unchanged": true
+    },
+    {
+      "path": "qa/v5-2-v16-prototype/render_stage1_wireframes.py",
+      "before": "196A89D287759D80B9F2F38A1747AAB30934BD1CF897FD7D55D13C4153387871",
+      "after": "196A89D287759D80B9F2F38A1747AAB30934BD1CF897FD7D55D13C4153387871",
+      "unchanged": true
+    },
+    {
+      "path": "qa/v5-2-v16-prototype/saved-v16-reopen-qa.json",
+      "before": "79D2468B25CD33A311E4E982F6B814D4BDC4A15CBBED28E8D18A3881F2A4E60F",
+      "after": "79D2468B25CD33A311E4E982F6B814D4BDC4A15CBBED28E8D18A3881F2A4E60F",
+      "unchanged": true
+    },
+    {
+      "path": "qa/v5-2-v16-prototype/scripts/01_validate_source.py",
+      "before": "A8DE9926CFB48293F427F01DC30CD8DC00414194C8B1B82DF89BDA0BEB5A41DD",
+      "after": "A8DE9926CFB48293F427F01DC30CD8DC00414194C8B1B82DF89BDA0BEB5A41DD",
+      "unchanged": true
+    },
+    {
+      "path": "qa/v5-2-v16-prototype/scripts/02_build_local_retopo.py",
+      "before": "8D2BCB3F793EA6D760F47CCB6C8357148519B49E70B04137B7B044E7AC3AE273",
+      "after": "8D2BCB3F793EA6D760F47CCB6C8357148519B49E70B04137B7B044E7AC3AE273",
+      "unchanged": true
+    },
+    {
+      "path": "qa/v5-2-v16-prototype/scripts/03_transfer_shape_keys.py",
+      "before": "1AA359F3F8DA901710E06898C9680E47ECBDCE4841850561E0BF9CE3D7D559B3",
+      "after": "1AA359F3F8DA901710E06898C9680E47ECBDCE4841850561E0BF9CE3D7D559B3",
+      "unchanged": true
+    },
+    {
+      "path": "qa/v5-2-v16-prototype/scripts/04_validate_v16_structure.py",
+      "before": "6E34F3ADE81B4FEE6DAC4773A30B11E9CF499DAE432E9309F4BFA83B75047851",
+      "after": "6E34F3ADE81B4FEE6DAC4773A30B11E9CF499DAE432E9309F4BFA83B75047851",
+      "unchanged": true
+    },
+    {
+      "path": "qa/v5-2-v16-prototype/scripts/audit_saved_group_continuity_readonly.py",
+      "before": "FFE7977A95C00F33C124BD477B0E83AB54DD16CAFA0C9936BAC2F170C04A5916",
+      "after": "FFE7977A95C00F33C124BD477B0E83AB54DD16CAFA0C9936BAC2F170C04A5916",
+      "unchanged": true
+    },
+    {
+      "path": "qa/v5-2-v16-prototype/scripts/build-v16-stage1.py",
+      "before": "43439C11E8DB5904D83AA46CE601709974EA9E36C38AF50FC4BC794EA3A6BD49",
+      "after": "43439C11E8DB5904D83AA46CE601709974EA9E36C38AF50FC4BC794EA3A6BD49",
+      "unchanged": true
+    },
+    {
+      "path": "qa/v5-2-v16-prototype/scripts/inspect_patch_attributes_readonly.py",
+      "before": "9A3B2A9B38CABA5404E5CFDA68A62D811603BE16BDA78495219BD0C4BCBEB518",
+      "after": "9A3B2A9B38CABA5404E5CFDA68A62D811603BE16BDA78495219BD0C4BCBEB518",
+      "unchanged": true
+    },
+    {
+      "path": "qa/v5-2-v16-prototype/scripts/verify_saved_v16_readonly.py",
+      "before": "E45E93F27D6758B7674A101A0123EE2554FF5F35DB55532963555948BB4D3B3C",
+      "after": "E45E93F27D6758B7674A101A0123EE2554FF5F35DB55532963555948BB4D3B3C",
+      "unchanged": true
+    },
+    {
+      "path": "qa/v5-2-v16-prototype/scripts/__pycache__/01_validate_source.cpython-311.pyc",
+      "before": "83CD5F47BA89D4E014BC99C8A3FA96EBC905EEF97A779DA76B41043139692276",
+      "after": "83CD5F47BA89D4E014BC99C8A3FA96EBC905EEF97A779DA76B41043139692276",
+      "unchanged": true
+    },
+    {
+      "path": "qa/v5-2-v16-prototype/scripts/__pycache__/01_validate_source.cpython-313.pyc",
+      "before": "90A73B1562083B3E569D51112C05BC809647080E1B9CACE2495A07CD5830E1FA",
+      "after": "90A73B1562083B3E569D51112C05BC809647080E1B9CACE2495A07CD5830E1FA",
+      "unchanged": true
+    },
+    {
+      "path": "qa/v5-2-v16-prototype/scripts/__pycache__/02_build_local_retopo.cpython-311.pyc",
+      "before": "D71225274B03AF2EBA6647F192A3F4F657211C7CDC5E6C14338A6069DD674E7B",
+      "after": "D71225274B03AF2EBA6647F192A3F4F657211C7CDC5E6C14338A6069DD674E7B",
+      "unchanged": true
+    },
+    {
+      "path": "qa/v5-2-v16-prototype/scripts/__pycache__/02_build_local_retopo.cpython-313.pyc",
+      "before": "6369CD3FFC9B50FCE040565BBD176FC0782FE302F5E2F0FF9279BC0A6FE1866E",
+      "after": "6369CD3FFC9B50FCE040565BBD176FC0782FE302F5E2F0FF9279BC0A6FE1866E",
+      "unchanged": true
+    },
+    {
+      "path": "qa/v5-2-v16-prototype/scripts/__pycache__/03_transfer_shape_keys.cpython-311.pyc",
+      "before": "201AF0C00032EE6D4376FD2EFAC5D0630F09AA00E18F884C8B13BD73F9E5BD82",
+      "after": "201AF0C00032EE6D4376FD2EFAC5D0630F09AA00E18F884C8B13BD73F9E5BD82",
+      "unchanged": true
+    },
+    {
+      "path": "qa/v5-2-v16-prototype/scripts/__pycache__/03_transfer_shape_keys.cpython-313.pyc",
+      "before": "D08EF9B4D205E20DEFED16B10EF6669E75FC355F51C2DF4F9391B313E2FE286C",
+      "after": "D08EF9B4D205E20DEFED16B10EF6669E75FC355F51C2DF4F9391B313E2FE286C",
+      "unchanged": true
+    },
+    {
+      "path": "qa/v5-2-v16-prototype/scripts/__pycache__/04_validate_v16_structure.cpython-311.pyc",
+      "before": "EB6379C60BC94ECAFB8B896B2B0D3238CDF23EE7C8ED90CEA6CB1D4DF34233D1",
+      "after": "EB6379C60BC94ECAFB8B896B2B0D3238CDF23EE7C8ED90CEA6CB1D4DF34233D1",
+      "unchanged": true
+    },
+    {
+      "path": "qa/v5-2-v16-prototype/scripts/__pycache__/04_validate_v16_structure.cpython-313.pyc",
+      "before": "DF541F4E1F838CAC19FA598D05B5A47CD7DD1DBDBCE4BB2853F143453CAD3F14",
+      "after": "DF541F4E1F838CAC19FA598D05B5A47CD7DD1DBDBCE4BB2853F143453CAD3F14",
+      "unchanged": true
+    },
+    {
+      "path": "qa/v5-2-v16-prototype/scripts/__pycache__/build-v16-stage1.cpython-311.pyc",
+      "before": "CFE6841B150DB68236C90DA232EA1FA4CA269FEBD2320BF7A9C583C728C15FF3",
+      "after": "CFE6841B150DB68236C90DA232EA1FA4CA269FEBD2320BF7A9C583C728C15FF3",
+      "unchanged": true
+    },
+    {
+      "path": "qa/v5-2-v16-prototype/semantic-patch-map.json",
+      "before": "1EDBDBE15AE39FC7BD2D1743F929FB6A4B11763FDBE0E1F2DF35128EA9CA747E",
+      "after": "1EDBDBE15AE39FC7BD2D1743F929FB6A4B11763FDBE0E1F2DF35128EA9CA747E",
+      "unchanged": true
+    },
+    {
+      "path": "qa/v5-2-v16-prototype/shape-key-transfer-map.json",
+      "before": "7E082AE74DAF43AA2C17BA383A52BB4CE6037654ED577F7B55D1654FAE26B7E0",
+      "after": "7E082AE74DAF43AA2C17BA383A52BB4CE6037654ED577F7B55D1654FAE26B7E0",
+      "unchanged": true
+    },
+    {
+      "path": "qa/v5-2-v16-prototype/shape-key-transfer-qa.json",
+      "before": "747C31F5491461593F40F2C0BF8E89EE9CB4A0E99B23938C0477C25FBD8E4D98",
+      "after": "747C31F5491461593F40F2C0BF8E89EE9CB4A0E99B23938C0477C25FBD8E4D98",
+      "unchanged": true
+    },
+    {
+      "path": "qa/v5-2-v16-prototype/stage1-axilla-shaded-comparison.png",
+      "before": "20D14C914D4A2F8E40303578668F2B045EFB50B1FC25776EF4594FB23C892CC5",
+      "after": "20D14C914D4A2F8E40303578668F2B045EFB50B1FC25776EF4594FB23C892CC5",
+      "unchanged": true
+    },
+    {
+      "path": "qa/v5-2-v16-prototype/stage1-axilla-wireframe-comparison.png",
+      "before": "4ADB506EF58B60D3AFC4DFD603583DF2870A9A6F34B7D5DC7B23B9754FB04A3C",
+      "after": "4ADB506EF58B60D3AFC4DFD603583DF2870A9A6F34B7D5DC7B23B9754FB04A3C",
+      "unchanged": true
+    },
+    {
+      "path": "qa/v5-2-v16-prototype/stage1-basis-wireframe-data.npz",
+      "before": "11638082AEA3C89426A3D3802B6585033CD4212F26BAF6142A9E4F0F427E50BA",
+      "after": "11638082AEA3C89426A3D3802B6585033CD4212F26BAF6142A9E4F0F427E50BA",
+      "unchanged": true
+    },
+    {
+      "path": "qa/v5-2-v16-prototype/stage1-uv-debug.npz",
+      "before": "040AD8862870AE7FE3A33FE93250B3E22EC0FC2F15355DE793A048CE2A696BFC",
+      "after": "040AD8862870AE7FE3A33FE93250B3E22EC0FC2F15355DE793A048CE2A696BFC",
+      "unchanged": true
+    },
+    {
+      "path": "qa/v5-2-v16-prototype/stage2/analyze.py",
+      "before": "6A9B98B3CC716DAF0CAF749DDDFA03D9004104EE9C1B3368332B0382C76CE0CF",
+      "after": "6A9B98B3CC716DAF0CAF749DDDFA03D9004104EE9C1B3368332B0382C76CE0CF",
+      "unchanged": true
+    },
+    {
+      "path": "qa/v5-2-v16-prototype/stage2/basis-contact-analysis.json",
+      "before": "4B25B144AEDA926AD5999ABCF24C6D2A30F2E3C689371CAC14E6522A0198E220",
+      "after": "4B25B144AEDA926AD5999ABCF24C6D2A30F2E3C689371CAC14E6522A0198E220",
+      "unchanged": true
+    },
+    {
+      "path": "qa/v5-2-v16-prototype/stage2/checkpoint-verification.json",
+      "before": "576074D33B6FD4816123728FDE4BFFACE35B69D7FA845BE51CCC4290F4E2F417",
+      "after": "576074D33B6FD4816123728FDE4BFFACE35B69D7FA845BE51CCC4290F4E2F417",
+      "unchanged": true
+    },
+    {
+      "path": "qa/v5-2-v16-prototype/stage2/extracted-geometry.npz",
+      "before": "7F361307CFCEF81C7BED4862452DDC012B183BD321E40E951C2205C42F6D6C6E",
+      "after": "7F361307CFCEF81C7BED4862452DDC012B183BD321E40E951C2205C42F6D6C6E",
+      "unchanged": true
+    },
+    {
+      "path": "qa/v5-2-v16-prototype/stage2/extract_readonly.py",
+      "before": "F1408C28CE94593D1033F0763344C35C41658B719929D4D5106CBE6009754049",
+      "after": "F1408C28CE94593D1033F0763344C35C41658B719929D4D5106CBE6009754049",
+      "unchanged": true
+    },
+    {
+      "path": "qa/v5-2-v16-prototype/stage2/finalize_metrics.py",
+      "before": "DC30BE71AFA1488B8937B646F7269284678F403921D5FC4249C491CDB484A916",
+      "after": "DC30BE71AFA1488B8937B646F7269284678F403921D5FC4249C491CDB484A916",
+      "unchanged": true
+    },
+    {
+      "path": "qa/v5-2-v16-prototype/stage2/height-neutral-grid.json",
+      "before": "FAF9A2989803B682B5B17057207408BFBD6FC672BBA7EBF5CE4BA3039A6C40AF",
+      "after": "FAF9A2989803B682B5B17057207408BFBD6FC672BBA7EBF5CE4BA3039A6C40AF",
+      "unchanged": true
+    },
+    {
+      "path": "qa/v5-2-v16-prototype/stage2/isolated-key-sanity.json",
+      "before": "FEC36AF9ABA08A2D53C3745B2CB11DF2BF3454C80C239420EBA5D3833C127BD6",
+      "after": "FEC36AF9ABA08A2D53C3745B2CB11DF2BF3454C80C239420EBA5D3833C127BD6",
+      "unchanged": true
+    },
+    {
+      "path": "qa/v5-2-v16-prototype/stage2/phenotype-grid.json",
+      "before": "F0700B83C53808A17089DF8BF83EFE75800BF889F0B3C67E74EAD6B203F0F82D",
+      "after": "F0700B83C53808A17089DF8BF83EFE75800BF889F0B3C67E74EAD6B203F0F82D",
+      "unchanged": true
+    },
+    {
+      "path": "qa/v5-2-v16-prototype/stage2/render_comparisons.py",
+      "before": "99FE6F9C14AFE44DCA0387E195B63E6E1BB0E6EE95017D81C5183D9C55822465",
+      "after": "99FE6F9C14AFE44DCA0387E195B63E6E1BB0E6EE95017D81C5183D9C55822465",
+      "unchanged": true
+    },
+    {
+      "path": "qa/v5-2-v16-prototype/stage2/seam-continuity.json",
+      "before": "6B830F3EB6353793AE76DBECCF82704F9176D0FBC63A8532C78F5DE4E7FFE157",
+      "after": "6B830F3EB6353793AE76DBECCF82704F9176D0FBC63A8532C78F5DE4E7FFE157",
+      "unchanged": true
+    },
+    {
+      "path": "qa/v5-2-v16-prototype/stage2/symmetry.json",
+      "before": "80AA91A25DF38E0B7252F1B2DF1AEBCB4D4C69769688F5C21FECEA3A05BE51C4",
+      "after": "80AA91A25DF38E0B7252F1B2DF1AEBCB4D4C69769688F5C21FECEA3A05BE51C4",
+      "unchanged": true
+    },
+    {
+      "path": "qa/v5-2-v16-prototype/stage2/topology-quality.json",
+      "before": "0CEFBB0E8412F0E3D6971ABBCCA98D682E48DD9584904283A329027A7E2F008E",
+      "after": "0CEFBB0E8412F0E3D6971ABBCCA98D682E48DD9584904283A329027A7E2F008E",
+      "unchanged": true
+    },
+    {
+      "path": "qa/v5-2-v16-prototype/stage2/uv-sanity.json",
+      "before": "6FA439DD8826F39A3534CF3543B68FE62283FECE66C3668FDE89C30D5BDD6B2F",
+      "after": "6FA439DD8826F39A3534CF3543B68FE62283FECE66C3668FDE89C30D5BDD6B2F",
+      "unchanged": true
+    },
+    {
+      "path": "qa/v5-2-v16-prototype/stage2/V16-STAGE2-NEUTRAL-PHENOTYPE-QA.md",
+      "before": "EF9309B90B7C53FEE2AED901784B48F409489E98280222B1AFEB1A5ACA6F5982",
+      "after": "EF9309B90B7C53FEE2AED901784B48F409489E98280222B1AFEB1A5ACA6F5982",
+      "unchanged": true
+    },
+    {
+      "path": "qa/v5-2-v16-prototype/stage2/vertex-group-sanity.json",
+      "before": "F23A6CA556BD8B30AF0BDA8D36CA03ED688F8FEC63A579B0760DE743C136F677",
+      "after": "F23A6CA556BD8B30AF0BDA8D36CA03ED688F8FEC63A579B0760DE743C136F677",
+      "unchanged": true
+    },
+    {
+      "path": "qa/v5-2-v16-prototype/stage2/visual/basis-axilla.png",
+      "before": "A4AD1F2D285B64625788EC7D11CE0F412A8B4E3B6C6F8B4B7E150B6C07C38E05",
+      "after": "A4AD1F2D285B64625788EC7D11CE0F412A8B4E3B6C6F8B4B7E150B6C07C38E05",
+      "unchanged": true
+    },
+    {
+      "path": "qa/v5-2-v16-prototype/stage2/visual/basis-uniform-shaded.png",
+      "before": "0E624B41076D2EEBD3910CF8EBC564395A007F75680EBA7A09B667BAAC372F8E",
+      "after": "0E624B41076D2EEBD3910CF8EBC564395A007F75680EBA7A09B667BAAC372F8E",
+      "unchanged": true
+    },
+    {
+      "path": "qa/v5-2-v16-prototype/stage2/visual/basis-whole-body.png",
+      "before": "F0F76EC1440ACDA6FA8DAE3C3D15C6A8C1377E928C83351F7FCCA2032C9EEFAE",
+      "after": "F0F76EC1440ACDA6FA8DAE3C3D15C6A8C1377E928C83351F7FCCA2032C9EEFAE",
+      "unchanged": true
+    },
+    {
+      "path": "qa/v5-2-v16-prototype/stage2/visual/height-160-neutral-axilla.png",
+      "before": "B0B4673657D0C6CF3472C51A5B590ED2B7CC7077C20A6A6F86B3926E15861FB8",
+      "after": "B0B4673657D0C6CF3472C51A5B590ED2B7CC7077C20A6A6F86B3926E15861FB8",
+      "unchanged": true
+    },
+    {
+      "path": "qa/v5-2-v16-prototype/stage2/visual/height-160-neutral-uniform-shaded.png",
+      "before": "AE70A5EB14E242DDB444CDB1AE47610BD8A3B58443DBE668E66AB427A30F0586",
+      "after": "AE70A5EB14E242DDB444CDB1AE47610BD8A3B58443DBE668E66AB427A30F0586",
+      "unchanged": true
+    },
+    {
+      "path": "qa/v5-2-v16-prototype/stage2/visual/height-160-neutral-whole-body.png",
+      "before": "41A76CF1D5291196B7C98B6405E90960E89CCC0B047EC1E1E90398DDA93D4926",
+      "after": "41A76CF1D5291196B7C98B6405E90960E89CCC0B047EC1E1E90398DDA93D4926",
+      "unchanged": true
+    },
+    {
+      "path": "qa/v5-2-v16-prototype/stage2/visual/height-190-neutral-axilla.png",
+      "before": "022AA549253C4E9D4E17B2087BA1D4A36FAD595FF9CE95D4028C5218BFB26A0D",
+      "after": "022AA549253C4E9D4E17B2087BA1D4A36FAD595FF9CE95D4028C5218BFB26A0D",
+      "unchanged": true
+    },
+    {
+      "path": "qa/v5-2-v16-prototype/stage2/visual/height-190-neutral-uniform-shaded.png",
+      "before": "A89447E62393E597AFBEFB71522787316901F352BD6DC46E4812E200DFE5E639",
+      "after": "A89447E62393E597AFBEFB71522787316901F352BD6DC46E4812E200DFE5E639",
+      "unchanged": true
+    },
+    {
+      "path": "qa/v5-2-v16-prototype/stage2/visual/height-190-neutral-whole-body.png",
+      "before": "F835EF6D0F571E83274EAF794326D2BCB8F7055E6C9F4E479C5CEB92E6F2E67C",
+      "after": "F835EF6D0F571E83274EAF794326D2BCB8F7055E6C9F4E479C5CEB92E6F2E67C",
+      "unchanged": true
+    },
+    {
+      "path": "qa/v5-2-v16-prototype/stage2/visual/phenotype-1-axilla.png",
+      "before": "E8A4257E01C31D40C172982F607269532521E7C37FB8C2808026C90727C773DA",
+      "after": "E8A4257E01C31D40C172982F607269532521E7C37FB8C2808026C90727C773DA",
+      "unchanged": true
+    },
+    {
+      "path": "qa/v5-2-v16-prototype/stage2/visual/phenotype-1-uniform-shaded.png",
+      "before": "11BF536556AF0B6FE414BC0EE5F6FDC1E883CF0250CC2725291BA01DD36BAAF2",
+      "after": "11BF536556AF0B6FE414BC0EE5F6FDC1E883CF0250CC2725291BA01DD36BAAF2",
+      "unchanged": true
+    },
+    {
+      "path": "qa/v5-2-v16-prototype/stage2/visual/phenotype-1-whole-body.png",
+      "before": "8ADF4E0A64CB50E21C8DC38A14663A97B962DCAEE85B915AA8E3056FC76F7C36",
+      "after": "8ADF4E0A64CB50E21C8DC38A14663A97B962DCAEE85B915AA8E3056FC76F7C36",
+      "unchanged": true
+    },
+    {
+      "path": "qa/v5-2-v16-prototype/stage2/visual/phenotype-2-axilla.png",
+      "before": "B83419C2896EA95FD2B6035DE0F81076B749325D1CE0201EC2E150B0D82A1E4B",
+      "after": "B83419C2896EA95FD2B6035DE0F81076B749325D1CE0201EC2E150B0D82A1E4B",
+      "unchanged": true
+    },
+    {
+      "path": "qa/v5-2-v16-prototype/stage2/visual/phenotype-2-uniform-shaded.png",
+      "before": "5A2DEAC375D9CC8596E3DA48C656D1F19DDB0D339877D15DF68CBAC9CE90738D",
+      "after": "5A2DEAC375D9CC8596E3DA48C656D1F19DDB0D339877D15DF68CBAC9CE90738D",
+      "unchanged": true
+    },
+    {
+      "path": "qa/v5-2-v16-prototype/stage2/visual/phenotype-2-whole-body.png",
+      "before": "F98053190C44233F1524C7F071EC824E070EC00BCBC3E6DFC3E9F14AAABCD6F9",
+      "after": "F98053190C44233F1524C7F071EC824E070EC00BCBC3E6DFC3E9F14AAABCD6F9",
+      "unchanged": true
+    },
+    {
+      "path": "qa/v5-2-v16-prototype/stage2/visual/phenotype-3-axilla.png",
+      "before": "39D0C43E4AEE7B071CF99C7EE684CDD874BC0E50F6B5BEBA7DBBD55B7BA97ECF",
+      "after": "39D0C43E4AEE7B071CF99C7EE684CDD874BC0E50F6B5BEBA7DBBD55B7BA97ECF",
+      "unchanged": true
+    },
+    {
+      "path": "qa/v5-2-v16-prototype/stage2/visual/phenotype-3-uniform-shaded.png",
+      "before": "AB417E5B39FCD38E704A08E5E133CFEF2E95DB4F3BD6F049B9A2DFABD56306B1",
+      "after": "AB417E5B39FCD38E704A08E5E133CFEF2E95DB4F3BD6F049B9A2DFABD56306B1",
+      "unchanged": true
+    },
+    {
+      "path": "qa/v5-2-v16-prototype/stage2/visual/phenotype-3-whole-body.png",
+      "before": "BAA70D657ECF885EDE36B2DAD12AFB12358CD108E818568ADD914DE6D4E57E7B",
+      "after": "BAA70D657ECF885EDE36B2DAD12AFB12358CD108E818568ADD914DE6D4E57E7B",
+      "unchanged": true
+    },
+    {
+      "path": "qa/v5-2-v16-prototype/stage2/visual/phenotype-4-axilla.png",
+      "before": "CDE0072F9135C4235C7B8AED67F497D4A175A7D45DE7D4244003E2C2FA41C767",
+      "after": "CDE0072F9135C4235C7B8AED67F497D4A175A7D45DE7D4244003E2C2FA41C767",
+      "unchanged": true
+    },
+    {
+      "path": "qa/v5-2-v16-prototype/stage2/visual/phenotype-4-uniform-shaded.png",
+      "before": "9BE9E336B6B8A768608378EA0EABCDD226770F90DC2BCA73D89040382B7DEBDE",
+      "after": "9BE9E336B6B8A768608378EA0EABCDD226770F90DC2BCA73D89040382B7DEBDE",
+      "unchanged": true
+    },
+    {
+      "path": "qa/v5-2-v16-prototype/stage2/visual/phenotype-4-whole-body.png",
+      "before": "E032FA88B5869B0F22095DC6AED8A86A00A8EF2F8113B4A650859A3F541A70D8",
+      "after": "E032FA88B5869B0F22095DC6AED8A86A00A8EF2F8113B4A650859A3F541A70D8",
+      "unchanged": true
+    },
+    {
+      "path": "qa/v5-2-v16-prototype/stage2/visual/production-neutral-axilla.png",
+      "before": "56B7C0B965E7A4918A0516D339E2916B5463B262B97A4BD27D8120279DE516C7",
+      "after": "56B7C0B965E7A4918A0516D339E2916B5463B262B97A4BD27D8120279DE516C7",
+      "unchanged": true
+    },
+    {
+      "path": "qa/v5-2-v16-prototype/stage2/visual/production-neutral-uniform-shaded.png",
+      "before": "CF217D39ED24C4787B58ACE24049CA8C68E60C4D17ECAA5ACE6D528F7F225AF2",
+      "after": "CF217D39ED24C4787B58ACE24049CA8C68E60C4D17ECAA5ACE6D528F7F225AF2",
+      "unchanged": true
+    },
+    {
+      "path": "qa/v5-2-v16-prototype/stage2/visual/production-neutral-whole-body.png",
+      "before": "5849445FB8B4846D882730CAAA77C07F432DBCD7B38CD1C8E7C7BF43E40E7D83",
+      "after": "5849445FB8B4846D882730CAAA77C07F432DBCD7B38CD1C8E7C7BF43E40E7D83",
+      "unchanged": true
+    },
+    {
+      "path": "qa/v5-2-v16-prototype/stage2-1-seam/candidate-regression.json",
+      "before": "AED3CAC313F43A69FDA04ECF57754B3A7C202A444F266A7B8CEAF5C1A54C7821",
+      "after": "AED3CAC313F43A69FDA04ECF57754B3A7C202A444F266A7B8CEAF5C1A54C7821",
+      "unchanged": true
+    },
+    {
+      "path": "qa/v5-2-v16-prototype/stage2-1-seam/candidate_study.py",
+      "before": "F424AA8ED93248DB5EDA3A9E016FF40E7C3AF51EAE45152A53F5DF444D9ED657",
+      "after": "F424AA8ED93248DB5EDA3A9E016FF40E7C3AF51EAE45152A53F5DF444D9ED657",
+      "unchanged": true
+    },
+    {
+      "path": "qa/v5-2-v16-prototype/stage2-1-seam/near-collinear-quad.json",
+      "before": "27213550FC3D57C8D0E0BB10F47A68571E5CFF2C5E29AA5E60220DAD3FE13388",
+      "after": "27213550FC3D57C8D0E0BB10F47A68571E5CFF2C5E29AA5E60220DAD3FE13388",
+      "unchanged": true
+    },
+    {
+      "path": "qa/v5-2-v16-prototype/stage2-1-seam/render_focus.py",
+      "before": "C91E334BD2F1ACB8F862689CBBE20172724ACA66177AF113A8441549ADEC51A2",
+      "after": "C91E334BD2F1ACB8F862689CBBE20172724ACA66177AF113A8441549ADEC51A2",
+      "unchanged": true
+    },
+    {
+      "path": "qa/v5-2-v16-prototype/stage2-1-seam/seam-cleanup-candidates.json",
+      "before": "88BF8D3B0A6F7BDA1FA0692C753469CAEE21CBED2A9794298DA6FB63C5D720A0",
+      "after": "88BF8D3B0A6F7BDA1FA0692C753469CAEE21CBED2A9794298DA6FB63C5D720A0",
+      "unchanged": true
+    },
+    {
+      "path": "qa/v5-2-v16-prototype/stage2-1-seam/seam-distribution.json",
+      "before": "6E38F23E630161B7554A6A2DFE460C9D953B3ACD435E49C8A163BD5B8D26689E",
+      "after": "6E38F23E630161B7554A6A2DFE460C9D953B3ACD435E49C8A163BD5B8D26689E",
+      "unchanged": true
+    },
+    {
+      "path": "qa/v5-2-v16-prototype/stage2-1-seam/seam-outliers.json",
+      "before": "1653708FD8DED4391DEF45FCBDB7DE686279B508A8D605C3C5B5CB0DFC63EFB0",
+      "after": "1653708FD8DED4391DEF45FCBDB7DE686279B508A8D605C3C5B5CB0DFC63EFB0",
+      "unchanged": true
+    },
+    {
+      "path": "qa/v5-2-v16-prototype/stage2-1-seam/seam_inspection.py",
+      "before": "60410D3BEAFBEB769583A73E0B301663F91AAF43357C3B2C3A5A7B86779F9976",
+      "after": "60410D3BEAFBEB769583A73E0B301663F91AAF43357C3B2C3A5A7B86779F9976",
+      "unchanged": true
+    },
+    {
+      "path": "qa/v5-2-v16-prototype/stage2-1-seam/V16-STAGE2-1-SEAM-STUDY.md",
+      "before": "E49D094A6A413FF7C8CFA036893376CA7F0C0691F93B9567EC2ADBCED57552C0",
+      "after": "E49D094A6A413FF7C8CFA036893376CA7F0C0691F93B9567EC2ADBCED57552C0",
+      "unchanged": true
+    },
+    {
+      "path": "qa/v5-2-v16-prototype/stage2-1-seam/visual/left-max-angle-edge.png",
+      "before": "1AE368F717610B9EE9521A28D9EC48FE9CD4DE7CCDD93A2D8167DFE88D78BADF",
+      "after": "1AE368F717610B9EE9521A28D9EC48FE9CD4DE7CCDD93A2D8167DFE88D78BADF",
+      "unchanged": true
+    },
+    {
+      "path": "qa/v5-2-v16-prototype/stage2-1-seam/visual/left-max-delta-edge.png",
+      "before": "B6588B637DE10F74CADFA0113F0F47D8DD9985E97CA481BD736D410F8539C18C",
+      "after": "B6588B637DE10F74CADFA0113F0F47D8DD9985E97CA481BD736D410F8539C18C",
+      "unchanged": true
+    },
+    {
+      "path": "qa/v5-2-v16-prototype/stage2-1-seam/visual/left-near-collinear-quad.png",
+      "before": "4949DFFD4E234E0BEAC1467C33D235D42FCE8E9DAFCB5EE21FEB350285BC33FE",
+      "after": "4949DFFD4E234E0BEAC1467C33D235D42FCE8E9DAFCB5EE21FEB350285BC33FE",
+      "unchanged": true
+    },
+    {
+      "path": "qa/v5-2-v16-prototype/stage2-1-seam/visual/right-max-angle-edge.png",
+      "before": "D8EC8949CF2B185F068BC2F8F124064B254C7F188F782BF4223AED4FA71FEA83",
+      "after": "D8EC8949CF2B185F068BC2F8F124064B254C7F188F782BF4223AED4FA71FEA83",
+      "unchanged": true
+    },
+    {
+      "path": "qa/v5-2-v16-prototype/stage2-1-seam/visual/right-max-delta-edge.png",
+      "before": "6EC25F6545E97EFEEC596C87802557D76BA2E6B5B97A3442D13B34B6CA4F1690",
+      "after": "6EC25F6545E97EFEEC596C87802557D76BA2E6B5B97A3442D13B34B6CA4F1690",
+      "unchanged": true
+    },
+    {
+      "path": "qa/v5-2-v16-prototype/stage2-1-seam/visual/right-near-collinear-quad.png",
+      "before": "90A1E26CF459C8112317A344D7F5B584CCD087CFB8D2F98C5D658C2B0AF06D82",
+      "after": "90A1E26CF459C8112317A344D7F5B584CCD087CFB8D2F98C5D658C2B0AF06D82",
+      "unchanged": true
+    },
+    {
+      "path": "qa/v5-2-v16-prototype/stage3-chest-remorph/assemble_stage3.py",
+      "before": "BFD1402042A728CA5840C931E4A5A7CB6B38662E4D41DED19506AAA9416BA3FB",
+      "after": "BFD1402042A728CA5840C931E4A5A7CB6B38662E4D41DED19506AAA9416BA3FB",
+      "unchanged": true
+    },
+    {
+      "path": "qa/v5-2-v16-prototype/stage3-chest-remorph/baseline_crossings.py",
+      "before": "226145691556E2D864BB37C32BA33DEE3CC449B604E2E2D76D8E6632CFB876A4",
+      "after": "226145691556E2D864BB37C32BA33DEE3CC449B604E2E2D76D8E6632CFB876A4",
+      "unchanged": true
+    },
+    {
+      "path": "qa/v5-2-v16-prototype/stage3-chest-remorph/best_regression.py",
+      "before": "F95A7498E13E2FFFDF2D18F33DA06455E16B9A6DA95EE612BF157F139B3A7137",
+      "after": "F95A7498E13E2FFFDF2D18F33DA06455E16B9A6DA95EE612BF157F139B3A7137",
+      "unchanged": true
+    },
+    {
+      "path": "qa/v5-2-v16-prototype/stage3-chest-remorph/candidate_research.py",
+      "before": "A366C117F3AA81410B57985751B060657A7D82A802FACBF0BA3A18E164C0E093",
+      "after": "A366C117F3AA81410B57985751B060657A7D82A802FACBF0BA3A18E164C0E093",
+      "unchanged": true
+    },
+    {
+      "path": "qa/v5-2-v16-prototype/stage3-chest-remorph/chest-curve-sanity.json",
+      "before": "AB4D21FB6325DCD003A33AA27F9DE00F50A7484FB2C170DBA57CACCE5F5157CF",
+      "after": "AB4D21FB6325DCD003A33AA27F9DE00F50A7484FB2C170DBA57CACCE5F5157CF",
+      "unchanged": true
+    },
+    {
+      "path": "qa/v5-2-v16-prototype/stage3-chest-remorph/chest-failure-network.json",
+      "before": "340B4DADB0DD1C132B6861050FB623292FFC81C5F50454FD7FB84DDB0D32E364",
+      "after": "340B4DADB0DD1C132B6861050FB623292FFC81C5F50454FD7FB84DDB0D32E364",
+      "unchanged": true
+    },
+    {
+      "path": "qa/v5-2-v16-prototype/stage3-chest-remorph/chest-remorph-candidates.json",
+      "before": "618099D030FEBD14D0FAC1FCC2EE2B9610227E111AC7823F7623760E30C92797",
+      "after": "618099D030FEBD14D0FAC1FCC2EE2B9610227E111AC7823F7623760E30C92797",
+      "unchanged": true
+    },
+    {
+      "path": "qa/v5-2-v16-prototype/stage3-chest-remorph/cross-state-results.json",
+      "before": "489EA4C088E4689E507758CBC9FEC4F2CF0A2E1F45E6D209310DBEFF4495AF4E",
+      "after": "489EA4C088E4689E507758CBC9FEC4F2CF0A2E1F45E6D209310DBEFF4495AF4E",
+      "unchanged": true
+    },
+    {
+      "path": "qa/v5-2-v16-prototype/stage3-chest-remorph/geometry-quality.json",
+      "before": "4C80A4A59C07B6892F511C6F56682EF15B5EE2402C909737A9F2A119894686E4",
+      "after": "4C80A4A59C07B6892F511C6F56682EF15B5EE2402C909737A9F2A119894686E4",
+      "unchanged": true
+    },
+    {
+      "path": "qa/v5-2-v16-prototype/stage3-chest-remorph/measurement-impact.json",
+      "before": "028127D52C33981D5E1EA3C1F3A284BB80AA846741E88219DD7C78766CD09A1B",
+      "after": "028127D52C33981D5E1EA3C1F3A284BB80AA846741E88219DD7C78766CD09A1B",
+      "unchanged": true
+    },
+    {
+      "path": "qa/v5-2-v16-prototype/stage3-chest-remorph/phenotype-height-regression.json",
+      "before": "CCEE5AD8D2A80405BFFF4E9B74A3078AFF5FD42931BFFA66D003A879CE362901",
+      "after": "CCEE5AD8D2A80405BFFF4E9B74A3078AFF5FD42931BFFA66D003A879CE362901",
+      "unchanged": true
+    },
+    {
+      "path": "qa/v5-2-v16-prototype/stage3-chest-remorph/render_candidates.py",
+      "before": "D0FD594980ADA11B0A9F72A9D30DB0AF8AEC1B264C76FFB3C9A549E282045590",
+      "after": "D0FD594980ADA11B0A9F72A9D30DB0AF8AEC1B264C76FFB3C9A549E282045590",
+      "unchanged": true
+    },
+    {
+      "path": "qa/v5-2-v16-prototype/stage3-chest-remorph/v16-baseline-crossings.json",
+      "before": "2F06F9EF84CC6EF93AFDF7F8EACD9BA6518E9E0DF25A0F77FA7D30D09F7EC083",
+      "after": "2F06F9EF84CC6EF93AFDF7F8EACD9BA6518E9E0DF25A0F77FA7D30D09F7EC083",
+      "unchanged": true
+    },
+    {
+      "path": "qa/v5-2-v16-prototype/stage3-chest-remorph/V16-STAGE3-CHEST-REMORPH-STUDY.md",
+      "before": "DDB6E3BA59CD4E2156406F8E31E59323E977C4339F725D42A50E92F485B089BF",
+      "after": "DDB6E3BA59CD4E2156406F8E31E59323E977C4339F725D42A50E92F485B089BF",
+      "unchanged": true
+    },
+    {
+      "path": "qa/v5-2-v16-prototype/stage3-chest-remorph/visual/ch-0-identity-reference-a-comparison.png",
+      "before": "4111B43B4D899D768BB8076AEACC572B67B8CEF6427A977A91D6DC69EFDF907B",
+      "after": "4111B43B4D899D768BB8076AEACC572B67B8CEF6427A977A91D6DC69EFDF907B",
+      "unchanged": true
+    },
+    {
+      "path": "qa/v5-2-v16-prototype/stage3-chest-remorph/visual/ch-a-reference-a-comparison.png",
+      "before": "E5A36249EFC70756B03E077F8B5A85B14BE72782FD47FC68BD2B593C225D4104",
+      "after": "E5A36249EFC70756B03E077F8B5A85B14BE72782FD47FC68BD2B593C225D4104",
+      "unchanged": true
+    },
+    {
+      "path": "qa/v5-2-v16-prototype/stage3-chest-remorph/visual/ch-b-reference-a-comparison.png",
+      "before": "10C1817C99DC8DEEAB7A5BDCCA1D86395292936EA64DF5E6C1CF3D6016FFAE7E",
+      "after": "10C1817C99DC8DEEAB7A5BDCCA1D86395292936EA64DF5E6C1CF3D6016FFAE7E",
+      "unchanged": true
+    },
+    {
+      "path": "qa/v5-2-v16-prototype/stage3-chest-remorph/visual/ch-c-reference-a-comparison.png",
+      "before": "4A2398604ABE4B1D201396EBC16F00929CDCCD5FC3D80F3F6E6178909AB2D024",
+      "after": "4A2398604ABE4B1D201396EBC16F00929CDCCD5FC3D80F3F6E6178909AB2D024",
+      "unchanged": true
+    },
+    {
+      "path": "qa/v5-2-v16-prototype/stage3-chest-remorph/visual/ch-d-reference-a-comparison.png",
+      "before": "DB6A7B9E110EBB1F6FB3562F04F1A55A390E3599ACE6D0A36200779D491BE93F",
+      "after": "DB6A7B9E110EBB1F6FB3562F04F1A55A390E3599ACE6D0A36200779D491BE93F",
+      "unchanged": true
+    },
+    {
+      "path": "qa/v5-2-v16-prototype/stage4-1-coupled-inner-fold/b-coupled-failure-network.json",
+      "before": "81F8C310A6D2894C635D194771B36B2362561420DF351E5A41129EA4BD6C64A4",
+      "after": "81F8C310A6D2894C635D194771B36B2362561420DF351E5A41129EA4BD6C64A4",
+      "unchanged": true
+    },
+    {
+      "path": "qa/v5-2-v16-prototype/stage4-1-coupled-inner-fold/chest-arm-grid.json",
+      "before": "61670D7EF38F7CD2E5412F89DF166D0D66C6585A9FB690BEDC2470F259D601A4",
+      "after": "61670D7EF38F7CD2E5412F89DF166D0D66C6585A9FB690BEDC2470F259D601A4",
+      "unchanged": true
+    },
+    {
+      "path": "qa/v5-2-v16-prototype/stage4-1-coupled-inner-fold/corrective-fallback-feasibility.md",
+      "before": "0E2FAC6241B4CC9A64BA74B47481491CC1F67126E60A9D2357B5A12CA180BB8A",
+      "after": "0E2FAC6241B4CC9A64BA74B47481491CC1F67126E60A9D2357B5A12CA180BB8A",
+      "unchanged": true
+    },
+    {
+      "path": "qa/v5-2-v16-prototype/stage4-1-coupled-inner-fold/coupled-candidates.json",
+      "before": "2F7965B741D27C65EC21767D1AB967217B9B9F545213A69E992026BAF38EBB36",
+      "after": "2F7965B741D27C65EC21767D1AB967217B9B9F545213A69E992026BAF38EBB36",
+      "unchanged": true
+    },
+    {
+      "path": "qa/v5-2-v16-prototype/stage4-1-coupled-inner-fold/geometry-quality.json",
+      "before": "4FE29E4AA44904139DAA5E09D173C2904347184E3C4D6FECD8786316D50BBD48",
+      "after": "4FE29E4AA44904139DAA5E09D173C2904347184E3C4D6FECD8786316D50BBD48",
+      "unchanged": true
+    },
+    {
+      "path": "qa/v5-2-v16-prototype/stage4-1-coupled-inner-fold/measurement-impact.json",
+      "before": "72BEB7A95B99D40A6A6243F6F63A87697354B2CDC92DC07CA4C2B66C02FB6C89",
+      "after": "72BEB7A95B99D40A6A6243F6F63A87697354B2CDC92DC07CA4C2B66C02FB6C89",
+      "unchanged": true
+    },
+    {
+      "path": "qa/v5-2-v16-prototype/stage4-1-coupled-inner-fold/phenotype-regression.json",
+      "before": "5CD167570640B88E9B5F8A48618FB5A3AE699EBA06DE6614A1A66BFB1E4F355F",
+      "after": "5CD167570640B88E9B5F8A48618FB5A3AE699EBA06DE6614A1A66BFB1E4F355F",
+      "unchanged": true
+    },
+    {
+      "path": "qa/v5-2-v16-prototype/stage4-1-coupled-inner-fold/probe_coupled.py",
+      "before": "74D48B292864EC9ADFFB4766CEE087331EBFD9E017270FCE0F583A03FC4E5E44",
+      "after": "74D48B292864EC9ADFFB4766CEE087331EBFD9E017270FCE0F583A03FC4E5E44",
+      "unchanged": true
+    },
+    {
+      "path": "qa/v5-2-v16-prototype/stage4-1-coupled-inner-fold/render_stage4_1.py",
+      "before": "BD8B9BE93ED7801DA59B615F92A50C5BECE24E0001E6DE22FB2CDE75E2BC3836",
+      "after": "BD8B9BE93ED7801DA59B615F92A50C5BECE24E0001E6DE22FB2CDE75E2BC3836",
+      "unchanged": true
+    },
+    {
+      "path": "qa/v5-2-v16-prototype/stage4-1-coupled-inner-fold/stage4_1_analysis.py",
+      "before": "0D9086251D300008BD1B38F2D2606A5C87CCBF908EFEB9144D439EBD8C7BB6B9",
+      "after": "0D9086251D300008BD1B38F2D2606A5C87CCBF908EFEB9144D439EBD8C7BB6B9",
+      "unchanged": true
+    },
+    {
+      "path": "qa/v5-2-v16-prototype/stage4-1-coupled-inner-fold/V16-STAGE4-1-COUPLED-INNER-FOLD.md",
+      "before": "27A6017732D8522C82DC2F3109DE06EB3D0AD1D0B6FB3AC53292EE3281E80F44",
+      "after": "27A6017732D8522C82DC2F3109DE06EB3D0AD1D0B6FB3AC53292EE3281E80F44",
+      "unchanged": true
+    },
+    {
+      "path": "qa/v5-2-v16-prototype/stage4-1-coupled-inner-fold/visual/arm-only-h170-a1-transferred-vs-if-c.png",
+      "before": "D11C0C5BA0CE4CF6A36575AF4A7F38B7A55741C9C9AF4FD43A99E70CB37C937C",
+      "after": "D11C0C5BA0CE4CF6A36575AF4A7F38B7A55741C9C9AF4FD43A99E70CB37C937C",
+      "unchanged": true
+    },
+    {
+      "path": "qa/v5-2-v16-prototype/stage4-1-coupled-inner-fold/visual/chest-only-h170-c1-transferred-vs-if-c.png",
+      "before": "72E7598CDFF9C7B97AC2DE4CEB023157F45849EDFDBF87067E4B3E8CBF20BDFA",
+      "after": "72E7598CDFF9C7B97AC2DE4CEB023157F45849EDFDBF87067E4B3E8CBF20BDFA",
+      "unchanged": true
+    },
+    {
+      "path": "qa/v5-2-v16-prototype/stage4-1-coupled-inner-fold/visual/reference-b-transferred-vs-if-c.png",
+      "before": "BC0EE43B08D271562D7DF7506D5D2FD8B327B53FD1ED3774203924BCFFAEA3E1",
+      "after": "BC0EE43B08D271562D7DF7506D5D2FD8B327B53FD1ED3774203924BCFFAEA3E1",
+      "unchanged": true
+    },
+    {
+      "path": "qa/v5-2-v16-prototype/stage4-1-coupled-inner-fold/visual/reference-d-transferred-vs-if-c.png",
+      "before": "B2FD74777C0C916364D128383AF97A11D13492642A0DB6121AB9CED7330D19BB",
+      "after": "B2FD74777C0C916364D128383AF97A11D13492642A0DB6121AB9CED7330D19BB",
+      "unchanged": true
+    },
+    {
+      "path": "qa/v5-2-v16-prototype/stage4-1-coupled-inner-fold/visual/reference-e-transferred-vs-if-c.png",
+      "before": "3AEA75B84BFC6260F0500468531C527BC7C4F5B13FCDFE7372F1229FFC9AA970",
+      "after": "3AEA75B84BFC6260F0500468531C527BC7C4F5B13FCDFE7372F1229FFC9AA970",
+      "unchanged": true
+    },
+    {
+      "path": "qa/v5-2-v16-prototype/stage4-1-coupled-inner-fold/visual/worst-grid-h160-c1-a1-transferred-vs-if-c.png",
+      "before": "872C4756C31CE71F21DAA5BCB0657097C5BCA2F0051D3925CA2DF600C105C134",
+      "after": "872C4756C31CE71F21DAA5BCB0657097C5BCA2F0051D3925CA2DF600C105C134",
+      "unchanged": true
+    },
+    {
+      "path": "qa/v5-2-v16-prototype/stage4-arm-remorph/arm-remorph-candidates.json",
+      "before": "D68A52BDD79B0D48491BF4F76A272FFEE62E708A06358E2861F74572E3B3983D",
+      "after": "D68A52BDD79B0D48491BF4F76A272FFEE62E708A06358E2861F74572E3B3983D",
+      "unchanged": true
+    },
+    {
+      "path": "qa/v5-2-v16-prototype/stage4-arm-remorph/b-failure-network.json",
+      "before": "31DD26B9D4D13A8196845923CA2C8F85B0603D5B3E94FFEA6A37080C4506DABA",
+      "after": "31DD26B9D4D13A8196845923CA2C8F85B0603D5B3E94FFEA6A37080C4506DABA",
+      "unchanged": true
+    },
+    {
+      "path": "qa/v5-2-v16-prototype/stage4-arm-remorph/chest-arm-grid.json",
+      "before": "C2088D03D0E92BAEAF476438A00C05CEF2B7FA17D42BB8E4126EF7368FD40DAB",
+      "after": "C2088D03D0E92BAEAF476438A00C05CEF2B7FA17D42BB8E4126EF7368FD40DAB",
+      "unchanged": true
+    },
+    {
+      "path": "qa/v5-2-v16-prototype/stage4-arm-remorph/cross-state-results.json",
+      "before": "9D0811E48FA670F5CA25AAA1BE48563BFC6D6468E17E820902A4730FCD0BEFAA",
+      "after": "9D0811E48FA670F5CA25AAA1BE48563BFC6D6468E17E820902A4730FCD0BEFAA",
+      "unchanged": true
+    },
+    {
+      "path": "qa/v5-2-v16-prototype/stage4-arm-remorph/explore_arm.py",
+      "before": "C595F607054AE8D3FD41B6447CD47E4D30BF9998886EF8F5B238923846E3709A",
+      "after": "C595F607054AE8D3FD41B6447CD47E4D30BF9998886EF8F5B238923846E3709A",
+      "unchanged": true
+    },
+    {
+      "path": "qa/v5-2-v16-prototype/stage4-arm-remorph/geometry-quality.json",
+      "before": "37662E337C77ED25FF67627F7ED05DE590A3EDDDCFF8077264BA44BFA547D470",
+      "after": "37662E337C77ED25FF67627F7ED05DE590A3EDDDCFF8077264BA44BFA547D470",
+      "unchanged": true
+    },
+    {
+      "path": "qa/v5-2-v16-prototype/stage4-arm-remorph/measurement-impact.json",
+      "before": "CD09D1B8FE6804C2F83DB54BFC97C64BC36586498CE9765F9D1B5C973E9862D8",
+      "after": "CD09D1B8FE6804C2F83DB54BFC97C64BC36586498CE9765F9D1B5C973E9862D8",
+      "unchanged": true
+    },
+    {
+      "path": "qa/v5-2-v16-prototype/stage4-arm-remorph/phenotype-regression.json",
+      "before": "F628F3AB250DD9C6AE7848B04DEF642FE391F3ACEAD84255B21181143643F753",
+      "after": "F628F3AB250DD9C6AE7848B04DEF642FE391F3ACEAD84255B21181143643F753",
+      "unchanged": true
+    },
+    {
+      "path": "qa/v5-2-v16-prototype/stage4-arm-remorph/render_stage4.py",
+      "before": "E52FE2F812CF462FE6352DE28CE6D0214545C473A9580AA49AB97F63440E1766",
+      "after": "E52FE2F812CF462FE6352DE28CE6D0214545C473A9580AA49AB97F63440E1766",
+      "unchanged": true
+    },
+    {
+      "path": "qa/v5-2-v16-prototype/stage4-arm-remorph/stage4_analysis.py",
+      "before": "80741ACDFA46DBFE9779CE5DC2C04208DD29AB59080068ED6CFA38394C40A28D",
+      "after": "80741ACDFA46DBFE9779CE5DC2C04208DD29AB59080068ED6CFA38394C40A28D",
+      "unchanged": true
+    },
+    {
+      "path": "qa/v5-2-v16-prototype/stage4-arm-remorph/V16-STAGE4-ARM-REMORPH-STUDY.md",
+      "before": "C55553D642AE8A99AE6E09EFB4CA8BAD9AC832981AB62979889ABA47C54E37C6",
+      "after": "C55553D642AE8A99AE6E09EFB4CA8BAD9AC832981AB62979889ABA47C54E37C6",
+      "unchanged": true
+    },
+    {
+      "path": "qa/v5-2-v16-prototype/stage4-arm-remorph/visual/arm-isolated-h170-baseline-vs-ar-d.png",
+      "before": "1D9F7A0B8A5D4F2E8D69F857E66578C78BA0EAF0E059D075B590C95862093454",
+      "after": "1D9F7A0B8A5D4F2E8D69F857E66578C78BA0EAF0E059D075B590C95862093454",
+      "unchanged": true
+    },
+    {
+      "path": "qa/v5-2-v16-prototype/stage4-arm-remorph/visual/reference-b-baseline-vs-ar-d.png",
+      "before": "A73E2753B689037422A525EF5F01DF3BE3C56301B8BBBB3B6B32C1F598A86452",
+      "after": "A73E2753B689037422A525EF5F01DF3BE3C56301B8BBBB3B6B32C1F598A86452",
+      "unchanged": true
+    },
+    {
+      "path": "qa/v5-2-v16-prototype/stage4-arm-remorph/visual/reference-d-baseline-vs-ar-d.png",
+      "before": "1A79D381431D38CC987C115A5652C4CEA3CDCC1F5B7CA3C221BBA25F66567AD8",
+      "after": "1A79D381431D38CC987C115A5652C4CEA3CDCC1F5B7CA3C221BBA25F66567AD8",
+      "unchanged": true
+    },
+    {
+      "path": "qa/v5-2-v16-prototype/stage4-arm-remorph/visual/reference-e-baseline-vs-ar-d.png",
+      "before": "6E7A69BE12158E9BBF2AD11E4087735AC6201B1C9218EA852FAAD3768D22C8AA",
+      "after": "6E7A69BE12158E9BBF2AD11E4087735AC6201B1C9218EA852FAAD3768D22C8AA",
+      "unchanged": true
+    },
+    {
+      "path": "qa/v5-2-v16-prototype/stage4-arm-remorph/visual/worst-grid-h160-c1-a075-baseline-vs-ar-d.png",
+      "before": "B2F23CA8E222CF028C29F1C6D85195703B8AFAD53DC90E0EDCD9F73B0AB7B592",
+      "after": "B2F23CA8E222CF028C29F1C6D85195703B8AFAD53DC90E0EDCD9F73B0AB7B592",
+      "unchanged": true
+    },
+    {
+      "path": "qa/v5-2-v16-prototype/stage4-arm-remorph/__pycache__/explore_arm.cpython-311.pyc",
+      "before": "EB7B22E6E469F13EF946AF1E82B8C934EB4C3EAFAF5B71EE77C0AA6FB98BE3DB",
+      "after": "EB7B22E6E469F13EF946AF1E82B8C934EB4C3EAFAF5B71EE77C0AA6FB98BE3DB",
+      "unchanged": true
+    },
+    {
+      "path": "qa/v5-2-v16-prototype/stage5-corrective-feasibility/chest-arm-grid.json",
+      "before": "1F127C909F6B8FFC7FD414FC2531B762FE8FE3DFD05B7643F41A424315A1A286",
+      "after": "1F127C909F6B8FFC7FD414FC2531B762FE8FE3DFD05B7643F41A424315A1A286",
+      "unchanged": true
+    },
+    {
+      "path": "qa/v5-2-v16-prototype/stage5-corrective-feasibility/corrective-candidates.json",
+      "before": "EE79D4B1BA39FC8F79F7F2DD514D12E8C0C3FEB9D532EC3F8BC6E781A34F5447",
+      "after": "EE79D4B1BA39FC8F79F7F2DD514D12E8C0C3FEB9D532EC3F8BC6E781A34F5447",
+      "unchanged": true
+    },
+    {
+      "path": "qa/v5-2-v16-prototype/stage5-corrective-feasibility/corrective-failure-network.json",
+      "before": "98DE2BDF10D36E89162BBC324F27906960A3AECEA747B49AC6338B72A2725C5A",
+      "after": "98DE2BDF10D36E89162BBC324F27906960A3AECEA747B49AC6338B72A2725C5A",
+      "unchanged": true
+    },
+    {
+      "path": "qa/v5-2-v16-prototype/stage5-corrective-feasibility/corrective-weight-study.json",
+      "before": "C4FDDC1C578254617195DCCE22E350434B260EAA531D07040637081D5FE47D13",
+      "after": "C4FDDC1C578254617195DCCE22E350434B260EAA531D07040637081D5FE47D13",
+      "unchanged": true
+    },
+    {
+      "path": "qa/v5-2-v16-prototype/stage5-corrective-feasibility/decision.json",
+      "before": "77FFD5922F12FA17CC75BE7DC9B35379CD22BE9FC12B45FFC0B0B3E76A83C74F",
+      "after": "77FFD5922F12FA17CC75BE7DC9B35379CD22BE9FC12B45FFC0B0B3E76A83C74F",
+      "unchanged": true
+    },
+    {
+      "path": "qa/v5-2-v16-prototype/stage5-corrective-feasibility/export-contract-impact.md",
+      "before": "79987B84562EA9712013BF7F98443508D4958DB376AF343BE3154C9F81FE0677",
+      "after": "79987B84562EA9712013BF7F98443508D4958DB376AF343BE3154C9F81FE0677",
+      "unchanged": true
+    },
+    {
+      "path": "qa/v5-2-v16-prototype/stage5-corrective-feasibility/geometry-quality.json",
+      "before": "7823AE466D0F8EA5B9D15309E66AF1944AC1B913FA116854AC47EB75160BD989",
+      "after": "7823AE466D0F8EA5B9D15309E66AF1944AC1B913FA116854AC47EB75160BD989",
+      "unchanged": true
+    },
+    {
+      "path": "qa/v5-2-v16-prototype/stage5-corrective-feasibility/measurement-impact.json",
+      "before": "5D42B62C6592D16B5DCB31A205B2B48C93C4E9C3A79998CF36D741D736DA77ED",
+      "after": "5D42B62C6592D16B5DCB31A205B2B48C93C4E9C3A79998CF36D741D736DA77ED",
+      "unchanged": true
+    },
+    {
+      "path": "qa/v5-2-v16-prototype/stage5-corrective-feasibility/partial-weight-safety.json",
+      "before": "CC39FE937AFBA35D59A559E995116EA6C23A289ED4B9D39EBE155583A5FCC8D8",
+      "after": "CC39FE937AFBA35D59A559E995116EA6C23A289ED4B9D39EBE155583A5FCC8D8",
+      "unchanged": true
+    },
+    {
+      "path": "qa/v5-2-v16-prototype/stage5-corrective-feasibility/phenotype-regression.json",
+      "before": "52DCB151AE6156E9313EF168C8DDB0FCA8671FBDCC6182AA568FF8C408AE07B5",
+      "after": "52DCB151AE6156E9313EF168C8DDB0FCA8671FBDCC6182AA568FF8C408AE07B5",
+      "unchanged": true
+    },
+    {
+      "path": "qa/v5-2-v16-prototype/stage5-corrective-feasibility/render_stage5.py",
+      "before": "123D2406EC3D7C82D01B58DB13F22671C424B320AF2666D32980CAF2FEC2B0A6",
+      "after": "123D2406EC3D7C82D01B58DB13F22671C424B320AF2666D32980CAF2FEC2B0A6",
+      "unchanged": true
+    },
+    {
+      "path": "qa/v5-2-v16-prototype/stage5-corrective-feasibility/runtime-architecture-impact.md",
+      "before": "DC1743E062A62A47A9EA82DF7E57BE3BC315E0A9751A104A7EEEFDBBFE5EA7C6",
+      "after": "DC1743E062A62A47A9EA82DF7E57BE3BC315E0A9751A104A7EEEFDBBFE5EA7C6",
+      "unchanged": true
+    },
+    {
+      "path": "qa/v5-2-v16-prototype/stage5-corrective-feasibility/shoulder-regression.json",
+      "before": "ADA8BEFB85F3379F4EA0DFAB3A73455D00C50BD86418E66620F6C2BE50363E4C",
+      "after": "ADA8BEFB85F3379F4EA0DFAB3A73455D00C50BD86418E66620F6C2BE50363E4C",
+      "unchanged": true
+    },
+    {
+      "path": "qa/v5-2-v16-prototype/stage5-corrective-feasibility/source-verification.json",
+      "before": "61D5C3F7E18A0D764BD17454622723141D859DD1B3400F863B6C890606BEF739",
+      "after": "61D5C3F7E18A0D764BD17454622723141D859DD1B3400F863B6C890606BEF739",
+      "unchanged": true
+    },
+    {
+      "path": "qa/v5-2-v16-prototype/stage5-corrective-feasibility/stage5_analysis.py",
+      "before": "93D585312919B7F2F8C895482C78E90A9166E17A16396186824DB43BA9862763",
+      "after": "93D585312919B7F2F8C895482C78E90A9166E17A16396186824DB43BA9862763",
+      "unchanged": true
+    },
+    {
+      "path": "qa/v5-2-v16-prototype/stage5-corrective-feasibility/V16-STAGE5-CHEST-ARM-CORRECTIVE-FEASIBILITY.md",
+      "before": "4A25EA18F6C2AA4A06B857DB6CC76E0B2436C11D2C062CD03BD704893C24F6AB",
+      "after": "4A25EA18F6C2AA4A06B857DB6CC76E0B2436C11D2C062CD03BD704893C24F6AB",
+      "unchanged": true
+    },
+    {
+      "path": "qa/v5-2-v16-prototype/stage5-corrective-feasibility/visual/B-h170-c1-a1-transferred-vs-corrective.png",
+      "before": "D8724E8FC4759D3256EF93BF184A4B8962327C1782DEFF593FC62D70194976ED",
+      "after": "D8724E8FC4759D3256EF93BF184A4B8962327C1782DEFF593FC62D70194976ED",
+      "unchanged": true
+    },
+    {
+      "path": "qa/v5-2-v16-prototype/stage5-corrective-feasibility/visual/D-h180-c075-a1-transferred-vs-corrective.png",
+      "before": "6B9BB4AB4B573A7DBB7EFC32E61B5E9590898D84D60A89A483EEC8DE18D5EEA8",
+      "after": "6B9BB4AB4B573A7DBB7EFC32E61B5E9590898D84D60A89A483EEC8DE18D5EEA8",
+      "unchanged": true
+    },
+    {
+      "path": "qa/v5-2-v16-prototype/stage5-corrective-feasibility/visual/E-h190-c09-a1-transferred-vs-corrective.png",
+      "before": "8AB96B6F7E2E2DB4960E41AD3FE38B25A5014000B26EE97CFE3A3C319E606132",
+      "after": "8AB96B6F7E2E2DB4960E41AD3FE38B25A5014000B26EE97CFE3A3C319E606132",
+      "unchanged": true
+    },
+    {
+      "path": "qa/v5-2-v16-prototype/stage5-corrective-feasibility/visual/H160-c1-a025-transferred-vs-corrective.png",
+      "before": "87F14D26C4A1793C6DBB343F4939F24CDF3C668C109AC5584EC999D9FC0A94E4",
+      "after": "87F14D26C4A1793C6DBB343F4939F24CDF3C668C109AC5584EC999D9FC0A94E4",
+      "unchanged": true
+    },
+    {
+      "path": "qa/v5-2-v16-prototype/stage5-corrective-feasibility/visual/H160-c1-a05-transferred-vs-corrective.png",
+      "before": "B90A0007B201D6655FBBDD3DE549AFD6431504A7AD81D8FF0D911816AEFA7F69",
+      "after": "B90A0007B201D6655FBBDD3DE549AFD6431504A7AD81D8FF0D911816AEFA7F69",
+      "unchanged": true
+    },
+    {
+      "path": "qa/v5-2-v16-prototype/stage5-corrective-feasibility/visual/H160-c1-a075-transferred-vs-corrective.png",
+      "before": "9EDFE7A99F8587EBD1C7744EAE42ACD91E67302DF269E88A3D68082A7A10CB3E",
+      "after": "9EDFE7A99F8587EBD1C7744EAE42ACD91E67302DF269E88A3D68082A7A10CB3E",
+      "unchanged": true
+    },
+    {
+      "path": "qa/v5-2-v16-prototype/stage5-corrective-feasibility/visual/H160-c1-a1-transferred-vs-corrective.png",
+      "before": "F2A9CE2A5FA8A8CD6D10EFED797C7EE2D01D044283305BA8751A077ECA3B76D6",
+      "after": "F2A9CE2A5FA8A8CD6D10EFED797C7EE2D01D044283305BA8751A077ECA3B76D6",
+      "unchanged": true
+    },
+    {
+      "path": "qa/v5-2-v16-prototype/stage5-corrective-feasibility/visual/phenotype4-h170-c1-a1-transferred-vs-corrective.png",
+      "before": "0A3C736186A2DA2CB62DAB40E866B412DF93F265B6507CE4F0047CD71CA58F09",
+      "after": "0A3C736186A2DA2CB62DAB40E866B412DF93F265B6507CE4F0047CD71CA58F09",
+      "unchanged": true
+    },
+    {
+      "path": "qa/v5-2-v16-prototype/stage5-corrective-feasibility/__pycache__/stage5_analysis.cpython-311.pyc",
+      "before": "10333AA5892E649C9667794F2CE1D771562C500F74CCE900767B2CD4602736C7",
+      "after": "10333AA5892E649C9667794F2CE1D771562C500F74CCE900767B2CD4602736C7",
+      "unchanged": true
+    },
+    {
+      "path": "qa/v5-2-v16-prototype/structural-qa.json",
+      "before": "7526ECD0AA0C366778C61197CD23B68B07B7F3F418FC93B5D3F0212FA435D232",
+      "after": "7526ECD0AA0C366778C61197CD23B68B07B7F3F418FC93B5D3F0212FA435D232",
+      "unchanged": true
+    },
+    {
+      "path": "qa/v5-2-v16-prototype/uv-transfer-qa.json",
+      "before": "8670BD6BB70BEDD99EA1C3A1F552E3D6F46F8B6513B2ABB7B6CC69247850D1EA",
+      "after": "8670BD6BB70BEDD99EA1C3A1F552E3D6F46F8B6513B2ABB7B6CC69247850D1EA",
+      "unchanged": true
+    },
+    {
+      "path": "qa/v5-2-v16-prototype/V16-STAGE1-STRUCTURAL-REPORT.md",
+      "before": "BB712EC785DE88D4A50F139D1F9B8A4102C5879422F9CC7F640EDE21B05D6AAD",
+      "after": "BB712EC785DE88D4A50F139D1F9B8A4102C5879422F9CC7F640EDE21B05D6AAD",
+      "unchanged": true
+    },
+    {
+      "path": "qa/v5-2-v16-prototype/vertex-group-transfer-qa.json",
+      "before": "F4060B74A6672BA9EB50B21C61F235382625930A50CDD78917DD15BBFEC70082",
+      "after": "F4060B74A6672BA9EB50B21C61F235382625930A50CDD78917DD15BBFEC70082",
+      "unchanged": true
+    },
+    {
+      "path": "qa/v5-1-manual-axilla-iter03/compose_visual_comparisons.py",
+      "before": "24CC98A450DCFF513B962E7336B34EDAD8E67FCD179CC81F926EE46BD7B17014",
+      "after": "24CC98A450DCFF513B962E7336B34EDAD8E67FCD179CC81F926EE46BD7B17014",
+      "unchanged": true
+    },
+    {
+      "path": "qa/v5-1-manual-axilla-iter03/crossing-comparison.json",
+      "before": "C45D9937610109BCB93CBC9AA4DE5D1C727A1B9F7FA8508E30E2D3B8EBBEF405",
+      "after": "C45D9937610109BCB93CBC9AA4DE5D1C727A1B9F7FA8508E30E2D3B8EBBEF405",
+      "unchanged": true
+    },
+    {
+      "path": "qa/v5-1-manual-axilla-iter03/extract_blend_readonly.py",
+      "before": "2DF44C0060729C7AFC8CFC39867F691957A9013B873C97057F5D13140C20A7AE",
+      "after": "2DF44C0060729C7AFC8CFC39867F691957A9013B873C97057F5D13140C20A7AE",
+      "unchanged": true
+    },
+    {
+      "path": "qa/v5-1-manual-axilla-iter03/geometry-quality.json",
+      "before": "75F8FE870B23BF97BA4147DABF449B9546C330550BAF205DA8CCB634314D54DF",
+      "after": "75F8FE870B23BF97BA4147DABF449B9546C330550BAF205DA8CCB634314D54DF",
+      "unchanged": true
+    },
+    {
+      "path": "qa/v5-1-manual-axilla-iter03/ITER03-FAST-QA.md",
+      "before": "0FFD27A3801A9E9D22E692E4D408E71180B6D72C01537CA8420FB6F2D2B8020D",
+      "after": "0FFD27A3801A9E9D22E692E4D408E71180B6D72C01537CA8420FB6F2D2B8020D",
+      "unchanged": true
+    },
+    {
+      "path": "qa/v5-1-manual-axilla-iter03/measurement-drift.json",
+      "before": "B5CF8A3CE83C329EFC922D7CF1DC030E3B4883145D7AE6A4E7F797D9D05612AE",
+      "after": "B5CF8A3CE83C329EFC922D7CF1DC030E3B4883145D7AE6A4E7F797D9D05612AE",
+      "unchanged": true
+    },
+    {
+      "path": "qa/v5-1-manual-axilla-iter03/reload-body-male-v5-axilla-manual-rd-v15-iter03.chest.npy",
+      "before": "34E28F61A1ADC56FC84C81962778DA8EFF4B8B05AA0CEE4712A33864BB749081",
+      "after": "34E28F61A1ADC56FC84C81962778DA8EFF4B8B05AA0CEE4712A33864BB749081",
+      "unchanged": true
+    },
+    {
+      "path": "qa/v5-1-manual-axilla-iter03/reload-body-male-v5-axilla-manual-rd-v15-iter03.meta.json",
+      "before": "644D862D0170D21CC8C8C47C83F1179D3A13046CFEF644C5CF13D4890BFC22F3",
+      "after": "644D862D0170D21CC8C8C47C83F1179D3A13046CFEF644C5CF13D4890BFC22F3",
+      "unchanged": true
+    },
+    {
+      "path": "qa/v5-1-manual-axilla-iter03/reload-body-male-v5-bust-prototype-v14.chest.npy",
+      "before": "E66F1672DF5B60258A1ACA0D5EFDEB43320EE68EA199FA81B7EB63CE76390F6B",
+      "after": "E66F1672DF5B60258A1ACA0D5EFDEB43320EE68EA199FA81B7EB63CE76390F6B",
+      "unchanged": true
+    },
+    {
+      "path": "qa/v5-1-manual-axilla-iter03/reload-body-male-v5-bust-prototype-v14.meta.json",
+      "before": "02041717360BB52DA34072613E4EE32A23255AE4A8DB3C8606A056ED71BDDC04",
+      "after": "02041717360BB52DA34072613E4EE32A23255AE4A8DB3C8606A056ED71BDDC04",
+      "unchanged": true
+    },
+    {
+      "path": "qa/v5-1-manual-axilla-iter03/render_reference_states.py",
+      "before": "A82DE9BD0B8320FDA59315F74CA055EF033462BEB31FFB263A10837A428D9D47",
+      "after": "A82DE9BD0B8320FDA59315F74CA055EF033462BEB31FFB263A10837A428D9D47",
+      "unchanged": true
+    },
+    {
+      "path": "qa/v5-1-manual-axilla-iter03/run_iter03_fast_qa.py",
+      "before": "BFAF5D6456D59D263E3E4843C1A337742C934D010BF0A3516605A3EDB3AF8EC8",
+      "after": "BFAF5D6456D59D263E3E4843C1A337742C934D010BF0A3516605A3EDB3AF8EC8",
+      "unchanged": true
+    },
+    {
+      "path": "qa/v5-1-manual-axilla-iter03/visual/A-comparison.png",
+      "before": "155213729FD9761AA8E104BC032474573EBB85F83A9EA614503B60613D04A2B3",
+      "after": "155213729FD9761AA8E104BC032474573EBB85F83A9EA614503B60613D04A2B3",
+      "unchanged": true
+    },
+    {
+      "path": "qa/v5-1-manual-axilla-iter03/visual/B-comparison.png",
+      "before": "7CCE2F97B1D198F20A5895574F2B3FE3D34838981B7BDB19295377F22128873F",
+      "after": "7CCE2F97B1D198F20A5895574F2B3FE3D34838981B7BDB19295377F22128873F",
+      "unchanged": true
+    },
+    {
+      "path": "qa/v5-1-manual-axilla-iter03/visual/C-comparison.png",
+      "before": "8D90D774B64D8F172C05AEE5E49735DC628D3151684A29683A54CFBFA65C645E",
+      "after": "8D90D774B64D8F172C05AEE5E49735DC628D3151684A29683A54CFBFA65C645E",
+      "unchanged": true
+    },
+    {
+      "path": "qa/v5-1-manual-axilla-iter03/visual/D-comparison.png",
+      "before": "46CA7AAFCAC1760843E48B6D3B15A6D533A2ED7CAA8458E5F9F4B0ECB4DCE300",
+      "after": "46CA7AAFCAC1760843E48B6D3B15A6D533A2ED7CAA8458E5F9F4B0ECB4DCE300",
+      "unchanged": true
+    },
+    {
+      "path": "qa/v5-1-manual-axilla-iter03/visual/E-comparison.png",
+      "before": "CAA7597CEBBC0108F06473EFBAE9407FB4BD96630F50106F8810ECC174CE5624",
+      "after": "CAA7597CEBBC0108F06473EFBAE9407FB4BD96630F50106F8810ECC174CE5624",
+      "unchanged": true
+    },
+    {
+      "path": "qa/v5-1-manual-axilla-iter03/visual/rendered/reload-body-male-v5-axilla-manual-rd-v15-iter03/A-back.png",
+      "before": "624DFB787AC85CB23005E9FFC97173487D2402A76EB1BAF91FC778662A7E45DD",
+      "after": "624DFB787AC85CB23005E9FFC97173487D2402A76EB1BAF91FC778662A7E45DD",
+      "unchanged": true
+    },
+    {
+      "path": "qa/v5-1-manual-axilla-iter03/visual/rendered/reload-body-male-v5-axilla-manual-rd-v15-iter03/A-front.png",
+      "before": "75F84B368F489B5FA2B4E4F895F10D2D3C69C7C84530D1B1CEA3ED4BF88AF8A5",
+      "after": "75F84B368F489B5FA2B4E4F895F10D2D3C69C7C84530D1B1CEA3ED4BF88AF8A5",
+      "unchanged": true
+    },
+    {
+      "path": "qa/v5-1-manual-axilla-iter03/visual/rendered/reload-body-male-v5-axilla-manual-rd-v15-iter03/A-left-axilla.png",
+      "before": "FAB1F4C017D45CD4DC3A2E2F5573671EE9DCC845B2779B34AC77E1BF61E5AB14",
+      "after": "FAB1F4C017D45CD4DC3A2E2F5573671EE9DCC845B2779B34AC77E1BF61E5AB14",
+      "unchanged": true
+    },
+    {
+      "path": "qa/v5-1-manual-axilla-iter03/visual/rendered/reload-body-male-v5-axilla-manual-rd-v15-iter03/A-right-axilla.png",
+      "before": "D5459FDCBA921EA0D6F907C8DF27C6AF13BD87EDAA2EC5F16E4F6C90129318C9",
+      "after": "D5459FDCBA921EA0D6F907C8DF27C6AF13BD87EDAA2EC5F16E4F6C90129318C9",
+      "unchanged": true
+    },
+    {
+      "path": "qa/v5-1-manual-axilla-iter03/visual/rendered/reload-body-male-v5-axilla-manual-rd-v15-iter03/A-side.png",
+      "before": "6D00C59FF070E66C946BF0BA492477DDE83794AB9CF23183C7CBD42B612D319C",
+      "after": "6D00C59FF070E66C946BF0BA492477DDE83794AB9CF23183C7CBD42B612D319C",
+      "unchanged": true
+    },
+    {
+      "path": "qa/v5-1-manual-axilla-iter03/visual/rendered/reload-body-male-v5-axilla-manual-rd-v15-iter03/A-three-quarter.png",
+      "before": "A098489D096E7AB0032A9D49C4B1BE038CE84AC2F481FE7EAE7BAE25AF89312A",
+      "after": "A098489D096E7AB0032A9D49C4B1BE038CE84AC2F481FE7EAE7BAE25AF89312A",
+      "unchanged": true
+    },
+    {
+      "path": "qa/v5-1-manual-axilla-iter03/visual/rendered/reload-body-male-v5-axilla-manual-rd-v15-iter03/B-back.png",
+      "before": "587CA164F4943DFA8607BBD472876694CA9552E25AA6756A87DB9B1829D497DE",
+      "after": "587CA164F4943DFA8607BBD472876694CA9552E25AA6756A87DB9B1829D497DE",
+      "unchanged": true
+    },
+    {
+      "path": "qa/v5-1-manual-axilla-iter03/visual/rendered/reload-body-male-v5-axilla-manual-rd-v15-iter03/B-front.png",
+      "before": "D06C20931D52CBB6E7088C91569F596AB2829C2AA68DBFF6B5AF7760C8A4545B",
+      "after": "D06C20931D52CBB6E7088C91569F596AB2829C2AA68DBFF6B5AF7760C8A4545B",
+      "unchanged": true
+    },
+    {
+      "path": "qa/v5-1-manual-axilla-iter03/visual/rendered/reload-body-male-v5-axilla-manual-rd-v15-iter03/B-left-axilla.png",
+      "before": "DF8B7FDAA1FAFAA0388150AB1089692CE388D49F842BE519A8BCD3ECB43D8430",
+      "after": "DF8B7FDAA1FAFAA0388150AB1089692CE388D49F842BE519A8BCD3ECB43D8430",
+      "unchanged": true
+    },
+    {
+      "path": "qa/v5-1-manual-axilla-iter03/visual/rendered/reload-body-male-v5-axilla-manual-rd-v15-iter03/B-right-axilla.png",
+      "before": "9896DA906172C99C186902784211F6AA9CF57AE211878FB7EFC161FBC0A692C5",
+      "after": "9896DA906172C99C186902784211F6AA9CF57AE211878FB7EFC161FBC0A692C5",
+      "unchanged": true
+    },
+    {
+      "path": "qa/v5-1-manual-axilla-iter03/visual/rendered/reload-body-male-v5-axilla-manual-rd-v15-iter03/B-side.png",
+      "before": "011CBB9E43185913CBF070986F49AE42CF1A4CCA108BA137546E53BF6BCBA18B",
+      "after": "011CBB9E43185913CBF070986F49AE42CF1A4CCA108BA137546E53BF6BCBA18B",
+      "unchanged": true
+    },
+    {
+      "path": "qa/v5-1-manual-axilla-iter03/visual/rendered/reload-body-male-v5-axilla-manual-rd-v15-iter03/B-three-quarter.png",
+      "before": "041BBA55F06746D02BD1615D402432BFE140B6F977886C6A780341285015E262",
+      "after": "041BBA55F06746D02BD1615D402432BFE140B6F977886C6A780341285015E262",
+      "unchanged": true
+    },
+    {
+      "path": "qa/v5-1-manual-axilla-iter03/visual/rendered/reload-body-male-v5-axilla-manual-rd-v15-iter03/C-back.png",
+      "before": "C0F4C80438A1A3B262470606E0C70055AEA357AFB53F18BA3F3587AC48300820",
+      "after": "C0F4C80438A1A3B262470606E0C70055AEA357AFB53F18BA3F3587AC48300820",
+      "unchanged": true
+    },
+    {
+      "path": "qa/v5-1-manual-axilla-iter03/visual/rendered/reload-body-male-v5-axilla-manual-rd-v15-iter03/C-front.png",
+      "before": "9CEF76CA9AABA8843F08E83D86FC21CC10BDDFF4EF5029FF81047BDB8A11D8F9",
+      "after": "9CEF76CA9AABA8843F08E83D86FC21CC10BDDFF4EF5029FF81047BDB8A11D8F9",
+      "unchanged": true
+    },
+    {
+      "path": "qa/v5-1-manual-axilla-iter03/visual/rendered/reload-body-male-v5-axilla-manual-rd-v15-iter03/C-left-axilla.png",
+      "before": "938E91498D4C21BAE7DD5CF9F8319F3B1E44B8CE1C34386318E13484F4336730",
+      "after": "938E91498D4C21BAE7DD5CF9F8319F3B1E44B8CE1C34386318E13484F4336730",
+      "unchanged": true
+    },
+    {
+      "path": "qa/v5-1-manual-axilla-iter03/visual/rendered/reload-body-male-v5-axilla-manual-rd-v15-iter03/C-right-axilla.png",
+      "before": "356CF5586E11D169B062215761D0E6232F9E72CF5EF63BDDAD07066586263B98",
+      "after": "356CF5586E11D169B062215761D0E6232F9E72CF5EF63BDDAD07066586263B98",
+      "unchanged": true
+    },
+    {
+      "path": "qa/v5-1-manual-axilla-iter03/visual/rendered/reload-body-male-v5-axilla-manual-rd-v15-iter03/C-side.png",
+      "before": "06498A522960C66788EA2BA7DFB9FBB1D8AD3F62E0A8D811925DCD8EA3A30C5B",
+      "after": "06498A522960C66788EA2BA7DFB9FBB1D8AD3F62E0A8D811925DCD8EA3A30C5B",
+      "unchanged": true
+    },
+    {
+      "path": "qa/v5-1-manual-axilla-iter03/visual/rendered/reload-body-male-v5-axilla-manual-rd-v15-iter03/C-three-quarter.png",
+      "before": "6F54FA27F813D4CBAC584B876B07753902C020F0A70687714E8FCFFCE2CE4C18",
+      "after": "6F54FA27F813D4CBAC584B876B07753902C020F0A70687714E8FCFFCE2CE4C18",
+      "unchanged": true
+    },
+    {
+      "path": "qa/v5-1-manual-axilla-iter03/visual/rendered/reload-body-male-v5-axilla-manual-rd-v15-iter03/D-back.png",
+      "before": "3DF041F48480E89902DACE678ECE18637D85686C537992879B784579D49B165D",
+      "after": "3DF041F48480E89902DACE678ECE18637D85686C537992879B784579D49B165D",
+      "unchanged": true
+    },
+    {
+      "path": "qa/v5-1-manual-axilla-iter03/visual/rendered/reload-body-male-v5-axilla-manual-rd-v15-iter03/D-front.png",
+      "before": "4094FB3A7C9F899CF7D08AC86CFC6761903D1DA1803E820CDE0A2F7D03BF72C4",
+      "after": "4094FB3A7C9F899CF7D08AC86CFC6761903D1DA1803E820CDE0A2F7D03BF72C4",
+      "unchanged": true
+    },
+    {
+      "path": "qa/v5-1-manual-axilla-iter03/visual/rendered/reload-body-male-v5-axilla-manual-rd-v15-iter03/D-left-axilla.png",
+      "before": "31DC5FD561131A6EA477D3C5A75F6F5FE210A6446D408CD2C87C9A0CFCE3E793",
+      "after": "31DC5FD561131A6EA477D3C5A75F6F5FE210A6446D408CD2C87C9A0CFCE3E793",
+      "unchanged": true
+    },
+    {
+      "path": "qa/v5-1-manual-axilla-iter03/visual/rendered/reload-body-male-v5-axilla-manual-rd-v15-iter03/D-right-axilla.png",
+      "before": "8AC966B6C839233504BDB6A9AE0C2CA934670C678420436A854C3DA50E7087FD",
+      "after": "8AC966B6C839233504BDB6A9AE0C2CA934670C678420436A854C3DA50E7087FD",
+      "unchanged": true
+    },
+    {
+      "path": "qa/v5-1-manual-axilla-iter03/visual/rendered/reload-body-male-v5-axilla-manual-rd-v15-iter03/D-side.png",
+      "before": "99BBB2834915E7C21D55008BCE3A9A4FF026193ED16C44E3888969477AC3E715",
+      "after": "99BBB2834915E7C21D55008BCE3A9A4FF026193ED16C44E3888969477AC3E715",
+      "unchanged": true
+    },
+    {
+      "path": "qa/v5-1-manual-axilla-iter03/visual/rendered/reload-body-male-v5-axilla-manual-rd-v15-iter03/D-three-quarter.png",
+      "before": "C0C4CDCECE3A6B27BC7F9872905AF60D34ED874C47DAA53115452D9A436B9F8F",
+      "after": "C0C4CDCECE3A6B27BC7F9872905AF60D34ED874C47DAA53115452D9A436B9F8F",
+      "unchanged": true
+    },
+    {
+      "path": "qa/v5-1-manual-axilla-iter03/visual/rendered/reload-body-male-v5-axilla-manual-rd-v15-iter03/E-back.png",
+      "before": "237EAD9D53209C729BE645BA8170F606635C88A448F9F985BE51930579D63D6D",
+      "after": "237EAD9D53209C729BE645BA8170F606635C88A448F9F985BE51930579D63D6D",
+      "unchanged": true
+    },
+    {
+      "path": "qa/v5-1-manual-axilla-iter03/visual/rendered/reload-body-male-v5-axilla-manual-rd-v15-iter03/E-front.png",
+      "before": "17EFD21BE54F815BFE781064E7126215A21361F19EDE312AC3D4319C38CDB178",
+      "after": "17EFD21BE54F815BFE781064E7126215A21361F19EDE312AC3D4319C38CDB178",
+      "unchanged": true
+    },
+    {
+      "path": "qa/v5-1-manual-axilla-iter03/visual/rendered/reload-body-male-v5-axilla-manual-rd-v15-iter03/E-left-axilla.png",
+      "before": "BAEC23E461CF84A4709A17017C526EF1ECAEA4849E601C9863AB9FB05311127E",
+      "after": "BAEC23E461CF84A4709A17017C526EF1ECAEA4849E601C9863AB9FB05311127E",
+      "unchanged": true
+    },
+    {
+      "path": "qa/v5-1-manual-axilla-iter03/visual/rendered/reload-body-male-v5-axilla-manual-rd-v15-iter03/E-right-axilla.png",
+      "before": "A001AAE10B878FB41216FF3D9F04BF8E77DB383EA3E7B0A03C7ABAFBE1E077B3",
+      "after": "A001AAE10B878FB41216FF3D9F04BF8E77DB383EA3E7B0A03C7ABAFBE1E077B3",
+      "unchanged": true
+    },
+    {
+      "path": "qa/v5-1-manual-axilla-iter03/visual/rendered/reload-body-male-v5-axilla-manual-rd-v15-iter03/E-side.png",
+      "before": "811858DDD273F1734F6F039ADA07B5F5B7841AE145A02A18EEABF7724144F1CF",
+      "after": "811858DDD273F1734F6F039ADA07B5F5B7841AE145A02A18EEABF7724144F1CF",
+      "unchanged": true
+    },
+    {
+      "path": "qa/v5-1-manual-axilla-iter03/visual/rendered/reload-body-male-v5-axilla-manual-rd-v15-iter03/E-three-quarter.png",
+      "before": "CBD987B9A0E5200A0D4DB2A03A48688AA0DE184D8739243C1A73A19EF2735257",
+      "after": "CBD987B9A0E5200A0D4DB2A03A48688AA0DE184D8739243C1A73A19EF2735257",
+      "unchanged": true
+    },
+    {
+      "path": "qa/v5-1-manual-axilla-iter03/visual/rendered/reload-body-male-v5-bust-prototype-v14/A-back.png",
+      "before": "FEF6A7738084D8764F6AD7BD346FF5ADA1324D1E847D295D86228EEF52432B97",
+      "after": "FEF6A7738084D8764F6AD7BD346FF5ADA1324D1E847D295D86228EEF52432B97",
+      "unchanged": true
+    },
+    {
+      "path": "qa/v5-1-manual-axilla-iter03/visual/rendered/reload-body-male-v5-bust-prototype-v14/A-front.png",
+      "before": "C6ED5D4A599B896E5FB2A95D0D236C3AE669BF9EE8294099494798EC1CCDCAB6",
+      "after": "C6ED5D4A599B896E5FB2A95D0D236C3AE669BF9EE8294099494798EC1CCDCAB6",
+      "unchanged": true
+    },
+    {
+      "path": "qa/v5-1-manual-axilla-iter03/visual/rendered/reload-body-male-v5-bust-prototype-v14/A-left-axilla.png",
+      "before": "3D952266EED9BF03C45CF6DF3FBF85FEFEFD27062738E7A4788A03CC4FE82C76",
+      "after": "3D952266EED9BF03C45CF6DF3FBF85FEFEFD27062738E7A4788A03CC4FE82C76",
+      "unchanged": true
+    },
+    {
+      "path": "qa/v5-1-manual-axilla-iter03/visual/rendered/reload-body-male-v5-bust-prototype-v14/A-right-axilla.png",
+      "before": "21FD0D5EDF173FA543A814F97B59352B22C8738AEC4A862D447E9969C571D1EB",
+      "after": "21FD0D5EDF173FA543A814F97B59352B22C8738AEC4A862D447E9969C571D1EB",
+      "unchanged": true
+    },
+    {
+      "path": "qa/v5-1-manual-axilla-iter03/visual/rendered/reload-body-male-v5-bust-prototype-v14/A-side.png",
+      "before": "D03F3461F6FA57698EF4005650882B0E3F13771269F607D06C46690401980F31",
+      "after": "D03F3461F6FA57698EF4005650882B0E3F13771269F607D06C46690401980F31",
+      "unchanged": true
+    },
+    {
+      "path": "qa/v5-1-manual-axilla-iter03/visual/rendered/reload-body-male-v5-bust-prototype-v14/A-three-quarter.png",
+      "before": "D9D493C2FDE33522B2A97A4FE97D65CB5E077DD38473A7BD079C0FDF312A5547",
+      "after": "D9D493C2FDE33522B2A97A4FE97D65CB5E077DD38473A7BD079C0FDF312A5547",
+      "unchanged": true
+    },
+    {
+      "path": "qa/v5-1-manual-axilla-iter03/visual/rendered/reload-body-male-v5-bust-prototype-v14/B-back.png",
+      "before": "809C4B1E8270ADD0CED6819DC0BE14EB547275CC384C69891CE0915D4E02A14D",
+      "after": "809C4B1E8270ADD0CED6819DC0BE14EB547275CC384C69891CE0915D4E02A14D",
+      "unchanged": true
+    },
+    {
+      "path": "qa/v5-1-manual-axilla-iter03/visual/rendered/reload-body-male-v5-bust-prototype-v14/B-front.png",
+      "before": "3879A28D2F8977EE9DCD5035BD935BBE12ECDE7C15436EE4772C63420AC9F6A0",
+      "after": "3879A28D2F8977EE9DCD5035BD935BBE12ECDE7C15436EE4772C63420AC9F6A0",
+      "unchanged": true
+    },
+    {
+      "path": "qa/v5-1-manual-axilla-iter03/visual/rendered/reload-body-male-v5-bust-prototype-v14/B-left-axilla.png",
+      "before": "5026D7380A79DE217C309635DB31C3A1A997DDAD82FDB53B9E8B45B29841DE98",
+      "after": "5026D7380A79DE217C309635DB31C3A1A997DDAD82FDB53B9E8B45B29841DE98",
+      "unchanged": true
+    },
+    {
+      "path": "qa/v5-1-manual-axilla-iter03/visual/rendered/reload-body-male-v5-bust-prototype-v14/B-right-axilla.png",
+      "before": "92BE04599FDD84FD847A05E054118F5D344D85968E11FD9E047C6C8C5C6A6B05",
+      "after": "92BE04599FDD84FD847A05E054118F5D344D85968E11FD9E047C6C8C5C6A6B05",
+      "unchanged": true
+    },
+    {
+      "path": "qa/v5-1-manual-axilla-iter03/visual/rendered/reload-body-male-v5-bust-prototype-v14/B-side.png",
+      "before": "9FE1532800A4FD2E19E85B457F9331FD444C24063E51294B30012E9E2E4A6FFE",
+      "after": "9FE1532800A4FD2E19E85B457F9331FD444C24063E51294B30012E9E2E4A6FFE",
+      "unchanged": true
+    },
+    {
+      "path": "qa/v5-1-manual-axilla-iter03/visual/rendered/reload-body-male-v5-bust-prototype-v14/B-three-quarter.png",
+      "before": "2D7D770C2024DECDC577BDA5E0C550A45DC1DBF8DD5FAC8737C45B1348DD8F18",
+      "after": "2D7D770C2024DECDC577BDA5E0C550A45DC1DBF8DD5FAC8737C45B1348DD8F18",
+      "unchanged": true
+    },
+    {
+      "path": "qa/v5-1-manual-axilla-iter03/visual/rendered/reload-body-male-v5-bust-prototype-v14/C-back.png",
+      "before": "18D6173213B06537CEFD157BE04B3E6735321C4CB3040BABF301A3F8E7DA1216",
+      "after": "18D6173213B06537CEFD157BE04B3E6735321C4CB3040BABF301A3F8E7DA1216",
+      "unchanged": true
+    },
+    {
+      "path": "qa/v5-1-manual-axilla-iter03/visual/rendered/reload-body-male-v5-bust-prototype-v14/C-front.png",
+      "before": "36F2E3CF6C2405FE555A9EA4C7EFCC3CCB3F02CFBFB13768C5AF49EA280A653A",
+      "after": "36F2E3CF6C2405FE555A9EA4C7EFCC3CCB3F02CFBFB13768C5AF49EA280A653A",
+      "unchanged": true
+    },
+    {
+      "path": "qa/v5-1-manual-axilla-iter03/visual/rendered/reload-body-male-v5-bust-prototype-v14/C-left-axilla.png",
+      "before": "3636F9CD51E1087D74A5794DFFA17D24BB31157E748B57FBC5964F16F4F31B6F",
+      "after": "3636F9CD51E1087D74A5794DFFA17D24BB31157E748B57FBC5964F16F4F31B6F",
+      "unchanged": true
+    },
+    {
+      "path": "qa/v5-1-manual-axilla-iter03/visual/rendered/reload-body-male-v5-bust-prototype-v14/C-right-axilla.png",
+      "before": "D48A90ECDF89FF4AEC40991F585E91FF865C33701835E1487E61242284937194",
+      "after": "D48A90ECDF89FF4AEC40991F585E91FF865C33701835E1487E61242284937194",
+      "unchanged": true
+    },
+    {
+      "path": "qa/v5-1-manual-axilla-iter03/visual/rendered/reload-body-male-v5-bust-prototype-v14/C-side.png",
+      "before": "3B4BA01E38EF2CDF6815A915F36728A12602A764FAB6C04F1BC70CBDDEF59081",
+      "after": "3B4BA01E38EF2CDF6815A915F36728A12602A764FAB6C04F1BC70CBDDEF59081",
+      "unchanged": true
+    },
+    {
+      "path": "qa/v5-1-manual-axilla-iter03/visual/rendered/reload-body-male-v5-bust-prototype-v14/C-three-quarter.png",
+      "before": "D65774CF19402D6116367D0D332E80120E37DE64D55B77147CAEB3355FE14894",
+      "after": "D65774CF19402D6116367D0D332E80120E37DE64D55B77147CAEB3355FE14894",
+      "unchanged": true
+    },
+    {
+      "path": "qa/v5-1-manual-axilla-iter03/visual/rendered/reload-body-male-v5-bust-prototype-v14/D-back.png",
+      "before": "E8FCB838240CE6526F54CFDBA776F886701081F09E55E118B66FD3FCA51529EF",
+      "after": "E8FCB838240CE6526F54CFDBA776F886701081F09E55E118B66FD3FCA51529EF",
+      "unchanged": true
+    },
+    {
+      "path": "qa/v5-1-manual-axilla-iter03/visual/rendered/reload-body-male-v5-bust-prototype-v14/D-front.png",
+      "before": "A87C056946EEA6D64418C761405A33D7A5FF2BE60623935E1D10A4E4988A3C55",
+      "after": "A87C056946EEA6D64418C761405A33D7A5FF2BE60623935E1D10A4E4988A3C55",
+      "unchanged": true
+    },
+    {
+      "path": "qa/v5-1-manual-axilla-iter03/visual/rendered/reload-body-male-v5-bust-prototype-v14/D-left-axilla.png",
+      "before": "7D22FA827BCCAA9F2DB2FB25E885062677E96E39DBC59E672EFD4875AEA88A6B",
+      "after": "7D22FA827BCCAA9F2DB2FB25E885062677E96E39DBC59E672EFD4875AEA88A6B",
+      "unchanged": true
+    },
+    {
+      "path": "qa/v5-1-manual-axilla-iter03/visual/rendered/reload-body-male-v5-bust-prototype-v14/D-right-axilla.png",
+      "before": "13B37F1E1F3CB4BCE42F679D65FCD823C3FA0CFA7020F4E805447A018082D878",
+      "after": "13B37F1E1F3CB4BCE42F679D65FCD823C3FA0CFA7020F4E805447A018082D878",
+      "unchanged": true
+    },
+    {
+      "path": "qa/v5-1-manual-axilla-iter03/visual/rendered/reload-body-male-v5-bust-prototype-v14/D-side.png",
+      "before": "9B798200C36CE47B884E50043BD78D63D6BED12F082BE1153361D3240719695F",
+      "after": "9B798200C36CE47B884E50043BD78D63D6BED12F082BE1153361D3240719695F",
+      "unchanged": true
+    },
+    {
+      "path": "qa/v5-1-manual-axilla-iter03/visual/rendered/reload-body-male-v5-bust-prototype-v14/D-three-quarter.png",
+      "before": "96DB537CD018030A80319A353F23B7F2ABF67267B04D91B565B1F46F90819A11",
+      "after": "96DB537CD018030A80319A353F23B7F2ABF67267B04D91B565B1F46F90819A11",
+      "unchanged": true
+    },
+    {
+      "path": "qa/v5-1-manual-axilla-iter03/visual/rendered/reload-body-male-v5-bust-prototype-v14/E-back.png",
+      "before": "1867B68F553AECA7C44CEC9F17960C03BF942959E2F60DD10A2B85362320DDD2",
+      "after": "1867B68F553AECA7C44CEC9F17960C03BF942959E2F60DD10A2B85362320DDD2",
+      "unchanged": true
+    },
+    {
+      "path": "qa/v5-1-manual-axilla-iter03/visual/rendered/reload-body-male-v5-bust-prototype-v14/E-front.png",
+      "before": "827D10A4E1B102901FE8F9F980CDCBDE70BDD7CC7C4AE73344EE91080C7E6639",
+      "after": "827D10A4E1B102901FE8F9F980CDCBDE70BDD7CC7C4AE73344EE91080C7E6639",
+      "unchanged": true
+    },
+    {
+      "path": "qa/v5-1-manual-axilla-iter03/visual/rendered/reload-body-male-v5-bust-prototype-v14/E-left-axilla.png",
+      "before": "61F26CC46D62DB2423BBA501626AD1DC0BD9790D1B731DE1F863F94D55A0F099",
+      "after": "61F26CC46D62DB2423BBA501626AD1DC0BD9790D1B731DE1F863F94D55A0F099",
+      "unchanged": true
+    },
+    {
+      "path": "qa/v5-1-manual-axilla-iter03/visual/rendered/reload-body-male-v5-bust-prototype-v14/E-right-axilla.png",
+      "before": "9439546AAEE9BC9CF348B068B9E21CB48D067A903E2E9EBF27458F1C2871C26D",
+      "after": "9439546AAEE9BC9CF348B068B9E21CB48D067A903E2E9EBF27458F1C2871C26D",
+      "unchanged": true
+    },
+    {
+      "path": "qa/v5-1-manual-axilla-iter03/visual/rendered/reload-body-male-v5-bust-prototype-v14/E-side.png",
+      "before": "530E60505BD8A6ED5FE3B83F1BD97F0C9F388CFC8CB34ECF6F91530C9EBCB6AE",
+      "after": "530E60505BD8A6ED5FE3B83F1BD97F0C9F388CFC8CB34ECF6F91530C9EBCB6AE",
+      "unchanged": true
+    },
+    {
+      "path": "qa/v5-1-manual-axilla-iter03/visual/rendered/reload-body-male-v5-bust-prototype-v14/E-three-quarter.png",
+      "before": "F179782614D5AD69EC724854FEAD11E0C956F7CD932BD06E273B6A73EFB9D331",
+      "after": "F179782614D5AD69EC724854FEAD11E0C956F7CD932BD06E273B6A73EFB9D331",
+      "unchanged": true
+    },
+    {
+      "path": "body-visualizer.html",
+      "before": "6700B4B53DC4160DE75E8041AB28D017C1ABAA690C7C04FE443440D4866C2FC4",
+      "after": "6700B4B53DC4160DE75E8041AB28D017C1ABAA690C7C04FE443440D4866C2FC4",
+      "unchanged": true
+    },
+    {
+      "path": "assets/css/body-visualizer.css",
+      "before": "26A76DD61D04DF4F69CBCCB80C79C01DCA5DD9813F193E1237F4C4765F6E1A2E",
+      "after": "26A76DD61D04DF4F69CBCCB80C79C01DCA5DD9813F193E1237F4C4765F6E1A2E",
+      "unchanged": true
+    },
+    {
+      "path": "qa/body-measurement-calibration/measurements.json",
+      "before": "F83BB14C5E95FBE0467542E3151CB2CECFAEB9DAF9A49459E705B3581ECF20C2",
+      "after": "F83BB14C5E95FBE0467542E3151CB2CECFAEB9DAF9A49459E705B3581ECF20C2",
+      "unchanged": true
+    },
+    {
+      "path": "qa/hip-measurement-calibration/measurements.json",
+      "before": "867A4A54DB7F4548E0611204B53B00738023638D816B76790FF3C9E2F538D209",
+      "after": "867A4A54DB7F4548E0611204B53B00738023638D816B76790FF3C9E2F538D209",
+      "unchanged": true
+    }
+  ]
+}

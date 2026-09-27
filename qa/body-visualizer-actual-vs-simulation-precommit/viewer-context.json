@@ -1,0 +1,10 @@
+{
+  "pass": true,
+  "checks": [
+    "Resize preserves camera, state and renderer/model identity",
+    "Context loss/retry creates one renderer and restores derived endpoint with actual72 intact",
+    "Reload restores sample state/session privacy"
+  ],
+  "errors": [],
+  "warnings": []
+}

@@ -1,0 +1,40 @@
+{
+  "pass": true,
+  "layouts": [
+    {
+      "width": 1440,
+      "scrollWidth": 1440,
+      "pass": true
+    },
+    {
+      "width": 1280,
+      "scrollWidth": 1280,
+      "pass": true
+    },
+    {
+      "width": 1024,
+      "scrollWidth": 1024,
+      "pass": true
+    },
+    {
+      "width": 768,
+      "scrollWidth": 768,
+      "pass": true
+    },
+    {
+      "width": 430,
+      "scrollWidth": 430,
+      "pass": true
+    },
+    {
+      "width": 390,
+      "scrollWidth": 390,
+      "pass": true
+    },
+    {
+      "width": 375,
+      "scrollWidth": 375,
+      "pass": true
+    }
+  ]
+}

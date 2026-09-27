@@ -1,0 +1,445 @@
+{
+  "pass": true,
+  "checks": [
+    {
+      "name": "HTTP 200",
+      "pass": true,
+      "detail": 200
+    },
+    {
+      "name": "viewer ready",
+      "pass": true
+    },
+    {
+      "name": "one canvas",
+      "pass": true
+    },
+    {
+      "name": "19 morph targets",
+      "pass": true,
+      "detail": 19
+    },
+    {
+      "name": "core icons and helpers",
+      "pass": true,
+      "detail": [
+        {
+          "key": "height",
+          "icon": true,
+          "help": true,
+          "helpId": "bv-height-help",
+          "describedBy": "bv-unit-height bv-error-height bv-empty-height bv-height-help bv-simulation-height bv-height-transaction"
+        },
+        {
+          "key": "weight",
+          "icon": true,
+          "help": true,
+          "helpId": "bv-weight-help",
+          "describedBy": "bv-unit-weight bv-error-weight bv-empty-weight bv-weight-help bv-simulation-weight"
+        },
+        {
+          "key": "chest",
+          "icon": true,
+          "help": true,
+          "helpId": "bv-chest-help",
+          "describedBy": "bv-unit-chest bv-error-chest bv-empty-chest bv-chest-help bv-simulation-chest bv-near-chest"
+        },
+        {
+          "key": "waist",
+          "icon": true,
+          "help": true,
+          "helpId": "bv-waist-help",
+          "describedBy": "bv-unit-waist bv-error-waist bv-empty-waist bv-waist-help bv-simulation-waist bv-near-waist"
+        },
+        {
+          "key": "hip",
+          "icon": true,
+          "help": true,
+          "helpId": "bv-hip-help",
+          "describedBy": "bv-unit-hip bv-error-hip bv-empty-hip bv-hip-help bv-simulation-hip bv-near-hip"
+        },
+        {
+          "key": "inseam",
+          "icon": true,
+          "help": true,
+          "helpId": "bv-inseam-help",
+          "describedBy": "bv-unit-inseam bv-error-inseam bv-empty-inseam bv-inseam-help bv-simulation-inseam"
+        },
+        {
+          "key": "shoulder",
+          "icon": true,
+          "help": true,
+          "helpId": "bv-shoulder-help",
+          "describedBy": "bv-unit-shoulder bv-error-shoulder bv-empty-shoulder bv-shoulder-help bv-simulation-shoulder bv-near-shoulder"
+        },
+        {
+          "key": "arm",
+          "icon": true,
+          "help": true,
+          "helpId": "bv-arm-help",
+          "describedBy": "bv-unit-arm bv-error-arm bv-empty-arm bv-arm-help bv-simulation-arm bv-near-arm"
+        },
+        {
+          "key": "thigh",
+          "icon": true,
+          "help": true,
+          "helpId": "bv-thigh-help",
+          "describedBy": "bv-unit-thigh bv-error-thigh bv-empty-thigh bv-thigh-help bv-simulation-thigh bv-near-thigh"
+        },
+        {
+          "key": "calf",
+          "icon": true,
+          "help": true,
+          "helpId": "bv-calf-help",
+          "describedBy": "bv-unit-calf bv-error-calf bv-empty-calf bv-calf-help bv-simulation-calf bv-near-calf"
+        }
+      ]
+    },
+    {
+      "name": "advanced remains closed on initial render",
+      "pass": true
+    },
+    {
+      "name": "ten icon/help relationships",
+      "pass": true,
+      "detail": [
+        {
+          "key": "height",
+          "icon": true,
+          "help": true,
+          "helpId": "bv-height-help",
+          "describedBy": "bv-unit-height bv-error-height bv-empty-height bv-height-help bv-simulation-height bv-height-transaction"
+        },
+        {
+          "key": "weight",
+          "icon": true,
+          "help": true,
+          "helpId": "bv-weight-help",
+          "describedBy": "bv-unit-weight bv-error-weight bv-empty-weight bv-weight-help bv-simulation-weight"
+        },
+        {
+          "key": "chest",
+          "icon": true,
+          "help": true,
+          "helpId": "bv-chest-help",
+          "describedBy": "bv-unit-chest bv-error-chest bv-empty-chest bv-chest-help bv-simulation-chest bv-near-chest"
+        },
+        {
+          "key": "waist",
+          "icon": true,
+          "help": true,
+          "helpId": "bv-waist-help",
+          "describedBy": "bv-unit-waist bv-error-waist bv-empty-waist bv-waist-help bv-simulation-waist bv-near-waist"
+        },
+        {
+          "key": "hip",
+          "icon": true,
+          "help": true,
+          "helpId": "bv-hip-help",
+          "describedBy": "bv-unit-hip bv-error-hip bv-empty-hip bv-hip-help bv-simulation-hip bv-near-hip"
+        },
+        {
+          "key": "inseam",
+          "icon": true,
+          "help": true,
+          "helpId": "bv-inseam-help",
+          "describedBy": "bv-unit-inseam bv-error-inseam bv-empty-inseam bv-inseam-help bv-simulation-inseam"
+        },
+        {
+          "key": "shoulder",
+          "icon": true,
+          "help": true,
+          "helpId": "bv-shoulder-help",
+          "describedBy": "bv-unit-shoulder bv-error-shoulder bv-empty-shoulder bv-shoulder-help bv-simulation-shoulder bv-near-shoulder"
+        },
+        {
+          "key": "arm",
+          "icon": true,
+          "help": true,
+          "helpId": "bv-arm-help",
+          "describedBy": "bv-unit-arm bv-error-arm bv-empty-arm bv-arm-help bv-simulation-arm bv-near-arm"
+        },
+        {
+          "key": "thigh",
+          "icon": true,
+          "help": true,
+          "helpId": "bv-thigh-help",
+          "describedBy": "bv-unit-thigh bv-error-thigh bv-empty-thigh bv-thigh-help bv-simulation-thigh bv-near-thigh"
+        },
+        {
+          "key": "calf",
+          "icon": true,
+          "help": true,
+          "helpId": "bv-calf-help",
+          "describedBy": "bv-unit-calf bv-error-calf bv-empty-calf bv-calf-help bv-simulation-calf bv-near-calf"
+        }
+      ]
+    },
+    {
+      "name": "desktop sticky",
+      "pass": true
+    },
+    {
+      "name": "1024 stacked",
+      "pass": true
+    },
+    {
+      "name": "active field helper and red icon",
+      "pass": true,
+      "detail": {
+        "open": true,
+        "icon": "rgb(229, 25, 39)",
+        "helperVisible": true
+      }
+    },
+    {
+      "name": "keyboard toggles helper",
+      "pass": true
+    },
+    {
+      "name": "keyboard help focusable",
+      "pass": true,
+      "detail": {
+        "focusStyle": "solid"
+      }
+    },
+    {
+      "name": "reset BMI",
+      "pass": true
+    },
+    {
+      "name": "invalid Weight draft preserves committed BMI",
+      "pass": true
+    },
+    {
+      "name": "invalid Height draft preserves committed BMI",
+      "pass": true
+    },
+    {
+      "name": "weight BMI only",
+      "pass": true
+    },
+    {
+      "name": "inseam reference only",
+      "pass": true
+    },
+    {
+      "name": "measurement commits",
+      "pass": true,
+      "detail": [
+        {
+          "key": "height",
+          "requested": 166,
+          "committed": 166,
+          "invalid": false
+        },
+        {
+          "key": "chest",
+          "requested": 89,
+          "committed": 89,
+          "invalid": false
+        },
+        {
+          "key": "waist",
+          "requested": 73,
+          "committed": 73,
+          "invalid": false
+        },
+        {
+          "key": "hip",
+          "requested": 93,
+          "committed": 93,
+          "invalid": false
+        },
+        {
+          "key": "shoulder",
+          "requested": 39,
+          "committed": 39,
+          "invalid": false
+        },
+        {
+          "key": "arm",
+          "requested": 29,
+          "committed": 29,
+          "invalid": false
+        },
+        {
+          "key": "thigh",
+          "requested": 53,
+          "committed": 53,
+          "invalid": false
+        },
+        {
+          "key": "calf",
+          "requested": 38,
+          "committed": 38,
+          "invalid": false
+        }
+      ]
+    },
+    {
+      "name": "validation marks invalid draft",
+      "pass": true
+    },
+    {
+      "name": "validation blocks progression",
+      "pass": true
+    },
+    {
+      "name": "reset restores defaults",
+      "pass": true
+    },
+    {
+      "name": "null calf slider",
+      "pass": true,
+      "detail": "Chưa nhập số đo"
+    },
+    {
+      "name": "pending Height transaction",
+      "pass": true,
+      "detail": {
+        "pending": {
+          "value": 151.2,
+          "affected": [
+            "chest"
+          ]
+        },
+        "chestMax": 140
+      }
+    },
+    {
+      "name": "pending Height cancel",
+      "pass": true
+    },
+    {
+      "name": "pending Height apply",
+      "pass": true
+    },
+    {
+      "name": "Current to Goal",
+      "pass": true
+    },
+    {
+      "name": "Goal edit",
+      "pass": true
+    },
+    {
+      "name": "Compare",
+      "pass": true
+    },
+    {
+      "name": "Goal mode",
+      "pass": true
+    },
+    {
+      "name": "split compare",
+      "pass": true
+    },
+    {
+      "name": "camera side",
+      "pass": true
+    },
+    {
+      "name": "camera reset",
+      "pass": true
+    },
+    {
+      "name": "protected tracked files untouched",
+      "pass": true,
+      "detail": {
+        "changedTrackedFiles": [
+          "assets/css/body-visualizer.css",
+          "assets/js/body-visualizer/app.js",
+          "assets/js/body-visualizer/measurement-constraints.js",
+          "assets/js/body-visualizer/state.js",
+          "body-visualizer.html",
+          "qa/body-visualizer-regression.cjs",
+          "qa/body-visualizer.test.cjs",
+          "qa/height-production-integration/tests.mjs",
+          "qa/hip-production-integration/tests.mjs",
+          "qa/measurement-constraints-phase1.cjs",
+          "qa/weight-ux/tests.mjs"
+        ],
+        "protectedPathsModified": []
+      }
+    },
+    {
+      "name": "V5 one request",
+      "pass": true,
+      "detail": [
+        "http://127.0.0.1:4194/3D/male-mpfb-production-morph-v5-candidate.glb"
+      ]
+    },
+    {
+      "name": "V4/V16 zero requests",
+      "pass": true,
+      "detail": {
+        "v4": [],
+        "v16": []
+      }
+    },
+    {
+      "name": "V5 hash unchanged",
+      "pass": true,
+      "detail": "BCE6B0A5A6804694153FCB13BFA5393EC451A37BF30EBA152F0FD6F33DA872AB"
+    },
+    {
+      "name": "console clean",
+      "pass": true,
+      "detail": {
+        "errors": [],
+        "warnings": []
+      }
+    }
+  ],
+  "fieldResults": [
+    {
+      "key": "height",
+      "requested": 166,
+      "committed": 166,
+      "invalid": false
+    },
+    {
+      "key": "chest",
+      "requested": 89,
+      "committed": 89,
+      "invalid": false
+    },
+    {
+      "key": "waist",
+      "requested": 73,
+      "committed": 73,
+      "invalid": false
+    },
+    {
+      "key": "hip",
+      "requested": 93,
+      "committed": 93,
+      "invalid": false
+    },
+    {
+      "key": "shoulder",
+      "requested": 39,
+      "committed": 39,
+      "invalid": false
+    },
+    {
+      "key": "arm",
+      "requested": 29,
+      "committed": 29,
+      "invalid": false
+    },
+    {
+      "key": "thigh",
+      "requested": 53,
+      "committed": 53,
+      "invalid": false
+    },
+    {
+      "key": "calf",
+      "requested": 38,
+      "committed": 38,
+      "invalid": false
+    }
+  ]
+}

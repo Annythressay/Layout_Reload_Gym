@@ -1,0 +1,286 @@
+{
+  "layouts": [
+    {
+      "name": "index",
+      "width": 1440,
+      "overflow": 0
+    },
+    {
+      "name": "index",
+      "width": 1280,
+      "overflow": 0
+    },
+    {
+      "name": "index",
+      "width": 1024,
+      "overflow": 0
+    },
+    {
+      "name": "index",
+      "width": 768,
+      "overflow": 0
+    },
+    {
+      "name": "index",
+      "width": 430,
+      "overflow": 0
+    },
+    {
+      "name": "index",
+      "width": 390,
+      "overflow": 0
+    },
+    {
+      "name": "index",
+      "width": 375,
+      "overflow": 0
+    },
+    {
+      "name": "about",
+      "width": 1440,
+      "overflow": 0
+    },
+    {
+      "name": "about",
+      "width": 1280,
+      "overflow": 0
+    },
+    {
+      "name": "about",
+      "width": 1024,
+      "overflow": 0
+    },
+    {
+      "name": "about",
+      "width": 768,
+      "overflow": 0
+    },
+    {
+      "name": "about",
+      "width": 430,
+      "overflow": 0
+    },
+    {
+      "name": "about",
+      "width": 390,
+      "overflow": 0
+    },
+    {
+      "name": "about",
+      "width": 375,
+      "overflow": 0
+    },
+    {
+      "name": "facilities",
+      "width": 1440,
+      "overflow": 0
+    },
+    {
+      "name": "facilities",
+      "width": 1280,
+      "overflow": 0
+    },
+    {
+      "name": "facilities",
+      "width": 1024,
+      "overflow": 0
+    },
+    {
+      "name": "facilities",
+      "width": 768,
+      "overflow": 0
+    },
+    {
+      "name": "facilities",
+      "width": 430,
+      "overflow": 0
+    },
+    {
+      "name": "facilities",
+      "width": 390,
+      "overflow": 0
+    },
+    {
+      "name": "facilities",
+      "width": 375,
+      "overflow": 0
+    },
+    {
+      "name": "services",
+      "width": 1440,
+      "overflow": 0
+    },
+    {
+      "name": "services",
+      "width": 1280,
+      "overflow": 0
+    },
+    {
+      "name": "services",
+      "width": 1024,
+      "overflow": 0
+    },
+    {
+      "name": "services",
+      "width": 768,
+      "overflow": 0
+    },
+    {
+      "name": "services",
+      "width": 430,
+      "overflow": 0
+    },
+    {
+      "name": "services",
+      "width": 390,
+      "overflow": 0
+    },
+    {
+      "name": "services",
+      "width": 375,
+      "overflow": 0
+    },
+    {
+      "name": "membership",
+      "width": 1440,
+      "overflow": 0
+    },
+    {
+      "name": "membership",
+      "width": 1280,
+      "overflow": 0
+    },
+    {
+      "name": "membership",
+      "width": 1024,
+      "overflow": 0
+    },
+    {
+      "name": "membership",
+      "width": 768,
+      "overflow": 0
+    },
+    {
+      "name": "membership",
+      "width": 430,
+      "overflow": 0
+    },
+    {
+      "name": "membership",
+      "width": 390,
+      "overflow": 0
+    },
+    {
+      "name": "membership",
+      "width": 375,
+      "overflow": 0
+    },
+    {
+      "name": "locations",
+      "width": 1440,
+      "overflow": 0
+    },
+    {
+      "name": "locations",
+      "width": 1280,
+      "overflow": 0
+    },
+    {
+      "name": "locations",
+      "width": 1024,
+      "overflow": 0
+    },
+    {
+      "name": "locations",
+      "width": 768,
+      "overflow": 0
+    },
+    {
+      "name": "locations",
+      "width": 430,
+      "overflow": 0
+    },
+    {
+      "name": "locations",
+      "width": 390,
+      "overflow": 0
+    },
+    {
+      "name": "locations",
+      "width": 375,
+      "overflow": 0
+    },
+    {
+      "name": "class-schedule",
+      "width": 1440,
+      "overflow": 0
+    },
+    {
+      "name": "class-schedule",
+      "width": 1280,
+      "overflow": 0
+    },
+    {
+      "name": "class-schedule",
+      "width": 1024,
+      "overflow": 0
+    },
+    {
+      "name": "class-schedule",
+      "width": 768,
+      "overflow": 0
+    },
+    {
+      "name": "class-schedule",
+      "width": 430,
+      "overflow": 0
+    },
+    {
+      "name": "class-schedule",
+      "width": 390,
+      "overflow": 0
+    },
+    {
+      "name": "class-schedule",
+      "width": 375,
+      "overflow": 0
+    },
+    {
+      "name": "blog",
+      "width": 1440,
+      "overflow": 0
+    },
+    {
+      "name": "blog",
+      "width": 1280,
+      "overflow": 0
+    },
+    {
+      "name": "blog",
+      "width": 1024,
+      "overflow": 0
+    },
+    {
+      "name": "blog",
+      "width": 768,
+      "overflow": 0
+    },
+    {
+      "name": "blog",
+      "width": 430,
+      "overflow": 0
+    },
+    {
+      "name": "blog",
+      "width": 390,
+      "overflow": 0
+    },
+    {
+      "name": "blog",
+      "width": 375,
+      "overflow": 0
+    }
+  ],
+  "errors": [],
+  "utilityChecks": "passed"
+}

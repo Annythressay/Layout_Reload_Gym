@@ -1,0 +1,67 @@
+{
+  "pass": true,
+  "checks": [
+    {
+      "width": 390,
+      "name": "touch rotation changes camera",
+      "pass": true
+    },
+    {
+      "width": 390,
+      "name": "pinch zoom changes camera",
+      "pass": true
+    },
+    {
+      "width": 390,
+      "name": "camera controls",
+      "pass": true
+    },
+    {
+      "width": 390,
+      "name": "mobile form + helper + native touch slider",
+      "pass": true
+    },
+    {
+      "width": 390,
+      "name": "coarse pointer inline viewer / form return preserves actual",
+      "pass": true
+    },
+    {
+      "width": 390,
+      "name": "floating contact suppresses/reinstates model utility",
+      "pass": true
+    },
+    {
+      "width": 768,
+      "name": "touch rotation changes camera",
+      "pass": true
+    },
+    {
+      "width": 768,
+      "name": "pinch zoom changes camera",
+      "pass": true
+    },
+    {
+      "width": 768,
+      "name": "camera controls",
+      "pass": true
+    },
+    {
+      "width": 768,
+      "name": "mobile form + helper + native touch slider",
+      "pass": true
+    },
+    {
+      "width": 768,
+      "name": "coarse pointer inline viewer / form return preserves actual",
+      "pass": true
+    },
+    {
+      "width": 768,
+      "name": "floating contact suppresses/reinstates model utility",
+      "pass": true
+    }
+  ],
+  "errors": [],
+  "warnings": []
+}

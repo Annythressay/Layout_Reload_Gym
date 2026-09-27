@@ -1,19 +1,14 @@
-import {baselinesAtHeight,baseHeightBaselines} from './height-calibration.js';
+import {inputPolicyRange} from './input-policy.js';
 export const fields = {
-  height: ['Chiều cao', 130, 210, 'cm'], weight: ['Cân nặng', 35, 180, 'kg'],
-  chest: ['Vòng ngực', 60, 150, 'cm'], waist: ['Vòng eo', 45, 160, 'cm'],
-  hip: ['Vòng hông', 60, 170, 'cm'], inseam: ['Chiều dài chân', 50, 110, 'cm'],
-  shoulder: ['Chiều rộng vai', 28, 65, 'cm'], arm: ['Vòng bắp tay', 20, 70, 'cm'], thigh: ['Vòng đùi', 30, 100, 'cm'],
-  calf: ['Vòng bắp chân', 0, 100, 'cm'] // Bounds replaced from calibration before viewer is ready.
+  height: ['Chiều cao', 145, 205, 'cm'], weight: ['Cân nặng', 35, 200, 'kg'],
+  chest: ['Vòng ngực', 70, 140, 'cm'], waist: ['Vòng eo', 55, 150, 'cm'],
+  hip: ['Vòng hông', 75, 145, 'cm'], inseam: ['Chiều dài chân', 50, 110, 'cm'],
+  shoulder: ['Chiều rộng vai', 32, 48, 'cm'], arm: ['Vòng bắp tay', 18, 50, 'cm'], thigh: ['Vòng đùi', 40, 75, 'cm'],
+  calf: ['Vòng bắp chân', 25, 50, 'cm'] // Optional actual measurement.
 };
 export const defaults = Object.freeze({gender:'neutral', height:165, weight:60, chest:88, waist:72, hip:92, inseam:76, shoulder:38, arm:28, thigh:52,calf:null});
-export function configureCalibrationFields(profiles){
-  for(const [key,p] of Object.entries(profiles)){
-    const low=p.min+baselinesAtHeight(-.3)[p.measurement]-baseHeightBaselines[p.measurement],high=p.max+baselinesAtHeight(.3)[p.measurement]-baseHeightBaselines[p.measurement];
-    if(key==='calf'){fields[key][1]=Math.floor(low);fields[key][2]=Math.ceil(high);}
-    else{fields[key][1]=Math.min(fields[key][1],Math.floor(low));fields[key][2]=Math.max(fields[key][2],Math.ceil(high));}
-  }
-}
+for(const key of Object.keys(fields)){const {min,max}=inputPolicyRange(key);fields[key][1]=min;fields[key][2]=max;}
+export function configureCalibrationFields(){} // Product bands never depend on calibration.
 export function validateMeasurement(key, raw) {
   const field = fields[key];
   const value = Number(raw);
