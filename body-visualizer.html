@@ -20,7 +20,7 @@
 <div class="body-visualizer container">
   <section class="bv-intro">
     <div><p class="eyebrow">CÔNG CỤ RELOAD / MÔ PHỎNG VÓC DÁNG</p><h1>HIỂU CƠ THỂ.<br><em>XÁC ĐỊNH MỤC TIÊU.</em></h1></div>
-    <p>Điều chỉnh số đo. Hình dung mục tiêu.<br>Bắt đầu hành trình của riêng bạn.<span>BODY VISUALIZER</span></p>
+    <p>Nhập số đo thực tế để quan sát vóc dáng thay đổi và xác định mục tiêu tiếp theo.</p>
   </section>
   <nav class="bv-steps" aria-label="Các bước mô phỏng">
     <button data-step="0" aria-current="step">01 <span>Hiện tại</span></button><button data-step="1">02 <span>Mục tiêu</span></button><button data-step="2" disabled>03 <span>So sánh</span></button><button data-step="3" disabled>04 <span>Lộ trình</span></button>
@@ -28,22 +28,24 @@
   <div class="bv-workspace">
     <section class="bv-viewer" aria-label="Mô hình cơ thể tương tác">
       <div class="bv-return-slot"><button type="button" class="bv-model-action" data-model-return hidden></button></div>
-      <div class="bv-viewer__top"><span>MÔ PHỎNG 3D</span><span data-model-label>HIỆN TẠI</span></div>
+      <div class="bv-viewer__top"><span>MÔ PHỎNG VÓC DÁNG</span><span data-model-label>HIỆN TẠI</span></div>
       <div class="bv-stage" tabindex="0" role="region" aria-label="Mô hình 3D. Dùng phím mũi tên để xoay, dấu cộng trừ để thu phóng.">
-        <div class="bv-loading" role="status"><span class="bv-loading__mark">R/</span><strong>RELOAD BODY VISUALIZER</strong><p data-load-message>Đang chuẩn bị mô hình…</p><button class="button" data-retry hidden>THỬ LẠI</button></div>
+        <div class="bv-loading" role="status"><span class="bv-loading__mark">R/</span><strong>MÔ PHỎNG VÓC DÁNG</strong><p data-load-message>Đang chuẩn bị mô hình…</p><button class="button" data-retry hidden>THỬ LẠI</button></div>
         <div class="bv-compare-labels" hidden><span>HIỆN TẠI</span><span>MỤC TIÊU</span></div>
         <div class="bv-divider" hidden></div>
       </div>
       <div class="bv-split" hidden><label for="bv-split">Kéo để so sánh hiện tại / mục tiêu</label><input id="bv-split" type="range" min="0" max="100" value="50" aria-label="Ranh giới so sánh"></div>
       <div class="bv-camera" aria-label="Góc nhìn"><button data-view="front" aria-pressed="true">Trước</button><button data-view="side" aria-pressed="false">Bên</button><button data-view="back" aria-pressed="false">Sau</button><button data-view="reset">Đặt lại góc</button></div>
-      <p class="bv-hint">Kéo để xoay · Cuộn hoặc chụm hai ngón để thu phóng</p>
+      <p class="bv-hint">Kéo để xoay · Chụm hoặc cuộn để thu phóng</p>
     </section>
     <section class="bv-panel" aria-labelledby="bv-panel-title">
       <div class="bv-quick-slot"><button type="button" class="bv-model-action" data-model-quick hidden>Xem mô hình · HIỆN TẠI</button></div>
-      <p class="eyebrow" data-step-label>01 / HIỆN TẠI</p><h2 id="bv-panel-title" tabindex="-1">VÓC DÁNG HIỆN TẠI</h2><p class="bv-description" data-description>Nhập một vài thông tin cơ bản để tạo mô phỏng gần với số đo của bạn.</p>
-      <p class="bv-description">Mô phỏng hiện dùng mẫu nam. Chiều cao, ngực, eo, hông, vai, bắp tay, đùi và bắp chân được điều chỉnh trong phạm vi mô hình hỗ trợ. Để trống số đo chi tiết để giữ vùng đó ở dáng gốc. Kiểu mô hình, cân nặng và chiều dài chân chưa thay đổi hình ảnh 3D.</p>
+      <p class="eyebrow" data-step-label>01 / HIỆN TẠI</p><h2 id="bv-panel-title" tabindex="-1">SỐ ĐO HIỆN TẠI</h2><p class="bv-description" data-description>Bắt đầu với số đo thực tế của bạn.</p>
+      <div class="bv-sample-notice" data-sample-notice><strong>GIÁ TRỊ MẪU</strong><p>Các số đo đang hiển thị là giá trị mẫu.<br>Hãy thay bằng số đo thực tế của bạn.</p></div>
       <div data-measurements></div>
       <div class="bv-bmi"><span data-bmi-label>BMI hiện tại · tham khảo</span><output data-bmi aria-describedby="bv-bmi-unavailable">22.0</output><p id="bv-bmi-unavailable" data-bmi-unavailable hidden>Nhập chiều cao và cân nặng hợp lệ để xem BMI tham khảo.</p><details><summary>Hiểu về BMI</summary><p>BMI chỉ là một chỉ số tổng quát dựa trên chiều cao và cân nặng, không phản ánh đầy đủ thành phần cơ thể.</p></details></div>
+      <div data-measurements-secondary></div>
+      <details class="bv-simulation-info" data-simulation-info><summary>Thông tin về mô phỏng</summary><p>Mô phỏng hiện dùng mẫu nam. Các số đo được áp dụng trong phạm vi mô hình hỗ trợ. Cân nặng dùng để tính BMI; chiều dài chân hiện chỉ mang tính tham khảo.</p></details>
       <div data-comparison hidden><div class="bv-modes" aria-label="Chế độ mô hình"><button data-mode="current">Hiện tại</button><button data-mode="goal">Mục tiêu</button><button data-mode="compare">So sánh</button></div><h3>THAY ĐỔI MỤC TIÊU</h3><div data-differences></div></div>
       <div data-fitness hidden><fieldset class="bv-goals"><legend>Chọn một mục tiêu chính</legend></fieldset><div class="bv-recommendation" hidden aria-live="polite"><p class="eyebrow">GỢI Ý CHO BẠN</p><h3 data-goal-title></h3><p data-recommendation></p><p>Gợi ý khởi đầu để trao đổi cùng huấn luyện viên; điều chỉnh theo kinh nghiệm và lịch sinh hoạt của bạn.</p><a class="button button-red" href="#bv-conversion">TRAO ĐỔI VỀ LỘ TRÌNH TẬP LUYỆN</a></div></div>
       <p class="bv-error" data-form-error role="status"></p>

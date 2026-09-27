@@ -18,8 +18,8 @@ const goals=[
   ['Cải thiện thể lực','Luân phiên sức mạnh, vận động tim mạch và vận động linh hoạt.'],
   ['Tập luyện duy trì sức khỏe','Bắt đầu với vận động yêu thích và xây dựng lịch tập đều đặn.']
 ];
-const headings=['VÓC DÁNG HIỆN TẠI','VÓC DÁNG MỤC TIÊU','SO SÁNH VÓC DÁNG','MỤC TIÊU TẬP LUYỆN'];
-const descriptions=['Nhập một vài thông tin cơ bản để tạo mô phỏng gần với số đo của bạn.','Bạn muốn hướng tới vóc dáng như thế nào? Điều chỉnh những số đo bạn quan tâm.','Cùng một góc nhìn. Hai điểm trên hành trình của bạn.','Điều gì quan trọng nhất với bạn lúc này?'];
+const headings=['SỐ ĐO HIỆN TẠI','MỤC TIÊU CỦA BẠN','SO SÁNH VÓC DÁNG','MỤC TIÊU TẬP LUYỆN'];
+const descriptions=['Bắt đầu với số đo thực tế của bạn.','Điều chỉnh số đo theo mục tiêu của bạn.','Xem điểm bắt đầu và mục tiêu trong cùng một góc nhìn.','Chọn điều quan trọng nhất với bạn lúc này.'];
 const editedBody=()=>state.step===1?state.goalBody:state.currentBody;
 const draftBucket=()=>state.step===1?drafts.goal:drafts.current;
 const policyRange=key=>supportedRange(key,editedBody().height,uxProfiles)||{min:fields[key][1],max:fields[key][2]};
@@ -46,13 +46,13 @@ const measurementGuidance={
 function fieldMarkup(key){
   const [originalLabel,,,unit]=fields[key],label=key==='inseam'?'Chiều dài chân (tham khảo)':originalLabel;
   const value=editedBody()[key],range=policyRange(key),valid=Number.isFinite(value),calibrated=isCalibrated(key),normalized=calibrated||key==='height';
-  const helper=key==='weight'?'Cân nặng chỉ dùng để tính BMI tham khảo; không thay đổi mô hình 3D.':key==='inseam'?'Số đo này hiện chưa thay đổi mô hình 3D.':'';
+  const helper=key==='weight'?'Dùng để tính BMI tham khảo; không thay đổi hình ảnh 3D.':key==='inseam'?'Thông tin tham khảo, không làm thay đổi mô hình hiện tại.':'';
   const draft=draftBucket()[key],raw=draft===undefined?typedValue(key,value):draft;
   const numberRange=normalized?displayedRange(range):range;
   const description=`bv-unit-${key} bv-error-${key} bv-empty-${key}${helper?` bv-${key}-help`:''}${calibrated?` bv-near-${key}`:''}${key==='height'?' bv-height-transaction':''}`;
   const sliderMin=normalized?0:range.min,sliderMax=normalized?SLIDER_STEPS:range.max;
   const sliderValueNow=valid?(normalized?sliderPosition(value,range):value):(sliderMin+sliderMax)/2;
-  return `<div class="bv-field" data-field="${key}" data-unset="${!valid}"><div class="bv-field__top"><div class="bv-field-label"><label for="bv-${key}">${label}</label>${measurementGuidance[key]?`<details class="bv-measure-help"><summary aria-label="Cách đo ${label.toLowerCase()}">?</summary><p>${measurementGuidance[key]}</p></details>`:''}</div><div><input id="bv-${key}" data-number="${key}" type="number" inputmode="decimal" min="${numberRange.min}" max="${numberRange.max}" step="any" value="${raw}" aria-describedby="${description}" ${normalized&&!uxProfiles?'disabled':''}><span id="bv-unit-${key}">${unit}</span></div></div><input type="range" data-range="${key}" min="${sliderMin}" max="${sliderMax}" step="${normalized?1:0.1}" value="${sliderValueNow}" aria-label="${label}" aria-describedby="${description}" aria-valuemin="${range.min}" aria-valuemax="${range.max}" ${valid?`aria-valuenow="${value}" aria-valuetext="${displayCm(value)} ${unit}"`:'aria-valuetext="Chưa nhập số đo"'} ${normalized&&!uxProfiles?'disabled':''}><small id="bv-empty-${key}" class="bv-field-help" ${valid?'hidden':''}>Chưa nhập số đo; mô hình giữ mức trung tính cho vùng này.</small>${helper?`<small id="bv-${key}-help" class="bv-field-help">${helper}</small>`:''}${calibrated?`<small id="bv-near-${key}" class="bv-field-help bv-near" role="status" hidden>Gần giới hạn mô phỏng.</small>`:''}<small id="bv-error-${key}" class="bv-error" role="status"></small>${calibrated?`<button type="button" class="bv-limit-action" data-use-limit="${key}" hidden></button>`:''}${key==='height'?'<div id="bv-height-transaction" class="bv-height-transaction" data-height-transaction role="status" hidden><p data-height-message></p><button type="button" data-apply-height></button><button type="button" data-cancel-height>Hủy thay đổi chiều cao</button></div>':''}</div>`;
+  return `<div class="bv-field" data-field="${key}" data-unset="${!valid}"><div class="bv-field__top"><div class="bv-field-label"><label for="bv-${key}">${label}</label>${measurementGuidance[key]?`<details class="bv-measure-help"><summary aria-label="Cách đo ${label.toLowerCase()}">?</summary><p>${measurementGuidance[key]}</p></details>`:''}</div><div><input id="bv-${key}" data-number="${key}" type="number" inputmode="decimal" min="${numberRange.min}" max="${numberRange.max}" step="any" value="${raw}" aria-describedby="${description}" ${normalized&&!uxProfiles?'disabled':''}><span id="bv-unit-${key}">${unit}</span></div></div><input type="range" data-range="${key}" min="${sliderMin}" max="${sliderMax}" step="${normalized?1:0.1}" value="${sliderValueNow}" aria-label="${label}" aria-describedby="${description}" aria-valuemin="${range.min}" aria-valuemax="${range.max}" ${valid?`aria-valuenow="${value}" aria-valuetext="${displayCm(value)} ${unit}"`:'aria-valuetext="Chưa nhập số đo"'} ${normalized&&!uxProfiles?'disabled':''}><small id="bv-empty-${key}" class="bv-field-help" ${valid?'hidden':''}>Chưa nhập số đo; mô hình giữ mức trung tính cho vùng này.</small>${helper?`<small id="bv-${key}-help" class="bv-field-help">${helper}</small>`:''}${calibrated?`<small id="bv-near-${key}" class="bv-field-help bv-near" role="status" hidden>Gần giới hạn mô phỏng.</small>`:''}<small id="bv-error-${key}" class="bv-error" role="status"></small>${calibrated?`<button type="button" class="bv-limit-action" data-use-limit="${key}" hidden></button>`:''}${key==='height'?'<div id="bv-height-transaction" class="bv-height-transaction" data-height-transaction role="status" hidden><strong>KIỂM TRA CHIỀU CAO MỚI</strong><p data-height-message></p><button type="button" data-apply-height></button><button type="button" data-cancel-height>Hủy thay đổi chiều cao</button></div>':''}</div>`;
 }
 function updateFieldFeedback(){
   $$('[data-field]').forEach(field=>{
@@ -88,7 +88,14 @@ function updateFieldFeedback(){
 }
 function renderFields(){
   const goal=state.step===1;
-  $('[data-measurements]').innerHTML=goal ? `<div class="bv-goal-note">MỤC TIÊU CỦA BẠN <span>Khởi tạo từ số đo hiện tại lúc tạo mục tiêu. Chỉnh số đo hiện tại sau đó không tự thay đổi mục tiêu.</span></div>${['weight','waist','hip','chest','thigh','calf'].map(fieldMarkup).join('')}` : `<fieldset class="bv-gender"><legend>Kiểu mô hình</legend><p id="bv-gender-help" class="bv-field-help">Hiện chỉ mô phỏng mẫu nam; lựa chọn này chưa thay đổi mô hình 3D.</p>${[['female','Nữ'],['male','Nam'],['neutral','Trung lập']].map(([value,label])=>`<label><input type="radio" name="bv-gender" aria-describedby="bv-gender-help" value="${value}" ${state.currentBody.gender===value?'checked':''}><span>${label}</span></label>`).join('')}</fieldset>${['height','weight','chest','waist','hip','inseam'].map(fieldMarkup).join('')}<details class="bv-advanced"><summary>Thêm số đo chi tiết</summary>${['shoulder','arm','thigh','calf'].map(fieldMarkup).join('')}</details>`;
+  const primary=$('[data-measurements]'),secondary=$('[data-measurements-secondary]');
+  if(goal){
+    primary.innerHTML=`<div class="bv-goal-note">MỤC TIÊU CỦA BẠN <span>Khởi tạo từ số đo hiện tại lúc tạo mục tiêu. Chỉnh số đo hiện tại sau đó không tự thay đổi mục tiêu.</span></div><div class="bv-group-heading"><strong>SỐ ĐO MỤC TIÊU</strong><span>Điều chỉnh những thay đổi bạn muốn hướng tới.</span></div>${['weight','chest','waist','hip'].map(fieldMarkup).join('')}`;
+    secondary.innerHTML=`<details class="bv-advanced"><summary>Số đo chi tiết</summary>${['thigh','calf'].map(fieldMarkup).join('')}</details>`;
+  }else{
+    primary.innerHTML=`<div class="bv-group-heading"><strong>SỐ ĐO CHÍNH</strong><span>Bắt đầu với 5 thông tin này.</span></div>${['height','weight','chest','waist','hip'].map(fieldMarkup).join('')}`;
+    secondary.innerHTML=`<details class="bv-reference"><summary>Thông tin bổ trợ</summary>${fieldMarkup('inseam')}</details><details class="bv-advanced"><summary>Số đo chi tiết</summary>${['shoulder','arm','thigh','calf'].map(fieldMarkup).join('')}</details><details class="bv-model-type"><summary>Mẫu mô phỏng</summary><fieldset class="bv-gender"><legend class="sr-only">Kiểu mô hình</legend><p id="bv-gender-help" class="bv-field-help">Lựa chọn này chưa thay đổi hình ảnh 3D trong phiên bản hiện tại.</p>${[['female','Nữ'],['male','Nam'],['neutral','Trung lập']].map(([value,label])=>`<label><input type="radio" name="bv-gender" aria-describedby="bv-gender-help" value="${value}" ${state.currentBody.gender===value?'checked':''}><span>${label}</span></label>`).join('')}</fieldset></details>`;
+  }
 }
 function updateSummary({updateGeometry=true}={}){
   const m=state.mode==='goal'?state.goalBody:state.currentBody;
@@ -109,9 +116,9 @@ function renderStep(focus=false){
   modelAccess?.reset();
   $('[data-step-label]').textContent=`0${state.step+1} / ${['HIỆN TẠI','MỤC TIÊU','SO SÁNH','LỘ TRÌNH'][state.step]}`;
   $('#bv-panel-title').textContent=headings[state.step];$('[data-description]').textContent=descriptions[state.step];
-  $('[data-measurements]').hidden=state.step>1;$('.bv-bmi').hidden=state.step===3;
+  $('[data-measurements]').hidden=state.step>1;$('[data-measurements-secondary]').hidden=state.step>1;$('[data-sample-notice]').hidden=state.step!==0;$('[data-simulation-info]').hidden=state.step>1;$('.bv-bmi').hidden=state.step===3;
   $('[data-comparison]').hidden=state.step!==2;$('[data-fitness]').hidden=state.step!==3;
-  $('[data-next]').hidden=state.step===3;$('[data-next]').textContent=['ĐẶT MỤC TIÊU →','SO SÁNH VÓC DÁNG →','CHỌN MỤC TIÊU TẬP LUYỆN →'][state.step]||'';
+  $('[data-next]').hidden=state.step===3;$('[data-next]').textContent=['TIẾP TỤC ĐẶT MỤC TIÊU →','SO SÁNH VÓC DÁNG →','CHỌN MỤC TIÊU TẬP LUYỆN →'][state.step]||'';
   $$('[data-step]').forEach(button=>{button.disabled=Number(button.dataset.step)>1&&!state.goalBody;button.removeAttribute('aria-current');if(Number(button.dataset.step)===state.step)button.setAttribute('aria-current','step');});
   if(state.step<2)renderFields();
   updateSummary();if(focus){
