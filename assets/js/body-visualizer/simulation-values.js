@@ -1,5 +1,5 @@
 import {calibratedFields} from './normalization.js';
-import {supportedRange,canonicalEndpoint,normalizeMeasurement,nearest} from './measurement-constraints.js';
+import {supportedRange,canonicalEndpoint,nearest} from './measurement-constraints.js';
 
 export function deriveField(actualValue,range){
   if(actualValue==null)return {actualValue:null,simulationValue:null,mappingValue:null,simulationMin:range?.min??null,simulationMax:range?.max??null,simulationStatus:'UNSET'};
@@ -7,7 +7,7 @@ export function deriveField(actualValue,range){
   const alias=canonicalEndpoint(actualValue,range);
   const simulationStatus=alias!==null?'SUPPORTED':actualValue<range.min?'BELOW_SIMULATION_RANGE':actualValue>range.max?'ABOVE_SIMULATION_RANGE':'SUPPORTED';
   const simulationValue=simulationStatus==='SUPPORTED'?actualValue:nearest(actualValue,range);
-  const mappingValue=alias??(simulationStatus==='SUPPORTED'?normalizeMeasurement(simulationValue,range):simulationValue);
+  const mappingValue=alias??simulationValue;
   return {actualValue,simulationValue,mappingValue,simulationMin:range.min,simulationMax:range.max,simulationStatus};
 }
 export function deriveSimulation(actualBody,profiles){
