@@ -1,4 +1,5 @@
 import {mapHeight,baselinesAtHeight,baseHeightBaselines} from './height-calibration.js';
+import {validateCalfPositiveCalibration,resolveCalfPositiveProfile} from './calf-positive-calibration.js';
 // Keep original shape-response curves; shift absolute inputs by measured Height drift.
 export const calibrationURL=new URL('../../../qa/body-measurement-calibration/measurements.json',import.meta.url);
 export const hipCalibrationURL=new URL('../../../qa/hip-measurement-calibration/measurements.json',import.meta.url);
@@ -24,8 +25,13 @@ export function loadCalibration(){return calibrationPromise??=(async()=>{
     const response=await fetch(url);if(!response.ok)throw new Error('Calibration HTTP '+response.status);
     return response.json();
   }));
-  return compileCalibration({...body,hips:hip.hips});
+  const profiles=compileCalibration({...body,hips:hip.hips});
+  validateCalfPositiveCalibration(profiles.calf);
+  return profiles;
 })().catch(error=>{calibrationPromise=null;throw error;});}
+export function profileAtHeight(profiles,field,height){
+  return field==='calf'?resolveCalfPositiveProfile(profiles.calf,height):profiles[field];
+}
 export function measurementCmToMorphWeight(input,profile){
   const empty=input==null||(typeof input==='string'&&input.trim()==='');
   const cm=!empty&&(typeof input==='number'||typeof input==='string')?Number(input):NaN;
@@ -47,7 +53,7 @@ export function mapMeasurements(body,profiles){
     const requested=!empty&&['number','string'].includes(typeof input)?Number(input):NaN;
     const valid=Number.isFinite(requested)&&requested>0;
     const equivalent=valid?baseHeightBaselines[region]+(requested-baselines[region]):empty?null:NaN;
-    debug[field]={...measurementCmToMorphWeight(equivalent,profiles[field]),requestedCm:valid?requested:null,heightAdjustedBaseline:baselines[region],equivalentBaseHeightMeasurement:valid?equivalent:null};
+    debug[field]={...measurementCmToMorphWeight(equivalent,profileAtHeight(profiles,field,height.clampedCm)),requestedCm:valid?requested:null,heightAdjustedBaseline:baselines[region],equivalentBaseHeightMeasurement:valid?equivalent:null};
     weights[field]=debug[field].signedWeight;
   }
   return {weights,debug,height:{...height,baselines}};

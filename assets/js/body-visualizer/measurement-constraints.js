@@ -1,6 +1,6 @@
 import {inputPolicyRange} from './input-policy.js';
 import {HEIGHT_MIN_CM,HEIGHT_MAX_CM,mapHeight,baselinesAtHeight,baseHeightBaselines} from './height-calibration.js';
-import {calibratedFields,measurementCmToMorphWeight} from './normalization.js';
+import {calibratedFields,measurementCmToMorphWeight,profileAtHeight} from './normalization.js';
 
 export const heightLimits=Object.freeze({min:HEIGHT_MIN_CM,max:HEIGHT_MAX_CM});
 export const isCalibrated=key=>Object.hasOwn(calibratedFields,key);
@@ -26,7 +26,7 @@ export function normalizeMeasurement(value,range){
 export function supportedRange(key,height,profiles){
   if(key==='height')return heightLimits;
   if(!isCalibrated(key)||!profiles?.[key])return null;
-  const profile=profiles[key],region=calibratedFields[key];
+  const profile=profileAtHeight(profiles,key,height),region=calibratedFields[key];
   const shift=baselinesAtHeight(mapHeight(height).influence)[region]-baseHeightBaselines[region];
   return {min:profile.min+shift,neutral:profile.base+shift,max:profile.max+shift};
 }
@@ -47,7 +47,7 @@ export function technicalStatus(key,value,height,profiles){
   if(!isCalibrated(key)||value==null||!profiles?.[key])return {near:false,influence:0};
   const region=calibratedFields[key];
   const equivalent=baseHeightBaselines[region]+value-baselinesAtHeight(mapHeight(height).influence)[region];
-  const influence=measurementCmToMorphWeight(equivalent,profiles[key]).signedWeight;
+  const influence=measurementCmToMorphWeight(equivalent,profileAtHeight(profiles,key,height)).signedWeight;
   return {near:Math.abs(influence)>=0.75-1e-10,influence};
 }
 
