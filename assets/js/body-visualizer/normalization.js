@@ -1,5 +1,6 @@
 import {mapHeight,baselinesAtHeight,baseHeightBaselines} from './height-calibration.js';
 import {validateCalfPositiveCalibration,resolveCalfPositiveProfile} from './calf-positive-calibration.js';
+import {validateChestNegativeCalibration,resolveChestNegativeProfile} from './chest-negative-calibration.js';
 // Keep original shape-response curves; shift absolute inputs by measured Height drift.
 export const calibrationURL=new URL('../../../qa/body-measurement-calibration/measurements.json',import.meta.url);
 export const hipCalibrationURL=new URL('../../../qa/hip-measurement-calibration/measurements.json',import.meta.url);
@@ -27,9 +28,11 @@ export function loadCalibration(){return calibrationPromise??=(async()=>{
   }));
   const profiles=compileCalibration({...body,hips:hip.hips});
   validateCalfPositiveCalibration(profiles.calf);
+  validateChestNegativeCalibration(profiles.chest);
   return profiles;
 })().catch(error=>{calibrationPromise=null;throw error;});}
 export function profileAtHeight(profiles,field,height){
+  if(field==='chest')return resolveChestNegativeProfile(profiles.chest,height);
   return field==='calf'?resolveCalfPositiveProfile(profiles.calf,height):profiles[field];
 }
 export function measurementCmToMorphWeight(input,profile){

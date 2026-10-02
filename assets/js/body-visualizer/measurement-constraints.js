@@ -13,7 +13,7 @@ export const displayedRange=range=>({min:Number(displayNumber(range.min)),max:Nu
 // endpoints. This is not a general tolerance around the calibration range.
 export function canonicalEndpoint(value,range){
   const displayed=displayedRange(range);
-  if(value===displayed.min)return range.min;
+  if(!range.strictMinimum&&value===displayed.min)return range.min;
   if(value===displayed.max)return range.max;
   return null;
 }
@@ -28,7 +28,7 @@ export function supportedRange(key,height,profiles){
   if(!isCalibrated(key)||!profiles?.[key])return null;
   const profile=profileAtHeight(profiles,key,height),region=calibratedFields[key];
   const shift=baselinesAtHeight(mapHeight(height).influence)[region]-baseHeightBaselines[region];
-  return {min:profile.min+shift,neutral:profile.base+shift,max:profile.max+shift};
+  return {min:profile.min+shift,neutral:profile.base+shift,max:profile.max+shift,...(key==='chest'?{strictMinimum:true}:{})};
 }
 
 export function validateDraft(key,raw,{height,profiles,fallback,allowEmpty=false,badInput=false}={}){
