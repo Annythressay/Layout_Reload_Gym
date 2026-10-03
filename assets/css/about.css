@@ -327,7 +327,7 @@
 /* Select wrapper (custom arrow) */
 .arf-select-wrap { position:relative; }
 .arf-select-wrap::after {
-  content:"\f078"; font-family:"Font Awesome 6 Free"; font-weight:900;
+  content:"\f078"; font-family:"Font Awesome 7 Free"; font-weight:900;
   position:absolute; right:11px; top:50%; transform:translateY(-50%);
   pointer-events:none; color:#888; font-size:10px;
 }
@@ -365,7 +365,7 @@
 }
 .arf-chip input[type="checkbox"]:checked { background:var(--about-red); border-color:var(--about-red); }
 .arf-chip input[type="checkbox"]:checked::after {
-  content:"\f00c"; font-family:"Font Awesome 6 Free"; font-weight:900;
+  content:"\f00c"; font-family:"Font Awesome 7 Free"; font-weight:900;
   font-size:9px; color:#fff;
   position:absolute; inset:0; display:grid; place-items:center;
 }
@@ -375,7 +375,7 @@
 
 /* Error / hint messages */
 .arf-error { font-size:11px; color:#c51524; display:flex; align-items:center; gap:5px; }
-.arf-error:not([hidden])::before { content:"\f071"; font-family:"Font Awesome 6 Free"; font-weight:900; font-size:10px; }
+.arf-error:not([hidden])::before { content:"\f071"; font-family:"Font Awesome 7 Free"; font-weight:900; font-size:10px; }
 .arf-hint { font-size:10.5px; color:#9a9aaa; }
 .arf-note-count { text-align:right; }
 
@@ -396,7 +396,7 @@
 }
 .arf-consent-label input[type="checkbox"]:checked { background:var(--about-red); border-color:var(--about-red); }
 .arf-consent-label input[type="checkbox"]:checked::after {
-  content:"\f00c"; font-family:"Font Awesome 6 Free"; font-weight:900;
+  content:"\f00c"; font-family:"Font Awesome 7 Free"; font-weight:900;
   font-size:9px; color:#fff;
   position:absolute; inset:0; display:grid; place-items:center;
 }

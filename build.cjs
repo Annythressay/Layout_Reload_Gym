@@ -46,7 +46,10 @@ for (const [name, [title, description]] of Object.entries(pages)) {
   <title>${title}</title>
   <meta name="description" content="${description}">
   <link rel="icon" type="image/png" href="assets/images/logo/reload-logo.png">
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@7.3.1/css/all.min.css">
+  <link rel="stylesheet" href="assets/vendor/fontawesome-free/7.3.1/css/fontawesome.min.css">
+  <link rel="stylesheet" href="assets/vendor/fontawesome-free/7.3.1/css/solid.min.css">
+  <link rel="stylesheet" href="assets/vendor/fontawesome-free/7.3.1/css/regular.min.css">
+  <link rel="stylesheet" href="assets/vendor/fontawesome-free/7.3.1/css/brands.min.css">
   <link rel="stylesheet" href="assets/css/style.css">
 ${aboutStylesheet}${facilitiesStylesheet}${aboutScript}${facilitiesScript}${visualizerAssets}  <script src="assets/js/main.js" defer></script>
 </head>

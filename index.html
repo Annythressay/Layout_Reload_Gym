@@ -7,7 +7,10 @@
   <title>RELOAD Gym & Wellness</title>
   <meta name="description" content="Khám phá RELOAD với hai chi nhánh, không gian tập luyện hiện đại và cộng đồng giúp bạn mạnh mẽ hơn mỗi ngày.">
   <link rel="icon" type="image/png" href="assets/images/logo/reload-logo.png">
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@7.3.1/css/all.min.css">
+  <link rel="stylesheet" href="assets/vendor/fontawesome-free/7.3.1/css/fontawesome.min.css">
+  <link rel="stylesheet" href="assets/vendor/fontawesome-free/7.3.1/css/solid.min.css">
+  <link rel="stylesheet" href="assets/vendor/fontawesome-free/7.3.1/css/regular.min.css">
+  <link rel="stylesheet" href="assets/vendor/fontawesome-free/7.3.1/css/brands.min.css">
   <link rel="stylesheet" href="assets/css/style.css">
 <link rel="stylesheet" href="assets/css/body-visualizer.css">
   <script src="assets/js/main.js" defer></script>
@@ -32,12 +35,12 @@
     <div class="hero-index" aria-hidden="true"><b>01</b><span>02</span><span>03</span></div>
     <div class="video-preview">
       <div class="video-preview__media">
-        <video muted loop playsinline preload="metadata" poster="assets/images/video/reload-video-preview.webp" aria-hidden="true" tabindex="-1"></video>
+        <img src="assets/images/video/reload-video-preview.webp" alt="Không gian phòng tập RELOAD">
         <div class="video-preview__overlay" aria-hidden="true"></div>
-        <button class="video-preview__trigger" type="button" aria-label="Phát video RELOAD" aria-haspopup="dialog" aria-controls="reload-video-modal">
-          <span class="video-preview__play"><i class="fa-solid fa-play" aria-hidden="true"></i></span>
-        </button>
-        <div class="video-preview__caption" aria-hidden="true"><strong>KHÁM PHÁ RELOAD</strong><span>Trải nghiệm không gian RELOAD</span></div>
+        <a class="video-preview__trigger" href="https://www.facebook.com/profile.php?id=100078970451357&amp;locale=vi_VN" target="_blank" rel="noopener noreferrer" aria-label="Xem Facebook RELOAD (mở tab mới)">
+          <span class="video-preview__play"><i class="fa-brands fa-facebook-f" aria-hidden="true"></i></span>
+          <span class="video-preview__caption"><strong>KHÁM PHÁ RELOAD</strong><span>Xem Facebook RELOAD (mở tab mới)</span></span>
+        </a>
       </div>
     </div>
   </div>
@@ -398,13 +401,7 @@
   <div class="button-row"><a class="button button-red" href="locations.html#contact">ĐĂNG KÝ TẬP THỬ <i class="fa-solid fa-arrow-right" aria-hidden="true"></i></a><a class="button" href="locations.html#contact">LIÊN HỆ RELOAD <i class="fa-solid fa-arrow-right" aria-hidden="true"></i></a></div>
 </section>
 
-<dialog class="video-modal" id="reload-video-modal" aria-label="RELOAD video">
-  <button class="video-modal__close" type="button" aria-label="Đóng video" autofocus><i class="fa-solid fa-xmark" aria-hidden="true"></i></button>
-  <div class="video-modal__content">
-    <video controls autoplay playsinline preload="none" aria-label="Trải nghiệm không gian RELOAD"></video>
-    <p class="video-modal__error" role="status" hidden>Video hiện không khả dụng. Vui lòng thử lại sau.</p>
-  </div>
-</dialog>
+
 
 </main>
 <div class="reload-promo" data-reload-promo hidden>
