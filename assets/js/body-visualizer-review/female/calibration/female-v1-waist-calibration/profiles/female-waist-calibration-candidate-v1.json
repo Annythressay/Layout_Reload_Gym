@@ -1,0 +1,3162 @@
+{
+  "schemaVersion": 1,
+  "modelId": "reload-body-female-v1",
+  "calibrationVersion": "female-waist-calibration-candidate-v1-20261006",
+  "status": "R&D CANDIDATE",
+  "heightLockId": "reload-body-female-v1-height-final-lock-v1-20261004",
+  "bustLockId": "reload-body-female-v1-bust-final-lock-v1-20261005",
+  "workingSourceSHA256": "A67BAFE59A31BEC88AFB077986E4104E585996AD9A9114E2FA0AA46F3F82362E",
+  "candidateGLBSHA256": "0FDA1407348228EF56817FFEA3AD75A40A0C285E0E33D41835417B19DADF9480",
+  "basisSHA256": "B66D73C4473F56E5910BC34FF9D52DCD8A84ABC466F7545EC4DA2F319CC54631",
+  "topologySHA256": "54A319EF2E15230133732428B43A96C20AB27A4B5C2B67EF79C90D0D3BCA7CD1",
+  "vectorSHA256": [
+    "4471DD11CB436095051E4B3CD36391779C65A009BE1026937809B88B721BCAAB",
+    "01B68602562DAFAFA0B95041C6F69FDBA75B69DF6A5C7975625D8A36B7F59EA1",
+    "121DA6019F166384737E0CB0590CFABA0385B56FF997ED82655199306B26E1B9",
+    "54FA6A0FCD32981CE3571291541D2BD5ADC48B4F1CFBE723BFFB58631653C84F",
+    "D4F79DEC8372CF056A857374DC9C10B10849A673EACBAD1DFDDE32F2417F3D02"
+  ],
+  "morphNamesOrder": [
+    "RND_female_height_min_native_v1",
+    "RND_female_height_max_native_v1",
+    "RND_female_bust_decr_native_v1",
+    "RND_female_bust_incr_native_v1",
+    "RND_female_waist_signed_native_v1"
+  ],
+  "architecture": "ONE SIGNED NATIVE INCR WAIST VECTOR; negative DECR, zero NEUTRAL, positive INCR",
+  "canonicalKey": "waist",
+  "ruler": {
+    "version": "female-waist-protocol-d-surface-centroid-horizontal-v1-20261006",
+    "protocol": "D",
+    "definition": "Complete horizontal torso skin circumference at the mean current Z of a fixed 30-vertex exported body surface cohort identified at the constrained neutral Female waist minimum between lower ribcage and upper pelvis; select the unique degree-two closed contour surrounding the cohort centroid XY, containing front, sides and back; arms are separate non-enclosing components.",
+    "patchExportIds": [
+      4022,
+      4024,
+      4025,
+      4026,
+      4027,
+      4028,
+      4029,
+      4030,
+      4031,
+      4032,
+      4033,
+      4034,
+      4151,
+      4154,
+      4155,
+      4156,
+      10680,
+      10682,
+      10683,
+      10684,
+      10685,
+      10686,
+      10687,
+      10688,
+      10689,
+      10690,
+      10691,
+      10793,
+      10796,
+      10797
+    ],
+    "patchOrderedIdsSHA256": "04E8EC08209F301BD28977BA195B02767B1FECC79B42687E4963934C8C40ADD1",
+    "PythonSHA256": "5C933FBC1EEDE894D1293DE8DC19BE505D9E63DA2E3BDE56CAA8A3177D79F126",
+    "JavaScriptSHA256": "9A4F1A51ABB18E45E14F1FF944F78A1DD3A30C86CFC62BD7E6A337E0DA9D5C28",
+    "reduction": "Identical numeric topological key order, centroid sum then division, scalar sqrt and serial segment sum in both languages; exact support classification requires common arithmetic, no tolerance or alias"
+  },
+  "conditioning": {
+    "dimensions": [
+      "Height Simulation",
+      "locked Bust resolver state"
+    ],
+    "heightDomain": [
+      123.38632345199585,
+      229.0990114212036
+    ],
+    "bustDomain": "Full geometry-backed locked Bust support at each Height; consume exact locked Bust coefficients and identity",
+    "primaryAuthoringBaseline": "Bust NEUTRAL"
+  },
+  "support": {
+    "version": "female-waist-height-bust-conditioned-geometry-support-v1-20261006",
+    "representation": "Measure exact Protocol D endpoints on G(Height,Bust,\u22121), G(Height,Bust,0), G(Height,Bust,+1); no centimetre interpolation or rectangular clamp",
+    "signedInfluenceDomain": [
+      -1,
+      1
+    ],
+    "definitionRows": [
+      {
+        "heightCm": 123.38632345199585,
+        "bustSimulation": 75.3334131792315,
+        "bustRelative": 0,
+        "bustState": {
+          "actual": 75.3334131792315,
+          "simulation": 75.3334131792315,
+          "status": "SUPPORTED",
+          "direction": "neutral",
+          "decrInfluence": 0.0,
+          "incrInfluence": 0.0,
+          "heightSimulation": 123.38632345199585,
+          "measuredNeutralBust": 75.3334131792315,
+          "lowerSupportBust": 60.77315652122059,
+          "upperSupportBust": 88.61808861596667,
+          "maxIncrInfluence": 0.7615624999999999,
+          "identity": {
+            "modelId": "reload-body-female-v1",
+            "bustCalibrationVersion": "female-bust-calibration-candidate-v1-20261005",
+            "heightLockId": "reload-body-female-v1-height-final-lock-v1-20261004",
+            "supportSurfaceVersion": "female-bust-height-conditioned-support-v1-20261005"
+          },
+          "displaySimulation": 75.3
+        },
+        "lowerWaist": 48.18024062755137,
+        "neutralWaist": 57.23110502975748,
+        "upperWaist": 66.75949352503822,
+        "curve": [
+          {
+            "influence": -1,
+            "waistCm": 48.18024062755137
+          },
+          {
+            "influence": -0.75,
+            "waistCm": 50.38638246360829
+          },
+          {
+            "influence": -0.5,
+            "waistCm": 52.63305721089322
+          },
+          {
+            "influence": -0.25,
+            "waistCm": 54.91585066689962
+          },
+          {
+            "influence": 0,
+            "waistCm": 57.23110502975748
+          },
+          {
+            "influence": 0.25,
+            "waistCm": 59.57568842473241
+          },
+          {
+            "influence": 0.5,
+            "waistCm": 61.94686036209198
+          },
+          {
+            "influence": 0.75,
+            "waistCm": 64.34218757173129
+          },
+          {
+            "influence": 1,
+            "waistCm": 66.75949352503822
+          }
+        ]
+      },
+      {
+        "heightCm": 123.38632345199585,
+        "bustSimulation": 68.05328485022605,
+        "bustRelative": -0.5,
+        "bustState": {
+          "actual": 68.05328485022605,
+          "simulation": 68.05328485022605,
+          "status": "SUPPORTED",
+          "direction": "decr",
+          "decrInfluence": 0.4961821794342668,
+          "incrInfluence": 0.0,
+          "heightSimulation": 123.38632345199585,
+          "measuredNeutralBust": 75.3334131792315,
+          "lowerSupportBust": 60.77315652122059,
+          "upperSupportBust": 88.61808861596667,
+          "maxIncrInfluence": 0.7615624999999999,
+          "identity": {
+            "modelId": "reload-body-female-v1",
+            "bustCalibrationVersion": "female-bust-calibration-candidate-v1-20261005",
+            "heightLockId": "reload-body-female-v1-height-final-lock-v1-20261004",
+            "supportSurfaceVersion": "female-bust-height-conditioned-support-v1-20261005"
+          },
+          "displaySimulation": 68.1
+        },
+        "lowerWaist": 48.15939656176526,
+        "neutralWaist": 57.20687930598858,
+        "upperWaist": 66.73217972790975,
+        "curve": [
+          {
+            "influence": -1,
+            "waistCm": 48.15939656176526
+          },
+          {
+            "influence": -0.75,
+            "waistCm": 50.36467228936766
+          },
+          {
+            "influence": -0.5,
+            "waistCm": 52.610494936770536
+          },
+          {
+            "influence": -0.25,
+            "waistCm": 54.892449300545586
+          },
+          {
+            "influence": 0,
+            "waistCm": 57.20687930598858
+          },
+          {
+            "influence": 0.25,
+            "waistCm": 59.550655913471054
+          },
+          {
+            "influence": 0.5,
+            "waistCm": 61.92104168888785
+          },
+          {
+            "influence": 0.75,
+            "waistCm": 64.31560744279963
+          },
+          {
+            "influence": 1,
+            "waistCm": 66.73217972790975
+          }
+        ]
+      },
+      {
+        "heightCm": 123.38632345199585,
+        "bustSimulation": 81.97575089759908,
+        "bustRelative": 0.5,
+        "bustState": {
+          "actual": 81.97575089759908,
+          "simulation": 81.97575089759908,
+          "status": "SUPPORTED",
+          "direction": "incr",
+          "decrInfluence": 0.0,
+          "incrInfluence": 0.38265774976804395,
+          "heightSimulation": 123.38632345199585,
+          "measuredNeutralBust": 75.3334131792315,
+          "lowerSupportBust": 60.77315652122059,
+          "upperSupportBust": 88.61808861596667,
+          "maxIncrInfluence": 0.7615624999999999,
+          "identity": {
+            "modelId": "reload-body-female-v1",
+            "bustCalibrationVersion": "female-bust-calibration-candidate-v1-20261005",
+            "heightLockId": "reload-body-female-v1-height-final-lock-v1-20261004",
+            "supportSurfaceVersion": "female-bust-height-conditioned-support-v1-20261005"
+          },
+          "displaySimulation": 82.0
+        },
+        "lowerWaist": 48.80722553476169,
+        "neutralWaist": 57.85416475960381,
+        "upperWaist": 67.36644679676054,
+        "curve": [
+          {
+            "influence": -1,
+            "waistCm": 48.80722553476169
+          },
+          {
+            "influence": -0.75,
+            "waistCm": 51.01420876681178
+          },
+          {
+            "influence": -0.5,
+            "waistCm": 53.26033597857859
+          },
+          {
+            "influence": -0.25,
+            "waistCm": 55.54146883820484
+          },
+          {
+            "influence": 0,
+            "waistCm": 57.85416475960381
+          },
+          {
+            "influence": 0.25,
+            "waistCm": 60.19546760732868
+          },
+          {
+            "influence": 0.5,
+            "waistCm": 62.56278234358981
+          },
+          {
+            "influence": 0.75,
+            "waistCm": 64.95379834088281
+          },
+          {
+            "influence": 1,
+            "waistCm": 67.36644679676054
+          }
+        ]
+      },
+      {
+        "heightCm": 123.38632345199585,
+        "bustSimulation": 60.77315652122059,
+        "bustRelative": -1,
+        "bustState": {
+          "actual": 60.77315652122059,
+          "simulation": 60.77315652122059,
+          "status": "SUPPORTED",
+          "direction": "decr",
+          "decrInfluence": 1.0,
+          "incrInfluence": 0.0,
+          "heightSimulation": 123.38632345199585,
+          "measuredNeutralBust": 75.3334131792315,
+          "lowerSupportBust": 60.77315652122059,
+          "upperSupportBust": 88.61808861596667,
+          "maxIncrInfluence": 0.7615624999999999,
+          "identity": {
+            "modelId": "reload-body-female-v1",
+            "bustCalibrationVersion": "female-bust-calibration-candidate-v1-20261005",
+            "heightLockId": "reload-body-female-v1-height-final-lock-v1-20261004",
+            "supportSurfaceVersion": "female-bust-height-conditioned-support-v1-20261005"
+          },
+          "displaySimulation": 60.8
+        },
+        "lowerWaist": 48.13867850205516,
+        "neutralWaist": 57.182713756707685,
+        "upperWaist": 66.70485976303087,
+        "curve": [
+          {
+            "influence": -1,
+            "waistCm": 48.13867850205516
+          },
+          {
+            "influence": -0.75,
+            "waistCm": 50.34307137405014
+          },
+          {
+            "influence": -0.5,
+            "waistCm": 52.588025590703744
+          },
+          {
+            "influence": -0.25,
+            "waistCm": 54.86912466429914
+          },
+          {
+            "influence": 0,
+            "waistCm": 57.182713756707685
+          },
+          {
+            "influence": 0.25,
+            "waistCm": 59.52566687618873
+          },
+          {
+            "influence": 0.5,
+            "waistCm": 61.89525034942876
+          },
+          {
+            "influence": 0.75,
+            "waistCm": 64.28903794290794
+          },
+          {
+            "influence": 1,
+            "waistCm": 66.70485976303087
+          }
+        ]
+      },
+      {
+        "heightCm": 123.38632345199585,
+        "bustSimulation": 88.61808861596667,
+        "bustRelative": 1,
+        "bustState": {
+          "actual": 88.61808861596667,
+          "simulation": 88.61808861596667,
+          "status": "SUPPORTED",
+          "direction": "incr",
+          "decrInfluence": 0.0,
+          "incrInfluence": 0.7615624999999999,
+          "heightSimulation": 123.38632345199585,
+          "measuredNeutralBust": 75.3334131792315,
+          "lowerSupportBust": 60.77315652122059,
+          "upperSupportBust": 88.61808861596667,
+          "maxIncrInfluence": 0.7615624999999999,
+          "identity": {
+            "modelId": "reload-body-female-v1",
+            "bustCalibrationVersion": "female-bust-calibration-candidate-v1-20261005",
+            "heightLockId": "reload-body-female-v1-height-final-lock-v1-20261004",
+            "supportSurfaceVersion": "female-bust-height-conditioned-support-v1-20261005"
+          },
+          "displaySimulation": 88.6
+        },
+        "lowerWaist": 49.44160548750289,
+        "neutralWaist": 58.484710859244856,
+        "upperWaist": 67.98149165732563,
+        "curve": [
+          {
+            "influence": -1,
+            "waistCm": 49.44160548750289
+          },
+          {
+            "influence": -0.75,
+            "waistCm": 51.64933949987466
+          },
+          {
+            "influence": -0.5,
+            "waistCm": 53.89492232446532
+          },
+          {
+            "influence": -0.25,
+            "waistCm": 56.17446242062153
+          },
+          {
+            "influence": 0,
+            "waistCm": 58.484710859244856
+          },
+          {
+            "influence": 0.25,
+            "waistCm": 60.822871231789286
+          },
+          {
+            "influence": 0.5,
+            "waistCm": 63.186481526131836
+          },
+          {
+            "influence": 0.75,
+            "waistCm": 65.57334731969038
+          },
+          {
+            "influence": 1,
+            "waistCm": 67.98149165732563
+          }
+        ]
+      },
+      {
+        "heightCm": 143.76704096794128,
+        "bustSimulation": 81.45941624237236,
+        "bustRelative": 0,
+        "bustState": {
+          "actual": 81.45941624237236,
+          "simulation": 81.45941624237236,
+          "status": "SUPPORTED",
+          "direction": "neutral",
+          "decrInfluence": 0.0,
+          "incrInfluence": 0.0,
+          "heightSimulation": 143.76704096794128,
+          "measuredNeutralBust": 81.45941624237236,
+          "lowerSupportBust": 66.88740126113738,
+          "upperSupportBust": 97.10753783713601,
+          "maxIncrInfluence": 0.89375,
+          "identity": {
+            "modelId": "reload-body-female-v1",
+            "bustCalibrationVersion": "female-bust-calibration-candidate-v1-20261005",
+            "heightLockId": "reload-body-female-v1-height-final-lock-v1-20261004",
+            "supportSurfaceVersion": "female-bust-height-conditioned-support-v1-20261005"
+          },
+          "displaySimulation": 81.5
+        },
+        "lowerWaist": 52.87097975765508,
+        "neutralWaist": 61.968885354904344,
+        "upperWaist": 71.50234526519651,
+        "curve": [
+          {
+            "influence": -1,
+            "waistCm": 52.87097975765508
+          },
+          {
+            "influence": -0.75,
+            "waistCm": 55.09473667051429
+          },
+          {
+            "influence": -0.5,
+            "waistCm": 57.35461876731044
+          },
+          {
+            "influence": -0.25,
+            "waistCm": 59.64701842646829
+          },
+          {
+            "influence": 0,
+            "waistCm": 61.968885354904344
+          },
+          {
+            "influence": 0.25,
+            "waistCm": 64.31757180040172
+          },
+          {
+            "influence": 0.5,
+            "waistCm": 66.69073599430605
+          },
+          {
+            "influence": 0.75,
+            "waistCm": 69.08628908313543
+          },
+          {
+            "influence": 1,
+            "waistCm": 71.50234526519651
+          }
+        ]
+      },
+      {
+        "heightCm": 143.76704096794128,
+        "bustSimulation": 74.17340875175486,
+        "bustRelative": -0.5,
+        "bustState": {
+          "actual": 74.17340875175486,
+          "simulation": 74.17340875175486,
+          "status": "SUPPORTED",
+          "direction": "decr",
+          "decrInfluence": 0.4966990632214979,
+          "incrInfluence": 0.0,
+          "heightSimulation": 143.76704096794128,
+          "measuredNeutralBust": 81.45941624237236,
+          "lowerSupportBust": 66.88740126113738,
+          "upperSupportBust": 97.10753783713601,
+          "maxIncrInfluence": 0.89375,
+          "identity": {
+            "modelId": "reload-body-female-v1",
+            "bustCalibrationVersion": "female-bust-calibration-candidate-v1-20261005",
+            "heightLockId": "reload-body-female-v1-height-final-lock-v1-20261004",
+            "supportSurfaceVersion": "female-bust-height-conditioned-support-v1-20261005"
+          },
+          "displaySimulation": 74.2
+        },
+        "lowerWaist": 52.850924253610465,
+        "neutralWaist": 61.94578595897337,
+        "upperWaist": 71.47641348809071,
+        "curve": [
+          {
+            "influence": -1,
+            "waistCm": 52.850924253610465
+          },
+          {
+            "influence": -0.75,
+            "waistCm": 55.07390646063085
+          },
+          {
+            "influence": -0.5,
+            "waistCm": 57.333022787504895
+          },
+          {
+            "influence": -0.25,
+            "waistCm": 59.624665810021426
+          },
+          {
+            "influence": 0,
+            "waistCm": 61.94578595897337
+          },
+          {
+            "influence": 0.25,
+            "waistCm": 64.29373821915691
+          },
+          {
+            "influence": 0.5,
+            "waistCm": 66.66618388496163
+          },
+          {
+            "influence": 0.75,
+            "waistCm": 69.06103647196339
+          },
+          {
+            "influence": 1,
+            "waistCm": 71.47641348809071
+          }
+        ]
+      },
+      {
+        "heightCm": 143.76704096794128,
+        "bustSimulation": 89.28347703975419,
+        "bustRelative": 0.5,
+        "bustState": {
+          "actual": 89.28347703975419,
+          "simulation": 89.28347703975419,
+          "status": "SUPPORTED",
+          "direction": "incr",
+          "decrInfluence": 0.0,
+          "incrInfluence": 0.44928830042059936,
+          "heightSimulation": 143.76704096794128,
+          "measuredNeutralBust": 81.45941624237236,
+          "lowerSupportBust": 66.88740126113738,
+          "upperSupportBust": 97.10753783713601,
+          "maxIncrInfluence": 0.89375,
+          "identity": {
+            "modelId": "reload-body-female-v1",
+            "bustCalibrationVersion": "female-bust-calibration-candidate-v1-20261005",
+            "heightLockId": "reload-body-female-v1-height-final-lock-v1-20261004",
+            "supportSurfaceVersion": "female-bust-height-conditioned-support-v1-20261005"
+          },
+          "displaySimulation": 89.3
+        },
+        "lowerWaist": 53.5917816652332,
+        "neutralWaist": 62.684967180709606,
+        "upperWaist": 72.20220942608645,
+        "curve": [
+          {
+            "influence": -1,
+            "waistCm": 53.5917816652332
+          },
+          {
+            "influence": -0.75,
+            "waistCm": 55.81602551857794
+          },
+          {
+            "influence": -0.5,
+            "waistCm": 58.075136760188926
+          },
+          {
+            "influence": -0.25,
+            "waistCm": 60.36573910444375
+          },
+          {
+            "influence": 0,
+            "waistCm": 62.684967180709606
+          },
+          {
+            "influence": 0.25,
+            "waistCm": 65.03032728530279
+          },
+          {
+            "influence": 0.5,
+            "waistCm": 67.39961090603292
+          },
+          {
+            "influence": 0.75,
+            "waistCm": 69.79083479739776
+          },
+          {
+            "influence": 1,
+            "waistCm": 72.20220942608645
+          }
+        ]
+      },
+      {
+        "heightCm": 143.76704096794128,
+        "bustSimulation": 66.88740126113738,
+        "bustRelative": -1,
+        "bustState": {
+          "actual": 66.88740126113738,
+          "simulation": 66.88740126113738,
+          "status": "SUPPORTED",
+          "direction": "decr",
+          "decrInfluence": 1.0,
+          "incrInfluence": 0.0,
+          "heightSimulation": 143.76704096794128,
+          "measuredNeutralBust": 81.45941624237236,
+          "lowerSupportBust": 66.88740126113738,
+          "upperSupportBust": 97.10753783713601,
+          "maxIncrInfluence": 0.89375,
+          "identity": {
+            "modelId": "reload-body-female-v1",
+            "bustCalibrationVersion": "female-bust-calibration-candidate-v1-20261005",
+            "heightLockId": "reload-body-female-v1-height-final-lock-v1-20261004",
+            "supportSurfaceVersion": "female-bust-height-conditioned-support-v1-20261005"
+          },
+          "displaySimulation": 66.9
+        },
+        "lowerWaist": 52.83099490266974,
+        "neutralWaist": 61.92276203548818,
+        "upperWaist": 71.45050542560519,
+        "curve": [
+          {
+            "influence": -1,
+            "waistCm": 52.83099490266974
+          },
+          {
+            "influence": -0.75,
+            "waistCm": 55.05318953374153
+          },
+          {
+            "influence": -0.5,
+            "waistCm": 57.311527848457345
+          },
+          {
+            "influence": -0.25,
+            "waistCm": 59.60240119339232
+          },
+          {
+            "influence": 0,
+            "waistCm": 61.92276203548818
+          },
+          {
+            "influence": 0.25,
+            "waistCm": 64.26996736760026
+          },
+          {
+            "influence": 0.5,
+            "waistCm": 66.64168138254418
+          },
+          {
+            "influence": 0.75,
+            "waistCm": 69.03582100810192
+          },
+          {
+            "influence": 1,
+            "waistCm": 71.45050542560519
+          }
+        ]
+      },
+      {
+        "heightCm": 143.76704096794128,
+        "bustSimulation": 97.10753783713601,
+        "bustRelative": 1,
+        "bustState": {
+          "actual": 97.10753783713601,
+          "simulation": 97.10753783713601,
+          "status": "SUPPORTED",
+          "direction": "incr",
+          "decrInfluence": 0.0,
+          "incrInfluence": 0.89375,
+          "heightSimulation": 143.76704096794128,
+          "measuredNeutralBust": 81.45941624237236,
+          "lowerSupportBust": 66.88740126113738,
+          "upperSupportBust": 97.10753783713601,
+          "maxIncrInfluence": 0.89375,
+          "identity": {
+            "modelId": "reload-body-female-v1",
+            "bustCalibrationVersion": "female-bust-calibration-candidate-v1-20261005",
+            "heightLockId": "reload-body-female-v1-height-final-lock-v1-20261004",
+            "supportSurfaceVersion": "female-bust-height-conditioned-support-v1-20261005"
+          },
+          "displaySimulation": 97.1
+        },
+        "lowerWaist": 54.31988050088024,
+        "neutralWaist": 63.40856444216606,
+        "upperWaist": 72.9103533241688,
+        "curve": [
+          {
+            "influence": -1,
+            "waistCm": 54.31988050088024
+          },
+          {
+            "influence": -0.75,
+            "waistCm": 56.54455399005227
+          },
+          {
+            "influence": -0.5,
+            "waistCm": 58.802927602376506
+          },
+          {
+            "influence": -0.25,
+            "waistCm": 61.091830759924335
+          },
+          {
+            "influence": 0,
+            "waistCm": 63.40856444216606
+          },
+          {
+            "influence": 0.25,
+            "waistCm": 65.75077321315784
+          },
+          {
+            "influence": 0.5,
+            "waistCm": 68.1163655242537
+          },
+          {
+            "influence": 0.75,
+            "waistCm": 70.50345999571296
+          },
+          {
+            "influence": 1,
+            "waistCm": 72.9103533241688
+          }
+        ]
+      },
+      {
+        "heightCm": 149.8144954442978,
+        "bustSimulation": 83.27779333608342,
+        "bustRelative": 0,
+        "bustState": {
+          "actual": 83.27779333608342,
+          "simulation": 83.27779333608342,
+          "status": "SUPPORTED",
+          "direction": "neutral",
+          "decrInfluence": 0.0,
+          "incrInfluence": 0.0,
+          "heightSimulation": 149.8144954442978,
+          "measuredNeutralBust": 83.27779333608342,
+          "lowerSupportBust": 68.70311453978269,
+          "upperSupportBust": 99.49766409867868,
+          "maxIncrInfluence": 0.925625,
+          "identity": {
+            "modelId": "reload-body-female-v1",
+            "bustCalibrationVersion": "female-bust-calibration-candidate-v1-20261005",
+            "heightLockId": "reload-body-female-v1-height-final-lock-v1-20261004",
+            "supportSurfaceVersion": "female-bust-height-conditioned-support-v1-20261005"
+          },
+          "displaySimulation": 83.3
+        },
+        "lowerWaist": 54.26438339878759,
+        "neutralWaist": 63.3748185939445,
+        "upperWaist": 72.90975283117456,
+        "curve": [
+          {
+            "influence": -1,
+            "waistCm": 54.26438339878759
+          },
+          {
+            "influence": -0.75,
+            "waistCm": 56.49278326256678
+          },
+          {
+            "influence": -0.5,
+            "waistCm": 58.75617902532086
+          },
+          {
+            "influence": -0.25,
+            "waistCm": 61.051157973051275
+          },
+          {
+            "influence": 0,
+            "waistCm": 63.3748185939445
+          },
+          {
+            "influence": 0.25,
+            "waistCm": 65.72463407367336
+          },
+          {
+            "influence": 0.5,
+            "waistCm": 68.09836589044225
+          },
+          {
+            "influence": 0.75,
+            "waistCm": 70.49400801023724
+          },
+          {
+            "influence": 1,
+            "waistCm": 72.90975283117456
+          }
+        ]
+      },
+      {
+        "heightCm": 149.8144954442978,
+        "bustSimulation": 75.99045393793305,
+        "bustRelative": -0.5,
+        "bustState": {
+          "actual": 75.99045393793305,
+          "simulation": 75.99045393793305,
+          "status": "SUPPORTED",
+          "direction": "decr",
+          "decrInfluence": 0.49682714590216887,
+          "incrInfluence": 0.0,
+          "heightSimulation": 149.8144954442978,
+          "measuredNeutralBust": 83.27779333608342,
+          "lowerSupportBust": 68.70311453978269,
+          "upperSupportBust": 99.49766409867868,
+          "maxIncrInfluence": 0.925625,
+          "identity": {
+            "modelId": "reload-body-female-v1",
+            "bustCalibrationVersion": "female-bust-calibration-candidate-v1-20261005",
+            "heightLockId": "reload-body-female-v1-height-final-lock-v1-20261004",
+            "supportSurfaceVersion": "female-bust-height-conditioned-support-v1-20261005"
+          },
+          "displaySimulation": 76.0
+        },
+        "lowerWaist": 54.24439696593667,
+        "neutralWaist": 63.3518726519397,
+        "upperWaist": 72.88405532638788,
+        "curve": [
+          {
+            "influence": -1,
+            "waistCm": 54.24439696593667
+          },
+          {
+            "influence": -0.75,
+            "waistCm": 56.47204279738941
+          },
+          {
+            "influence": -0.5,
+            "waistCm": 58.73469387515786
+          },
+          {
+            "influence": -0.25,
+            "waistCm": 61.02893733835515
+          },
+          {
+            "influence": 0,
+            "waistCm": 63.3518726519397
+          },
+          {
+            "influence": 0.25,
+            "waistCm": 65.70097517264708
+          },
+          {
+            "influence": 0.5,
+            "waistCm": 68.07400923948454
+          },
+          {
+            "influence": 0.75,
+            "waistCm": 70.46897116960618
+          },
+          {
+            "influence": 1,
+            "waistCm": 72.88405532638788
+          }
+        ]
+      },
+      {
+        "heightCm": 149.8144954442978,
+        "bustSimulation": 91.38772871738105,
+        "bustRelative": 0.5,
+        "bustState": {
+          "actual": 91.38772871738105,
+          "simulation": 91.38772871738105,
+          "status": "SUPPORTED",
+          "direction": "incr",
+          "decrInfluence": 0.0,
+          "incrInfluence": 0.46533635563926873,
+          "heightSimulation": 149.8144954442978,
+          "measuredNeutralBust": 83.27779333608342,
+          "lowerSupportBust": 68.70311453978269,
+          "upperSupportBust": 99.49766409867868,
+          "maxIncrInfluence": 0.925625,
+          "identity": {
+            "modelId": "reload-body-female-v1",
+            "bustCalibrationVersion": "female-bust-calibration-candidate-v1-20261005",
+            "heightLockId": "reload-body-female-v1-height-final-lock-v1-20261004",
+            "supportSurfaceVersion": "female-bust-height-conditioned-support-v1-20261005"
+          },
+          "displaySimulation": 91.4
+        },
+        "lowerWaist": 55.00756915338469,
+        "neutralWaist": 64.11288732474067,
+        "upperWaist": 73.63145939168653,
+        "curve": [
+          {
+            "influence": -1,
+            "waistCm": 55.00756915338469
+          },
+          {
+            "influence": -0.75,
+            "waistCm": 57.23630952312478
+          },
+          {
+            "influence": -0.5,
+            "waistCm": 59.49882585974572
+          },
+          {
+            "influence": -0.25,
+            "waistCm": 61.7919259132197
+          },
+          {
+            "influence": 0,
+            "waistCm": 64.11288732474067
+          },
+          {
+            "influence": 0.25,
+            "waistCm": 66.45933055388227
+          },
+          {
+            "influence": 0.5,
+            "waistCm": 68.8291413844068
+          },
+          {
+            "influence": 0.75,
+            "waistCm": 71.22042343103942
+          },
+          {
+            "influence": 1,
+            "waistCm": 73.63145939168653
+          }
+        ]
+      },
+      {
+        "heightCm": 149.8144954442978,
+        "bustSimulation": 68.70311453978269,
+        "bustRelative": -1,
+        "bustState": {
+          "actual": 68.70311453978269,
+          "simulation": 68.70311453978269,
+          "status": "SUPPORTED",
+          "direction": "decr",
+          "decrInfluence": 1.0,
+          "incrInfluence": 0.0,
+          "heightSimulation": 149.8144954442978,
+          "measuredNeutralBust": 83.27779333608342,
+          "lowerSupportBust": 68.70311453978269,
+          "upperSupportBust": 99.49766409867868,
+          "maxIncrInfluence": 0.925625,
+          "identity": {
+            "modelId": "reload-body-female-v1",
+            "bustCalibrationVersion": "female-bust-calibration-candidate-v1-20261005",
+            "heightLockId": "reload-body-female-v1-height-final-lock-v1-20261004",
+            "supportSurfaceVersion": "female-bust-height-conditioned-support-v1-20261005"
+          },
+          "displaySimulation": 68.7
+        },
+        "lowerWaist": 54.22453692273945,
+        "neutralWaist": 63.32900460166214,
+        "upperWaist": 72.85838696178874,
+        "curve": [
+          {
+            "influence": -1,
+            "waistCm": 54.22453692273945
+          },
+          {
+            "influence": -0.75,
+            "waistCm": 56.451416393615375
+          },
+          {
+            "influence": -0.5,
+            "waistCm": 58.71331089119861
+          },
+          {
+            "influence": -0.25,
+            "waistCm": 61.00680663400413
+          },
+          {
+            "influence": 0,
+            "waistCm": 63.32900460166214
+          },
+          {
+            "influence": 0.25,
+            "waistCm": 65.67738214812623
+          },
+          {
+            "influence": 0.5,
+            "waistCm": 68.04970600634091
+          },
+          {
+            "influence": 0.75,
+            "waistCm": 70.44397548540202
+          },
+          {
+            "influence": 1,
+            "waistCm": 72.85838696178874
+          }
+        ]
+      },
+      {
+        "heightCm": 149.8144954442978,
+        "bustSimulation": 99.49766409867868,
+        "bustRelative": 1,
+        "bustState": {
+          "actual": 99.49766409867868,
+          "simulation": 99.49766409867868,
+          "status": "SUPPORTED",
+          "direction": "incr",
+          "decrInfluence": 0.0,
+          "incrInfluence": 0.925625,
+          "heightSimulation": 149.8144954442978,
+          "measuredNeutralBust": 83.27779333608342,
+          "lowerSupportBust": 68.70311453978269,
+          "upperSupportBust": 99.49766409867868,
+          "maxIncrInfluence": 0.925625,
+          "identity": {
+            "modelId": "reload-body-female-v1",
+            "bustCalibrationVersion": "female-bust-calibration-candidate-v1-20261005",
+            "heightLockId": "reload-body-female-v1-height-final-lock-v1-20261004",
+            "supportSurfaceVersion": "female-bust-height-conditioned-support-v1-20261005"
+          },
+          "displaySimulation": 99.5
+        },
+        "lowerWaist": 55.75790444663325,
+        "neutralWaist": 64.8584419918997,
+        "upperWaist": 74.36156461231802,
+        "curve": [
+          {
+            "influence": -1,
+            "waistCm": 55.75790444663325
+          },
+          {
+            "influence": -0.75,
+            "waistCm": 57.98695337323054
+          },
+          {
+            "influence": -0.5,
+            "waistCm": 60.248652423651315
+          },
+          {
+            "influence": -0.25,
+            "waistCm": 62.540003635521366
+          },
+          {
+            "influence": 0,
+            "waistCm": 64.8584419918997
+          },
+          {
+            "influence": 0.25,
+            "waistCm": 67.20172127303384
+          },
+          {
+            "influence": 0.5,
+            "waistCm": 69.56784097838711
+          },
+          {
+            "influence": 0.75,
+            "waistCm": 71.9550000298776
+          },
+          {
+            "influence": 1,
+            "waistCm": 74.36156461231802
+          }
+        ]
+      },
+      {
+        "heightCm": 164.14775848388672,
+        "bustSimulation": 87.5884929321761,
+        "bustRelative": 0,
+        "bustState": {
+          "actual": 87.5884929321761,
+          "simulation": 87.5884929321761,
+          "status": "SUPPORTED",
+          "direction": "neutral",
+          "decrInfluence": 0.0,
+          "incrInfluence": 0.0,
+          "heightSimulation": 164.14775848388672,
+          "measuredNeutralBust": 87.5884929321761,
+          "lowerSupportBust": 73.00862596026433,
+          "upperSupportBust": 105.14332487377771,
+          "maxIncrInfluence": 1.0,
+          "identity": {
+            "modelId": "reload-body-female-v1",
+            "bustCalibrationVersion": "female-bust-calibration-candidate-v1-20261005",
+            "heightLockId": "reload-body-female-v1-height-final-lock-v1-20261004",
+            "supportSurfaceVersion": "female-bust-height-conditioned-support-v1-20261005"
+          },
+          "displaySimulation": 87.6
+        },
+        "lowerWaist": 57.5700174143339,
+        "neutralWaist": 66.70742643390237,
+        "upperWaist": 76.24538184208907,
+        "curve": [
+          {
+            "influence": -1,
+            "waistCm": 57.5700174143339
+          },
+          {
+            "influence": -0.75,
+            "waistCm": 59.80839865356239
+          },
+          {
+            "influence": -0.5,
+            "waistCm": 62.07936518885564
+          },
+          {
+            "influence": -0.25,
+            "waistCm": 64.37990355815948
+          },
+          {
+            "influence": 0,
+            "waistCm": 66.70742643390237
+          },
+          {
+            "influence": 0.25,
+            "waistCm": 69.05966154764093
+          },
+          {
+            "influence": 0.5,
+            "waistCm": 71.43458429045704
+          },
+          {
+            "influence": 0.75,
+            "waistCm": 73.83037457325851
+          },
+          {
+            "influence": 1,
+            "waistCm": 76.24538184208907
+          }
+        ]
+      },
+      {
+        "heightCm": 164.14775848388672,
+        "bustSimulation": 80.29855944622021,
+        "bustRelative": -0.5,
+        "bustState": {
+          "actual": 80.29855944622021,
+          "simulation": 80.29855944622021,
+          "status": "SUPPORTED",
+          "direction": "decr",
+          "decrInfluence": 0.4970954614966998,
+          "incrInfluence": 0.0,
+          "heightSimulation": 164.14775848388672,
+          "measuredNeutralBust": 87.5884929321761,
+          "lowerSupportBust": 73.00862596026433,
+          "upperSupportBust": 105.14332487377771,
+          "maxIncrInfluence": 1.0,
+          "identity": {
+            "modelId": "reload-body-female-v1",
+            "bustCalibrationVersion": "female-bust-calibration-candidate-v1-20261005",
+            "heightLockId": "reload-body-female-v1-height-final-lock-v1-20261004",
+            "supportSurfaceVersion": "female-bust-height-conditioned-support-v1-20261005"
+          },
+          "displaySimulation": 80.3
+        },
+        "lowerWaist": 57.55011420710947,
+        "neutralWaist": 66.68475118947632,
+        "upperWaist": 76.22013884590059,
+        "curve": [
+          {
+            "influence": -1,
+            "waistCm": 57.55011420710947
+          },
+          {
+            "influence": -0.75,
+            "waistCm": 59.787787158450264
+          },
+          {
+            "influence": -0.5,
+            "waistCm": 62.058055643605414
+          },
+          {
+            "influence": -0.25,
+            "waistCm": 64.35790580460949
+          },
+          {
+            "influence": 0,
+            "waistCm": 66.68475118947632
+          },
+          {
+            "influence": 0.25,
+            "waistCm": 69.03632110147127
+          },
+          {
+            "influence": 0.5,
+            "waistCm": 71.41059294032205
+          },
+          {
+            "influence": 0.75,
+            "waistCm": 73.80574848790492
+          },
+          {
+            "influence": 1,
+            "waistCm": 76.22013884590059
+          }
+        ]
+      },
+      {
+        "heightCm": 164.14775848388672,
+        "bustSimulation": 96.36590890297691,
+        "bustRelative": 0.5,
+        "bustState": {
+          "actual": 96.36590890297691,
+          "simulation": 96.36590890297691,
+          "status": "SUPPORTED",
+          "direction": "incr",
+          "decrInfluence": 0.0,
+          "incrInfluence": 0.50279557724698,
+          "heightSimulation": 164.14775848388672,
+          "measuredNeutralBust": 87.5884929321761,
+          "lowerSupportBust": 73.00862596026433,
+          "upperSupportBust": 105.14332487377771,
+          "maxIncrInfluence": 1.0,
+          "identity": {
+            "modelId": "reload-body-female-v1",
+            "bustCalibrationVersion": "female-bust-calibration-candidate-v1-20261005",
+            "heightLockId": "reload-body-female-v1-height-final-lock-v1-20261004",
+            "supportSurfaceVersion": "female-bust-height-conditioned-support-v1-20261005"
+          },
+          "displaySimulation": 96.4
+        },
+        "lowerWaist": 58.365923034681025,
+        "neutralWaist": 67.49736374986985,
+        "upperWaist": 77.01869372916515,
+        "curve": [
+          {
+            "influence": -1,
+            "waistCm": 58.365923034681025
+          },
+          {
+            "influence": -0.75,
+            "waistCm": 60.60432408017642
+          },
+          {
+            "influence": -0.5,
+            "waistCm": 62.874176829417024
+          },
+          {
+            "influence": -0.25,
+            "waistCm": 65.17266567831368
+          },
+          {
+            "influence": 0,
+            "waistCm": 67.49736374986985
+          },
+          {
+            "influence": 0.25,
+            "waistCm": 69.84613384362817
+          },
+          {
+            "influence": 0.5,
+            "waistCm": 72.21706711189105
+          },
+          {
+            "influence": 0.75,
+            "waistCm": 74.60844137705612
+          },
+          {
+            "influence": 1,
+            "waistCm": 77.01869372916515
+          }
+        ]
+      },
+      {
+        "heightCm": 164.14775848388672,
+        "bustSimulation": 73.00862596026433,
+        "bustRelative": -1,
+        "bustState": {
+          "actual": 73.00862596026433,
+          "simulation": 73.00862596026433,
+          "status": "SUPPORTED",
+          "direction": "decr",
+          "decrInfluence": 1.0,
+          "incrInfluence": 0.0,
+          "heightSimulation": 164.14775848388672,
+          "measuredNeutralBust": 87.5884929321761,
+          "lowerSupportBust": 73.00862596026433,
+          "upperSupportBust": 105.14332487377771,
+          "maxIncrInfluence": 1.0,
+          "identity": {
+            "modelId": "reload-body-female-v1",
+            "bustCalibrationVersion": "female-bust-calibration-candidate-v1-20261005",
+            "heightLockId": "reload-body-female-v1-height-final-lock-v1-20261004",
+            "supportSurfaceVersion": "female-bust-height-conditioned-support-v1-20261005"
+          },
+          "displaySimulation": 73.0
+        },
+        "lowerWaist": 57.53033836706635,
+        "neutralWaist": 66.66215878701142,
+        "upperWaist": 76.19493454792077,
+        "curve": [
+          {
+            "influence": -1,
+            "waistCm": 57.53033836706635
+          },
+          {
+            "influence": -0.75,
+            "waistCm": 59.767291680886615
+          },
+          {
+            "influence": -0.5,
+            "waistCm": 62.03685102523573
+          },
+          {
+            "influence": -0.25,
+            "waistCm": 64.33600196756477
+          },
+          {
+            "influence": 0,
+            "waistCm": 66.66215878701142
+          },
+          {
+            "influence": 0.25,
+            "waistCm": 69.01305239611551
+          },
+          {
+            "influence": 0.5,
+            "waistCm": 71.3866623356397
+          },
+          {
+            "influence": 0.75,
+            "waistCm": 73.78117218181043
+          },
+          {
+            "influence": 1,
+            "waistCm": 76.19493454792077
+          }
+        ]
+      },
+      {
+        "heightCm": 164.14775848388672,
+        "bustSimulation": 105.14332487377771,
+        "bustRelative": 1,
+        "bustState": {
+          "actual": 105.14332487377771,
+          "simulation": 105.14332487377771,
+          "status": "SUPPORTED",
+          "direction": "incr",
+          "decrInfluence": 0.0,
+          "incrInfluence": 1.0,
+          "heightSimulation": 164.14775848388672,
+          "measuredNeutralBust": 87.5884929321761,
+          "lowerSupportBust": 73.00862596026433,
+          "upperSupportBust": 105.14332487377771,
+          "maxIncrInfluence": 1.0,
+          "identity": {
+            "modelId": "reload-body-female-v1",
+            "bustCalibrationVersion": "female-bust-calibration-candidate-v1-20261005",
+            "heightLockId": "reload-body-female-v1-height-final-lock-v1-20261004",
+            "supportSurfaceVersion": "female-bust-height-conditioned-support-v1-20261005"
+          },
+          "displaySimulation": 105.1
+        },
+        "lowerWaist": 59.1676660679603,
+        "neutralWaist": 68.2935594544186,
+        "upperWaist": 77.79926667618932,
+        "curve": [
+          {
+            "influence": -1,
+            "waistCm": 59.1676660679603
+          },
+          {
+            "influence": -0.75,
+            "waistCm": 61.40607859813967
+          },
+          {
+            "influence": -0.5,
+            "waistCm": 63.67490053616106
+          },
+          {
+            "influence": -0.25,
+            "waistCm": 65.97148994296735
+          },
+          {
+            "influence": 0,
+            "waistCm": 68.2935594544186
+          },
+          {
+            "influence": 0.25,
+            "waistCm": 70.63909386887305
+          },
+          {
+            "influence": 0.5,
+            "waistCm": 73.00628825183674
+          },
+          {
+            "influence": 0.75,
+            "waistCm": 75.39350856216018
+          },
+          {
+            "influence": 1,
+            "waistCm": 77.79926667618932
+          }
+        ]
+      },
+      {
+        "heightCm": 168.92250828373193,
+        "bustSimulation": 89.21838810479234,
+        "bustRelative": 0,
+        "bustState": {
+          "actual": 89.21838810479234,
+          "simulation": 89.21838810479234,
+          "status": "SUPPORTED",
+          "direction": "neutral",
+          "decrInfluence": 0.0,
+          "incrInfluence": 0.0,
+          "heightSimulation": 168.92250828373193,
+          "measuredNeutralBust": 89.21838810479234,
+          "lowerSupportBust": 74.6207232410615,
+          "upperSupportBust": 106.77927839524264,
+          "maxIncrInfluence": 1.0,
+          "identity": {
+            "modelId": "reload-body-female-v1",
+            "bustCalibrationVersion": "female-bust-calibration-candidate-v1-20261005",
+            "heightLockId": "reload-body-female-v1-height-final-lock-v1-20261004",
+            "supportSurfaceVersion": "female-bust-height-conditioned-support-v1-20261005"
+          },
+          "displaySimulation": 89.2
+        },
+        "lowerWaist": 58.86826599716428,
+        "neutralWaist": 68.02344389240803,
+        "upperWaist": 77.57138171772286,
+        "curve": [
+          {
+            "influence": -1,
+            "waistCm": 58.86826599716428
+          },
+          {
+            "influence": -0.75,
+            "waistCm": 61.11208174801224
+          },
+          {
+            "influence": -0.5,
+            "waistCm": 63.38775307574315
+          },
+          {
+            "influence": -0.25,
+            "waistCm": 65.69237539644983
+          },
+          {
+            "influence": 0,
+            "waistCm": 68.02344389240803
+          },
+          {
+            "influence": 0.25,
+            "waistCm": 70.37875238771213
+          },
+          {
+            "influence": 0.5,
+            "waistCm": 72.75633139008035
+          },
+          {
+            "influence": 0.75,
+            "waistCm": 75.15441098632502
+          },
+          {
+            "influence": 1,
+            "waistCm": 77.57138171772286
+          }
+        ]
+      },
+      {
+        "heightCm": 168.92250828373193,
+        "bustSimulation": 81.91955567292692,
+        "bustRelative": -0.5,
+        "bustState": {
+          "actual": 81.91955567292692,
+          "simulation": 81.91955567292692,
+          "status": "SUPPORTED",
+          "direction": "decr",
+          "decrInfluence": 0.497242741845375,
+          "incrInfluence": 0.0,
+          "heightSimulation": 168.92250828373193,
+          "measuredNeutralBust": 89.21838810479234,
+          "lowerSupportBust": 74.6207232410615,
+          "upperSupportBust": 106.77927839524264,
+          "maxIncrInfluence": 1.0,
+          "identity": {
+            "modelId": "reload-body-female-v1",
+            "bustCalibrationVersion": "female-bust-calibration-candidate-v1-20261005",
+            "heightLockId": "reload-body-female-v1-height-final-lock-v1-20261004",
+            "supportSurfaceVersion": "female-bust-height-conditioned-support-v1-20261005"
+          },
+          "displaySimulation": 81.9
+        },
+        "lowerWaist": 58.8474251345799,
+        "neutralWaist": 68.00009562081985,
+        "upperWaist": 77.54572602161981,
+        "curve": [
+          {
+            "influence": -1,
+            "waistCm": 58.8474251345799
+          },
+          {
+            "influence": -0.75,
+            "waistCm": 61.090598124803066
+          },
+          {
+            "influence": -0.5,
+            "waistCm": 63.36563749394939
+          },
+          {
+            "influence": -0.25,
+            "waistCm": 65.66963810345685
+          },
+          {
+            "influence": 0,
+            "waistCm": 68.00009562081985
+          },
+          {
+            "influence": 0.25,
+            "waistCm": 70.35480527343273
+          },
+          {
+            "influence": 0.5,
+            "waistCm": 72.73179907820607
+          },
+          {
+            "influence": 0.75,
+            "waistCm": 75.12930881609421
+          },
+          {
+            "influence": 1,
+            "waistCm": 77.54572602161981
+          }
+        ]
+      },
+      {
+        "heightCm": 168.92250828373193,
+        "bustSimulation": 97.9988332500175,
+        "bustRelative": 0.5,
+        "bustState": {
+          "actual": 97.9988332500175,
+          "simulation": 97.9988332500175,
+          "status": "SUPPORTED",
+          "direction": "incr",
+          "decrInfluence": 0.0,
+          "incrInfluence": 0.5027340100368272,
+          "heightSimulation": 168.92250828373193,
+          "measuredNeutralBust": 89.21838810479234,
+          "lowerSupportBust": 74.6207232410615,
+          "upperSupportBust": 106.77927839524264,
+          "maxIncrInfluence": 1.0,
+          "identity": {
+            "modelId": "reload-body-female-v1",
+            "bustCalibrationVersion": "female-bust-calibration-candidate-v1-20261005",
+            "heightLockId": "reload-body-female-v1-height-final-lock-v1-20261004",
+            "supportSurfaceVersion": "female-bust-height-conditioned-support-v1-20261005"
+          },
+          "displaySimulation": 98.0
+        },
+        "lowerWaist": 59.67057580991213,
+        "neutralWaist": 68.81702455903661,
+        "upperWaist": 78.34661395536727,
+        "curve": [
+          {
+            "influence": -1,
+            "waistCm": 59.67057580991213
+          },
+          {
+            "influence": -0.75,
+            "waistCm": 61.913595297133405
+          },
+          {
+            "influence": -0.5,
+            "waistCm": 64.18742759063706
+          },
+          {
+            "influence": -0.25,
+            "waistCm": 66.48935577806544
+          },
+          {
+            "influence": 0,
+            "waistCm": 68.81702455903661
+          },
+          {
+            "influence": 0.25,
+            "waistCm": 71.16835693197594
+          },
+          {
+            "influence": 0.5,
+            "waistCm": 73.54149377740794
+          },
+          {
+            "influence": 0.75,
+            "waistCm": 75.9347546663402
+          },
+          {
+            "influence": 1,
+            "waistCm": 78.34661395536727
+          }
+        ]
+      },
+      {
+        "heightCm": 168.92250828373193,
+        "bustSimulation": 74.6207232410615,
+        "bustRelative": -1,
+        "bustState": {
+          "actual": 74.6207232410615,
+          "simulation": 74.6207232410615,
+          "status": "SUPPORTED",
+          "direction": "decr",
+          "decrInfluence": 1.0,
+          "incrInfluence": 0.0,
+          "heightSimulation": 168.92250828373193,
+          "measuredNeutralBust": 89.21838810479234,
+          "lowerSupportBust": 74.6207232410615,
+          "upperSupportBust": 106.77927839524264,
+          "maxIncrInfluence": 1.0,
+          "identity": {
+            "modelId": "reload-body-female-v1",
+            "bustCalibrationVersion": "female-bust-calibration-candidate-v1-20261005",
+            "heightLockId": "reload-body-female-v1-height-final-lock-v1-20261004",
+            "supportSurfaceVersion": "female-bust-height-conditioned-support-v1-20261005"
+          },
+          "displaySimulation": 74.6
+        },
+        "lowerWaist": 58.826700878071115,
+        "neutralWaist": 67.9768218792593,
+        "upperWaist": 77.52010407718394,
+        "curve": [
+          {
+            "influence": -1,
+            "waistCm": 58.826700878071115
+          },
+          {
+            "influence": -0.75,
+            "waistCm": 61.06922034334323
+          },
+          {
+            "influence": -0.5,
+            "waistCm": 63.34361716868753
+          },
+          {
+            "influence": -0.25,
+            "waistCm": 65.6469856112353
+          },
+          {
+            "influence": 0,
+            "waistCm": 67.9768218792593
+          },
+          {
+            "influence": 0.25,
+            "waistCm": 70.33092242188968
+          },
+          {
+            "influence": 0.5,
+            "waistCm": 72.70732075954159
+          },
+          {
+            "influence": 0.75,
+            "waistCm": 75.1042502921118
+          },
+          {
+            "influence": 1,
+            "waistCm": 77.52010407718394
+          }
+        ]
+      },
+      {
+        "heightCm": 168.92250828373193,
+        "bustSimulation": 106.77927839524264,
+        "bustRelative": 1,
+        "bustState": {
+          "actual": 106.77927839524264,
+          "simulation": 106.77927839524264,
+          "status": "SUPPORTED",
+          "direction": "incr",
+          "decrInfluence": 0.0,
+          "incrInfluence": 1.0,
+          "heightSimulation": 168.92250828373193,
+          "measuredNeutralBust": 89.21838810479234,
+          "lowerSupportBust": 74.6207232410615,
+          "upperSupportBust": 106.77927839524264,
+          "maxIncrInfluence": 1.0,
+          "identity": {
+            "modelId": "reload-body-female-v1",
+            "bustCalibrationVersion": "female-bust-calibration-candidate-v1-20261005",
+            "heightLockId": "reload-body-female-v1-height-final-lock-v1-20261004",
+            "supportSurfaceVersion": "female-bust-height-conditioned-support-v1-20261005"
+          },
+          "displaySimulation": 106.8
+        },
+        "lowerWaist": 60.47807403790608,
+        "neutralWaist": 69.61635809504378,
+        "upperWaist": 79.12862196812004,
+        "curve": [
+          {
+            "influence": -1,
+            "waistCm": 60.47807403790608
+          },
+          {
+            "influence": -0.75,
+            "waistCm": 62.72034128283519
+          },
+          {
+            "influence": -0.5,
+            "waistCm": 64.99245865409176
+          },
+          {
+            "influence": -0.25,
+            "waistCm": 67.2918700215658
+          },
+          {
+            "influence": 0,
+            "waistCm": 69.61635809504378
+          },
+          {
+            "influence": 0.25,
+            "waistCm": 71.9639582844571
+          },
+          {
+            "influence": 0.5,
+            "waistCm": 74.33290835936843
+          },
+          {
+            "influence": 0.75,
+            "waistCm": 76.72161426440086
+          },
+          {
+            "influence": 1,
+            "waistCm": 79.12862196812004
+          }
+        ]
+      },
+      {
+        "heightCm": 196.62338495254517,
+        "bustSimulation": 98.68576625826793,
+        "bustRelative": 0,
+        "bustState": {
+          "actual": 98.68576625826793,
+          "simulation": 98.68576625826793,
+          "status": "SUPPORTED",
+          "direction": "neutral",
+          "decrInfluence": 0.0,
+          "incrInfluence": 0.0,
+          "heightSimulation": 196.62338495254517,
+          "measuredNeutralBust": 98.68576625826793,
+          "lowerSupportBust": 84.0043591539382,
+          "upperSupportBust": 116.28119154144056,
+          "maxIncrInfluence": 1.0,
+          "identity": {
+            "modelId": "reload-body-female-v1",
+            "bustCalibrationVersion": "female-bust-calibration-candidate-v1-20261005",
+            "heightLockId": "reload-body-female-v1-height-final-lock-v1-20261004",
+            "supportSurfaceVersion": "female-bust-height-conditioned-support-v1-20261005"
+          },
+          "displaySimulation": 98.7
+        },
+        "lowerWaist": 66.4549314909982,
+        "neutralWaist": 75.70020725385783,
+        "upperWaist": 85.2954353153468,
+        "curve": [
+          {
+            "influence": -1,
+            "waistCm": 66.4549314909982
+          },
+          {
+            "influence": -0.75,
+            "waistCm": 68.72663791199753
+          },
+          {
+            "influence": -0.5,
+            "waistCm": 71.02628520214638
+          },
+          {
+            "influence": -0.25,
+            "waistCm": 73.35150229375058
+          },
+          {
+            "influence": 0,
+            "waistCm": 75.70020725385783
+          },
+          {
+            "influence": 0.25,
+            "waistCm": 78.07054446085533
+          },
+          {
+            "influence": 0.5,
+            "waistCm": 80.46084549533494
+          },
+          {
+            "influence": 0.75,
+            "waistCm": 82.86960124332792
+          },
+          {
+            "influence": 1,
+            "waistCm": 85.2954353153468
+          }
+        ]
+      },
+      {
+        "heightCm": 196.62338495254517,
+        "bustSimulation": 91.34506270610306,
+        "bustRelative": -0.5,
+        "bustState": {
+          "actual": 91.34506270610306,
+          "simulation": 91.34506270610306,
+          "status": "SUPPORTED",
+          "direction": "decr",
+          "decrInfluence": 0.4979009857224247,
+          "incrInfluence": 0.0,
+          "heightSimulation": 196.62338495254517,
+          "measuredNeutralBust": 98.68576625826793,
+          "lowerSupportBust": 84.0043591539382,
+          "upperSupportBust": 116.28119154144056,
+          "maxIncrInfluence": 1.0,
+          "identity": {
+            "modelId": "reload-body-female-v1",
+            "bustCalibrationVersion": "female-bust-calibration-candidate-v1-20261005",
+            "heightLockId": "reload-body-female-v1-height-final-lock-v1-20261004",
+            "supportSurfaceVersion": "female-bust-height-conditioned-support-v1-20261005"
+          },
+          "displaySimulation": 91.3
+        },
+        "lowerWaist": 66.42999519437876,
+        "neutralWaist": 75.67357183955258,
+        "upperWaist": 85.26724675457264,
+        "curve": [
+          {
+            "influence": -1,
+            "waistCm": 66.42999519437876
+          },
+          {
+            "influence": -0.75,
+            "waistCm": 68.70126546364794
+          },
+          {
+            "influence": -0.5,
+            "waistCm": 71.00048341171033
+          },
+          {
+            "influence": -0.25,
+            "waistCm": 73.3252799938633
+          },
+          {
+            "influence": 0,
+            "waistCm": 75.67357183955258
+          },
+          {
+            "influence": 0.25,
+            "waistCm": 78.04350484588262
+          },
+          {
+            "influence": 0.5,
+            "waistCm": 80.43341203709568
+          },
+          {
+            "influence": 0.75,
+            "waistCm": 82.84178370706633
+          },
+          {
+            "influence": 1,
+            "waistCm": 85.26724675457264
+          }
+        ]
+      },
+      {
+        "heightCm": 196.62338495254517,
+        "bustSimulation": 107.48347889985425,
+        "bustRelative": 0.5,
+        "bustState": {
+          "actual": 107.48347889985425,
+          "simulation": 107.48347889985425,
+          "status": "SUPPORTED",
+          "direction": "incr",
+          "decrInfluence": 0.0,
+          "incrInfluence": 0.5026748482094704,
+          "heightSimulation": 196.62338495254517,
+          "measuredNeutralBust": 98.68576625826793,
+          "lowerSupportBust": 84.0043591539382,
+          "upperSupportBust": 116.28119154144056,
+          "maxIncrInfluence": 1.0,
+          "identity": {
+            "modelId": "reload-body-female-v1",
+            "bustCalibrationVersion": "female-bust-calibration-candidate-v1-20261005",
+            "heightLockId": "reload-body-female-v1-height-final-lock-v1-20261004",
+            "supportSurfaceVersion": "female-bust-height-conditioned-support-v1-20261005"
+          },
+          "displaySimulation": 107.5
+        },
+        "lowerWaist": 67.2854610544451,
+        "neutralWaist": 76.5121940355314,
+        "upperWaist": 86.08352084468304,
+        "curve": [
+          {
+            "influence": -1,
+            "waistCm": 67.2854610544451
+          },
+          {
+            "influence": -0.75,
+            "waistCm": 69.55336925203544
+          },
+          {
+            "influence": -0.5,
+            "waistCm": 71.84857737756278
+          },
+          {
+            "influence": -0.25,
+            "waistCm": 74.16884423253514
+          },
+          {
+            "influence": 0,
+            "waistCm": 76.5121940355314
+          },
+          {
+            "influence": 0.25,
+            "waistCm": 78.87685865822604
+          },
+          {
+            "influence": 0.5,
+            "waistCm": 81.26124486561032
+          },
+          {
+            "influence": 0.75,
+            "waistCm": 83.66390555226135
+          },
+          {
+            "influence": 1,
+            "waistCm": 86.08352084468304
+          }
+        ]
+      },
+      {
+        "heightCm": 196.62338495254517,
+        "bustSimulation": 84.0043591539382,
+        "bustRelative": -1,
+        "bustState": {
+          "actual": 84.0043591539382,
+          "simulation": 84.0043591539382,
+          "status": "SUPPORTED",
+          "direction": "decr",
+          "decrInfluence": 1.0,
+          "incrInfluence": 0.0,
+          "heightSimulation": 196.62338495254517,
+          "measuredNeutralBust": 98.68576625826793,
+          "lowerSupportBust": 84.0043591539382,
+          "upperSupportBust": 116.28119154144056,
+          "maxIncrInfluence": 1.0,
+          "identity": {
+            "modelId": "reload-body-female-v1",
+            "bustCalibrationVersion": "female-bust-calibration-candidate-v1-20261005",
+            "heightLockId": "reload-body-female-v1-height-final-lock-v1-20261004",
+            "supportSurfaceVersion": "female-bust-height-conditioned-support-v1-20261005"
+          },
+          "displaySimulation": 84.0
+        },
+        "lowerWaist": 66.4051549002893,
+        "neutralWaist": 75.64700292912966,
+        "upperWaist": 85.23909530257784,
+        "curve": [
+          {
+            "influence": -1,
+            "waistCm": 66.4051549002893
+          },
+          {
+            "influence": -0.75,
+            "waistCm": 68.67598118474416
+          },
+          {
+            "influence": -0.5,
+            "waistCm": 70.9747636199787
+          },
+          {
+            "influence": -0.25,
+            "waistCm": 73.2991312708373
+          },
+          {
+            "influence": 0,
+            "waistCm": 75.64700292912966
+          },
+          {
+            "influence": 0.25,
+            "waistCm": 78.01652467725042
+          },
+          {
+            "influence": 0.5,
+            "waistCm": 80.40602988973697
+          },
+          {
+            "influence": 0.75,
+            "waistCm": 82.81401154708668
+          },
+          {
+            "influence": 1,
+            "waistCm": 85.23909530257784
+          }
+        ]
+      },
+      {
+        "heightCm": 196.62338495254517,
+        "bustSimulation": 116.28119154144056,
+        "bustRelative": 1,
+        "bustState": {
+          "actual": 116.28119154144056,
+          "simulation": 116.28119154144056,
+          "status": "SUPPORTED",
+          "direction": "incr",
+          "decrInfluence": 0.0,
+          "incrInfluence": 1.0,
+          "heightSimulation": 196.62338495254517,
+          "measuredNeutralBust": 98.68576625826793,
+          "lowerSupportBust": 84.0043591539382,
+          "upperSupportBust": 116.28119154144056,
+          "maxIncrInfluence": 1.0,
+          "identity": {
+            "modelId": "reload-body-female-v1",
+            "bustCalibrationVersion": "female-bust-calibration-candidate-v1-20261005",
+            "heightLockId": "reload-body-female-v1-height-final-lock-v1-20261004",
+            "supportSurfaceVersion": "female-bust-height-conditioned-support-v1-20261005"
+          },
+          "displaySimulation": 116.3
+        },
+        "lowerWaist": 68.11885711441627,
+        "neutralWaist": 77.32743407587022,
+        "upperWaist": 86.87547872392746,
+        "curve": [
+          {
+            "influence": -1,
+            "waistCm": 68.11885711441627
+          },
+          {
+            "influence": -0.75,
+            "waistCm": 70.38301159883889
+          },
+          {
+            "influence": -0.5,
+            "waistCm": 72.67386880605247
+          },
+          {
+            "influence": -0.25,
+            "waistCm": 74.98930334212645
+          },
+          {
+            "influence": 0,
+            "waistCm": 77.32743407587022
+          },
+          {
+            "influence": 0.25,
+            "waistCm": 79.68657484722938
+          },
+          {
+            "influence": 0.5,
+            "waistCm": 82.06520237773593
+          },
+          {
+            "influence": 0.75,
+            "waistCm": 84.4619259888997
+          },
+          {
+            "influence": 1,
+            "waistCm": 86.87547872392746
+          }
+        ]
+      },
+      {
+        "heightCm": 202.67083942890167,
+        "bustSimulation": 100.75654675918106,
+        "bustRelative": 0,
+        "bustState": {
+          "actual": 100.75654675918106,
+          "simulation": 100.75654675918106,
+          "status": "SUPPORTED",
+          "direction": "neutral",
+          "decrInfluence": 0.0,
+          "incrInfluence": 0.0,
+          "heightSimulation": 202.67083942890167,
+          "measuredNeutralBust": 100.75654675918106,
+          "lowerSupportBust": 86.06039497332011,
+          "upperSupportBust": 118.35924860978884,
+          "maxIncrInfluence": 1.0,
+          "identity": {
+            "modelId": "reload-body-female-v1",
+            "bustCalibrationVersion": "female-bust-calibration-candidate-v1-20261005",
+            "heightLockId": "reload-body-female-v1-height-final-lock-v1-20261004",
+            "supportSurfaceVersion": "female-bust-height-conditioned-support-v1-20261005"
+          },
+          "displaySimulation": 100.8
+        },
+        "lowerWaist": 68.1228431236066,
+        "neutralWaist": 77.3850952250584,
+        "upperWaist": 86.98864703728121,
+        "curve": [
+          {
+            "influence": -1,
+            "waistCm": 68.1228431236066
+          },
+          {
+            "influence": -0.75,
+            "waistCm": 70.399865250238
+          },
+          {
+            "influence": -0.5,
+            "waistCm": 72.7040496265489
+          },
+          {
+            "influence": -0.25,
+            "waistCm": 75.03312693565621
+          },
+          {
+            "influence": 0,
+            "waistCm": 77.3850952250584
+          },
+          {
+            "influence": 0.25,
+            "waistCm": 79.75816692334067
+          },
+          {
+            "influence": 0.5,
+            "waistCm": 82.15073352031085
+          },
+          {
+            "influence": 0.75,
+            "waistCm": 84.56133590105446
+          },
+          {
+            "influence": 1,
+            "waistCm": 86.98864703728121
+          }
+        ]
+      },
+      {
+        "heightCm": 202.67083942890167,
+        "bustSimulation": 93.40847086625058,
+        "bustRelative": -0.5,
+        "bustState": {
+          "actual": 93.40847086625058,
+          "simulation": 93.40847086625058,
+          "status": "SUPPORTED",
+          "direction": "decr",
+          "decrInfluence": 0.49801070713747175,
+          "incrInfluence": 0.0,
+          "heightSimulation": 202.67083942890167,
+          "measuredNeutralBust": 100.75654675918106,
+          "lowerSupportBust": 86.06039497332011,
+          "upperSupportBust": 118.35924860978884,
+          "maxIncrInfluence": 1.0,
+          "identity": {
+            "modelId": "reload-body-female-v1",
+            "bustCalibrationVersion": "female-bust-calibration-candidate-v1-20261005",
+            "heightLockId": "reload-body-female-v1-height-final-lock-v1-20261004",
+            "supportSurfaceVersion": "female-bust-height-conditioned-support-v1-20261005"
+          },
+          "displaySimulation": 93.4
+        },
+        "lowerWaist": 68.09723662817171,
+        "neutralWaist": 77.3578622183525,
+        "upperWaist": 86.95992706499567,
+        "curve": [
+          {
+            "influence": -1,
+            "waistCm": 68.09723662817171
+          },
+          {
+            "influence": -0.75,
+            "waistCm": 70.37384088141826
+          },
+          {
+            "influence": -0.5,
+            "waistCm": 72.67761491418443
+          },
+          {
+            "influence": -0.25,
+            "waistCm": 75.00628921688931
+          },
+          {
+            "influence": 0,
+            "waistCm": 77.3578622183525
+          },
+          {
+            "influence": 0.25,
+            "waistCm": 79.73054719518441
+          },
+          {
+            "influence": 0.5,
+            "waistCm": 82.12273650523791
+          },
+          {
+            "influence": 0.75,
+            "waistCm": 84.5329719751874
+          },
+          {
+            "influence": 1,
+            "waistCm": 86.95992706499567
+          }
+        ]
+      },
+      {
+        "heightCm": 202.67083942890167,
+        "bustSimulation": 109.55789768448494,
+        "bustRelative": 0.5,
+        "bustState": {
+          "actual": 109.55789768448494,
+          "simulation": 109.55789768448494,
+          "status": "SUPPORTED",
+          "direction": "incr",
+          "decrInfluence": 0.0,
+          "incrInfluence": 0.5026875280899972,
+          "heightSimulation": 202.67083942890167,
+          "measuredNeutralBust": 100.75654675918106,
+          "lowerSupportBust": 86.06039497332011,
+          "upperSupportBust": 118.35924860978884,
+          "maxIncrInfluence": 1.0,
+          "identity": {
+            "modelId": "reload-body-female-v1",
+            "bustCalibrationVersion": "female-bust-calibration-candidate-v1-20261005",
+            "heightLockId": "reload-body-female-v1-height-final-lock-v1-20261004",
+            "supportSurfaceVersion": "female-bust-height-conditioned-support-v1-20261005"
+          },
+          "displaySimulation": 109.6
+        },
+        "lowerWaist": 68.95799787776194,
+        "neutralWaist": 78.20046657746038,
+        "upperWaist": 87.77957711467857,
+        "curve": [
+          {
+            "influence": -1,
+            "waistCm": 68.95799787776194
+          },
+          {
+            "influence": -0.75,
+            "waistCm": 71.2308173609404
+          },
+          {
+            "influence": -0.5,
+            "waistCm": 73.53022996714965
+          },
+          {
+            "influence": -0.25,
+            "waistCm": 75.8540813886734
+          },
+          {
+            "influence": 0,
+            "waistCm": 78.20046657746038
+          },
+          {
+            "influence": 0.25,
+            "waistCm": 80.56768038183532
+          },
+          {
+            "influence": 0.5,
+            "waistCm": 82.95418393142813
+          },
+          {
+            "influence": 0.75,
+            "waistCm": 85.3585763243609
+          },
+          {
+            "influence": 1,
+            "waistCm": 87.77957711467857
+          }
+        ]
+      },
+      {
+        "heightCm": 202.67083942890167,
+        "bustSimulation": 86.06039497332011,
+        "bustRelative": -1,
+        "bustState": {
+          "actual": 86.06039497332011,
+          "simulation": 86.06039497332011,
+          "status": "SUPPORTED",
+          "direction": "decr",
+          "decrInfluence": 1.0,
+          "incrInfluence": 0.0,
+          "heightSimulation": 202.67083942890167,
+          "measuredNeutralBust": 100.75654675918106,
+          "lowerSupportBust": 86.06039497332011,
+          "upperSupportBust": 118.35924860978884,
+          "maxIncrInfluence": 1.0,
+          "identity": {
+            "modelId": "reload-body-female-v1",
+            "bustCalibrationVersion": "female-bust-calibration-candidate-v1-20261005",
+            "heightLockId": "reload-body-female-v1-height-final-lock-v1-20261004",
+            "supportSurfaceVersion": "female-bust-height-conditioned-support-v1-20261005"
+          },
+          "displaySimulation": 86.1
+        },
+        "lowerWaist": 68.07171937336817,
+        "neutralWaist": 77.33069129014689,
+        "upperWaist": 86.93124252364157,
+        "curve": [
+          {
+            "influence": -1,
+            "waistCm": 68.07171937336817
+          },
+          {
+            "influence": -0.75,
+            "waistCm": 70.34789919096569
+          },
+          {
+            "influence": -0.5,
+            "waistCm": 72.65125586194853
+          },
+          {
+            "influence": -0.25,
+            "waistCm": 74.97952030467914
+          },
+          {
+            "influence": 0,
+            "waistCm": 77.33069129014689
+          },
+          {
+            "influence": 0.25,
+            "waistCm": 79.70298282743627
+          },
+          {
+            "influence": 0.5,
+            "waistCm": 82.09478821959965
+          },
+          {
+            "influence": 0.75,
+            "waistCm": 84.50464977045583
+          },
+          {
+            "influence": 1,
+            "waistCm": 86.93124252364157
+          }
+        ]
+      },
+      {
+        "heightCm": 202.67083942890167,
+        "bustSimulation": 118.35924860978884,
+        "bustRelative": 1,
+        "bustState": {
+          "actual": 118.35924860978884,
+          "simulation": 118.35924860978884,
+          "status": "SUPPORTED",
+          "direction": "incr",
+          "decrInfluence": 0.0,
+          "incrInfluence": 1.0,
+          "heightSimulation": 202.67083942890167,
+          "measuredNeutralBust": 100.75654675918106,
+          "lowerSupportBust": 86.06039497332011,
+          "upperSupportBust": 118.35924860978884,
+          "maxIncrInfluence": 1.0,
+          "identity": {
+            "modelId": "reload-body-female-v1",
+            "bustCalibrationVersion": "female-bust-calibration-candidate-v1-20261005",
+            "heightLockId": "reload-body-female-v1-height-final-lock-v1-20261004",
+            "supportSurfaceVersion": "female-bust-height-conditioned-support-v1-20261005"
+          },
+          "displaySimulation": 118.4
+        },
+        "lowerWaist": 69.79574838581834,
+        "neutralWaist": 79.01886403124169,
+        "upperWaist": 88.57414860297332,
+        "curve": [
+          {
+            "influence": -1,
+            "waistCm": 69.79574838581834
+          },
+          {
+            "influence": -0.75,
+            "waistCm": 72.06443135973839
+          },
+          {
+            "influence": -0.5,
+            "waistCm": 74.35917011172016
+          },
+          {
+            "influence": -0.25,
+            "waistCm": 76.67791958313659
+          },
+          {
+            "influence": 0,
+            "waistCm": 79.01886403124169
+          },
+          {
+            "influence": 0.25,
+            "waistCm": 81.38037223800745
+          },
+          {
+            "influence": 0.5,
+            "waistCm": 83.76096745048368
+          },
+          {
+            "influence": 0.75,
+            "waistCm": 86.15930375127815
+          },
+          {
+            "influence": 1,
+            "waistCm": 88.57414860297332
+          }
+        ]
+      },
+      {
+        "heightCm": 214.63786311428717,
+        "bustSimulation": 104.85703373637124,
+        "bustRelative": 0,
+        "bustState": {
+          "actual": 104.85703373637124,
+          "simulation": 104.85703373637124,
+          "status": "SUPPORTED",
+          "direction": "neutral",
+          "decrInfluence": 0.0,
+          "incrInfluence": 0.0,
+          "heightSimulation": 214.63786311428717,
+          "measuredNeutralBust": 104.85703373637124,
+          "lowerSupportBust": 90.1348041249516,
+          "upperSupportBust": 122.47467466778359,
+          "maxIncrInfluence": 1.0,
+          "identity": {
+            "modelId": "reload-body-female-v1",
+            "bustCalibrationVersion": "female-bust-calibration-candidate-v1-20261005",
+            "heightLockId": "reload-body-female-v1-height-final-lock-v1-20261004",
+            "supportSurfaceVersion": "female-bust-height-conditioned-support-v1-20261005"
+          },
+          "displaySimulation": 104.9
+        },
+        "lowerWaist": 71.43365618978889,
+        "neutralWaist": 80.72722152039795,
+        "upperWaist": 90.34638430225763,
+        "curve": [
+          {
+            "influence": -1,
+            "waistCm": 71.43365618978889
+          },
+          {
+            "influence": -0.75,
+            "waistCm": 73.72045282081604
+          },
+          {
+            "influence": -0.5,
+            "waistCm": 76.03300017687224
+          },
+          {
+            "influence": -0.25,
+            "waistCm": 78.36920704185798
+          },
+          {
+            "influence": 0,
+            "waistCm": 80.72722152039795
+          },
+          {
+            "influence": 0.25,
+            "waistCm": 83.10538013233901
+          },
+          {
+            "influence": 0.5,
+            "waistCm": 85.50218070291797
+          },
+          {
+            "influence": 0.75,
+            "waistCm": 87.91626324933455
+          },
+          {
+            "influence": 1,
+            "waistCm": 90.34638430225763
+          }
+        ]
+      },
+      {
+        "heightCm": 214.63786311428717,
+        "bustSimulation": 97.49591893066142,
+        "bustRelative": -0.5,
+        "bustState": {
+          "actual": 97.49591893066142,
+          "simulation": 97.49591893066142,
+          "status": "SUPPORTED",
+          "direction": "decr",
+          "decrInfluence": 0.4982009758294693,
+          "incrInfluence": 0.0,
+          "heightSimulation": 214.63786311428717,
+          "measuredNeutralBust": 104.85703373637124,
+          "lowerSupportBust": 90.1348041249516,
+          "upperSupportBust": 122.47467466778359,
+          "maxIncrInfluence": 1.0,
+          "identity": {
+            "modelId": "reload-body-female-v1",
+            "bustCalibrationVersion": "female-bust-calibration-candidate-v1-20261005",
+            "heightLockId": "reload-body-female-v1-height-final-lock-v1-20261004",
+            "supportSurfaceVersion": "female-bust-height-conditioned-support-v1-20261005"
+          },
+          "displaySimulation": 97.5
+        },
+        "lowerWaist": 71.40682217334651,
+        "neutralWaist": 80.69893820479169,
+        "upperWaist": 90.31677575316206,
+        "curve": [
+          {
+            "influence": -1,
+            "waistCm": 71.40682217334651
+          },
+          {
+            "influence": -0.75,
+            "waistCm": 73.69324692176252
+          },
+          {
+            "influence": -0.5,
+            "waistCm": 76.00542839109028
+          },
+          {
+            "influence": -0.25,
+            "waistCm": 78.34127601815423
+          },
+          {
+            "influence": 0,
+            "waistCm": 80.69893820479169
+          },
+          {
+            "influence": 0.25,
+            "waistCm": 83.0767519022017
+          },
+          {
+            "influence": 0.5,
+            "waistCm": 85.47321641643883
+          },
+          {
+            "influence": 0.75,
+            "waistCm": 87.88697133568408
+          },
+          {
+            "influence": 1,
+            "waistCm": 90.31677575316206
+          }
+        ]
+      },
+      {
+        "heightCm": 214.63786311428717,
+        "bustSimulation": 113.66585420207741,
+        "bustRelative": 0.5,
+        "bustState": {
+          "actual": 113.66585420207741,
+          "simulation": 113.66585420207741,
+          "status": "SUPPORTED",
+          "direction": "incr",
+          "decrInfluence": 0.0,
+          "incrInfluence": 0.5026940680991007,
+          "heightSimulation": 214.63786311428717,
+          "measuredNeutralBust": 104.85703373637124,
+          "lowerSupportBust": 90.1348041249516,
+          "upperSupportBust": 122.47467466778359,
+          "maxIncrInfluence": 1.0,
+          "identity": {
+            "modelId": "reload-body-female-v1",
+            "bustCalibrationVersion": "female-bust-calibration-candidate-v1-20261005",
+            "heightLockId": "reload-body-female-v1-height-final-lock-v1-20261004",
+            "supportSurfaceVersion": "female-bust-height-conditioned-support-v1-20261005"
+          },
+          "displaySimulation": 113.7
+        },
+        "lowerWaist": 72.27736533381292,
+        "neutralWaist": 81.5491978270129,
+        "upperWaist": 91.14305983566634,
+        "curve": [
+          {
+            "influence": -1,
+            "waistCm": 72.27736533381292
+          },
+          {
+            "influence": -0.75,
+            "waistCm": 74.55932513615318
+          },
+          {
+            "influence": -0.5,
+            "waistCm": 76.8665749296861
+          },
+          {
+            "influence": -0.25,
+            "waistCm": 79.19712244728797
+          },
+          {
+            "influence": 0,
+            "waistCm": 81.5491978270129
+          },
+          {
+            "influence": 0.25,
+            "waistCm": 83.92120839002622
+          },
+          {
+            "influence": 0.5,
+            "waistCm": 86.31171230845507
+          },
+          {
+            "influence": 0.75,
+            "waistCm": 88.71939694020486
+          },
+          {
+            "influence": 1,
+            "waistCm": 91.14305983566634
+          }
+        ]
+      },
+      {
+        "heightCm": 214.63786311428717,
+        "bustSimulation": 90.1348041249516,
+        "bustRelative": -1,
+        "bustState": {
+          "actual": 90.1348041249516,
+          "simulation": 90.1348041249516,
+          "status": "SUPPORTED",
+          "direction": "decr",
+          "decrInfluence": 1.0,
+          "incrInfluence": 0.0,
+          "heightSimulation": 214.63786311428717,
+          "measuredNeutralBust": 104.85703373637124,
+          "lowerSupportBust": 90.1348041249516,
+          "upperSupportBust": 122.47467466778359,
+          "maxIncrInfluence": 1.0,
+          "identity": {
+            "modelId": "reload-body-female-v1",
+            "bustCalibrationVersion": "female-bust-calibration-candidate-v1-20261005",
+            "heightLockId": "reload-body-female-v1-height-final-lock-v1-20261004",
+            "supportSurfaceVersion": "female-bust-height-conditioned-support-v1-20261005"
+          },
+          "displaySimulation": 90.1
+        },
+        "lowerWaist": 71.38007932123945,
+        "neutralWaist": 80.67072122896937,
+        "upperWaist": 90.28720842692172,
+        "curve": [
+          {
+            "influence": -1,
+            "waistCm": 71.38007932123945
+          },
+          {
+            "influence": -0.75,
+            "waistCm": 73.66612578260724
+          },
+          {
+            "influence": -0.5,
+            "waistCm": 75.97793539065572
+          },
+          {
+            "influence": -0.25,
+            "waistCm": 78.31341748745956
+          },
+          {
+            "influence": 0,
+            "waistCm": 80.67072122896937
+          },
+          {
+            "influence": 0.25,
+            "waistCm": 83.04818417030127
+          },
+          {
+            "influence": 0.5,
+            "waistCm": 85.44430598896487
+          },
+          {
+            "influence": 0.75,
+            "waistCm": 87.85772732040317
+          },
+          {
+            "influence": 1,
+            "waistCm": 90.28720842692172
+          }
+        ]
+      },
+      {
+        "heightCm": 214.63786311428717,
+        "bustSimulation": 122.47467466778359,
+        "bustRelative": 1,
+        "bustState": {
+          "actual": 122.47467466778359,
+          "simulation": 122.47467466778359,
+          "status": "SUPPORTED",
+          "direction": "incr",
+          "decrInfluence": 0.0,
+          "incrInfluence": 1.0,
+          "heightSimulation": 214.63786311428717,
+          "measuredNeutralBust": 104.85703373637124,
+          "lowerSupportBust": 90.1348041249516,
+          "upperSupportBust": 122.47467466778359,
+          "maxIncrInfluence": 1.0,
+          "identity": {
+            "modelId": "reload-body-female-v1",
+            "bustCalibrationVersion": "female-bust-calibration-candidate-v1-20261005",
+            "heightLockId": "reload-body-female-v1-height-final-lock-v1-20261004",
+            "supportSurfaceVersion": "female-bust-height-conditioned-support-v1-20261005"
+          },
+          "displaySimulation": 122.5
+        },
+        "lowerWaist": 73.12290103476118,
+        "neutralWaist": 82.37343039418163,
+        "upperWaist": 91.94254180801352,
+        "curve": [
+          {
+            "influence": -1,
+            "waistCm": 73.12290103476118
+          },
+          {
+            "influence": -0.75,
+            "waistCm": 75.40009994611066
+          },
+          {
+            "influence": -0.5,
+            "waistCm": 77.70215303026856
+          },
+          {
+            "influence": -0.25,
+            "waistCm": 80.02716155419166
+          },
+          {
+            "influence": 0,
+            "waistCm": 82.37343039418163
+          },
+          {
+            "influence": 0.25,
+            "waistCm": 84.73943182620765
+          },
+          {
+            "influence": 0.5,
+            "waistCm": 87.12377758836661
+          },
+          {
+            "influence": 0.75,
+            "waistCm": 89.52520150462617
+          },
+          {
+            "influence": 1,
+            "waistCm": 91.94254180801352
+          }
+        ]
+      },
+      {
+        "heightCm": 229.0990114212036,
+        "bustSimulation": 109.81524707013031,
+        "bustRelative": 0,
+        "bustState": {
+          "actual": 109.81524707013031,
+          "simulation": 109.81524707013031,
+          "status": "SUPPORTED",
+          "direction": "neutral",
+          "decrInfluence": 0.0,
+          "incrInfluence": 0.0,
+          "heightSimulation": 229.0990114212036,
+          "measuredNeutralBust": 109.81524707013031,
+          "lowerSupportBust": 95.06614104716054,
+          "upperSupportBust": 127.45095859661753,
+          "maxIncrInfluence": 1.0,
+          "identity": {
+            "modelId": "reload-body-female-v1",
+            "bustCalibrationVersion": "female-bust-calibration-candidate-v1-20261005",
+            "heightLockId": "reload-body-female-v1-height-final-lock-v1-20261004",
+            "supportSurfaceVersion": "female-bust-height-conditioned-support-v1-20261005"
+          },
+          "displaySimulation": 109.8
+        },
+        "lowerWaist": 75.44904061381669,
+        "neutralWaist": 84.776465050357,
+        "upperWaist": 94.41224055179768,
+        "curve": [
+          {
+            "influence": -1,
+            "waistCm": 75.44904061381669
+          },
+          {
+            "influence": -0.75,
+            "waistCm": 77.74643217707181
+          },
+          {
+            "influence": -0.5,
+            "waistCm": 80.06803259130083
+          },
+          {
+            "influence": -0.25,
+            "waistCm": 82.41194174176117
+          },
+          {
+            "influence": 0,
+            "waistCm": 84.776465050357
+          },
+          {
+            "influence": 0.25,
+            "waistCm": 87.16007745815439
+          },
+          {
+            "influence": 0.5,
+            "waistCm": 89.56139829041857
+          },
+          {
+            "influence": 0.75,
+            "waistCm": 91.97916931488022
+          },
+          {
+            "influence": 1,
+            "waistCm": 94.41224055179768
+          }
+        ]
+      },
+      {
+        "heightCm": 229.0990114212036,
+        "bustSimulation": 102.44069405864542,
+        "bustRelative": -0.5,
+        "bustState": {
+          "actual": 102.44069405864542,
+          "simulation": 102.44069405864542,
+          "status": "SUPPORTED",
+          "direction": "decr",
+          "decrInfluence": 0.49839138867117133,
+          "incrInfluence": 0.0,
+          "heightSimulation": 229.0990114212036,
+          "measuredNeutralBust": 109.81524707013031,
+          "lowerSupportBust": 95.06614104716054,
+          "upperSupportBust": 127.45095859661753,
+          "maxIncrInfluence": 1.0,
+          "identity": {
+            "modelId": "reload-body-female-v1",
+            "bustCalibrationVersion": "female-bust-calibration-candidate-v1-20261005",
+            "heightLockId": "reload-body-female-v1-height-final-lock-v1-20261004",
+            "supportSurfaceVersion": "female-bust-height-conditioned-support-v1-20261005"
+          },
+          "displaySimulation": 102.4
+        },
+        "lowerWaist": 75.42084626466941,
+        "neutralWaist": 84.74701667717417,
+        "upperWaist": 94.38164197461278,
+        "curve": [
+          {
+            "influence": -1,
+            "waistCm": 75.42084626466941
+          },
+          {
+            "influence": -0.75,
+            "waistCm": 77.717916205051
+          },
+          {
+            "influence": -0.5,
+            "waistCm": 80.03920019340748
+          },
+          {
+            "influence": -0.25,
+            "waistCm": 82.38279842337334
+          },
+          {
+            "influence": 0,
+            "waistCm": 84.74701667717417
+          },
+          {
+            "influence": 0.25,
+            "waistCm": 87.13033038633083
+          },
+          {
+            "influence": 0.5,
+            "waistCm": 89.53135991985542
+          },
+          {
+            "influence": 0.75,
+            "waistCm": 91.94884712568235
+          },
+          {
+            "influence": 1,
+            "waistCm": 94.38164197461278
+          }
+        ]
+      },
+      {
+        "heightCm": 229.0990114212036,
+        "bustSimulation": 118.63310283337393,
+        "bustRelative": 0.5,
+        "bustState": {
+          "actual": 118.63310283337393,
+          "simulation": 118.63310283337393,
+          "status": "SUPPORTED",
+          "direction": "incr",
+          "decrInfluence": 0.0,
+          "incrInfluence": 0.5026913536141798,
+          "heightSimulation": 229.0990114212036,
+          "measuredNeutralBust": 109.81524707013031,
+          "lowerSupportBust": 95.06614104716054,
+          "upperSupportBust": 127.45095859661753,
+          "maxIncrInfluence": 1.0,
+          "identity": {
+            "modelId": "reload-body-female-v1",
+            "bustCalibrationVersion": "female-bust-calibration-candidate-v1-20261005",
+            "heightLockId": "reload-body-female-v1-height-final-lock-v1-20261004",
+            "supportSurfaceVersion": "female-bust-height-conditioned-support-v1-20261005"
+          },
+          "displaySimulation": 118.6
+        },
+        "lowerWaist": 76.3008251684767,
+        "neutralWaist": 85.6049095911721,
+        "upperWaist": 95.21479236200211,
+        "curve": [
+          {
+            "influence": -1,
+            "waistCm": 76.3008251684767
+          },
+          {
+            "influence": -0.75,
+            "waistCm": 78.59283875884485
+          },
+          {
+            "influence": -0.5,
+            "waistCm": 80.90870336641512
+          },
+          {
+            "influence": -0.25,
+            "waistCm": 83.24660203410141
+          },
+          {
+            "influence": 0,
+            "waistCm": 85.6049095911721
+          },
+          {
+            "influence": 0.25,
+            "waistCm": 87.98215866024654
+          },
+          {
+            "influence": 0.5,
+            "waistCm": 90.37701632421121
+          },
+          {
+            "influence": 0.75,
+            "waistCm": 92.78826598426292
+          },
+          {
+            "influence": 1,
+            "waistCm": 95.21479236200211
+          }
+        ]
+      },
+      {
+        "heightCm": 229.0990114212036,
+        "bustSimulation": 95.06614104716054,
+        "bustRelative": -1,
+        "bustState": {
+          "actual": 95.06614104716054,
+          "simulation": 95.06614104716054,
+          "status": "SUPPORTED",
+          "direction": "decr",
+          "decrInfluence": 1.0,
+          "incrInfluence": 0.0,
+          "heightSimulation": 229.0990114212036,
+          "measuredNeutralBust": 109.81524707013031,
+          "lowerSupportBust": 95.06614104716054,
+          "upperSupportBust": 127.45095859661753,
+          "maxIncrInfluence": 1.0,
+          "identity": {
+            "modelId": "reload-body-female-v1",
+            "bustCalibrationVersion": "female-bust-calibration-candidate-v1-20261005",
+            "heightLockId": "reload-body-female-v1-height-final-lock-v1-20261004",
+            "supportSurfaceVersion": "female-bust-height-conditioned-support-v1-20261005"
+          },
+          "displaySimulation": 95.1
+        },
+        "lowerWaist": 75.39274912607145,
+        "neutralWaist": 84.71764401530008,
+        "upperWaist": 94.35109863848517,
+        "curve": [
+          {
+            "influence": -1,
+            "waistCm": 75.39274912607145
+          },
+          {
+            "influence": -0.75,
+            "waistCm": 77.68949246598153
+          },
+          {
+            "influence": -0.5,
+            "waistCm": 80.01045440027298
+          },
+          {
+            "influence": -0.25,
+            "waistCm": 82.3537362519389
+          },
+          {
+            "influence": 0,
+            "waistCm": 84.71764401530008
+          },
+          {
+            "influence": 0.25,
+            "waistCm": 87.10065370457171
+          },
+          {
+            "influence": 0.5,
+            "waistCm": 89.50138629004876
+          },
+          {
+            "influence": 0.75,
+            "waistCm": 91.91858414081804
+          },
+          {
+            "influence": 1,
+            "waistCm": 94.35109863848517
+          }
+        ]
+      },
+      {
+        "heightCm": 229.0990114212036,
+        "bustSimulation": 127.45095859661753,
+        "bustRelative": 1,
+        "bustState": {
+          "actual": 127.45095859661753,
+          "simulation": 127.45095859661753,
+          "status": "SUPPORTED",
+          "direction": "incr",
+          "decrInfluence": 0.0,
+          "incrInfluence": 1.0,
+          "heightSimulation": 229.0990114212036,
+          "measuredNeutralBust": 109.81524707013031,
+          "lowerSupportBust": 95.06614104716054,
+          "upperSupportBust": 127.45095859661753,
+          "maxIncrInfluence": 1.0,
+          "identity": {
+            "modelId": "reload-body-female-v1",
+            "bustCalibrationVersion": "female-bust-calibration-candidate-v1-20261005",
+            "heightLockId": "reload-body-female-v1-height-final-lock-v1-20261004",
+            "supportSurfaceVersion": "female-bust-height-conditioned-support-v1-20261005"
+          },
+          "displaySimulation": 127.5
+        },
+        "lowerWaist": 77.15491394361334,
+        "neutralWaist": 86.43603366204306,
+        "upperWaist": 96.02046861358741,
+        "curve": [
+          {
+            "influence": -1,
+            "waistCm": 77.15491394361334
+          },
+          {
+            "influence": -0.75,
+            "waistCm": 79.44162129107613
+          },
+          {
+            "influence": -0.5,
+            "waistCm": 81.75183979440787
+          },
+          {
+            "influence": -0.25,
+            "waistCm": 84.0838316036998
+          },
+          {
+            "influence": 0,
+            "waistCm": 86.43603366204306
+          },
+          {
+            "influence": 0.25,
+            "waistCm": 88.80703257511107
+          },
+          {
+            "influence": 0.5,
+            "waistCm": 91.19554166018312
+          },
+          {
+            "influence": 0.75,
+            "waistCm": 93.60038086002795
+          },
+          {
+            "influence": 1,
+            "waistCm": 96.02046861358741
+          }
+        ]
+      }
+    ],
+    "geometrySearchStates": 405,
+    "genericMargin": null,
+    "continuousCollisionFreedomProven": false
+  },
+  "calibration": {
+    "strategy": "C \u2014 HYBRID ENDPOINT-SECANT INVERSE WITH EXACT FORWARD-GEOMETRY BRACKET REFINEMENT",
+    "maxIterations": 32,
+    "neutralWeight": 0,
+    "endpointWeights": [
+      -1,
+      1
+    ],
+    "classification": "Exact full-precision inequalities; no epsilon, no aliases"
+  },
+  "numericalAccuracyBudgetCm": 1e-05,
+  "displayPrecisionCm": 0.1,
+  "endpointAliases": [],
+  "productBand": "UNAPPROVED",
+  "rectangularCentimetreSupport": false,
+  "artifactGuards": [
+    {
+      "path": "female-v1-waist-prototype/candidate/female-waist-prototype-v2.glb",
+      "sha256": "0FDA1407348228EF56817FFEA3AD75A40A0C285E0E33D41835417B19DADF9480"
+    },
+    {
+      "path": "female-v1-waist-prototype/source/reload-body-female-v1-waist-prototype-v1.blend",
+      "sha256": "A67BAFE59A31BEC88AFB077986E4104E585996AD9A9114E2FA0AA46F3F82362E"
+    },
+    {
+      "path": "reload-gym/qa/female-body-model-v1-height-final-acceptance-lock/height-final-lock.json",
+      "sha256": "4196DE9FF4660E69A20131E4AA964805F602DA0EF43F9E7CAFF3C6D3F86EB8AD"
+    },
+    {
+      "path": "reload-gym/qa/female-body-model-v1-bust-final-acceptance-lock/bust-final-lock.json",
+      "sha256": "9481C2FA4117FEB58E6B9AF04F71687535C636D9DE8D9445416A89A53319365F"
+    },
+    {
+      "path": "female-v1-height-calibration/profiles/female-height-calibration-candidate-v1.json",
+      "sha256": "25F7BB801AD8AF3D1D26F8B75793772FC0AF5271A4B47FA0E1794341515DBC6A"
+    },
+    {
+      "path": "female-v1-height-calibration/profiles/female-height-calibration-candidate-v1.py",
+      "sha256": "1852313DD92888526F2DB795325FF5131765CE408C27CDCD1344A4E00F39F366"
+    },
+    {
+      "path": "female-v1-bust-calibration/profiles/female-bust-calibration-candidate-v1.json",
+      "sha256": "6D091FB74CDB8BE6BD43F1F682B10F595AA4774ADFED250D035DC7D4D2121640"
+    },
+    {
+      "path": "female-v1-bust-calibration/profiles/female-bust-calibration-candidate-v1.py",
+      "sha256": "9F8ED00B451D272F69634342BC2A17C198E0BA1C244DD3EB77539367851F167D"
+    },
+    {
+      "path": "female-v1-waist-calibration/profiles/waist-ruler-v1.py",
+      "sha256": "5C933FBC1EEDE894D1293DE8DC19BE505D9E63DA2E3BDE56CAA8A3177D79F126"
+    },
+    {
+      "path": "female-v1-waist-calibration/profiles/waist-ruler-v1.mjs",
+      "sha256": "9A4F1A51ABB18E45E14F1FF944F78A1DD3A30C86CFC62BD7E6A337E0DA9D5C28"
+    }
+  ],
+  "browserArtifactGuards": [
+    {
+      "path": "female-v1-waist-prototype/candidate/female-waist-prototype-v2.glb",
+      "sha256": "0FDA1407348228EF56817FFEA3AD75A40A0C285E0E33D41835417B19DADF9480"
+    },
+    {
+      "path": "reload-gym/qa/female-body-model-v1-height-final-acceptance-lock/height-final-lock.json",
+      "sha256": "4196DE9FF4660E69A20131E4AA964805F602DA0EF43F9E7CAFF3C6D3F86EB8AD"
+    },
+    {
+      "path": "reload-gym/qa/female-body-model-v1-bust-final-acceptance-lock/bust-final-lock.json",
+      "sha256": "9481C2FA4117FEB58E6B9AF04F71687535C636D9DE8D9445416A89A53319365F"
+    },
+    {
+      "path": "female-v1-height-calibration/profiles/female-height-calibration-candidate-v1.json",
+      "sha256": "25F7BB801AD8AF3D1D26F8B75793772FC0AF5271A4B47FA0E1794341515DBC6A"
+    },
+    {
+      "path": "female-v1-bust-calibration/profiles/female-bust-calibration-candidate-v1.json",
+      "sha256": "6D091FB74CDB8BE6BD43F1F682B10F595AA4774ADFED250D035DC7D4D2121640"
+    },
+    {
+      "path": "female-v1-waist-calibration/profiles/waist-ruler-v1.mjs",
+      "sha256": "9A4F1A51ABB18E45E14F1FF944F78A1DD3A30C86CFC62BD7E6A337E0DA9D5C28"
+    }
+  ],
+  "resolverStatuses": [
+    "SUPPORTED",
+    "BELOW_SIMULATION_RANGE",
+    "ABOVE_SIMULATION_RANGE",
+    "SIMULATION_UNAVAILABLE"
+  ],
+  "forbiddenStatus": "NOT_APPLICABLE",
+  "knownLimitations": [
+    "Finite geometry sampling; continuous and exhaustive combined-morph crossing QA remains Technical Hardening",
+    "Final Female normal policy NOT ESTABLISHED; explicit zero Waist normal delta is diagnostic only",
+    "EXPORT CLEANUP REQUIRED BEFORE PRODUCTION PROMOTION",
+    "TARGET LICENSE SCOPE NOT FULLY VERIFIED",
+    "Bust \u00d7 Waist, Waist \u00d7 Hips, abdomen and final combined-morph QA retained",
+    "Production integration NOT STARTED"
+  ]
+}

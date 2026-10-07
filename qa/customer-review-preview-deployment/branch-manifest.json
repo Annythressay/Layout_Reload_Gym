@@ -1,0 +1,9 @@
+{
+  "status": "PASS",
+  "branch": "review/female-body-visualizer-preview",
+  "base": "2c939f19a75663b3c3248af1e07284c6f5fb5477",
+  "existingLocalBranch": false,
+  "existingRemoteBranch": false,
+  "localReviewPreserved": true,
+  "productionMainUntouched": true
+}

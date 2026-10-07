@@ -1,0 +1,33 @@
+{
+  "status": "PASS",
+  "url": "https://layout-reload-gym.vercel.app/body-visualizer.html",
+  "files": [
+    {
+      "path": "body-visualizer.html",
+      "status": 200,
+      "contentType": "text/html; charset=utf-8",
+      "sha256": "61129A85983853E4C2890A5982AB59FE0F3C29443559C87622FA570298AACA6F",
+      "matchesLocal": false,
+      "matchesProductionGitBlob": true,
+      "note": "Windows checkout uses CRLF; Vercel serves the authoritative Git LF bytes."
+    },
+    {
+      "path": "assets/js/body-visualizer/app.js",
+      "status": 200,
+      "contentType": "application/javascript; charset=utf-8",
+      "sha256": "CA0A5F1161ED913E7D447EE8CB3EC017E341F0B70C01DC881E3EAD58951E197C",
+      "matchesLocal": true,
+      "matchesProductionGitBlob": true,
+      "note": null
+    },
+    {
+      "path": "3D/male-mpfb-production-morph-v5-waist90-calf50-chest75.glb",
+      "status": 200,
+      "contentType": "model/gltf-binary",
+      "sha256": "E94753061ADF3E254E84BFC6B61A1410817A06F7BEBE69FEEE0C027DDDBA6EF3",
+      "matchesLocal": true,
+      "matchesProductionGitBlob": true,
+      "note": null
+    }
+  ]
+}

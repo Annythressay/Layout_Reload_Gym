@@ -1,0 +1,323 @@
+{
+  "schemaVersion": 1,
+  "lockId": "reload-body-female-v1-waist-final-lock-v1-20261006",
+  "date": "2026-10-06",
+  "timezone": "Asia/Saigon",
+  "modelId": "reload-body-female-v1",
+  "scope": "R&D FINAL ACCEPTANCE / IMMUTABLE DOWNSTREAM DEVELOPMENT LOCK",
+  "status": "PASS",
+  "artifactIdentities": [
+    {
+      "path": "C:\\Users\\cnhan\\Downloads\\Reload Gym\\Website Reload Gym\\female-v1-waist-prototype\\source\\reload-body-female-v1-waist-prototype-v1.blend",
+      "sha256": "A67BAFE59A31BEC88AFB077986E4104E585996AD9A9114E2FA0AA46F3F82362E",
+      "bytes": 1460546,
+      "role": "Waist working source"
+    },
+    {
+      "path": "C:\\Users\\cnhan\\Downloads\\Reload Gym\\Website Reload Gym\\female-v1-waist-prototype\\candidate\\female-waist-prototype-v2.glb",
+      "sha256": "0FDA1407348228EF56817FFEA3AD75A40A0C285E0E33D41835417B19DADF9480",
+      "bytes": 1769392,
+      "role": "Accepted R&D candidate GLB"
+    },
+    {
+      "path": "C:\\Users\\cnhan\\Downloads\\Reload Gym\\Website Reload Gym\\female-v1-waist-prototype\\evidence\\waist-signed-delta.npy",
+      "sha256": "5AD38B0B491C1FC86915A30539FC306652E532B73FC1D7DD501E6D92AAB89C16",
+      "bytes": 160688,
+      "role": "Selected signed Waist export vector"
+    },
+    {
+      "path": "C:\\Users\\cnhan\\Downloads\\Reload Gym\\Website Reload Gym\\female-v1-waist-calibration\\profiles\\female-waist-calibration-candidate-v1.json",
+      "sha256": "5E82CF217E636785508A560F9720BE8EB37E7B54AC41B4244EF00EAECF31415C",
+      "bytes": 101872,
+      "role": "Calibration profile"
+    },
+    {
+      "path": "C:\\Users\\cnhan\\Downloads\\Reload Gym\\Website Reload Gym\\female-v1-waist-calibration\\profiles\\female-waist-calibration-candidate-v1.py",
+      "sha256": "9B78EC88D0457CA70073585357E18FD08358EF0EF49DCF772C2AA91E0F3755D2",
+      "bytes": 68589,
+      "role": "Python evaluator"
+    },
+    {
+      "path": "C:\\Users\\cnhan\\Downloads\\Reload Gym\\Website Reload Gym\\female-v1-waist-calibration\\profiles\\female-waist-calibration-candidate-v1.mjs",
+      "sha256": "F8E2BCD7DF073C00FDE66E9FE3B59BD18E96D1671032F01C02CB14D2EE23FFF9",
+      "bytes": 67714,
+      "role": "JavaScript evaluator"
+    },
+    {
+      "path": "C:\\Users\\cnhan\\Downloads\\Reload Gym\\Website Reload Gym\\female-v1-waist-calibration\\profiles\\waist-ruler-v1.py",
+      "sha256": "5C933FBC1EEDE894D1293DE8DC19BE505D9E63DA2E3BDE56CAA8A3177D79F126",
+      "bytes": 2921,
+      "role": "Canonical Python ruler"
+    },
+    {
+      "path": "C:\\Users\\cnhan\\Downloads\\Reload Gym\\Website Reload Gym\\female-v1-waist-calibration\\profiles\\waist-ruler-v1.mjs",
+      "sha256": "9A4F1A51ABB18E45E14F1FF944F78A1DD3A30C86CFC62BD7E6A337E0DA9D5C28",
+      "bytes": 2589,
+      "role": "Canonical JavaScript ruler"
+    },
+    {
+      "path": "C:\\Users\\cnhan\\Downloads\\Reload Gym\\Website Reload Gym\\female-v1-waist-prototype\\profiles\\waist-ruler-v1.json",
+      "sha256": "634FB912851DE0BE719B8DFF8C9683153EB6A62A8CD3894438962EC2EE2995B5",
+      "bytes": 3014,
+      "role": "Anatomical landmark/ruler semantic"
+    },
+    {
+      "path": "C:\\Users\\cnhan\\Downloads\\Reload Gym\\Website Reload Gym\\reload-gym\\qa\\female-body-model-v1-height-final-acceptance-lock\\height-final-lock.json",
+      "sha256": "4196DE9FF4660E69A20131E4AA964805F602DA0EF43F9E7CAFF3C6D3F86EB8AD",
+      "bytes": 67721,
+      "role": "Height immutable lock"
+    },
+    {
+      "path": "C:\\Users\\cnhan\\Downloads\\Reload Gym\\Website Reload Gym\\reload-gym\\qa\\female-body-model-v1-bust-final-acceptance-lock\\bust-final-lock.json",
+      "sha256": "9481C2FA4117FEB58E6B9AF04F71687535C636D9DE8D9445416A89A53319365F",
+      "bytes": 19889,
+      "role": "Bust immutable lock"
+    }
+  ],
+  "sourceShapeKeyOrder": [
+    "Basis",
+    "RND_female_height_min_native_v1",
+    "RND_female_height_max_native_v1",
+    "RND_female_bust_decr_native_v1",
+    "RND_female_bust_incr_native_v1",
+    "RND_female_waist_signed_native_v1"
+  ],
+  "GLBMorphNamesOrder": [
+    "RND_female_height_min_native_v1",
+    "RND_female_height_max_native_v1",
+    "RND_female_bust_decr_native_v1",
+    "RND_female_bust_incr_native_v1",
+    "RND_female_waist_signed_native_v1"
+  ],
+  "vectorSHA256": [
+    "4471DD11CB436095051E4B3CD36391779C65A009BE1026937809B88B721BCAAB",
+    "01B68602562DAFAFA0B95041C6F69FDBA75B69DF6A5C7975625D8A36B7F59EA1",
+    "121DA6019F166384737E0CB0590CFABA0385B56FF997ED82655199306B26E1B9",
+    "54FA6A0FCD32981CE3571291541D2BD5ADC48B4F1CFBE723BFFB58631653C84F",
+    "D4F79DEC8372CF056A857374DC9C10B10849A673EACBAD1DFDDE32F2417F3D02"
+  ],
+  "basisSHA256": "B66D73C4473F56E5910BC34FF9D52DCD8A84ABC466F7545EC4DA2F319CC54631",
+  "topologySHA256": "54A319EF2E15230133732428B43A96C20AB27A4B5C2B67EF79C90D0D3BCA7CD1",
+  "architecture": "ONE SIGNED NATIVE INCR WAIST VECTOR; negative DECR, zero NEUTRAL, positive INCR",
+  "measurementSemantic": "Complete horizontal torso skin circumference at the mean current Z of a fixed 30-vertex exported body surface cohort identified at the constrained neutral Female waist minimum between lower ribcage and upper pelvis; select the unique degree-two closed contour surrounding the cohort centroid XY, containing front, sides and back; arms are separate non-enclosing components.",
+  "ruler": {
+    "version": "female-waist-protocol-d-surface-centroid-horizontal-v1-20261006",
+    "protocol": "D",
+    "definition": "Complete horizontal torso skin circumference at the mean current Z of a fixed 30-vertex exported body surface cohort identified at the constrained neutral Female waist minimum between lower ribcage and upper pelvis; select the unique degree-two closed contour surrounding the cohort centroid XY, containing front, sides and back; arms are separate non-enclosing components.",
+    "patchExportIds": [
+      4022,
+      4024,
+      4025,
+      4026,
+      4027,
+      4028,
+      4029,
+      4030,
+      4031,
+      4032,
+      4033,
+      4034,
+      4151,
+      4154,
+      4155,
+      4156,
+      10680,
+      10682,
+      10683,
+      10684,
+      10685,
+      10686,
+      10687,
+      10688,
+      10689,
+      10690,
+      10691,
+      10793,
+      10796,
+      10797
+    ],
+    "patchOrderedIdsSHA256": "04E8EC08209F301BD28977BA195B02767B1FECC79B42687E4963934C8C40ADD1",
+    "PythonSHA256": "5C933FBC1EEDE894D1293DE8DC19BE505D9E63DA2E3BDE56CAA8A3177D79F126",
+    "JavaScriptSHA256": "9A4F1A51ABB18E45E14F1FF944F78A1DD3A30C86CFC62BD7E6A337E0DA9D5C28",
+    "reduction": "Identical numeric topological key order, centroid sum then division, scalar sqrt and serial segment sum in both languages; exact support classification requires common arithmetic, no tolerance or alias"
+  },
+  "conditioning": {
+    "dimensions": [
+      "Height Simulation",
+      "locked Bust resolver state"
+    ],
+    "heightDomain": [
+      123.38632345199585,
+      229.0990114212036
+    ],
+    "bustDomain": "Full geometry-backed locked Bust support at each Height; consume exact locked Bust coefficients and identity",
+    "primaryAuthoringBaseline": "Bust NEUTRAL"
+  },
+  "calibrationStrategy": "C \u2014 HYBRID ENDPOINT-SECANT INVERSE WITH EXACT FORWARD-GEOMETRY BRACKET REFINEMENT",
+  "technicalSupport": "FINAL ACCEPTED & LOCKED FOR DOWNSTREAM DEVELOPMENT",
+  "supportRepresentation": "Measure exact Protocol D endpoints on G(Height,Bust,\u22121), G(Height,Bust,0), G(Height,Bust,+1); no centimetre interpolation or rectangular clamp",
+  "signedInfluenceSupport": [
+    -1,
+    1
+  ],
+  "aggregateObservedTechnicalExtremaCm": [
+    48.13867850205516,
+    96.02046861358741
+  ],
+  "rectangularSupport": false,
+  "productBand": "UNAPPROVED",
+  "resolverStatuses": [
+    "SUPPORTED",
+    "BELOW_SIMULATION_RANGE",
+    "ABOVE_SIMULATION_RANGE",
+    "SIMULATION_UNAVAILABLE"
+  ],
+  "displayPrecisionCm": 0.1,
+  "endpointAliases": [],
+  "normalPolicy": "NOT ESTABLISHED",
+  "cleanup": "EXPORT CLEANUP REQUIRED BEFORE PRODUCTION PROMOTION",
+  "license": "TARGET LICENSE SCOPE NOT FULLY VERIFIED",
+  "productionFemaleGLB": false,
+  "productionWaistIntegration": false,
+  "femaleModelComplete": false,
+  "bodyVisualizerComplete": false,
+  "HeightModified": false,
+  "BustModified": false,
+  "MaleModified": false,
+  "ProductionModified": false,
+  "commit": false,
+  "push": false,
+  "deployment": false,
+  "QA": {
+    "status": "PASS",
+    "declarations": [
+      "FEMALE WAIST CALIBRATION CANDIDATE: ACCEPTED FOR FINAL LOCK",
+      "FEMALE WAIST TECHNICAL SUPPORT: ACCEPTED FOR DOWNSTREAM DEVELOPMENT"
+    ],
+    "denseConditioningStates": 20,
+    "denseRelativeSamples": 31,
+    "denseTargets": 620,
+    "heldOutTargets": 250,
+    "heldOutSeed": 20261006,
+    "randomTargets": 500,
+    "randomSeed": 2026100601,
+    "statistics": {
+      "dense": {
+        "count": 620,
+        "max": 9.982981566736271e-06,
+        "P95": 8.065020051617466e-06,
+        "P99": 9.539904571909117e-06,
+        "mean": 2.5313264067387954e-06,
+        "RMS": 3.652075143415617e-06
+      },
+      "heldOut": {
+        "count": 250,
+        "max": 9.936630085860543e-06,
+        "P95": 7.613576332232695e-06,
+        "P99": 9.273558321112319e-06,
+        "mean": 2.5025896746058153e-06,
+        "RMS": 3.5830955037490845e-06
+      },
+      "random": {
+        "count": 500,
+        "max": 9.996223710118102e-06,
+        "P95": 8.168422424148502e-06,
+        "P99": 9.609055702526348e-06,
+        "mean": 2.770692963849797e-06,
+        "RMS": 3.8401018563226686e-06
+      },
+      "edges": {
+        "count": 455,
+        "max": 7.105427357601002e-14,
+        "P95": 4.263256414560601e-14,
+        "P99": 4.263256414560601e-14,
+        "mean": 1.6662617561670922e-14,
+        "RMS": 2.0895697562877673e-14
+      },
+      "knots": {
+        "count": 405,
+        "max": 9.941419691017472e-06,
+        "P95": 8.100125421606207e-06,
+        "P99": 9.095542516206477e-06,
+        "mean": 1.903429712232408e-06,
+        "RMS": 3.2194112315667644e-06
+      }
+    },
+    "supportEdgeCases": 455,
+    "knotCases": 405,
+    "structuralSupportedStates": 75,
+    "newNonFootCrossings": 0,
+    "unresolvedStructuralIssues": 0,
+    "visual": {
+      "status": "PASS",
+      "browserStates": 15,
+      "browserImages": 75,
+      "freshGeometryNormalTransitionStates": 6,
+      "freshGeometryNormalImages": 30,
+      "reviewedContactSheets": [
+        "C:\\Users\\cnhan\\Downloads\\Reload Gym\\Website Reload Gym\\qa\\female-body-model-v1-waist-calibration-candidate-qa\\contact-short.png",
+        "C:\\Users\\cnhan\\Downloads\\Reload Gym\\Website Reload Gym\\qa\\female-body-model-v1-waist-calibration-candidate-qa\\contact-neutral.png",
+        "C:\\Users\\cnhan\\Downloads\\Reload Gym\\Website Reload Gym\\qa\\female-body-model-v1-waist-calibration-candidate-qa\\contact-tall.png",
+        "C:\\Users\\cnhan\\Downloads\\Reload Gym\\Website Reload Gym\\qa\\female-body-model-v1-waist-calibration-candidate-qa\\contact-coupling-short.png",
+        "C:\\Users\\cnhan\\Downloads\\Reload Gym\\Website Reload Gym\\qa\\female-body-model-v1-waist-calibration-candidate-qa\\contact-coupling-neutral-tall.png"
+      ],
+      "review": "Short/neutral/tall lower/neutral/upper Waist and six full locked Bust conditioning transitions reviewed in front, 3/4, side, rear and focused flank. No new MODERATE/MAJOR waist issue, abdominal collapse, sharp fold, back dent or pelvis/hip discontinuity. Existing upstream peripheral observations retained; neither geometry nor normal policy corrected.",
+      "finiteFocusedReview": true,
+      "normalPolicy": "NOT ESTABLISHED"
+    },
+    "threeRevision": "180",
+    "GPUStates": 75,
+    "GPUBackend": "Actual Three.js WebGL morph shader with RGBA32F readback under Edge headless SwiftShader; no hardware-GPU claim",
+    "maximumGPUPositionErrorMm": 0,
+    "maximumGPUOracleRulerDifferenceCm": 5.684341886080802e-14,
+    "pythonJavaScriptCases": 2230,
+    "maximumInfluenceDifference": 0,
+    "maximumMeasurementDifferenceCm": 0,
+    "maximumSupportDifferenceCm": 0,
+    "invalidSUPPORTEDCount": 0,
+    "identityMutationsPython": 26,
+    "identityMutationsJavaScript": 26,
+    "candidateUnmodified": true,
+    "protectedFilesUnchanged": 29222,
+    "lastSuccessfullyAcceptedPhase": "E",
+    "nextPhase": "F"
+  },
+  "phaseAcceptanceChain": [
+    {
+      "path": "C:\\Users\\cnhan\\Downloads\\Reload Gym\\Website Reload Gym\\qa\\female-body-model-v1-waist-strategy-feasibility\\phase-a-acceptance.json",
+      "sha256": "3312DA666F261B1F5607FA792594CE96CD26AFA400D79382AADE8D3AFCDC7740",
+      "bytes": 1420
+    },
+    {
+      "path": "C:\\Users\\cnhan\\Downloads\\Reload Gym\\Website Reload Gym\\qa\\female-body-model-v1-waist-control-prototype\\phase-b-acceptance.json",
+      "sha256": "9DDC6D752DFC6F8011F3E5C37457123E604C4E03BB78A756386584DA6018B82B",
+      "bytes": 2895
+    },
+    {
+      "path": "C:\\Users\\cnhan\\Downloads\\Reload Gym\\Website Reload Gym\\qa\\female-body-model-v1-waist-control-candidate-qa\\phase-c-acceptance.json",
+      "sha256": "25560F2B3C619CCE4E533F5C80319FBD4E7B2EEB6E31C644BB6995DF9E08AE0A",
+      "bytes": 660
+    },
+    {
+      "path": "C:\\Users\\cnhan\\Downloads\\Reload Gym\\Website Reload Gym\\qa\\female-body-model-v1-waist-calibration-support-definition\\phase-d-acceptance.json",
+      "sha256": "90BA0D0BFBFBD174A08B553D68E6290300310F6868B81556D4036DCC8C5A397A",
+      "bytes": 1019
+    },
+    {
+      "path": "C:\\Users\\cnhan\\Downloads\\Reload Gym\\Website Reload Gym\\qa\\female-body-model-v1-waist-calibration-candidate-qa\\phase-e-acceptance.json",
+      "sha256": "70D5DBAFABD08BE326DA25564F5E54D5B7CBD8C82385C9891F2FA147D4F67872",
+      "bytes": 3804
+    }
+  ],
+  "knownLimitationsFile": "known-limitations.md",
+  "changeControlFile": "change-control.md",
+  "nextPackage": "FEMALE BODY MODEL V1 \u2014 HIPS FAST DEVELOPMENT PACKAGE",
+  "nextPackageStarted": false,
+  "pass": true,
+  "result": "FEMALE BODY MODEL V1 WAIST FAST DEVELOPMENT PACKAGE PASS \u2014 WAIST FINAL ACCEPTED & LOCKED FOR DOWNSTREAM DEVELOPMENT",
+  "finalProtection": {
+    "path": "C:\\Users\\cnhan\\Downloads\\Reload Gym\\Website Reload Gym\\qa\\female-body-model-v1-waist-strategy-feasibility\\protection-result-after-phase-f.json",
+    "sha256": "D7DADA35879ED73A66C43A78A4E67DD1A705379B8B024531E26735B87BDF5CCA",
+    "bytes": 392
+  }
+}

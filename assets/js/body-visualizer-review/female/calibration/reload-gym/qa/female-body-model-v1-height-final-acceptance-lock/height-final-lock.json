@@ -1,0 +1,1547 @@
+{
+  "schemaVersion": 1,
+  "lockId": "reload-body-female-v1-height-final-lock-v1-20261004",
+  "lockDate": "2026-10-04",
+  "lockTimezone": "Asia/Saigon",
+  "modelId": "reload-body-female-v1",
+  "heightVersion": "female-height-v1",
+  "scope": "FORMAL ACCEPTANCE / LOCK DOCUMENTATION ONLY",
+  "enforcement": "Formal immutable dependency contract; no file permission, authoring, geometry, calibration or runtime mutation.",
+  "pass": true,
+  "result": "FEMALE BODY MODEL V1 HEIGHT FINAL ACCEPTANCE & LOCK PASS — HEIGHT FINAL ACCEPTED & LOCKED FOR DOWNSTREAM DEVELOPMENT",
+  "lockedStatuses": {
+    "femaleHeight": "FINAL ACCEPTED & LOCKED FOR DOWNSTREAM DEVELOPMENT",
+    "femaleHeightTechnicalSupport": "LOCKED FOR DOWNSTREAM DEVELOPMENT",
+    "femaleHeightProductBand": "UNAPPROVED",
+    "productionFemaleHeightIntegration": "NOT STARTED"
+  },
+  "artifactIdentities": [
+    {
+      "role": "Frozen source",
+      "path": "C:/Users/cnhan/Downloads/Reload Gym/Website Reload Gym/female-v1-base-prototype/source/reload-body-female-v1-base-v1.blend",
+      "sha256": "0D13F394E9597305253FB0589D098670BF74AC8923335A689890BBBD3663F889",
+      "expectedSHA256": "0D13F394E9597305253FB0589D098670BF74AC8923335A689890BBBD3663F889",
+      "match": true,
+      "lockedStatus": "LOCKED FEMALE V1 NEUTRAL AUTHORING BASE",
+      "productionArtifact": false
+    },
+    {
+      "role": "Working source",
+      "path": "C:/Users/cnhan/Downloads/Reload Gym/Website Reload Gym/female-v1-height-prototype/source/reload-body-female-v1-height-prototype-v1.blend",
+      "sha256": "3D7B521ED06C24430A938FE2585DCD1115E2FFE91C63B26612CF9C7B1AA87B5D",
+      "expectedSHA256": "3D7B521ED06C24430A938FE2585DCD1115E2FFE91C63B26612CF9C7B1AA87B5D",
+      "match": true,
+      "lockedStatus": "LOCKED FEMALE V1 HEIGHT AUTHORING SOURCE",
+      "productionArtifact": false
+    },
+    {
+      "role": "Candidate GLB",
+      "path": "C:/Users/cnhan/Downloads/Reload Gym/Website Reload Gym/female-v1-height-prototype/candidate/female-height-prototype-v1.glb",
+      "sha256": "0D0D2AC2E83A2D41C72AD3A25A33A7EF18D994F26005D55105C119CF1E611D88",
+      "expectedSHA256": "0D0D2AC2E83A2D41C72AD3A25A33A7EF18D994F26005D55105C119CF1E611D88",
+      "match": true,
+      "lockedStatus": "LOCKED R&D HEIGHT CANDIDATE GEOMETRY",
+      "productionArtifact": false
+    },
+    {
+      "role": "Calibration profile",
+      "path": "C:/Users/cnhan/Downloads/Reload Gym/Website Reload Gym/female-v1-height-calibration/profiles/female-height-calibration-candidate-v1.json",
+      "sha256": "25F7BB801AD8AF3D1D26F8B75793772FC0AF5271A4B47FA0E1794341515DBC6A",
+      "expectedSHA256": "25F7BB801AD8AF3D1D26F8B75793772FC0AF5271A4B47FA0E1794341515DBC6A",
+      "match": true,
+      "lockedStatus": "LOCKED FEMALE V1 HEIGHT CALIBRATION PROFILE FOR DOWNSTREAM DEVELOPMENT",
+      "productionArtifact": false
+    },
+    {
+      "role": "JavaScript evaluator",
+      "path": "C:/Users/cnhan/Downloads/Reload Gym/Website Reload Gym/female-v1-height-calibration/profiles/female-height-calibration-candidate-v1.mjs",
+      "sha256": "77BC8FD91F2D6FC368713A173FF086E7D0D3C210D1F4D01BBCB5684CF2C0164D",
+      "expectedSHA256": "77BC8FD91F2D6FC368713A173FF086E7D0D3C210D1F4D01BBCB5684CF2C0164D",
+      "match": true,
+      "lockedStatus": "LOCKED FEMALE V1 HEIGHT R&D EVALUATOR",
+      "productionArtifact": false
+    },
+    {
+      "role": "Python evaluator",
+      "path": "C:/Users/cnhan/Downloads/Reload Gym/Website Reload Gym/female-v1-height-calibration/profiles/female-height-calibration-candidate-v1.py",
+      "sha256": "1852313DD92888526F2DB795325FF5131765CE408C27CDCD1344A4E00F39F366",
+      "expectedSHA256": "1852313DD92888526F2DB795325FF5131765CE408C27CDCD1344A4E00F39F366",
+      "match": true,
+      "lockedStatus": "LOCKED FEMALE V1 HEIGHT R&D REFERENCE EVALUATOR",
+      "productionArtifact": false
+    }
+  ],
+  "auxiliaryArtifactIdentities": [
+    {
+      "path": "C:/Users/cnhan/Downloads/Reload Gym/Website Reload Gym/female-v1-height-prototype/profiles/sole-profile.json",
+      "sha256": "D683F0D310D5A17EC0472C542A9C8BCA7C22A859BA5CCE63F7D802CC79B0A20D"
+    },
+    {
+      "path": "C:/Users/cnhan/Downloads/Reload Gym/Website Reload Gym/reload-gym/qa/female-body-model-v1-base-model-setup/approved-neutral-brief.json",
+      "sha256": "D47375F1B811865129F6D824E01FF165F0A3E1A22E572AFBA1908C08015F58DA"
+    }
+  ],
+  "heightMorphNamesOrder": [
+    "RND_female_height_min_native_v1",
+    "RND_female_height_max_native_v1"
+  ],
+  "morphVectorIdentities": [
+    {
+      "name": "RND_female_height_min_native_v1",
+      "order": 0,
+      "vector": "D_min",
+      "relativeKey": "Basis",
+      "float32VectorSHA256": "4471DD11CB436095051E4B3CD36391779C65A009BE1026937809B88B721BCAAB"
+    },
+    {
+      "name": "RND_female_height_max_native_v1",
+      "order": 1,
+      "vector": "D_max",
+      "relativeKey": "Basis",
+      "float32VectorSHA256": "01B68602562DAFAFA0B95041C6F69FDBA75B69DF6A5C7975625D8A36B7F59EA1"
+    }
+  ],
+  "basisFloat32SHA256": "B66D73C4473F56E5910BC34FF9D52DCD8A84ABC466F7545EC4DA2F319CC54631",
+  "topologyContract": {
+    "mesh": 1,
+    "primitive": 1,
+    "vertices": 13380,
+    "indices": 80268,
+    "triangles": 26756,
+    "heightMorphTargets": 2,
+    "defaults": [
+      0,
+      0
+    ],
+    "topologySHA256": "54A319EF2E15230133732428B43A96C20AB27A4B5C2B67EF79C90D0D3BCA7CD1",
+    "topologyHashEncoding": "Ordered candidate triangle indices as contiguous little-endian uint32.",
+    "vertexIdentity": "Exact candidate vertex order and accepted native-to-export mapping, fixed by candidate bytes and source fidelity evidence.",
+    "glbSHA256": "0D0D2AC2E83A2D41C72AD3A25A33A7EF18D994F26005D55105C119CF1E611D88"
+  },
+  "architecture": {
+    "locked": "TWO NATIVE FEMALE HEIGHT VECTORS + CONTINUOUS STRATEGY B CALIBRATION + SEPARATE SOLE PLACEMENT",
+    "profileIdentity": "TWO_NATIVE_FEMALE_HEIGHT_VECTORS + PROFILE_EVALUATED_COEFFICIENTS + SEPARATE_SOLE_PLACEMENT",
+    "equation": "G = Basis + minInfluence * D_min + maxInfluence * D_max",
+    "nativeSourceProfileDistinct": true,
+    "nativeSourceBehaviors": [
+      "plateau",
+      "rounding",
+      "contributor cutoff jumps"
+    ],
+    "strategyB": {
+      "strategy": "B",
+      "properties": [
+        "continuous",
+        "monotonic",
+        "invertible",
+        "neutral-faithful",
+        "native-endpoint-faithful"
+      ],
+      "representation": "Piecewise affine inverse of two neutral-to-evidenced-endpoint coefficient rays; all crown/sole active-vertex switches retained",
+      "analyticKnots": [
+        {
+          "heightCm": 123.38632345199585,
+          "t": 1,
+          "minInfluence": 0.9703959971666336,
+          "maxInfluence": -0.07144491374492645,
+          "rawSoleZ": 0.00012148269394316423,
+          "branch": "short"
+        },
+        {
+          "heightCm": 164.14775848388672,
+          "t": 0,
+          "minInfluence": 0,
+          "maxInfluence": 0,
+          "rawSoleZ": 2.6338966563344002e-8,
+          "branch": "tall"
+        },
+        {
+          "heightCm": 168.92250828373193,
+          "t": 0.07357626193463898,
+          "minInfluence": 0,
+          "maxInfluence": 0.06614146038026303,
+          "rawSoleZ": -0.00011241414517058044,
+          "branch": "tall"
+        },
+        {
+          "heightCm": 214.63786311428717,
+          "t": 0.7774392783667824,
+          "minInfluence": 0,
+          "maxInfluence": 0.6988798815824092,
+          "rawSoleZ": -0.0015677123989073628,
+          "branch": "tall"
+        },
+        {
+          "heightCm": 229.0990114212036,
+          "t": 1,
+          "minInfluence": 0,
+          "maxInfluence": 0.8989510834217072,
+          "rawSoleZ": -0.0020878975251056517,
+          "branch": "tall"
+        }
+      ],
+      "noSilentReversionToNativeSourceH": true
+    }
+  },
+  "neutral": {
+    "heightCm": 164.14775848388672,
+    "minInfluence": 0,
+    "maxInfluence": 0,
+    "solePlacement": 0,
+    "geometry": "exact Basis"
+  },
+  "technicalSupport": {
+    "classification": "FEMALE V1 HEIGHT TECHNICAL GEOMETRY SUPPORT",
+    "status": "LOCKED FOR DOWNSTREAM DEVELOPMENT",
+    "lowerCm": 123.38632345199585,
+    "upperCm": 229.0990114212036,
+    "inclusiveDomainCm": [
+      123.38632345199585,
+      229.0990114212036
+    ],
+    "units": "cm",
+    "meaning": "Geometry-calibrated Height technical support for downstream Female V1 model development.",
+    "productBand": "UNAPPROVED",
+    "numericProductValidationBounds": null,
+    "automaticWebsiteExposurePermitted": false
+  },
+  "identityContract": {
+    "sha256": "243BB8AF634064F30B22D42D478F4B2CAD111C48BA0DC817CDEA8CAB941F5EDD",
+    "encoding": "Exact compact UTF-8 JSON strings embedded in both evaluators; hash is not the containing file hash",
+    "javascriptPath": "C:/Users/cnhan/Downloads/Reload Gym/Website Reload Gym/female-v1-height-calibration/profiles/female-height-calibration-candidate-v1.mjs",
+    "pythonPath": "C:/Users/cnhan/Downloads/Reload Gym/Website Reload Gym/female-v1-height-calibration/profiles/female-height-calibration-candidate-v1.py",
+    "exactEmbeddedStringParity": true,
+    "contractEvidence": {
+      "path": "C:/Users/cnhan/Downloads/Reload Gym/Website Reload Gym/reload-gym/qa/female-body-model-v1-height-calibration-identity-guard-repair/identity-contract.json",
+      "sha256": "A304AD1D7A3ABF8461D1EE7F5AC0B2C87BF978FF417A18E0A680F8CF29AF6E00"
+    },
+    "requiredFields": [
+      "schemaVersion",
+      "modelId",
+      "calibrationVersion",
+      "status",
+      "strategy",
+      "frozenBaseSHA256",
+      "workingSourceSHA256",
+      "candidateGLBSHA256",
+      "heightArchitecture",
+      "neutralHeightCm",
+      "support",
+      "productBand",
+      "representation",
+      "knots",
+      "sole",
+      "measurementMethodVersion",
+      "measurementMethod",
+      "numericalAccuracyBudgetCm",
+      "endpointAliases",
+      "approvedBriefSHA256"
+    ],
+    "failClosed": true,
+    "bypassPermitted": false,
+    "invalidIdentityResult": {
+      "actual": "retained without coercion",
+      "simulation": null,
+      "status": "SIMULATION_UNAVAILABLE",
+      "minInfluence": null,
+      "maxInfluence": null,
+      "solePlacement": null
+    },
+    "semanticAlignmentRequired": true
+  },
+  "actualSimulationStatusContract": {
+    "schemaVersion": 1,
+    "lockId": "reload-body-female-v1-height-final-lock-v1-20261004",
+    "lockDate": "2026-10-04",
+    "lockTimezone": "Asia/Saigon",
+    "modelId": "reload-body-female-v1",
+    "heightVersion": "female-height-v1",
+    "scope": "FORMAL ACCEPTANCE / LOCK DOCUMENTATION ONLY",
+    "enforcement": "Formal immutable dependency contract; no file permission, authoring, geometry, calibration or runtime mutation.",
+    "units": "cm",
+    "precedence": [
+      "Validate calibration identity and geometry usability; reject invalid Actual without coercion.",
+      "Apply the one exact upper display alias only to a valid usable profile.",
+      "Classify full-precision Actual and choose full-precision Simulation.",
+      "Compute independent coefficients and sole placement from the protected calibration."
+    ],
+    "actualRetention": "Retain caller Actual; no replacement, coercion, clipping or display-rounding mutation.",
+    "cases": [
+      {
+        "condition": "Finite Actual inside inclusive technical support",
+        "actual": "retained",
+        "simulation": "same requested Height internally",
+        "status": "SUPPORTED"
+      },
+      {
+        "condition": "Finite Actual below technical support",
+        "actual": "retained",
+        "simulation": 123.38632345199585,
+        "status": "BELOW_SIMULATION_RANGE"
+      },
+      {
+        "condition": "Finite Actual above technical support other than exact 229.1 alias",
+        "actual": "retained",
+        "simulation": 229.0990114212036,
+        "status": "ABOVE_SIMULATION_RANGE"
+      },
+      {
+        "condition": "Invalid/stale/missing calibration identity, unusable calibration/geometry or invalid/nonfinite Actual",
+        "actual": "retained",
+        "simulation": null,
+        "minInfluence": null,
+        "maxInfluence": null,
+        "solePlacement": null,
+        "status": "SIMULATION_UNAVAILABLE"
+      }
+    ],
+    "allowedStatuses": [
+      "SUPPORTED",
+      "BELOW_SIMULATION_RANGE",
+      "ABOVE_SIMULATION_RANGE",
+      "SIMULATION_UNAVAILABLE"
+    ],
+    "forbiddenStatus": "NOT_APPLICABLE",
+    "identityContract": {
+      "sha256": "243BB8AF634064F30B22D42D478F4B2CAD111C48BA0DC817CDEA8CAB941F5EDD",
+      "encoding": "Exact compact UTF-8 JSON strings embedded in both evaluators; hash is not the containing file hash",
+      "javascriptPath": "C:/Users/cnhan/Downloads/Reload Gym/Website Reload Gym/female-v1-height-calibration/profiles/female-height-calibration-candidate-v1.mjs",
+      "pythonPath": "C:/Users/cnhan/Downloads/Reload Gym/Website Reload Gym/female-v1-height-calibration/profiles/female-height-calibration-candidate-v1.py",
+      "exactEmbeddedStringParity": true,
+      "contractEvidence": {
+        "path": "C:/Users/cnhan/Downloads/Reload Gym/Website Reload Gym/reload-gym/qa/female-body-model-v1-height-calibration-identity-guard-repair/identity-contract.json",
+        "sha256": "A304AD1D7A3ABF8461D1EE7F5AC0B2C87BF978FF417A18E0A680F8CF29AF6E00"
+      },
+      "requiredFields": [
+        "schemaVersion",
+        "modelId",
+        "calibrationVersion",
+        "status",
+        "strategy",
+        "frozenBaseSHA256",
+        "workingSourceSHA256",
+        "candidateGLBSHA256",
+        "heightArchitecture",
+        "neutralHeightCm",
+        "support",
+        "productBand",
+        "representation",
+        "knots",
+        "sole",
+        "measurementMethodVersion",
+        "measurementMethod",
+        "numericalAccuracyBudgetCm",
+        "endpointAliases",
+        "approvedBriefSHA256"
+      ],
+      "failClosed": true,
+      "bypassPermitted": false,
+      "invalidIdentityResult": {
+        "actual": "retained without coercion",
+        "simulation": null,
+        "status": "SIMULATION_UNAVAILABLE",
+        "minInfluence": null,
+        "maxInfluence": null,
+        "solePlacement": null
+      },
+      "semanticAlignmentRequired": true
+    },
+    "jsPythonSemanticallyAligned": true,
+    "numericalFallbackPermitted": false,
+    "maleFallbackPermitted": false,
+    "cachedFallbackPermitted": false,
+    "evidence": [
+      {
+        "path": "C:/Users/cnhan/Downloads/Reload Gym/Website Reload Gym/reload-gym/qa/female-body-model-v1-height-calibration-candidate-qa-rerun/status-regression.json",
+        "sha256": "EB5B345D1F739A05B97BF9529F9F4A701A6F080AED9C9B83AF35E337CA775D92"
+      },
+      {
+        "path": "C:/Users/cnhan/Downloads/Reload Gym/Website Reload Gym/reload-gym/qa/female-body-model-v1-height-calibration-candidate-qa-rerun/invalid-input-qa.json",
+        "sha256": "3F135C4DD022B6031F7E52B37B2F65F4E8CEB26F47AB5DFB1D534436C44D5E15"
+      },
+      {
+        "path": "C:/Users/cnhan/Downloads/Reload Gym/Website Reload Gym/reload-gym/qa/female-body-model-v1-height-calibration-candidate-qa-rerun/actual-retention-matrix.json",
+        "sha256": "8B4411D828860EE1E90983315BF76111258E0389B62FF2EF7EDA553A84FD9AE8"
+      },
+      {
+        "path": "C:/Users/cnhan/Downloads/Reload Gym/Website Reload Gym/reload-gym/qa/female-body-model-v1-height-calibration-candidate-qa-rerun/repair-regression.json",
+        "sha256": "34296D592384FC91C5D087436D622B86C608540B7C4F7C6A2A732EFD31E4CBF8"
+      }
+    ]
+  },
+  "displayPrecisionCm": 0.1,
+  "aliasPolicy": {
+    "schemaVersion": 1,
+    "lockId": "reload-body-female-v1-height-final-lock-v1-20261004",
+    "lockDate": "2026-10-04",
+    "lockTimezone": "Asia/Saigon",
+    "modelId": "reload-body-female-v1",
+    "heightVersion": "female-height-v1",
+    "scope": "FORMAL ACCEPTANCE / LOCK DOCUMENTATION ONLY",
+    "enforcement": "Formal immutable dependency contract; no file permission, authoring, geometry, calibration or runtime mutation.",
+    "displayPrecisionCm": 0.1,
+    "internalPrecision": "Full binary64 coefficients/state with established float32 geometry arithmetic; display is presentation only.",
+    "displayMustNotAlter": [
+      "Actual",
+      "status classification",
+      "coefficients",
+      "sole placement",
+      "internal Simulation"
+    ],
+    "aliasCount": 1,
+    "endpointAliases": [
+      {
+        "endpoint": "upper",
+        "actualCm": 229.1,
+        "simulationCm": 229.0990114212036,
+        "reason": "Exact displayed endpoint would otherwise classify outside support. Single discrete input only; adjacent binary64 values are not aliased."
+      }
+    ],
+    "actual229Point1Retained": true,
+    "aliasStatus": "SUPPORTED",
+    "comparison": "Exact binary64 equality with 229.1; no epsilon and no generic +/- tolerance.",
+    "invalidIdentityOverridesAlias": true,
+    "noLowerEndpointAlias": true,
+    "neighboringActuals": [
+      {
+        "actualDecimal": "229.09999999999997",
+        "actualCm": 229.09999999999997,
+        "status": "ABOVE_SIMULATION_RANGE",
+        "simulationCm": 229.0990114212036
+      },
+      {
+        "actualDecimal": "229.10000000000002",
+        "actualCm": 229.10000000000002,
+        "status": "ABOVE_SIMULATION_RANGE",
+        "simulationCm": 229.0990114212036
+      }
+    ],
+    "evidence": [
+      {
+        "path": "C:/Users/cnhan/Downloads/Reload Gym/Website Reload Gym/reload-gym/qa/female-body-model-v1-height-calibration-candidate-qa-rerun/alias-regression.json",
+        "sha256": "E5CEBB2177DB3B12EDEA9DB0B14BD35DC4E98DF0D6F22A8C5E224E0DEB487EA8"
+      },
+      {
+        "path": "C:/Users/cnhan/Downloads/Reload Gym/Website Reload Gym/reload-gym/qa/female-body-model-v1-height-calibration-candidate-qa-rerun/display-precision-qa.json",
+        "sha256": "1BBB0E330A5CF24B569DEE47E770EFCEB10317C38931FC472B592835A59D0DF6"
+      }
+    ]
+  },
+  "soleCohortIdentity": {
+    "count": 1854,
+    "cohortSHA256": "F9AF32A270E650FDAAA2FA3852E0BF8603CCA3D4A839AA73241D3D1BD7A1818E",
+    "identityEncoding": "ordered native IDs, little-endian uint32",
+    "exportVertexIdsSHA256": "F9AF32A270E650FDAAA2FA3852E0BF8603CCA3D4A839AA73241D3D1BD7A1818E",
+    "rowsArtifact": {
+      "path": "C:/Users/cnhan/Downloads/Reload Gym/Website Reload Gym/female-v1-height-prototype/profiles/sole-profile.json",
+      "sha256": "D683F0D310D5A17EC0472C542A9C8BCA7C22A859BA5CCE63F7D802CC79B0A20D"
+    },
+    "orderedIdsContract": {
+      "path": "C:/Users/cnhan/Downloads/Reload Gym/Website Reload Gym/reload-gym/qa/female-body-model-v1-height-final-acceptance-lock/sole-placement-lock.json",
+      "sha256": "666C94443BB2EA1123EEDB6C2A1B1F9C51BB83A1F6567791CEE27ACF849205A6"
+    }
+  },
+  "solePlacementContract": {
+    "method": "Recompute minimum across the entire accepted supported sole cohort in current Height geometry, then apply a separate object translation.",
+    "equation": "solePlacement = referenceZ - cohortMinimum(current signed float32 geometry); force exactly 0 at canonical neutral.",
+    "referenceZMetres": 2.6338966563344002e-8,
+    "neutralPlacement": 0,
+    "anatomicalFloorCompensation": false,
+    "translationAltersMathematicalStature": false
+  },
+  "measurementMethod": {
+    "schemaVersion": 1,
+    "lockId": "reload-body-female-v1-height-final-lock-v1-20261004",
+    "lockDate": "2026-10-04",
+    "lockTimezone": "Asia/Saigon",
+    "modelId": "reload-body-female-v1",
+    "heightVersion": "female-height-v1",
+    "scope": "FORMAL ACCEPTANCE / LOCK DOCUMENTATION ONLY",
+    "enforcement": "Formal immutable dependency contract; no file permission, authoring, geometry, calibration or runtime mutation.",
+    "methodVersion": "female-crown-supported-sole-f32-span-cm-v1",
+    "method": "Crown max minus supported-sole min in meters; round span to float32, convert to binary64 and multiply by 100. Neutral exact 164.14775848388672 cm.",
+    "equation": "stature = crown body point - supported sole cohort minimum at known unit scale",
+    "bodyDefinition": "Actual candidate body vertices under the accepted source body mask and native-to-export mapping; helper geometry excluded.",
+    "crown": "Accepted crown max/active body point of the body geometry; analytic active-point changes retained.",
+    "sole": "Minimum over all 1854 accepted supported sole vertices, not one fixed vertex.",
+    "unitScale": "Candidate body coordinates in metres; canonical Blender Z-up adapter [x,-z,y] from GLB Y-up.",
+    "numericalSequence": "Subtract crown and supported sole in metres, round the span to float32, convert to binary64, multiply by 100 for cm.",
+    "canonicalNeutralCm": 164.14775848388672,
+    "numericalAccuracyBudgetCm": 0.00015667371917515993,
+    "forbiddenSubstitutions": [
+      "bounding-box-only Height",
+      "fixed sole vertex",
+      "helper geometry",
+      "Male ruler assumptions"
+    ],
+    "evidence": [
+      {
+        "path": "C:/Users/cnhan/Downloads/Reload Gym/Website Reload Gym/reload-gym/qa/female-body-model-v1-height-calibration-candidate-qa-rerun/profile-contract.json",
+        "sha256": "451E12D171E6A917D024A0AA69FAEE7AB2B6AD0813EDFE920C278A32488575CA"
+      },
+      {
+        "path": "C:/Users/cnhan/Downloads/Reload Gym/Website Reload Gym/reload-gym/qa/female-body-model-v1-height-calibration-candidate-qa-rerun/independent-oracle.json",
+        "sha256": "E2DD8757B7FF9EE780FB00A6CB0F7F52C4273436671E3CB188AB68F207ADEBC5"
+      },
+      {
+        "path": "C:/Users/cnhan/Downloads/Reload Gym/Website Reload Gym/reload-gym/qa/female-body-model-v1-height-calibration-candidate-qa-rerun/analytic-envelope-qa.json",
+        "sha256": "4F4FC121AB1E3FA31D0E0BD8FE63BA155C0A182E2C11DE8F0ABB5D9593C1B719"
+      },
+      {
+        "path": "C:/Users/cnhan/Downloads/Reload Gym/Website Reload Gym/reload-gym/qa/female-body-model-v1-height-calibration-candidate-qa-rerun/sole-cohort-qa.json",
+        "sha256": "5EB6AD7BB3FFC016D37E346958733E8C0DBFB7083FDC055B09B427EEE5E07E4A"
+      }
+    ]
+  },
+  "nineBaselineRows": [
+    {
+      "heightCm": 123.38632345199585,
+      "actual": 123.38632345199585,
+      "simulation": 123.38632345199585,
+      "status": "SUPPORTED",
+      "minInfluence": 0.9703959971666336,
+      "maxInfluence": -0.07144491374492645,
+      "solePlacement": -0.00012145635264459997,
+      "measuredStatureCm": 123.38632345199585,
+      "errorCm": 0,
+      "finite": true,
+      "globalMinimumInSoleCohort": true,
+      "placedSoleErrorMm": 0,
+      "placementStatureDifferenceCm": 0,
+      "coordinateSHA256": "A8FEE147612035AA114D00B4EB74AA5985CAFDB95A96C1EB3114CFB71570D167",
+      "priorCoordinateSHA256": "A8FEE147612035AA114D00B4EB74AA5985CAFDB95A96C1EB3114CFB71570D167",
+      "exactPriorGeometry": true,
+      "rawBounds": {
+        "min": [
+          -0.40151581168174744,
+          -0.226074680685997,
+          0.00012148269161116332
+        ],
+        "max": [
+          0.40151581168174744,
+          0.08010059595108032,
+          1.2339847087860107
+        ]
+      },
+      "placedBounds": {
+        "min": [
+          -0.40151581168174744,
+          -0.226074680685997,
+          2.6338966563344002e-8
+        ],
+        "max": [
+          0.40151581168174744,
+          0.08010059595108032,
+          1.2338632524333661
+        ]
+      },
+      "topologySHA256": "54A319EF2E15230133732428B43A96C20AB27A4B5C2B67EF79C90D0D3BCA7CD1",
+      "vertices": 13380,
+      "triangles": 26756,
+      "rowIndex": 0,
+      "requestedDecimalLexeme": "123.38632345199585",
+      "acceptedGeometryArtifact": {
+        "path": "C:/Users/cnhan/Downloads/Reload Gym/Website Reload Gym/reload-gym/qa/female-body-model-v1-height-calibration-candidate-qa-rerun/baseline-00.npy",
+        "sha256": "A0FFCAE4E424B41D39C8F58A16DD128D253CC005063DA407FA136D73CE2F7A8A"
+      },
+      "geometryHashEncoding": "coordinateSHA256 hashes contiguous row-major little-endian float32 N x 3 in canonical Blender coordinates. NPY file SHA256 includes its header and stored memory order; column-major payload must be reordered byte-for-byte before comparison.",
+      "topology": {
+        "vertices": 13380,
+        "indices": 80268,
+        "triangles": 26756,
+        "sha256": "54A319EF2E15230133732428B43A96C20AB27A4B5C2B67EF79C90D0D3BCA7CD1",
+        "encoding": "Ordered triangle indices as little-endian uint32"
+      },
+      "npyStorageOrder": "Fortran column-major in accepted archive; canonical row-major coordinate digest."
+    },
+    {
+      "heightCm": 143.76704096794128,
+      "actual": 143.76704096794128,
+      "simulation": 143.76704096794128,
+      "status": "SUPPORTED",
+      "minInfluence": 0.4851979985833168,
+      "maxInfluence": -0.035722456872463226,
+      "solePlacement": -0.00006072817632229999,
+      "measuredStatureCm": 143.7670350074768,
+      "errorCm": 0.0000059604644775390625,
+      "finite": true,
+      "globalMinimumInSoleCohort": true,
+      "placedSoleErrorMm": 0,
+      "placementStatureDifferenceCm": 0,
+      "coordinateSHA256": "B1F468BD8AD8E8B48CA0C4D458CA950BC7DFBBE9BAD6A861E701B135DCE5E0E1",
+      "priorCoordinateSHA256": "B1F468BD8AD8E8B48CA0C4D458CA950BC7DFBBE9BAD6A861E701B135DCE5E0E1",
+      "exactPriorGeometry": true,
+      "rawBounds": {
+        "min": [
+          -0.45094814896583557,
+          -0.2647283375263214,
+          0.00006075451528886333
+        ],
+        "max": [
+          0.45094814896583557,
+          0.08665916323661804,
+          1.437731146812439
+        ]
+      },
+      "placedBounds": {
+        "min": [
+          -0.45094814896583557,
+          -0.2647283375263214,
+          2.6338966563344002e-8
+        ],
+        "max": [
+          0.45094814896583557,
+          0.08665916323661804,
+          1.4376704186361167
+        ]
+      },
+      "topologySHA256": "54A319EF2E15230133732428B43A96C20AB27A4B5C2B67EF79C90D0D3BCA7CD1",
+      "vertices": 13380,
+      "triangles": 26756,
+      "rowIndex": 1,
+      "requestedDecimalLexeme": "143.76704096794128",
+      "acceptedGeometryArtifact": {
+        "path": "C:/Users/cnhan/Downloads/Reload Gym/Website Reload Gym/reload-gym/qa/female-body-model-v1-height-calibration-candidate-qa-rerun/baseline-01.npy",
+        "sha256": "B64747202F5BD468E1660B3649F71668A5552CC61D33EA8E41A276AE0E24AF79"
+      },
+      "geometryHashEncoding": "coordinateSHA256 hashes contiguous row-major little-endian float32 N x 3 in canonical Blender coordinates. NPY file SHA256 includes its header and stored memory order; column-major payload must be reordered byte-for-byte before comparison.",
+      "topology": {
+        "vertices": 13380,
+        "indices": 80268,
+        "triangles": 26756,
+        "sha256": "54A319EF2E15230133732428B43A96C20AB27A4B5C2B67EF79C90D0D3BCA7CD1",
+        "encoding": "Ordered triangle indices as little-endian uint32"
+      },
+      "npyStorageOrder": "Fortran column-major in accepted archive; canonical row-major coordinate digest."
+    },
+    {
+      "heightCm": 149.8144954442978,
+      "actual": 149.8144954442978,
+      "simulation": 149.8144954442978,
+      "status": "SUPPORTED",
+      "minInfluence": 0.3412279540470422,
+      "maxInfluence": -0.025122735270374744,
+      "solePlacement": -0.000042708652472356334,
+      "measuredStatureCm": 149.81451034545898,
+      "errorCm": 0.000014901161193847656,
+      "finite": true,
+      "globalMinimumInSoleCohort": true,
+      "placedSoleErrorMm": 0,
+      "placementStatureDifferenceCm": 0,
+      "coordinateSHA256": "0C070FE86F38AA65C52D7FEA2B3C3F7EFFE93326CBB966A915F974F203774434",
+      "priorCoordinateSHA256": "0C070FE86F38AA65C52D7FEA2B3C3F7EFFE93326CBB966A915F974F203774434",
+      "exactPriorGeometry": true,
+      "rawBounds": {
+        "min": [
+          -0.4656159281730652,
+          -0.2761978209018707,
+          0.00004273499143891968
+        ],
+        "max": [
+          0.4656159281730652,
+          0.08860524743795395,
+          1.498187780380249
+        ]
+      },
+      "placedBounds": {
+        "min": [
+          -0.4656159281730652,
+          -0.2761978209018707,
+          2.6338966563344002e-8
+        ],
+        "max": [
+          0.4656159281730652,
+          0.08860524743795395,
+          1.4981450717277767
+        ]
+      },
+      "topologySHA256": "54A319EF2E15230133732428B43A96C20AB27A4B5C2B67EF79C90D0D3BCA7CD1",
+      "vertices": 13380,
+      "triangles": 26756,
+      "rowIndex": 2,
+      "requestedDecimalLexeme": "149.81449544429779",
+      "acceptedGeometryArtifact": {
+        "path": "C:/Users/cnhan/Downloads/Reload Gym/Website Reload Gym/reload-gym/qa/female-body-model-v1-height-calibration-candidate-qa-rerun/baseline-02.npy",
+        "sha256": "D6E9863556A1C1ABA0E7565DB1DF808749AAADB89AACABA477F731C7CF17C48C"
+      },
+      "geometryHashEncoding": "coordinateSHA256 hashes contiguous row-major little-endian float32 N x 3 in canonical Blender coordinates. NPY file SHA256 includes its header and stored memory order; column-major payload must be reordered byte-for-byte before comparison.",
+      "topology": {
+        "vertices": 13380,
+        "indices": 80268,
+        "triangles": 26756,
+        "sha256": "54A319EF2E15230133732428B43A96C20AB27A4B5C2B67EF79C90D0D3BCA7CD1",
+        "encoding": "Ordered triangle indices as little-endian uint32"
+      },
+      "npyStorageOrder": "Fortran column-major in accepted archive; canonical row-major coordinate digest."
+    },
+    {
+      "heightCm": 164.14775848388672,
+      "actual": 164.14775848388672,
+      "simulation": 164.14775848388672,
+      "status": "SUPPORTED",
+      "minInfluence": 0,
+      "maxInfluence": 0,
+      "solePlacement": 0,
+      "measuredStatureCm": 164.14775848388672,
+      "errorCm": 0,
+      "finite": true,
+      "globalMinimumInSoleCohort": true,
+      "placedSoleErrorMm": 0,
+      "placementStatureDifferenceCm": 0,
+      "coordinateSHA256": "B66D73C4473F56E5910BC34FF9D52DCD8A84ABC466F7545EC4DA2F319CC54631",
+      "priorCoordinateSHA256": "B66D73C4473F56E5910BC34FF9D52DCD8A84ABC466F7545EC4DA2F319CC54631",
+      "exactPriorGeometry": true,
+      "rawBounds": {
+        "min": [
+          -0.5003805160522461,
+          -0.303382009267807,
+          2.6338966563344002e-8
+        ],
+        "max": [
+          0.5003805160522461,
+          0.09321773797273636,
+          1.6414775848388672
+        ]
+      },
+      "placedBounds": {
+        "min": [
+          -0.5003805160522461,
+          -0.303382009267807,
+          2.6338966563344002e-8
+        ],
+        "max": [
+          0.5003805160522461,
+          0.09321773797273636,
+          1.6414775848388672
+        ]
+      },
+      "topologySHA256": "54A319EF2E15230133732428B43A96C20AB27A4B5C2B67EF79C90D0D3BCA7CD1",
+      "vertices": 13380,
+      "triangles": 26756,
+      "rowIndex": 3,
+      "requestedDecimalLexeme": "164.14775848388672",
+      "acceptedGeometryArtifact": {
+        "path": "C:/Users/cnhan/Downloads/Reload Gym/Website Reload Gym/reload-gym/qa/female-body-model-v1-height-calibration-candidate-qa-rerun/baseline-03.npy",
+        "sha256": "CB1BCF131071008034F00F03A5AD490E700934993DB2E6EF27D121D5F0902226"
+      },
+      "geometryHashEncoding": "coordinateSHA256 hashes contiguous row-major little-endian float32 N x 3 in canonical Blender coordinates. NPY file SHA256 includes its header and stored memory order; column-major payload must be reordered byte-for-byte before comparison.",
+      "topology": {
+        "vertices": 13380,
+        "indices": 80268,
+        "triangles": 26756,
+        "sha256": "54A319EF2E15230133732428B43A96C20AB27A4B5C2B67EF79C90D0D3BCA7CD1",
+        "encoding": "Ordered triangle indices as little-endian uint32"
+      },
+      "npyStorageOrder": "Fortran column-major in accepted archive; canonical row-major coordinate digest."
+    },
+    {
+      "heightCm": 168.92250828373193,
+      "actual": 168.92250828373193,
+      "simulation": 168.92250828373193,
+      "status": "SUPPORTED",
+      "minInfluence": 0,
+      "maxInfluence": 0.06614146038026303,
+      "solePlacement": 0.00011244049528613687,
+      "measuredStatureCm": 168.92250776290894,
+      "errorCm": 5.208229936215503e-7,
+      "finite": true,
+      "globalMinimumInSoleCohort": true,
+      "placedSoleErrorMm": 0,
+      "placementStatureDifferenceCm": 0,
+      "coordinateSHA256": "6E38739E2915640AE5240BB3E6D0DD4F3CE09D0D683B5FD3CD3E985FA4A614E3",
+      "priorCoordinateSHA256": "6E38739E2915640AE5240BB3E6D0DD4F3CE09D0D683B5FD3CD3E985FA4A614E3",
+      "exactPriorGeometry": true,
+      "rawBounds": {
+        "min": [
+          -0.5146472454071045,
+          -0.31332308053970337,
+          -0.00011241415631957352
+        ],
+        "max": [
+          0.5146472454071045,
+          0.09503001719713211,
+          1.689112663269043
+        ]
+      },
+      "placedBounds": {
+        "min": [
+          -0.5146472454071045,
+          -0.31332308053970337,
+          2.6338966563344002e-8
+        ],
+        "max": [
+          0.5146472454071045,
+          0.09503001719713211,
+          1.689225103764329
+        ]
+      },
+      "topologySHA256": "54A319EF2E15230133732428B43A96C20AB27A4B5C2B67EF79C90D0D3BCA7CD1",
+      "vertices": 13380,
+      "triangles": 26756,
+      "rowIndex": 4,
+      "requestedDecimalLexeme": "168.92250828373193",
+      "acceptedGeometryArtifact": {
+        "path": "C:/Users/cnhan/Downloads/Reload Gym/Website Reload Gym/reload-gym/qa/female-body-model-v1-height-calibration-candidate-qa-rerun/baseline-04.npy",
+        "sha256": "0D25DD0DB4A20364EAF2DF109766284537A1C7D4833BB7D0455719C406B7A23B"
+      },
+      "geometryHashEncoding": "coordinateSHA256 hashes contiguous row-major little-endian float32 N x 3 in canonical Blender coordinates. NPY file SHA256 includes its header and stored memory order; column-major payload must be reordered byte-for-byte before comparison.",
+      "topology": {
+        "vertices": 13380,
+        "indices": 80268,
+        "triangles": 26756,
+        "sha256": "54A319EF2E15230133732428B43A96C20AB27A4B5C2B67EF79C90D0D3BCA7CD1",
+        "encoding": "Ordered triangle indices as little-endian uint32"
+      },
+      "npyStorageOrder": "Fortran column-major in accepted archive; canonical row-major coordinate digest."
+    },
+    {
+      "heightCm": 196.62338495254517,
+      "actual": 196.62338495254517,
+      "simulation": 196.62338495254517,
+      "status": "SUPPORTED",
+      "minInfluence": 0,
+      "maxInfluence": 0.44954456496746137,
+      "solePlacement": 0.0009942675533238798,
+      "measuredStatureCm": 196.62338495254517,
+      "errorCm": 0,
+      "finite": true,
+      "globalMinimumInSoleCohort": true,
+      "placedSoleErrorMm": 0,
+      "placementStatureDifferenceCm": 0,
+      "coordinateSHA256": "5C05B685242AE519883DBDE3C83591D3B967A0B07B7B8C59FAEB55F82E27FF44",
+      "priorCoordinateSHA256": "5C05B685242AE519883DBDE3C83591D3B967A0B07B7B8C59FAEB55F82E27FF44",
+      "exactPriorGeometry": true,
+      "rawBounds": {
+        "min": [
+          -0.5973472595214844,
+          -0.37094855308532715,
+          -0.0009942412143573165
+        ],
+        "max": [
+          0.5973472595214844,
+          0.10556679964065552,
+          1.9652396440505981
+        ]
+      },
+      "placedBounds": {
+        "min": [
+          -0.5973472595214844,
+          -0.37094855308532715,
+          2.6338966563344002e-8
+        ],
+        "max": [
+          0.5973472595214844,
+          0.10556679964065552,
+          1.966233911603922
+        ]
+      },
+      "topologySHA256": "54A319EF2E15230133732428B43A96C20AB27A4B5C2B67EF79C90D0D3BCA7CD1",
+      "vertices": 13380,
+      "triangles": 26756,
+      "rowIndex": 5,
+      "requestedDecimalLexeme": "196.62338495254517",
+      "acceptedGeometryArtifact": {
+        "path": "C:/Users/cnhan/Downloads/Reload Gym/Website Reload Gym/reload-gym/qa/female-body-model-v1-height-calibration-candidate-qa-rerun/baseline-05.npy",
+        "sha256": "E7F76D03CE9F318B2BFEA840211F8E8D67E743303B7A1F2C13800C3E9145C4B1"
+      },
+      "geometryHashEncoding": "coordinateSHA256 hashes contiguous row-major little-endian float32 N x 3 in canonical Blender coordinates. NPY file SHA256 includes its header and stored memory order; column-major payload must be reordered byte-for-byte before comparison.",
+      "topology": {
+        "vertices": 13380,
+        "indices": 80268,
+        "triangles": 26756,
+        "sha256": "54A319EF2E15230133732428B43A96C20AB27A4B5C2B67EF79C90D0D3BCA7CD1",
+        "encoding": "Ordered triangle indices as little-endian uint32"
+      },
+      "npyStorageOrder": "Fortran column-major in accepted archive; canonical row-major coordinate digest."
+    },
+    {
+      "heightCm": 202.67083942890167,
+      "actual": 202.67083942890167,
+      "simulation": 202.67083942890167,
+      "status": "SUPPORTED",
+      "minInfluence": 0,
+      "maxInfluence": 0.5332463498894968,
+      "solePlacement": 0.0011867815919686109,
+      "measuredStatureCm": 202.67086029052734,
+      "errorCm": 0.00002086162567138672,
+      "finite": true,
+      "globalMinimumInSoleCohort": true,
+      "placedSoleErrorMm": 0,
+      "placementStatureDifferenceCm": 0,
+      "coordinateSHA256": "2ABEA392BE70B431BD5CDDBFE29AEE1500A454295409F026F6D38334FB288857",
+      "priorCoordinateSHA256": "2ABEA392BE70B431BD5CDDBFE29AEE1500A454295409F026F6D38334FB288857",
+      "exactPriorGeometry": true,
+      "rawBounds": {
+        "min": [
+          -0.6154017448425293,
+          -0.3835289478302002,
+          -0.0011867552530020475
+        ],
+        "max": [
+          0.6154017448425293,
+          0.10792718827724457,
+          2.025521755218506
+        ]
+      },
+      "placedBounds": {
+        "min": [
+          -0.6154017448425293,
+          -0.3835289478302002,
+          2.6338966563344002e-8
+        ],
+        "max": [
+          0.6154017448425293,
+          0.10792718827724457,
+          2.0267085368104745
+        ]
+      },
+      "topologySHA256": "54A319EF2E15230133732428B43A96C20AB27A4B5C2B67EF79C90D0D3BCA7CD1",
+      "vertices": 13380,
+      "triangles": 26756,
+      "rowIndex": 6,
+      "requestedDecimalLexeme": "202.67083942890167",
+      "acceptedGeometryArtifact": {
+        "path": "C:/Users/cnhan/Downloads/Reload Gym/Website Reload Gym/reload-gym/qa/female-body-model-v1-height-calibration-candidate-qa-rerun/baseline-06.npy",
+        "sha256": "D0022EFBA6A166EED0361CB19C5BAE665C3132CEC4BC2D0715C7B8FCA0D68FFA"
+      },
+      "geometryHashEncoding": "coordinateSHA256 hashes contiguous row-major little-endian float32 N x 3 in canonical Blender coordinates. NPY file SHA256 includes its header and stored memory order; column-major payload must be reordered byte-for-byte before comparison.",
+      "topology": {
+        "vertices": 13380,
+        "indices": 80268,
+        "triangles": 26756,
+        "sha256": "54A319EF2E15230133732428B43A96C20AB27A4B5C2B67EF79C90D0D3BCA7CD1",
+        "encoding": "Ordered triangle indices as little-endian uint32"
+      },
+      "npyStorageOrder": "Fortran column-major in accepted archive; canonical row-major coordinate digest."
+    },
+    {
+      "heightCm": 214.63786311428717,
+      "actual": 214.63786311428717,
+      "simulation": 214.63786311428717,
+      "status": "SUPPORTED",
+      "minInfluence": 0,
+      "maxInfluence": 0.6988798815824092,
+      "solePlacement": 0.0015677388582844287,
+      "measuredStatureCm": 214.6378517150879,
+      "errorCm": 0.000011399199280504035,
+      "finite": true,
+      "globalMinimumInSoleCohort": true,
+      "placedSoleErrorMm": 0,
+      "placementStatureDifferenceCm": 0,
+      "coordinateSHA256": "4FEAB9B38CDF5A30841541C8497AB415A03B3FBE07360E96DEEFE01802480C8E",
+      "priorCoordinateSHA256": "4FEAB9B38CDF5A30841541C8497AB415A03B3FBE07360E96DEEFE01802480C8E",
+      "exactPriorGeometry": true,
+      "rawBounds": {
+        "min": [
+          -0.651128888130188,
+          -0.40842366218566895,
+          -0.0015677125193178654
+        ],
+        "max": [
+          0.651128888130188,
+          0.11259806156158447,
+          2.144810914993286
+        ]
+      },
+      "placedBounds": {
+        "min": [
+          -0.651128888130188,
+          -0.40842366218566895,
+          2.6338966563344002e-8
+        ],
+        "max": [
+          0.651128888130188,
+          0.11259806156158447,
+          2.1463786538515706
+        ]
+      },
+      "topologySHA256": "54A319EF2E15230133732428B43A96C20AB27A4B5C2B67EF79C90D0D3BCA7CD1",
+      "vertices": 13380,
+      "triangles": 26756,
+      "rowIndex": 7,
+      "requestedDecimalLexeme": "214.63786311428717",
+      "acceptedGeometryArtifact": {
+        "path": "C:/Users/cnhan/Downloads/Reload Gym/Website Reload Gym/reload-gym/qa/female-body-model-v1-height-calibration-candidate-qa-rerun/baseline-07.npy",
+        "sha256": "09B70AA97ED85C3D0242A3055E0B4463D342DCDED9FF7F24208C1F01119836E7"
+      },
+      "geometryHashEncoding": "coordinateSHA256 hashes contiguous row-major little-endian float32 N x 3 in canonical Blender coordinates. NPY file SHA256 includes its header and stored memory order; column-major payload must be reordered byte-for-byte before comparison.",
+      "topology": {
+        "vertices": 13380,
+        "indices": 80268,
+        "triangles": 26756,
+        "sha256": "54A319EF2E15230133732428B43A96C20AB27A4B5C2B67EF79C90D0D3BCA7CD1",
+        "encoding": "Ordered triangle indices as little-endian uint32"
+      },
+      "npyStorageOrder": "Fortran column-major in accepted archive; canonical row-major coordinate digest."
+    },
+    {
+      "heightCm": 229.0990114212036,
+      "actual": 229.0990114212036,
+      "simulation": 229.0990114212036,
+      "status": "SUPPORTED",
+      "minInfluence": 0,
+      "maxInfluence": 0.8989510834217072,
+      "solePlacement": 0.0020879237272311,
+      "measuredStatureCm": 229.0990114212036,
+      "errorCm": 0,
+      "finite": true,
+      "globalMinimumInSoleCohort": true,
+      "placedSoleErrorMm": 0,
+      "placementStatureDifferenceCm": 0,
+      "coordinateSHA256": "144D3A1D93C7EF655C451B3F3F86CE93F7A02C3C861BF59560DAF2CF3DB8D3D6",
+      "priorCoordinateSHA256": "144D3A1D93C7EF655C451B3F3F86CE93F7A02C3C861BF59560DAF2CF3DB8D3D6",
+      "exactPriorGeometry": true,
+      "rawBounds": {
+        "min": [
+          -0.694284200668335,
+          -0.43849435448646545,
+          -0.002087897388264537
+        ],
+        "max": [
+          0.694284200668335,
+          0.11824006587266922,
+          2.2889022827148438
+        ]
+      },
+      "placedBounds": {
+        "min": [
+          -0.694284200668335,
+          -0.43849435448646545,
+          2.6338966563344002e-8
+        ],
+        "max": [
+          0.694284200668335,
+          0.11824006587266922,
+          2.290990206442075
+        ]
+      },
+      "topologySHA256": "54A319EF2E15230133732428B43A96C20AB27A4B5C2B67EF79C90D0D3BCA7CD1",
+      "vertices": 13380,
+      "triangles": 26756,
+      "rowIndex": 8,
+      "requestedDecimalLexeme": "229.09901142120361",
+      "acceptedGeometryArtifact": {
+        "path": "C:/Users/cnhan/Downloads/Reload Gym/Website Reload Gym/reload-gym/qa/female-body-model-v1-height-calibration-candidate-qa-rerun/baseline-08.npy",
+        "sha256": "63EC6C1FB6AEAB8C589761F41B8909CAEB7B3E65323D9012EC33E371A5F064F0"
+      },
+      "geometryHashEncoding": "coordinateSHA256 hashes contiguous row-major little-endian float32 N x 3 in canonical Blender coordinates. NPY file SHA256 includes its header and stored memory order; column-major payload must be reordered byte-for-byte before comparison.",
+      "topology": {
+        "vertices": 13380,
+        "indices": 80268,
+        "triangles": 26756,
+        "sha256": "54A319EF2E15230133732428B43A96C20AB27A4B5C2B67EF79C90D0D3BCA7CD1",
+        "encoding": "Ordered triangle indices as little-endian uint32"
+      },
+      "npyStorageOrder": "Fortran column-major in accepted archive; canonical row-major coordinate digest."
+    }
+  ],
+  "baselineDecimalLexemes": [
+    "123.38632345199585",
+    "143.76704096794128",
+    "149.81449544429779",
+    "164.14775848388672",
+    "168.92250828373193",
+    "196.62338495254517",
+    "202.67083942890167",
+    "214.63786311428717",
+    "229.09901142120361"
+  ],
+  "currentGoalContract": {
+    "schemaVersion": 1,
+    "lockId": "reload-body-female-v1-height-final-lock-v1-20261004",
+    "lockDate": "2026-10-04",
+    "lockTimezone": "Asia/Saigon",
+    "modelId": "reload-body-female-v1",
+    "heightVersion": "female-height-v1",
+    "scope": "FORMAL ACCEPTANCE / LOCK DOCUMENTATION ONLY",
+    "enforcement": "Formal immutable dependency contract; no file permission, authoring, geometry, calibration or runtime mutation.",
+    "behavior": "Height remains a copied / non-separate Goal reference.",
+    "currentChangesAfterCopyOverwriteSavedGoalHeight": false,
+    "independentPerModel": [
+      "coefficients",
+      "sole placement",
+      "state"
+    ],
+    "sharedImmutableGeometryAllowed": true,
+    "copyOnceStatement": "if(step>0&&!state.goalBody)state.goalBody={...state.currentBody};",
+    "productionBehaviorChanged": false,
+    "evidenceScope": "Production copy-once statement executed in isolated states; saved Current/Goal evaluated independently with Female candidate Mesh clones. No Female production integration or full production UI mutation.",
+    "acceptedCycles": 160,
+    "evidence": {
+      "path": "C:/Users/cnhan/Downloads/Reload Gym/Website Reload Gym/reload-gym/qa/female-body-model-v1-height-calibration-candidate-qa-rerun/current-goal-height-qa.json",
+      "sha256": "2E1A8937E716686181F96AF86C4763F7215B5AB9411A4E090524A977C7EA3782"
+    }
+  },
+  "qaAcceptance": {
+    "history": [
+      {
+        "sequence": 1,
+        "stage": "HEIGHT STRATEGY FEASIBILITY",
+        "result": "PASS",
+        "summary": {
+          "path": "C:/Users/cnhan/Downloads/Reload Gym/Website Reload Gym/reload-gym/qa/female-body-model-v1-height-strategy-feasibility/study-acceptance.json",
+          "sha256": "774CE3BF329D9BDDCC56147B469FF2EC54792CCAE424F296500C4F836E71B6A6"
+        },
+        "report": {
+          "path": "C:/Users/cnhan/Downloads/Reload Gym/Website Reload Gym/reload-gym/qa/female-body-model-v1-height-strategy-feasibility/FEMALE-BODY-MODEL-V1-HEIGHT-STRATEGY-FEASIBILITY.md",
+          "sha256": "9B0C419DF6FBFA1C9B986C8201C2DEE36B1D42FC5AA8C30B82A04533F0FBBCF8"
+        }
+      },
+      {
+        "sequence": 2,
+        "stage": "HEIGHT CONTROL PROTOTYPE",
+        "result": "PASS",
+        "summary": {
+          "path": "C:/Users/cnhan/Downloads/Reload Gym/Website Reload Gym/reload-gym/qa/female-body-model-v1-height-control-prototype/prototype-acceptance.json",
+          "sha256": "37E4814E388B019024C2B01FCC50DE36AD67C390A5C037DD8D6164DB67687B26"
+        },
+        "report": {
+          "path": "C:/Users/cnhan/Downloads/Reload Gym/Website Reload Gym/reload-gym/qa/female-body-model-v1-height-control-prototype/FEMALE-BODY-MODEL-V1-HEIGHT-CONTROL-PROTOTYPE.md",
+          "sha256": "1A6997365042E67B66B4004F7C5B3533B3298F4C59C04BD85AD14E8971D77EE2"
+        }
+      },
+      {
+        "sequence": 3,
+        "stage": "HEIGHT CONTROL CANDIDATE QA",
+        "result": "PASS",
+        "summary": {
+          "path": "C:/Users/cnhan/Downloads/Reload Gym/Website Reload Gym/reload-gym/qa/female-body-model-v1-height-control-candidate-qa/candidate-acceptance.json",
+          "sha256": "1A6C33A9660DD7BDED09216A3CC18ABB4066DDDAD309850985C98450EFF601E4"
+        },
+        "report": {
+          "path": "C:/Users/cnhan/Downloads/Reload Gym/Website Reload Gym/reload-gym/qa/female-body-model-v1-height-control-candidate-qa/FEMALE-BODY-MODEL-V1-HEIGHT-CONTROL-CANDIDATE-QA.md",
+          "sha256": "30EEE1379D05AE7EBD044D82DA982E2C7D9469AA2A2F756DB75342FCDB1E0FE9"
+        }
+      },
+      {
+        "sequence": 4,
+        "stage": "HEIGHT CALIBRATION & SUPPORT DEFINITION",
+        "result": "PASS",
+        "summary": {
+          "path": "C:/Users/cnhan/Downloads/Reload Gym/Website Reload Gym/reload-gym/qa/female-body-model-v1-height-calibration-support-definition/strategy-decision.json",
+          "sha256": "5C8F915AEF1E52B2280E4880F5DCDA82053CECBCC74E841D5FDB63326FC567DA"
+        },
+        "report": {
+          "path": "C:/Users/cnhan/Downloads/Reload Gym/Website Reload Gym/reload-gym/qa/female-body-model-v1-height-calibration-support-definition/FEMALE-BODY-MODEL-V1-HEIGHT-CALIBRATION-SUPPORT-DEFINITION.md",
+          "sha256": "2AB8BFD31E9E25FD83056A82B5F991B5E5863D01CE1105241D5247BBEEE93A44"
+        }
+      },
+      {
+        "sequence": 5,
+        "stage": "original HEIGHT CALIBRATION CANDIDATE QA",
+        "result": "FAIL",
+        "summary": {
+          "path": "C:/Users/cnhan/Downloads/Reload Gym/Website Reload Gym/reload-gym/qa/female-body-model-v1-height-calibration-candidate-qa/gate-summary.json",
+          "sha256": "914EB46A8A0E93ADF636800070741880ACA6F5B213E52E9ED7BE75B86EA6609D"
+        },
+        "report": {
+          "path": "C:/Users/cnhan/Downloads/Reload Gym/Website Reload Gym/reload-gym/qa/female-body-model-v1-height-calibration-candidate-qa/FEMALE-BODY-MODEL-V1-HEIGHT-CALIBRATION-CANDIDATE-QA.md",
+          "sha256": "519FBE237566433F6A40C8D9B1D2EBA49A965028116945CA32F7E19F244AEB02"
+        },
+        "reason": "Stale/missing calibration identity was accepted.",
+        "failingOutputs": [
+          "status-regression.json",
+          "invalid-input-qa.json"
+        ],
+        "historicalResultMustRemain": "FAIL"
+      },
+      {
+        "sequence": 6,
+        "stage": "HEIGHT CALIBRATION IDENTITY-GUARD REPAIR",
+        "result": "PASS",
+        "summary": {
+          "path": "C:/Users/cnhan/Downloads/Reload Gym/Website Reload Gym/reload-gym/qa/female-body-model-v1-height-calibration-identity-guard-repair/repair-summary.json",
+          "sha256": "E9CD05052027E33C3A81C18CB17F57D0B0035C995DC8669EB4F36A499376D944"
+        },
+        "report": {
+          "path": "C:/Users/cnhan/Downloads/Reload Gym/Website Reload Gym/reload-gym/qa/female-body-model-v1-height-calibration-identity-guard-repair/FEMALE-BODY-MODEL-V1-HEIGHT-CALIBRATION-IDENTITY-GUARD-REPAIR.md",
+          "sha256": "1CD1FB7330FEB50569CFD16E73118607477C9C4A4E8C2B2A1C777C385E0467CC"
+        }
+      },
+      {
+        "sequence": 7,
+        "stage": "HEIGHT CALIBRATION CANDIDATE QA RERUN",
+        "result": "PASS",
+        "summary": {
+          "path": "C:/Users/cnhan/Downloads/Reload Gym/Website Reload Gym/reload-gym/qa/female-body-model-v1-height-calibration-candidate-qa-rerun/support-acceptance.json",
+          "sha256": "86D25332F5F01554CC0E41B61D4B8C6D21220D7B48EA7E18CBA7C6132543E9CD"
+        },
+        "report": {
+          "path": "C:/Users/cnhan/Downloads/Reload Gym/Website Reload Gym/reload-gym/qa/female-body-model-v1-height-calibration-candidate-qa-rerun/FEMALE-BODY-MODEL-V1-HEIGHT-CALIBRATION-CANDIDATE-QA-RERUN.md",
+          "sha256": "DB86A8A7D10C37F0C9DC98E80A90123A7A2D8813F846BCF5E92E0A7B08272FD7"
+        }
+      }
+    ],
+    "originalFailurePreserved": true,
+    "defectFixedAndIndependentlyRevalidated": true,
+    "acceptedRerunMetrics": {
+      "identityMutations": {
+        "status": "PASS",
+        "profileMutations": 64,
+        "invalidResolutionCases": 2112,
+        "invalidIdentitySUPPORTEDCount": 0,
+        "evidence": {
+          "path": "C:/Users/cnhan/Downloads/Reload Gym/Website Reload Gym/reload-gym/qa/female-body-model-v1-height-calibration-candidate-qa-rerun/identity-mutation-regression.json",
+          "sha256": "338470A8CBC0E89EF56D4FEC9BDF331AEA761173156C9F079AACF881A8E1C53A"
+        }
+      },
+      "validProfileStates": {
+        "status": "PASS",
+        "count": 6377,
+        "evidence": {
+          "path": "C:/Users/cnhan/Downloads/Reload Gym/Website Reload Gym/reload-gym/qa/female-body-model-v1-height-calibration-candidate-qa-rerun/valid-profile-regression.json",
+          "sha256": "B86168E83F6C69A4F6130DF871976F04B396780163C082FFF3EA5EC86C71710A"
+        }
+      },
+      "dense": {
+        "status": "PASS",
+        "count": 4108,
+        "evidence": {
+          "path": "C:/Users/cnhan/Downloads/Reload Gym/Website Reload Gym/reload-gym/qa/female-body-model-v1-height-calibration-candidate-qa-rerun/dense-calibration-sweep.json",
+          "sha256": "1A1B013931C981156B5EDF7D6EF9E0248CC344DF93C7F47FEF3AA60FC108AFAD"
+        }
+      },
+      "heldOut": {
+        "status": "PASS",
+        "count": 769,
+        "evidence": {
+          "path": "C:/Users/cnhan/Downloads/Reload Gym/Website Reload Gym/reload-gym/qa/female-body-model-v1-height-calibration-candidate-qa-rerun/heldout-validation.json",
+          "sha256": "A1DA675BFE9D414C7BE0C8E9A180C4C8900A995FFB26FCD2B2C4C742B450BC60"
+        }
+      },
+      "randomized": {
+        "status": "PASS",
+        "count": 1500,
+        "seed": 2026100419,
+        "generator": "NumPy PCG64",
+        "evidence": {
+          "path": "C:/Users/cnhan/Downloads/Reload Gym/Website Reload Gym/reload-gym/qa/female-body-model-v1-height-calibration-candidate-qa-rerun/randomized-validation.json",
+          "sha256": "C5F4E5FA0446103244A7D5E0167CC851B985A7457A39913050C909AE95040603"
+        }
+      },
+      "gpu": {
+        "status": "PASS",
+        "states": 369,
+        "maximumGeometryDiscrepancyMm": 0,
+        "environment": {
+          "browser": "Edge",
+          "browserVersion": "154.0.4258.53",
+          "graphics": "ANGLE / SwiftShader",
+          "three": "Three.js r180"
+        },
+        "evidence": {
+          "path": "C:/Users/cnhan/Downloads/Reload Gym/Website Reload Gym/reload-gym/qa/female-body-model-v1-height-calibration-candidate-qa-rerun/gpu-geometry-qa.json",
+          "sha256": "A62718310F6D9D79C7446F3B7E27B5E2FD586FF42EC08A18922466698F734617"
+        }
+      },
+      "currentGoal": {
+        "status": "PASS",
+        "cycles": 160,
+        "evidence": {
+          "path": "C:/Users/cnhan/Downloads/Reload Gym/Website Reload Gym/reload-gym/qa/female-body-model-v1-height-calibration-candidate-qa-rerun/current-goal-height-qa.json",
+          "sha256": "2E1A8937E716686181F96AF86C4763F7215B5AB9411A4E090524A977C7EA3782"
+        }
+      },
+      "sequential": {
+        "status": "PASS",
+        "count": 480,
+        "evidence": {
+          "path": "C:/Users/cnhan/Downloads/Reload Gym/Website Reload Gym/reload-gym/qa/female-body-model-v1-height-calibration-candidate-qa-rerun/sequential-stress.json",
+          "sha256": "A7BBEE254A601A265CCB5FAD3A43E0A62128BEBBFDCA4DFB9A508D9C067CBE02"
+        }
+      },
+      "rapid": {
+        "status": "PASS",
+        "count": 240,
+        "evidence": {
+          "path": "C:/Users/cnhan/Downloads/Reload Gym/Website Reload Gym/reload-gym/qa/female-body-model-v1-height-calibration-candidate-qa-rerun/rapid-stress.json",
+          "sha256": "CC5D4925DBDD11FD336F11D42DEC92C12ED529ACF53D163FFCFA7DD22FB448C5"
+        }
+      },
+      "lifecycle": {
+        "status": "PASS",
+        "cycles": 64,
+        "evidence": {
+          "path": "C:/Users/cnhan/Downloads/Reload Gym/Website Reload Gym/reload-gym/qa/female-body-model-v1-height-calibration-candidate-qa-rerun/lifecycle-qa.json",
+          "sha256": "B7C4EC15026F3C1970E1E29092351C6DFE53793CCB86557C79ECED007417B11B"
+        }
+      },
+      "structural": {
+        "status": "PASS",
+        "states": 100,
+        "evidence": {
+          "path": "C:/Users/cnhan/Downloads/Reload Gym/Website Reload Gym/reload-gym/qa/female-body-model-v1-height-calibration-candidate-qa-rerun/structural-support-qa.json",
+          "sha256": "45C1A7C55E9990F91C66B85336B61DA717D0EF663C301EAE16E8518F8BCABE9F"
+        }
+      },
+      "crossing": {
+        "status": "PASS",
+        "states": 52,
+        "newNonFootCrossings": 0,
+        "toeLocalCrossingRange": [
+          8,
+          44
+        ],
+        "evidence": {
+          "path": "C:/Users/cnhan/Downloads/Reload Gym/Website Reload Gym/reload-gym/qa/female-body-model-v1-height-calibration-candidate-qa-rerun/crossing-qa.json",
+          "sha256": "294170FF015E00556964F2A0E795996DEF6160231326D0C85A10D7E0FC3C324C"
+        }
+      },
+      "visual": {
+        "status": "PASS",
+        "freshImages": 143,
+        "evidence": {
+          "path": "C:/Users/cnhan/Downloads/Reload Gym/Website Reload Gym/reload-gym/qa/female-body-model-v1-height-calibration-candidate-qa-rerun/visual-support-qa.json",
+          "sha256": "F8B39B40C22310DF9E5BF25DC95515AD38FD6422D513BFD0385AD79A48ADCFCF"
+        }
+      },
+      "nineRowGrid": {
+        "status": "PASS",
+        "rows": 9,
+        "evidence": {
+          "path": "C:/Users/cnhan/Downloads/Reload Gym/Website Reload Gym/reload-gym/qa/female-body-model-v1-height-calibration-candidate-qa-rerun/height-baseline-grid-qa.json",
+          "sha256": "4FF1AAD6B71466AF63CEA9001F3BF49D9661231A36EEB19E5653F0A2F943E36E"
+        }
+      }
+    },
+    "rerunAcceptance": {
+      "path": "C:/Users/cnhan/Downloads/Reload Gym/Website Reload Gym/reload-gym/qa/female-body-model-v1-height-calibration-candidate-qa-rerun/support-acceptance.json",
+      "sha256": "86D25332F5F01554CC0E41B61D4B8C6D21220D7B48EA7E18CBA7C6132543E9CD"
+    },
+    "fullSuitesRerunForThisLock": false
+  },
+  "knownLimitations": [
+    {
+      "id": "toe-crossings",
+      "status": "RETAINED",
+      "observedRange": [
+        8,
+        44
+      ],
+      "lower": 12,
+      "neutral": 8,
+      "upper": 40,
+      "description": "Known toe-local crossings remain; no cleanup authorized in this task."
+    },
+    {
+      "id": "export-cleanup",
+      "status": "EXPORT CLEANUP REQUIRED BEFORE PRODUCTION PROMOTION"
+    },
+    {
+      "id": "normal-policy",
+      "status": "FINAL FEMALE NORMAL POLICY: NOT ESTABLISHED"
+    },
+    {
+      "id": "target-license",
+      "status": "TARGET LICENSE SCOPE: NOT FULLY VERIFIED"
+    },
+    {
+      "id": "device-diversity",
+      "status": "Physical GPU/device/browser diversity: NOT FULLY TESTED",
+      "acceptedEnvironment": {
+        "browser": "Edge",
+        "browserVersion": "154.0.4258.53",
+        "graphics": "ANGLE / SwiftShader",
+        "three": "Three.js r180"
+      }
+    },
+    {
+      "id": "finite-qa",
+      "description": "Finite sampled QA does not prove continuous collision freedom."
+    },
+    {
+      "id": "technical-support",
+      "description": "Technical Height support is not a Female product band, website validation range, final production release range or real-world recommended user range."
+    }
+  ],
+  "productionStatus": {
+    "productionFemaleGLB": "NO",
+    "productionHeightCalibrationIntegration": "NO",
+    "femaleRuntimeIntegration": "NO",
+    "femaleMaleSelectorIntegration": "NO",
+    "finalProductValidationRange": "NOT ESTABLISHED",
+    "femaleModelComplete": "NO",
+    "bodyVisualizerV1Complete": "NO"
+  },
+  "changeControl": {
+    "statement": "Any change to the locked Height dependency requires a NEW explicit Height scope. Later Bust/Waist/Hips/Shoulder/Arm/Thigh/Calf work must treat all locked Height fields and artifact bytes as immutable.",
+    "requiresNewExplicitHeightScope": [
+      "neutral Height",
+      "D_min identity",
+      "D_max identity",
+      "Height morph names/order",
+      "Strategy B architecture",
+      "calibration profile bytes",
+      "JS evaluator bytes",
+      "Python evaluator bytes",
+      "identity contract",
+      "technical support endpoints",
+      "analytic knots",
+      "Actual/Simulation semantics",
+      "statuses",
+      "display precision",
+      "endpoint alias",
+      "sole cohort",
+      "sole-placement method",
+      "Height baseline grid",
+      "measurement method"
+    ],
+    "dependencyImmutableForDownstreamMeasurements": true
+  },
+  "protection": {
+    "allPreexistingFilesUnchanged": true,
+    "preexistingFileCount": 22520,
+    "totalBytes": 10985028431,
+    "comparison": {
+      "changed": [],
+      "added": [],
+      "missing": [],
+      "directoriesUnchanged": true,
+      "linksUnchanged": true,
+      "gitUnchanged": true,
+      "allPreexistingFilesUnchanged": true
+    },
+    "git": {
+      "head": "2c939f19a75663b3c3248af1e07284c6f5fb5477",
+      "originMain": "2c939f19a75663b3c3248af1e07284c6f5fb5477",
+      "branch": "main",
+      "indexPath": "C:/Users/cnhan/Downloads/Reload Gym/Website Reload Gym/reload-gym/.git/index",
+      "indexSHA256": "184C9F6BBA277F841FEF351EE1FC871ED847D91253281F13552DD12609E010A3",
+      "stagedDiffSHA256": "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855",
+      "trackedEntriesSHA256": "C5785CF940BCDF711CB56249BCA60F17E3090FC94BE7E8A1E5D73950A68B9A6F",
+      "trackedStatusSHA256": "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855",
+      "trackedDiffSHA256": "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855"
+    },
+    "evidence": [
+      {
+        "path": "C:/Users/cnhan/Downloads/Reload Gym/Website Reload Gym/reload-gym/qa/female-body-model-v1-height-final-acceptance-lock/female-source-protection.json",
+        "sha256": "806726E94BDF73898DCACBA2AC27C796E0C0134A65BF7B9B0B2C02D23319AA04"
+      },
+      {
+        "path": "C:/Users/cnhan/Downloads/Reload Gym/Website Reload Gym/reload-gym/qa/female-body-model-v1-height-final-acceptance-lock/male-protection.json",
+        "sha256": "91D98F30F96D43880B0B0F24059636A10BE06BBCF57268A4EEC89D73EB1A8C7B"
+      },
+      {
+        "path": "C:/Users/cnhan/Downloads/Reload Gym/Website Reload Gym/reload-gym/qa/female-body-model-v1-height-final-acceptance-lock/production-protection.json",
+        "sha256": "07430ECF8BE760A4147CF8CC884E1C82EEB37D450432714725240F6E97BA9F5B"
+      }
+    ]
+  },
+  "packageFiles": [
+    {
+      "name": "FEMALE-BODY-MODEL-V1-HEIGHT-FINAL-ACCEPTANCE-LOCK.md",
+      "path": "C:/Users/cnhan/Downloads/Reload Gym/Website Reload Gym/reload-gym/qa/female-body-model-v1-height-final-acceptance-lock/FEMALE-BODY-MODEL-V1-HEIGHT-FINAL-ACCEPTANCE-LOCK.md",
+      "sha256": "20A990B55480817EE58F7219E7F1824307D7540E173C32974701E54407CEAF79"
+    },
+    {
+      "name": "architecture-lock.json",
+      "path": "C:/Users/cnhan/Downloads/Reload Gym/Website Reload Gym/reload-gym/qa/female-body-model-v1-height-final-acceptance-lock/architecture-lock.json",
+      "sha256": "AF98A2B9D0B3E9BEE0BD025154E7B356593DABB2EB33BDD8A40D3FB7CC501893"
+    },
+    {
+      "name": "artifact-identities.json",
+      "path": "C:/Users/cnhan/Downloads/Reload Gym/Website Reload Gym/reload-gym/qa/female-body-model-v1-height-final-acceptance-lock/artifact-identities.json",
+      "sha256": "E2FF870373FA232DD52F192EC5A608631E425B177C17D6136E557EDE618E9AE6"
+    },
+    {
+      "name": "change-control.md",
+      "path": "C:/Users/cnhan/Downloads/Reload Gym/Website Reload Gym/reload-gym/qa/female-body-model-v1-height-final-acceptance-lock/change-control.md",
+      "sha256": "C01640D270DEDBE1380477DC29F2388CC120CD0A7FEDB75F12B3231463E5447F"
+    },
+    {
+      "name": "current-goal-height-lock.json",
+      "path": "C:/Users/cnhan/Downloads/Reload Gym/Website Reload Gym/reload-gym/qa/female-body-model-v1-height-final-acceptance-lock/current-goal-height-lock.json",
+      "sha256": "9A54E89058CCF6D8C063503030264819F4DD3975947D0103D909C2A66DAEC6BE"
+    },
+    {
+      "name": "female-source-protection.json",
+      "path": "C:/Users/cnhan/Downloads/Reload Gym/Website Reload Gym/reload-gym/qa/female-body-model-v1-height-final-acceptance-lock/female-source-protection.json",
+      "sha256": "806726E94BDF73898DCACBA2AC27C796E0C0134A65BF7B9B0B2C02D23319AA04"
+    },
+    {
+      "name": "height-baseline-grid-lock.json",
+      "path": "C:/Users/cnhan/Downloads/Reload Gym/Website Reload Gym/reload-gym/qa/female-body-model-v1-height-final-acceptance-lock/height-baseline-grid-lock.json",
+      "sha256": "3DCEA374B84803C04F9F46480FDB6A725FA00358F7D880EA704794336EC5CD9F"
+    },
+    {
+      "name": "height-measurement-lock.json",
+      "path": "C:/Users/cnhan/Downloads/Reload Gym/Website Reload Gym/reload-gym/qa/female-body-model-v1-height-final-acceptance-lock/height-measurement-lock.json",
+      "sha256": "565C0C56EC4D0ECEB2F23669EB743F960858C429B591A5024AA4C4672153D270"
+    },
+    {
+      "name": "known-limitations.md",
+      "path": "C:/Users/cnhan/Downloads/Reload Gym/Website Reload Gym/reload-gym/qa/female-body-model-v1-height-final-acceptance-lock/known-limitations.md",
+      "sha256": "B3112F9E5BFDF3AEE7E16C2162EFCE70B9F26221278DE31779EFFAE67A8D4BE5"
+    },
+    {
+      "name": "male-protection.json",
+      "path": "C:/Users/cnhan/Downloads/Reload Gym/Website Reload Gym/reload-gym/qa/female-body-model-v1-height-final-acceptance-lock/male-protection.json",
+      "sha256": "91D98F30F96D43880B0B0F24059636A10BE06BBCF57268A4EEC89D73EB1A8C7B"
+    },
+    {
+      "name": "next-workstream.md",
+      "path": "C:/Users/cnhan/Downloads/Reload Gym/Website Reload Gym/reload-gym/qa/female-body-model-v1-height-final-acceptance-lock/next-workstream.md",
+      "sha256": "6D4CF0FE9650FA2CE1163EE1ACDA4F9BEB238B5F62ED08EBF1E1E84A857B5FE2"
+    },
+    {
+      "name": "precision-alias-lock.json",
+      "path": "C:/Users/cnhan/Downloads/Reload Gym/Website Reload Gym/reload-gym/qa/female-body-model-v1-height-final-acceptance-lock/precision-alias-lock.json",
+      "sha256": "3957C47102ECD9D8A4D028C2B0907338CAD470EB2CB524C7FD5EC9A804858143"
+    },
+    {
+      "name": "production-protection.json",
+      "path": "C:/Users/cnhan/Downloads/Reload Gym/Website Reload Gym/reload-gym/qa/female-body-model-v1-height-final-acceptance-lock/production-protection.json",
+      "sha256": "07430ECF8BE760A4147CF8CC884E1C82EEB37D450432714725240F6E97BA9F5B"
+    },
+    {
+      "name": "protection-after.json",
+      "path": "C:/Users/cnhan/Downloads/Reload Gym/Website Reload Gym/reload-gym/qa/female-body-model-v1-height-final-acceptance-lock/protection-after.json",
+      "sha256": "130367FB6057390AFE6E8D2CC6ACE79BDC212A46C2F76743FB3E8BE712CAC8F0"
+    },
+    {
+      "name": "protection-before.json",
+      "path": "C:/Users/cnhan/Downloads/Reload Gym/Website Reload Gym/reload-gym/qa/female-body-model-v1-height-final-acceptance-lock/protection-before.json",
+      "sha256": "A04D78234656A914A97F3094578BE27FEEAEDE005EFF68914374BC562155D9FD"
+    },
+    {
+      "name": "protection-preflight.json",
+      "path": "C:/Users/cnhan/Downloads/Reload Gym/Website Reload Gym/reload-gym/qa/female-body-model-v1-height-final-acceptance-lock/protection-preflight.json",
+      "sha256": "4553D8C25001DA24FC060CBF192BFB71847E65EA29EE8980DEFEBA794F636074"
+    },
+    {
+      "name": "qa-acceptance-chain.json",
+      "path": "C:/Users/cnhan/Downloads/Reload Gym/Website Reload Gym/reload-gym/qa/female-body-model-v1-height-final-acceptance-lock/qa-acceptance-chain.json",
+      "sha256": "A9DFFC05217EE7E643BD1214482F6B1EFB5B6AD6FBC19941F916779C78BBEAC7"
+    },
+    {
+      "name": "resolver-contract-lock.json",
+      "path": "C:/Users/cnhan/Downloads/Reload Gym/Website Reload Gym/reload-gym/qa/female-body-model-v1-height-final-acceptance-lock/resolver-contract-lock.json",
+      "sha256": "EFB354984118382C873E0A799DE87BB851EBC9BCBC19F089D06AD87963CF2DDC"
+    },
+    {
+      "name": "sole-placement-lock.json",
+      "path": "C:/Users/cnhan/Downloads/Reload Gym/Website Reload Gym/reload-gym/qa/female-body-model-v1-height-final-acceptance-lock/sole-placement-lock.json",
+      "sha256": "666C94443BB2EA1123EEDB6C2A1B1F9C51BB83A1F6567791CEE27ACF849205A6"
+    },
+    {
+      "name": "technical-support-lock.json",
+      "path": "C:/Users/cnhan/Downloads/Reload Gym/Website Reload Gym/reload-gym/qa/female-body-model-v1-height-final-acceptance-lock/technical-support-lock.json",
+      "sha256": "88D0AF66AC16A6B810BB05EBFC67B205FC14E9D3A8B4B9D4489D636FCFC9EC10"
+    }
+  ],
+  "nextSingleWorkstream": {
+    "name": "FEMALE BODY MODEL V1 — BUST STRATEGY FEASIBILITY",
+    "status": "NOT STARTED",
+    "mustFirstDetermine": [
+      "Female Bust measurement protocol",
+      "bust contour / ruler architecture",
+      "native bust target behavior",
+      "Height-conditioned Bust baselines",
+      "breast / axilla / shoulder interaction risks",
+      "appropriate Bust morph strategy"
+    ]
+  },
+  "commit": "NONE",
+  "push": "NONE",
+  "deployment": "NONE"
+}

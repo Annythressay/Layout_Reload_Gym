@@ -1,0 +1,173 @@
+// Measured R&D samples, full precision. Source: qa/height-full-range/baseline-dataset.json
+// v4 retained geometry/targets audited identical to source asset 010ed1d3d700b5ea2a3f61d8388be572c6f8be51e4eb7ccf8cb62810207f0493.
+export const heightBaselineSamples=Object.freeze([
+  {
+    "heightInfluence": -0.3,
+    "heightCm": 151.21778195689558,
+    "baselines": {
+      "bust": 85.4334782686696,
+      "waist": 68.80505430513168,
+      "hips": 88.63506912294648,
+      "shoulder": 34.44052259836553,
+      "upperarm": 26.680326879547007,
+      "thigh": 49.982556249349045,
+      "calf": 35.35033830747055
+    }
+  },
+  {
+    "heightInfluence": -0.25,
+    "heightCm": 154.83328226570165,
+    "baselines": {
+      "bust": 86.67528841122792,
+      "waist": 69.87407273067404,
+      "hips": 90.02895323195249,
+      "shoulder": 34.97752259884237,
+      "upperarm": 27.079109203262124,
+      "thigh": 50.70457025065676,
+      "calf": 35.8185673251869
+    }
+  },
+  {
+    "heightInfluence": -0.2,
+    "heightCm": 158.44878257450773,
+    "baselines": {
+      "bust": 87.91718215704695,
+      "waist": 70.94332416012496,
+      "hips": 91.42308801870686,
+      "shoulder": 35.51452259931921,
+      "upperarm": 27.47805052410418,
+      "thigh": 51.42722615045325,
+      "calf": 36.288474112993235
+    }
+  },
+  {
+    "heightInfluence": -0.15,
+    "heightCm": 162.0642828833138,
+    "baselines": {
+      "bust": 89.15945767317994,
+      "waist": 72.01272338505169,
+      "hips": 92.81746170908733,
+      "shoulder": 36.051522599796044,
+      "upperarm": 27.87718334424241,
+      "thigh": 52.1504942906718,
+      "calf": 36.75999302101181
+    }
+  },
+  {
+    "heightInfluence": -0.1,
+    "heightCm": 165.67978319211988,
+    "baselines": {
+      "bust": 90.40209354077255,
+      "waist": 73.08225814636981,
+      "hips": 94.21206326746811,
+      "shoulder": 36.58852260027288,
+      "upperarm": 28.27650055835496,
+      "thigh": 52.87434717719187,
+      "calf": 37.23306170937389
+    }
+  },
+  {
+    "heightInfluence": -0.05,
+    "heightCm": 169.29528350092596,
+    "baselines": {
+      "bust": 91.64506997652869,
+      "waist": 74.15191772449975,
+      "hips": 95.60688233861019,
+      "shoulder": 37.12552260074972,
+      "upperarm": 28.67604185892437,
+      "thigh": 53.598759223893886,
+      "calf": 37.707620933560165
+    }
+  },
+  {
+    "heightInfluence": 0,
+    "heightCm": 172.91078380973204,
+    "baselines": {
+      "bust": 92.8883686746983,
+      "waist": 75.22169269657549,
+      "hips": 97.00190919505901,
+      "shoulder": 37.662522601226556,
+      "upperarm": 29.07581960504171,
+      "thigh": 54.32370654187157,
+      "calf": 38.183614349092764
+    }
+  },
+  {
+    "heightInfluence": 0.05,
+    "heightCm": 176.52628411853811,
+    "baselines": {
+      "bust": 94.13185139731165,
+      "waist": 76.29157473792938,
+      "hips": 98.39713468943923,
+      "shoulder": 38.19952260170339,
+      "upperarm": 29.475717690235026,
+      "thigh": 55.04916676355117,
+      "calf": 38.660988332971975
+    }
+  },
+  {
+    "heightInfluence": 0.1,
+    "heightCm": 180.1417844273442,
+    "baselines": {
+      "bust": 95.3753969097425,
+      "waist": 77.35956613828196,
+      "hips": 99.79255021111342,
+      "shoulder": 38.73652260218023,
+      "upperarm": 29.875728636751685,
+      "thigh": 55.77506447622327,
+      "calf": 39.13969181974478
+    }
+  },
+  {
+    "heightInfluence": 0.15,
+    "heightCm": 183.75728473615027,
+    "baselines": {
+      "bust": 96.61924758794915,
+      "waist": 78.4276798098858,
+      "hips": 101.18814764673883,
+      "shoulder": 39.27352260265707,
+      "upperarm": 30.275890446388736,
+      "thigh": 56.50136993529551,
+      "calf": 39.619676150470355
+    }
+  },
+  {
+    "heightInfluence": 0.2,
+    "heightCm": 187.37278504495634,
+    "baselines": {
+      "bust": 97.8633879901529,
+      "waist": 79.49610042219149,
+      "hips": 102.58391934431002,
+      "shoulder": 39.810522603133904,
+      "upperarm": 30.676301801624923,
+      "thigh": 57.228179248090036,
+      "calf": 40.10089493314154
+    }
+  },
+  {
+    "heightInfluence": 0.25,
+    "heightCm": 190.98828535376242,
+    "baselines": {
+      "bust": 99.10780372690881,
+      "waist": 80.56480229248648,
+      "hips": 103.97985808033027,
+      "shoulder": 40.34752260361074,
+      "upperarm": 31.07679662798869,
+      "thigh": 57.95543237034252,
+      "calf": 40.58330391335096
+    }
+  },
+  {
+    "heightInfluence": 0.3,
+    "heightCm": 194.6037856625685,
+    "baselines": {
+      "bust": 100.3524813711902,
+      "waist": 81.63376232639092,
+      "hips": 105.3759570297909,
+      "shoulder": 40.88452260408758,
+      "upperarm": 31.477372019336887,
+      "thigh": 58.68309893748413,
+      "calf": 41.06686085417412
+    }
+  }
+].map(row=>Object.freeze({...row,baselines:Object.freeze(row.baselines)})));

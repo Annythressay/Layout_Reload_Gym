@@ -1,0 +1,15 @@
+.bv-review-toolbar {display:flex;align-items:center;gap:20px;flex-wrap:wrap;margin:0 0 20px}
+.bv-review-badge {font-size:11px;letter-spacing:.05em;border:1px solid #666;padding:5px 9px;color:#ddd}
+.bv-review-gender {display:flex;align-items:center;gap:8px;margin:0;min-width:240px}
+.bv-review-gender legend {float:left;font-size:12px;color:#ddd;margin-right:12px;padding-top:14px}
+.bv-review-gender label {min-width:66px}
+[data-switch-status] {font-size:12px;color:#ccc}
+.bv-review-disabled {color:#b5b5b5;padding-bottom:16px}
+.bv-review-disabled input:disabled {color:#b5b5b5;background:#191919;border-color:#555;cursor:default}
+.bv-review-disabled .bv-field-help {margin-top:5px;font-size:11px;color:#b5b5b5}
+.bv-review-disabled:hover {border-bottom-color:rgba(255,255,255,.08)}
+.bv-review-toolbar input:focus-visible+span {outline:2px solid white;outline-offset:3px}
+@media(max-width:575.98px){.bv-review-toolbar {gap:12px}.bv-review-gender {flex:1;min-width:220px}}
+/* Keep the page's consultation links available below the workspace while
+   preventing the fixed contact widget from covering mobile review controls. */
+@media(max-width:991.98px){.page-body-visualizer .floating-contact {display:none}}

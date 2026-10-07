@@ -1,0 +1,417 @@
+{
+  "schemaVersion": 1,
+  "lockId": "reload-body-female-v1-bust-final-lock-v1-20261005",
+  "date": "2026-10-05",
+  "timezone": "Asia/Saigon",
+  "modelId": "reload-body-female-v1",
+  "scope": "R&D documentation/manifest lock for downstream development; no production integration",
+  "lockStatus": "LOCKED FOR DOWNSTREAM DEVELOPMENT",
+  "documentationManifestComplete": true,
+  "phaseBGatePassed": true,
+  "phaseAStatus": "PASS",
+  "phaseAAcceptance": {
+    "path": "C:/Users/cnhan/Downloads/Reload Gym/Website Reload Gym/reload-gym/qa/female-body-model-v1-bust-calibration-candidate-qa/candidate-acceptance.json",
+    "sha256": "C44E04F104C8662611EDAA05DC63254D0410ABC062132430CF7B501584361A85",
+    "bytes": 5889,
+    "role": "All 18 independent Phase A acceptance gates"
+  },
+  "phaseAReport": {
+    "path": "C:/Users/cnhan/Downloads/Reload Gym/Website Reload Gym/reload-gym/qa/female-body-model-v1-bust-calibration-candidate-qa/FEMALE-BODY-MODEL-V1-BUST-CALIBRATION-CANDIDATE-QA.md",
+    "sha256": "878652B31E00DAF14E20CFA55A1DBF61EAFB871DB205B32785F559585BE0F2DF",
+    "bytes": 7394,
+    "role": "Independent Phase A review report"
+  },
+  "phaseARequiredGateCount": 18,
+  "finalPackageAcceptance": "PASS",
+  "scopeEnforcement": "Documentation/manifest only. Candidate geometry/profile/evaluators retain exact original bytes.",
+  "architecture": {
+    "schemaVersion": 1,
+    "lockId": "reload-body-female-v1-bust-final-lock-v1-20261005",
+    "date": "2026-10-05",
+    "timezone": "Asia/Saigon",
+    "modelId": "reload-body-female-v1",
+    "scope": "R&D documentation/manifest lock for downstream development; no production integration",
+    "logicalControlCount": 1,
+    "logicalControl": "Bust",
+    "canonicalKey": "chest",
+    "architecture": "Two one-sided native Bust vectors, both relative to Basis and mutually exclusive",
+    "bustVectors": [
+      {
+        "order": 2,
+        "name": "RND_female_bust_decr_native_v1",
+        "relativeKey": "Basis",
+        "float32VectorSHA256": "121DA6019F166384737E0CB0590CFABA0385B56FF997ED82655199306B26E1B9",
+        "role": "Exclusive one-sided Bust native vector"
+      },
+      {
+        "order": 3,
+        "name": "RND_female_bust_incr_native_v1",
+        "relativeKey": "Basis",
+        "float32VectorSHA256": "54FA6A0FCD32981CE3571291541D2BD5ADC48B4F1CFBE723BFFB58631653C84F",
+        "role": "Exclusive one-sided Bust native vector"
+      }
+    ],
+    "morphNamesOrder": [
+      "RND_female_height_min_native_v1",
+      "RND_female_height_max_native_v1",
+      "RND_female_bust_decr_native_v1",
+      "RND_female_bust_incr_native_v1"
+    ],
+    "morphVectorIdentities": [
+      {
+        "order": 0,
+        "name": "RND_female_height_min_native_v1",
+        "relativeKey": "Basis",
+        "float32VectorSHA256": "4471DD11CB436095051E4B3CD36391779C65A009BE1026937809B88B721BCAAB",
+        "role": "Locked Height dependency"
+      },
+      {
+        "order": 1,
+        "name": "RND_female_height_max_native_v1",
+        "relativeKey": "Basis",
+        "float32VectorSHA256": "01B68602562DAFAFA0B95041C6F69FDBA75B69DF6A5C7975625D8A36B7F59EA1",
+        "role": "Locked Height dependency"
+      },
+      {
+        "order": 2,
+        "name": "RND_female_bust_decr_native_v1",
+        "relativeKey": "Basis",
+        "float32VectorSHA256": "121DA6019F166384737E0CB0590CFABA0385B56FF997ED82655199306B26E1B9",
+        "role": "Exclusive one-sided Bust native vector"
+      },
+      {
+        "order": 3,
+        "name": "RND_female_bust_incr_native_v1",
+        "relativeKey": "Basis",
+        "float32VectorSHA256": "54FA6A0FCD32981CE3571291541D2BD5ADC48B4F1CFBE723BFFB58631653C84F",
+        "role": "Exclusive one-sided Bust native vector"
+      }
+    ],
+    "neutralInfluences": {
+      "decrInfluence": 0.0,
+      "incrInfluence": 0.0
+    },
+    "branchExclusivity": "For supported Simulation below neutral only DECR is positive; at neutral both are zero; above neutral only INCR is positive. Never simultaneous positive Bust influences.",
+    "geometryEquation": "Native float32 G = Basis + lockedHeight.minInfluence * D_heightMin + lockedHeight.maxInfluence * D_heightMax, then exactly one Bust delta if non-neutral; apply unchanged locked Height sole placement.",
+    "immutableHeightDependency": {
+      "lockId": "reload-body-female-v1-height-final-lock-v1-20261004",
+      "artifact": {
+        "path": "C:/Users/cnhan/Downloads/Reload Gym/Website Reload Gym/reload-gym/qa/female-body-model-v1-height-final-acceptance-lock/height-final-lock.json",
+        "sha256": "4196DE9FF4660E69A20131E4AA964805F602DA0EF43F9E7CAFF3C6D3F86EB8AD",
+        "bytes": 67721,
+        "role": "Immutable Height final lock dependency"
+      },
+      "consumedState": "Verified locked Height resolver state; consume its unchanged coefficients, status, Simulation and solePlacement.",
+      "forbiddenChanges": [
+        "architecture",
+        "vectors",
+        "calibration",
+        "support",
+        "precision",
+        "alias",
+        "sole placement",
+        "baseline grid",
+        "identity contract"
+      ]
+    },
+    "topology": {
+      "vertices": 13380,
+      "triangles": 26756,
+      "meshCount": 1,
+      "primitiveCount": 1,
+      "basisFloat32SHA256": "B66D73C4473F56E5910BC34FF9D52DCD8A84ABC466F7545EC4DA2F319CC54631",
+      "triangleUint32SHA256": "54A319EF2E15230133732428B43A96C20AB27A4B5C2B67EF79C90D0D3BCA7CD1"
+    }
+  },
+  "rulerContractFile": "ruler-contract-lock.json",
+  "landmarkContractFile": "landmark-lock.json",
+  "calibration": {
+    "strategy": "B",
+    "branchKnotCount": 17,
+    "profile": {
+      "path": "C:/Users/cnhan/Downloads/Reload Gym/Website Reload Gym/female-v1-bust-calibration/profiles/female-bust-calibration-candidate-v1.json",
+      "sha256": "6D091FB74CDB8BE6BD43F1F682B10F595AA4774ADFED250D035DC7D4D2121640",
+      "bytes": 73448,
+      "role": "Bust calibration profile"
+    },
+    "javascriptEvaluator": {
+      "path": "C:/Users/cnhan/Downloads/Reload Gym/Website Reload Gym/female-v1-bust-calibration/profiles/female-bust-calibration-candidate-v1.mjs",
+      "sha256": "16FFEEE3FA02C08453248FDB91E1F549856B4E19AE42D67AD7DAEF3382672E4B",
+      "bytes": 54798,
+      "role": "Bust JavaScript evaluator"
+    },
+    "pythonEvaluator": {
+      "path": "C:/Users/cnhan/Downloads/Reload Gym/Website Reload Gym/female-v1-bust-calibration/profiles/female-bust-calibration-candidate-v1.py",
+      "sha256": "9F8ED00B451D272F69634342BC2A17C198E0BA1C244DD3EB77539367851F167D",
+      "bytes": 56942,
+      "role": "Bust Python evaluator"
+    }
+  },
+  "support": {
+    "status": "LOCKED FOR DOWNSTREAM DEVELOPMENT",
+    "rectangularSupport": false,
+    "heightLockId": "reload-body-female-v1-height-final-lock-v1-20261004",
+    "normativeProfile": {
+      "path": "C:/Users/cnhan/Downloads/Reload Gym/Website Reload Gym/female-v1-bust-calibration/profiles/female-bust-calibration-candidate-v1.json",
+      "sha256": "6D091FB74CDB8BE6BD43F1F682B10F595AA4774ADFED250D035DC7D4D2121640",
+      "bytes": 73448,
+      "role": "Bust calibration profile"
+    },
+    "lowerFunction": "ProtocolB(G_lockedHeight(H) + D_BustDECR * 1.0)",
+    "neutralFunction": "ProtocolB(G_lockedHeight(H))",
+    "upperFunction": "ProtocolB(G_lockedHeight(H) + D_BustINCR * cap(H))",
+    "decrCap": 1.0,
+    "incrCap": "cap(H): continuous piecewise linear interpolation of atKnot through the exact accepted profile /supportSurface/knots.",
+    "aggregateTechnicalExtrema": {
+      "lowerCm": 60.77315652122059,
+      "upperCm": 127.45095859661753,
+      "rectangularSupportedRange": false,
+      "websiteInputRange": false,
+      "productBand": false,
+      "mandatoryLabels": [
+        "NOT A RECTANGULAR SUPPORTED RANGE",
+        "NOT WEBSITE INPUT RANGE",
+        "NOT PRODUCT BAND"
+      ]
+    },
+    "supportManifest": "technical-support-lock.json"
+  },
+  "lockedStatuses": [
+    "SUPPORTED",
+    "BELOW_SIMULATION_RANGE",
+    "ABOVE_SIMULATION_RANGE",
+    "SIMULATION_UNAVAILABLE"
+  ],
+  "actualAlwaysRetained": true,
+  "branchesMutuallyExclusive": true,
+  "displayPrecisionCm": 0.1,
+  "bustEndpointAliases": [],
+  "classificationEpsilon": 0,
+  "immutableHeightDependency": {
+    "path": "C:/Users/cnhan/Downloads/Reload Gym/Website Reload Gym/reload-gym/qa/female-body-model-v1-height-final-acceptance-lock/height-final-lock.json",
+    "sha256": "4196DE9FF4660E69A20131E4AA964805F602DA0EF43F9E7CAFF3C6D3F86EB8AD",
+    "bytes": 67721,
+    "role": "Immutable Height final lock dependency"
+  },
+  "identityContract": {
+    "profile": {
+      "path": "C:/Users/cnhan/Downloads/Reload Gym/Website Reload Gym/female-v1-bust-calibration/profiles/female-bust-calibration-candidate-v1.json",
+      "sha256": "6D091FB74CDB8BE6BD43F1F682B10F595AA4774ADFED250D035DC7D4D2121640",
+      "bytes": 73448,
+      "role": "Bust calibration profile"
+    },
+    "javascriptEvaluator": {
+      "path": "C:/Users/cnhan/Downloads/Reload Gym/Website Reload Gym/female-v1-bust-calibration/profiles/female-bust-calibration-candidate-v1.mjs",
+      "sha256": "16FFEEE3FA02C08453248FDB91E1F549856B4E19AE42D67AD7DAEF3382672E4B",
+      "bytes": 54798,
+      "role": "Bust JavaScript evaluator"
+    },
+    "pythonEvaluator": {
+      "path": "C:/Users/cnhan/Downloads/Reload Gym/Website Reload Gym/female-v1-bust-calibration/profiles/female-bust-calibration-candidate-v1.py",
+      "sha256": "9F8ED00B451D272F69634342BC2A17C198E0BA1C244DD3EB77539367851F167D",
+      "bytes": 56942,
+      "role": "Bust Python evaluator"
+    },
+    "profileBytesRewritePermitted": false,
+    "staleMissingMalformedFailClosed": true,
+    "invalidResult": {
+      "status": "SIMULATION_UNAVAILABLE",
+      "simulation": null,
+      "decrInfluence": null,
+      "incrInfluence": null
+    },
+    "bypassPermitted": false,
+    "sourceAndGLBIdentities": [
+      {
+        "role": "Frozen Female source",
+        "path": "C:/Users/cnhan/Downloads/Reload Gym/Website Reload Gym/female-v1-base-prototype/source/reload-body-female-v1-base-v1.blend",
+        "sha256": "0D13F394E9597305253FB0589D098670BF74AC8923335A689890BBBD3663F889",
+        "bytes": 1759219,
+        "verification": "Fresh Phase A identity and before/after protected-file verification; referenced unchanged in Phase B."
+      },
+      {
+        "role": "Bust working source",
+        "path": "C:/Users/cnhan/Downloads/Reload Gym/Website Reload Gym/female-v1-bust-prototype/source/reload-body-female-v1-bust-prototype-v1.blend",
+        "sha256": "438618CC8EDC10AD3D691D1354DA748109E5617B7DA2CC7CA820E6D96B943505",
+        "bytes": 1452181,
+        "verification": "Fresh Phase A identity and before/after protected-file verification; referenced unchanged in Phase B."
+      },
+      {
+        "role": "Bust candidate GLB",
+        "path": "C:/Users/cnhan/Downloads/Reload Gym/Website Reload Gym/female-v1-bust-prototype/candidate/female-bust-prototype-v1.glb",
+        "sha256": "0DBC4AC72D9862DD21EC42EF86F40B5B8AC81E35AF829941BA4821170AAF4465",
+        "bytes": 1447800,
+        "verification": "Fresh Phase A identity and before/after protected-file verification; referenced unchanged in Phase B."
+      }
+    ],
+    "vectors": [
+      {
+        "order": 0,
+        "name": "RND_female_height_min_native_v1",
+        "relativeKey": "Basis",
+        "float32VectorSHA256": "4471DD11CB436095051E4B3CD36391779C65A009BE1026937809B88B721BCAAB",
+        "role": "Locked Height dependency"
+      },
+      {
+        "order": 1,
+        "name": "RND_female_height_max_native_v1",
+        "relativeKey": "Basis",
+        "float32VectorSHA256": "01B68602562DAFAFA0B95041C6F69FDBA75B69DF6A5C7975625D8A36B7F59EA1",
+        "role": "Locked Height dependency"
+      },
+      {
+        "order": 2,
+        "name": "RND_female_bust_decr_native_v1",
+        "relativeKey": "Basis",
+        "float32VectorSHA256": "121DA6019F166384737E0CB0590CFABA0385B56FF997ED82655199306B26E1B9",
+        "role": "Exclusive one-sided Bust native vector"
+      },
+      {
+        "order": 3,
+        "name": "RND_female_bust_incr_native_v1",
+        "relativeKey": "Basis",
+        "float32VectorSHA256": "54FA6A0FCD32981CE3571291541D2BD5ADC48B4F1CFBE723BFFB58631653C84F",
+        "role": "Exclusive one-sided Bust native vector"
+      }
+    ],
+    "basisFloat32SHA256": "B66D73C4473F56E5910BC34FF9D52DCD8A84ABC466F7545EC4DA2F319CC54631",
+    "topologySHA256": "54A319EF2E15230133732428B43A96C20AB27A4B5C2B67EF79C90D0D3BCA7CD1",
+    "protocolBVersion": "female-bust-protocol-b-nippletip-horizontal-surface-v1",
+    "landmarkOrderedIdsSHA256": "5F0F55A7D8E701C0BE85AF1A1E093ABF399CE3A77854E2279F6912A79279A0BD"
+  },
+  "currentGoalContractFile": "current-goal-lock.json",
+  "couplingObligationsFile": "coupling-obligations.md",
+  "knownLimitationsFile": "known-limitations.md",
+  "nativeFloat32MeasurementJitterMaxCm": 2.36913680851103e-06,
+  "changeControlFile": "change-control.md",
+  "productStatus": {
+    "bustProductBand": "UNAPPROVED",
+    "productionBustGLB": "NO",
+    "productionIntegration": "NO",
+    "productionIntegrationStarted": false,
+    "femaleV1Complete": "NO",
+    "bodyVisualizerV1Complete": "NO",
+    "websiteNumericValidationRangeCreated": false
+  },
+  "protection": {
+    "phaseAVerifiedProtectedFiles": 28972,
+    "phaseAProtectedFilesUnchanged": true,
+    "exactGitStateDigests": {
+      "head": "B15655923CB5C90622D9B02E1A1A2B045418E649C0CE105C5B5CD9368FDE00B7",
+      "originMain": "B15655923CB5C90622D9B02E1A1A2B045418E649C0CE105C5B5CD9368FDE00B7",
+      "staged": "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855",
+      "trackedDiff": "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855",
+      "trackedStatus": "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855",
+      "index": "AE0B4F4BC63C3A5DE505672A9F9B1B7824011418F9CDA37FFF28B8FDD31BCEF0"
+    },
+    "snapshots": [
+      {
+        "path": "C:/Users/cnhan/Downloads/Reload Gym/Website Reload Gym/reload-gym/qa/female-body-model-v1-bust-calibration-candidate-qa/protection-before.json",
+        "sha256": "744878A2BD8F9AD530C0526854BD3EB43E72A11912781ED98B1A076C6F474397",
+        "bytes": 6434804
+      },
+      {
+        "path": "C:/Users/cnhan/Downloads/Reload Gym/Website Reload Gym/reload-gym/qa/female-body-model-v1-bust-calibration-candidate-qa/protection-after.json",
+        "sha256": "744878A2BD8F9AD530C0526854BD3EB43E72A11912781ED98B1A076C6F474397",
+        "bytes": 6434804
+      }
+    ],
+    "finalAfterWriteVerification": "PASS",
+    "postWriteEvidence": {
+      "path": "C:\\Users\\cnhan\\Downloads\\Reload Gym\\Website Reload Gym\\reload-gym\\qa\\female-body-model-v1-bust-final-acceptance-lock\\post-write-protection.json",
+      "sha256": "AB03094EE134F1344CF91EFA278B6EF4D04BA34E72525836749C70D7294D5A7E"
+    }
+  },
+  "packageFiles": [
+    {
+      "name": "FEMALE-BODY-MODEL-V1-BUST-FINAL-ACCEPTANCE-LOCK.md",
+      "path": "C:/Users/cnhan/Downloads/Reload Gym/Website Reload Gym/reload-gym/qa/female-body-model-v1-bust-final-acceptance-lock/FEMALE-BODY-MODEL-V1-BUST-FINAL-ACCEPTANCE-LOCK.md"
+    },
+    {
+      "name": "bust-final-lock.json",
+      "path": "C:/Users/cnhan/Downloads/Reload Gym/Website Reload Gym/reload-gym/qa/female-body-model-v1-bust-final-acceptance-lock/bust-final-lock.json"
+    },
+    {
+      "name": "artifact-identities.json",
+      "path": "C:/Users/cnhan/Downloads/Reload Gym/Website Reload Gym/reload-gym/qa/female-body-model-v1-bust-final-acceptance-lock/artifact-identities.json"
+    },
+    {
+      "name": "architecture-lock.json",
+      "path": "C:/Users/cnhan/Downloads/Reload Gym/Website Reload Gym/reload-gym/qa/female-body-model-v1-bust-final-acceptance-lock/architecture-lock.json"
+    },
+    {
+      "name": "ruler-contract-lock.json",
+      "path": "C:/Users/cnhan/Downloads/Reload Gym/Website Reload Gym/reload-gym/qa/female-body-model-v1-bust-final-acceptance-lock/ruler-contract-lock.json"
+    },
+    {
+      "name": "landmark-lock.json",
+      "path": "C:/Users/cnhan/Downloads/Reload Gym/Website Reload Gym/reload-gym/qa/female-body-model-v1-bust-final-acceptance-lock/landmark-lock.json"
+    },
+    {
+      "name": "calibration-lock.json",
+      "path": "C:/Users/cnhan/Downloads/Reload Gym/Website Reload Gym/reload-gym/qa/female-body-model-v1-bust-final-acceptance-lock/calibration-lock.json"
+    },
+    {
+      "name": "technical-support-lock.json",
+      "path": "C:/Users/cnhan/Downloads/Reload Gym/Website Reload Gym/reload-gym/qa/female-body-model-v1-bust-final-acceptance-lock/technical-support-lock.json"
+    },
+    {
+      "name": "resolver-contract-lock.json",
+      "path": "C:/Users/cnhan/Downloads/Reload Gym/Website Reload Gym/reload-gym/qa/female-body-model-v1-bust-final-acceptance-lock/resolver-contract-lock.json"
+    },
+    {
+      "name": "precision-lock.json",
+      "path": "C:/Users/cnhan/Downloads/Reload Gym/Website Reload Gym/reload-gym/qa/female-body-model-v1-bust-final-acceptance-lock/precision-lock.json"
+    },
+    {
+      "name": "current-goal-lock.json",
+      "path": "C:/Users/cnhan/Downloads/Reload Gym/Website Reload Gym/reload-gym/qa/female-body-model-v1-bust-final-acceptance-lock/current-goal-lock.json"
+    },
+    {
+      "name": "coupling-obligations.md",
+      "path": "C:/Users/cnhan/Downloads/Reload Gym/Website Reload Gym/reload-gym/qa/female-body-model-v1-bust-final-acceptance-lock/coupling-obligations.md"
+    },
+    {
+      "name": "known-limitations.md",
+      "path": "C:/Users/cnhan/Downloads/Reload Gym/Website Reload Gym/reload-gym/qa/female-body-model-v1-bust-final-acceptance-lock/known-limitations.md"
+    },
+    {
+      "name": "change-control.md",
+      "path": "C:/Users/cnhan/Downloads/Reload Gym/Website Reload Gym/reload-gym/qa/female-body-model-v1-bust-final-acceptance-lock/change-control.md"
+    },
+    {
+      "name": "female-protection.json",
+      "path": "C:/Users/cnhan/Downloads/Reload Gym/Website Reload Gym/reload-gym/qa/female-body-model-v1-bust-final-acceptance-lock/female-protection.json"
+    },
+    {
+      "name": "height-protection.json",
+      "path": "C:/Users/cnhan/Downloads/Reload Gym/Website Reload Gym/reload-gym/qa/female-body-model-v1-bust-final-acceptance-lock/height-protection.json"
+    },
+    {
+      "name": "male-protection.json",
+      "path": "C:/Users/cnhan/Downloads/Reload Gym/Website Reload Gym/reload-gym/qa/female-body-model-v1-bust-final-acceptance-lock/male-protection.json"
+    },
+    {
+      "name": "production-protection.json",
+      "path": "C:/Users/cnhan/Downloads/Reload Gym/Website Reload Gym/reload-gym/qa/female-body-model-v1-bust-final-acceptance-lock/production-protection.json"
+    },
+    {
+      "name": "next-workstream.md",
+      "path": "C:/Users/cnhan/Downloads/Reload Gym/Website Reload Gym/reload-gym/qa/female-body-model-v1-bust-final-acceptance-lock/next-workstream.md"
+    }
+  ],
+  "requestedArtifactCount": 19,
+  "nextSingleWorkstream": "FEMALE BODY MODEL V1 — WAIST FAST DEVELOPMENT PACKAGE",
+  "nextWorkstreamStarted": false,
+  "commit": false,
+  "push": false,
+  "deployment": false,
+  "pass": true,
+  "status": "PASS",
+  "result": "FEMALE BODY MODEL V1 BUST FINAL ACCEPTANCE & LOCK PASS — BUST FINAL ACCEPTED & LOCKED FOR DOWNSTREAM DEVELOPMENT",
+  "manifestReview": {
+    "path": "C:\\Users\\cnhan\\Downloads\\Reload Gym\\Website Reload Gym\\reload-gym\\qa\\female-body-model-v1-bust-final-acceptance-lock\\phase-b-independent-review.json",
+    "sha256": "6DA580E31B342F69F8869A696A48BC5B2170B17B25C1D0D447448D8FF29883E2"
+  },
+  "packageIntegrityFile": "package-integrity.json"
+}

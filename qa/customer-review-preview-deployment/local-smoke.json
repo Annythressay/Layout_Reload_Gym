@@ -1,0 +1,1060 @@
+{
+  "schemaVersion": 1,
+  "pass": true,
+  "mode": "local-focused-smoke",
+  "startedAt": "2026-10-07T08:24:51.018Z",
+  "environment": "Headless Microsoft Edge, WebGL2 SwiftShader, reduced motion",
+  "checks": [
+    {
+      "name": "Review HTML, badge and initial Male model",
+      "pass": true,
+      "loadMs": 1465
+    },
+    {
+      "name": "Production focused local smoke and review Male parity",
+      "pass": true,
+      "initialAndEditedGeometryIdentical": true,
+      "currentGoalWeightsIdentical": true
+    },
+    {
+      "name": "Female enabled UI controls and disabled Shoulder/Arm/Thigh",
+      "pass": true,
+      "enabled": [
+        "height",
+        "chest",
+        "waist",
+        "hip",
+        "calf"
+      ],
+      "disabled": [
+        {
+          "key": "shoulder",
+          "inputDisabled": true,
+          "sliderCount": 0,
+          "help": "Chiều rộng vaicmĐang hoàn thiện",
+          "readable": true
+        },
+        {
+          "key": "arm",
+          "inputDisabled": true,
+          "sliderCount": 0,
+          "help": "Vòng bắp taycmĐang hoàn thiện",
+          "readable": true
+        },
+        {
+          "key": "thigh",
+          "inputDisabled": true,
+          "sliderCount": 0,
+          "help": "Vòng đùicmĐang hoàn thiện",
+          "readable": true
+        }
+      ],
+      "disabledState": null,
+      "disabledMorphContribution": 0,
+      "femaleMorphCount": 8,
+      "weightStateAndBMIOnly": true,
+      "inseamInformational": true
+    },
+    {
+      "name": "Current/Goal actual UI independence and comparison",
+      "pass": true,
+      "goalHeightReferenceDisabled": true
+    },
+    {
+      "name": "Male→Female→Male→Female with independent session restore",
+      "pass": true
+    },
+    {
+      "name": "Required assets, usable module MIME, JSON parsing and GLB signatures",
+      "pass": true,
+      "count": 36
+    },
+    {
+      "name": "Zero uncaught errors, console errors, required asset failures and module MIME failures",
+      "pass": true,
+      "uncaughtErrors": 0,
+      "consoleErrors": 0,
+      "assetFailures": 0,
+      "warnings": 0
+    }
+  ],
+  "screenshots": [
+    "C:\\Users\\cnhan\\Downloads\\Reload Gym\\Website Reload Gym\\reload-gym\\qa\\customer-review-preview-deployment\\screenshots\\local-female-current.png"
+  ],
+  "console": {
+    "uncaughtErrors": [],
+    "errors": [],
+    "warnings": []
+  },
+  "network": {
+    "failures": [],
+    "responses": [
+      {
+        "page": "review",
+        "url": "http://127.0.0.1:17345/body-visualizer-review.html?review-qa",
+        "status": 200,
+        "contentType": "text/html; charset=utf-8"
+      },
+      {
+        "page": "review",
+        "url": "http://127.0.0.1:17345/assets/vendor/fontawesome-free/7.3.1/css/fontawesome.min.css",
+        "status": 200,
+        "contentType": "text/css; charset=utf-8"
+      },
+      {
+        "page": "review",
+        "url": "http://127.0.0.1:17345/assets/vendor/fontawesome-free/7.3.1/css/solid.min.css",
+        "status": 200,
+        "contentType": "text/css; charset=utf-8"
+      },
+      {
+        "page": "review",
+        "url": "http://127.0.0.1:17345/assets/vendor/fontawesome-free/7.3.1/css/regular.min.css",
+        "status": 200,
+        "contentType": "text/css; charset=utf-8"
+      },
+      {
+        "page": "review",
+        "url": "http://127.0.0.1:17345/assets/vendor/fontawesome-free/7.3.1/css/brands.min.css",
+        "status": 200,
+        "contentType": "text/css; charset=utf-8"
+      },
+      {
+        "page": "review",
+        "url": "http://127.0.0.1:17345/assets/css/style.css",
+        "status": 200,
+        "contentType": "text/css; charset=utf-8"
+      },
+      {
+        "page": "review",
+        "url": "http://127.0.0.1:17345/assets/css/body-visualizer.css",
+        "status": 200,
+        "contentType": "text/css; charset=utf-8"
+      },
+      {
+        "page": "review",
+        "url": "http://127.0.0.1:17345/assets/js/body-visualizer-review/review.css",
+        "status": 200,
+        "contentType": "text/css; charset=utf-8"
+      },
+      {
+        "page": "review",
+        "url": "http://127.0.0.1:17345/assets/images/popup/reload-signature-promo.png",
+        "status": 200,
+        "contentType": "image/png"
+      },
+      {
+        "page": "review",
+        "url": "http://127.0.0.1:17345/assets/js/body-visualizer-review/app.js",
+        "status": 200,
+        "contentType": "text/javascript; charset=utf-8"
+      },
+      {
+        "page": "review",
+        "url": "http://127.0.0.1:17345/assets/images/logo/reload-logo.png",
+        "status": 200,
+        "contentType": "image/png"
+      },
+      {
+        "page": "review",
+        "url": "http://127.0.0.1:17345/assets/js/main.js",
+        "status": 200,
+        "contentType": "text/javascript; charset=utf-8"
+      },
+      {
+        "page": "review",
+        "url": "http://127.0.0.1:17345/assets/js/body-visualizer-review/input-policy.js",
+        "status": 200,
+        "contentType": "text/javascript; charset=utf-8"
+      },
+      {
+        "page": "review",
+        "url": "http://127.0.0.1:17345/assets/js/body-visualizer-review/simulation-values.js",
+        "status": 200,
+        "contentType": "text/javascript; charset=utf-8"
+      },
+      {
+        "page": "review",
+        "url": "http://127.0.0.1:17345/assets/js/body-visualizer-review/state.js",
+        "status": 200,
+        "contentType": "text/javascript; charset=utf-8"
+      },
+      {
+        "page": "review",
+        "url": "http://127.0.0.1:17345/assets/js/body-visualizer-review/normalization.js",
+        "status": 200,
+        "contentType": "text/javascript; charset=utf-8"
+      },
+      {
+        "page": "review",
+        "url": "http://127.0.0.1:17345/assets/js/body-visualizer-review/measurement-constraints.js",
+        "status": 200,
+        "contentType": "text/javascript; charset=utf-8"
+      },
+      {
+        "page": "review",
+        "url": "http://127.0.0.1:17345/assets/js/body-visualizer-review/model-profiles.js",
+        "status": 200,
+        "contentType": "text/javascript; charset=utf-8"
+      },
+      {
+        "page": "review",
+        "url": "http://127.0.0.1:17345/assets/js/body-visualizer-review/female/resolver.js",
+        "status": 200,
+        "contentType": "text/javascript; charset=utf-8"
+      },
+      {
+        "page": "review",
+        "url": "http://127.0.0.1:17345/assets/js/body-visualizer-review/height-calibration.js",
+        "status": 200,
+        "contentType": "text/javascript; charset=utf-8"
+      },
+      {
+        "page": "review",
+        "url": "http://127.0.0.1:17345/assets/js/body-visualizer-review/calf-positive-calibration.js",
+        "status": 200,
+        "contentType": "text/javascript; charset=utf-8"
+      },
+      {
+        "page": "review",
+        "url": "http://127.0.0.1:17345/assets/js/body-visualizer-review/chest-negative-calibration.js",
+        "status": 200,
+        "contentType": "text/javascript; charset=utf-8"
+      },
+      {
+        "page": "review",
+        "url": "http://127.0.0.1:17345/assets/js/body-visualizer-review/morph-controller.js",
+        "status": 200,
+        "contentType": "text/javascript; charset=utf-8"
+      },
+      {
+        "page": "review",
+        "url": "http://127.0.0.1:17345/assets/js/body-visualizer-review/female/calibration/female-v1-height-calibration/profiles/female-height-calibration-candidate-v1.mjs",
+        "status": 200,
+        "contentType": "text/javascript; charset=utf-8"
+      },
+      {
+        "page": "review",
+        "url": "http://127.0.0.1:17345/assets/js/body-visualizer-review/female/calibration/female-v1-bust-calibration/profiles/female-bust-calibration-candidate-v1.mjs",
+        "status": 200,
+        "contentType": "text/javascript; charset=utf-8"
+      },
+      {
+        "page": "review",
+        "url": "http://127.0.0.1:17345/assets/js/body-visualizer-review/female/calibration/female-v1-waist-calibration/profiles/female-waist-calibration-candidate-v1-review-adapter.mjs",
+        "status": 200,
+        "contentType": "text/javascript; charset=utf-8"
+      },
+      {
+        "page": "review",
+        "url": "http://127.0.0.1:17345/assets/js/body-visualizer-review/female/calibration/review-artifact-fetch.js",
+        "status": 200,
+        "contentType": "text/javascript; charset=utf-8"
+      },
+      {
+        "page": "review",
+        "url": "http://127.0.0.1:17345/assets/js/body-visualizer-review/female/calibration/female-v1-calf-prototype/profiles/female-calf-calibration-candidate-v1-review-adapter.mjs",
+        "status": 200,
+        "contentType": "text/javascript; charset=utf-8"
+      },
+      {
+        "page": "review",
+        "url": "http://127.0.0.1:17345/assets/js/body-visualizer-review/female/calibration/female-v1-hips-calibration/profiles/female-hips-calibration-candidate-v1-review-adapter.mjs",
+        "status": 200,
+        "contentType": "text/javascript; charset=utf-8"
+      },
+      {
+        "page": "review",
+        "url": "http://127.0.0.1:17345/assets/js/body-visualizer-review/height-baselines.js",
+        "status": 200,
+        "contentType": "text/javascript; charset=utf-8"
+      },
+      {
+        "page": "review",
+        "url": "http://127.0.0.1:17345/assets/js/body-visualizer-review/female/calibration/female-v1-bust-calibration/profiles/protocol-b-deterministic.mjs",
+        "status": 200,
+        "contentType": "text/javascript; charset=utf-8"
+      },
+      {
+        "page": "review",
+        "url": "http://127.0.0.1:17345/assets/js/body-visualizer-review/female/calibration/female-v1-waist-calibration/profiles/waist-ruler-v1.mjs",
+        "status": 200,
+        "contentType": "text/javascript; charset=utf-8"
+      },
+      {
+        "page": "review",
+        "url": "http://127.0.0.1:17345/assets/js/body-visualizer-review/female/calibration/artifact-paths.js",
+        "status": 200,
+        "contentType": "text/javascript; charset=utf-8"
+      },
+      {
+        "page": "review",
+        "url": "http://127.0.0.1:17345/assets/js/body-visualizer-review/female/calibration/female-v1-calf-prototype/profiles/calf-ruler-v1.mjs",
+        "status": 200,
+        "contentType": "text/javascript; charset=utf-8"
+      },
+      {
+        "page": "review",
+        "url": "http://127.0.0.1:17345/assets/js/body-visualizer-review/female/calibration/female-v1-hips-calibration/profiles/hips-ruler-v1.mjs",
+        "status": 200,
+        "contentType": "text/javascript; charset=utf-8"
+      },
+      {
+        "page": "review",
+        "url": "http://127.0.0.1:17345/assets/js/body-visualizer-review/female/calibration/female-v1-calf-prototype/profiles/calf-ruler-core-v1.mjs",
+        "status": 200,
+        "contentType": "text/javascript; charset=utf-8"
+      },
+      {
+        "page": "review",
+        "url": "https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@600;700;800&family=Inter:wght@400;500;600;700;800;900&display=swap",
+        "status": 200,
+        "contentType": "text/css; charset=utf-8"
+      },
+      {
+        "page": "review",
+        "url": "http://127.0.0.1:17345/assets/vendor/fontawesome-free/7.3.1/webfonts/fa-solid-900.woff2",
+        "status": 200,
+        "contentType": "font/woff2"
+      },
+      {
+        "page": "review",
+        "url": "http://127.0.0.1:17345/assets/vendor/fontawesome-free/7.3.1/webfonts/fa-brands-400.woff2",
+        "status": 200,
+        "contentType": "font/woff2"
+      },
+      {
+        "page": "review",
+        "url": "http://127.0.0.1:17345/qa/body-measurement-calibration/measurements.json",
+        "status": 200,
+        "contentType": "application/json; charset=utf-8"
+      },
+      {
+        "page": "review",
+        "url": "http://127.0.0.1:17345/qa/hip-measurement-calibration/measurements.json",
+        "status": 200,
+        "contentType": "application/json; charset=utf-8"
+      },
+      {
+        "page": "review",
+        "url": "http://127.0.0.1:17345/assets/js/body-visualizer-review/scene.js",
+        "status": 200,
+        "contentType": "text/javascript; charset=utf-8"
+      },
+      {
+        "page": "review",
+        "url": "http://127.0.0.1:17345/assets/js/body-visualizer-review/model-manager.js",
+        "status": 200,
+        "contentType": "text/javascript; charset=utf-8"
+      },
+      {
+        "page": "review",
+        "url": "http://127.0.0.1:17345/assets/vendor/three/OrbitControls.js",
+        "status": 200,
+        "contentType": "text/javascript; charset=utf-8"
+      },
+      {
+        "page": "review",
+        "url": "http://127.0.0.1:17345/assets/js/body-visualizer-review/glb-model.js",
+        "status": 200,
+        "contentType": "text/javascript; charset=utf-8"
+      },
+      {
+        "page": "review",
+        "url": "http://127.0.0.1:17345/assets/vendor/three/three.module.min.js",
+        "status": 200,
+        "contentType": "text/javascript; charset=utf-8"
+      },
+      {
+        "page": "review",
+        "url": "http://127.0.0.1:17345/assets/vendor/three/GLTFLoader.js",
+        "status": 200,
+        "contentType": "text/javascript; charset=utf-8"
+      },
+      {
+        "page": "review",
+        "url": "http://127.0.0.1:17345/assets/vendor/three/BufferGeometryUtils.js",
+        "status": 200,
+        "contentType": "text/javascript; charset=utf-8"
+      },
+      {
+        "page": "review",
+        "url": "http://127.0.0.1:17345/assets/vendor/three/three.core.min.js",
+        "status": 200,
+        "contentType": "text/javascript; charset=utf-8"
+      },
+      {
+        "page": "review",
+        "url": "http://127.0.0.1:17345/3D/male-mpfb-production-morph-v5-waist90-calf50-chest75.glb",
+        "status": 200,
+        "contentType": "model/gltf-binary"
+      },
+      {
+        "page": "review",
+        "url": "https://fonts.gstatic.com/s/inter/v20/UcC73FwrK3iLTeHuS_nVMrMxCp50SjIa2pL7SUc.woff2",
+        "status": 200,
+        "contentType": "font/woff2"
+      },
+      {
+        "page": "review",
+        "url": "https://fonts.gstatic.com/s/barlowcondensed/v13/HTxwL3I-JCGChYJ8VI-L6OO_au7B46r2z3jWuZEC.woff2",
+        "status": 200,
+        "contentType": "font/woff2"
+      },
+      {
+        "page": "review",
+        "url": "https://fonts.gstatic.com/s/barlowcondensed/v13/HTxwL3I-JCGChYJ8VI-L6OO_au7B46r2z3nWuZEC.woff2",
+        "status": 200,
+        "contentType": "font/woff2"
+      },
+      {
+        "page": "review",
+        "url": "https://fonts.gstatic.com/s/barlowcondensed/v13/HTxwL3I-JCGChYJ8VI-L6OO_au7B47b1z3nWuZEC.woff2",
+        "status": 200,
+        "contentType": "font/woff2"
+      },
+      {
+        "page": "review",
+        "url": "https://fonts.gstatic.com/s/barlowcondensed/v13/HTxwL3I-JCGChYJ8VI-L6OO_au7B47b1z3jWuZEC.woff2",
+        "status": 200,
+        "contentType": "font/woff2"
+      },
+      {
+        "page": "review",
+        "url": "https://fonts.gstatic.com/s/barlowcondensed/v13/HTxwL3I-JCGChYJ8VI-L6OO_au7B47b1z3bWuQ.woff2",
+        "status": 200,
+        "contentType": "font/woff2"
+      },
+      {
+        "page": "review",
+        "url": "https://fonts.gstatic.com/s/barlowcondensed/v13/HTxwL3I-JCGChYJ8VI-L6OO_au7B46r2z3bWuQ.woff2",
+        "status": 200,
+        "contentType": "font/woff2"
+      },
+      {
+        "page": "review",
+        "url": "https://fonts.gstatic.com/s/inter/v20/UcC73FwrK3iLTeHuS_nVMrMxCp50SjIa1ZL7.woff2",
+        "status": 200,
+        "contentType": "font/woff2"
+      },
+      {
+        "page": "review",
+        "url": "https://fonts.gstatic.com/s/inter/v20/UcC73FwrK3iLTeHuS_nVMrMxCp50SjIa25L7SUc.woff2",
+        "status": 200,
+        "contentType": "font/woff2"
+      },
+      {
+        "page": "review",
+        "url": "http://127.0.0.1:17345/assets/images/logo/reload-logo.png",
+        "status": 200,
+        "contentType": "image/png"
+      },
+      {
+        "page": "production",
+        "url": "http://127.0.0.1:17345/body-visualizer.html",
+        "status": 200,
+        "contentType": "text/html; charset=utf-8"
+      },
+      {
+        "page": "production",
+        "url": "http://127.0.0.1:17345/assets/vendor/fontawesome-free/7.3.1/css/solid.min.css",
+        "status": 200,
+        "contentType": "text/css; charset=utf-8"
+      },
+      {
+        "page": "production",
+        "url": "http://127.0.0.1:17345/assets/vendor/fontawesome-free/7.3.1/css/fontawesome.min.css",
+        "status": 200,
+        "contentType": "text/css; charset=utf-8"
+      },
+      {
+        "page": "production",
+        "url": "http://127.0.0.1:17345/assets/vendor/fontawesome-free/7.3.1/css/regular.min.css",
+        "status": 200,
+        "contentType": "text/css; charset=utf-8"
+      },
+      {
+        "page": "production",
+        "url": "http://127.0.0.1:17345/assets/vendor/fontawesome-free/7.3.1/css/brands.min.css",
+        "status": 200,
+        "contentType": "text/css; charset=utf-8"
+      },
+      {
+        "page": "production",
+        "url": "http://127.0.0.1:17345/assets/css/style.css",
+        "status": 200,
+        "contentType": "text/css; charset=utf-8"
+      },
+      {
+        "page": "production",
+        "url": "http://127.0.0.1:17345/assets/css/body-visualizer.css",
+        "status": 200,
+        "contentType": "text/css; charset=utf-8"
+      },
+      {
+        "page": "production",
+        "url": "http://127.0.0.1:17345/assets/images/popup/reload-signature-promo.png",
+        "status": 200,
+        "contentType": "image/png"
+      },
+      {
+        "page": "production",
+        "url": "http://127.0.0.1:17345/assets/images/logo/reload-logo.png",
+        "status": 200,
+        "contentType": "image/png"
+      },
+      {
+        "page": "production",
+        "url": "https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@600;700;800&family=Inter:wght@400;500;600;700;800;900&display=swap",
+        "status": 200,
+        "contentType": "text/css; charset=utf-8"
+      },
+      {
+        "page": "production",
+        "url": "http://127.0.0.1:17345/assets/js/body-visualizer/app.js",
+        "status": 200,
+        "contentType": "text/javascript; charset=utf-8"
+      },
+      {
+        "page": "production",
+        "url": "http://127.0.0.1:17345/assets/js/main.js",
+        "status": 200,
+        "contentType": "text/javascript; charset=utf-8"
+      },
+      {
+        "page": "production",
+        "url": "http://127.0.0.1:17345/assets/js/body-visualizer/state.js",
+        "status": 200,
+        "contentType": "text/javascript; charset=utf-8"
+      },
+      {
+        "page": "production",
+        "url": "http://127.0.0.1:17345/assets/js/body-visualizer/input-policy.js",
+        "status": 200,
+        "contentType": "text/javascript; charset=utf-8"
+      },
+      {
+        "page": "production",
+        "url": "http://127.0.0.1:17345/assets/js/body-visualizer/simulation-values.js",
+        "status": 200,
+        "contentType": "text/javascript; charset=utf-8"
+      },
+      {
+        "page": "production",
+        "url": "http://127.0.0.1:17345/assets/js/body-visualizer/normalization.js",
+        "status": 200,
+        "contentType": "text/javascript; charset=utf-8"
+      },
+      {
+        "page": "production",
+        "url": "http://127.0.0.1:17345/assets/js/body-visualizer/measurement-constraints.js",
+        "status": 200,
+        "contentType": "text/javascript; charset=utf-8"
+      },
+      {
+        "page": "production",
+        "url": "https://fonts.gstatic.com/s/inter/v20/UcC73FwrK3iLTeHuS_nVMrMxCp50SjIa25L7SUc.woff2",
+        "status": 200,
+        "contentType": "font/woff2"
+      },
+      {
+        "page": "production",
+        "url": "http://127.0.0.1:17345/assets/js/body-visualizer/height-calibration.js",
+        "status": 200,
+        "contentType": "text/javascript; charset=utf-8"
+      },
+      {
+        "page": "production",
+        "url": "http://127.0.0.1:17345/assets/js/body-visualizer/calf-positive-calibration.js",
+        "status": 200,
+        "contentType": "text/javascript; charset=utf-8"
+      },
+      {
+        "page": "production",
+        "url": "https://fonts.gstatic.com/s/inter/v20/UcC73FwrK3iLTeHuS_nVMrMxCp50SjIa1ZL7.woff2",
+        "status": 200,
+        "contentType": "font/woff2"
+      },
+      {
+        "page": "production",
+        "url": "https://fonts.gstatic.com/s/barlowcondensed/v13/HTxwL3I-JCGChYJ8VI-L6OO_au7B46r2z3bWuQ.woff2",
+        "status": 200,
+        "contentType": "font/woff2"
+      },
+      {
+        "page": "production",
+        "url": "https://fonts.gstatic.com/s/barlowcondensed/v13/HTxwL3I-JCGChYJ8VI-L6OO_au7B47b1z3bWuQ.woff2",
+        "status": 200,
+        "contentType": "font/woff2"
+      },
+      {
+        "page": "production",
+        "url": "https://fonts.gstatic.com/s/inter/v20/UcC73FwrK3iLTeHuS_nVMrMxCp50SjIa2pL7SUc.woff2",
+        "status": 200,
+        "contentType": "font/woff2"
+      },
+      {
+        "page": "production",
+        "url": "https://fonts.gstatic.com/s/barlowcondensed/v13/HTxwL3I-JCGChYJ8VI-L6OO_au7B46r2z3jWuZEC.woff2",
+        "status": 200,
+        "contentType": "font/woff2"
+      },
+      {
+        "page": "production",
+        "url": "https://fonts.gstatic.com/s/barlowcondensed/v13/HTxwL3I-JCGChYJ8VI-L6OO_au7B46r2z3nWuZEC.woff2",
+        "status": 200,
+        "contentType": "font/woff2"
+      },
+      {
+        "page": "production",
+        "url": "https://fonts.gstatic.com/s/barlowcondensed/v13/HTxwL3I-JCGChYJ8VI-L6OO_au7B47b1z3jWuZEC.woff2",
+        "status": 200,
+        "contentType": "font/woff2"
+      },
+      {
+        "page": "production",
+        "url": "https://fonts.gstatic.com/s/barlowcondensed/v13/HTxwL3I-JCGChYJ8VI-L6OO_au7B47b1z3nWuZEC.woff2",
+        "status": 200,
+        "contentType": "font/woff2"
+      },
+      {
+        "page": "production",
+        "url": "http://127.0.0.1:17345/assets/vendor/fontawesome-free/7.3.1/webfonts/fa-solid-900.woff2",
+        "status": 200,
+        "contentType": "font/woff2"
+      },
+      {
+        "page": "production",
+        "url": "http://127.0.0.1:17345/assets/js/body-visualizer/chest-negative-calibration.js",
+        "status": 200,
+        "contentType": "text/javascript; charset=utf-8"
+      },
+      {
+        "page": "production",
+        "url": "http://127.0.0.1:17345/assets/js/body-visualizer/height-baselines.js",
+        "status": 200,
+        "contentType": "text/javascript; charset=utf-8"
+      },
+      {
+        "page": "production",
+        "url": "http://127.0.0.1:17345/assets/vendor/fontawesome-free/7.3.1/webfonts/fa-brands-400.woff2",
+        "status": 200,
+        "contentType": "font/woff2"
+      },
+      {
+        "page": "production",
+        "url": "http://127.0.0.1:17345/qa/body-measurement-calibration/measurements.json",
+        "status": 200,
+        "contentType": "application/json; charset=utf-8"
+      },
+      {
+        "page": "production",
+        "url": "http://127.0.0.1:17345/qa/hip-measurement-calibration/measurements.json",
+        "status": 200,
+        "contentType": "application/json; charset=utf-8"
+      },
+      {
+        "page": "production",
+        "url": "http://127.0.0.1:17345/assets/images/logo/reload-logo.png",
+        "status": 200,
+        "contentType": "image/png"
+      },
+      {
+        "page": "production",
+        "url": "http://127.0.0.1:17345/assets/js/body-visualizer/scene.js",
+        "status": 200,
+        "contentType": "text/javascript; charset=utf-8"
+      },
+      {
+        "page": "production",
+        "url": "http://127.0.0.1:17345/assets/js/body-visualizer/glb-model.js",
+        "status": 200,
+        "contentType": "text/javascript; charset=utf-8"
+      },
+      {
+        "page": "production",
+        "url": "http://127.0.0.1:17345/assets/js/body-visualizer/morph-controller.js",
+        "status": 200,
+        "contentType": "text/javascript; charset=utf-8"
+      },
+      {
+        "page": "production",
+        "url": "http://127.0.0.1:17345/assets/vendor/three/OrbitControls.js",
+        "status": 200,
+        "contentType": "text/javascript; charset=utf-8"
+      },
+      {
+        "page": "production",
+        "url": "http://127.0.0.1:17345/assets/vendor/three/three.module.min.js",
+        "status": 200,
+        "contentType": "text/javascript; charset=utf-8"
+      },
+      {
+        "page": "production",
+        "url": "http://127.0.0.1:17345/assets/vendor/three/GLTFLoader.js",
+        "status": 200,
+        "contentType": "text/javascript; charset=utf-8"
+      },
+      {
+        "page": "production",
+        "url": "http://127.0.0.1:17345/assets/vendor/three/BufferGeometryUtils.js",
+        "status": 200,
+        "contentType": "text/javascript; charset=utf-8"
+      },
+      {
+        "page": "production",
+        "url": "http://127.0.0.1:17345/assets/vendor/three/three.core.min.js",
+        "status": 200,
+        "contentType": "text/javascript; charset=utf-8"
+      },
+      {
+        "page": "production",
+        "url": "http://127.0.0.1:17345/3D/male-mpfb-production-morph-v5-waist90-calf50-chest75.glb",
+        "status": 200,
+        "contentType": "model/gltf-binary"
+      },
+      {
+        "page": "review",
+        "url": "http://127.0.0.1:17345/assets/js/body-visualizer-review/female/calibration/female-v1-bust-calibration/profiles/female-bust-calibration-candidate-v1.json",
+        "status": 200,
+        "contentType": "application/json; charset=utf-8"
+      },
+      {
+        "page": "review",
+        "url": "http://127.0.0.1:17345/assets/js/body-visualizer-review/female/calibration/female-v1-height-calibration/profiles/female-height-calibration-candidate-v1.json",
+        "status": 200,
+        "contentType": "application/json; charset=utf-8"
+      },
+      {
+        "page": "review",
+        "url": "http://127.0.0.1:17345/assets/js/body-visualizer-review/female/calibration/female-v1-calf-prototype/profiles/female-calf-calibration-candidate-v1.json",
+        "status": 200,
+        "contentType": "application/json; charset=utf-8"
+      },
+      {
+        "page": "review",
+        "url": "http://127.0.0.1:17345/assets/js/body-visualizer-review/female/calibration/female-v1-waist-calibration/profiles/female-waist-calibration-candidate-v1.json",
+        "status": 200,
+        "contentType": "application/json; charset=utf-8"
+      },
+      {
+        "page": "review",
+        "url": "http://127.0.0.1:17345/assets/js/body-visualizer-review/female/calibration/female-v1-hips-calibration/profiles/female-hips-calibration-candidate-v1.json",
+        "status": 200,
+        "contentType": "application/json; charset=utf-8"
+      },
+      {
+        "page": "review",
+        "url": "http://127.0.0.1:17345/3D/female-review-v1.glb",
+        "status": 200,
+        "contentType": "model/gltf-binary"
+      },
+      {
+        "page": "review",
+        "url": "http://127.0.0.1:17345/assets/js/body-visualizer-review/female/calibration/female-v1-waist-prototype/candidate/female-waist-prototype-v2.glb",
+        "status": 200,
+        "contentType": "model/gltf-binary"
+      },
+      {
+        "page": "review",
+        "url": "http://127.0.0.1:17345/assets/js/body-visualizer-review/female/calibration/reload-gym/qa/female-body-model-v1-height-final-acceptance-lock/height-final-lock.json",
+        "status": 200,
+        "contentType": "application/json; charset=utf-8"
+      },
+      {
+        "page": "review",
+        "url": "http://127.0.0.1:17345/assets/js/body-visualizer-review/female/calibration/reload-gym/qa/female-body-model-v1-bust-final-acceptance-lock/bust-final-lock.json",
+        "status": 200,
+        "contentType": "application/json; charset=utf-8"
+      },
+      {
+        "page": "review",
+        "url": "http://127.0.0.1:17345/assets/js/body-visualizer-review/female/calibration/female-v1-waist-calibration/profiles/waist-ruler-v1.mjs",
+        "status": 200,
+        "contentType": "text/javascript; charset=utf-8"
+      },
+      {
+        "page": "review",
+        "url": "http://127.0.0.1:17345/assets/js/body-visualizer-review/female/calibration/female-v1-hips-prototype/candidate/female-hips-prototype-v1.glb",
+        "status": 200,
+        "contentType": "model/gltf-binary"
+      },
+      {
+        "page": "review",
+        "url": "http://127.0.0.1:17345/assets/js/body-visualizer-review/female/calibration/qa/female-body-model-v1-waist-final-acceptance-lock/waist-final-lock.json",
+        "status": 200,
+        "contentType": "application/json; charset=utf-8"
+      },
+      {
+        "page": "review",
+        "url": "http://127.0.0.1:17345/assets/js/body-visualizer-review/female/calibration/female-v1-height-calibration/profiles/female-height-calibration-candidate-v1.mjs",
+        "status": 200,
+        "contentType": "text/javascript; charset=utf-8"
+      },
+      {
+        "page": "review",
+        "url": "http://127.0.0.1:17345/assets/js/body-visualizer-review/female/calibration/female-v1-bust-calibration/profiles/female-bust-calibration-candidate-v1.mjs",
+        "status": 200,
+        "contentType": "text/javascript; charset=utf-8"
+      },
+      {
+        "page": "review",
+        "url": "http://127.0.0.1:17345/assets/js/body-visualizer-review/female/calibration/female-v1-waist-calibration/profiles/female-waist-calibration-candidate-v1.mjs",
+        "status": 200,
+        "contentType": "text/javascript; charset=utf-8"
+      },
+      {
+        "page": "review",
+        "url": "http://127.0.0.1:17345/assets/js/body-visualizer-review/female/calibration/female-v1-hips-calibration/profiles/hips-ruler-v1.mjs",
+        "status": 200,
+        "contentType": "text/javascript; charset=utf-8"
+      },
+      {
+        "page": "review",
+        "url": "http://127.0.0.1:17345/assets/js/body-visualizer-review/female/calibration/qa/female-body-model-v1-hips-final-acceptance-lock/hips-final-lock.json",
+        "status": 200,
+        "contentType": "application/json; charset=utf-8"
+      },
+      {
+        "page": "review",
+        "url": "http://127.0.0.1:17345/assets/js/body-visualizer-review/female/calibration/female-v1-calf-prototype/profiles/calf-ruler-v1.json",
+        "status": 200,
+        "contentType": "application/json; charset=utf-8"
+      },
+      {
+        "page": "review",
+        "url": "http://127.0.0.1:17345/assets/js/body-visualizer-review/female/calibration/female-v1-calf-prototype/profiles/calf-ruler-v1.mjs",
+        "status": 200,
+        "contentType": "text/javascript; charset=utf-8"
+      },
+      {
+        "page": "review",
+        "url": "http://127.0.0.1:17345/assets/js/body-visualizer-review/female/calibration/female-v1-calf-prototype/profiles/calf-ruler-core-v1.mjs",
+        "status": 200,
+        "contentType": "text/javascript; charset=utf-8"
+      }
+    ],
+    "explicitRequiredAssets": [
+      {
+        "path": "assets/js/body-visualizer-review/female/calibration/female-v1-bust-calibration/profiles/female-bust-calibration-candidate-v1.json",
+        "status": 200,
+        "contentType": "application/json; charset=utf-8",
+        "bytes": 73448
+      },
+      {
+        "path": "assets/js/body-visualizer-review/female/calibration/female-v1-bust-calibration/profiles/female-bust-calibration-candidate-v1.mjs",
+        "status": 200,
+        "contentType": "text/javascript; charset=utf-8",
+        "bytes": 54798
+      },
+      {
+        "path": "assets/js/body-visualizer-review/female/calibration/female-v1-bust-calibration/profiles/protocol-b-deterministic.mjs",
+        "status": 200,
+        "contentType": "text/javascript; charset=utf-8",
+        "bytes": 2801
+      },
+      {
+        "path": "3D/female-review-v1.glb",
+        "status": 200,
+        "contentType": "model/gltf-binary",
+        "bytes": 2734164
+      },
+      {
+        "path": "assets/js/body-visualizer-review/female/calibration/female-v1-calf-prototype/profiles/calf-ruler-core-v1.mjs",
+        "status": 200,
+        "contentType": "text/javascript; charset=utf-8",
+        "bytes": 5904
+      },
+      {
+        "path": "assets/js/body-visualizer-review/female/calibration/female-v1-calf-prototype/profiles/calf-ruler-v1.json",
+        "status": 200,
+        "contentType": "application/json; charset=utf-8",
+        "bytes": 18841
+      },
+      {
+        "path": "assets/js/body-visualizer-review/female/calibration/female-v1-calf-prototype/profiles/calf-ruler-v1.mjs",
+        "status": 200,
+        "contentType": "text/javascript; charset=utf-8",
+        "bytes": 9985
+      },
+      {
+        "path": "assets/js/body-visualizer-review/female/calibration/female-v1-calf-prototype/profiles/female-calf-calibration-candidate-v1.json",
+        "status": 200,
+        "contentType": "application/json; charset=utf-8",
+        "bytes": 18612
+      },
+      {
+        "path": "assets/js/body-visualizer-review/female/calibration/female-v1-calf-prototype/profiles/female-calf-calibration-candidate-v1.mjs",
+        "status": 200,
+        "contentType": "text/javascript; charset=utf-8",
+        "bytes": 16568
+      },
+      {
+        "path": "assets/js/body-visualizer-review/female/calibration/female-v1-height-calibration/profiles/female-height-calibration-candidate-v1.json",
+        "status": 200,
+        "contentType": "application/json; charset=utf-8",
+        "bytes": 54454
+      },
+      {
+        "path": "assets/js/body-visualizer-review/female/calibration/female-v1-height-calibration/profiles/female-height-calibration-candidate-v1.mjs",
+        "status": 200,
+        "contentType": "text/javascript; charset=utf-8",
+        "bytes": 28653
+      },
+      {
+        "path": "assets/js/body-visualizer-review/female/calibration/female-v1-hips-calibration/profiles/female-hips-calibration-candidate-v1.json",
+        "status": 200,
+        "contentType": "application/json; charset=utf-8",
+        "bytes": 150904
+      },
+      {
+        "path": "assets/js/body-visualizer-review/female/calibration/female-v1-hips-calibration/profiles/female-hips-calibration-candidate-v1.mjs",
+        "status": 200,
+        "contentType": "text/javascript; charset=utf-8",
+        "bytes": 102790
+      },
+      {
+        "path": "assets/js/body-visualizer-review/female/calibration/female-v1-hips-calibration/profiles/hips-ruler-v1.mjs",
+        "status": 200,
+        "contentType": "text/javascript; charset=utf-8",
+        "bytes": 2588
+      },
+      {
+        "path": "assets/js/body-visualizer-review/female/calibration/female-v1-hips-prototype/candidate/female-hips-prototype-v1.glb",
+        "status": 200,
+        "contentType": "model/gltf-binary",
+        "bytes": 2412576
+      },
+      {
+        "path": "assets/js/body-visualizer-review/female/calibration/female-v1-waist-calibration/profiles/female-waist-calibration-candidate-v1.json",
+        "status": 200,
+        "contentType": "application/json; charset=utf-8",
+        "bytes": 101872
+      },
+      {
+        "path": "assets/js/body-visualizer-review/female/calibration/female-v1-waist-calibration/profiles/female-waist-calibration-candidate-v1.mjs",
+        "status": 200,
+        "contentType": "text/javascript; charset=utf-8",
+        "bytes": 67714
+      },
+      {
+        "path": "assets/js/body-visualizer-review/female/calibration/female-v1-waist-calibration/profiles/waist-ruler-v1.mjs",
+        "status": 200,
+        "contentType": "text/javascript; charset=utf-8",
+        "bytes": 2589
+      },
+      {
+        "path": "assets/js/body-visualizer-review/female/calibration/female-v1-waist-prototype/candidate/female-waist-prototype-v2.glb",
+        "status": 200,
+        "contentType": "model/gltf-binary",
+        "bytes": 1769392
+      },
+      {
+        "path": "assets/js/body-visualizer-review/female/calibration/qa/female-body-model-v1-hips-final-acceptance-lock/hips-final-lock.json",
+        "status": 200,
+        "contentType": "application/json; charset=utf-8",
+        "bytes": 16915
+      },
+      {
+        "path": "assets/js/body-visualizer-review/female/calibration/qa/female-body-model-v1-waist-final-acceptance-lock/waist-final-lock.json",
+        "status": 200,
+        "contentType": "application/json; charset=utf-8",
+        "bytes": 14541
+      },
+      {
+        "path": "assets/js/body-visualizer-review/female/calibration/reload-gym/qa/female-body-model-v1-bust-final-acceptance-lock/bust-final-lock.json",
+        "status": 200,
+        "contentType": "application/json; charset=utf-8",
+        "bytes": 19889
+      },
+      {
+        "path": "assets/js/body-visualizer-review/female/calibration/reload-gym/qa/female-body-model-v1-height-final-acceptance-lock/height-final-lock.json",
+        "status": 200,
+        "contentType": "application/json; charset=utf-8",
+        "bytes": 67721
+      },
+      {
+        "path": "body-visualizer-review.html",
+        "status": 200,
+        "contentType": "text/html; charset=utf-8",
+        "bytes": 20793
+      },
+      {
+        "path": "body-visualizer.html",
+        "status": 200,
+        "contentType": "text/html; charset=utf-8",
+        "bytes": 20195
+      },
+      {
+        "path": "assets/js/body-visualizer-review/app.js",
+        "status": 200,
+        "contentType": "text/javascript; charset=utf-8",
+        "bytes": 42392
+      },
+      {
+        "path": "assets/js/body-visualizer-review/review.css",
+        "status": 200,
+        "contentType": "text/css; charset=utf-8",
+        "bytes": 1207
+      },
+      {
+        "path": "assets/css/style.css",
+        "status": 200,
+        "contentType": "text/css; charset=utf-8",
+        "bytes": 92180
+      },
+      {
+        "path": "assets/css/body-visualizer.css",
+        "status": 200,
+        "contentType": "text/css; charset=utf-8",
+        "bytes": 22471
+      },
+      {
+        "path": "assets/vendor/three/three.module.min.js",
+        "status": 200,
+        "contentType": "text/javascript; charset=utf-8",
+        "bytes": 338908
+      },
+      {
+        "path": "assets/vendor/three/three.core.min.js",
+        "status": 200,
+        "contentType": "text/javascript; charset=utf-8",
+        "bytes": 381124
+      },
+      {
+        "path": "assets/vendor/three/GLTFLoader.js",
+        "status": 200,
+        "contentType": "text/javascript; charset=utf-8",
+        "bytes": 114748
+      },
+      {
+        "path": "assets/vendor/three/OrbitControls.js",
+        "status": 200,
+        "contentType": "text/javascript; charset=utf-8",
+        "bytes": 38721
+      },
+      {
+        "path": "3D/male-mpfb-production-morph-v5-waist90-calf50-chest75.glb",
+        "status": 200,
+        "contentType": "model/gltf-binary",
+        "bytes": 4906600
+      },
+      {
+        "path": "qa/body-measurement-calibration/measurements.json",
+        "status": 200,
+        "contentType": "application/json; charset=utf-8",
+        "bytes": 2083
+      },
+      {
+        "path": "qa/hip-measurement-calibration/measurements.json",
+        "status": 200,
+        "contentType": "application/json; charset=utf-8",
+        "bytes": 349
+      }
+    ]
+  },
+  "snapshotRoot": "C:\\Users\\cnhan\\Downloads\\Reload Gym\\Website Reload Gym\\.customer-review-preview-staging",
+  "baseURL": "http://127.0.0.1:17345",
+  "maleLoadMs": 1465,
+  "finishedAt": "2026-10-07T08:25:10.574Z"
+}
